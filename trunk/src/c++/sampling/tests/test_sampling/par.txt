@@ -1,0 +1,25 @@
+pedigree
+{
+  delimiter_mode = multiple
+  delimiters=" "
+  individual_missing_value="0"
+  sex_code,male="1",female="2",unknown="?"
+
+  pedigree_id=fam
+  individual_id=id
+  parent_id=mom
+  parent_id=dad
+  sex_field=sex
+
+  trait=sqrtdbh,missing=-1
+  covariate=ABO,name=covabo,missing=0  
+  covariate=comt,missing=-1
+  covariate=KELL,missing=0
+  covariate=P,missing=0
+  covariate=FY,missing=0
+}
+
+function 
+{ 
+covariate=apres, expression="covabo<=4"
+}

@@ -1,0 +1,51 @@
+=====================
+
+     Analysis #1
+
+=====================
+
+  Transmission type:        Allele             
+  Marker:                   m                  
+  Trait:                    Trait1             
+  Parental trait:           Not specified      
+  Parental sex(es) scored:  Paternal/maternal  
+  Max. children/family:                     1  
+  Max. sib pairs/family:                    0  
+-----------------------------------------------
+
+Note: 15 error(s) were found in your sample!  See the Information Output File for a detailed description of each problem.
+
+------------------------
+  T/NT  A   C   F   G   
+------------------------
+  A      0   1   1   1  
+  C      0   0   0   0  
+  F      0   0   0   0  
+  G      0   0   0   0  
+------------------------
+
+Note: 13 empty rows/columns not shown
+
+---------------------------------------------------------------------
+  Group               Informative count  Total count  % Informative  
+---------------------------------------------------------------------
+  Pedigrees                           1            2   0.500000      
+  Families                            3           10   0.300000      
+  Affected children                   3            3   1.000000      
+  Affected sib pairs                  0            0   0.000000      
+  Sample size                         3            3   1.000000      
+
+----------------------------------------------------------
+  Exact test statistic              P-value    Std. err.  
+----------------------------------------------------------
+  Exact McNemar test                (skipped)             
+  Monte Carlo McNemar test          (skipped)             
+  Monte Carlo Marginal Homogeneity  (skipped)             
+
+----------------------------------------------------
+  Asymptotic test statistic          P-value        
+----------------------------------------------------
+  McNemar test                       0.39162518     
+  Continuity corrected McNemar test  1.00000000     
+  Marginal homogeneity test          0.21229029     
+

@@ -1,0 +1,100 @@
+
+Family structure information on the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       SEX       PARENT1       PARENT2     
+     ------------  ------------  --------  ------------  ------------
+     1             1             F                                   
+     1             2             M                                   
+     1             3             M         1             2           
+     1             4             F         1             2           
+     1             5             M                                   
+     1             6             F         4             5           
+
+
+Phenotypes for the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       SEX_CODE              FAMILIAL_INDICATOR    FOUNDER_INDICATOR     PEDIGREE_SIZE         DISEASE               HEMATOCRIT            t                     u                     v                     w                     x                     y                     z                   
+     ------------  ------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------
+     1             1             1                     1                     1                     6                     1                     30                                                                                                                                                                            
+     1             2             0                     1                     1                     6                     0                     40                                                                                                                                                                            
+     1             3             0                     1                     0                     6                     0                     27.1                                                                                                                                                                          
+     1             4             1                     1                     0                     6                     1                     39                                                                                                                                                                            
+     1             5             0                     1                     1                     6                     0                     37.6                                                                                                                                                                          
+     1             6             1                     1                     0                     6                     1                     41.1                                                                                                                                                                          
+
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 1 New Analysis Block 1 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 2 New Analysis Block 2 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Critical:Covariate 'dise' specified in mean_cov sub-block is
+                           not a valid trait.  Skipping analysis ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 3 New Analysis Block 3 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Critical:No value given for covariate in mean_cov sub-block
+                           with attribute, fixed, equal to 'true'.  Skipping
+                           analysis ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 4 New Analysis Block 4 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 5 New Analysis Block 5 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 6 New Analysis Block 6 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 7 New Analysis Block 7 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 8 New Analysis Block 8 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:Interaction specified for covariate in composite_trait
+                        sub-block.  Ignoring ...
+%TESTSEGREGPARSER-Critical:mean_cov sub-block and composite_trait sub-block
+                           share trait(s) (t).  These two sub-blocks must not
+                           share traits for this model.  Analysis will be
+                           ignored.
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 9 New Analysis Block 9 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Warning:suscept_cov sub-block not relevant for continuous
+                          trait.  Ignoring ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 10 New Analysis Block 10 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Critical:Primary trait also used in mean_cov, var_cov,
+                           suscept_cov or composite trait sub-block.  Skipping
+                           analysis ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 11 New Analysis Block 11 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 12 New Analysis Block 12 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 13 New Analysis Block 13 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 14 New Analysis Block 14 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Warning:type_mean sub-block not relevant for binary trait. 
+                          Ignoring ...
+%TESTSEGREGPARSER-Warning:mean_cov sub-block not relevant for binary trait. 
+                          Ignoring ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 15 New Analysis Block 15 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Warning:type_mean sub-block not relevant for binary trait. 
+                          Ignoring ...
+%TESTSEGREGPARSER-Warning:composite_trait sub-block not relevant for binary
+                          trait.  Ignoring ...
+%TESTSEGREGPARSER-Warning:var_cov sub-block not relevant for binary trait. 
+                          Ignoring ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 16 New Analysis Block 16 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Warning:suscept_cov sub-block not relevant for continuous
+                          trait.  Ignoring ...

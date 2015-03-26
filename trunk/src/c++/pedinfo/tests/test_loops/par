@@ -1,0 +1,51 @@
+pedigree
+{
+  delimiter_mode=multiple
+  delimiters=" "
+  individual_missing_value="-9"
+
+  pedigree_id=famid
+  individual_id=id
+  parent_id=dadid
+  parent_id=momid
+  sex_field=sex, male="1", female="2", missing="-9"
+  trait=scan,binary,affected=1,unaffected=0,missing="-9"
+  marker=c1g1
+  marker=c1g2
+  marker=c1g3
+  marker=c1g4
+  marker=c1g5
+  marker=c1g6
+  marker=c1g7
+  marker=c1g8
+  marker=c1g9
+  marker=c1g10
+  marker=c1g11
+  marker=c1g12
+  marker=c1g13
+  marker=c1g14
+  marker=c1g15
+  marker=c1g16
+  marker=c1g17
+  marker=c1g18
+  marker=c1g19
+  marker=c1g20
+  marker=c1g21
+  marker=c1g22
+  marker=c1g23
+  marker=c1g24
+  marker=c1g25
+  marker=c1g26
+  marker=c1g27
+  marker=c1g28
+  marker=c1g29
+  marker=c1g30
+  marker=c1g31
+  marker=c1g32
+}
+
+pedinfo
+{
+  
+}
+

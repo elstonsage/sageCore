@@ -1,0 +1,106 @@
+\BRIEF
+Basic S.A.G.E. Application Framework
+\DOC_NAME
+app_main
+\DETAILED
+
+\#.\ Introduction
+The app library provides a framework for any SAGE executable. Its primary feature is a base class from which the 
+specialized class will be derived. Besides that, there are a number of release-related functions available, providing 
+information such as release version, application name, micro-version number, and so on.
+
+\#.\ Getting started
+The basic idea is that your SAGE program should be, regardless of the specific nature of the analysis, built from a 
+derived version of SAGE::APP::SAGEapp. Then, in the main() function of your program, you can instantiate your 
+SAGE::APP::SAGEapp derivation and invoke its SAGE::APP::SAGEapp::main() function.
+
+\code
+ #include "app/SAGEapp.h"
+
+class myprogram : public SAGEapp
+{
+  public:
+    myprogram(int argc=0, char **argv=NULL)
+    { 
+      // ... 
+    }
+   
+    virtual int  main() 
+    { 
+      // ... 
+    }
+
+    virtual void print_params(std::ostream &)
+    { 
+      // ... 
+    }
+    
+    virtual void print_help(std::ostream &)
+    { 
+      // ... 
+    }
+};
+
+int main(int argc, char* argv[])
+{
+  myprogram prog(argc, argv);
+
+  prog.main();
+
+  return 0;
+}
+\endcode
+
+\#.\ Additional functionality
+There are a number of components in the SAGE::APP library. Documentation on each major component follows...
+
+\#.#.\ Version numbering
+
+Take a look at the class SAGE::APP::VersionNumber. You'll see that it's
+designed to represent a version of SAGE.
+
+There is one important thing to keep in mind for building the app library in
+this respect! The app library contains an instance of VersionNumber (called
+'version'). This instance is constructed on the basis of four pre-compiler
+defines:
+
+	SAGE_MAIN_VERSION
+	SAGE_SUB_VERSION
+	SAGE_MICRO_VERSION
+	SAGE_BETA_VERSION
+
+These symbols must be defined for the app library to build correctly. If any
+one of them is missing, the compile will fail (with an informative error
+message). Make sure that you define these symbols somewhere in your make
+system.
+
+\#.#.\ app_names Static class providing conversion functions for APP::app_index_type and micro version number  
+
+blah
+
+\#.#.\ BasicParser Virtual base class for all programs' parsers  
+
+blah
+
+\#.#.\ LSFConvert Converts LSF attribute data into basic data types  
+
+blah
+
+\#.#.\ Output_Streams Provides basic output streams for SAGE programs  
+
+blah
+
+\#.#.\ SAGE_Data Basic data needed for most SAGE programs  
+
+blah
+
+\#.#.\ SAGEapp Application framework for all SAGE programs  
+
+blah
+
+
+\#.\ A complete example
+
+blah
+
+

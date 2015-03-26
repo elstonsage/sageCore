@@ -1,0 +1,37 @@
+
+
+
+
+
+
+Family structure information on the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       SEX       PARENT1       PARENT2     
+     ------------  ------------  --------  ------------  ------------
+     17            1             1         0             0           
+     17            2             2         0             0           
+     17            3             2         1             2           
+     17            4             2         1             2           
+     32            1             1         0             0           
+     32            2             2         0             0           
+     32            3             2         1             2           
+     32            4             2         1             2           
+     32            5             1         1             2           
+
+
+Markers for the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       C01R0001      C01R0002      C01R0003      C01R0004    
+     ------------  ------------  ------------  ------------  ------------  ------------
+     17            1             2/2           1/1           2/0           1/1         
+     17            2             1/1           1/2           1/2           1/1         
+     17            3             1/1           1/1           2/2           1/1         
+     17            4             1/1           2/2           2/2           2/2         
+     32            1             2/2           2/2           1/0           1/1         
+     32            2             1/1           2/2           2/2           2/2         
+     32            3             1/1           1/1           2/2           2/2         
+     32            4             1/1           1/1           2/2           2/2         
+     32            5             2/2           1/1           1/0           1/1         
+
+%LODLINK-W: Marker 'C01R0003' is x_linked.  This marker will be unavailable for
+            all analyses.

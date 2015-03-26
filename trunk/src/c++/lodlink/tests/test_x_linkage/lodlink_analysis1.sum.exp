@@ -1,0 +1,41 @@
+
+
+
+===============================
+LODLINK Analysis 1 SUMMARY FILE
+===============================
+
+
+Options Selected
+================
+Main locus type                          marker
+Main locus name                          C01R0001
+
+Lod scores                               no
+
+Linkage tests                            yes
+  Sex-specific recombination fractions   no
+  Assume homogeneity                     yes
+
+Smith's test for homogeneity             no
+
+Morton's test for homogeneity            no
+
+Genotype probabilities                   no
+
+
+Results
+=======
+
+
+
+
+                  MLE                           Lod Score and Linkage Test    
+                                                Using Recom. Fract. in [0, .5]
+                                                                              
+Locus             Recom          Recom          Lod            Chi            P-Value        P-Value        
+                  Fract in       Fract in       Score          Square                        Upper          
+                  [0, .5]        [0, 1]                        Stat                          Bound          
+---------------   ------------   ------------   ------------   ------------   ------------   ------------   
+C01R0002                  ---            ---            ---            ---            ---            ---    
+C01R0004                  ---            ---            ---            ---            ---            ---    

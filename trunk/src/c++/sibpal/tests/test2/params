@@ -1,0 +1,16 @@
+#p=0.25
+wide_output=true
+pedigree,column
+{
+  verbose=10
+  format="(2A4,A1,2X,2A4,F3.0,A3)"
+  individual_missing_value="0"
+  sex_code,missing="?",male="M",female="F"
+  trait="Trait1",missing="999"
+}
+
+
+trait_regression
+{
+  regression_method=w2
+}

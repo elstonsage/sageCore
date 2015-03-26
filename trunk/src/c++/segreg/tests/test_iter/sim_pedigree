@@ -1,0 +1,388 @@
+import random
+import math
+
+class individual:
+    def __init__(self):
+        self.markers = {}
+        self.traits  = {}
+
+    def set_marker(self, name, genotype):
+        self.markers[name] = genotype
+
+    def get_marker(self, name):
+        return self.markers[name]
+
+    def set_trait(self, name, genotype):
+        self.traits[name] = genotype
+
+    def get_trait(self, name):
+        return self.traits[name]
+
+class marker :
+    def __init__(self, name, alleles=[]):
+        self.name    = name
+        self.alleles = {}
+        self.total   = -1
+
+        for i in alleles:
+            self.alleles[alleles[0]] = alleles[1]
+
+        self.get_total()   
+
+    def add_allele(self, name, freq):
+        # Check to see if allele is already present, if so, replace
+        self.alleles[name] = freq
+        self.total = -1
+
+    def normalize(self):
+        for i in self.alleles:
+            self.alleles[i] = self.alleles[i] / self.get_total()
+        self.total = 1.0
+
+    def get_total(self):
+        'returns the total of all alleles present'
+        if self.total != -1:
+            return self.total
+        self.total = 0.0
+        for i in self.alleles:
+            self.total = self.total + self.alleles[i]
+        return self.total
+
+    def get_frequency(self, name):
+        return self.alleles[name]
+
+    def get_random_allele(self):
+        p = random.uniform(0, self.get_total())
+        total = 0.0
+        for i in self.alleles:
+            total = total + self.alleles[i]
+            if total >= p:
+                return i
+
+    def get_random_genotype(self):
+        return (self.get_random_allele(),self.get_random_allele())
+
+class marker_set:
+    def __init__(self):
+        self.order   = []
+        self.markers = {}
+
+    def add_marker(self, name, mkr, distance = -1, fmkr_name = ""):
+        # Test the distance and fmkr_name for validity
+        if distance == -1 or not self.markers.has_key(fmkr_name):
+            if distance != -1 or self.markers.has_key(fmkr_name):
+                print "ERROR:  Prior marker not valid with marker:", name
+                return 
+            distance  = -1
+            fmkr_name = ""
+        
+        if not self.markers.has_key(name):
+            self.order = self.order + [name]
+            # Should test here to make sure the former marker is still ok
+
+        self.markers[name] = [mkr, distance, fmkr_name, len(self.order)-1]
+
+    def get_marker_list(self):
+        return self.order
+
+    def get_marker(self, m):
+        return self.markers[m][0]
+
+    def get_marker_name(self, i):
+        return self.order[i]
+
+    def create_founder(self):
+        markers = []
+        for i in self.order:
+            markers = markers + [self.get_marker(i).get_random_genotype()]
+        return markers
+
+    def create_nonfounder_descent(self):
+        pattern = []
+        for i in self.order:
+            if self.markers[i][1] == -1:
+                pattern = pattern + [(random.randint(0,1),
+                                      random.randint(0,1))]
+            
+            else:
+                prior  = self.markers[self.markers[i][2]][3]
+                pv     = pattern[prior]
+                recomb = self.markers[i][1]
+                mrec = random.random() < recomb
+                mpat = pv[0] != mrec
+                frec = random.random() < recomb
+                fpat = pv[1] != frec
+                pattern = pattern + [(mpat, fpat)]
+
+        return pattern
+                
+    def create_nonfounder(self,mother,father):
+        pattern = self.create_nonfounder_descent()
+
+        markers = []
+        for i in range(len(self.order)):
+            markers = markers + [(mother[i][pattern[i][0]],
+                                  father[i][pattern[i][1]])]
+        return markers    
+
+    def get_genotype_index(self,mname):
+        if self.markers.has_key(mname):
+            return self.markers[mname][3]
+        else:
+            return -1
+
+    def get_genotype(self,mname,gset):
+        return gset[self.get_genotype_index(mname)]
+
+class trait_function:
+    def __init__(self, value = 0):
+        self.value   = value
+
+    def founder_function(self, ind):
+        return self.value
+    def nonfounder_function(self, ind, moth, fath):
+        return self.value
+
+class binary_trait(trait_function):
+    def __init__(self, frequency = trait_function(0.5)):
+        self.frequency = frequency
+        
+    def founder_function(self, ind):
+        return random.random() < self.frequency.founder_function(ind)
+
+    def nonfounder_function(self, ind, moth, fath):
+        return random.random() < self.frequency.nonfounder_function(ind,moth,fath)
+    
+class normal_trait(trait_function):
+    def __init__(self, mean = trait_function(0), std_dev = trait_function(1)):
+        self.mean    = mean
+        self.std_dev = std_dev
+        
+    def founder_function(self, ind):
+        return random.normalvariate(self.mean.founder_function(ind),
+                                    self.std_dev.founder_function(ind))
+
+    def nonfounder_function(self, ind, moth, fath):
+        return random.normalvariate(self.mean.founder_function(ind),
+                                    self.std_dev.founder_function(ind))
+class logistic_trait(trait_function):
+    def __init__(self, susc = trait_function(0)):
+        self.susc    = susc
+        
+    def founder_function(self, ind):
+        s = self.susc.founder_function(ind)
+        return math.exp(s)/ (1.0 + math.exp(s))
+        
+    def nonfounder_function(self, ind, moth, fath):
+        s = self.susc.nonfounder_function(ind,moth,fath)
+        return math.exp(s)/ (1.0 + math.exp(s))
+    
+class trait_marker_mapping(trait_function):
+    def __init__(self, marker):
+        self.marker   = marker
+        self.geno_map = {}
+
+    def add_genotype_mapping(self, geno, value):
+        g = self.order_genotype(geno)
+
+        self.geno_map[g] = value
+
+    def order_genotype(self, geno):
+        if geno[0] <= geno[1]:
+            return geno
+        else:
+            return (geno[1],geno[0])
+        
+    def get_genotype_value(self, geno):
+        g = self.order_genotype(geno)
+
+        return self.geno_map[g]
+
+    def founder_function(self, ind):
+        return self.get_genotype_value(ind.get_marker(self.marker))
+
+    def nonfounder_function(self, ind, moth, fath):
+        return self.get_genotype_value(ind.get_marker(self.marker))
+
+class prior_trait(trait_function):
+    def __init__(self, prior_t):
+        self.trait = prior_t
+        
+    def founder_function(self, ind):
+        return ind.get_trait(self.trait)
+    
+    def nonfounder_function(self, ind, moth, fath):
+        return ind.get_trait(self.trait)
+    
+class trait_composite(trait_function):
+    def __init__(self):
+        self.traits = []
+        
+    def add_trait(self, trait, coeff):
+        self.traits = self.traits + [(trait, coeff)]
+
+    def founder_function(self, ind):
+        total = 0.0
+        for i in self.traits:
+            total = total + i[0].founder_function(ind) * i[1]
+        
+        return total
+    
+    def nonfounder_function(self, ind, moth, fath):
+        total = 0.0
+        for i in self.traits:
+            total = total + i[0].nonfounder_function(ind,moth,fath) * i[1]
+        
+        return total
+
+def create_founder(markers, traits):
+    genotypes = markers.create_founder()
+
+    ind = individual()
+
+    for i in range(len(markers.get_marker_list())):
+        ind.set_marker(markers.get_marker_list()[i],genotypes[i])
+
+    for i in range(len(traits)):
+        ind.set_trait(traits[i][0],traits[i][1].founder_function(ind))
+
+    return ind
+
+
+def create_nonfounder(markers, traits, mother, father):
+    pattern = markers.create_nonfounder_descent()
+
+    ind = individual()
+
+    for i in range(len(markers.get_marker_list())):
+        mkname = markers.get_marker_name(i)
+        
+        mgeno = mother.get_marker(mkname)
+        fgeno = father.get_marker(mkname)
+
+        ind.set_marker(markers.get_marker_list()[i],
+                       (mgeno[pattern[i][0]],
+                        fgeno[pattern[i][1]]))             
+
+    for i in range(len(traits)):
+        ind.set_trait(traits[i][0],traits[i][1].nonfounder_function(ind,mother,father))
+    
+    return ind
+
+def print_genotype(geno):
+    return geno[0] + '/' + geno[1]
+
+def print_trait(tr):
+    return '%6.2f'%tr
+
+def create_pedigree(pedigree, ms, tr):
+                
+    inds = []
+
+    for i in pedigree:
+
+        if i[0] == -1 :
+            inds = inds + [create_founder(ms, tr)]
+        else :
+            inds = inds + [create_nonfounder(ms, tr, inds[i[0]], inds[i[1]])]
+
+    return inds
+
+
+def print_pedigree(ped, pedigree, inds, ms, tr):
+    for i in range(len(pedigree)):
+        print ped,",\t",i+1,',\t',pedigree[i][0]+1,',\t',pedigree[i][1]+1,',\t', \
+              pedigree[i][2],
+        
+        for j in ms.get_marker_list() :
+            print ',\t'+print_genotype(inds[i].get_marker(j)),
+
+        for j in tr :
+            print ',\t'+print_trait(inds[i].get_trait(j[0])),
+
+        print
+
+if __name__ == '__main__':
+
+    m = marker('m1')
+
+    m.add_allele('a',0.2)
+    m.add_allele('b',0.1)
+
+    m.normalize()
+
+    ms = marker_set()
+
+    ms.add_marker("m1", m)
+
+    cov1 = binary_trait()
+    cov2 = normal_trait()
+
+    tm = trait_marker_mapping('m1')
+
+    tm.add_genotype_mapping(('a','a'),-3)
+    tm.add_genotype_mapping(('a','b'),0)
+    tm.add_genotype_mapping(('b','b'),3)
+
+    # tmc = tm + 2 * cov1 + 3 * cov2
+    
+    tmc = trait_composite()
+
+    tmc.add_trait(tm,1)
+    tmc.add_trait(prior_trait('cov1'),2)
+    tmc.add_trait(prior_trait('cov2'),3)
+
+    # t1 = normal with mean of tm and variance 1
+
+    t1 = normal_trait(tm)
+
+    # t2 = normal with mean of tm and variance 1
+
+    t2 = normal_trait(tmc)
+
+    # t3 = susceptibility based upon tm
+
+    t3temp = logistic_trait(tm)
+
+    t3 = binary_trait(t3temp)
+
+    # t4 = susceptibility based upon tmc
+
+    t4temp = logistic_trait(tmc)
+
+    t4 = binary_trait(t4temp)
+    
+    tr = [('cov1',cov1),('cov2',cov2),
+          ('t1',t1),('t2',t2),
+          ('t3',t3),('t4',t4)]
+
+    pedigree = [[-1,-1, 0],
+                [-1,-1, 1],
+                [ 0, 1, 0],
+                [ 0, 1, 1]]
+
+#                [ 0, 1, 0],
+#                [-1,-1, 1],
+#                [-1,-1, 1],
+#                [ 2, 6, 1],
+#                [ 2, 5, 1],
+#                [-1,-1, 1],
+#                [ 4, 9, 0],
+#                [ 4, 9, 1],
+#                [ 4, 9, 0],
+#                [ 4, 9, 1]]
+
+    print "PED,\tIND,\tMOTH,\tFATH,\tSEX",
+
+    for i in ms.get_marker_list():
+        print ",\t",i,
+
+    for i in tr:
+        print ",\t",i[0],
+
+    print
+
+    for i in range(10):
+        inds = create_pedigree(pedigree, ms, tr)
+
+        print_pedigree(i, pedigree,inds,ms,tr)

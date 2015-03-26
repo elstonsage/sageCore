@@ -1,0 +1,776 @@
+
+---------- 1 New Analysis Block 1 ---------- 
+
+Model class: D
+
+Mean covariates values: 
+Option: 
+  maxfun parameter  disease     
+  value              72.000000  
+  status            Fixed       
+  lower bound       -Infinity   
+  upper bound       Infinity    
+
+
+Name: disease
+Coefficient: 72
+Interaction: true
+Fixed: true
+Interaction AA: 0
+Interaction AB: 0
+Interaction BB: 0
+Maxfun Index:   0
+
+
+Variance covariates values: 
+Option: 
+
+Susceptibility covariates values: 
+Option: 
+
+Composite trait covariates values: 
+Option: 
+
+---------- 2 New Analysis Block 2 ---------- 
+
+Model class: invalid
+
+Mean covariates values: 
+Option: 
+
+Variance covariates values: 
+Option: 
+
+Susceptibility covariates values: 
+Option: 
+
+Composite trait covariates values: 
+Option: 
+
+---------- 3 New Analysis Block 3 ---------- 
+
+Model class: invalid
+
+Mean covariates values: 
+Option: 
+
+Variance covariates values: 
+Option: 
+
+Susceptibility covariates values: 
+Option: 
+
+Composite trait covariates values: 
+Option: 
+
+---------- 4 New Analysis Block 4 ---------- 
+
+Model class: D
+
+Mean covariates values: 
+Option: 
+  maxfun parameter  disease      
+  value              0.000000    
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+
+Name: disease
+Coefficient: 0
+Interaction: true
+Fixed: false
+Interaction AA: 0
+Interaction AB: 0
+Interaction BB: 0
+Maxfun Index:   0
+
+
+Variance covariates values: 
+Option: 
+
+Susceptibility covariates values: 
+Option: 
+
+Composite trait covariates values: 
+Option: 
+
+---------- 5 New Analysis Block 5 ---------- 
+
+Model class: D
+
+Mean covariates values: 
+Option: 
+  maxfun parameter  t            
+  value              1.000000    
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+  maxfun parameter  t * AA_AB               
+  value              0.000000               
+  status            Independent functional  
+  lower bound       -Infinity               
+  upper bound       Infinity                
+
+  maxfun parameter  t * BB     
+  value              0.000000  
+  status            Dependent  
+  lower bound       -Infinity  
+  upper bound       Infinity   
+
+  maxfun parameter  u            
+  value              1.000000    
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+  maxfun parameter  u * AA_AB               
+  value              0.000000               
+  status            Independent functional  
+  lower bound       -Infinity               
+  upper bound       Infinity                
+
+  maxfun parameter  u * BB     
+  value              0.000000  
+  status            Dependent  
+  lower bound       -Infinity  
+  upper bound       Infinity   
+
+  maxfun parameter  v            
+  value              1.000000    
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+  maxfun parameter  v * AA_AB               
+  value              0.000000               
+  status            Independent functional  
+  lower bound       -Infinity               
+  upper bound       Infinity                
+
+  maxfun parameter  v * BB     
+  value              0.000000  
+  status            Dependent  
+  lower bound       -Infinity  
+  upper bound       Infinity   
+
+
+Name: t
+Coefficient: 1
+Interaction: true
+Fixed: false
+Interaction AA: 0
+Interaction AB: 0
+Interaction BB: 0
+Maxfun Index:   0
+
+
+Name: u
+Coefficient: 1
+Interaction: true
+Fixed: false
+Interaction AA: 0
+Interaction AB: 0
+Interaction BB: 0
+Maxfun Index:   3
+
+
+Name: v
+Coefficient: 1
+Interaction: true
+Fixed: false
+Interaction AA: 0
+Interaction AB: 0
+Interaction BB: 0
+Maxfun Index:   6
+
+
+Variance covariates values: 
+Option: 
+
+Susceptibility covariates values: 
+Option: 
+
+Composite trait covariates values: 
+Option: 
+
+---------- 6 New Analysis Block 6 ---------- 
+
+Model class: D
+
+Mean covariates values: 
+Option: 
+  maxfun parameter  t            
+  value              1.000000    
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+  maxfun parameter  t * AA                  
+  value              0.000000               
+  status            Independent functional  
+  lower bound       -Infinity               
+  upper bound       Infinity                
+
+  maxfun parameter  t * AB                  
+  value              0.000000               
+  status            Independent functional  
+  lower bound       -Infinity               
+  upper bound       Infinity                
+
+  maxfun parameter  t * BB     
+  value              0.000000  
+  status            Dependent  
+  lower bound       -Infinity  
+  upper bound       Infinity   
+
+  maxfun parameter  u            
+  value              1.000000    
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+  maxfun parameter  u * AA                  
+  value              0.000000               
+  status            Independent functional  
+  lower bound       -Infinity               
+  upper bound       Infinity                
+
+  maxfun parameter  u * AB                  
+  value              0.000000               
+  status            Independent functional  
+  lower bound       -Infinity               
+  upper bound       Infinity                
+
+  maxfun parameter  u * BB     
+  value              0.000000  
+  status            Dependent  
+  lower bound       -Infinity  
+  upper bound       Infinity   
+
+  maxfun parameter  v            
+  value              1.000000    
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+  maxfun parameter  v * AA                  
+  value              0.000000               
+  status            Independent functional  
+  lower bound       -Infinity               
+  upper bound       Infinity                
+
+  maxfun parameter  v * AB                  
+  value              0.000000               
+  status            Independent functional  
+  lower bound       -Infinity               
+  upper bound       Infinity                
+
+  maxfun parameter  v * BB     
+  value              0.000000  
+  status            Dependent  
+  lower bound       -Infinity  
+  upper bound       Infinity   
+
+
+Name: t
+Coefficient: 1
+Interaction: true
+Fixed: false
+Interaction AA: 0
+Interaction AB: 0
+Interaction BB: 0
+Maxfun Index:   0
+
+
+Name: u
+Coefficient: 1
+Interaction: true
+Fixed: false
+Interaction AA: 0
+Interaction AB: 0
+Interaction BB: 0
+Maxfun Index:   4
+
+
+Name: v
+Coefficient: 1
+Interaction: true
+Fixed: false
+Interaction AA: 0
+Interaction AB: 0
+Interaction BB: 0
+Maxfun Index:   8
+
+
+Variance covariates values: 
+Option: 
+
+Susceptibility covariates values: 
+Option: 
+
+Composite trait covariates values: 
+Option: 
+
+---------- 7 New Analysis Block 7 ---------- 
+
+Model class: D
+
+Mean covariates values: 
+Option: 
+  maxfun parameter  t            
+  value              1.000000    
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+  maxfun parameter  t * AA                  
+  value              0.000000               
+  status            Independent functional  
+  lower bound       -Infinity               
+  upper bound       Infinity                
+
+  maxfun parameter  t * AB                  
+  value              0.000000               
+  status            Independent functional  
+  lower bound       -Infinity               
+  upper bound       Infinity                
+
+  maxfun parameter  t * BB     
+  value              0.000000  
+  status            Dependent  
+  lower bound       -Infinity  
+  upper bound       Infinity   
+
+  maxfun parameter  u          
+  value              2.000000  
+  status            Fixed      
+  lower bound       -Infinity  
+  upper bound       Infinity   
+
+
+Name: t
+Coefficient: 1
+Interaction: true
+Fixed: false
+Interaction AA: 0
+Interaction AB: 0
+Interaction BB: 0
+Maxfun Index:   0
+
+
+Name: u
+Coefficient: 2
+Interaction: false
+Fixed: true
+Interaction AA: 0
+Interaction AB: 0
+Interaction BB: 0
+Maxfun Index:   4
+
+
+Variance covariates values: 
+Option: 
+
+Susceptibility covariates values: 
+Option: 
+
+Composite trait covariates values: 
+Option: 
+
+---------- 8 New Analysis Block 8 ---------- 
+
+Model class: invalid
+
+Mean covariates values: 
+Option: 
+  maxfun parameter  t            
+  value              1.000000    
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+  maxfun parameter  u            
+  value              1.000000    
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+  maxfun parameter  v            
+  value              1.000000    
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+
+Name: t
+Coefficient: 1
+Interaction: true
+Fixed: false
+Interaction AA: 0
+Interaction AB: 0
+Interaction BB: 0
+Maxfun Index:   0
+
+
+Name: u
+Coefficient: 1
+Interaction: true
+Fixed: false
+Interaction AA: 0
+Interaction AB: 0
+Interaction BB: 0
+Maxfun Index:   1
+
+
+Name: v
+Coefficient: 1
+Interaction: true
+Fixed: false
+Interaction AA: 0
+Interaction AB: 0
+Interaction BB: 0
+Maxfun Index:   2
+
+
+Variance covariates values: 
+Option: 
+
+Susceptibility covariates values: 
+Option: 
+
+Composite trait covariates values: 
+Option: 
+  maxfun parameter  t            
+  value              2.000000    
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+
+Name: t
+Coefficient: 2
+Interaction: false
+Fixed: false
+Interaction AA: 0
+Interaction AB: 0
+Interaction BB: 0
+Maxfun Index:   0
+
+
+---------- 9 New Analysis Block 9 ---------- 
+
+Model class: D
+
+Mean covariates values: 
+Option: 
+  maxfun parameter  t            
+  value              1.000000    
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+  maxfun parameter  u            
+  value              1.000000    
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+  maxfun parameter  v            
+  value              1.000000    
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+
+Name: t
+Coefficient: 1
+Interaction: true
+Fixed: false
+Interaction AA: 0
+Interaction AB: 0
+Interaction BB: 0
+Maxfun Index:   0
+
+
+Name: u
+Coefficient: 1
+Interaction: true
+Fixed: false
+Interaction AA: 0
+Interaction AB: 0
+Interaction BB: 0
+Maxfun Index:   1
+
+
+Name: v
+Coefficient: 1
+Interaction: true
+Fixed: false
+Interaction AA: 0
+Interaction AB: 0
+Interaction BB: 0
+Maxfun Index:   2
+
+
+Variance covariates values: 
+Option: 
+
+Susceptibility covariates values: 
+Option: 
+
+Composite trait covariates values: 
+Option: 
+
+---------- 10 New Analysis Block 10 ---------- 
+
+Model class: invalid
+
+Mean covariates values: 
+Option: 
+  maxfun parameter  t            
+  value              1.000000    
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+  maxfun parameter  hematocrit   
+  value              1.000000    
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+
+Name: t
+Coefficient: 1
+Interaction: true
+Fixed: false
+Interaction AA: 0
+Interaction AB: 0
+Interaction BB: 0
+Maxfun Index:   0
+
+
+Name: hematocrit
+Coefficient: 1
+Interaction: true
+Fixed: false
+Interaction AA: 0
+Interaction AB: 0
+Interaction BB: 0
+Maxfun Index:   1
+
+
+Variance covariates values: 
+Option: 
+
+Susceptibility covariates values: 
+Option: 
+
+Composite trait covariates values: 
+Option: 
+
+---------- 11 New Analysis Block 11 ---------- 
+
+Model class: D
+
+Mean covariates values: 
+Option: 
+  maxfun parameter  disease      
+  value              0.000000    
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+
+Name: disease
+Coefficient: 0
+Interaction: false
+Fixed: false
+Interaction AA: 0
+Interaction AB: 0
+Interaction BB: 0
+Maxfun Index:   0
+
+
+Variance covariates values: 
+Option: 
+  maxfun parameter  disease      
+  value              65.000000   
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+
+Name: disease
+Coefficient: 65
+Interaction: false
+Fixed: false
+Interaction AA: 0
+Interaction AB: 0
+Interaction BB: 0
+Maxfun Index:   0
+
+
+Susceptibility covariates values: 
+Option: 
+
+Composite trait covariates values: 
+Option: 
+
+---------- 12 New Analysis Block 12 ---------- 
+
+Model class: D
+
+Mean covariates values: 
+Option: 
+  maxfun parameter  t            
+  value              1.000000    
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+  maxfun parameter  u            
+  value              1.000000    
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+  maxfun parameter  v          
+  value              2.000000  
+  status            Fixed      
+  lower bound       -Infinity  
+  upper bound       Infinity   
+
+
+Name: t
+Coefficient: 1
+Interaction: false
+Fixed: false
+Interaction AA: 0
+Interaction AB: 0
+Interaction BB: 0
+Maxfun Index:   0
+
+
+Name: u
+Coefficient: 1
+Interaction: false
+Fixed: false
+Interaction AA: 0
+Interaction AB: 0
+Interaction BB: 0
+Maxfun Index:   1
+
+
+Name: v
+Coefficient: 2
+Interaction: false
+Fixed: true
+Interaction AA: 0
+Interaction AB: 0
+Interaction BB: 0
+Maxfun Index:   2
+
+
+Variance covariates values: 
+Option: 
+
+Susceptibility covariates values: 
+Option: 
+
+Composite trait covariates values: 
+Option: 
+
+---------- 13 New Analysis Block 13 ---------- 
+
+Model class: D
+
+Mean covariates values: 
+Option: 
+  maxfun parameter  t            
+  value              1.000000    
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+  maxfun parameter  t * AA_AB               
+  value              0.000000               
+  status            Independent functional  
+  lower bound       -Infinity               
+  upper bound       Infinity                
+
+  maxfun parameter  t * BB     
+  value              0.000000  
+  status            Dependent  
+  lower bound       -Infinity  
+  upper bound       Infinity   
+
+
+Name: t
+Coefficient: 1
+Interaction: true
+Fixed: false
+Interaction AA: 0
+Interaction AB: 0
+Interaction BB: 0
+Maxfun Index:   0
+
+
+Variance covariates values: 
+Option: 
+
+Susceptibility covariates values: 
+Option: 
+
+Composite trait covariates values: 
+Option: 
+
+---------- 14 New Analysis Block 14 ---------- 
+
+Model class: mlm
+
+Mean covariates values: 
+Option: 
+
+Variance covariates values: 
+Option: 
+
+Susceptibility covariates values: 
+Option: 
+
+Composite trait covariates values: 
+Option: 
+
+---------- 15 New Analysis Block 15 ---------- 
+
+Model class: mlm
+
+Mean covariates values: 
+Option: 
+
+Variance covariates values: 
+Option: 
+
+Susceptibility covariates values: 
+Option: 
+
+Composite trait covariates values: 
+Option: 
+
+---------- 16 New Analysis Block 16 ---------- 
+
+Model class: D
+
+Mean covariates values: 
+Option: 
+
+Variance covariates values: 
+Option: 
+
+Susceptibility covariates values: 
+Option: 
+
+Composite trait covariates values: 
+Option: 

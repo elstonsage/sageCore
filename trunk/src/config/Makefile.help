@@ -1,0 +1,170 @@
+====================================
+Welcome to the S.A.G.E. Make System!
+====================================
+
+===========================
+FILE/DIRECTORY ORGANIZATION
+===========================
+
+First, let's review how files are organized in the SAGE tree (at least those
+files relevant to the make system).
+
+1. Code for specific modules (libraries):
+
+	[ROOT]/src/c++/[module]/Makefile
+	[ROOT]/src/c++/[module]/*.cpp
+	[ROOT]/src/c++/include/[module]/*.h, *.ipp
+
+2. Suite-wide makefile:
+
+	[ROOT]/src/c++/Makefile
+
+3. Configuration files for the make system:
+
+	[ROOT]/src/config/Global.make
+	[ROOT]/src/config/Rules.make
+	[ROOT]/src/config/PlatformDetection.make
+	[ROOT]/src/config/arch
+	[ROOT]/src/config/[architecture]/Global.make
+
+============
+RUNNING MAKE
+============
+
+The first thing to understand is that there are two major locations in which
+you can run make:
+
+	[ROOT]/src/c++          - To make the entire SAGE tree.
+	[ROOT]/src/c++/[module] - To build a single 'module' (library, that is).
+
+For instance, let's say you want to build the whole SAGE suite:
+
+	1. Go into [ROOT]/src/c++
+	2. Run 'make'
+
+Or, if you only want to a specific module:
+
+	1. Go into [ROOT]/src/c++/[module] (such as assoc)
+	2. Run 'make'
+
+Now, let's review what actually happens when you run 'make':
+
+	1. The Makefile defines $(SAGEROOT) relative to the current directory (where
+	   SAGEROOT points to [ROOT]/src), and then loads $(SAGEROOT)/config/Global.make, 
+	   which sets up all sorts of global compiling/linking options, as well as architecture- and
+	   compiler-specific options.
+
+	2. The Makefile defines $(TARGETS) (the list of objects to build), as well
+	   as special rules for those targets.
+
+	3. The Makefile loads $(SAGEROOT)/config/Rules.make, which instructs 'make'
+	   to start building $(TARGETS).
+
+So it's a three-step process: Load in the global settings, establish which
+targets to build, then build those targets. For the most part, as a SAGE
+developer you will only need to worry about step #2 (target-specific
+options) for module-specific makefiles. The following section of this helpfile 
+will address how to customize your program's Makefile. Later on, this helpfile 
+will delve into the more arcane aspects of how step #1 and step #3 are carried out.
+
+====================
+MORE ON RUNNING MAKE
+====================
+
+For the most part, you'll spend much of your time running make in three ways: 'make cleanall',
+'make', and 'make test'.
+
+Any commandline argument to make that is a single word tells make to follow a certain ruleset.
+If no such argument is given (eg: 'make'), make follows a default ruleset and builds everything that
+the Makefile defines as $(TARGETS).
+
+'make cleanall' deletes all object files on which 'make' would depend. You should use this whenever
+there has been a change in one of your .h's (or .ipp's), since make *cannot* detect changes in dependent
+header files. Changes to .cpp's *are* detected by make, so it is sufficient to run 'make' when such
+changes have been made.
+
+'make test' is used for building and executing $(TESTTARGETS). More on testing later.
+
+=========================
+EVEN MORE ON RUNNING MAKE
+=========================
+
+In addition to specifying rulesets via single-word commandline arguments (see above), you can also
+specify a number of options with the commandline arguments form KEY=VALUE. For instance, 'make
+BUILD=DEBUG' will build SAGE with 'BUILD' set to 'DEBUG'. A complete list of variables follows:
+
+	BUILD - Defines the build type (where each build type has its own special compiler and linker
+	        flags. Valid values include:
+
+		DEBUG   - This is the default build type. Symbolic names will be preserved.
+		RELEASE - This is for building publicly release-able versions. Symbolic names will
+		          be stripped and performance options enabled.
+		SPEED   - ???
+		PROFILE - This is for generating an executable that can be debugged with gdb. More
+		          on this later.
+
+	AUTOTRACE - Turns on runtime reporting of functions defined using the AUTOTRACE macro (see
+	            reference on SAGE::APP::AutoTrace for more information). Valid values include:
+
+		ON - Enables the feature
+
+
+
+=========================
+CUSTOMIZING YOUR MAKEFILE
+=========================
+
+At the beginning of your Makefile, you'll see that $(SAGEROOT) is defined
+and $(SAGEROOT)/config/Global.make is included. Then there's a whole bunch
+of stuff, followed at the end by the inclusion of
+$(SAGEROOT)/config/Rules.make. It's the stuff in between these two include
+directives that we're concerned with. Let's begin by reviewing all the
+relevant variables:
+
+	TARGETS     - A list of targets to build (usually libfoo.a and foo for most programs)
+	TESTTARGETS - A list of targets to build when testing (more on this later)
+	TESTS       - More stuff for testing (more on this later)
+	SRCS        - A list of all the .cpp's you'll need to build your program
+	OBJS        - A rule for building a list of object files (usually ${SRCS:.cpp=.o} )
+
+For instance, let's say that your program is called 'foofoo'. Then your Makefile will probably look
+something this:
+
+	TARGETS     = libfoofoo.a foo$(EXE)
+	SRCS        = thingy.cpp bar.cpp craziness.cpp
+	OBJS        = ${SRCS:.cpp=.o}
+
+Now we get on to the 'target-specific' options. That is, these are the options specific to each
+target (such as 'libfoofoo.a' and 'foo$(EXE)').
+
+	$(TARGET).NAME     - The pretty-print name of the target
+	$(TARGET).INSTALL  - For executables, should be yes. More on this later.
+	$(TARGET).TYPE     - Usually either LIB or C++ (for libraries or executables)
+	$(TARGET).OBJS     - A list of object files (usually either $(OBJS) or [TARGET].o )
+	$(TARGET).CXXFLAGS - Additional compiler flags
+	$(TARGET).CP       - For libraries, should read ../lib/[TARGET]
+	$(TARGET).DEP      - For executables, should read lib[TARGET] if the executable is based on a library
+	$(TARGET).LDLIBS   - Additional libraries that must be linked to an executable
+
+For instance, let's continue with the previous example. Your Makefile should have options specified
+for both targets (libfoofoo.a and foo$(EXE)):
+
+	libfoofoo.a.NAME     = "Foofoo library"
+	libfoofoo.a.TYPE     = LIB
+	libfoofoo.a.OBJS     = $(OBJS)
+	libfoofoo.a.CXXFLAGS = # Special flags put here
+	libfoofoo.a.CP       = ../lib/libfoofoo.a
+
+	foo$(EXE).NAME    = Foo Application
+	foo$(EXE).INSTALL = yes
+	foo$(EXE).TYPE    = C++
+	foo$(EXE).OBJS    = foo.o
+	foo$(EXE).DEP     = libfoofoo.a
+	foo$(EXE).LDLIBS  = # List libraries here, such as -lfoofoo -ldata -lsampling -lapp ...
+
+==============================
+$(SAGEROOT)/config/Global.make
+==============================
+
+This file defines all sorts of variables required to build SAGE.
+

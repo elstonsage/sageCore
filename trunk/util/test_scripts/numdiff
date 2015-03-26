@@ -1,0 +1,252 @@
+#!/usr/local/bin/python
+
+import getopt
+import sys
+import string
+import re
+import os
+
+EPSILON = 1e-10
+DELTA   = 0.0001
+
+def usage():
+  # Print Usage Statement
+
+  print
+  print "Numerical Diffs for S.A.G.E."
+  print "Author: Geoff Wedig (wedig@darwin.cwru.edu)"
+  print "Copyright(c) 2003 R.C. Elston"
+  print
+  print "Options    :"
+  print "  -h       :  Prints this helpful message"
+  print "  -delta   :  Sets delta for comparing numbers (as fraction of first number."
+  print "  -epsilon :  Sets the epsilon for comparing numbers close to zero as zero."
+  print
+  print
+  
+
+
+def tokenize_string(str):
+
+  mystring = string.expandtabs(str)
+
+  f_re = re.compile('([-+]?(\d+(\.\d*)?|\d*\.\d+)([eE][-+]?\d+)?)')
+
+  startpos = 0
+  endpos   = 0
+
+  tokens = ['']
+
+  mtch = f_re.search(mystring)
+
+  if mtch != None:
+    if mtch.start(0):
+      tokens = [mystring[0:mtch.start(0)]]
+      startpos = mtch.start(0)
+  else:
+    tokens = [mystring]
+    return tokens
+
+  while startpos < len(mystring):
+    # Get the number
+
+    mtch = f_re.match(mystring[startpos:])
+    if mtch == None:
+      print "BIG ERROR"
+    else:
+      endpos = startpos + mtch.end(0)
+      tokens = tokens + [mystring[startpos:endpos]]
+      startpos = endpos
+
+    # Get the non numerical text
+
+    if startpos < len(mystring):
+      mtch = f_re.search(mystring[startpos:])
+      
+      if mtch == None:
+        endpos = len(mystring)
+        tokens = tokens + [mystring[startpos:endpos]]
+        startpos = endpos
+      else:
+        endpos = startpos + mtch.start(0)
+        tokens = tokens + [mystring[startpos:endpos]]
+        startpos = endpos
+  return tokens
+
+#return values
+
+SUCCESS             = 0
+NUMERICAL_FAILURE   = 1
+WHITE_SPACE_FAILURE = 2
+SPACING_ERROR       = 3
+
+def compare_white(tok1, tok2):
+
+  if tok1 == tok2:
+    return 1
+
+  minl = min([len(tok1),len(tok2)])
+
+  if tok1[:minl] == tok2[:minl]:
+    tail1 = tok1[minl:]
+    tail2 = tok2[minl:]
+    if len(tail1):
+      if tail1.isspace():
+        return 1
+    elif len(tail2):
+      if tail2.isspace():
+        return 1
+  
+  return 0
+
+def compare_numbers(tok1, tok2):
+
+  v1 = string.atof(tok1)
+  v2 = string.atof(tok2)
+
+  av1 = abs(v1)
+  av2 = abs(v2)
+
+  if av1 < EPSILON and av2 < EPSILON:
+    return 1
+
+  if (v1 < 0 and v2 > 0) or (v1 > 0 and v2 < 0):
+    return 0
+
+  if av1 * (1.0 - DELTA) <= av2 and av2 <= av1 * (1.0 + DELTA):
+    return 1
+
+  return 0
+
+def compare_lines(line1,line2):
+
+  numerical_diffs = []
+
+  if line1 == line2:
+    return SUCCESS, []
+
+  tokens1 = tokenize_string(line1)
+  tokens2 = tokenize_string(line2)
+
+  if len(tokens1) != len(tokens2):
+    return SPACING_ERROR,[]
+
+  i = 0
+
+  ret = SUCCESS
+
+  while i < len(tokens1):
+    if compare_white(tokens1[i],tokens2[i]) == 0:
+      return WHITE_SPACE_FAILURE,[]
+    tok1 = tokens1[i]
+    tok2 = tokens2[i]
+    i = i + 1
+    if i < len(tokens1):
+      if compare_numbers(tokens1[i],tokens2[i]) == 0:
+        ret = NUMERICAL_FAILURE
+        numerical_diffs = numerical_diffs + [[tokens1[i],tokens2[i]]]
+      tok1 = tok1 + tokens1[i]
+      tok2 = tok2 + tokens2[i]
+      i = i + 1
+    if len(tok1) != len(tok2):
+      return SPACING_ERROR,[]
+
+  return ret, numerical_diffs
+
+def generate_numerical_report(f1, f2, diffs):
+  print "Old File:",f1
+  print "New File:",f2
+  print
+  print "With Delta of", DELTA, " and Epsilon of ",EPSILON, "there were errors detected."
+  print
+  
+  for i in diffs:
+    print "Problems on line",i[0]
+    for j in i[1]:
+      print "  ",j[0],"!=",j[1]
+    print
+
+def do_diff(filename1, filename2):
+
+    command = "diff -u"
+
+    if os.system('%s %s %s ' % (command, filename1, filename2)) == 0:
+      # If there are no diffs, we can delete the .stripped file
+      os.system('rm ' + filename2)
+
+      if keep_files == 0:
+        os.system('rm ' + filename2)
+
+
+def compare_files(filename1, filename2):
+  f1=open(filename1, 'r')
+  f2=open(filename2, 'r')
+
+  lines1 = f1.readlines()
+  lines2 = f2.readlines()
+
+  f1.close()
+  f2.close()
+
+  numerical_diffs = []
+
+  if len(lines1) == len(lines2):
+    for i in range(len(lines1)):
+      r, ne = compare_lines(lines1[i],lines2[i])
+      if   r == NUMERICAL_FAILURE   :
+        numerical_diffs = numerical_diffs + [[i,ne]]
+      elif r == WHITE_SPACE_FAILURE :
+        do_diff(filename1, filename2)
+        return WHITE_SPACE_FAILURE
+      elif r == SPACING_ERROR       :
+        do_diff(filename1, filename2)
+        return SPACING_ERROR
+
+  else:
+    do_diff(filename1, filename2)
+    return SPACING_ERROR
+
+  if len(numerical_diffs):
+    generate_numerical_report(filename1, filename2, numerical_diffs)
+    return NUMERICAL_FAILURE
+
+  return SUCCESS
+
+def get_options():
+
+  delta   = DELTA
+  epsilon = EPSILON
+
+  nlist = ""
+
+  try:
+    opts, args = getopt.getopt(sys.argv[1:], "hd:e:", ["help", 'delta=', 'epsilon='])
+  except getopt.GetoptError:
+    # print help information and exit:
+    usage()
+    sys.exit(1)
+
+  for o, a in opts:
+    if o in ("-h", "--help"):
+      usage()
+      sys.exit(1)
+    if o in ("-d", "--delta"):
+      delta = string.atof(a)
+    if o in ("-e", "--epsilon"):
+      epsilon = string.atof(a)
+
+  return args, delta, epsilon
+
+if __name__ == '__main__':
+
+  args, DELTA, EPSILON = get_options()
+
+  if len(args) != 2:
+    usage()
+    sys.exit(1)
+
+  ret_type = compare_files(args[0],args[1])
+
+  sys.exit(ret_type)
+    
+    

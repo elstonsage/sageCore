@@ -1,0 +1,16 @@
+pedigree
+{
+  delimiters=" "
+  delimiter_mode=multiple
+  individual_id=id
+  sex_field=sex,male="M",female="F"
+  individual_missing_value="0"
+  parent_id=p1
+  parent_id=p2
+  marker=ds,delimiter=/
+  trait=t2
+  verbose=100
+}
+
+function { trait = M_tai, expression="tai(ds, 1)" }
+function { trait = M_utai, expression="utai(ds, 1)" }

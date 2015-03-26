@@ -1,0 +1,83 @@
+marker
+{
+  allele_missing="0"
+  allele_delimiter="/"
+}
+
+pedigree
+{
+  delimiters=" "
+  delimiter_mode=multiple
+  individual_missing_value="0"
+  sex_code, male="1", female="2"
+
+  pedigree_id=family
+  individual_id=ind
+  parent_id=father
+  parent_id=mother
+  sex_field=sex
+
+  string=T1
+  trait=T2
+  trait=T3, binary, missing=9
+
+  marker=C01R0001
+  marker=C01R0002
+  marker=C01R0003
+  marker=C01R0004
+}
+
+decipher, out=hapapp_analysis1   # rep specified
+{
+  region=one
+
+  data
+  {
+    analysis_unit=family_rep
+    partition=T2
+    partition=T3
+    family_rep=T1, family_rep_value=rep
+  }
+  
+  tasks
+  {
+    pop_freq=false
+    all_possible_diplotypes_table=true
+  }
+}  
+
+decipher, out=hapapp_analysis2   # no rep specified
+{
+  region=one
+
+  data
+  {
+    analysis_unit=family_rep
+    partition=T2
+    partition=T3
+  }
+  
+  tasks
+  {
+    pop_freq=false
+    all_possible_diplotypes_table=true
+  }
+}  
+
+decipher, out=hapapp_analysis3   # unrelated
+{
+  region=one
+
+  data
+  {
+    analysis_unit=each_individual
+    partition=T2
+    partition=T3
+  }
+  
+  tasks
+  {
+    pop_freq=false
+    all_possible_diplotypes_table=true
+  }
+}  

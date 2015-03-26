@@ -1,0 +1,32 @@
+
+
+
+Reading Parameter File....................done.
+Reading Marker Locus Description File.....done.
+Reading Pedigree File.....................
+              from ped....................done.
+%LODLINK-E: Error(s) building pedigree '1': 1 errors.
+%LODLINK-E: Error(s) building pedigree '2': 1 errors.
+%LODLINK-E: Error(s) building pedigree '3': 1 errors.
+%LODLINK-E: Error(s) building pedigree '4': 1 errors.
+%LODLINK-E: Error(s) building pedigree '5': 1 errors.
+%LODLINK-E: Error(s) building pedigree '6': 1 errors.
+%LODLINK-E: Errors appear in pedigree data. Results may be incomplete.
+Sorting Pedigrees.........................done.
+Generating statistics.....................
+Parsing LODLINK analyses ...
+
+
+Parsing new analysis block ...
+
+
+Parsing of LODLINK Analysis 1 complete.  Analysis valid.
+------------------------------------------------------------------------------
+%LODLINK-E: Sex specific analysis specified with missing information in sex
+            field of some parents.  Please supply the missing information and
+            run again.  Skipping analysis ...
+done.
+
+Analysis complete!
+
+

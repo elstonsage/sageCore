@@ -1,0 +1,80 @@
+
+
+
+=====================================================================================
+  Haseman-Elston Regression Analysis of Full Sibs
+  - zero marker regression
+=====================================================================================
+
+    Binary trait : affection, affected = 'A' , unaffected = 'U'
+
+    Dependent variate : Squared trait difference
+
+    w1 : 0.5
+
+    Other options used :
+      Identity weights = no
+      Robust variance  = no
+      Use sibship mean = no
+      Use BLUP mean    = yes
+
+    Legend :
+      Note - kurtosis = coefficient of kurtosis - 3
+      *   - significance  .05 level;
+      **  - significance  .01 level;
+      *** - significance .001 level;
+      #   - Negative intercept set to 0;
+
+=====================================================================================
+Test 1
+=====================================================================================
+-----
+Model
+-----
+
+affection ~ Intercept + EF + e
+
+------
+Sample
+------
+
+Number of all sibs            =   27
+Number of full sib pairs      =   28
+
+-----
+Trait
+-----
+
+Sample mean                   =    0.0370
+Sample variance               =    0.0370
+Sample skewness               =    4.9029
+Sample kurtosis               =   22.0385
+Pairwise full sib correlation =   -0.0182
+Intra sibship correlation     =    0.0610
+
+-----------------
+Dependent variate
+-----------------
+
+Correlation between pairs with no sibs in common =    0.0000
+Correlation between pairs with one sib in common =    0.0000
+
+Correlation between squared difference
+                and squared mean corrected sum   =   -1.0000
+
+----------
+Regression
+----------
+
+                   Estimate Std Error   P-value     
+----------------- --------- --------- ---------     
+Intercept            0.0534 
+EF                  -0.0001    0.0001 0.3503633     
+
+Total variance       0.0085
+Residual variance    0.0087
+Residual skewness   -4.7055
+Residual kurtosis   21.1482
+=====================================================================================
+
+

@@ -1,0 +1,14 @@
+pedigree
+{
+  delimiter_mode = multiple
+  delimiters=" "
+  individual_missing_value="0"
+
+  pedigree_id=ped
+  parent_id=p1
+  parent_id=p2
+  individual_id=id
+  sex_field=sex
+  sex_code,male="1",female="2",unknown="?"
+  verbose = 1000
+}

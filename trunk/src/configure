@@ -1,0 +1,188 @@
+#!/bin/sh
+# System configuration script for S.A.G.E.
+# 
+# Copyright 1997-2009 R.C. Elston
+# Last Modified 01/13/2008 Mike Warfe
+##########################################
+
+SAGEROOT=.
+SRCDIRS="c++"
+uname=uname
+hardware=`${uname} -m`
+osname=`${uname} -s`
+release=`${uname} -r`
+
+case $hardware in
+       alpha)
+              case $release in
+               V[12].*) ARCH=unsupported   ;;
+                  V3.*) ARCH=alpha-osf3.2  ;;
+                  V4.*) ARCH=alpha-osf4.0  ;;
+                  V5.*) ARCH=alpha-osf4.0  ;;
+              esac ;;
+        sun*) 
+              case $release in
+                5.*) ARCH=sparc-solaris2.5 ;;
+                4.*) ARCH=sparc-sunos4.1   ;;
+              esac                
+              ;;
+        i[3456]86) 
+              case $osname in
+                [Ll]inux) ARCH=i386-linux2.0 ;;
+           CYGWIN_NT-5.*) ARCH=i386-mingw    ;;
+		  Darwin) ARCH=i386-darwin   ;;
+                       *) ARCH=              ;;
+              esac                
+              ;;
+	x86_64)
+	        ARCH=x86_64-linux;;
+	ia64)
+	        ARCH=ia64-linux;;
+	Power*)
+		ARCH=ppc-darwin;;
+        *)  ARCH=     ;;     
+esac
+
+if [ ! -n "$ARCH" ] ; then
+  case $osname in
+    AIX) ARCH=rs6000-aix4.3 ;;
+ IRIX64) ARCH=mips-irix6.5  ;;
+      *) ARCH=              ;;
+  esac
+fi
+
+if [ ! -n "$ARCH" ]; then
+  echo "  $ARCH is not a supported architecture"
+  exit 1
+fi
+
+comp=gcc
+
+if [ "$ARCH" = "x86_64-linux" ]; then
+  comp=gcc64
+fi
+
+if [ -n "$comp" ]; then
+  ARCH=$ARCH-$comp 
+fi
+
+echo "  Configuring for $ARCH."
+echo "ARCH=$ARCH"  >  config/arch
+echo "COMP=$comp"  >> config/arch
+
+# Check if the target directory exists and remove it.
+
+if [ -d targets/$ARCH ]; then 
+  if [ $# != 1 ] ; then
+    cleart=""
+    until [ -n "$cleart" ]; do
+      printf "  Target directory for $ARCH exists! Clear it? (y/N) "
+      read cleart
+      if [ -z "$cleart" ]; then
+        cleart=n
+      fi
+      case $cleart in
+        [Yy]) cleart=y  ;;
+        [Nn]) cleart=n  ;;
+           *) cleart="" ;;
+      esac
+    done
+    if [ $cleart = "y" ]; then
+      echo "  Clearing old target directory for $ARCH"
+      rm -rf targets/$ARCH
+    fi
+  fi
+  if [ $# == 1 ] ; then
+    echo "  Clearing old target directory for $ARCH" 
+    rm -rf targets/$ARCH
+  fi
+fi
+
+
+#
+# Build the target dir
+#
+if [ ! -d targets ]; then 
+  mkdir targets 
+fi 
+
+if [ ! -d "targets/$ARCH" ]; then
+  mkdir targets/$ARCH
+fi
+
+echo
+echo "  Building directory tree."
+
+for DIR in `find $SRCDIRS -type d -print`; do 
+    mkdir targets/$ARCH/$DIR 2>/dev/null
+done 
+
+echo;
+echo "  Build of target directory for $ARCH complete."
+echo
+
+#
+#  Check the status of extern_libs
+#
+echo "  Checking external libraries."
+
+AUXDIR=../../../auxx
+
+if [ ! -d $AUXDIR ]; then
+  svn update -N $AUXDIR
+fi
+
+if [ ! -d $AUXDIR ]; then
+  AUXDIR=../../../../auxx
+  svn update -N $AUXDIR
+fi
+
+EXTERNDIR=$AUXDIR/extern_libs
+
+if [ ! -d $EXTERNDIR ]; then
+  svn update -N $EXTERNDIR
+fi
+
+if [ ! -d "$EXTERNDIR/archive" ]; then
+  svn update -N $EXTERNDIR/archive
+fi
+
+svn update $EXTERNDIR/archive/$ARCH
+
+if [ ! -d "$EXTERNDIR/include" ]; then
+  svn update -N $EXTERNDIR/include
+fi
+
+svn update $EXTERNDIR/include/libxml++
+svn update $EXTERNDIR/include/python1.5
+
+EXTERNBOOSTDIR=$EXTERNDIR/include/boost_1_34_1
+
+if [ "$ARCH" = "i386-mingw-gcc" ]; then
+  EXTERNBOOSTDIR=$EXTERNDIR/include/boost_1_33_1
+fi
+
+if [ "$ARCH" = "ppc-darwin-gcc" ]; then
+  EXTERNBOOSTDIR=$EXTERNDIR/include/boost_1_33_1
+fi
+
+if [ "$ARCH" = "i386-darwin-gcc" ]; then
+  EXTERNBOOSTDIR=$EXTERNDIR/include/boost_1_49_0
+fi
+
+svn update $EXTERNBOOSTDIR
+
+if [ "$ARCH" = "ppc-darwin-gcc" ]; then
+  ranlib $EXTERNDIR/archive/$ARCH/*.a
+fi
+
+if [ "$ARCH" = "i386-darwin-gcc" ]; then
+  ranlib $EXTERNDIR/archive/$ARCH/*.a
+fi
+
+echo "EXTERNDIR=$EXTERNDIR" >> config/arch
+echo
+echo "  Update of extern_libs directory in $EXTERNDIR for $ARCH complete."
+echo
+
+exit 0

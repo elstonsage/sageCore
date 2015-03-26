@@ -1,0 +1,18 @@
+#!/usr/bin/bash
+#============================================================================
+# File:      newexps
+#                                                                          
+# Author:    Dan Baechle
+#                                                                          
+# History:   Created 3/22/02           djb
+#                                                                          
+# Notes:     Script for updating the 'expected' files for runtest15.
+#                                                                          
+# Copyright (c) 2002 R.C. Elston                                           
+# All Rights Reserved                                                    
+#============================================================================
+
+cp testparser.out testparser.out.exp
+cp testparser.inf testparser.inf.exp
+cd ..
+runtest15

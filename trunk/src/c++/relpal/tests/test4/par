@@ -1,0 +1,93 @@
+pedigree,column
+{
+  format="4A5,1X,A1,A3,1X,A1,A2,T31,A1,A6,5A8,T90,30(A3,1X)"
+
+  individual_missing_value="0"
+
+  # Family Structure
+
+  pedigree_id
+  individual_id
+  parent_id
+  parent_id
+  sex_field
+
+  sex_code,male=1,female=2
+
+  # Phenotypes
+
+  phenotype=age
+  covariate=alive,binary,affected=" ",unaffected="D",missing="."
+  phenotype=proband,binary,affected=1,unaffected=0
+  trait=affection,binary,affected="A",unaffected="U"
+  #trait_marker=Dominant
+  #trait_marker=Recessive
+  #trait_marker=Codominant
+
+  trait=EF,missing=" ",covariate=alive
+  trait=Q1,missing=" "
+  trait=Q2,missing=" "
+  trait=Q3,missing=" "
+  trait=Q4,missing=" "
+  trait=Q5,missing=" "
+
+  # Markers
+
+  marker = D5G1
+  marker = D5G2
+  marker = D5G3
+  marker = D5G4
+  marker = D5G5
+  marker = D5G6
+  marker = D5G7
+  marker = D5G8
+  marker = D5G9
+  marker = D5G10
+  marker = D5G11
+  marker = D5G12
+  marker = D5G13
+  marker = D5G14
+  marker = D5G15
+  marker = D5G16
+  marker = D5G17
+  marker = D5G18
+  marker = D5G19
+  marker = D5G20
+  marker = D5G21
+  marker = D5G22
+  marker = D5G23
+  marker = D5G24
+  marker = D5G25
+}
+
+analysis=chr5,output="chr5_sp.out"
+
+mode=multi
+
+analysis=chr5,output="chr5_mp.out"
+
+relpal
+{
+  trait=EF
+  trait=Q2
+
+  second
+  {
+#    marker = D5G4
+#    marker = D5G3
+#    marker = D5G2
+#    marker = D5G1
+  }
+
+  output_options
+  {
+    detailed = true
+#    data = true
+#    debug = true
+  }
+
+  pvalue = true
+  {
+    seed = 100
+  }
+}

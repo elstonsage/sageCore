@@ -1,0 +1,107 @@
+
+
+
+
+============================================================================
+  Tables of Correlations +/- Asymptotic Standard Errors for Main types
+============================================================================
+
+    Number of pedigrees = 207
+    Number of traits    = 2
+
+    Trait(s) : TRAIT1 TRAIT2
+
+    Weight method used for interclass : Equal Weight to Pairs
+    Weight method used for intraclass : Uniform Weight to Pedigrees
+
+    Legend :
+      ------ : Value is not estimable.
+      &&&&&& : Pair count is greater than or equal to 100000.
+      @@@@@@ : Standard error is greater than or equal to 10.0.
+      ###### : Equivalent pair count is greater than or equal to 10000.
+     [StdErr]: Calculated by setting at least one nonestimable required
+               correlation to a value of 0.
+
+============================================================================
+
+Relationship Type : self
+  Subtypes Pooled : male-self
+                    female-self
+
+Total Pairs Found : 857
+
+-----------------------------------------------------------------------------
+                          TRAIT1                          TRAIT2             
+   POOLED    ----------------------------------------------------------------
+               Count  Correlation  P-value     Count  Correlation  P-value   
+              EqvCnt   +/- StdErr             EqvCnt   +/- StdErr            
+-----------------------------------------------------------------------------
+   TRAIT1      857         1.0000  ------      857         0.7014  0.0000 ***
+              ------   +/- ------              758.4   +/- 0.0185            
+-----------------------------------------------------------------------------
+   TRAIT2                                      857         1.0000  ------    
+                                              ------   +/- ------            
+-----------------------------------------------------------------------------
+
+
+Relationship Type : parent:offspring
+  Subtypes Pooled : father:son
+                    mother:son
+                    father:daughter
+                    mother:daughter
+
+Total Pairs Found : 913
+
+-----------------------------------------------------------------------------
+                          TRAIT1                          TRAIT2             
+ INTERCLASS  ----------------------------------------------------------------
+               Count  Correlation  P-value     Count  Correlation  P-value   
+              EqvCnt   +/- StdErr             EqvCnt   +/- StdErr            
+-----------------------------------------------------------------------------
+   TRAIT1      913         0.1851  0.0000 ***  913         0.1446  0.0003 ***
+               593.1   +/- 0.0397              606.6   +/- 0.0398            
+-----------------------------------------------------------------------------
+   TRAIT2      913         0.1169  0.0026 **   913         0.0906  0.0187 *  
+               658.4   +/- 0.0385              673.1   +/- 0.0383            
+-----------------------------------------------------------------------------
+
+
+Relationship Type : sibling
+  Subtypes Pooled : brother:brother
+                    sister:brother
+                    sister:sister
+
+Total Pairs Found : 686
+
+-----------------------------------------------------------------------------
+                          TRAIT1                          TRAIT2             
+ INTRACLASS  ----------------------------------------------------------------
+               Count  Correlation  P-value     Count  Correlation  P-value   
+              EqvCnt   +/- StdErr             EqvCnt   +/- StdErr            
+-----------------------------------------------------------------------------
+   TRAIT1      686         0.2459  0.0000 ***  686         0.1492  0.0023 ** 
+               320.5   +/- 0.0526              415.7   +/- 0.0480            
+-----------------------------------------------------------------------------
+   TRAIT2                                      686         0.2353  0.0000 ***
+                                               327.9   +/- 0.0523            
+-----------------------------------------------------------------------------
+
+
+Relationship Type : mother:father
+  Subtypes Pooled : mother:father
+
+Total Pairs Found : 86
+
+-----------------------------------------------------------------------------
+                          TRAIT1                          TRAIT2             
+ INTERCLASS  ----------------------------------------------------------------
+               Count  Correlation  P-value     Count  Correlation  P-value   
+              EqvCnt   +/- StdErr             EqvCnt   +/- StdErr            
+-----------------------------------------------------------------------------
+   TRAIT1       86        -0.1081  0.3253       86        -0.1469  0.1812    
+                85.1   +/- 0.1078               84.7   +/- 0.1070            
+-----------------------------------------------------------------------------
+   TRAIT2       86        -0.1107  0.3130       86        -0.2206  0.0419 *  
+                85.4   +/- 0.1075               85.3   +/- 0.1038            
+-----------------------------------------------------------------------------
+

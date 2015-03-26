@@ -1,0 +1,67 @@
+
+
+
+===============================
+LODLINK Analysis 1 SUMMARY FILE
+===============================
+
+
+Options Selected
+================
+Main locus type                          trait
+Main locus name                          T1
+
+Lod scores                               yes
+
+  Recombination Fractions Selected
+  ================================
+  Male                 0.3000         0.4000         0.4000         0.4000         0.5000   
+  Female               0.1000         0.0000         0.1000         0.2000         0.1000   
+
+Linkage tests                            yes
+  Sex-specific recombination fractions   yes
+  Assume homogeneity                     yes
+
+Smith's test for homogeneity             no
+
+Morton's test for homogeneity            no
+
+Genotype probabilities                   no
+
+
+Results
+=======
+
+                  Lod Scores                                  
+                  Sex-Specific Recombination Fractions        
+                  Male Recom - 1st Row, Female Recom - 2nd Row
+
+                  0.3000         0.4000         0.4000         0.4000         0.5000         
+Locus             0.1000         0.0000         0.1000         0.2000         0.1000         
+---------------   ------------   ------------   ------------   ------------   ------------   
+M1                    2.346781      -Infinity       2.763772       3.310317       1.939049   
+M2                    2.716724      -Infinity       6.832032       7.111839       6.601359   
+
+
+
+                  MLE                                                         Lod Score and Linkage Test    
+                                                                              Using Recom. Fract. in [0, .5]
+                                                                                                            
+Locus             Male Rc        Female Rc      Male Rc        Female Rc      Lod            Chi            P-Value        P-Value        
+                  Fract in       Fract in       Fract in       Fract in       Score          Square                        Upper          
+                  [0, .5]        [0, .5]        [0, 1]         [0, 1]                        Stat                          Bound          
+---------------   ------------   ------------   ------------   ------------   ------------   ------------   ------------   ------------   
+M1                    0.363356       0.173554           ---            ---        3.462955      15.947499       0.000119       0.000344   
+M2                    0.439584       0.148096           ---            ---        7.852495      36.162077       4.42e-09       1.40e-08   
+
+
+
+                  Cleves-Elston Linkage Test   
+                                               
+                                               
+Locus             Male Rc        Female Rc      Lod            Chi            P-Value        
+                  Fract in       Fract in       Score          Square                        
+                  [0, 1]         [0, 1]                        Stat                          
+---------------   ------------   ------------   ------------   ------------   ------------   
+M1                    0.363356       0.173554       1.094696       5.041261       0.012375   
+M2                    0.439584       0.148096       5.769174      26.568027       1.27e-07   

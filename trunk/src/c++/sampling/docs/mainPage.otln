@@ -1,0 +1,14 @@
+\TITLE\
+Sampling library
+\BRIEF\
+Trait-based sampling mechanisms
+\DOC_NAME\
+sampling_main
+\DETAILED\
+\#.\ What is the sampling library?
+The sampling library is designed to help you read in data from a
+multipedigree and manage the trait data from it. Using the primary class,
+SAGE::SAMPLING::MemberDataSample, you can read in the multipedigree data and
+play around with their traits.
+\#.\ How can I get started using the library?
+Take a look at the documentation for SAGE::SAMPLING::MemberDataSample for more information.

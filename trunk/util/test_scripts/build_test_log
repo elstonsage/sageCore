@@ -1,0 +1,75 @@
+#!/usr/local/bin/python
+
+import sys
+import re
+import os
+
+if(len(sys.argv) == 1):
+
+  print "Usage: build_test_log [db|stats] build_info platform module testname start_time end_time success ]"
+  print "Success codes:"
+  print "  0 - success"
+  print "  1 - execution failure"
+  print "  2 - execution nonfailure"
+  print "  3 - unavailable test directory"
+  print "  4 - test file missing"
+  print "  5 - diffs in output"
+  print  
+
+  sys.exit()
+
+
+
+cmd    = sys.argv[1]
+
+if(len(sys.argv) != 9):
+  print "Usage: build_test_log [db|stats] build_info platform module testname start_time end_time success ]"
+  sys.exit()
+  
+# Note:  Build info identifies the build.  This may be a time stamp, for db access, or
+#        a file where to put the data for stats calls.
+build_info      = sys.argv[2]
+platform        = sys.argv[3]
+module          = sys.argv[4]
+test_name       = sys.argv[5]
+start_time      = sys.argv[6]
+end_time        = sys.argv[7]
+success_code    = int(sys.argv[8])
+
+if(success_code == 0):
+  success = "success"
+elif(success_code == 1):
+  success = "execution failure"
+elif(success_code == 2):
+  success = "execution nonfailure"
+elif(success_code == 3):
+  success = "unavailable test directory"
+elif(success_code == 4):
+  success = "test file missing"
+elif(success_code == 5):
+  success = "diffs in output"
+
+if(cmd == "db"):
+
+#  import MySQLdb
+#  db     = MySQLdb.connect(host = "boxcox.cwru.edu", user = "sage_btl_user", passwd = "juggle")
+#  cursor = db.cursor(cursorclass = MySQLdb.cursors.DictCursor)
+
+  sql_query = "INSERT into sage.build_test_log values(" + \
+              "\"" + build_info                         + "\"," +\
+              "\"" + platform                           + "\"," +\
+              "\"" + module                             + "\"," +\
+              "\"" + test_name                          + "\"," +\
+              "\"" + start_time                         + "\"," +\
+              "\"" + end_time                           + "\"," +\
+              "\"" + success                            + "\")"
+  
+  cursor.execute(sql_query)
+  
+if(cmd == "stats"):
+
+  f=open(build_info, 'a')
+  
+  f.write(module.ljust(15) + ' ' + test_name.ljust(25) + ' ' + success + "\n")
+  
+  f.close()

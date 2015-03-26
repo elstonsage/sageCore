@@ -1,0 +1,402 @@
+
+
+
+Reading Parameter File....................done.
+Reading Marker Locus Description File.....done.
+Reading Trait Model Description File......done.
+Reading Pedigree File.....................
+              from genesis.ped............done.
+Sorting Pedigrees.........................done.
+Reading Genome Description File...........done.
+Beginning new analysis block ...
+
+
+Analysis parsing complete.  Analysis valid.
+------------------------------------------------------------------------------
+
+Processing Analyses....
+
+Running Analysis: MLOD Analysis 1
+==============================================================
+
+Analysis: MLOD Analysis 1
+
+* LOD Score analysis on region (region1) with traits: (SPECIAL_MAR54,
+  SPECIAL_MAR54_T, SPECIAL_MAR101, SPECIAL_MAR101_T, SPECIAL_MAR197,
+  SPECIAL_MAR197_T, UNLINKED, UNLINKED_T)
+
+* Scan markers and intervals at a distance of 0.1
+
+* Maximum 2n-f pedigree size cutoff is 14
+
+* Individual Pedigree LOD scores will be printed for markers and
+  interval locations.
+
+* Output will be sent to files of the form: test.(det,sum)
+
+
+
+
+Generating Valid Pedigree Data Sample......Done.
+
+========================================
+     Analysis Data Sample (summary)
+========================================
+
+-----------------------------------------------------------------
+                                    To Be Analyzed  In Data Set  
+-----------------------------------------------------------------
+  Number of Individuals:                       444  (    827  )  
+  Number of Pedigrees:                          49  (     61  )  
+  Number of Constituent Pedigrees:              49  (     61  )  
+
+Initializing Analysis......................Done.
+Calculating LOD Scores..................
+
+  Generating LOD scores for pedigree 3
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Marker Likelihoods      ....................Done.
+  ==================================================================
+
+  Generating LOD scores for pedigree 4
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Marker Likelihoods      ....................Done.
+  ==================================================================
+
+  Generating LOD scores for pedigree 5
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Marker Likelihoods      ....................Done.
+  ==================================================================
+
+  Generating LOD scores for pedigree 7
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Marker Likelihoods      ....................Done.
+  ==================================================================
+
+  Generating LOD scores for pedigree 8
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Marker Likelihoods      ....................Done.
+  ==================================================================
+
+  Generating LOD scores for pedigree 9
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Marker Likelihoods      ....................Done.
+  ==================================================================
+
+  Generating LOD scores for pedigree 10
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Marker Likelihoods      ....................Done.
+  ==================================================================
+
+  Generating LOD scores for pedigree 11
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Marker Likelihoods      ....................Done.
+  ==================================================================
+
+  Generating LOD scores for pedigree 15
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Marker Likelihoods      ....................Done.
+  ==================================================================
+
+  Generating LOD scores for pedigree 16
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Marker Likelihoods      ....................Done.
+  ==================================================================
+
+  Generating LOD scores for pedigree 18
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Marker Likelihoods      ....................Done.
+  ==================================================================
+
+  Generating LOD scores for pedigree 19
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Marker Likelihoods      ....................Done.
+  ==================================================================
+
+  Generating LOD scores for pedigree 20
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Marker Likelihoods      ....................Done.
+  ==================================================================
+
+  Generating LOD scores for pedigree 22
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Marker Likelihoods      ....................Done.
+  ==================================================================
+
+  Generating LOD scores for pedigree 23
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Marker Likelihoods      ....................Done.
+  ==================================================================
+
+  Generating LOD scores for pedigree 24
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Marker Likelihoods      ....................Done.
+  ==================================================================
+
+  Generating LOD scores for pedigree 25
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Marker Likelihoods      ....................Done.
+  ==================================================================
+
+  Generating LOD scores for pedigree 26
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Marker Likelihoods      ....................Done.
+  ==================================================================
+
+  Generating LOD scores for pedigree 27
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Marker Likelihoods      ....................Done.
+  ==================================================================
+
+  Generating LOD scores for pedigree 28
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Marker Likelihoods      ....................Done.
+  ==================================================================
+
+  Generating LOD scores for pedigree 29
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Marker Likelihoods      ....................Done.
+  ==================================================================
+
+  Generating LOD scores for pedigree 31
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Marker Likelihoods      ....................Done.
+  ==================================================================
+
+  Generating LOD scores for pedigree 32
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Marker Likelihoods      ....................Done.
+  ==================================================================
+
+  Generating LOD scores for pedigree 33
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Marker Likelihoods      ....................Done.
+  ==================================================================
+
+  Generating LOD scores for pedigree 36
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Marker Likelihoods      ....................Done.
+  ==================================================================
+
+  Generating LOD scores for pedigree 38
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Marker Likelihoods      ....................Done.
+  ==================================================================
+
+  Generating LOD scores for pedigree 39
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Marker Likelihoods      ....................Done.
+  ==================================================================
+
+  Generating LOD scores for pedigree 40
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Marker Likelihoods      ....................Done.
+  ==================================================================
+
+  Generating LOD scores for pedigree 42
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Marker Likelihoods      ....................Done.
+  ==================================================================
+
+  Generating LOD scores for pedigree 43
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Marker Likelihoods      ....................Done.
+  ==================================================================
+
+  Generating LOD scores for pedigree 44
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Marker Likelihoods      ....................Done.
+  ==================================================================
+
+  Generating LOD scores for pedigree 45
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Marker Likelihoods      ....................Done.
+  ==================================================================
+
+  Generating LOD scores for pedigree 46
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Marker Likelihoods      ....................Done.
+  ==================================================================
+
+  Generating LOD scores for pedigree 47
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Marker Likelihoods      ....................Done.
+  ==================================================================
+
+  Generating LOD scores for pedigree 48
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Marker Likelihoods      ....................Done.
+  ==================================================================
+
+  Generating LOD scores for pedigree 49
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Marker Likelihoods      ....................Done.
+  ==================================================================
+
+  Generating LOD scores for pedigree 50
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Marker Likelihoods      ....................Done.
+  ==================================================================
+
+  Generating LOD scores for pedigree 51
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Marker Likelihoods      ....................Done.
+  ==================================================================
+
+  Generating LOD scores for pedigree 52
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Marker Likelihoods      ....................Done.
+  ==================================================================
+
+  Generating LOD scores for pedigree 53
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Marker Likelihoods      ....................Done.
+  ==================================================================
+
+  Generating LOD scores for pedigree 54
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Marker Likelihoods      ....................Done.
+  ==================================================================
+
+  Generating LOD scores for pedigree 55
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Marker Likelihoods      ....................Done.
+  ==================================================================
+
+  Generating LOD scores for pedigree 56
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Marker Likelihoods      ....................Done.
+  ==================================================================
+
+  Generating LOD scores for pedigree 57
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Marker Likelihoods      ....................Done.
+  ==================================================================
+
+  Generating LOD scores for pedigree 58
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Marker Likelihoods      ....................Done.
+  ==================================================================
+
+  Generating LOD scores for pedigree 59
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Marker Likelihoods      ....................Done.
+  ==================================================================
+
+  Generating LOD scores for pedigree 60
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Marker Likelihoods      ....................Done.
+  ==================================================================
+
+  Generating LOD scores for pedigree 61
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Marker Likelihoods      ....................Done.
+  ==================================================================
+
+  Generating LOD scores for pedigree 62
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Marker Likelihoods      ....................Done.
+  ==================================================================
+
+LOD Score Calculation complete.
+
+
+

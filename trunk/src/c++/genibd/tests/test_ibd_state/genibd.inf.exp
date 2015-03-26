@@ -1,0 +1,79 @@
+
+
+
+%GENIBD-W: [22] Phenotype (found 'A / 0' at sex-dependent marker 'DXS1297' is
+           inconsistent with the sex of individual '44' in pedigree '8'. 
+           Marker will be set to missing for this individual.
+%GENIBD-W: [22] Phenotype (found 'A / 0' at sex-dependent marker 'DXS1304' is
+           inconsistent with the sex of individual '44' in pedigree '8'. 
+           Marker will be set to missing for this individual.
+%GENIBD-W: [22] Phenotype (found 'A / 0' at sex-dependent marker 'DXS1263' is
+           inconsistent with the sex of individual '44' in pedigree '8'. 
+           Marker will be set to missing for this individual.
+%GENIBD-W: [24] Phenotype (found 'A / 0' at sex-dependent marker 'DXS1297' is
+           inconsistent with the sex of individual '55' in pedigree '8'. 
+           Marker will be set to missing for this individual.
+%GENIBD-W: [24] Phenotype (found 'A / 0' at sex-dependent marker 'DXS1304' is
+           inconsistent with the sex of individual '55' in pedigree '8'. 
+           Marker will be set to missing for this individual.
+%GENIBD-W: [24] Phenotype (found 'A / 0' at sex-dependent marker 'DXS1263' is
+           inconsistent with the sex of individual '55' in pedigree '8'. 
+           Marker will be set to missing for this individual.
+
+Family structure information on the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       SEX       PARENT1       PARENT2     
+     ------------  ------------  --------  ------------  ------------
+     6             1             F         0             0           
+     6             2             M         0             0           
+     6             3             M         1             2           
+     6             4             M         1             2           
+     6             5             F         1             2           
+     6             11            F         0             0           
+     6             22            M         0             0           
+     6             33            M         11            22          
+     6             44            M         11            22          
+     6             55            F         11            22          
+
+
+Markers for the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       D3S1297       D3S1304       D3S1263       DXS1297       DXS1304       DXS1263     
+     ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------
+     6             1             A/B           0/0           0/0           A/B           0/0           0/0         
+     6             2             C/D           0/0           0/0           C/0           0/0           0/0         
+     6             3             A/C           A/C           A/C           A/0           A/0           A/0         
+     6             4             A/D           0/0           0/0           A/0           A/0           A/0         
+     6             5             B/C           0/0           0/0           B/C           B/C           B/C         
+     6             11            A/B           0/0           0/0           A/B           0/0           0/0         
+     6             22            C/D           0/0           0/0           C/0           0/0           0/0         
+     6             33            A/C           A/C           A/C           A/0           A/0           A/0         
+     6             44            A/D           0/0           0/0           A/0           A/0           A/0         
+     6             55            B/C           0/0           0/0           B/C           B/C           B/C         
+
+%GENIBD-W: Pedigree '6' has 2 constituent pedigrees which are disjoint from one
+           another.  This may not be intended.  Results may be incorrect.  See
+           manual for details on constituent pedigrees.
+%GENIBD-I: Mapping function not specified.  Using Haldane Mapping Function.
+%GENIBD-I: Analysis title unspecified.  Will use 'Analysis 1'.
+
+===========================================================================
+Analysis 1 : Multipoint analysis on region (CHR3):
+        * - Maximum size for exact method is set to 18.
+===========================================================================
+
+Processing Region: CHR3
+=======================================
+
+Processing Pedigree 6..............
+
+%GENIBD-I: Pedigree '6' has 2 subpedigrees.  Each will be processed
+           individually.
+%GENIBD-I: Subpedigree 1 of pedigree '6' includes founders (1, 2).
+%GENIBD-I: Subpedigree 2 of pedigree '6' includes founders (11, 22).
+
+Processing Pedigree 7..............
+
+
+Processing Pedigree 8..............
+

@@ -1,0 +1,8 @@
+pedigree,column
+{
+  individual_missing_value="0"
+  sex_code,male="1",female="2"
+  format="A4,1X,A2,T18,A1,T9,A2,1X,A2,T28,1x,a5"
+  marker="marker1"
+}
+

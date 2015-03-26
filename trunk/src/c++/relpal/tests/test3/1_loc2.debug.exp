@@ -1,0 +1,83 @@
+*** current test model ***
+
+==========================
+  Regression model dump  
+==========================
+
+Model name: loc2
+  Model valid!!
+
+Dependent variables:
+ 1 : con_t1  2 : con_t2 
+
+Independent variables - individual level:
+ 1 : INTERCEPT (INTERCEPT(t0,t0))
+ 2 : INTERCEPT (INTERCEPT(t1,t1))
+
+Independent variables - pedigree level:
+ 1 : loc2 ((A+D)GenVar(t0,t0))
+ 2 : loc2 ((A+D)GenVar(t0,t1))
+ 3 : loc2 ((A+D)GenVar(t1,t1))
+ 4 : POLYGENIC_EFF (POLYGENIC_EFF(t0,t0))
+ 5 : POLYGENIC_EFF (POLYGENIC_EFF(t0,t1))
+ 6 : POLYGENIC_EFF (POLYGENIC_EFF(t1,t1))
+ 7 : RANDOM_EFF (RANDOM_EFF(t0,t0))
+ 8 : RANDOM_EFF (RANDOM_EFF(t0,t1))
+ 9 : RANDOM_EFF (RANDOM_EFF(t1,t1))
+
+P-value options:
+ seed = 100
+ replicates = 0
+ min_replicates = 20
+ max_replicates = 10000
+ threshold = 0.05
+ width = 0.2
+ confidence = 0.95
+
+Transform residuals from 1st level to 2nd level
+Variance options:
+ naive_variance = yes
+ sandwich_variance = yes
+ alternative_variance = yes
+ IBD_variance = yes
+
+*** current null model ***
+
+==========================
+  Regression model dump  
+==========================
+
+Model name: 
+  Model valid!!
+
+Dependent variables:
+ 1 : con_t1  2 : con_t2 
+
+Independent variables - individual level:
+ 1 : INTERCEPT (INTERCEPT(t0,t0))
+ 2 : INTERCEPT (INTERCEPT(t1,t1))
+
+Independent variables - pedigree level:
+ 1 : POLYGENIC_EFF (POLYGENIC_EFF(t0,t0))
+ 2 : POLYGENIC_EFF (POLYGENIC_EFF(t0,t1))
+ 3 : POLYGENIC_EFF (POLYGENIC_EFF(t1,t1))
+ 4 : RANDOM_EFF (RANDOM_EFF(t0,t0))
+ 5 : RANDOM_EFF (RANDOM_EFF(t0,t1))
+ 6 : RANDOM_EFF (RANDOM_EFF(t1,t1))
+
+P-value options:
+ seed = 100
+ replicates = 0
+ min_replicates = 20
+ max_replicates = 10000
+ threshold = 0.05
+ width = 0.2
+ confidence = 0.95
+
+Transform residuals from 1st level to 2nd level
+Variance options:
+ naive_variance = yes
+ sandwich_variance = yes
+ alternative_variance = yes
+ IBD_variance = yes
+

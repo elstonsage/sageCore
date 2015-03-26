@@ -1,0 +1,16 @@
+pedigree
+{
+  pedigree_id=PID
+  individual_id=ID
+  sex_field=SEX
+  parent_id=P1
+  parent_id=P2
+  marker=M1
+  marker=M2
+}
+
+lodlink
+{
+  model, marker=M1
+}
+

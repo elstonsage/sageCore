@@ -1,0 +1,67 @@
+
+
+
+Reading Parameter File....................done.
+Reading Pedigree File.....................
+              from ped....................done.
+Sorting Pedigrees.........................done.
+
+Parsing Segreg Analyses...
+
+Beginning new analysis block....
+
+
+Parsing Analysis: 'SEGREG Analysis 1'....
+
+
+Analysis parsing complete.  Analysis valid.
+------------------------------------------------------------------------------
+
+Evaluating pedigrees............Done.
+
+  Performing analysis: SEGREG Analysis 1
+  ===========================================================================
+
+    Setting up initial model..................................
+      Setting to one mean........................................Done.
+      Setting to homog_no_trans..................................Done.
+    Setting up initial model.....................................Done.
+    Maximizing one mean, homog. no transm.....................
+        Testing model............................................Done.
+        Performing Maximization..................................Done.
+        Finalizing Model.........................................Done.
+    Maximizing one mean, homog. no transm........................Done.
+    Maximizing two means, mendelian transm....................
+        Testing Initial Value  1.................................Done.
+        Testing Initial Value  2.................................Done.
+        Testing Initial Value  3.................................Done.
+        Testing Initial Value  4.................................Done.
+        Attempting Initial Value  1..............................Done.
+        Attempting Initial Value  2..............................Done.
+        Attempting Initial Value  3..............................Done.
+        Attempting Initial Value  4..............................Done.
+      Choosing models to finalize...(keeping  4).................Done.
+        Finalizing Model  1......................................Done.
+        Finalizing Model  2......................................Done.
+        Finalizing Model  3......................................Done.
+        Finalizing Model  4......................................Done.
+      Choosing Final Estimates...................................Done.
+    Maximizing two means, mendelian transm.......................Done.
+    Maximizing three means, add., mendelian transm............
+        Testing Initial Value  1.................................Done.
+        Testing Initial Value  2.................................Done.
+        Testing Initial Value  3.................................Done.
+        Attempting Initial Value  1..............................Done.
+        Attempting Initial Value  2..............................Done.
+        Attempting Initial Value  3..............................Done.
+      Choosing models to finalize...(keeping  3).................Done.
+        Finalizing Model  1......................................Done.
+        Finalizing Model  2......................................Done.
+        Finalizing Model  3......................................Done.
+      Choosing Final Estimates...................................Done.
+    Maximizing three means, add., mendelian transm...............Done.
+
+  ===========================================================================
+
+
+

@@ -1,0 +1,71 @@
+=============================
+
+     Parsing information
+
+=============================
+
+===============
+     Trait
+===============
+
+  Trait name  x      
+  Expression  x % 2  
+  Time limit     30  
+  Missing     -9     
+  Binary          1  
+  Affected    1      
+  Unaffected  0      
+  Skip            0  
+
+===============
+     Trait
+===============
+
+  Trait name  x      
+  Expression  x % 2  
+  Time limit     30  
+  Missing     -9     
+  Binary          0  
+  Affected           
+  Unaffected         
+  Skip            1  
+
+===============
+     Trait
+===============
+
+  Trait name  x      
+  Expression  x % 2  
+  Time limit     30  
+  Missing     0      
+  Binary          0  
+  Affected           
+  Unaffected         
+  Skip            1  
+
+===============
+     Trait
+===============
+
+  Trait name  x      
+  Expression  x % 2  
+  Time limit     30  
+  Missing            
+  Binary          1  
+  Affected    1      
+  Unaffected  0      
+  Skip            0  
+
+===============
+     Trait
+===============
+
+  Trait name  y                  
+  Expression  disease + disease  
+  Time limit                 30  
+  Missing     X                  
+  Binary                      1  
+  Affected    1                  
+  Unaffected  0                  
+  Skip                        0  
+

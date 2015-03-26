@@ -1,0 +1,601 @@
+===========================================================================================
+Testing display usage for ruleset:
+=========================
+     ArgumentRuleset
+=========================
+
+------------------------------------------------------------
+  File type                                    Count        
+------------------------------------------------------------
+  Parameter                                    Zero or one  
+  Pedigree Data                                Zero or one  
+  Locus Description                            Zero or one  
+  Genome Description                           Zero or one  
+  Trait Locus Description OR Type Probability  Zero or one  
+  IBD Sharing FIle                             Zero or one  
+
+usage (without flags): foo [parameters]
+usage (with flags): foo [-p parameters] [-d pedigree] [-l locus] [-g genome] [-m trait model] [-i ibd]
+
+Command line parameters:
+  parameters  - Parameter File (optional)
+  pedigree    - Pedigree Data File (optional)
+  locus       - Locus Description File (optional)
+  genome      - Genome Description File (optional)
+  trait model - Trait Locus Description OR Type Probability File (optional)
+  ibd         - IBD Sharing FIle File (optional)
+
+===========================================================================================
+Testing display usage for ruleset:
+=========================
+     ArgumentRuleset
+=========================
+
+------------------------------------------------------------
+  File type                                    Count        
+------------------------------------------------------------
+  Pedigree Data                                One          
+  Parameter                                    Zero or one  
+  Locus Description                            Zero or one  
+  Genome Description                           Zero or one  
+  Trait Locus Description OR Type Probability  Zero or one  
+  IBD Sharing FIle                             Zero or one  
+
+usage (without flags): foo <pedigree> [parameters]
+usage (with flags): foo <-d pedigree> [-p parameters] [-l locus] [-g genome] [-m trait model] [-i ibd]
+
+Command line parameters:
+  pedigree    - Pedigree Data File
+  parameters  - Parameter File (optional)
+  locus       - Locus Description File (optional)
+  genome      - Genome Description File (optional)
+  trait model - Trait Locus Description OR Type Probability File (optional)
+  ibd         - IBD Sharing FIle File (optional)
+
+===========================================================================================
+Testing display usage for ruleset:
+=========================
+     ArgumentRuleset
+=========================
+
+------------------------------------------------------------
+  File type                                    Count        
+------------------------------------------------------------
+  Parameter                                    One          
+  Pedigree Data                                One          
+  Trait Locus Description OR Type Probability  One          
+  Genome Description                           Zero or one  
+
+usage (without flags): foo <parameters> <pedigree> <trait model> [genome]
+usage (with flags): foo <-p parameters> <-d pedigree> <-m trait model> [-g genome]
+
+Command line parameters:
+  parameters  - Parameter File
+  pedigree    - Pedigree Data File
+  trait model - Trait Locus Description OR Type Probability File
+  genome      - Genome Description File (optional)
+
+==============================================================
+Execution test:
+=========================
+     ArgumentRuleset
+=========================
+
+------------------------
+  File type      Count  
+------------------------
+  Parameter      One    
+  Pedigree Data  One    
+
+Run with parameters:  freq param ped
+========================
+     ArgumentsFound
+========================
+
+------------------------
+  File type             
+------------------------
+  Parameter      param  
+  Pedigree Data  ped    
+
+==============================================================
+Execution test:
+=========================
+     ArgumentRuleset
+=========================
+
+------------------------
+  File type      Count  
+------------------------
+  Parameter      One    
+  Pedigree Data  One    
+
+Run with parameters:  freq -p param -d ped
+========================
+     ArgumentsFound
+========================
+
+------------------------
+  File type             
+------------------------
+  Parameter      param  
+  Pedigree Data  ped    
+
+==============================================================
+Execution test:
+=========================
+     ArgumentRuleset
+=========================
+
+------------------------
+  File type      Count  
+------------------------
+  Parameter      One    
+  Pedigree Data  One    
+
+Run with parameters:  freq -d ped -p param
+========================
+     ArgumentsFound
+========================
+
+------------------------
+  File type             
+------------------------
+  Parameter      param  
+  Pedigree Data  ped    
+
+==============================================================
+Execution test:
+=========================
+     ArgumentRuleset
+=========================
+
+------------------------
+  File type      Count  
+------------------------
+  Parameter      One    
+  Pedigree Data  One    
+
+Run with parameters:  freq param
+usage (without flags): foo <parameters> <pedigree>
+usage (with flags): foo <-p parameters> <-d pedigree>
+
+Command line parameters:
+  parameters  - Parameter File
+  pedigree    - Pedigree Data File
+
+========================
+     ArgumentsFound
+========================
+
+-------------
+  File type  
+-------------
+
+==============================================================
+Execution test:
+=========================
+     ArgumentRuleset
+=========================
+
+------------------------
+  File type      Count  
+------------------------
+  Parameter      One    
+  Pedigree Data  One    
+
+Run with parameters:  freq -p param
+usage (without flags): foo <parameters> <pedigree>
+usage (with flags): foo <-p parameters> <-d pedigree>
+
+Command line parameters:
+  parameters  - Parameter File
+  pedigree    - Pedigree Data File
+
+========================
+     ArgumentsFound
+========================
+
+-------------
+  File type  
+-------------
+
+==============================================================
+Execution test:
+=========================
+     ArgumentRuleset
+=========================
+
+------------------------
+  File type      Count  
+------------------------
+  Parameter      One    
+  Pedigree Data  One    
+
+Run with parameters:  freq param ped foo
+========================
+     ArgumentsFound
+========================
+
+------------------------
+  File type             
+------------------------
+  Parameter      param  
+  Pedigree Data  ped    
+
+==============================================================
+Execution test:
+=========================
+     ArgumentRuleset
+=========================
+
+------------------------
+  File type      Count  
+------------------------
+  Parameter      One    
+  Pedigree Data  One    
+
+Run with parameters:  freq
+usage (without flags): foo <parameters> <pedigree>
+usage (with flags): foo <-p parameters> <-d pedigree>
+
+Command line parameters:
+  parameters  - Parameter File
+  pedigree    - Pedigree Data File
+
+========================
+     ArgumentsFound
+========================
+
+-------------
+  File type  
+-------------
+
+==============================================================
+Execution test:
+=========================
+     ArgumentRuleset
+=========================
+
+------------------------------------------------------------
+  File type                                    Count        
+------------------------------------------------------------
+  Parameter                                    One          
+  Pedigree Data                                One          
+  Locus Description                            Zero or one  
+  Trait Locus Description OR Type Probability  Zero or one  
+
+Run with parameters:  freq param ped
+========================
+     ArgumentsFound
+========================
+
+------------------------
+  File type             
+------------------------
+  Parameter      param  
+  Pedigree Data  ped    
+
+==============================================================
+Execution test:
+=========================
+     ArgumentRuleset
+=========================
+
+------------------------------------------------------------
+  File type                                    Count        
+------------------------------------------------------------
+  Parameter                                    One          
+  Pedigree Data                                One          
+  Locus Description                            Zero or one  
+  Trait Locus Description OR Type Probability  Zero or one  
+
+Run with parameters:  freq param ped loc
+========================
+     ArgumentsFound
+========================
+
+----------------------------
+  File type                 
+----------------------------
+  Parameter          param  
+  Pedigree Data      ped    
+  Locus Description  loc    
+
+==============================================================
+Execution test:
+=========================
+     ArgumentRuleset
+=========================
+
+------------------------------------------------------------
+  File type                                    Count        
+------------------------------------------------------------
+  Parameter                                    One          
+  Pedigree Data                                One          
+  Locus Description                            Zero or one  
+  Trait Locus Description OR Type Probability  Zero or one  
+
+Run with parameters:  freq param ped loc tld
+usage (without flags): foo <parameters> <pedigree> [locus]
+usage (with flags): foo <-p parameters> <-d pedigree> [-l locus] [-m trait model]
+
+Command line parameters:
+  parameters  - Parameter File
+  pedigree    - Pedigree Data File
+  locus       - Locus Description File (optional)
+  trait model - Trait Locus Description OR Type Probability File (optional)
+
+========================
+     ArgumentsFound
+========================
+
+-------------
+  File type  
+-------------
+
+==============================================================
+Execution test:
+=========================
+     ArgumentRuleset
+=========================
+
+------------------------------------------------------------
+  File type                                    Count        
+------------------------------------------------------------
+  Parameter                                    One          
+  Pedigree Data                                One          
+  Locus Description                            Zero or one  
+  Trait Locus Description OR Type Probability  Zero or one  
+
+Run with parameters:  freq -p param -d ped
+========================
+     ArgumentsFound
+========================
+
+------------------------
+  File type             
+------------------------
+  Parameter      param  
+  Pedigree Data  ped    
+
+==============================================================
+Execution test:
+=========================
+     ArgumentRuleset
+=========================
+
+------------------------------------------------------------
+  File type                                    Count        
+------------------------------------------------------------
+  Parameter                                    One          
+  Pedigree Data                                One          
+  Locus Description                            Zero or one  
+  Trait Locus Description OR Type Probability  Zero or one  
+
+Run with parameters:  freq -p param -d ped -l locus
+========================
+     ArgumentsFound
+========================
+
+----------------------------
+  File type                 
+----------------------------
+  Parameter          param  
+  Pedigree Data      ped    
+  Locus Description  locus  
+
+==============================================================
+Execution test:
+=========================
+     ArgumentRuleset
+=========================
+
+------------------------------------------------------------
+  File type                                    Count        
+------------------------------------------------------------
+  Parameter                                    One          
+  Pedigree Data                                One          
+  Locus Description                            Zero or one  
+  Trait Locus Description OR Type Probability  Zero or one  
+
+Run with parameters:  freq -p param -d ped -m tld
+========================
+     ArgumentsFound
+========================
+
+------------------------------------------------------
+  File type                                           
+------------------------------------------------------
+  Parameter                                    param  
+  Pedigree Data                                ped    
+  Trait Locus Description OR Type Probability  tld    
+
+==============================================================
+Execution test:
+=========================
+     ArgumentRuleset
+=========================
+
+------------------------------------------------------------
+  File type                                    Count        
+------------------------------------------------------------
+  Parameter                                    One          
+  Pedigree Data                                One          
+  Locus Description                            Zero or one  
+  Trait Locus Description OR Type Probability  Zero or one  
+
+Run with parameters:  freq -p param -d ped -l locus -t tld
+usage (without flags): foo <parameters> <pedigree> [locus]
+usage (with flags): foo <-p parameters> <-d pedigree> [-l locus] [-m trait model]
+
+Command line parameters:
+  parameters  - Parameter File
+  pedigree    - Pedigree Data File
+  locus       - Locus Description File (optional)
+  trait model - Trait Locus Description OR Type Probability File (optional)
+
+========================
+     ArgumentsFound
+========================
+
+-------------
+  File type  
+-------------
+
+==============================================================
+Execution test:
+=========================
+     ArgumentRuleset
+=========================
+
+------------------------------------------------------------
+  File type                                    Count        
+------------------------------------------------------------
+  Parameter                                    One          
+  Pedigree Data                                One          
+  IBD Sharing FIle                             One or more  
+  Locus Description                            Zero or one  
+  Trait Locus Description OR Type Probability  Zero or one  
+
+Run with parameters:  freq param ped
+usage (without flags): foo <parameters> <pedigree> <ibd> ...
+usage (with flags): foo <-p parameters> <-d pedigree> <-i ibd> ... [-l locus] [-m trait model]
+
+Command line parameters:
+  parameters  - Parameter File
+  pedigree    - Pedigree Data File
+  ibd         - IBD Sharing FIle File(s)
+  locus       - Locus Description File (optional)
+  trait model - Trait Locus Description OR Type Probability File (optional)
+
+========================
+     ArgumentsFound
+========================
+
+-------------
+  File type  
+-------------
+
+==============================================================
+Execution test:
+=========================
+     ArgumentRuleset
+=========================
+
+------------------------------------------------------------
+  File type                                    Count        
+------------------------------------------------------------
+  Parameter                                    One          
+  Pedigree Data                                One          
+  IBD Sharing FIle                             One or more  
+  Locus Description                            Zero or one  
+  Trait Locus Description OR Type Probability  Zero or one  
+
+Run with parameters:  freq -p param -d ped
+usage (without flags): foo <parameters> <pedigree> <ibd> ...
+usage (with flags): foo <-p parameters> <-d pedigree> <-i ibd> ... [-l locus] [-m trait model]
+
+Command line parameters:
+  parameters  - Parameter File
+  pedigree    - Pedigree Data File
+  ibd         - IBD Sharing FIle File(s)
+  locus       - Locus Description File (optional)
+  trait model - Trait Locus Description OR Type Probability File (optional)
+
+========================
+     ArgumentsFound
+========================
+
+-------------
+  File type  
+-------------
+
+==============================================================
+Execution test:
+=========================
+     ArgumentRuleset
+=========================
+
+------------------------------------------------------------
+  File type                                    Count        
+------------------------------------------------------------
+  Parameter                                    One          
+  Pedigree Data                                One          
+  IBD Sharing FIle                             One or more  
+  Locus Description                            Zero or one  
+  Trait Locus Description OR Type Probability  Zero or one  
+
+Run with parameters:  freq -p param -d ped -l loc
+usage (without flags): foo <parameters> <pedigree> <ibd> ...
+usage (with flags): foo <-p parameters> <-d pedigree> <-i ibd> ... [-l locus] [-m trait model]
+
+Command line parameters:
+  parameters  - Parameter File
+  pedigree    - Pedigree Data File
+  ibd         - IBD Sharing FIle File(s)
+  locus       - Locus Description File (optional)
+  trait model - Trait Locus Description OR Type Probability File (optional)
+
+========================
+     ArgumentsFound
+========================
+
+-------------
+  File type  
+-------------
+
+==============================================================
+Execution test:
+=========================
+     ArgumentRuleset
+=========================
+
+------------------------------------------------------------
+  File type                                    Count        
+------------------------------------------------------------
+  Parameter                                    One          
+  Pedigree Data                                One          
+  IBD Sharing FIle                             One or more  
+  Locus Description                            Zero or one  
+  Trait Locus Description OR Type Probability  Zero or one  
+
+Run with parameters:  freq -p param -d ped -i ibd1
+========================
+     ArgumentsFound
+========================
+
+---------------------------
+  File type                
+---------------------------
+  Parameter         param  
+  Pedigree Data     ped    
+  IBD Sharing FIle  ibd1   
+
+==============================================================
+Execution test:
+=========================
+     ArgumentRuleset
+=========================
+
+------------------------------------------------------------
+  File type                                    Count        
+------------------------------------------------------------
+  Parameter                                    One          
+  Pedigree Data                                One          
+  IBD Sharing FIle                             One or more  
+  Locus Description                            Zero or one  
+  Trait Locus Description OR Type Probability  Zero or one  
+
+Run with parameters:  freq -p param -d ped -i ibd1 -i ibd2
+========================
+     ArgumentsFound
+========================
+
+---------------------------------
+  File type                      
+---------------------------------
+  Parameter         param        
+  Pedigree Data     ped          
+  IBD Sharing FIle  ibd1   ibd2  
+

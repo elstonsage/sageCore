@@ -1,0 +1,67 @@
+
+
+
+==============================================================================
+  Haseman-Elston Regression Analysis of Full Sibs
+  - single marker regression
+==============================================================================
+
+    Continuous trait : Trait1
+
+    Dependent variate : Mean-corrected trait cross-product
+
+    w1 : 0.5
+
+    Other options used :
+      Identity weights = no
+      Robust variance  = no
+      Use sibship mean = no
+      Use BLUP mean    = yes
+
+    Legend :
+      Note - kurtosis = coefficient of kurtosis - 3
+      *   - significance  .05 level;
+      **  - significance  .01 level;
+      *** - significance .001 level;
+      #   - Negative intercept set to 0;
+
+==============================================================================
+Test  Independent                                                 Nominal     
+No.   variable          Pairs   Parameter    Estimate Std Error   P-value     
+----- ----------------- ----- ----------- ----------- --------- ---------     
+1     Marker               22 (A+D)GenVar     1.3623 #   0.9301 0.0788922     
+==============================================================================
+
+
+==============================================================================
+  Haseman-Elston Regression Analysis of Full Sibs
+  - single marker regression
+==============================================================================
+
+    Continuous trait : Trait1
+
+    Dependent variate : Mean-corrected trait cross-product
+
+    w1 : 0.5
+
+    Other options used :
+      Identity weights = no
+      Robust variance  = no
+      Use sibship mean = no
+      Use BLUP mean    = yes
+
+    Legend :
+      Note - kurtosis = coefficient of kurtosis - 3
+      *   - significance  .05 level;
+      **  - significance  .01 level;
+      *** - significance .001 level;
+      #   - Negative intercept set to 0;
+
+==============================================================================
+Test  Independent                                                 Nominal     
+No.   variable          Pairs   Parameter    Estimate Std Error   P-value     
+----- ----------------- ----- ----------- ----------- --------- ---------     
+1     Marker               22 (A+D)GenVar     1.3623 #   0.9301 0.0788922     
+==============================================================================
+
+

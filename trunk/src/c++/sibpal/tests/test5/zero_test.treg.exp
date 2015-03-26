@@ -1,0 +1,35 @@
+
+
+
+==============================================================================
+  Haseman-Elston Regression Analysis of Full Sibs
+  - zero marker regression
+==============================================================================
+
+    Binary trait : affection, affected = 'A' , unaffected = 'U'
+
+    Dependent variate : Squared trait difference
+
+    w1 : 0.5
+
+    Other options used :
+      Identity weights = no
+      Robust variance  = no
+      Use sibship mean = no
+      Use BLUP mean    = yes
+
+    Legend :
+      Note - kurtosis = coefficient of kurtosis - 3
+      *   - significance  .05 level;
+      **  - significance  .01 level;
+      *** - significance .001 level;
+      #   - Negative intercept set to 0;
+
+==============================================================================
+Test  Independent                                                 Nominal     
+No.   variable          Pairs   Parameter    Estimate Std Error   P-value     
+----- ----------------- ----- ----------- ----------- --------- ---------     
+1     EF                   28 Cov,prod       -0.0001     0.0001 0.3503633     
+==============================================================================
+
+

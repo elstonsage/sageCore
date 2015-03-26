@@ -1,0 +1,20 @@
+#3-27-02 Parameter for markerinfo v4. 
+
+pedigree
+{
+	delimiters="\t"
+
+	sex_code,male="1",female="2",missing="9"
+	individual_missing_value=" "
+
+   	pedigree_id=FamID
+	individual_id=InvID
+	phenotype=Proband,binary,affected="1",unaffected="0"
+	sex_field=Sex
+	parent_id=MID
+	parent_id=DID
+	
+#	require_record="true"
+
+	verbose=1000
+}

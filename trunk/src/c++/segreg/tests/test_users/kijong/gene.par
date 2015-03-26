@@ -1,0 +1,89 @@
+pedigree,column
+{
+format="13(a8)"
+pedigree_id
+individual_id
+parent_id
+parent_id
+Sex_field
+individual_missing_value="."
+sex_code,male="1",female="0",missing="2"
+covariate=sex_,missing="2"
+covariate=age,missing="."
+covariate=smoke,missing="."
+covariate=finalt,missing="."
+trait=o2sick,missing="."
+trait=o2pure,missing="."
+trait=N1_o2sick,missing="."
+trait=N2_o2sick,missing="."
+}
+#function
+#{
+ # covariate=
+ # covariate=product_all, expression="smoke*cougham*coughall*coughyr*phlegmam*phlegmal*phlegmyr*finalt"
+#}
+
+pedinfo_analysis
+{
+each_pedigree=true
+#covariate=smoke
+trait=o2sick
+}
+
+
+segreg_analysis, out="gene"
+{
+  trait=N2_o2sick,type="continuous"
+  class=D
+  
+  type_mean
+  {
+    option=two
+    mean="A*",val=79.075
+    mean="BB",val=89.233
+  }
+
+  type_var
+  {
+    option=one
+    var="**", val=7.87599
+  }
+
+  mean_cov
+  {
+    covariate=sex_, val=0.0284021
+    covariate=smoke, val=-0.447616
+    covariate=finalt, val=0.00051934
+  }
+
+  resid
+  {
+    option=equal_po
+    fm, fixed=false, val=0.146261
+    mo, val=0.125893
+    ss, val=0.233615
+  }
+  
+  transformation
+  {
+   option=box_cox
+   lambda1, val=5.55663, fixed=false
+   lambda2, val=0.0, fixed=true 
+ }
+
+  geno_freq
+  {
+   option="hwe"
+
+   freq_A=0.5
+  }
+
+ transmission
+ {
+   option=homog_general
+   tau="AA",val=0.9
+   tau="AB",val=-1.68879
+   tau="BB",val=0.1
+ } 
+
+}

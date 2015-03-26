@@ -1,0 +1,32 @@
+\TITLE\
+Func
+\BRIEF\
+Creation of new variables from phenotypes and covariates in the user
+supplied data
+\DOC_NAME\
+func_main
+\DETAILED\
+
+In addition to expressions that can be expressed in the Python programming
+language, func supplies special functions which can be applied to markers. 
+There are also funtions for standardizing and windsorizing user supplied
+variables.  See S.A.G.E. User Document for more details.
+
+\#.\ func - how it works
+
+The classes in the func library allow users of S.A.G.E. applications to
+create arbitrary functions of the input data that they supply in the
+pedigree data file by specifying expressions in the parameter file.  The
+func library classes use the Python language interpreter to parse these
+expressions.  They compare the variable names in the data structure
+resulting from the parsing with variable names in the pedigree data file. 
+Where a matches are found, values of the variables are supplied to the Python
+environment for each record in the data file.  Python is invoked to evaluate
+the expression and the result is used to populate the new variable in
+RefPedinfo objects.
+
+\#.\ using the func classes.
+
+Any application which uses a class that inherits from SAGE_Data to process
+user supplied data will have the "func" capability.
+

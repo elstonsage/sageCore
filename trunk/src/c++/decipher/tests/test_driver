@@ -1,0 +1,41 @@
+#!/usr/local/bin/python
+#============================================================================
+# File:      test_driver
+#                                                                          
+# Author:    Dan Baechle
+#                                                                          
+# History:   Created 7/1/5
+#                                                                          
+# Notes:     Simulate data, run Decipher and analyze results.
+#
+# Usage:     test_driver <family> 
+#
+#============================================================================
+
+import sys
+import os
+
+
+# - simulate data.
+#
+cmd = ''
+
+if sys.argv[1] == 'family':
+  cmd += '../simulate_fam > ped'
+else:
+  cmd += '../simulate_unr > ped'
+  
+print cmd
+os.system(cmd)  
+
+# - run Decipher.
+#
+cmd = '../../decipher par ped gen > /dev/null'
+print cmd
+os.system(cmd)
+
+# - analyze results.
+#
+cmd = '../analyzer counts.log decipher_analysis1.sum'
+print cmd
+os.system(cmd)

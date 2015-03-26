@@ -1,0 +1,111 @@
+#!/usr/local/bin/python
+
+import os
+import sys
+import stat
+import string
+import time
+import common
+
+pwd = os.environ['PWD']
+sys.path.append(pwd)
+
+if __name__ == '__main__':
+
+  args, quiet, nlist = common.get_options()
+
+  record = 0
+
+  if len(args) != 0 :
+    if len(args) == 1 :
+      if(args[0] == "record"):
+        record = 1
+    else:
+      print "  Error:  No arguments expected!"
+      sys.exit(1)
+
+  if quiet == 0 :
+    print
+    print "S.A.G.E. 6.x Run Source Test"
+    print
+    print "This script runs the 'make test' in all listed subdirectories"
+    print "and compares against a common base."
+    print
+
+  common.check_directory()
+
+  os.chdir("src/c++")
+
+  # Determine time and date for filenames
+
+  logname = "%s-%s.test" % (common.osystem, common.compiler)
+
+  logfname    = '../../util/build_scripts/logs/%s.%s.log' % (common.date, logname)
+  logfname    = os.path.abspath(logfname)
+  
+  statsfname  = '../../util/build_scripts/logs/%s.%s.stats' % (common.date, logname)
+  statsfname  = os.path.abspath(statsfname)
+  
+  expfname = '../../util/build_scripts/exp/%s.log' % (logname)
+
+  difffile = '../../util/build_scripts/testdiffs'
+  
+  os.system('rm ' + logfname   + ' >/dev/null 2>/dev/null')
+  os.system('rm ' + statsfname + ' >/dev/null 2>/dev/null')
+
+  # Run the test
+  
+  cmd = 'make BUILD=RELEASE '
+  
+  if(record):
+    timestamp = time.strftime("%Y.%m.%d %H:%M:%S")
+    cmd = cmd + 'SAGE_TIME_STAMP="%s"' % timestamp
+
+  cmd = cmd + ' SAGE_TEST_STATS="%s"' % statsfname
+  cmd = cmd + ' test 2>&1 | tee %s' % (logfname)
+  
+  if(os.system(cmd)):
+    print "  Source Test:  COMPILE FAILURE!"
+    common.mail_file(fname, "Compile Failure in Sourcetest: %s" % (common.date), nlist)
+
+  # modify the log removing certain problematic strings
+
+  common.remove_absolute_path                  (logfname)
+  common.remove_recompiling_messages_and_flags (logfname)
+  common.remove_test_timing                    (logfname)
+
+  # Check the log versus the expected log
+
+  #if common.osystem != "SunOS" :
+  #  command = "diff -u"
+  #else:
+  #  command = "/usr/local/bin/diff -u"
+  command = "diff -u"
+
+  if (os.system('%s ../../util/build_scripts/exp/test.stats %s >%s' % (command, statsfname, difffile))):
+    results = os.stat(difffile)
+
+    if(results[stat.ST_SIZE] != 0):
+      print "  Source Test:  FAILURE!"
+      common.mail_file(difffile, "Failed Sourcetest: %s" % (common.date), nlist)
+    else:
+      print "Unable to find expected test status file.  Test Aborted."
+    
+    sys.exit(1)
+
+  if (os.system('%s  %s %s >%s' % (command, expfname, logfname, difffile))):
+    results = os.stat(difffile)
+
+    if(results[stat.ST_SIZE] != 0):
+      print "  Diffs in test logs!"
+      common.mail_file(difffile, "Test Log Diff: %s" % (common.date), nlist)
+    else:
+      print "Unable to find expected test log file.  Test Aborted."
+    
+    sys.exit(1)
+
+  print "SUCCESS!"
+
+  os.system('rm %s' %(difffile))
+
+  sys.exit(0)

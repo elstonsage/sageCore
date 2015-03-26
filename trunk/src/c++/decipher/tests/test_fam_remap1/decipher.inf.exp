@@ -1,0 +1,55 @@
+
+
+
+
+Family structure information on the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       SEX       PARENT1       PARENT2     
+     ------------  ------------  --------  ------------  ------------
+     1             1             1         0             0           
+     1             2             2         0             0           
+     1             3             1         1             2           
+     1             4             1         1             2           
+     1             5             2         0             0           
+     1             6             1         4             5           
+     2             1             1         0             0           
+
+
+Phenotypes for the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       SEX_CODE              FAMILIAL_INDICATOR    FOUNDER_INDICATOR     PEDIGREE_SIZE         rep                 
+     ------------  ------------  --------------------  --------------------  --------------------  --------------------  --------------------
+     1             1             0                     1                     1                     6                     1                   
+     1             2             1                     1                     1                     6                     2                   
+     1             3             0                     1                     0                     6                     3                   
+     1             4             0                     1                     0                     6                     4                   
+     1             5             1                     1                     1                     6                     5                   
+     1             6             0                     1                     0                     6                     6                   
+     2             1             0                     0                     1                     1                     6                   
+
+
+Markers for the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       m1            m2            m3            m4          
+     ------------  ------------  ------------  ------------  ------------  ------------
+     1             1             0/0           1/1           1/1           1/1         
+     1             2             0/0           1/1           1/1           1/1         
+     1             3             0/0           1/1           1/1           1/1         
+     1             4             0/0           1/1           1/1           1/1         
+     1             5             0/0           1/1           1/1           1/1         
+     1             6             0/0           1/1           1/1           1/1         
+     2             1             1/2           1/1           1/1           1/1         
+
+%DECIPHER-W: Marker 'm2' has only one allele.  This marker will be unavailable
+             for all analyses.
+%DECIPHER-W: Marker 'm4' has only one allele.  This marker will be unavailable
+             for all analyses.
+%DECIPHER-W: Marker 'm3' has only one allele.  This marker will be unavailable
+             for all analyses.
+%DECIPHER-I: Mapping function not specified.  Using Haldane Mapping Function.
+%DECIPHER-W: Marker 'm2' not found.  Marker will not be used for analysis.
+%DECIPHER-W: Marker 'm3' not found.  Marker will not be used for analysis.
+%DECIPHER-W: Marker 'm4' not found.  Marker will not be used for analysis.
+%DECIPHER-E: Fewer that two valid loci specified for haplotype region 'all'. 
+             Skipping region ...
+%DECIPHER-C: No valid region given.  Skipping analysis ...

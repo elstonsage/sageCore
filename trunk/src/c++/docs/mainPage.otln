@@ -1,0 +1,205 @@
+\TITLE\
+
+\DOC_NAME\
+main_source
+\BRIEF\
+
+\par Introduction
+
+The S.A.G.E. source tree comprises all the c++ code used to create the S.A.G.E.
+software.  The source is divided into a set of modules, each module having a
+specific purpose.  These modules can be grouped into eight general categories or layers
+which describe their role in the S.A.G.E. source.
+
+Typically, a layer may have dependencies on layers with a lower index than it.  A layer may
+only have dependencies with a higher layer for testing purposes, and it should be
+possible (though not always convenient) to use the layer independent of higher layers.
+Some layers are not dependent upon layers immediately before them.  In this case, these
+layers are 'siblings' and may be included or excluded at need.
+
+Modules within layers may have dependencies upon other modules within the layer or
+with modules in lower layers.  Cross dependencies within a layer are permissible, though
+vigorously discouraged.  Cross depedencies between layers are not permissable.
+
+The layers and their associated libraries are as follows:
+
+<table>
+    <tr>
+        <td> \b Layer </td>
+        <td> \b Description </td>
+        <td> \b Libraries \b Included </td>
+    </tr>
+    <tr>
+        <td> \ref main_source_1_ </td>
+        <td>
+             Core Libraries used by the vast majority of S.A.G.E. programs</td>
+        <td>
+\generate_lib_list CORE
+        </td>
+    </tr>
+        <tr>
+        <td> \ref main_source_2_ </td>
+        <td>
+             Generic (non-S.A.G.E. specific) libraries of useful tools.
+        </td>
+        <td>
+\generate_lib_list TOOLS
+        </td>
+    </tr>
+    <tr>
+        <td> \ref main_source_3_ </td>
+        <td>
+             Libraries for the storage of pedigree and related data.
+        </td>
+        <td>
+\generate_lib_list PEDIGREE_DATA
+        </td>
+    </tr>
+    <tr>
+        <td> \ref main_source_4_ </td>
+        <td>
+             Libraries for the removal of unusable data prior to or during analysis.
+        </td>
+        <td>
+\generate_lib_list DATA_CLEANING
+        </td>
+    </tr>
+    <tr>
+        <td> \ref main_source_5_ </td>
+        <td>
+             Algorithmic libraries which operate on pedigree data structures
+        </td>
+        <td>
+\generate_lib_list PEDIGREE_ALGS
+        </td>
+    <tr>
+        <td> \ref main_source_6_ </td>
+        <td>
+             Non-Pedigree specific Algorithmic libraries
+        </td>
+        <td>
+\generate_lib_list ALGORITHMS
+        </td>
+    <tr>
+        <td> \ref main_source_7_ </td>
+        <td>
+             APIs for internal algorithms
+        </td>
+        <td>
+\generate_lib_list APIS
+        </td>
+    <tr>
+        <td> \ref main_source_8_ </td>
+        <td>
+             S.A.G.E. applications
+        </td>
+        <td>
+\generate_lib_list APPLICATIONS
+        </td>
+    </tr>
+</table>
+
+\DETAILED\
+
+\#.\ Core
+
+\#.#.\ Preface
+
+The Core Libraries are those libraries common to all S.A.G.E. development, forming
+the bedrocvk upon which S.A.G.E sits.
+This includes libraries for error handling, application development, parsing,
+and numeric computation.
+
+\#.#.\ Library Definition
+
+\generate_lib_table CORE
+
+\#.\ Tools
+
+\#.#.\ Preface
+
+The Tools Libraries provide commonly required, though not always needed tools for
+development.  These are slighlyt more complex than Core libraries, and often
+use many of the Core libraries in their frameworks.
+
+\#.#.\ Library Definition
+
+\generate_lib_table TOOLS
+
+\#.\ Pedigree Data
+
+\#.#.\ Preface
+
+The Pedigree Data libraries are primarily concerned with the storage of genetic data
+related to pedigrees.  This includes not just pedigree libraries, but also marker,
+genome and pair data.  Most S.A.G.E. programs will make heavy use of these libraries.
+
+\#.#.\ Library Definition
+
+\generate_lib_table PEDIGREE_DATA
+
+\#.\ Data Cleaning
+
+\#.#.\ Preface
+
+Data Cleaning libraries deal with the common problem that user-supplied data is
+rarely completely consistent with the constraints necessary to perform a particular
+analysis.  In such cases, the data must be 'cleaned', all data which cannot be
+used by an analysis must be excised from the data set.  Some common constraints could
+be that pedigrees must not have loops, that an individual's data must be complete,
+or that individuals must be informative under some analysis-specific criteria.
+
+When cleaning, data is often modified.  Covariate centering and standardization is
+common, for example.  Such routines are also within the spectrum of the Data Cleaning
+libraries.
+
+\#.#.\ Library Definition
+
+\generate_lib_table DATA_CLEANING
+
+\#.\ Pedigree Algorithms
+
+\#.#.\ Preface
+
+Pedigree algorithm libraries perform specific operations upon pedigree data structures.
+These are not quite full analyses in themselves, but are tools for generating
+the data which is directly analyzed.
+
+\#.#.\ Library Definition
+
+\generate_lib_table PEDIGREE_ALGS
+
+\#.\ General Algorithms
+
+\#.#.\ Preface
+
+These algorithmic libraries perform algorithms which are not pedigree specific.  They
+are generally used as an integral part of analyses /i on pedigrees, but have
+no knowlege of or need to know about pedigrees themselves.
+
+\#.#.\ Library Definition
+
+\generate_lib_table ALGORITHMS
+
+\#.\ APIs
+
+\#.#.\ Preface
+
+APIs provide more polished interfaces to common algorithms
+
+\#.#.\ Library Definition
+
+\generate_lib_table APIS
+
+\#.\ Applications
+
+\#.#.\ Preface
+
+Where the agorithms and data structures provided in lower layers come together to
+perform a coherent analysis.  Applications are final programs that are released with
+S.A.G.E.
+
+\#.#.\ Library Definition
+
+\generate_lib_table APPLICATIONS
+

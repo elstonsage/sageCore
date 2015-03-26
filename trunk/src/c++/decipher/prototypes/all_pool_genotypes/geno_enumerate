@@ -1,0 +1,43 @@
+#!/usr/local/bin/python
+#============================================================================
+# File:      geno_enumerate
+#                                                                          
+# Author:    Dan Baechle
+#                                                                          
+# History:   2/2/6    Created.
+#                                                                          
+# Notes:     Given a set of alleles at a locus and the number of
+#            chromosomes, enumerate all possible genotypes.      
+#             
+#============================================================================
+
+import sys
+import os
+from copy import copy
+from string import join
+
+
+alleles = ['1', '2', '3', '4']
+k = 6
+
+def geno_enumerate(alleles, k, genotypes):
+  for allele in alleles:
+    genotype = [allele]
+    enumerate(alleles, k, genotype, genotypes)
+      
+def enumerate(alleles, k, genotype, genotypes):
+  if len(genotype) == k:
+    genotypes.append(genotype)
+    
+  else:
+    for allele in [allele for allele in alleles if allele >= genotype[-1]]:
+      new_genotype = copy(genotype)
+      new_genotype.append(allele)
+      enumerate(alleles, k, new_genotype, genotypes)
+         
+         
+genotypes = []
+geno_enumerate(alleles, k, genotypes)
+for genotype in genotypes:
+  print join(genotype, '-')
+  

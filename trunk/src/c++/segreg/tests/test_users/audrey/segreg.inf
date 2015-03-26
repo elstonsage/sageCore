@@ -1,0 +1,55 @@
+S.A.G.E. v4.0 (internal alpha 2) -- SEGREG  
+COPYRIGHT (C) 2002 CASE WESTERN RESERVE UNIVERSITY
+
+
+Family structure information on the first 10 individuals read from file: ped.dbh
+
+     PED. ID       IND. ID       SEX       PARENT1       PARENT2    
+     ------------  ------------  --------  ------------  -----------
+     1             1             1         0             0           
+     1             2             2         0             0           
+     1             3             1         0             0           
+     1             4             2         0             0           
+     1             5             2         1             2           
+     1             7             2         1             2           
+     1             8             1         3             4           
+     1             9             2         3             4           
+     1             10            1         0             0           
+     1             11            1         3             4           
+
+
+Phenotypes for the first 10 individuals read from file: ped.dbh
+
+     PED. ID       IND. ID       dbh                   cov1                  cov2                  cov3                  sqrtdbh               comt                  covabo              
+     ------------  ------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------
+     1             1             -1                    1                     0                     0                     -1                    -1                    0                   
+     1             2             -1                    1                     0                     0                     -1                    -1                    0                   
+     1             3             -1                    1                     0                     0                     -1                    -1                    0                   
+     1             4             -1                    1                     0                     0                     -1                    -1                    0                   
+     1             5             2.45                  1                     0                     0                     1.56525               -1                    1                   
+     1             7             -1                    1                     0                     0                     -1                    -1                    0                   
+     1             8             -1                    1                     0                     0                     -1                    -1                    0                   
+     1             9             6.73                  1                     0                     0                     2.59422               6.12                  6                   
+     1             10            11.18                 1                     0                     0                     3.34365               5.74                  6                   
+     1             11            -1                    1                     0                     0                     -1                    -1                    0                   
+
+
+Parsing Segreg Analyses...
+
+Beginning new analysis block....
+
+
+Parsing Analysis: 'SEGREG Analysis 1'....
+
+
+Analysis parsing complete.  Analysis valid.
+------------------------------------------------------------------------------
+
+  Performing analysis: SEGREG Analysis 1
+  ===========================================================================
+
+  Performing Mean Maximization (target model: one mean)
+    Setting up initial model.................Done.
+    Maximizing one-mean model.............
+        Testing model........................Done.
+        Performing Maximization...........

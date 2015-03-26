@@ -1,0 +1,11 @@
+genome
+{
+  region=all
+  {
+    marker=m1
+    distance=1
+    marker=m2
+    distance=1
+    marker=m3
+  }
+}

@@ -1,0 +1,41 @@
+This test tests the filtration of RefMultiPedigree and FilteredMultipedigree data
+structures into new FilteredMultipedigree.  To make it a reasonable test, primarily
+of the specialized structural filters, a variety of test pedigrees are used.
+The details of these test cases:
+
+100 series: Single nuclear famly with a single offspring.  The second two
+            digits of the pedigree name determines the number of people affected,
+            with the first digit indicating number of parents, the second number
+            of children (thus, 100, 101, 110, 111, 120, 121).  All cases checked.
+200 series: Similar to 100 series, but with two offspring.  All options checked.
+300 series: Cousin pair pedigree.  Tests done for no informative people (300),
+            a pair of informative cousins (302), a grandparental pair (311), and 
+            informative cousins with one informative grandparent (312).
+402       : An informative half-sib pair.
+500 series: Three tests involving a pedigree with an individual and their parents
+            and grandparents.  Test1 is an informative mating pair (parents),
+            Test2 is one grandparents and the unrelated parent, and test 3 is
+            two unrelated (ie, not mated) grandparents.
+602       : A single second cousin test.
+701       : A complex pedigree with two, disjoint, informative sections.
+801       : A pedigree with 10 3-sib nuclear families, all independent.  These
+            10 each have different informativity options, with 0-3 sibs informative
+            and 0-2 parents informative.  0 sibs informative is only checked in the
+            case of two informative parents (thus only 10 options rather than 12)
+900       : 8 person pedigree with a 2 sib nuclear family (both sibs informative),
+            and four unconnecteds, 2 of which are informative.
+            
+We do the following tests:
+
+RefMultiPedigree : Filter the above MP with filters for all members, informative 
+                   members and structurally informative members (using the 
+                   is_inf_within_subped functor).
+RefPedigree      : Filter the above pedigrees with filters for all members, informative 
+                   members and structurally informative members (using the 
+                   is_inf_within_subped functor).
+RefFamily        : Filter each family in the above pedigrees with filters for 
+                   all members, informative members and family having an 
+                   informative sibling pair (using the is_family_sib_pair_inf 
+                   functor).
+
+FilteredMultipedigree :

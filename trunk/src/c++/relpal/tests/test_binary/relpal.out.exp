@@ -1,0 +1,28 @@
+
+
+
+====================================================================================
+  Two-Level Haseman-Elston Regression Analysis for General Pedigree 
+
+  - First (Individual) Level Wald Tests Summary Output
+====================================================================================
+
+  Traits : (1) - aff, Binary, affected = '1' , unaffected = '0'
+           (2) - SEX_CODE, Binary, affected = '0' , unaffected = '1'
+           (3) - halfsib, Quantitative
+
+  Legend :
+    *   - significance  .05 level
+    **  - significance  .01 level
+    *** - significance .001 level
+
+====================================================================================
+Test                                        Nominal    
+No   Variable             Count   Chi-sq.   P-value    
+------------------------- ----- --------- ---------    
+1    age                    565  252.0386 0.0000000 ***
+2    ATA103C06_ADD_245      566    1.6421 0.6498907    
+3    ATA34E08_ADD_161       553    2.0028 0.5718203    
+====================================================================================
+
+

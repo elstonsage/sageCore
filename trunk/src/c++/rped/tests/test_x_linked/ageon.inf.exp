@@ -1,0 +1,281 @@
+
+
+
+%AGEON-W: The sex of individual '1' in pedigree '4' is believed to be female. 
+          Sex code will be reset.
+%AGEON-W: The sex of individual '2' in pedigree '4' is believed to be female. 
+          Sex code will be reset.
+%AGEON-W: The sex of individual '3' in pedigree '4' is believed to be female. 
+          Sex code will be reset.
+%AGEON-W: The sex of individual '4' in pedigree '4' is believed to be female. 
+          Sex code will be reset.
+%AGEON-W: The sex of individual '5' in pedigree '4' is believed to be female. 
+          Sex code will be reset.
+%AGEON-W: The sex of individual '6' in pedigree '4' is believed to be female. 
+          Sex code will be reset.
+%AGEON-W: The sex of individual '7' in pedigree '4' is believed to be female. 
+          Sex code will be reset.
+%AGEON-W: The sex of individual '8' in pedigree '4' is believed to be female. 
+          Sex code will be reset.
+%AGEON-W: The sex of individual '1' in pedigree '5' is believed to be male. 
+          Sex code will be reset.
+%AGEON-W: The sex of individual '2' in pedigree '5' is believed to be male. 
+          Sex code will be reset.
+%AGEON-W: The sex of individual '3' in pedigree '5' is believed to be male. 
+          Sex code will be reset.
+%AGEON-W: The sex of individual '4' in pedigree '5' is believed to be male. 
+          Sex code will be reset.
+%AGEON-W: The sex of individual '5' in pedigree '5' is believed to be male. 
+          Sex code will be reset.
+%AGEON-W: The sex of individual '6' in pedigree '5' is believed to be male. 
+          Sex code will be reset.
+%AGEON-W: The sex of individual '7' in pedigree '5' is believed to be male. 
+          Sex code will be reset.
+%AGEON-W: The sex of individual '8' in pedigree '5' is believed to be male. 
+          Sex code will be reset.
+%AGEON-W: [6] Phenotype 'A/M' at sex-dependent marker 'M1' is inconsistent with
+          the sex of individual '5' in pedigree '1'.  Marker will be set to
+          missing for this individual.
+%AGEON-W: [7] Phenotype 'M/A' at sex-dependent marker 'M1' is inconsistent with
+          the sex of individual '6' in pedigree '1'.  Marker will be set to
+          missing for this individual.
+%AGEON-W: [8] Phenotype 'A/~Y' at sex-dependent marker 'M1' is inconsistent
+          with the sex of individual '7' in pedigree '1'.  Marker will be set
+          to missing for this individual.
+%AGEON-W: [9] Unrecognized value for marker 'M1' of individual '8' in pedigree
+          '1': Found '~Y/~Y'. Marker will be set to missing for this individual
+          .
+%AGEON-W: [11] Phenotype '1/2' at sex-dependent marker 'M1' is inconsistent
+          with the sex of individual '2' in pedigree '2'.  Marker will be set
+          to missing for this individual.
+%AGEON-W: [17] Unrecognized value for marker 'M1' of individual '8' in pedigree
+          '2': Found '~Y/~Y'. Marker will be set to missing for this individual
+          .
+%AGEON-W: [18] Marker 'M1' is sex-dependent, but the individual '1' in pedigree
+          '3' has unknown sex.  Marker will be set to missing for this
+          individual.
+%AGEON-W: [19] Marker 'M1' is sex-dependent, but the individual '2' in pedigree
+          '3' has unknown sex.  Marker will be set to missing for this
+          individual.
+%AGEON-W: [22] Marker 'M1' is sex-dependent, but the individual '5' in pedigree
+          '3' has unknown sex.  Marker will be set to missing for this
+          individual.
+%AGEON-W: [23] Marker 'M1' is sex-dependent, but the individual '6' in pedigree
+          '3' has unknown sex.  Marker will be set to missing for this
+          individual.
+%AGEON-W: [24] Marker 'M1' is sex-dependent, but the individual '7' in pedigree
+          '3' has unknown sex.  Marker will be set to missing for this
+          individual.
+%AGEON-W: [25] Marker 'M1' is sex-dependent, but the individual '8' in pedigree
+          '3' has unknown sex.  Marker will be set to missing for this
+          individual.
+%AGEON-W: [30] Phenotype 'A/M' at sex-dependent marker 'M1' is inconsistent
+          with the sex of individual '5' in pedigree '4'.  Marker will be set
+          to missing for this individual.
+%AGEON-W: [31] Phenotype 'M/A' at sex-dependent marker 'M1' is inconsistent
+          with the sex of individual '6' in pedigree '4'.  Marker will be set
+          to missing for this individual.
+%AGEON-W: [32] Phenotype 'A/~Y' at sex-dependent marker 'M1' is inconsistent
+          with the sex of individual '7' in pedigree '4'.  Marker will be set
+          to missing for this individual.
+%AGEON-W: [33] Unrecognized value for marker 'M1' of individual '8' in pedigree
+          '4': Found '~Y/~Y'. Marker will be set to missing for this individual
+          .
+%AGEON-W: [44] Phenotype '1/2' at sex-dependent marker 'M1' is inconsistent
+          with the sex of individual '2' in pedigree '5'.  Marker will be set
+          to missing for this individual.
+%AGEON-W: [50] Unrecognized value for marker 'M1' of individual '8' in pedigree
+          '5': Found '~Y/~Y'. Marker will be set to missing for this individual
+          .
+
+Family structure information on the first 1000 individuals read from file: ped
+
+     PED. ID       IND. ID       SEX       PARENT1       PARENT2     
+     ------------  ------------  --------  ------------  ------------
+     1             1             2         0             0           
+     1             2             2         0             0           
+     1             3             2         0             0           
+     1             4             2         0             0           
+     1             5             2         0             0           
+     1             6             2         0             0           
+     1             7             2         0             0           
+     1             8             2         0             0           
+     2             1             1         0             0           
+     2             2             1         0             0           
+     2             3             1         0             0           
+     2             4             1         0             0           
+     2             5             1         0             0           
+     2             6             1         0             0           
+     2             7             1         0             0           
+     2             8             1         0             0           
+     3             1             ?         0             0           
+     3             2             ?         0             0           
+     3             3             ?         0             0           
+     3             4             ?         0             0           
+     3             5             ?         0             0           
+     3             6             ?         0             0           
+     3             7             ?         0             0           
+     3             8             ?         0             0           
+     4             1             2         0             0           
+     4             2             2         0             0           
+     4             3             2         0             0           
+     4             4             2         0             0           
+     4             5             2         0             0           
+     4             6             2         0             0           
+     4             7             2         0             0           
+     4             8             2         0             0           
+     4             F             1         0             0           
+     4             11            2         1             F           
+     4             12            2         2             F           
+     4             13            2         3             F           
+     4             14            2         4             F           
+     4             15            2         5             F           
+     4             16            2         6             F           
+     4             17            2         7             F           
+     4             18            2         8             F           
+     5             1             1         0             0           
+     5             2             1         0             0           
+     5             3             1         0             0           
+     5             4             1         0             0           
+     5             5             1         0             0           
+     5             6             1         0             0           
+     5             7             1         0             0           
+     5             8             1         0             0           
+     5             M             2         0             0           
+     5             11            2         1             M           
+     5             12            2         2             M           
+     5             13            2         3             M           
+     5             14            2         4             M           
+     5             15            2         5             M           
+     5             16            2         6             M           
+     5             17            2         7             M           
+     5             18            2         8             M           
+
+
+Phenotypes for the first 1000 individuals read from file: ped
+
+     PED. ID       IND. ID       SEX_CODE              FAMILIAL_INDICATOR    FOUNDER_INDICATOR     PEDIGREE_SIZE       
+     ------------  ------------  --------------------  --------------------  --------------------  --------------------
+     1             1             1                     1                     1                     8                   
+     1             2             1                     1                     1                     8                   
+     1             3             1                     1                     1                     8                   
+     1             4             1                     1                     1                     8                   
+     1             5             1                     1                     1                     8                   
+     1             6             1                     1                     1                     8                   
+     1             7             1                     1                     1                     8                   
+     1             8             1                     1                     1                     8                   
+     2             1             0                     1                     1                     8                   
+     2             2             0                     1                     1                     8                   
+     2             3             0                     1                     1                     8                   
+     2             4             0                     1                     1                     8                   
+     2             5             0                     1                     1                     8                   
+     2             6             0                     1                     1                     8                   
+     2             7             0                     1                     1                     8                   
+     2             8             0                     1                     1                     8                   
+     3             1                                   1                     1                     8                   
+     3             2                                   1                     1                     8                   
+     3             3                                   1                     1                     8                   
+     3             4                                   1                     1                     8                   
+     3             5                                   1                     1                     8                   
+     3             6                                   1                     1                     8                   
+     3             7                                   1                     1                     8                   
+     3             8                                   1                     1                     8                   
+     4             1             1                     1                     1                     17                  
+     4             2             1                     1                     1                     17                  
+     4             3             1                     1                     1                     17                  
+     4             4             1                     1                     1                     17                  
+     4             5             1                     1                     1                     17                  
+     4             6             1                     1                     1                     17                  
+     4             7             1                     1                     1                     17                  
+     4             8             1                     1                     1                     17                  
+     4             F             0                     1                     1                     17                  
+     4             11            1                     1                     0                     17                  
+     4             12            1                     1                     0                     17                  
+     4             13            1                     1                     0                     17                  
+     4             14            1                     1                     0                     17                  
+     4             15            1                     1                     0                     17                  
+     4             16            1                     1                     0                     17                  
+     4             17            1                     1                     0                     17                  
+     4             18            1                     1                     0                     17                  
+     5             1             0                     1                     1                     17                  
+     5             2             0                     1                     1                     17                  
+     5             3             0                     1                     1                     17                  
+     5             4             0                     1                     1                     17                  
+     5             5             0                     1                     1                     17                  
+     5             6             0                     1                     1                     17                  
+     5             7             0                     1                     1                     17                  
+     5             8             0                     1                     1                     17                  
+     5             M             1                     1                     1                     17                  
+     5             11            1                     1                     0                     17                  
+     5             12            1                     1                     0                     17                  
+     5             13            1                     1                     0                     17                  
+     5             14            1                     1                     0                     17                  
+     5             15            1                     1                     0                     17                  
+     5             16            1                     1                     0                     17                  
+     5             17            1                     1                     0                     17                  
+     5             18            1                     1                     0                     17                  
+
+
+Markers for the first 1000 individuals read from file: ped
+
+     PED. ID       IND. ID       M1          
+     ------------  ------------  ------------
+     1             1             1/1         
+     1             2             1/2         
+     1             3             M/M         
+     1             4             M/M         
+     1             5             M/M         
+     1             6             M/M         
+     1             7             M/M         
+     1             8             M/M         
+     2             1             1/M         
+     2             2             M/M         
+     2             3             M/M         
+     2             4             M/M         
+     2             5             A/M         
+     2             6             A/M         
+     2             7             A/M         
+     2             8             M/M         
+     3             1             M/M         
+     3             2             M/M         
+     3             3             M/M         
+     3             4             M/M         
+     3             5             M/M         
+     3             6             M/M         
+     3             7             M/M         
+     3             8             M/M         
+     4             1             1/1         
+     4             2             1/2         
+     4             3             M/M         
+     4             4             M/M         
+     4             5             M/M         
+     4             6             M/M         
+     4             7             M/M         
+     4             8             M/M         
+     4             F             M/M         
+     4             11            M/M         
+     4             12            M/M         
+     4             13            M/M         
+     4             14            M/M         
+     4             15            M/M         
+     4             16            M/M         
+     4             17            M/M         
+     4             18            M/M         
+     5             1             1/M         
+     5             2             M/M         
+     5             3             M/M         
+     5             4             M/M         
+     5             5             A/M         
+     5             6             A/M         
+     5             7             A/M         
+     5             8             M/M         
+     5             M             M/M         
+     5             11            M/M         
+     5             12            M/M         
+     5             13            M/M         
+     5             14            M/M         
+     5             15            M/M         
+     5             16            M/M         
+     5             17            M/M         
+     5             18            M/M         
+

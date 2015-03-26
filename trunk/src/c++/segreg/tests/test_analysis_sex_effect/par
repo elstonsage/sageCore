@@ -1,0 +1,240 @@
+pedigree
+{
+  pedigree_id=PID
+  individual_id=ID
+  sex_field=SEX
+  no_sex_ok=true
+  parent_id=P1
+  parent_id=P2
+  trait=DISEASE, binary, affected=1, unaffected=0
+  trait=HEMATOCRIT
+  trait=t
+  trait=u
+  trait=v
+  trait=w
+  trait=x
+  trait=y
+  trait=z
+}
+
+segreg_analysis    #1 No sex Effect
+{
+  trait = hematocrit,type=continuous
+  class = A
+  type_mean
+  {
+    option=two
+    mean="**",val=1
+  }
+  type_var
+  {
+    option=one
+    var="**",val=1
+  }
+
+}
+
+segreg_analysis    #2 Transmission mitochondrial
+{
+  trait = hematocrit,type=continuous
+  class = A
+
+  type_mean
+  {
+    option=two
+    mean="**",val=1
+  }
+  type_var
+  {
+    option=one
+    var="**",val=1
+  }
+
+  transmission
+  {
+    option=mitochondrial
+  }
+}
+
+segreg_analysis    #3 Residuals Arbitrary
+{
+  trait = hematocrit,type=continuous
+  class = A
+
+  type_mean
+  {
+    option=two
+    mean="**",val=1
+  }
+  type_var
+  {
+    option=one
+    var="**",val=1
+  }
+  resid
+  {
+    option=arb
+  }
+
+}
+
+segreg_analysis    #4 Both Transmission and Resids
+{
+  trait = hematocrit,type=continuous
+  class = A
+
+  type_mean
+  {
+    option=two
+    mean="**",val=1
+  }
+  type_var
+  {
+    option=one
+    var="**",val=1
+  }
+
+  resid
+  {
+    option=arb
+  }
+  transmission
+  {
+    option=mitochondrial
+  }
+}
+
+# Binary traits
+
+segreg_analysis    #1 No sex Effect
+{
+  trait = disease
+  type_suscept
+  {
+    option=two
+    suscept="**",val=1
+  }
+}
+
+segreg_analysis    #2 Transmission mitochondrial
+{
+  trait = disease
+
+  type_suscept
+  {
+    option=two
+    suscept="**",val=1
+  }
+
+  transmission
+  {
+    option=mitochondrial
+  }
+}
+
+segreg_analysis    #3 Residuals Arbitrary
+{
+  trait = disease
+
+  type_suscept
+  {
+    option=two
+    suscept="**",val=1
+  }
+  resid
+  {
+    option=arb
+  }
+}
+
+segreg_analysis    #4 Both Transmission and Resids
+{
+  trait = disease
+
+  type_suscept
+  {
+    option=two
+    suscept="**",val=1
+  }
+
+  resid
+  {
+    option=arb
+  }
+
+  transmission
+  {
+    option=mitochondrial
+  }
+}
+
+# FPMM
+
+segreg_analysis    #1 No sex Effect
+{
+  trait = disease
+  class = fpmm
+  type_suscept
+  {
+    option=two
+    suscept="**",val=1
+  }
+}
+
+segreg_analysis    #2 Transmission mitochondrial
+{
+  trait = disease
+  class = fpmm
+
+  type_suscept
+  {
+    option=two
+    suscept="**",val=1
+  }
+
+  transmission
+  {
+    option=mitochondrial
+  }
+}
+
+segreg_analysis    #3 Residuals Arbitrary -- Note this should have *NO* sex
+                   #  effect (residuals aren't relevant to fpmm)
+{
+  trait = disease
+  class = fpmm
+
+  type_suscept
+  {
+    option=two
+    suscept="**",val=1
+  }
+  resid
+  {
+    option=arb
+  }
+
+}
+
+segreg_analysis    #4 Both Transmission and Resids
+{
+  trait = disease
+  class = fpmm
+
+  type_suscept
+  {
+    option=two
+    suscept="**",val=1
+  }
+
+  resid
+  {
+    option=arb
+  }
+
+  transmission
+  {
+    option=mitochondrial
+  }
+}
+

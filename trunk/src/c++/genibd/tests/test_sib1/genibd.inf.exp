@@ -1,0 +1,64 @@
+
+
+
+
+Family structure information on the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       SEX       PARENT1       PARENT2     
+     ------------  ------------  --------  ------------  ------------
+     8             408           F         0             0           
+     8             508           M         0             0           
+     8             208           M         408           508         
+     8             308           M         408           508         
+     8             A08           F         408           508         
+     8             D08           M         408           508         
+
+
+Markers for the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       D3S1297       D3S1304       D3S1263       DXS1297       DXS1304       DXS1263     
+     ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------
+     8             408           A/B           0/0           0/0           A/B           0/0           0/0         
+     8             508           C/D           0/0           0/0           C/0           0/0           0/0         
+     8             208           A/C           A/C           A/C           A/0           A/0           A/0         
+     8             308           A/D           A/D           A/D           A/0           A/0           A/0         
+     8             A08           B/C           B/C           B/C           B/C           B/C           B/C         
+     8             D08           A/C           A/C           A/C           B/0           B/0           B/0         
+
+%GENIBD-I: Analysis title unspecified.  Will use 'Analysis 1'.
+
+===========================================================================
+Analysis 1 : Singlepoint analysis on regions (CHR3, X):
+        * - Pedigrees with loops will not be processed.
+===========================================================================
+
+Processing Region: CHR3
+=======================================
+
+Processing Pedigree 8..............
+
+
+Processing Region: X
+=======================================
+
+Processing Pedigree 8..............
+
+%GENIBD-I: Mapping function not specified.  Using Haldane Mapping Function.
+%GENIBD-I: Analysis title unspecified.  Will use 'Analysis 2'.
+
+===========================================================================
+Analysis 2 : Multipoint analysis on regions (CHR3, X):
+        * - Maximum size for exact method is set to 18.
+===========================================================================
+
+Processing Region: CHR3
+=======================================
+
+Processing Pedigree 8..............
+
+
+Processing Region: X
+=======================================
+
+Processing Pedigree 8..............
+

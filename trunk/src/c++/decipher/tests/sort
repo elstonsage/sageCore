@@ -1,0 +1,36 @@
+#!/usr/local/bin/python
+#============================================================================
+# File:      sort
+#                                                                          
+# Author:    Dan Baechle
+#                                                                          
+# History:   Created 6/28/5
+#                                                                          
+# Notes:     sorts haplotypes in counts.log by decending frequency.
+#
+#============================================================================
+
+import sys
+from string import join, atof
+
+
+def hap_cmp(a, b):
+  return cmp(a[1], b[1])
+
+log_file        = open('counts.log', 'r')
+sorted_log_file = open('sorted_counts.log', 'w')
+lines = log_file.readlines()
+haps = []
+for line in lines:
+  fields = line.strip().split()
+  hap = join(fields[:-1], '-')
+  freq = atof(fields[-1])
+  haps.append([hap, freq])
+  
+haps.sort(hap_cmp)
+haps.reverse()
+for hap in haps:
+  sorted_log_file.write('%s   %6f\n' % (hap[0], hap[1]))
+
+log_file.close()
+sorted_log_file.close()

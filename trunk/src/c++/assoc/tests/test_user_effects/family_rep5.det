@@ -1,0 +1,93 @@
+ASSOC -- 14 May 2008 08:46:04 -- [S.A.G.E. v5.4.0; 07 Nov 2007]
+COPYRIGHT (C) 2005 CASE WESTERN RESERVE UNIVERSITY
+=================
+
+     Results
+
+=================
+
+==============================
+     Analysis description
+==============================
+
+  Title                        assoc                                                  
+  Primary Trait                AFF (Binary)                                           
+  Allow averaging              Disabled                                               
+  Limit output                 Disabled (output includes complete model information)  
+  Omit complete summary table  Disabled                                               
+  Summary table display order  By LRT p-value                                         
+  Summary filter               Show no more than 10 results                           
+--------------------------------------------------------------------------------------
+
+Note: This output contains results for a binary trait using an algorithm still in Beta release form. Please verify results before reporting.
+
+======================================
+     Transformation configuration
+======================================
+
+
+
+Note: No transformation applied.
+
+==========================
+
+     Model 'Baseline'
+
+==========================
+
+============================
+     Sample description
+============================
+
+  Number of individuals in dataset                                   5000  
+  Number of constituent pedigrees in dataset                         1000  
+  Number of singletons in dataset                                       0  
+                                                                           
+  Number of constituent pedigree members with complete information   5000  
+  Number of singletons with complete information                        0  
+                                                                           
+  Note: missing data replaced by averages are considered complete.         
+
+===============================================================
+     MAXIMIZATION RESULTS Baseline without test covariates
+===============================================================
+
+---------------------------------------------------------------------
+  Parameter         Estimate   S.E.       P-value     Deriv          
+---------------------------------------------------------------------
+  Variance components
+            Random   0.076574   0.003421  < 1.00e-07  -0.0232666788  
+         Polygenic   0.005354   0.005478   0.164207   -0.0175050360  
+            Family   0.006940   0.002766   0.006048    0.0000048760  
+
+  Other parameters
+    Total variance   0.088868   0.001816  < 1.00e-07   0.0000000000  
+      Heritability   0.060243   0.061617   0.164109    0.0000000000  
+
+  Variance proportions
+            Random   0.861663   0.035719  < 1.00e-07   0.0000000000  
+         Polygenic   0.060243   0.061617   0.164109    0.0000000000  
+            Family   0.078094   0.030961   0.005829    0.0000000000  
+
+  Correlations
+         Full sibs   0.108215   0.012964  < 1.00e-07   0.0000000000  
+         Half sibs   0.093155   0.018056  < 1.00e-06   0.0000000000  
+  Parent offspring   0.108215   0.012964  < 1.00e-07   0.0000000000  
+           Spouses   0.078094   0.030961   0.011657    0.0000000000  
+    Nuclear family   0.083100   0.028066   0.003068    0.0000000000  
+           Marital   0.083100   0.028066   0.003068    0.0000000000  
+           Sibship   0.083100   0.028066   0.003068    0.0000000000  
+
+         Intercept  -2.212816   0.056533  < 1.00e-07   0.0000000000  
+---------------------------------------------------------------------
+
+Final ln likelihood: -37753.568638
+
+=====================================================================
+     VARIANCE-COVARIANCE MATRIX Baseline without test covariates
+=====================================================================
+
+
+
+Error: Matrix is not available.
+

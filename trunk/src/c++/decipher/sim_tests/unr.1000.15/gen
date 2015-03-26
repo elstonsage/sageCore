@@ -1,0 +1,35 @@
+genome
+{
+  region=one
+  {
+    marker=M1
+    distance=1
+    marker=M2
+    distance=1
+    marker=M3
+    distance=1
+    marker=M4
+    distance=1
+    marker=M5
+    distance=1
+    marker=M6
+    distance=1
+    marker=M7
+    distance=1
+    marker=M8
+    distance=1
+    marker=M9
+    distance=1
+    marker=M10
+    distance=1
+    marker=M11
+    distance=1
+    marker=M12
+    distance=1
+    marker=M13
+    distance=1
+    marker=M14
+    distance=1
+    marker=M15    
+  }
+}

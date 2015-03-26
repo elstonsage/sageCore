@@ -1,0 +1,15 @@
+#!/bin/sh
+
+../../../pedinfo/pedinfo par ped
+exit_status=$?
+echo $exit_status
+
+if [ $exit_status -eq 113 ]; then
+  echo timer timed out | tee timer.out
+elif [ $exit_status -eq 0 ]; then
+  echo timer did not time out | tee timer.out
+else
+  echo unexpected exit status | tee timer.out
+  exit 1
+fi
+  

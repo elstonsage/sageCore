@@ -1,0 +1,202 @@
+=====================================================================================================
+  SEGREG Analysis for Trait : t2
+=====================================================================================================
+  # Model Specification  
+
+    Model Class A
+    Type means                   : one mean
+    Mean covariates              :
+          cov1                   : (Mean =      0.51800)
+          cov2                   : (Mean =     -0.02241)
+    Type variances               : one variance
+    Residual correlations        : No spouse correlation, parent-offspring and
+                                   sib-sib correlations equal
+    Transformation               : none
+    Type frequency               : 
+    Transmission                 : homogeneous no transmission
+
+
+    NOTE:  All covariates are centered at mean 0.0 for analysis.  The centering
+           means listed are the means of all non-missing values of the covariate,
+           regardless of the missingness of other variables used in the analysis.
+           It follows that, unless the missingness is the same for the trait and
+           all covariates used, these means may not be the appropriate centering
+           means for the results below.
+
+  # Number of constituent pedigrees   : 100
+  # Number of unconnected individuals : 0
+
+  # Final Estimates : 
+
+  Parameter           Parameter Est.  Standard Err.   First Deriv.   Status
+-----------------------------------------------------------------------------------------------------
+  mean                -0.06292032      0.05737418      0.00009819     Independent
+  cov1                 1.98551303      0.11485367      0.00252743     Independent
+  cov2                 2.99437561      0.05691672     -0.01089701     Independent
+  variance             4.93770537      0.18032027     -0.01748732     Independent
+  marital resid c      0.00000000                                     Fixed
+  po = ss resid c      0.00000000                                     Fixed
+-----------------------------------------------------------------------------------------------------
+
+
+  # Variance-Covariance Matrix : 
+
+             |     mean            cov1            cov2            variance   
+------------------------------------------------------------------------------
+  mean       |      0.00329180      0.00000000      0.00000000     -0.00000000
+  cov1       |      0.00000000      0.01319137      0.00015142     -0.00000021
+  cov2       |      0.00000000      0.00015142      0.00323951      0.00000023
+  variance   |     -0.00000000     -0.00000021      0.00000023      0.03251540
+------------------------------------------------------------------------------
+
+ Likelihood Surface Flat: variance matrix near singular and 
+ may be affected by rounding error 
+ Reducing the number of parameters to be estimated is recommended 
+
+        LN(Likelihood) : -3326
+     -2 LN(Likelihood) : 6651.99
+    Akaike's AIC score : 6659.99
+=====================================================================================================
+
+=====================================================================================================
+  SEGREG Analysis for Trait : t2
+=====================================================================================================
+  # Model Specification  
+
+    Model Class A
+    Type means                   : two means
+    Mean covariates              :
+          cov1                   : (Mean =      0.51800)
+          cov2                   : (Mean =     -0.02241)
+    Type variances               : one variance
+    Residual correlations        : No spouse correlation, parent-offspring and
+                                   sib-sib correlations equal
+    Transformation               : none
+    Type frequency               : non Hardy-Weinberg equilibrium
+    Transmission                 : homogeneous mendelian
+
+
+    NOTE:  All covariates are centered at mean 0.0 for analysis.  The centering
+           means listed are the means of all non-missing values of the covariate,
+           regardless of the missingness of other variables used in the analysis.
+           It follows that, unless the missingness is the same for the trait and
+           all covariates used, these means may not be the appropriate centering
+           means for the results below.
+
+  # Number of constituent pedigrees   : 100
+  # Number of unconnected individuals : 0
+
+  # Final Estimates : 
+
+  Parameter           Parameter Est.  Standard Err.   First Deriv.   Status
+-----------------------------------------------------------------------------------------------------
+  mean_AA_AB          -1.81550876      0.06612174      0.00041831     Independent
+  mean_BB              1.65158994      0.06519550      0.00039908     Independent
+  cov1                 2.05970721      0.08721964      0.00022820     Independent
+  cov2                 2.99677028      0.04433998      0.00128566     Independent
+  variance             1.93368008      0.09154032      0.00021622     Independent
+  marital resid c      0.00000000                                     Fixed
+  po = ss resid c      0.00000000                                     Fixed
+  prob_AA              0.21401667      0.02831786      0.00051925     Independent functional
+  prob_AB              0.25770705      0.03435564                     Dependent
+  prob_BB              0.52827628      0.02396611      0.00000000     Independent functional
+  freq_A               0.34287019      0.01982575                     Dependent
+  transm prob_AA       1.00000000                                     Fixed
+  transm prob_AB       0.50000000                                     Fixed
+  transm prob_BB       0.00000000                                     Fixed
+-----------------------------------------------------------------------------------------------------
+
+
+  # Variance-Covariance Matrix : 
+
+             |     mean_AA_AB      mean_BB         cov1            cov2            variance        prob_AA         prob_AB         prob_BB         freq_A     
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+  mean_AA_AB |      0.00437208      0.00116730     -0.00012664      0.00003944      0.00097612      0.00015402      0.00029422     -0.00044824      0.00030113
+  mean_BB    |      0.00116730      0.00425045     -0.00003215      0.00008641     -0.00097935     -0.00001844      0.00055323     -0.00053479      0.00025817
+  cov1       |     -0.00012664     -0.00003215      0.00760727     -0.00004450      0.00012037      0.00007126     -0.00013614      0.00006488      0.00000319
+  cov2       |      0.00003944      0.00008641     -0.00004450      0.00196603     -0.00007916      0.00000549      0.00002613     -0.00003162      0.00001855
+  variance   |      0.00097612     -0.00097935      0.00012037     -0.00007916      0.00837963      0.00029904     -0.00047009      0.00017106      0.00006399
+  prob_AA    |      0.00015402     -0.00001844      0.00007126      0.00000549      0.00029904      0.00080190     -0.00070392     -0.00009798      0.00044994
+  prob_AB    |      0.00029422      0.00055323     -0.00013614      0.00002613     -0.00047009     -0.00070392      0.00118031     -0.00047639     -0.00011376
+  prob_BB    |     -0.00044824     -0.00053479      0.00006488     -0.00003162      0.00017106     -0.00009798     -0.00047639      0.00057437     -0.00033618
+  freq_A     |      0.00030113      0.00025817      0.00000319      0.00001855      0.00006399      0.00044994     -0.00011376     -0.00033618      0.00039306
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+        LN(Likelihood) : -3137.6
+     -2 LN(Likelihood) : 6275.19
+    Akaike's AIC score : 6289.19
+=====================================================================================================
+
+=====================================================================================================
+  SEGREG Analysis for Trait : t2
+=====================================================================================================
+  # Model Specification  
+
+    Model Class A
+    Type means                   : three means
+    Mean covariates              :
+          cov1                   : (Mean =      0.51800)
+          cov2                   : (Mean =     -0.02241)
+    Type variances               : one variance
+    Residual correlations        : No spouse correlation, parent-offspring and
+                                   sib-sib correlations equal
+    Transformation               : none
+    Type frequency               : non Hardy-Weinberg equilibrium
+    Transmission                 : homogeneous mendelian
+
+
+    NOTE:  All covariates are centered at mean 0.0 for analysis.  The centering
+           means listed are the means of all non-missing values of the covariate,
+           regardless of the missingness of other variables used in the analysis.
+           It follows that, unless the missingness is the same for the trait and
+           all covariates used, these means may not be the appropriate centering
+           means for the results below.
+
+  # Number of constituent pedigrees   : 100
+  # Number of unconnected individuals : 0
+
+  # Final Estimates : 
+
+  Parameter           Parameter Est.  Standard Err.   First Deriv.   Status
+-----------------------------------------------------------------------------------------------------
+  mean_AA             -1.90191275      0.05986247      0.00000050     Independent
+  mean_AB              1.10518741      0.08089675      0.00000024     Independent
+  mean_BB              3.67300868      0.16598541      0.00000073     Independent
+  cov1                 1.97637122      0.08092442      0.00000075     Independent
+  cov2                 3.01964714      0.04069072      0.00000067     Independent
+  variance             1.40086425      0.07987248      0.00000096     Independent
+  marital resid c      0.00000000                                     Fixed
+  po = ss resid c      0.00000000                                     Fixed
+  prob_AA              0.47151539      0.02309724      0.00000108     Independent functional
+  prob_AB              0.42584073      0.02533689                     Dependent
+  prob_BB              0.10264388      0.01652766      0.00000000     Independent functional
+  freq_A               0.68443576      0.01558311                     Dependent
+  transm prob_AA       1.00000000                                     Fixed
+  transm prob_AB       0.50000000                                     Fixed
+  transm prob_BB       0.00000000                                     Fixed
+-----------------------------------------------------------------------------------------------------
+
+
+  # Variance-Covariance Matrix : 
+
+             |     mean_AA         mean_AB         mean_BB         cov1            cov2            variance        prob_AA         prob_AB         prob_BB         freq_A     
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  mean_AA    |      0.00358352      0.00164168     -0.00019301      0.00004585     -0.00004336      0.00155888      0.00044958     -0.00038978     -0.00005980      0.00025469
+  mean_AB    |      0.00164168      0.00654428      0.00265805     -0.00004542     -0.00008889      0.00047500      0.00060029     -0.00016666     -0.00043364      0.00051696
+  mean_BB    |     -0.00019301      0.00265805      0.02755116     -0.00033112      0.00037859     -0.00431394     -0.00004798      0.00129603     -0.00124805      0.00060004
+  cov1       |      0.00004585     -0.00004542     -0.00033112      0.00654876      0.00005003      0.00010593     -0.00001473      0.00000972      0.00000501     -0.00000987
+  cov2       |     -0.00004336     -0.00008889      0.00037859      0.00005003      0.00165574     -0.00017039     -0.00000314      0.00001764     -0.00001450      0.00000568
+  variance   |      0.00155888      0.00047500     -0.00431394      0.00010593     -0.00017039      0.00637961      0.00031094     -0.00044854      0.00013760      0.00008667
+  prob_AA    |      0.00044958      0.00060029     -0.00004798     -0.00001473     -0.00000314      0.00031094      0.00053348     -0.00045114     -0.00008234      0.00030791
+  prob_AB    |     -0.00038978     -0.00016666      0.00129603      0.00000972      0.00001764     -0.00044854     -0.00045114      0.00064196     -0.00019082     -0.00013016
+  prob_BB    |     -0.00005980     -0.00043364     -0.00124805      0.00000501     -0.00001450      0.00013760     -0.00008234     -0.00019082      0.00027316     -0.00017775
+  freq_A     |      0.00025469      0.00051696      0.00060004     -0.00000987      0.00000568      0.00008667      0.00030791     -0.00013016     -0.00017775      0.00024283
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+        LN(Likelihood) : -3116.45
+     -2 LN(Likelihood) : 6232.9
+    Akaike's AIC score : 6248.9
+=====================================================================================================
+

@@ -1,0 +1,7 @@
+
+
+
+%AGEON-E: Parent ID's present, but sex field is missing and 'NO_SEX_FIELD' has
+          not been specified.
+%AGEON-E: Invalid list of fields to read.  Aborting.
+%AGEON-F: Error reading pedigree data from file 'ped'.

@@ -1,0 +1,28 @@
+
+
+
+Reading Parameter File....................done.
+Reading Pedigree File.....................
+              from ageon.ped..............done.
+Sorting Pedigrees.........................done.
+
+Parsing Ageonset Analyses...
+
+Beginning new analysis block....
+
+Parsing Analysis: 'AGEON Analysis 1'....
+
+Reassigning individuals from class '??' to 'UU'.
+Reassigning individuals from class '?U' to 'UU'.
+Reassigning individuals from class '?A' to 'AA'.
+
+Analysis parsing complete.    Analysis valid.
+==============================================================
+
+Performing 'AGEON Analysis 1' with susceptibilities equal, no truncation...
+Performing 'AGEON Analysis 1' with susceptibilities as pooled, no truncation...
+Performing 'AGEON Analysis 1' with susceptibilities equal, using truncation...
+Performing 'AGEON Analysis 1' with susceptibilities as pooled, using truncation...
+
+
+

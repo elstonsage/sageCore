@@ -1,0 +1,76 @@
+
+
+
+
+Family structure information on the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       SEX       PARENT1       PARENT2     
+     ------------  ------------  --------  ------------  ------------
+     1             1             2         60280         60281       
+     2             2             1                                   
+     3             3             1         60061         60062       
+     3             4             2         60061         60062       
+     3             5             1         3             60060       
+     4             6             2                                   
+     4             7             1                                   
+     4             8             2         6             7           
+     6             9             2         60317         60318       
+     6             10            1         60063         9           
+
+
+Phenotypes for the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       SEX_CODE              FAMILIAL_INDICATOR    FOUNDER_INDICATOR     PEDIGREE_SIZE         SBP                   AGE                 
+     ------------  ------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------
+     1             1             1                     1                     0                     4                                                               
+     2             2             0                     0                     1                     1                                                               
+     3             3             0                     1                     0                     6                     139.2                 62.2536             
+     3             4             1                     1                     0                     6                     150.8                 68.5433             
+     3             5             0                     1                     0                     6                     110.4                 28.0066             
+     4             6             1                     1                     1                     3                     122.8                 47.8614             
+     4             7             0                     1                     1                     3                                                               
+     4             8             1                     1                     0                     3                                                               
+     6             9             1                     1                     0                     5                     112.8                 34.9042             
+     6             10            0                     1                     0                     5                                                               
+
+%ASSOC-W: Pedigree '2005' has 2 constituent pedigrees which are disjoint from
+          one another.  This may not be intended.  Results may be incorrect. 
+          See manual for details on constituent pedigrees.
+%ASSOC-W: Unconnected individuals detected in pedigree '2021'.  This may not be
+          intended.  Results may be incorrect.
+%ASSOC-W: Unconnected individuals detected in pedigree '2022'.  This may not be
+          intended.  Results may be incorrect.
+%ASSOC-W: Unconnected individuals detected in pedigree '2024'.  This may not be
+          intended.  Results may be incorrect.
+%ASSOC-W: Pedigree '2026' has 2 constituent pedigrees which are disjoint from
+          one another.  This may not be intended.  Results may be incorrect. 
+          See manual for details on constituent pedigrees.
+%ASSOC-W: Unconnected individuals detected in pedigree '2030'.  This may not be
+          intended.  Results may be incorrect.
+%ASSOC-W: Unconnected individuals detected in pedigree '2032'.  This may not be
+          intended.  Results may be incorrect.
+%ASSOC-W: Unconnected individuals detected in pedigree '2036'.  This may not be
+          intended.  Results may be incorrect.
+%ASSOC-W: Unconnected individuals detected in pedigree '2040'.  This may not be
+          intended.  Results may be incorrect.
+%ASSOC-W: Unconnected individuals detected in pedigree '2111'.  This may not be
+          intended.  Results may be incorrect.
+
+New phenotypes for individuals created by function block(s) :
+
+     PED. ID       IND. ID       logsbp                rsbp                
+     ------------  ------------  --------------------  --------------------
+     1             1                                                       
+     2             2                                                       
+     3             3             4.93591               0.00718391          
+     3             4             5.01595               0.0066313           
+     3             5             4.70411               0.00905797          
+     4             6             4.81056               0.00814332          
+     4             7                                                       
+     4             8                                                       
+     6             9             4.72562               0.00886525          
+     6             10                                                      
+
+
+Beginning new analysis block....
+

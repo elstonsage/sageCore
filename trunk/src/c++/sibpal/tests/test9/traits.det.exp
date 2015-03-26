@@ -1,0 +1,93 @@
+
+
+
+=====================================================================================
+  Haseman-Elston Regression Analysis of Full and Half Sibs
+  - single marker regression
+=====================================================================================
+
+    Binary trait : alc, affected = '1' , unaffected = '3'
+
+    Dependent variate : Weighted square trait sum and difference (W4)
+
+    w1 : 0.5
+
+    Other options used :
+      Identity weights = no
+      Robust variance  = no
+      Use sibship mean = no
+      Use BLUP mean    = yes
+
+    Legend :
+      Note - kurtosis = coefficient of kurtosis - 3
+      *   - significance  .05 level;
+      **  - significance  .01 level;
+      *** - significance .001 level;
+      #   - Negative intercept set to 0 or a common value is estimated;
+
+=====================================================================================
+Test 1
+=====================================================================================
+-----
+Model
+-----
+
+alc ~ Intercept + D3S1297(A+D) + e
+
+------
+Sample
+------
+
+Number of all sibs            =    9
+Number of full sib pairs      =    7
+Number of half sib pairs      =   13
+
+-----
+Trait
+-----
+
+Sample mean                   =    0.3333
+Sample variance               =    0.2500
+Sample skewness               =    0.7071
+Sample kurtosis               =   -1.5000
+Pairwise full sib correlation =   -0.4000
+Intra sibship correlation     =   -0.3793
+Pairwise half sib correlation =   -0.1895
+
+-----------------
+Dependent variate
+-----------------
+
+- Full sib pairs
+Correlation between pairs with no sibs in common =    0.0000
+Correlation between pairs with one sib in common =    0.0000
+sibship size 2 : w = 0.9, 1-w = 0.1
+sibship size 4 : w = 0.9, 1-w = 0.1
+
+- Half sib pairs
+Correlation between pairs with no sibs in common =    0.0540
+Correlation between pairs with one sib in common =    0.0540
+sibship size 9 : w = 0.490843, 1-w = 0.509157
+
+Correlation between squared difference
+                and squared mean corrected sum   =    0.6486
+
+----------
+Regression
+----------
+
+                  before intercept is set           # after intercept is set
+                  -----------------------------     -----------------------------
+                   Estimate Std Error   P-value      Estimate Std Error   P-value     
+----------------- --------- --------- ---------     --------- --------- ---------     
+Intercept(Full)     -0.2239                            0.0000
+Intercept(Half)     -0.2495                            0.0000
+D3S1297              0.2703    0.0272 0.0000000 ***   -0.0821    0.1275 0.7363071     
+
+Total variance      28.8765                           30.9412
+Residual variance    0.9631                           31.8743
+Residual skewness    0.5934                            0.3242
+Residual kurtosis   -0.0420                           -0.7798
+=====================================================================================
+
+

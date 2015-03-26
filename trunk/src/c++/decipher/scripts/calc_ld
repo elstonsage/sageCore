@@ -1,0 +1,166 @@
+#!/usr/local/bin/python
+#============================================================================
+# File:      calc_ld
+#                                                                          
+# Author:    Dan Baechle
+#                                                                          
+# History:   Created 7/22/5
+#                                                                          
+# Notes:     Given a list of haplotype frequencies, calculate normalized LD 
+#            for all pairwise combinations of loci.
+#
+#            A record in the input is in the form a1 a2 a3 freq., where a's
+#            are alleles and freq is the frequency made up of the alleles. 
+#            SNP's assumed at all loci.
+#
+#            See Genetic Data Analysis II.  Weir. p120.
+#
+#============================================================================
+
+import sys
+import os
+from string import join, atof
+
+
+class haplotype:
+  def __init__(self, allele_seq, freq):
+    self.allele_seq = allele_seq
+    self.freq       = freq
+    
+  def has_allele(self, locus, allele):
+    return  self.allele_seq[locus] == allele
+    
+  def matches(self, locus1, locus1_allele, locus2, locus2_allele):
+    return  self.has_allele(locus1, locus1_allele) and \
+            self.has_allele(locus2, locus2_allele)
+  
+  def __repr__(self):
+    return  '%s  %f' % (join(self.allele_seq), self.freq)
+    
+  def __len__(self):
+    return len(self.allele_seq)
+  
+class haplotypes:
+  def __init__(self, file_name):
+    input_file = open(file_name, 'r')
+    records = input_file.readlines()
+    input_file.close()
+    
+    self.haps = []
+    for record in records:
+      fields = record.strip().split()
+      self.haps.append(haplotype(fields[:-1], atof(fields[-1])))
+      
+    assert(len(self.haps) > 0)
+    self.hap_length = len(self.haps[0])
+    for hap in self.haps[1:]:
+      assert len(hap) == self.hap_length
+      
+      
+    self.build_allele_list()
+    
+  def build_allele_list(self):
+    self.alleles = []
+    
+    for l in range(self.hap_length):
+      self.alleles.append([])
+      for hap in self.haps:
+        if not hap.allele_seq[l] in self.alleles[l]:
+          self.alleles[l].append(hap.allele_seq[l])
+          
+      assert(len(self.alleles[l]) == 2)
+      
+  def __repr__(self):
+    str = ''
+    for hap in self.haps:
+      str += '%s\n' % hap
+      
+    return  str
+    
+  def marker_count(self):
+    return  self.hap_length
+      
+  def allele_freq(self, locus, allele):
+    freq = 0
+    for hap in self.haps:
+      if hap.has_allele(locus, allele):
+        freq += hap.freq
+        
+    return  freq
+      
+  # - Return frequency of the 2 locus 'sub haplotype' consisting of allele,
+  #   a1, at locus, l1, and allele, a2, at locus, l2.
+  #
+  def sub_hap_freq(self, l1, a1, l2, a2):
+    freq = 0
+    for hap in self.haps:
+      if hap.matches(l1, a1, l2, a2):
+        freq += hap.freq
+
+    return  freq        
+  
+  # - Given a complete list of haplotypes and their frequencies, calculate
+  #   the ld for the two given loci.
+  #
+  def ld(self, l1, l2):
+    freqAB = self.sub_hap_freq(l1, self.alleles[l1][0], l2, self.alleles[l2][0])
+
+    freqA = self.allele_freq(l1, self.alleles[l1][0])
+    freqa = self.allele_freq(l1, self.alleles[l1][1])
+    freqB = self.allele_freq(l2, self.alleles[l2][0])
+    freqb = self.allele_freq(l2, self.alleles[l2][1])
+    
+    raw_ld = freqAB - freqA * freqB
+    
+    if raw_ld == 0:
+      return  raw_ld
+    elif raw_ld < 0:
+      return  abs(raw_ld / max(-freqA * freqB, -freqa * freqb))
+    else:
+      return  abs(raw_ld / min( freqa * freqB,  freqA * freqb))
+    
+            
+
+class ld_table:
+  def __init__(self, haps):
+    self.table = []
+    self.marker_count = haps.marker_count()
+    for l1 in range(self.marker_count):
+      row = []
+      for l2 in range(l1):
+        row.append(haps.ld(l1, l2))
+        
+      self.table.append(row)
+      
+  def __repr__(self):
+    str = '    '
+    
+    # - Column header.
+    #
+    for l in range(1, self.marker_count + 1):
+      str += '%d      ' % l
+    str += '\n'
+    
+    # - Rows
+    #
+    for l in range(self.marker_count):
+      str += '%d   ' %  (l + 1)
+      for ld in self.table[l]:
+        str += '%.3f  ' % ld
+      str += '\n'
+    
+    return  str
+
+            
+if __name__ == '__main__':
+  print '\n\n'
+  print '%s\n\n' % (os.getcwd())
+  print '        Normalized LD (D prime as given in Genetic Data Analysis II.  Weir. p120.)\n\n'
+  
+  haps = haplotypes(sys.argv[1])
+  print ld_table(haps)
+    
+
+      
+  
+  

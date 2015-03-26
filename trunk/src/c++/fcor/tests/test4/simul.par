@@ -1,0 +1,54 @@
+pedigree,column
+{
+  format="A9,3(2X,A1),2X,A1,6X,A22,2X,A22"
+
+  individual_missing_value="0"
+
+  # Family Structure
+
+  pedigree_id
+  individual_id
+  parent_id
+  parent_id
+  sex_field
+
+  sex_code,male=1,female=2
+
+  # Phenotypes
+
+  trait=TRAIT1,missing=" "
+  trait=TRAIT2,missing=" "
+}
+
+fcor, OUTPUT="TEST1"
+{
+  trait=TRAIT1
+  trait=TRAIT2
+  #class_weight=pair
+  standard_error=true, pair
+  gender_name=false
+  type=both, tabular
+  homogeneity_test=true
+  generation_limit=a
+
+  output
+  {
+    pair = true
+    tabular = true
+    detailed = true
+  }
+
+  var_cov,joint
+  {
+    correlation=parent:offspring
+  }
+  var_cov,joint
+  {
+    trait=TRAIT1
+    trait=TRAIT2
+    trait=TRAIT3
+    correlation=father:son
+    correlation=mother:daughter
+  }
+}
+

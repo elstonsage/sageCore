@@ -1,0 +1,16 @@
+%GELIMTEST-W: [19] Unrecognized value for marker 'M1' of individual '2' in
+              pedigree '5': Found 'M'. Marker will be set to missing for this
+              individual.
+%GELIMTEST-W: [20] Unrecognized value for marker 'M1' of individual '1' in
+              pedigree '5': Found 'M'. Marker will be set to missing for this
+              individual.
+%GELIMTEST-E: At Marker 'M1' parents '2' and '1' in pedigree '3' are
+              inconsistent with the following child(ren) of their nuclear 
+              family: 4, 3.
+%GELIMTEST-E: Pedigree '3' is inconsistent at marker 'M1'.  No information will
+              be used at this marker for this pedigree.
+%GELIMTEST-E: At Marker 'M1' parents '2' and '1' in pedigree '5' are
+              inconsistent with the following child(ren) of their nuclear 
+              family: 7, 6, 5, 4, 3.
+%GELIMTEST-E: Pedigree '5' is inconsistent at marker 'M1'.  No information will
+              be used at this marker for this pedigree.

@@ -1,0 +1,54 @@
+=================
+
+     Results
+
+=================
+
+==============================
+     Analysis description
+==============================
+
+  Title                        assoc                         
+  Primary Trait                affection (Binary)            
+  Allow averaging              Disabled                      
+  Omit complete summary table  Disabled                      
+  Summary table display order  By LRT p-value                
+  Summary filter               Show no more than 10 results  
+-------------------------------------------------------------
+
+Note: This output contains results for a binary trait using an algorithm still in Beta release form. Please verify results before reporting.
+
+======================================
+     Transformation configuration
+======================================
+
+
+
+Note: No transformation applied.
+
+=======================
+     Summary table
+=======================
+
+-----------------------------------------------------------------------------------------------------------------------------
+  Model      Intercept  C          G          J          Test cov.      Estimate   Std. err.  P-value (Wald)  P-value (LRT)  
+-----------------------------------------------------------------------------------------------------------------------------
+  Alternate  -0.029837   0.780395   0.849876  -0.001412  C01R0001_1tai  -0.053779   0.110435   0.626280        0.626291      
+-----------------------------------------------------------------------------------------------------------------------------
+
+Note: Models with an asterisk (*) may not have converged.
+
+================================
+     Complete summary table
+================================
+
+-----------------------------------------------------------------------------------------------------------------------------
+  Model      Intercept  C          G          J          Test cov.      Estimate   Std. err.  P-value (Wald)  P-value (LRT)  
+-----------------------------------------------------------------------------------------------------------------------------
+  Alternate  -0.029837   0.780395   0.849876  -0.001412  C01R0001_1tai  -0.053779   0.110435   0.626280        0.626291      
+-----------------------------------------------------------------------------------------------------------------------------
+
+Note: Models with an asterisk (*) may not have converged.
+
+Note: See .det file for more information about each model
+

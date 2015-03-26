@@ -1,0 +1,41 @@
+#p=0.25
+#skip_uninformative_pairs=true
+
+pedigree
+{
+  verbose=99
+  skip_consecutive_delimiters=true
+  skip_leading_delimiters=true
+  skip_trailing_delimiters=true
+  whitespace=""
+  delimiters=" \t"
+  individual_missing_value="0"
+  sex_field=sex
+  no_sex_ok=true
+  sex_code,missing="?",male="M",female="F"
+  parent_id=p1
+  parent_id=p2
+  pedigree_id=pid
+  individual_id=id
+  trait="trait",missing="XX",name="Trait1"
+}
+
+marker_regression
+{
+
+#  marker="Marker 1"
+}
+
+trait_regression
+{
+  trait="Trait1"
+#  marker="Marker 1"
+#  marker="Marker 1",dominance
+}
+
+trait_regression,multiple
+{
+  trait="Trait1"
+#  marker="Marker 1"
+#  marker="Marker 1",dominance
+}

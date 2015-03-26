@@ -1,0 +1,109 @@
+pedigree
+{
+   delimiter_mode = multiple
+   delimiters=" "
+   individual_missing_value="0"
+   sex_code,male="1",female="2",unknown="?"
+
+   pedigree_id=fam
+   individual_id=id
+   parent_id=mom
+   parent_id=dad
+   sex_field=sex
+
+  trait=dbh,missing=-1
+  trait=sqrtdbh,missing=-1
+  trait=comt,missing=-1
+  covariate=cov1,missing=9
+  covariate=cov2,missing=9
+  covariate=cov3,missing=9
+  covariate=ABO,name=covabo,missing=0  
+  # Markers
+
+  marker= ABO
+  marker= KELL
+  marker = P
+  marker= FY
+  marker= JK
+  marker= PGD
+  marker= ADA
+  marker= AK1
+  marker= ACP1
+  marker= PGM1
+  marker= HBB
+  marker= GPT
+  marker= C3
+  marker= HP
+  marker= TF
+  marker= GC
+  marker= ORM
+  marker= GM
+  marker= KM
+  marker= BF
+  marker= ESD
+  marker= GLO1
+  marker= LE
+ 
+}
+
+
+
+#SEGREG
+
+segreg_analysis
+{
+  class=A
+
+  trait=dbh
+
+  type_mean
+  {
+  	option=one
+  	mean="AA", val=1, fixed=false
+  	mean="AB", val=1, fixed=false
+  	mean="BB", val=1, fixed=false
+  }
+
+  type_var
+  {
+  	option=one
+  	var="**",val=100, fixed=false
+  }
+
+  composite_trait
+  {
+    covariate=cov1,val=0,fixed=false
+    covariate=cov2,val=0,fixed=false
+    covariate=cov3,val=0,fixed=false
+  }
+
+  geno_freq
+  {
+  	option=hwe
+  	probs_fixed=false
+  	freq_A,val=.01,fixed=false
+  	corr,val=0,fixed=true
+  }
+
+  transmission
+  {
+  	option=no_trans
+  }
+
+  resid
+  {
+  	option="equal_po_ss"
+  	fm, value=0, fixed=true
+  	ss, value=0, fixed=true
+  }
+
+  transformation
+  {
+  	option=box_cox
+        lambda1=1,fixed=false
+        lambda2=1,fixed=true
+  }
+
+  output="all_3dist_dbh"
+
+}

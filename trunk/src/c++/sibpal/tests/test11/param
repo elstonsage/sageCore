@@ -1,0 +1,147 @@
+# parameters1: Example parameter file for S.A.G.E. Beta 3
+
+# This example parameter file can be used with all S.A.G.E. Beta 3 programs
+# in conjuntion with the Pedigree Data File: pedigree1
+
+# Pedigree Specification - used by all programs
+#   We wish to use the Character Delimited Pedigree Reader
+pedigree
+{
+  # Specify the format of the data.  This includes
+  # the delimiter character " " as well as allowing
+  # multiple delimiter characters to be delimit a field
+
+  delimiters=" "
+  delimiter_mode=multiple
+
+  # Field encoding parameters
+
+  individual_missing_value="0"
+  sex_code,male="1",female="2",unknown="?"
+
+  # Field specification: maps the field name to the field's use.
+
+  # Family Structure fields.
+  pedigree_id=PID
+  individual_id=ID
+  parent_id=DAD
+  parent_id=MOM
+  sex_field=SEX
+
+  # Trait and covariate phenotypes.
+
+  covariate=AGE
+  phenotype=DEAD,name=Alive,binary,
+            affected="A",unaffected="D",missing="."
+  phenotype=PRO,name=Proband,binary,affected=1,unaffected=0
+  trait=AF,name=affection,binary,affected="A",unaffected="U"
+
+  # Model based traits
+  #trait_marker=DM,name=Dominant
+  #trait_marker=RC,name=Recessive
+  #trait_marker=CD,name=Codominant
+  covariate=EF,missing="XXXXXX"
+  trait=Q1,missing="XXXXXX"
+  trait=Q2,missing="XXXXXX"
+  trait=Q3,missing="XXXXXX"
+  trait=Q4,missing="XXXXXX"
+  trait=Q5,missing="XXXXXX"
+
+  # Markers
+
+  marker=G1,name=D5G1
+  marker=G2,name=D5G2
+  marker=G3,name=D5G3
+  marker=G4,name=D5G4
+  marker=G5,name=D5G5
+  marker=G6,name=D5G6
+  marker=G7,name=D5G7
+  marker=G8,name=D5G8
+  marker=G9,name=D5G9
+  marker=G10,name=D5G10
+  marker=G11,name=D5G11
+  marker=G12,name=D5G12
+  marker=G13,name=D5G13
+  marker=G14,name=D5G14
+  marker=G15,name=D5G15
+  marker=G16,name=D5G16
+  marker=G17,name=D5G17
+  marker=G18,name=D5G18
+  marker=G19,name=D5G19
+  marker=G20,name=D5G20
+  marker=G21,name=D5G21
+  marker=G22,name=D5G22
+  marker=G23,name=D5G23
+  marker=G24,name=D5G24
+  marker=G25,name=D5G25
+}
+
+sibpal
+{
+  mean_test
+
+  mean_test
+  {
+    trait=affection
+  }
+
+  trait_regression, zero
+  {
+    trait=EF
+    covariate=Q1
+    marker=D5G1, dom
+    marker=D5G2
+
+    interaction
+    {
+      covariate=Q1
+      marker=D5G1, dom
+    }
+
+    interaction
+    {
+      marker=D5G1, add
+      marker=D5G2
+    }
+  }
+
+  trait_regression, single
+  {
+    trait=EF
+    covariate=Q1
+    marker=D5G1, dom
+    marker=D5G2
+
+    interaction
+    {
+      covariate=Q1, sum
+      marker=D5G1, dom
+    }
+
+    interaction
+    {
+      marker=D5G1, add
+      marker=D5G2, add
+    }
+  }
+
+  trait_regression, multiple
+  {
+    trait=EF
+    covariate=Q1
+    marker=D5G1, dom
+    marker=D5G2
+
+    interaction
+    {
+      covariate=Q1
+      marker=D5G1, dom
+    }
+
+    interaction
+    {
+      marker=D5G1, add
+      marker=D5G2, add
+    }
+  }
+}

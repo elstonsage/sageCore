@@ -1,0 +1,66 @@
+1S.A.G.E. RELEASE 3.1 -- FSP   		DECEMBER 1997
+ COPYRIGHT (C) 1997 CASE WESTERN RESERVE UNIVERSITY.
+
+
+ FSP PARAMETER FILE FOR DBH DATA                                                 
+
+ PEDIGREE NO #     1, PEDIGREE ID = 00001
+
+ !-----------------------------------------------------------------------------!
+ ! FSP GENERAL STATISTICS TABLE                                                !
+ !-----------------------------------------------------------------------------!
+ ! Number of records read .......   93  ! Type of pedigree .......... COMPLEX  !
+ ! Number of generations ........    4  ! Number of subpedigrees .......    2  !
+ ! Number of duplicated records .    0  ! Number of Fatal errors .......    0  !
+ !-----------------------------------------------------------------------------!
+
+ PEDIGREE NO #     2, PEDIGREE ID = 00003
+
+ !-----------------------------------------------------------------------------!
+ ! FSP GENERAL STATISTICS TABLE                                                !
+ !-----------------------------------------------------------------------------!
+ ! Number of records read .......  395  ! Type of pedigree .......... COMPLEX  !
+ ! Number of generations ........    6  ! Number of subpedigrees .......    2  !
+ ! Number of duplicated records .    0  ! Number of Fatal errors .......    0  !
+ !-----------------------------------------------------------------------------!
+
+ PEDIGREE NO #     3, PEDIGREE ID = 00005
+
+ !-----------------------------------------------------------------------------!
+ ! FSP GENERAL STATISTICS TABLE                                                !
+ !-----------------------------------------------------------------------------!
+ ! Number of records read .......   88  ! Type of pedigree ........... SIMPLE  !
+ ! Number of generations ........    4  ! Number of subpedigrees .......    1  !
+ ! Number of duplicated records .    0  ! Number of Fatal errors .......    0  !
+ !-----------------------------------------------------------------------------!
+
+ PEDIGREE NO #     4, PEDIGREE ID = 00009
+
+%FSP-I: Individual  0338    has multiple mates.
+        List of mates as follows :  0620     0339   
+
+%FSP-I: Individual  0437    has multiple mates.
+        List of mates as follows :  0438     0436   
+
+%FSP-I: Individual  0501    has multiple mates.
+        List of mates as follows :  0632     0631   
+
+ !-----------------------------------------------------------------------------!
+ ! FSP GENERAL STATISTICS TABLE                                                !
+ !-----------------------------------------------------------------------------!
+ ! Number of records read .......  347  ! Type of pedigree .......... COMPLEX  !
+ ! Number of generations ........    5  ! Number of subpedigrees .......    2  !
+ ! Number of duplicated records .    3  ! Number of Fatal errors .......    0  !
+ !-----------------------------------------------------------------------------!
+
+ !=============================================================================!
+ ! FSP FINAL STATISTICS TABLE                                                  !
+ !=============================================================================!
+ !    PEDIGREE       # OF  !    PEDIGREE       # OF  !    PEDIGREE       # OF  !
+ !  SEQ.      ID.   PEOPLE !  SEQ.      ID.   PEOPLE !  SEQ.      ID.   PEOPLE !
+ !  ----    -----   ------ !  ----    -----   ------ !  ----    -----   ------ !
+ !     1    00001       93 !     2    00003      395 !     3    00005       88 !
+ !     4    00009      347 !                         !                         !
+ !-----------------------------------------------------------------------------!
+ ! TOTAL NUMBER OF PEDIGREES     4, TOTAL NUMBER OF PEOPLE    923              !
+ !=============================================================================!

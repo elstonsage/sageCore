@@ -1,0 +1,48 @@
+pedigree
+{
+  pedigree_id=ped
+  individual_id=ind
+  parent_id=p1
+  parent_id=p2
+  sex_field=sex
+  marker=m1, missing="?/?"
+  marker=m2, missing="?/?"
+
+  delimiters=" "
+  delimiter_mode=multiple
+  individual_missing_value=0
+  sex_code, male="1", female="2"
+}
+
+decipher, out=rep
+{
+  region=all
+
+  data
+  {
+    analysis_unit=family_rep
+  }
+
+  tasks
+  {
+    pop_freq=false
+    all_possible_diplotypes_table=true
+  }
+}
+
+decipher, out=fpool
+{
+  region=all
+
+  data
+  {
+    analysis_unit=family_founders
+  }
+
+  tasks
+  {
+    pop_freq=false
+    all_possible_diplotypes_table=true
+  }
+}
+

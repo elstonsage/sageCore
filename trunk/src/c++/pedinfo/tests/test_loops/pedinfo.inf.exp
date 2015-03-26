@@ -1,0 +1,38 @@
+
+
+
+
+Family structure information on the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       SEX       PARENT1       PARENT2     
+     ------------  ------------  --------  ------------  ------------
+     24289         304247        1         392720        615010      
+     24289         324942        2         541163        722510      
+     24289         392720        1         -9            -9          
+     24289         476606        1         304247        324942      
+     24289         487825        2         541163        722510      
+     24289         541163        1         -9            -9          
+     24289         543977        1         -9            -9          
+     24289         598245        2         324942        543977      
+     24289         615010        2         -9            -9          
+     24289         662461        2         392720        615010      
+
+
+Phenotypes for the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       SEX_CODE              FAMILIAL_INDICATOR    FOUNDER_INDICATOR     PEDIGREE_SIZE         scan                
+     ------------  ------------  --------------------  --------------------  --------------------  --------------------  --------------------
+     24289         304247        0                     1                     0                     37                    1                   
+     24289         324942        1                     1                     0                     37                    1                   
+     24289         392720        0                     1                     1                     37                    0                   
+     24289         476606        0                     1                     0                     37                    1                   
+     24289         487825        1                     1                     0                     37                    1                   
+     24289         541163        0                     1                     1                     37                    0                   
+     24289         543977        0                     1                     1                     37                    0                   
+     24289         598245        1                     1                     0                     37                    1                   
+     24289         615010        1                     1                     1                     37                    0                   
+     24289         662461        1                     1                     0                     37                    0                   
+
+%PEDINFO-W: Pedigree '24289' has 2 constituent pedigrees which are disjoint
+            from one another.  This may not be intended.  Results may be
+            incorrect.  See manual for details on constituent pedigrees.

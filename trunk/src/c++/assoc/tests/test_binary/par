@@ -1,0 +1,87 @@
+# ------------------------------------------------------------------------------
+# Begin File: ./output/REP001/CHR01/Rep001_C01R0001.par
+# ------------------------------------------------------------------------------
+pedigree, character 
+{                                                           
+   # ---------------------------------------------------------------------------
+   # General specifications                                                     
+   # ---------------------------------------------------------------------------
+   delimiters               = " "                                             
+   delimiter_mode           = multiple                                          
+   individual_missing_value = 0                                                 
+   sex_code, male           = 1                                                 
+   sex_code, female         = 2                                                 
+   verbose                  = 10                                                
+                                                                                
+   # ---------------------------------------------------------------------------
+   # Individual & Family Field specifications                                   
+   # ---------------------------------------------------------------------------
+   pedigree_id   = family                                                       
+   individual_id = ind                                                          
+   parent_id     = father                                                       
+   parent_id     = mother                                                       
+   sex_field     = sex                                                          
+                                                                                
+   # ---------------------------------------------------------------------------
+   # Phenotype, Trait & Covariate Field specifications                          
+   # ---------------------------------------------------------------------------
+   phenotype = affection, binary, affected=2, unaffected=1                      
+                                                                                
+   covariate = A, binary                                                        
+   covariate = B, binary                                                        
+   covariate = C, binary                                                        
+   covariate = D, binary                                                        
+   covariate = E, binary                                                        
+   covariate = F, binary                                                        
+   covariate = G, binary                                                        
+   covariate = H, binary                                                        
+   covariate = I, binary                                                        
+   covariate = J, binary                                                        
+   covariate = K, binary                                                        
+   covariate = L, binary                                                        
+                                                                                
+   marker = C01R0001  
+}                                                                               
+                                                                                
+function 
+{
+  covariate = C01R0001_1tai, expression = "tai(C01R0001, 1)" 
+}
+                                                                                
+assoc, out = "binaryoutput" 
+{    
+  maxfun 
+  { 
+    level=complete 
+  }
+  
+  trait = affection
+   
+  pe = false 
+  me = false 
+  fe = false 
+  se = false
+   
+  covariate = C                                                                
+  covariate = G                                                                
+  covariate = J                                                                
+  covariate = C01R0001_1tai, models = "Alternate"
+  
+  transformation
+  {
+    option=george_elston
+  }
+}
+
+pedinfo
+{
+  trait=affection
+  trait=C
+  trait=G
+  trait=J
+}
+
+                                                                                
+# ------------------------------------------------------------------------------
+# End File: ./output/REP001/CHR01/Rep001_C01R0001.par
+# ------------------------------------------------------------------------------

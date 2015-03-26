@@ -1,0 +1,42 @@
+#!/usr/local/bin/python
+#============================================================================
+# File:      driver
+#                                                                          
+# Author:    Dan Baechle
+#                                                                          
+# History:   2/21/6  Created.
+#                                                                          
+# Notes:     repeatedly simulate pool data with ambiguous allele weights, 
+#            run four different versions of decipher on the data and
+#            which version gives the best results by calculating the i sub f
+#            coefficient.
+#
+# Usage:     driver
+#
+#============================================================================
+
+import os
+import sys
+from calc_if import calc_if
+
+REPLICATES = 50
+
+methods = {'GREATEST':0.0, 'LEAST':0.0, 'RANDOM':0.0, 'OVER_UNDER':0.0}
+for r in range(1, REPLICATES + 1):
+  print 'replicate %d ...' % r
+  os.system('./pool_simulate > ped')
+  for method in methods.items():
+    print '%-25s' % ('  running %s ...' % method[0]),
+    os.system('../../%s par ped > /dev/null' % method[0])
+    if_coef = calc_if('counts.log', 'decipher.sum')
+    print '%f' % if_coef
+    methods[method[0]] += if_coef
+    
+print
+print
+for method in methods.items():
+  print '%-15s if = %f' % (method[0], method[1] / REPLICATES)
+  
+sys.exit(0)
+  
+  

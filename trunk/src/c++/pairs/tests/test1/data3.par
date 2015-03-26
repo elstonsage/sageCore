@@ -1,0 +1,16 @@
+pedigree,column
+{
+  format="A8,3(1X,A4),1X,A1,1X,5A10"
+
+  individual_missing_value="0"
+
+  # Family Structure
+
+  pedigree_id
+  individual_id
+  parent_id
+  parent_id
+  sex_field
+
+  sex_code,male=M,female=F
+}

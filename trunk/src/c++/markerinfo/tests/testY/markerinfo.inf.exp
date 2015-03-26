@@ -1,0 +1,108 @@
+
+
+
+%MARKERINFO-W: [428] Found an individual ID that is missing or the same as the
+               missing individual/parent code.  Skipping...
+%MARKERINFO-W: [10] Phenotype '119', '.' at sex-dependent marker 'DYS395' is
+               inconsistent with the sex of individual '200003' in pedigree
+               '440'.  Marker will be set to missing for this individual.
+%MARKERINFO-W: [12] Phenotype '115', '.' at sex-dependent marker 'DYS395' is
+               inconsistent with the sex of individual '200015' in pedigree
+               '440'.  Marker will be set to missing for this individual.
+%MARKERINFO-W: [95] Phenotype '119', '.' at sex-dependent marker 'DYS395' is
+               inconsistent with the sex of individual '200088' in pedigree
+               '449'.  Marker will be set to missing for this individual.
+%MARKERINFO-W: [100] Phenotype '115', '.' at sex-dependent marker 'DYS395' is
+               inconsistent with the sex of individual '200093' in pedigree
+               '449'.  Marker will be set to missing for this individual.
+%MARKERINFO-W: [137] Phenotype '123', '.' at sex-dependent marker 'DYS395' is
+               inconsistent with the sex of individual '200132' in pedigree
+               '454'.  Marker will be set to missing for this individual.
+%MARKERINFO-W: [138] Phenotype '123', '.' at sex-dependent marker 'DYS395' is
+               inconsistent with the sex of individual '200133' in pedigree
+               '454'.  Marker will be set to missing for this individual.
+%MARKERINFO-W: [148] Phenotype '115', '.' at sex-dependent marker 'DYS395' is
+               inconsistent with the sex of individual '200141' in pedigree
+               '455'.  Marker will be set to missing for this individual.
+%MARKERINFO-W: [157] Phenotype '119', '.' at sex-dependent marker 'DYS395' is
+               inconsistent with the sex of individual '200150' in pedigree
+               '457'.  Marker will be set to missing for this individual.
+%MARKERINFO-W: [166] Phenotype '119', '.' at sex-dependent marker 'DYS395' is
+               inconsistent with the sex of individual '200162' in pedigree
+               '459'.  Marker will be set to missing for this individual.
+%MARKERINFO-W: [188] Phenotype '119', '.' at sex-dependent marker 'DYS395' is
+               inconsistent with the sex of individual '200181' in pedigree
+               '461'.  Marker will be set to missing for this individual.
+%MARKERINFO-W: [197] Phenotype '119', '.' at sex-dependent marker 'DYS395' is
+               inconsistent with the sex of individual '200189' in pedigree
+               '462'.  Marker will be set to missing for this individual.
+%MARKERINFO-W: [203] Phenotype '119', '.' at sex-dependent marker 'DYS395' is
+               inconsistent with the sex of individual '200195' in pedigree
+               '463'.  Marker will be set to missing for this individual.
+%MARKERINFO-W: [204] Phenotype '119', '.' at sex-dependent marker 'DYS395' is
+               inconsistent with the sex of individual '200196' in pedigree
+               '463'.  Marker will be set to missing for this individual.
+%MARKERINFO-W: [209] Phenotype '119', '.' at sex-dependent marker 'DYS395' is
+               inconsistent with the sex of individual '200203' in pedigree
+               '464'.  Marker will be set to missing for this individual.
+%MARKERINFO-W: [230] Phenotype '119', '.' at sex-dependent marker 'DYS395' is
+               inconsistent with the sex of individual '200228' in pedigree
+               '467'.  Marker will be set to missing for this individual.
+%MARKERINFO-W: [255] Phenotype '119', '.' at sex-dependent marker 'DYS395' is
+               inconsistent with the sex of individual '200252' in pedigree
+               '469'.  Marker will be set to missing for this individual.
+%MARKERINFO-W: [270] Phenotype '123', '.' at sex-dependent marker 'DYS395' is
+               inconsistent with the sex of individual '200264' in pedigree
+               '471'.  Marker will be set to missing for this individual.
+%MARKERINFO-W: [367] Phenotype '119', '.' at sex-dependent marker 'DYS395' is
+               inconsistent with the sex of individual '200352' in pedigree
+               '481'.  Marker will be set to missing for this individual.
+%MARKERINFO-W: [378] Phenotype '119', '.' at sex-dependent marker 'DYS395' is
+               inconsistent with the sex of individual '200379' in pedigree
+               '482'.  Marker will be set to missing for this individual.
+%MARKERINFO-W: [389] Phenotype '119', '.' at sex-dependent marker 'DYS395' is
+               inconsistent with the sex of individual '200369' in pedigree
+               '482'.  Marker will be set to missing for this individual.
+%MARKERINFO-W: [390] Phenotype '119', '.' at sex-dependent marker 'DYS395' is
+               inconsistent with the sex of individual '200368' in pedigree
+               '482'.  Marker will be set to missing for this individual.
+%MARKERINFO-W: [403] Phenotype '123', '.' at sex-dependent marker 'DYS395' is
+               inconsistent with the sex of individual '200384' in pedigree
+               '482'.  Marker will be set to missing for this individual.
+%MARKERINFO-W: [414] Phenotype '119', '.' at sex-dependent marker 'DYS395' is
+               inconsistent with the sex of individual '200376' in pedigree
+               '483'.  Marker will be set to missing for this individual.
+%MARKERINFO-W: [428] Found an individual ID that is missing or the same as the
+               missing individual/parent code.  Skipping...
+
+Family structure information on the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       SEX       PARENT1       PARENT2     
+     ------------  ------------  --------  ------------  ------------
+     440           200021        1         .             .           
+     440           200022        2         .             .           
+     440           200416        2         .             .           
+     440           200005        1         200021        200022      
+     440           200007        1         200021        200022      
+     440           200009        1         200021        200022      
+     440           200006        1         200003        200005      
+     440           200019        2         200003        200005      
+     440           200003        2         .             .           
+     440           200001        1         200021        200022      
+
+
+Markers for the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       DYS395      
+     ------------  ------------  ------------
+     440           200021        ./.         
+     440           200022        ./.         
+     440           200416        ./.         
+     440           200005        ./119       
+     440           200007        ./119       
+     440           200009        ./119       
+     440           200006        ./119       
+     440           200019        ./.         
+     440           200003        ./.         
+     440           200001        ./119       
+

@@ -1,0 +1,35 @@
+
+
+
+==========
+Analysis 1
+==========
+
+
+Markers in order:
+  L1 L2 
+
+
+
+                      All Possible Haplotype Combinations
+
+
+                              Pool
+                    1:1 
+1-x  1-x  1-x  1-x   x  
+1-x  1-x  1-x  2-x   x  
+1-x  1-x  1-x  3-x   x  
+1-x  1-x  2-x  2-x   x  
+1-x  1-x  2-x  3-x   x  
+1-x  1-x  3-x  3-x   x  
+1-x  2-x  2-x  2-x   x  
+1-x  2-x  2-x  3-x   x  
+1-x  2-x  3-x  3-x   x  
+1-x  3-x  3-x  3-x   x  
+2-x  2-x  2-x  2-x   x  
+2-x  2-x  2-x  3-x   x  
+2-x  2-x  3-x  3-x   x  
+2-x  3-x  3-x  3-x   x  
+3-x  3-x  3-x  3-x   x  
+
+

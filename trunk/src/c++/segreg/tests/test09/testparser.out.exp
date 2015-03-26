@@ -1,0 +1,102 @@
+
+---------- 1 New Analysis Block 1 ---------- 
+
+Model class: D
+dominant
+
+Type means values: 
+Option: two means
+  maxfun parameter  mean_AA_AB   
+  value              17.500000   
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+  maxfun parameter  mean_BB      
+  value              8.000000    
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+recessive
+
+Type means values: 
+Option: two means
+  maxfun parameter  mean_AA      
+  value              17.500000   
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+  maxfun parameter  mean_AB_BB   
+  value              8.000000    
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+dominant
+
+Type means values: 
+Option: two means
+  maxfun parameter  mean_AA_AB   
+  value              17.500000   
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+  maxfun parameter  mean_BB      
+  value              8.000000    
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+
+dominant
+
+Type variances values: 
+Option: two variances
+  maxfun parameter  variance_AA_AB  
+  value              17.500000      
+  status            Fixed           
+  lower bound         1.00e-05      
+  upper bound       Infinity        
+
+  maxfun parameter  variance_BB  
+  value              8.000000    
+  status            Independent  
+  lower bound        1.00e-05    
+  upper bound       Infinity     
+
+recessive
+
+Type variances values: 
+Option: two variances
+  maxfun parameter  variance_AA  
+  value              17.500000   
+  status            Fixed        
+  lower bound         1.00e-05   
+  upper bound       Infinity     
+
+  maxfun parameter  variance_AB_BB  
+  value              8.000000       
+  status            Independent     
+  lower bound        1.00e-05       
+  upper bound       Infinity        
+
+dominant
+
+Type variances values: 
+Option: two variances
+  maxfun parameter  variance_AA_AB  
+  value              17.500000      
+  status            Fixed           
+  lower bound         1.00e-05      
+  upper bound       Infinity        
+
+  maxfun parameter  variance_BB  
+  value              8.000000    
+  status            Independent  
+  lower bound        1.00e-05    
+  upper bound       Infinity     
+
+

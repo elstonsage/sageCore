@@ -1,0 +1,240 @@
+
+
+
+
+============================================================================
+  Tables of Correlations +/- Asymptotic Standard Errors for Maintypes
+============================================================================
+
+    Number of pedigrees = 10
+    Number of traits    = 2
+
+    Trait(s) : EF Q1
+
+    Legend :
+      ------ : Value is not estimable.
+      &&&&&& : Pair count is greater than or equal to 100000.
+      @@@@@@ : Standard error is greater than or equal to 10.0.
+      ###### : Equivalent pair count is greater than or equal to 10000.
+     [StdErr]: Calculated by setting at least one nonestimable required
+               correlation to a value of 0.
+      [M]    : Male
+      [F]    : Female
+
+============================================================================
+Main Relationship Type : self
+============================================================================
+Subtypes Pooled   : male-self
+                    female-self
+Total Pairs Found = 290
+-----------------------------------------------------------------------------
+                            EF                              Q1               
+   POOLED    ----------------------------------------------------------------
+               Count  Correlation  P-value     Count  Correlation  P-value   
+              EqvCnt   +/- StdErr             EqvCnt   +/- StdErr            
+-----------------------------------------------------------------------------
+     EF        290         1.0000  ------      290         0.3117  0.0010 ** 
+              -----   +/- -------              106.8   +/- 0.0880            
+-----------------------------------------------------------------------------
+     Q1                                        290         1.0000  ------    
+                                              -----   +/- -------            
+-----------------------------------------------------------------------------
+
+============================================================================
+Main Relationship Type : parent:offspring
+============================================================================
+Subtypes Pooled   : father:son
+                    mother:son
+                    father:daughter
+                    mother:daughter
+Total Pairs Found = 420
+-----------------------------------------------------------------------------
+                            EF                              Q1               
+ INTERCLASS  ----------------------------------------------------------------
+               Count  Correlation  P-value     Count  Correlation  P-value   
+              EqvCnt   +/- StdErr             EqvCnt   +/- StdErr            
+-----------------------------------------------------------------------------
+     EF        420         0.4469  0.0000 ***  420         0.1512  0.0880    
+               163.5   +/- 0.0630              128.3   +/- 0.0866            
+-----------------------------------------------------------------------------
+     Q1        420         0.1482  0.1050      420         0.4416  0.0000 ***
+               120.9   +/- 0.0894              186.4   +/- 0.0593            
+-----------------------------------------------------------------------------
+ Pooled Cross-Correlations
+ -------------------------
+     EF                                        420         0.1499  0.0728    
+                                               144.1   +/- 0.0817            
+-----------------------------------------------------------------------------
+ Test for Homogeneity of Cross-Correlations
+ ------------------------------------------
+  Chi-Square = 0.002183 with 1 degree(s) of freedom
+  P-Value    = 0.962730
+-----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+Test for Homogeneity of Correlations among Subtypes - All Traits
+----------------------------------------------------------------------------
+  Chi-Square = [7.421630] with 12 degree(s) of freedom
+  P-Value    = [0.828540]
+
+
+============================================================================
+Main Relationship Type : sibling
+============================================================================
+Subtypes Pooled   : brother:brother
+                    sister:brother
+                    sister:sister
+Total Pairs Found = 210
+-----------------------------------------------------------------------------
+                            EF                              Q1               
+ INTRACLASS  ----------------------------------------------------------------
+               Count  Correlation  P-value     Count  Correlation  P-value   
+              EqvCnt   +/- StdErr             EqvCnt   +/- StdErr            
+-----------------------------------------------------------------------------
+     EF        210         0.4887  0.0000 ***  210         0.1698  0.1387    
+                72.6   +/- 0.0910               77.6   +/- 0.1111            
+-----------------------------------------------------------------------------
+     Q1                                        210         0.4519  0.0000 ***
+                                                90.1   +/- 0.0849            
+-----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+Test for Homogeneity of Correlations among Subtypes - All Traits
+----------------------------------------------------------------------------
+  Chi-Square = [3.738745] with 6 degree(s) of freedom
+  P-Value    = [0.711982]
+
+
+============================================================================
+Main Relationship Type : grandparent
+============================================================================
+Subtypes Pooled   : grandfather-through-father:grandson
+                    grandmother-through-father:grandson
+                    grandfather-through-mother:grandson
+                    grandmother-through-mother:grandson
+                    grandfather-through-father:granddaughter
+                    grandmother-through-father:granddaughter
+                    grandfather-through-mother:granddaughter
+                    grandmother-through-mother:granddaughter
+Total Pairs Found = 360
+-----------------------------------------------------------------------------
+                            EF                              Q1               
+ INTERCLASS  ----------------------------------------------------------------
+               Count  Correlation  P-value     Count  Correlation  P-value   
+              EqvCnt   +/- StdErr             EqvCnt   +/- StdErr            
+-----------------------------------------------------------------------------
+     EF        360         0.2397  0.0221 *    360         0.1097  0.2950    
+                90.7   +/- 0.0997               93.4   +/- 0.1028            
+-----------------------------------------------------------------------------
+     Q1        360         0.1535  0.1540      360         0.1804  0.0763    
+                87.9   +/- 0.1048               97.4   +/- 0.0986            
+-----------------------------------------------------------------------------
+ Pooled Cross-Correlations
+ -------------------------
+     EF                                        360         0.1308  0.1476    
+                                               124.1   +/- 0.0886            
+-----------------------------------------------------------------------------
+ Test for Homogeneity of Cross-Correlations
+ ------------------------------------------
+  Chi-Square = 0.164197 with 1 degree(s) of freedom
+  P-Value    = 0.685322
+-----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+Test for Homogeneity of Correlations among Subtypes - All Traits
+----------------------------------------------------------------------------
+  Chi-Square = [29.90004] with 28 degree(s) of freedom
+  P-Value    = [0.368012]
+
+
+============================================================================
+Main Relationship Type : avuncular
+============================================================================
+Subtypes Pooled   : uncle-through-father:nephew
+                    aunt-through-father:nephew
+                    uncle-through-mother:nephew
+                    aunt-through-mother:nephew
+                    uncle-through-father:niece
+                    aunt-through-father:niece
+                    uncle-through-mother:niece
+                    aunt-through-mother:niece
+Total Pairs Found = 360
+-----------------------------------------------------------------------------
+                            EF                              Q1               
+ INTERCLASS  ----------------------------------------------------------------
+               Count  Correlation  P-value     Count  Correlation  P-value   
+              EqvCnt   +/- StdErr             EqvCnt   +/- StdErr            
+-----------------------------------------------------------------------------
+     EF        360         0.3858  0.0012 **   360         0.2232  0.0702    
+                66.2   +/- 0.1062               66.6   +/- 0.1176            
+-----------------------------------------------------------------------------
+     Q1        360         0.2053  0.1008      360         0.1968  0.1229    
+                65.1   +/- 0.1198               62.8   +/- 0.1225            
+-----------------------------------------------------------------------------
+ Pooled Cross-Correlations
+ -------------------------
+     EF                                        360         0.2147  0.0550    
+                                                80.4   +/- 0.1072            
+-----------------------------------------------------------------------------
+ Test for Homogeneity of Cross-Correlations
+ ------------------------------------------
+  Chi-Square = 0.031138 with 1 degree(s) of freedom
+  P-Value    = 0.859933
+-----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+Test for Homogeneity of Correlations among Subtypes - All Traits
+----------------------------------------------------------------------------
+  Chi-Square = [18.82313] with 28 degree(s) of freedom
+  P-Value    = [0.903504]
+
+
+============================================================================
+Main Relationship Type : cousin
+============================================================================
+Subtypes Pooled   : male-cousin-through-father:male-cousin-through-father
+                    male-cousin-through-mother:male-cousin-through-father
+                    male-cousin-through-mother:male-cousin-through-mother
+                    female-cousin-through-father:male-cousin-through-father
+                    female-cousin-through-father:male-cousin-through-mother
+                    female-cousin-through-father:female-cousin-through-father
+                    female-cousin-through-mother:male-cousin-through-father
+                    female-cousin-through-mother:male-cousin-through-mother
+                    female-cousin-through-mother:female-cousin-through-father
+                    female-cousin-through-mother:female-cousin-through-mother
+Total Pairs Found = 270
+-----------------------------------------------------------------------------
+                            EF                              Q1               
+ INTRACLASS  ----------------------------------------------------------------
+               Count  Correlation  P-value     Count  Correlation  P-value   
+              EqvCnt   +/- StdErr             EqvCnt   +/- StdErr            
+-----------------------------------------------------------------------------
+     EF        270         0.2819  0.0270 *    270         0.2804  0.0063 ** 
+                59.7   +/- 0.1206               93.1   +/- 0.0963            
+-----------------------------------------------------------------------------
+     Q1                                        270         0.2080  0.0957    
+                                                63.8   +/- 0.1210            
+-----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+Test for Homogeneity of Correlations among Subtypes - All Traits
+ - is not available!
+----------------------------------------------------------------------------
+
+============================================================================
+Main Relationship Type : mother:father
+============================================================================
+Total Pairs Found = 70
+-----------------------------------------------------------------------------
+                            EF                              Q1               
+ INTERCLASS  ----------------------------------------------------------------
+               Count  Correlation  P-value     Count  Correlation  P-value   
+              EqvCnt   +/- StdErr             EqvCnt   +/- StdErr            
+-----------------------------------------------------------------------------
+     EF         70         0.0866  0.4531       70         0.0399  0.7438    
+                77.7   +/- 0.1134               70.1   +/- 0.1201            
+-----------------------------------------------------------------------------
+     Q1         70         0.0495  0.6844       70         0.0358  0.7629    
+                70.2   +/- 0.1199               73.9   +/- 0.1170            
+-----------------------------------------------------------------------------
+

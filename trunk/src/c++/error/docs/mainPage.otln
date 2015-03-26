@@ -1,0 +1,31 @@
+\TITLE\
+ERROR API
+\BRIEF\
+Error library
+\MODULE_NAME\
+error_main
+\DETAILED\
+\#.\ What is the error registry?
+
+The error registry is a component of the error library designed to help the
+programmer manage and report errors. While the core functionality of the
+error library consists in making errorstreams available to the programmer,
+the extended functionality of the error registry makes available content
+management for said errors.
+
+Because the error registry supports external registry files (in XML format),
+it is much easier to maintain canonical lists of potential program errors as
+well as generate documentation for them. Whereas previously error
+documentation in SAGE has been spotty, with the new system it is possible to
+track error documentation clearly and completely; one can, in turn, easily
+turn XML error files into documentation for user manuals.
+
+\#.\ Why is the namespace SAGE::S_ERROR instead of SAGE::ERROR ?
+
+Because on Windows, ERR is defined as a macro somewhere in the vast infinity
+of STL includes, so ERROR gets processed incorrectly. Ah well...
+
+\#.\ How can I get started?
+
+The main classes you should review are SAGE::S_ERROR::Error and
+SAGE::S_ERROR::Registry.

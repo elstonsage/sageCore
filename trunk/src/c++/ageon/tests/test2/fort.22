@@ -1,0 +1,195 @@
+
+ --------------------------------------------------------------------------------------------------------------------------------
+ --------------------------------------------------------------------------------------------------------------------------------
+ MAXFUN
+ COPYRIGHT (C) 1997 CASE WESTERN RESERVE UNIVERSITY.
+ 
+ TOTAL # PARAMETERS IN THE MODEL NT =  9; # PARAMETERS TO BE ESTIMATED NE =  8; # DEPENDENT PARAMETERS ND =  0
+ MAXIMUM # ITERATIONS MAXIT =5000
+ CONTROL VALUES:
+    IXVC = 0; IHIT = 0;
+    EPSD =  .100E-02; YOTA =  .169E-05; EPST =  .130E-01; EPSC1 =  .100E-02; EPSC2 =  .100E-14; EPSC3 =  .000E+00
+ --------------------------------------------------------------------------------------------------------------------------------
+0METHOD 1:  DIRECT SEARCH METHOD
+0INITIAL CONDITIONS
+    PARAMETER                           LOWER BOUND      INITIAL EST      UPPER BOUND     IN STEP FACT       STATUS
+     1  PARAMETER P                      -100000.00        1.0000000        100000.00        .10000000       FIXED EXTERNALLY
+     2  MEAN AGE OF ONSET                 .00000000        9.7777778        100000.00        .10000000       IND, MAY VARY   
+     3  STD. DEV. OF AGE OF ONSET         .00000000        5.1794872        100000.00        .10000000       IND, MAY VARY   
+     4  SUSCEPTIBILITY OF CLASS  1        .00000000        .33333333        1.0000000        .10000000       IND, MAY VARY   
+     5  SUSCEPTIBILITY OF CLASS  2        .00000000        .33333333        1.0000000        .10000000       IND, MAY VARY   
+     6  SUSCEPTIBILITY OF CLASS  3        .00000000        .33333333        1.0000000        .10000000       IND, MAY VARY   
+     7  SUSCEPTIBILITY OF CLASS  4        .00000000        .33333333        1.0000000        .10000000       IND, MAY VARY   
+     8  SUSCEPTIBILITY OF CLASS  5        .00000000        .33333333        1.0000000        .10000000       IND, MAY VARY   
+     9  SUSCEPTIBILITY OF CLASS  6        .00000000        .35000000        1.0000000        .10000000       IND, MAY VARY   
+    INITIAL FUNCTION VALUE  -.7262713608E+02
+ --------------------------------------------------------------------------------------------------------------------------------
+0PARAMETER  2 IS TEMPORARILY FIXED
+0PARAMETER  3 IS TEMPORARILY FIXED
+0PARAMETER  6 IS TEMPORARILY FIXED
+0PARAMETER  7 IS TEMPORARILY FIXED
+0PARAMETER  9 IS TEMPORARILY FIXED
+0BASIC ITERATION PROCESS OF DIRECT SEARCH CONVERGED BY CRITERION 1 AT ITERATION   7
+0IMPROVED VALUES(S) FOUND IN 2(NI)-TRIAL SEARCH
+0BASIC ITERATION PROCESS OF DIRECT SEARCH CONVERGED BY CRITERION 1 AT ITERATION  10
+0NO IMPROVEMENT IN 2(NI)-TRIAL SEARCH
+0NO IMPROVEMENT IN 2**(NI)-TRIAL SEARCH
+0PARAMETER  4 FIXED AT BOUND    1.0000000    
+0PARAMETER  5 FIXED AT BOUND    1.0000000    
+0FINAL CONDITIONS
+    PARAMETER                             FINAL EST          STD DEV      FIRST DERIV       STATUS
+     1  PARAMETER P                       1.0000000       ----------       ----------       FIXED EXTERNALLY                    
+     2  MEAN AGE OF ONSET                 10.798362       ----------       -.00075223       IND, MAY VARY                       
+     3  STD. DEV. OF AGE OF ONSET         7.0017871       ----------       -.00003561       IND, MAY VARY                       
+     4  SUSCEPTIBILITY OF CLASS  1        1.0000000       ----------       ----------       IND, FIXED BY MAXFUN AT BOUND       
+     5  SUSCEPTIBILITY OF CLASS  2        1.0000000       ----------       ----------       IND, FIXED BY MAXFUN AT BOUND       
+     6  SUSCEPTIBILITY OF CLASS  3        .94273678       ----------        .00000000       IND, MAY VARY                       
+     7  SUSCEPTIBILITY OF CLASS  4        .74059997       ----------        .00000000       IND, MAY VARY                       
+     8  SUSCEPTIBILITY OF CLASS  5        .62711245       ----------        .00000000       IND, MAY VARY                       
+     9  SUSCEPTIBILITY OF CLASS  6        .56379243       ----------        .00000003       IND, MAY VARY                       
+    FINAL FUNCTION VALUE  -.6232353695E+02
+    NUMBER OF FUNCTION EVALUATIONS  278
+
+ --------------------------------------------------------------------------------------------------------------------------------
+ --------------------------------------------------------------------------------------------------------------------------------
+
+ --------------------------------------------------------------------------------------------------------------------------------
+ --------------------------------------------------------------------------------------------------------------------------------
+ MAXFUN
+ COPYRIGHT (C) 1997 CASE WESTERN RESERVE UNIVERSITY.
+ 
+ TOTAL # PARAMETERS IN THE MODEL NT =  9; # PARAMETERS TO BE ESTIMATED NE =  8; # DEPENDENT PARAMETERS ND =  0
+ MAXIMUM # ITERATIONS MAXIT =5000
+ CONTROL VALUES:
+    IXVC = 0; IHIT = 0;
+    EPSD =  .100E-02; YOTA =  .169E-05; EPST =  .130E-01; EPSC1 =  .100E-02; EPSC2 =  .100E-14; EPSC3 =  .000E+00
+ --------------------------------------------------------------------------------------------------------------------------------
+0METHOD 5:  VARIABLE METRIC METHOD, USING NEGATIVE IDENTITY FOR INITIAL HESSIAN
+0INITIAL CONDITIONS
+    PARAMETER                           LOWER BOUND      INITIAL EST      UPPER BOUND       STATUS
+     1  PARAMETER P                      -100000.00        1.0000000        100000.00       FIXED EXTERNALLY
+     2  MEAN AGE OF ONSET                 .00000000        10.798362        100000.00       IND, MAY VARY   
+     3  STD. DEV. OF AGE OF ONSET         .00000000        7.0017871        100000.00       IND, MAY VARY   
+     4  SUSCEPTIBILITY OF CLASS  1        .00000000        .33333333        1.0000000       IND, MAY VARY   
+     5  SUSCEPTIBILITY OF CLASS  2        .00000000        .33333333        1.0000000       IND, MAY VARY   
+     6  SUSCEPTIBILITY OF CLASS  3        .00000000        .94273678        1.0000000       IND, MAY VARY   
+     7  SUSCEPTIBILITY OF CLASS  4        .00000000        .74059997        1.0000000       IND, MAY VARY   
+     8  SUSCEPTIBILITY OF CLASS  5        .00000000        .62711245        1.0000000       IND, MAY VARY   
+     9  SUSCEPTIBILITY OF CLASS  6        .00000000        .56379243        1.0000000       IND, MAY VARY   
+    INITIAL FUNCTION VALUE  -.6738879434E+02
+ --------------------------------------------------------------------------------------------------------------------------------
+0USING IDENTITY FOR INITIAL B MATRIX
+ --------------------------------------------------------------------------------------------------------------------------------
+0PARAMETER  5 FIXED AT BOUND    1.0000000    
+0USING IDENTITY FOR INITIAL B MATRIX
+ --------------------------------------------------------------------------------------------------------------------------------
+0PARAMETER  4 FIXED AT BOUND    1.0000000    
+0USING IDENTITY FOR INITIAL B MATRIX
+ --------------------------------------------------------------------------------------------------------------------------------
+0CONVERGED BY CRITERION 1 AT ITERATION  10
+0FINAL CONDITIONS
+    PARAMETER                             FINAL EST          STD DEV      FIRST DERIV       STATUS
+     1  PARAMETER P                       1.0000000       ----------       ----------       FIXED EXTERNALLY                    
+     2  MEAN AGE OF ONSET                 10.797935       ----------        .00011264       IND, MAY VARY                       
+     3  STD. DEV. OF AGE OF ONSET         7.0012271       ----------       -.00011784       IND, MAY VARY                       
+     4  SUSCEPTIBILITY OF CLASS  1        1.0000000       ----------       ----------       IND, FIXED BY MAXFUN AT BOUND       
+     5  SUSCEPTIBILITY OF CLASS  2        1.0000000       ----------       ----------       IND, FIXED BY MAXFUN AT BOUND       
+     6  SUSCEPTIBILITY OF CLASS  3        .94262687       ----------       -.00005851       IND, MAY VARY                       
+     7  SUSCEPTIBILITY OF CLASS  4        .74053317       ----------       -.00007577       IND, MAY VARY                       
+     8  SUSCEPTIBILITY OF CLASS  5        .62706351       ----------        .00017373       IND, MAY VARY                       
+     9  SUSCEPTIBILITY OF CLASS  6        .56375875       ----------        .00035565       IND, MAY VARY                       
+    FINAL FUNCTION VALUE  -.6232353678E+02
+    NUMBER OF FUNCTION EVALUATIONS  100
+
+ --------------------------------------------------------------------------------------------------------------------------------
+ --------------------------------------------------------------------------------------------------------------------------------
+
+ --------------------------------------------------------------------------------------------------------------------------------
+ --------------------------------------------------------------------------------------------------------------------------------
+ MAXFUN
+ COPYRIGHT (C) 1997 CASE WESTERN RESERVE UNIVERSITY.
+ 
+ TOTAL # PARAMETERS IN THE MODEL NT =  9; # PARAMETERS TO BE ESTIMATED NE =  8; # DEPENDENT PARAMETERS ND =  5
+ MAXIMUM # ITERATIONS MAXIT =5000
+ CONTROL VALUES:
+    IXVC = 0; IHIT = 0;
+    EPSD =  .100E-02; YOTA =  .169E-05; EPST =  .130E-01; EPSC1 =  .100E-02; EPSC2 =  .100E-14; EPSC3 =  .000E+00
+ --------------------------------------------------------------------------------------------------------------------------------
+0METHOD 1:  DIRECT SEARCH METHOD
+0INITIAL CONDITIONS
+    PARAMETER                           LOWER BOUND      INITIAL EST      UPPER BOUND     IN STEP FACT       STATUS
+     1  PARAMETER P                      -100000.00        1.0000000        100000.00        .10000000       FIXED EXTERNALLY
+     2  MEAN AGE OF ONSET                 .00000000        10.797935        100000.00        .10000000       IND, MAY VARY   
+     3  STD. DEV. OF AGE OF ONSET         .00000000        7.0012271        100000.00        .10000000       IND, MAY VARY   
+     4  SUSCEPTIBILITY OF CLASS  1        .00000000        .33611111        1.0000000        .10000000       DEPENDENT       
+     5  SUSCEPTIBILITY OF CLASS  2        .00000000        .33611111        1.0000000        .10000000       DEPENDENT       
+     6  SUSCEPTIBILITY OF CLASS  3        .00000000        .33611111        1.0000000        .10000000       DEPENDENT       
+     7  SUSCEPTIBILITY OF CLASS  4        .00000000        .33611111        1.0000000        .10000000       DEPENDENT       
+     8  SUSCEPTIBILITY OF CLASS  5        .00000000        .33611111        1.0000000        .10000000       DEPENDENT       
+     9  SUSCEPTIBILITY OF CLASS  6        .00000000        .33611111        1.0000000        .10000000       IND-FN, MAY VARY
+    INITIAL FUNCTION VALUE  -.7395825570E+02
+ --------------------------------------------------------------------------------------------------------------------------------
+0BASIC ITERATION PROCESS OF DIRECT SEARCH CONVERGED BY CRITERION 1 AT ITERATION  12
+0NO IMPROVEMENT IN 2(NI)-TRIAL SEARCH
+0NO IMPROVEMENT IN 2**(NI)-TRIAL SEARCH
+0FINAL CONDITIONS
+    PARAMETER                             FINAL EST          STD DEV      FIRST DERIV       STATUS
+     1  PARAMETER P                       1.0000000       ----------       ----------       FIXED EXTERNALLY                    
+     2  MEAN AGE OF ONSET                 11.075893       ----------        .00018839       IND, MAY VARY                       
+     3  STD. DEV. OF AGE OF ONSET         8.3852485       ----------        .00004488       IND, MAY VARY                       
+     4  SUSCEPTIBILITY OF CLASS  1        .75087150       ----------       ----------       DEPENDENT                           
+     5  SUSCEPTIBILITY OF CLASS  2        .75087150       ----------       ----------       DEPENDENT                           
+     6  SUSCEPTIBILITY OF CLASS  3        .75087150       ----------       ----------       DEPENDENT                           
+     7  SUSCEPTIBILITY OF CLASS  4        .75087150       ----------       ----------       DEPENDENT                           
+     8  SUSCEPTIBILITY OF CLASS  5        .75087150       ----------       ----------       DEPENDENT                           
+     9  SUSCEPTIBILITY OF CLASS  6        .75087150       ----------        .00001089       IND-FN, MAY VARY                    
+    FINAL FUNCTION VALUE  -.6461778771E+02
+    NUMBER OF FUNCTION EVALUATIONS  129
+
+ --------------------------------------------------------------------------------------------------------------------------------
+ --------------------------------------------------------------------------------------------------------------------------------
+
+ --------------------------------------------------------------------------------------------------------------------------------
+ --------------------------------------------------------------------------------------------------------------------------------
+ MAXFUN
+ COPYRIGHT (C) 1997 CASE WESTERN RESERVE UNIVERSITY.
+ 
+ TOTAL # PARAMETERS IN THE MODEL NT =  9; # PARAMETERS TO BE ESTIMATED NE =  8; # DEPENDENT PARAMETERS ND =  5
+ MAXIMUM # ITERATIONS MAXIT =5000
+ CONTROL VALUES:
+    IXVC = 0; IHIT = 0;
+    EPSD =  .100E-02; YOTA =  .169E-05; EPST =  .130E-01; EPSC1 =  .100E-02; EPSC2 =  .100E-14; EPSC3 =  .000E+00
+ --------------------------------------------------------------------------------------------------------------------------------
+0METHOD 5:  VARIABLE METRIC METHOD, USING NEGATIVE IDENTITY FOR INITIAL HESSIAN
+0INITIAL CONDITIONS
+    PARAMETER                           LOWER BOUND      INITIAL EST      UPPER BOUND       STATUS
+     1  PARAMETER P                      -100000.00        1.0000000        100000.00       FIXED EXTERNALLY
+     2  MEAN AGE OF ONSET                 .00000000        11.075893        100000.00       IND, MAY VARY   
+     3  STD. DEV. OF AGE OF ONSET         .00000000        8.3852485        100000.00       IND, MAY VARY   
+     4  SUSCEPTIBILITY OF CLASS  1        .00000000        .75087150        1.0000000       DEPENDENT       
+     5  SUSCEPTIBILITY OF CLASS  2        .00000000        .75087150        1.0000000       DEPENDENT       
+     6  SUSCEPTIBILITY OF CLASS  3        .00000000        .75087150        1.0000000       DEPENDENT       
+     7  SUSCEPTIBILITY OF CLASS  4        .00000000        .75087150        1.0000000       DEPENDENT       
+     8  SUSCEPTIBILITY OF CLASS  5        .00000000        .75087150        1.0000000       DEPENDENT       
+     9  SUSCEPTIBILITY OF CLASS  6        .00000000        .75087150        1.0000000       IND-FN, MAY VARY
+    INITIAL FUNCTION VALUE  -.6461778771E+02
+ --------------------------------------------------------------------------------------------------------------------------------
+0USING IDENTITY FOR INITIAL B MATRIX
+ --------------------------------------------------------------------------------------------------------------------------------
+0CONVERGED BY CRITERION 1 AT ITERATION   1
+0FINAL CONDITIONS
+    PARAMETER                             FINAL EST          STD DEV      FIRST DERIV       STATUS
+     1  PARAMETER P                       1.0000000       ----------       ----------       FIXED EXTERNALLY                    
+     2  MEAN AGE OF ONSET                 11.075901       ----------        .00012776       IND, MAY VARY                       
+     3  STD. DEV. OF AGE OF ONSET         8.3852506       ----------        .00004344       IND, MAY VARY                       
+     4  SUSCEPTIBILITY OF CLASS  1        .75086851       ----------       ----------       DEPENDENT                           
+     5  SUSCEPTIBILITY OF CLASS  2        .75086851       ----------       ----------       DEPENDENT                           
+     6  SUSCEPTIBILITY OF CLASS  3        .75086851       ----------       ----------       DEPENDENT                           
+     7  SUSCEPTIBILITY OF CLASS  4        .75086851       ----------       ----------       DEPENDENT                           
+     8  SUSCEPTIBILITY OF CLASS  5        .75086851       ----------       ----------       DEPENDENT                           
+     9  SUSCEPTIBILITY OF CLASS  6        .75086851       ----------        .00044150       IND-FN, MAY VARY                    
+    FINAL FUNCTION VALUE  -.6461778771E+02
+    NUMBER OF FUNCTION EVALUATIONS   12
+
+ --------------------------------------------------------------------------------------------------------------------------------
+ --------------------------------------------------------------------------------------------------------------------------------

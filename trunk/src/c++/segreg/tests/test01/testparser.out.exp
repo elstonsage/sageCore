@@ -1,0 +1,3540 @@
+
+---------- 1 New Analysis Block 1 ---------- 
+
+File name root: segreg_analysis1
+Model class: invalid
+Each pedigree: 0
+Penetration function output: 0
+Type probability: 0
+Primary trait: 
+
+
+Type means values: 
+Option: one mean
+  maxfun parameter  mean         
+  value             Non-number   
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+mean default:  true
+
+Transformation values: 
+Option: Box-Cox
+  maxfun parameter  lambda_one   
+  value              1.000000    
+  status            Independent  
+  lower bound       -1.000000    
+  upper bound       Infinity     
+
+  maxfun parameter  lambda_two  
+  value              0.000000   
+  status            Fixed       
+  lower bound       -Infinity   
+  upper bound       Infinity    
+
+
+Type frequency values: 
+Option: Hardy-Weinberg equilibrium
+  maxfun parameter  prob_AA     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_AB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_BB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  freq_A                  
+  value             Non-number              
+  status            Independent functional  
+  lower bound        2.22e-16               
+  upper bound        1.000000               
+
+freq default:  true
+
+
+---------- 2 New Analysis Block 2 ---------- 
+
+File name root: my_out
+Model class: D
+Each pedigree: false
+Penetration function output: false
+Type probability: true
+Primary trait: hematocrit
+
+
+Type means values: 
+Option: one mean
+  maxfun parameter  mean         
+  value             Non-number   
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+mean default:  true
+
+Transformation values: 
+Option: Box-Cox
+  maxfun parameter  lambda_one   
+  value              1.000000    
+  status            Independent  
+  lower bound       -1.000000    
+  upper bound       Infinity     
+
+  maxfun parameter  lambda_two  
+  value              0.000000   
+  status            Fixed       
+  lower bound       -Infinity   
+  upper bound       Infinity    
+
+
+Type frequency values: 
+Option: Hardy-Weinberg equilibrium
+  maxfun parameter  prob_AA     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_AB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_BB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  freq_A                  
+  value             Non-number              
+  status            Independent functional  
+  lower bound        2.22e-16               
+  upper bound        1.000000               
+
+freq default:  true
+
+
+---------- 3 New Analysis Block 3 ---------- 
+
+File name root: segreg_analysis3
+Model class: invalid
+Each pedigree: false
+Penetration function output: false
+Type probability: false
+Primary trait: hematocrit
+
+
+Type means values: 
+Option: one mean
+  maxfun parameter  mean         
+  value             Non-number   
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+mean default:  true
+
+Transformation values: 
+Option: Box-Cox
+  maxfun parameter  lambda_one   
+  value              1.000000    
+  status            Independent  
+  lower bound       -1.000000    
+  upper bound       Infinity     
+
+  maxfun parameter  lambda_two  
+  value              0.000000   
+  status            Fixed       
+  lower bound       -Infinity   
+  upper bound       Infinity    
+
+
+Type frequency values: 
+Option: 
+freq default:  true
+
+
+---------- 4 New Analysis Block 4 ---------- 
+
+File name root: segreg_analysis4
+Model class: D
+Each pedigree: false
+Penetration function output: false
+Type probability: false
+Primary trait: hematocrit
+
+
+Type means values: 
+Option: two means
+  maxfun parameter  mean_AA_AB   
+  value              0.600000    
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+  maxfun parameter  mean_BB      
+  value             Non-number   
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+mean default:  false
+
+Transformation values: 
+Option: Box-Cox
+  maxfun parameter  lambda_one   
+  value              1.000000    
+  status            Independent  
+  lower bound       -1.000000    
+  upper bound       Infinity     
+
+  maxfun parameter  lambda_two  
+  value              0.000000   
+  status            Fixed       
+  lower bound       -Infinity   
+  upper bound       Infinity    
+
+
+Type frequency values: 
+Option: Hardy-Weinberg equilibrium
+  maxfun parameter  prob_AA     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_AB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_BB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  freq_A                  
+  value             Non-number              
+  status            Independent functional  
+  lower bound        2.22e-16               
+  upper bound        1.000000               
+
+freq default:  true
+
+
+---------- 5 New Analysis Block 5 ---------- 
+
+File name root: segreg_analysis5
+Model class: D
+Each pedigree: false
+Penetration function output: false
+Type probability: false
+Primary trait: hematocrit
+
+
+Type means values: 
+Option: three means
+  maxfun parameter  mean_AA      
+  value              22.000000   
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+  maxfun parameter  mean_AB      
+  value             Non-number   
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+  maxfun parameter  mean_BB     
+  value              13.000000  
+  status            Fixed       
+  lower bound       -Infinity   
+  upper bound       Infinity    
+
+mean default:  false
+
+Transformation values: 
+Option: Box-Cox
+  maxfun parameter  lambda_one   
+  value              1.000000    
+  status            Independent  
+  lower bound       -1.000000    
+  upper bound       Infinity     
+
+  maxfun parameter  lambda_two  
+  value              0.000000   
+  status            Fixed       
+  lower bound       -Infinity   
+  upper bound       Infinity    
+
+
+Type frequency values: 
+Option: Hardy-Weinberg equilibrium
+  maxfun parameter  prob_AA     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_AB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_BB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  freq_A                  
+  value             Non-number              
+  status            Independent functional  
+  lower bound        2.22e-16               
+  upper bound        1.000000               
+
+freq default:  true
+
+
+---------- 6 New Analysis Block 6 ---------- 
+
+File name root: segreg_analysis6
+Model class: D
+Each pedigree: false
+Penetration function output: false
+Type probability: false
+Primary trait: hematocrit
+
+
+Type means values: 
+Option: two means, A dominant
+  maxfun parameter  mean_AA_AB   
+  value              0.600000    
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+  maxfun parameter  mean_BB      
+  value             Non-number   
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+mean default:  false
+
+Transformation values: 
+Option: Box-Cox
+  maxfun parameter  lambda_one   
+  value              1.000000    
+  status            Independent  
+  lower bound       -1.000000    
+  upper bound       Infinity     
+
+  maxfun parameter  lambda_two  
+  value              0.000000   
+  status            Fixed       
+  lower bound       -Infinity   
+  upper bound       Infinity    
+
+
+Type frequency values: 
+Option: Hardy-Weinberg equilibrium
+  maxfun parameter  prob_AA     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_AB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_BB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  freq_A                  
+  value             Non-number              
+  status            Independent functional  
+  lower bound        2.22e-16               
+  upper bound        1.000000               
+
+freq default:  true
+
+
+---------- 7 New Analysis Block 7 ---------- 
+
+File name root: segreg_analysis7
+Model class: D
+Each pedigree: false
+Penetration function output: false
+Type probability: false
+Primary trait: hematocrit
+
+
+Type means values: 
+Option: two means, A recessive
+  maxfun parameter  mean_AA     
+  value              12.300000  
+  status            Fixed       
+  lower bound       -Infinity   
+  upper bound       Infinity    
+
+  maxfun parameter  mean_AB_BB  
+  value              12.300000  
+  status            Fixed       
+  lower bound       -Infinity   
+  upper bound       Infinity    
+
+mean default:  false
+
+Transformation values: 
+Option: Box-Cox
+  maxfun parameter  lambda_one   
+  value              1.000000    
+  status            Independent  
+  lower bound       -1.000000    
+  upper bound       Infinity     
+
+  maxfun parameter  lambda_two  
+  value              0.000000   
+  status            Fixed       
+  lower bound       -Infinity   
+  upper bound       Infinity    
+
+
+Type frequency values: 
+Option: Hardy-Weinberg equilibrium
+  maxfun parameter  prob_AA     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_AB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_BB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  freq_A                  
+  value             Non-number              
+  status            Independent functional  
+  lower bound        2.22e-16               
+  upper bound        1.000000               
+
+freq default:  true
+
+
+---------- 8 New Analysis Block 8 ---------- 
+
+File name root: segreg_analysis8
+Model class: D
+Each pedigree: false
+Penetration function output: false
+Type probability: false
+Primary trait: hematocrit
+
+
+Type means values: 
+Option: two means, A recessive
+  maxfun parameter  mean_AA      
+  value              12.300000   
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+  maxfun parameter  mean_AB_BB   
+  value              0.700000    
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+mean default:  false
+
+Transformation values: 
+Option: Box-Cox
+  maxfun parameter  lambda_one   
+  value              1.000000    
+  status            Independent  
+  lower bound       -1.000000    
+  upper bound       Infinity     
+
+  maxfun parameter  lambda_two  
+  value              0.000000   
+  status            Fixed       
+  lower bound       -Infinity   
+  upper bound       Infinity    
+
+
+Type frequency values: 
+Option: Hardy-Weinberg equilibrium
+  maxfun parameter  prob_AA     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_AB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_BB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  freq_A                  
+  value             Non-number              
+  status            Independent functional  
+  lower bound        2.22e-16               
+  upper bound        1.000000               
+
+freq default:  true
+
+
+---------- 9 New Analysis Block 9 ---------- 
+
+File name root: segreg_analysis9
+Model class: D
+Each pedigree: false
+Penetration function output: false
+Type probability: false
+Primary trait: hematocrit
+
+
+Type means values: 
+Option: three means, additive
+  maxfun parameter  mean_AA                 
+  value              12.300000              
+  status            Independent functional  
+  lower bound       -Infinity               
+  upper bound       Infinity                
+
+  maxfun parameter  mean_AB     
+  value              12.300000  
+  status            Dependent   
+  lower bound       -Infinity   
+  upper bound       Infinity    
+
+  maxfun parameter  mean_BB                 
+  value              12.300000              
+  status            Independent functional  
+  lower bound       -Infinity               
+  upper bound       Infinity                
+
+mean default:  false
+
+Transformation values: 
+Option: Box-Cox
+  maxfun parameter  lambda_one   
+  value              1.000000    
+  status            Independent  
+  lower bound       -1.000000    
+  upper bound       Infinity     
+
+  maxfun parameter  lambda_two  
+  value              0.000000   
+  status            Fixed       
+  lower bound       -Infinity   
+  upper bound       Infinity    
+
+
+Type frequency values: 
+Option: Hardy-Weinberg equilibrium
+  maxfun parameter  prob_AA     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_AB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_BB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  freq_A                  
+  value             Non-number              
+  status            Independent functional  
+  lower bound        2.22e-16               
+  upper bound        1.000000               
+
+freq default:  true
+
+
+---------- 10 New Analysis Block 10 ---------- 
+
+File name root: segreg_analysis10
+Model class: D
+Each pedigree: false
+Penetration function output: false
+Type probability: false
+Primary trait: hematocrit
+
+
+Type means values: 
+Option: three means, additive
+  maxfun parameter  mean_AA                 
+  value              12.300000              
+  status            Independent functional  
+  lower bound       -Infinity               
+  upper bound       Infinity                
+
+  maxfun parameter  mean_AB    
+  value              7.000000  
+  status            Dependent  
+  lower bound       -Infinity  
+  upper bound       Infinity   
+
+  maxfun parameter  mean_BB    
+  value              1.700000  
+  status            Fixed      
+  lower bound       -Infinity  
+  upper bound       Infinity   
+
+mean default:  false
+
+Transformation values: 
+Option: Box-Cox
+  maxfun parameter  lambda_one   
+  value              1.000000    
+  status            Independent  
+  lower bound       -1.000000    
+  upper bound       Infinity     
+
+  maxfun parameter  lambda_two  
+  value              0.000000   
+  status            Fixed       
+  lower bound       -Infinity   
+  upper bound       Infinity    
+
+
+Type frequency values: 
+Option: Hardy-Weinberg equilibrium
+  maxfun parameter  prob_AA     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_AB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_BB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  freq_A                  
+  value             Non-number              
+  status            Independent functional  
+  lower bound        2.22e-16               
+  upper bound        1.000000               
+
+freq default:  true
+
+
+---------- 11 New Analysis Block 11 ---------- 
+
+File name root: segreg_analysis11
+Model class: D
+Each pedigree: false
+Penetration function output: false
+Type probability: false
+Primary trait: hematocrit
+
+
+Type means values: 
+Option: three means, decreasing
+  maxfun parameter  mean_AA                 
+  value              12.300000              
+  status            Independent functional  
+  lower bound       -Infinity               
+  upper bound       Infinity                
+
+  maxfun parameter  mean_AB                 
+  value              12.300000              
+  status            Independent functional  
+  lower bound       -Infinity               
+  upper bound       Infinity                
+
+  maxfun parameter  mean_BB                 
+  value              12.300000              
+  status            Independent functional  
+  lower bound       -Infinity               
+  upper bound       Infinity                
+
+mean default:  false
+
+Transformation values: 
+Option: Box-Cox
+  maxfun parameter  lambda_one   
+  value              1.000000    
+  status            Independent  
+  lower bound       -1.000000    
+  upper bound       Infinity     
+
+  maxfun parameter  lambda_two  
+  value              0.000000   
+  status            Fixed       
+  lower bound       -Infinity   
+  upper bound       Infinity    
+
+
+Type frequency values: 
+Option: Hardy-Weinberg equilibrium
+  maxfun parameter  prob_AA     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_AB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_BB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  freq_A                  
+  value             Non-number              
+  status            Independent functional  
+  lower bound        2.22e-16               
+  upper bound        1.000000               
+
+freq default:  true
+
+
+---------- 12 New Analysis Block 12 ---------- 
+
+File name root: segreg_analysis12
+Model class: invalid
+Each pedigree: false
+Penetration function output: false
+Type probability: false
+Primary trait: hematocrit
+
+
+Type means values: 
+Option: three means, decreasing
+  maxfun parameter  mean_AA                 
+  value              12.300000              
+  status            Independent functional  
+  lower bound       -Infinity               
+  upper bound       Infinity                
+
+  maxfun parameter  mean_AB                 
+  value              71.000000              
+  status            Independent functional  
+  lower bound       -Infinity               
+  upper bound       Infinity                
+
+  maxfun parameter  mean_BB                 
+  value             Non-number              
+  status            Independent functional  
+  lower bound       -Infinity               
+  upper bound       Infinity                
+
+mean default:  false
+
+Transformation values: 
+Option: Box-Cox
+  maxfun parameter  lambda_one   
+  value              1.000000    
+  status            Independent  
+  lower bound       -1.000000    
+  upper bound       Infinity     
+
+  maxfun parameter  lambda_two  
+  value              0.000000   
+  status            Fixed       
+  lower bound       -Infinity   
+  upper bound       Infinity    
+
+
+Type frequency values: 
+Option: Hardy-Weinberg equilibrium
+  maxfun parameter  prob_AA     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_AB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_BB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  freq_A                  
+  value             Non-number              
+  status            Independent functional  
+  lower bound        2.22e-16               
+  upper bound        1.000000               
+
+freq default:  true
+
+
+---------- 13 New Analysis Block 13 ---------- 
+
+File name root: segreg_analysis13
+Model class: invalid
+Each pedigree: false
+Penetration function output: false
+Type probability: false
+Primary trait: hematocrit
+
+
+Type means values: 
+Option: three means, increasing
+  maxfun parameter  mean_AA                 
+  value              12.300000              
+  status            Independent functional  
+  lower bound       -Infinity               
+  upper bound       Infinity                
+
+  maxfun parameter  mean_AB                 
+  value              12.300000              
+  status            Independent functional  
+  lower bound       -Infinity               
+  upper bound       Infinity                
+
+  maxfun parameter  mean_BB                 
+  value              0.050000               
+  status            Independent functional  
+  lower bound       -Infinity               
+  upper bound       Infinity                
+
+mean default:  false
+
+Transformation values: 
+Option: Box-Cox
+  maxfun parameter  lambda_one   
+  value              1.000000    
+  status            Independent  
+  lower bound       -1.000000    
+  upper bound       Infinity     
+
+  maxfun parameter  lambda_two  
+  value              0.000000   
+  status            Fixed       
+  lower bound       -Infinity   
+  upper bound       Infinity    
+
+
+Type frequency values: 
+Option: Hardy-Weinberg equilibrium
+  maxfun parameter  prob_AA     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_AB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_BB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  freq_A                  
+  value             Non-number              
+  status            Independent functional  
+  lower bound        2.22e-16               
+  upper bound        1.000000               
+
+freq default:  true
+
+
+---------- 14 New Analysis Block 14 ---------- 
+
+File name root: segreg_analysis14
+Model class: D
+Each pedigree: false
+Penetration function output: false
+Type probability: false
+Primary trait: hematocrit
+
+
+Type means values: 
+Option: three means, increasing
+  maxfun parameter  mean_AA                 
+  value              0.050000               
+  status            Independent functional  
+  lower bound       -Infinity               
+  upper bound       Infinity                
+
+  maxfun parameter  mean_AB                 
+  value              12.300000              
+  status            Independent functional  
+  lower bound       -Infinity               
+  upper bound       Infinity                
+
+  maxfun parameter  mean_BB                 
+  value              12.300000              
+  status            Independent functional  
+  lower bound       -Infinity               
+  upper bound       Infinity                
+
+mean default:  false
+
+Transformation values: 
+Option: Box-Cox
+  maxfun parameter  lambda_one   
+  value              1.000000    
+  status            Independent  
+  lower bound       -1.000000    
+  upper bound       Infinity     
+
+  maxfun parameter  lambda_two  
+  value              0.000000   
+  status            Fixed       
+  lower bound       -Infinity   
+  upper bound       Infinity    
+
+
+Type frequency values: 
+Option: Hardy-Weinberg equilibrium
+  maxfun parameter  prob_AA     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_AB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_BB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  freq_A                  
+  value             Non-number              
+  status            Independent functional  
+  lower bound        2.22e-16               
+  upper bound        1.000000               
+
+freq default:  true
+
+
+---------- 15 New Analysis Block 15 ---------- 
+
+File name root: segreg_analysis15
+Model class: invalid
+Each pedigree: false
+Penetration function output: false
+Type probability: false
+Primary trait: hematocrit
+
+
+Type means values: 
+Option: one mean
+  maxfun parameter  mean         
+  value             Non-number   
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+mean default:  true
+
+Transformation values: 
+Option: Box-Cox
+  maxfun parameter  lambda_one   
+  value              1.000000    
+  status            Independent  
+  lower bound       -1.000000    
+  upper bound       Infinity     
+
+  maxfun parameter  lambda_two  
+  value              0.000000   
+  status            Fixed       
+  lower bound       -Infinity   
+  upper bound       Infinity    
+
+
+Type frequency values: 
+Option: 
+freq default:  true
+
+
+---------- 16 New Analysis Block 16 ---------- 
+
+File name root: segreg_analysis16
+Model class: D
+Each pedigree: false
+Penetration function output: false
+Type probability: false
+Primary trait: hematocrit
+
+
+Type means values: 
+Option: three means, increasing
+  maxfun parameter  mean_AA                 
+  value             -0.050000               
+  status            Independent functional  
+  lower bound       -Infinity               
+  upper bound       Infinity                
+
+  maxfun parameter  mean_AB                 
+  value              17.000000              
+  status            Independent functional  
+  lower bound       -Infinity               
+  upper bound       Infinity                
+
+  maxfun parameter  mean_BB                 
+  value             Non-number              
+  status            Independent functional  
+  lower bound       -Infinity               
+  upper bound       Infinity                
+
+mean default:  false
+
+Transformation values: 
+Option: Box-Cox
+  maxfun parameter  lambda_one   
+  value              1.000000    
+  status            Independent  
+  lower bound       -1.000000    
+  upper bound       Infinity     
+
+  maxfun parameter  lambda_two  
+  value              0.000000   
+  status            Fixed       
+  lower bound       -Infinity   
+  upper bound       Infinity    
+
+
+Type frequency values: 
+Option: Hardy-Weinberg equilibrium
+  maxfun parameter  prob_AA     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_AB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_BB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  freq_A                  
+  value             Non-number              
+  status            Independent functional  
+  lower bound        2.22e-16               
+  upper bound        1.000000               
+
+freq default:  true
+
+
+---------- 17 New Analysis Block 17 ---------- 
+
+File name root: segreg_analysis17
+Model class: D
+Each pedigree: false
+Penetration function output: false
+Type probability: false
+Primary trait: hematocrit
+
+
+Type means values: 
+Option: one mean
+  maxfun parameter  mean         
+  value             Non-number   
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+mean default:  true
+
+Transformation values: 
+Option: Box-Cox
+  maxfun parameter  lambda_one  
+  value              2.000000   
+  status            Fixed       
+  lower bound       -1.000000   
+  upper bound       Infinity    
+
+  maxfun parameter  lambda_two  
+  value              0.000000   
+  status            Fixed       
+  lower bound       -Infinity   
+  upper bound       Infinity    
+
+
+Type frequency values: 
+Option: Hardy-Weinberg equilibrium
+  maxfun parameter  prob_AA     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_AB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_BB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  freq_A                  
+  value             Non-number              
+  status            Independent functional  
+  lower bound        2.22e-16               
+  upper bound        1.000000               
+
+freq default:  true
+
+
+---------- 18 New Analysis Block 18 ---------- 
+
+File name root: segreg_analysis18
+Model class: D
+Each pedigree: false
+Penetration function output: false
+Type probability: false
+Primary trait: hematocrit
+
+
+Type means values: 
+Option: one mean
+  maxfun parameter  mean         
+  value             Non-number   
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+mean default:  true
+
+Transformation values: 
+Option: Box-Cox
+  maxfun parameter  lambda_one   
+  value              27.000000   
+  status            Independent  
+  lower bound        17.000000   
+  upper bound        37.000000   
+
+  maxfun parameter  lambda_two   
+  value              13.000000   
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+
+Type frequency values: 
+Option: Hardy-Weinberg equilibrium
+  maxfun parameter  prob_AA     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_AB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_BB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  freq_A                  
+  value             Non-number              
+  status            Independent functional  
+  lower bound        2.22e-16               
+  upper bound        1.000000               
+
+freq default:  true
+
+
+---------- 19 New Analysis Block 19 ---------- 
+
+File name root: segreg_analysis19
+Model class: invalid
+Each pedigree: false
+Penetration function output: false
+Type probability: false
+Primary trait: hematocrit
+
+
+Type means values: 
+Option: one mean
+  maxfun parameter  mean         
+  value             Non-number   
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+mean default:  true
+
+Transformation values: 
+Option: Box-Cox
+  maxfun parameter  lambda_one   
+  value               1.000000   
+  status            Independent  
+  lower bound        47.000000   
+  upper bound        37.000000   
+
+  maxfun parameter  lambda_two  
+  value              0.000000   
+  status            Fixed       
+  lower bound       -Infinity   
+  upper bound       Infinity    
+
+
+Type frequency values: 
+Option: Hardy-Weinberg equilibrium
+  maxfun parameter  prob_AA     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_AB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_BB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  freq_A                  
+  value             Non-number              
+  status            Independent functional  
+  lower bound        2.22e-16               
+  upper bound        1.000000               
+
+freq default:  true
+
+
+---------- 20 New Analysis Block 20 ---------- 
+
+File name root: segreg_analysis20
+Model class: D
+Each pedigree: false
+Penetration function output: false
+Type probability: false
+Primary trait: hematocrit
+
+
+Type means values: 
+Option: one mean
+  maxfun parameter  mean         
+  value             Non-number   
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+mean default:  true
+
+Transformation values: 
+Option: Box-Cox
+  maxfun parameter  lambda_one  
+  value              27.000000  
+  status            Fixed       
+  lower bound        -1.000000  
+  upper bound       Infinity    
+
+  maxfun parameter  lambda_two   
+  value              13.000000   
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+
+Type frequency values: 
+Option: Hardy-Weinberg equilibrium
+  maxfun parameter  prob_AA     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_AB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_BB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  freq_A                  
+  value             Non-number              
+  status            Independent functional  
+  lower bound        2.22e-16               
+  upper bound        1.000000               
+
+freq default:  true
+
+
+---------- 21 New Analysis Block 21 ---------- 
+
+File name root: segreg_analysis21
+Model class: invalid
+Each pedigree: false
+Penetration function output: false
+Type probability: false
+Primary trait: hematocrit
+
+
+Type means values: 
+Option: one mean
+  maxfun parameter  mean         
+  value             Non-number   
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+mean default:  true
+
+Transformation values: 
+Option: Box-Cox
+  maxfun parameter  lambda_one   
+  value               1.000000   
+  status            Independent  
+  lower bound        47.000000   
+  upper bound        37.000000   
+
+  maxfun parameter  lambda_two  
+  value              0.000000   
+  status            Fixed       
+  lower bound       -Infinity   
+  upper bound       Infinity    
+
+
+Type frequency values: 
+Option: Hardy-Weinberg equilibrium
+  maxfun parameter  prob_AA     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_AB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_BB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  freq_A                  
+  value             Non-number              
+  status            Independent functional  
+  lower bound        2.22e-16               
+  upper bound        1.000000               
+
+freq default:  true
+
+
+---------- 22 New Analysis Block 22 ---------- 
+
+File name root: segreg_analysis22
+Model class: D
+Each pedigree: false
+Penetration function output: false
+Type probability: false
+Primary trait: hematocrit
+
+
+Type means values: 
+Option: one mean
+  maxfun parameter  mean         
+  value             Non-number   
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+mean default:  true
+
+Transformation values: 
+Option: Box-Cox
+  maxfun parameter  lambda_one   
+  value              1.000000    
+  status            Independent  
+  lower bound       -1.000000    
+  upper bound       Infinity     
+
+  maxfun parameter  lambda_two  
+  value              0.000000   
+  status            Fixed       
+  lower bound       -Infinity   
+  upper bound       Infinity    
+
+
+Type frequency values: 
+Option: Hardy-Weinberg equilibrium
+  maxfun parameter  prob_AA     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_AB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_BB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  freq_A                  
+  value             Non-number              
+  status            Independent functional  
+  lower bound        2.22e-16               
+  upper bound        1.000000               
+
+freq default:  true
+
+
+---------- 23 New Analysis Block 23 ---------- 
+
+File name root: segreg_analysis23
+Model class: D
+Each pedigree: false
+Penetration function output: false
+Type probability: false
+Primary trait: hematocrit
+
+
+Type means values: 
+Option: one mean
+  maxfun parameter  mean         
+  value             Non-number   
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+mean default:  true
+
+Transformation values: 
+Option: Box-Cox
+  maxfun parameter  lambda_one   
+  value              1.000000    
+  status            Independent  
+  lower bound       -1.000000    
+  upper bound       Infinity     
+
+  maxfun parameter  lambda_two  
+  value              0.000000   
+  status            Fixed       
+  lower bound       -Infinity   
+  upper bound       Infinity    
+
+
+Type frequency values: 
+Option: Hardy-Weinberg equilibrium
+  maxfun parameter  prob_AA     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_AB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_BB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  freq_A                  
+  value             Non-number              
+  status            Independent functional  
+  lower bound        2.22e-16               
+  upper bound        1.000000               
+
+freq default:  true
+
+
+---------- 24 New Analysis Block 24 ---------- 
+
+File name root: segreg_analysis24
+Model class: D
+Each pedigree: false
+Penetration function output: false
+Type probability: false
+Primary trait: hematocrit
+
+
+Type means values: 
+Option: one mean
+  maxfun parameter  mean         
+  value             Non-number   
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+mean default:  true
+
+Transformation values: 
+Option: Box-Cox
+  maxfun parameter  lambda_one   
+  value              1.000000    
+  status            Independent  
+  lower bound       -1.000000    
+  upper bound       Infinity     
+
+  maxfun parameter  lambda_two  
+  value              0.000000   
+  status            Fixed       
+  lower bound       -Infinity   
+  upper bound       Infinity    
+
+
+Type frequency values: 
+Option: Hardy-Weinberg equilibrium
+  maxfun parameter  prob_AA    
+  value              0.490000  
+  status            Dependent  
+  lower bound        0.000000  
+  upper bound        1.000000  
+
+  maxfun parameter  prob_AB    
+  value              0.420000  
+  status            Dependent  
+  lower bound        0.000000  
+  upper bound        1.000000  
+
+  maxfun parameter  prob_BB    
+  value              0.090000  
+  status            Dependent  
+  lower bound        0.000000  
+  upper bound        1.000000  
+
+  maxfun parameter  freq_A                  
+  value              0.700000               
+  status            Independent functional  
+  lower bound        2.22e-16               
+  upper bound        1.000000               
+
+freq default:  false
+
+
+---------- 25 New Analysis Block 25 ---------- 
+
+File name root: segreg_analysis25
+Model class: D
+Each pedigree: false
+Penetration function output: false
+Type probability: false
+Primary trait: hematocrit
+
+
+Type means values: 
+Option: two means
+  maxfun parameter  mean_AA_AB   
+  value             Non-number   
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+  maxfun parameter  mean_BB      
+  value             Non-number   
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+mean default:  true
+
+Transformation values: 
+Option: Box-Cox
+  maxfun parameter  lambda_one   
+  value              1.000000    
+  status            Independent  
+  lower bound       -1.000000    
+  upper bound       Infinity     
+
+  maxfun parameter  lambda_two  
+  value              0.000000   
+  status            Fixed       
+  lower bound       -Infinity   
+  upper bound       Infinity    
+
+
+Type frequency values: 
+Option: Hardy-Weinberg equilibrium
+  maxfun parameter  prob_AA    
+  value              0.490000  
+  status            Dependent  
+  lower bound        0.000000  
+  upper bound        1.000000  
+
+  maxfun parameter  prob_AB    
+  value              0.420000  
+  status            Dependent  
+  lower bound        0.000000  
+  upper bound        1.000000  
+
+  maxfun parameter  prob_BB    
+  value              0.090000  
+  status            Dependent  
+  lower bound        0.000000  
+  upper bound        1.000000  
+
+  maxfun parameter  freq_A                  
+  value              0.700000               
+  status            Independent functional  
+  lower bound        2.22e-16               
+  upper bound        1.000000               
+
+freq default:  false
+
+
+---------- 26 New Analysis Block 26 ---------- 
+
+File name root: segreg_analysis26
+Model class: invalid
+Each pedigree: false
+Penetration function output: false
+Type probability: false
+Primary trait: hematocrit
+
+
+Type means values: 
+Option: two means
+  maxfun parameter  mean_AA_AB   
+  value             Non-number   
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+  maxfun parameter  mean_BB      
+  value             Non-number   
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+mean default:  true
+
+Transformation values: 
+Option: Box-Cox
+  maxfun parameter  lambda_one   
+  value              1.000000    
+  status            Independent  
+  lower bound       -1.000000    
+  upper bound       Infinity     
+
+  maxfun parameter  lambda_two  
+  value              0.000000   
+  status            Fixed       
+  lower bound       -Infinity   
+  upper bound       Infinity    
+
+
+Type frequency values: 
+Option: Hardy-Weinberg equilibrium
+  maxfun parameter  prob_AA     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_AB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_BB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  freq_A                  
+  value             Non-number              
+  status            Independent functional  
+  lower bound        2.22e-16               
+  upper bound        1.000000               
+
+freq default:  true
+
+
+---------- 27 New Analysis Block 27 ---------- 
+
+File name root: segreg_analysis27
+Model class: invalid
+Each pedigree: false
+Penetration function output: false
+Type probability: false
+Primary trait: hematocrit
+
+
+Type means values: 
+Option: two means
+  maxfun parameter  mean_AA_AB   
+  value             Non-number   
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+  maxfun parameter  mean_BB      
+  value             Non-number   
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+mean default:  true
+
+Transformation values: 
+Option: Box-Cox
+  maxfun parameter  lambda_one   
+  value              1.000000    
+  status            Independent  
+  lower bound       -1.000000    
+  upper bound       Infinity     
+
+  maxfun parameter  lambda_two  
+  value              0.000000   
+  status            Fixed       
+  lower bound       -Infinity   
+  upper bound       Infinity    
+
+
+Type frequency values: 
+Option: Hardy-Weinberg equilibrium
+  maxfun parameter  prob_AA     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_AB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_BB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  freq_A                  
+  value             Non-number              
+  status            Independent functional  
+  lower bound        2.22e-16               
+  upper bound        1.000000               
+
+freq default:  true
+
+
+---------- 28 New Analysis Block 28 ---------- 
+
+File name root: segreg_analysis28
+Model class: D
+Each pedigree: false
+Penetration function output: false
+Type probability: false
+Primary trait: hematocrit
+
+
+Type means values: 
+Option: two means
+  maxfun parameter  mean_AA_AB   
+  value             Non-number   
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+  maxfun parameter  mean_BB      
+  value             Non-number   
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+mean default:  true
+
+Transformation values: 
+Option: Box-Cox
+  maxfun parameter  lambda_one   
+  value              1.000000    
+  status            Independent  
+  lower bound       -1.000000    
+  upper bound       Infinity     
+
+  maxfun parameter  lambda_two  
+  value              0.000000   
+  status            Fixed       
+  lower bound       -Infinity   
+  upper bound       Infinity    
+
+
+Type frequency values: 
+Option: Hardy-Weinberg equilibrium
+  maxfun parameter  prob_AA     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_AB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_BB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  freq_A                  
+  value             Non-number              
+  status            Independent functional  
+  lower bound        2.22e-16               
+  upper bound        1.000000               
+
+freq default:  true
+
+
+---------- 29 New Analysis Block 29 ---------- 
+
+File name root: segreg_analysis29
+Model class: D
+Each pedigree: false
+Penetration function output: false
+Type probability: false
+Primary trait: hematocrit
+
+
+Type means values: 
+Option: one mean
+  maxfun parameter  mean         
+  value             Non-number   
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+mean default:  true
+
+Transformation values: 
+Option: Box-Cox
+  maxfun parameter  lambda_one   
+  value              1.000000    
+  status            Independent  
+  lower bound       -1.000000    
+  upper bound       Infinity     
+
+  maxfun parameter  lambda_two  
+  value              0.000000   
+  status            Fixed       
+  lower bound       -Infinity   
+  upper bound       Infinity    
+
+
+Type frequency values: 
+Option: Hardy-Weinberg equilibrium
+  maxfun parameter  prob_AA     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_AB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_BB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  freq_A                  
+  value             Non-number              
+  status            Independent functional  
+  lower bound        2.22e-16               
+  upper bound        1.000000               
+
+freq default:  true
+
+
+---------- 30 New Analysis Block 30 ---------- 
+
+File name root: segreg_analysis30
+Model class: invalid
+Each pedigree: false
+Penetration function output: false
+Type probability: false
+Primary trait: hematocrit
+
+
+Type means values: 
+Option: one mean
+  maxfun parameter  mean         
+  value             Non-number   
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+mean default:  true
+
+Transformation values: 
+Option: Box-Cox
+  maxfun parameter  lambda_one   
+  value              1.000000    
+  status            Independent  
+  lower bound       -1.000000    
+  upper bound       Infinity     
+
+  maxfun parameter  lambda_two  
+  value              0.000000   
+  status            Fixed       
+  lower bound       -Infinity   
+  upper bound       Infinity    
+
+
+Type frequency values: 
+Option: 
+freq default:  true
+
+
+---------- 31 New Analysis Block 31 ---------- 
+
+File name root: segreg_analysis31
+Model class: D
+Each pedigree: false
+Penetration function output: false
+Type probability: false
+Primary trait: hematocrit
+
+
+Type means values: 
+Option: one mean
+  maxfun parameter  mean         
+  value             Non-number   
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+mean default:  true
+
+Transformation values: 
+Option: Box-Cox
+  maxfun parameter  lambda_one   
+  value              1.000000    
+  status            Independent  
+  lower bound       -1.000000    
+  upper bound       Infinity     
+
+  maxfun parameter  lambda_two  
+  value              0.000000   
+  status            Fixed       
+  lower bound       -Infinity   
+  upper bound       Infinity    
+
+
+Type frequency values: 
+Option: 
+freq default:  true
+
+
+---------- 32 New Analysis Block 32 ---------- 
+
+File name root: segreg_analysis32
+Model class: D
+Each pedigree: false
+Penetration function output: false
+Type probability: false
+Primary trait: hematocrit
+
+
+Type means values: 
+Option: one mean
+  maxfun parameter  mean         
+  value             Non-number   
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+mean default:  true
+
+Transformation values: 
+Option: Box-Cox
+  maxfun parameter  lambda_one   
+  value              27.000000   
+  status            Independent  
+  lower bound        17.000000   
+  upper bound        37.000000   
+
+  maxfun parameter  lambda_two   
+  value              13.000000   
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+
+Type frequency values: 
+Option: Hardy-Weinberg equilibrium
+  maxfun parameter  prob_AA     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_AB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_BB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  freq_A                  
+  value             Non-number              
+  status            Independent functional  
+  lower bound        2.22e-16               
+  upper bound        1.000000               
+
+freq default:  true
+
+
+---------- 33 New Analysis Block 33 ---------- 
+
+File name root: segreg_analysis33
+Model class: invalid
+Each pedigree: false
+Penetration function output: false
+Type probability: false
+Primary trait: hematocrit
+
+
+Type means values: 
+Option: one mean
+  maxfun parameter  mean         
+  value             Non-number   
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+mean default:  true
+
+Transformation values: 
+Option: Box-Cox
+  maxfun parameter  lambda_one   
+  value               1.000000   
+  status            Independent  
+  lower bound        47.000000   
+  upper bound        37.000000   
+
+  maxfun parameter  lambda_two  
+  value              0.000000   
+  status            Fixed       
+  lower bound       -Infinity   
+  upper bound       Infinity    
+
+
+Type frequency values: 
+Option: Hardy-Weinberg equilibrium
+  maxfun parameter  prob_AA     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_AB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_BB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  freq_A                  
+  value             Non-number              
+  status            Independent functional  
+  lower bound        2.22e-16               
+  upper bound        1.000000               
+
+freq default:  true
+
+
+---------- 34 New Analysis Block 34 ---------- 
+
+File name root: segreg_analysis34
+Model class: invalid
+Each pedigree: false
+Penetration function output: false
+Type probability: false
+Primary trait: hematocrit
+
+
+Type means values: 
+Option: one mean
+  maxfun parameter  mean         
+  value             Non-number   
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+mean default:  true
+
+Transformation values: 
+Option: George-Elston
+  maxfun parameter  lambda_one   
+  value               1.000000   
+  status            Independent  
+  lower bound        47.000000   
+  upper bound        37.000000   
+
+  maxfun parameter  lambda_two  
+  value              0.000000   
+  status            Fixed       
+  lower bound       -Infinity   
+  upper bound       Infinity    
+
+
+Type frequency values: 
+Option: Hardy-Weinberg equilibrium
+  maxfun parameter  prob_AA     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_AB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_BB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  freq_A                  
+  value             Non-number              
+  status            Independent functional  
+  lower bound        2.22e-16               
+  upper bound        1.000000               
+
+freq default:  true
+
+
+---------- 35 New Analysis Block 35 ---------- 
+
+File name root: segreg_analysis35
+Model class: mixed
+Each pedigree: false
+Penetration function output: false
+Type probability: false
+Primary trait: hematocrit
+
+
+Type means values: 
+Option: one mean
+  maxfun parameter  mean         
+  value             Non-number   
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+mean default:  true
+
+Transformation values: 
+Option: Box-Cox
+  maxfun parameter  lambda_one   
+  value              1.000000    
+  status            Independent  
+  lower bound       -1.000000    
+  upper bound       Infinity     
+
+  maxfun parameter  lambda_two  
+  value              0.000000   
+  status            Fixed       
+  lower bound       -Infinity   
+  upper bound       Infinity    
+
+
+Type frequency values: 
+Option: Hardy-Weinberg equilibrium
+  maxfun parameter  prob_AA     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_AB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_BB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  freq_A                  
+  value             Non-number              
+  status            Independent functional  
+  lower bound        2.22e-16               
+  upper bound        1.000000               
+
+freq default:  true
+
+
+---------- 36 New Analysis Block 36 ---------- 
+
+File name root: segreg_analysis36
+Model class: D
+Each pedigree: false
+Penetration function output: false
+Type probability: false
+Primary trait: hematocrit
+
+
+Type means values: 
+Option: one mean
+  maxfun parameter  mean         
+  value             Non-number   
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+mean default:  true
+
+Transformation values: 
+Option: Box-Cox
+  maxfun parameter  lambda_one   
+  value              1.000000    
+  status            Independent  
+  lower bound       -1.000000    
+  upper bound       Infinity     
+
+  maxfun parameter  lambda_two  
+  value              0.000000   
+  status            Fixed       
+  lower bound       -Infinity   
+  upper bound       Infinity    
+
+
+Type frequency values: 
+Option: Hardy-Weinberg equilibrium
+  maxfun parameter  prob_AA     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_AB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_BB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  freq_A                  
+  value             Non-number              
+  status            Independent functional  
+  lower bound        2.22e-16               
+  upper bound        1.000000               
+
+freq default:  true
+
+
+---------- 37 New Analysis Block 37 ---------- 
+
+File name root: segreg_analysis37
+Model class: invalid
+Each pedigree: false
+Penetration function output: false
+Type probability: false
+Primary trait: hematocrit
+
+
+Type means values: 
+Option: one mean
+  maxfun parameter  mean         
+  value             Non-number   
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+mean default:  true
+
+Transformation values: 
+Option: Box-Cox
+  maxfun parameter  lambda_one   
+  value              1.000000    
+  status            Independent  
+  lower bound       -1.000000    
+  upper bound       Infinity     
+
+  maxfun parameter  lambda_two  
+  value              0.000000   
+  status            Fixed       
+  lower bound       -Infinity   
+  upper bound       Infinity    
+
+
+Type frequency values: 
+Option: Hardy-Weinberg equilibrium
+  maxfun parameter  prob_AA     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_AB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_BB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  freq_A                  
+  value             Non-number              
+  status            Independent functional  
+  lower bound        2.22e-16               
+  upper bound        1.000000               
+
+freq default:  true
+
+
+---------- 38 New Analysis Block 38 ---------- 
+
+File name root: segreg_analysis38
+Model class: mlm
+Each pedigree: false
+Penetration function output: false
+Type probability: false
+Primary trait: DISEASE
+
+
+Type means values: 
+Option: one mean
+  maxfun parameter  mean         
+  value             Non-number   
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+mean default:  true
+
+Transformation values: 
+Option: none
+
+Type frequency values: 
+Option: Hardy-Weinberg equilibrium
+  maxfun parameter  prob_AA     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_AB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_BB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  freq_A                  
+  value             Non-number              
+  status            Independent functional  
+  lower bound        2.22e-16               
+  upper bound        1.000000               
+
+freq default:  true
+
+
+---------- 39 New Analysis Block 39 ---------- 
+
+File name root: segreg_analysis39
+Model class: D
+Each pedigree: false
+Penetration function output: false
+Type probability: false
+Primary trait: hematocrit
+
+
+Type means values: 
+Option: one mean
+  maxfun parameter  mean         
+  value             Non-number   
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+mean default:  true
+
+Transformation values: 
+Option: Box-Cox
+  maxfun parameter  lambda_one   
+  value              1.000000    
+  status            Independent  
+  lower bound       -1.000000    
+  upper bound       Infinity     
+
+  maxfun parameter  lambda_two  
+  value              0.000000   
+  status            Fixed       
+  lower bound       -Infinity   
+  upper bound       Infinity    
+
+
+Type frequency values: 
+Option: Hardy-Weinberg equilibrium
+  maxfun parameter  prob_AA     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_AB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_BB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  freq_A                  
+  value             Non-number              
+  status            Independent functional  
+  lower bound        2.22e-16               
+  upper bound        1.000000               
+
+freq default:  true
+
+
+---------- 40 New Analysis Block 40 ---------- 
+
+File name root: segreg_analysis40
+Model class: D
+Each pedigree: false
+Penetration function output: false
+Type probability: false
+Primary trait: hematocrit
+
+
+Type means values: 
+Option: two means
+  maxfun parameter  mean_AA_AB   
+  value             Non-number   
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+  maxfun parameter  mean_BB      
+  value             Non-number   
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+mean default:  true
+
+Transformation values: 
+Option: Box-Cox
+  maxfun parameter  lambda_one   
+  value              1.000000    
+  status            Independent  
+  lower bound       -1.000000    
+  upper bound       Infinity     
+
+  maxfun parameter  lambda_two  
+  value              0.000000   
+  status            Fixed       
+  lower bound       -Infinity   
+  upper bound       Infinity    
+
+
+Type frequency values: 
+Option: Hardy-Weinberg equilibrium
+  maxfun parameter  prob_AA     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_AB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_BB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  freq_A                  
+  value             Non-number              
+  status            Independent functional  
+  lower bound        2.22e-16               
+  upper bound        1.000000               
+
+freq default:  true
+
+
+---------- 41 New Analysis Block 41 ---------- 
+
+File name root: segreg_analysis41
+Model class: D
+Each pedigree: false
+Penetration function output: false
+Type probability: false
+Primary trait: hematocrit
+
+
+Type means values: 
+Option: one mean
+  maxfun parameter  mean         
+  value             Non-number   
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+mean default:  true
+
+Transformation values: 
+Option: Box-Cox
+  maxfun parameter  lambda_one   
+  value              0.500000    
+  status            Independent  
+  lower bound       -1.000000    
+  upper bound       Infinity     
+
+  maxfun parameter  lambda_two  
+  value              0.000000   
+  status            Fixed       
+  lower bound       -Infinity   
+  upper bound       Infinity    
+
+
+Type frequency values: 
+Option: Hardy-Weinberg equilibrium
+  maxfun parameter  prob_AA     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_AB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_BB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  freq_A                  
+  value             Non-number              
+  status            Independent functional  
+  lower bound        2.22e-16               
+  upper bound        1.000000               
+
+freq default:  true
+
+
+---------- 42 New Analysis Block 42 ---------- 
+
+File name root: segreg_analysis42
+Model class: D
+Each pedigree: false
+Penetration function output: false
+Type probability: false
+Primary trait: hematocrit
+
+
+Type means values: 
+Option: one mean
+  maxfun parameter  mean         
+  value             Non-number   
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+mean default:  true
+
+Transformation values: 
+Option: George-Elston
+  maxfun parameter  lambda_one   
+  value             -0.500000    
+  status            Independent  
+  lower bound       -1.000000    
+  upper bound       Infinity     
+
+  maxfun parameter  lambda_two  
+  value              4.000000   
+  status            Fixed       
+  lower bound       -Infinity   
+  upper bound       Infinity    
+
+
+Type frequency values: 
+Option: Hardy-Weinberg equilibrium
+  maxfun parameter  prob_AA     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_AB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_BB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  freq_A                  
+  value             Non-number              
+  status            Independent functional  
+  lower bound        2.22e-16               
+  upper bound        1.000000               
+
+freq default:  true
+
+
+---------- 43 New Analysis Block 43 ---------- 
+
+File name root: segreg_analysis43
+Model class: D
+Each pedigree: false
+Penetration function output: false
+Type probability: false
+Primary trait: hematocrit
+
+
+Type means values: 
+Option: one mean
+  maxfun parameter  mean         
+  value             Non-number   
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+mean default:  true
+
+Transformation values: 
+Option: George-Elston
+  maxfun parameter  lambda_one   
+  value             -0.500000    
+  status            Independent  
+  lower bound       -1.000000    
+  upper bound       Infinity     
+
+  maxfun parameter  lambda_two  
+  value              4.000000   
+  status            Fixed       
+  lower bound       -Infinity   
+  upper bound       Infinity    
+
+
+Type frequency values: 
+Option: Hardy-Weinberg equilibrium
+  maxfun parameter  prob_AA     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_AB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_BB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  freq_A                  
+  value             Non-number              
+  status            Independent functional  
+  lower bound        2.22e-16               
+  upper bound        1.000000               
+
+freq default:  true
+
+
+---------- 44 New Analysis Block 44 ---------- 
+
+File name root: segreg_analysis44
+Model class: D
+Each pedigree: false
+Penetration function output: false
+Type probability: false
+Primary trait: hematocrit
+
+
+Type means values: 
+Option: one mean
+  maxfun parameter  mean         
+  value             Non-number   
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+mean default:  true
+
+Transformation values: 
+Option: Box-Cox
+  maxfun parameter  lambda_one   
+  value              1.000000    
+  status            Independent  
+  lower bound       -1.000000    
+  upper bound       Infinity     
+
+  maxfun parameter  lambda_two  
+  value              0.000000   
+  status            Fixed       
+  lower bound       -Infinity   
+  upper bound       Infinity    
+
+
+Type frequency values: 
+Option: Hardy-Weinberg equilibrium
+  maxfun parameter  prob_AA     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_AB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_BB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  freq_A                  
+  value             Non-number              
+  status            Independent functional  
+  lower bound        2.22e-16               
+  upper bound        1.000000               
+
+freq default:  true
+
+
+---------- 45 New Analysis Block 45 ---------- 
+
+File name root: segreg_analysis45
+Model class: invalid
+Each pedigree: false
+Penetration function output: false
+Type probability: false
+Primary trait: 
+
+
+Type means values: 
+Option: one mean
+  maxfun parameter  mean         
+  value             Non-number   
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+mean default:  true
+
+Transformation values: 
+Option: Box-Cox
+  maxfun parameter  lambda_one   
+  value              1.000000    
+  status            Independent  
+  lower bound       -1.000000    
+  upper bound       Infinity     
+
+  maxfun parameter  lambda_two  
+  value              0.000000   
+  status            Fixed       
+  lower bound       -Infinity   
+  upper bound       Infinity    
+
+
+Type frequency values: 
+Option: Hardy-Weinberg equilibrium
+  maxfun parameter  prob_AA     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_AB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_BB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  freq_A                  
+  value             Non-number              
+  status            Independent functional  
+  lower bound        2.22e-16               
+  upper bound        1.000000               
+
+freq default:  true
+
+
+---------- 46 New Analysis Block 46 ---------- 
+
+File name root: segreg_analysis46
+Model class: D
+Each pedigree: false
+Penetration function output: false
+Type probability: false
+Primary trait: hematocrit
+
+
+Type means values: 
+Option: one mean
+  maxfun parameter  mean         
+  value             Non-number   
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+mean default:  true
+
+Transformation values: 
+Option: Box-Cox
+  maxfun parameter  lambda_one   
+  value              1.000000    
+  status            Independent  
+  lower bound       -1.000000    
+  upper bound       Infinity     
+
+  maxfun parameter  lambda_two  
+  value              0.000000   
+  status            Fixed       
+  lower bound       -Infinity   
+  upper bound       Infinity    
+
+
+Type frequency values: 
+Option: Hardy-Weinberg equilibrium
+  maxfun parameter  prob_AA     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_AB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_BB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  freq_A                  
+  value             Non-number              
+  status            Independent functional  
+  lower bound        2.22e-16               
+  upper bound        1.000000               
+
+freq default:  true
+
+
+---------- 47 New Analysis Block 47 ---------- 
+
+File name root: segreg_analysis47
+Model class: D
+Each pedigree: false
+Penetration function output: false
+Type probability: false
+Primary trait: hematocrit
+
+
+Type means values: 
+Option: three means
+  maxfun parameter  mean_AA      
+  value             Non-number   
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+  maxfun parameter  mean_AB      
+  value             Non-number   
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+  maxfun parameter  mean_BB      
+  value             Non-number   
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+mean default:  true
+
+Transformation values: 
+Option: Box-Cox
+  maxfun parameter  lambda_one   
+  value              1.000000    
+  status            Independent  
+  lower bound       -1.000000    
+  upper bound       Infinity     
+
+  maxfun parameter  lambda_two  
+  value              0.000000   
+  status            Fixed       
+  lower bound       -Infinity   
+  upper bound       Infinity    
+
+
+Type frequency values: 
+Option: non Hardy-Weinberg equilibrium
+  maxfun parameter  prob_AA                 
+  value             Non-number              
+  status            Independent functional  
+  lower bound        0.000000               
+  upper bound        1.000000               
+
+  maxfun parameter  prob_AB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_BB                 
+  value             Non-number              
+  status            Independent functional  
+  lower bound        0.000000               
+  upper bound        1.000000               
+
+  maxfun parameter  freq_A      
+  value             Non-number  
+  status            Dependent   
+  lower bound        2.22e-16   
+  upper bound        1.000000   
+
+freq default:  true
+
+
+---------- 48 New Analysis Block 48 ---------- 
+
+File name root: segreg_analysis48
+Model class: invalid
+Each pedigree: false
+Penetration function output: false
+Type probability: false
+Primary trait: hematocrit
+
+
+Type means values: 
+Option: three means
+  maxfun parameter  mean_AA      
+  value             Non-number   
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+  maxfun parameter  mean_AB      
+  value             Non-number   
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+  maxfun parameter  mean_BB      
+  value             Non-number   
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+mean default:  true
+
+Transformation values: 
+Option: Box-Cox
+  maxfun parameter  lambda_one   
+  value              1.000000    
+  status            Independent  
+  lower bound       -1.000000    
+  upper bound       Infinity     
+
+  maxfun parameter  lambda_two  
+  value              0.000000   
+  status            Fixed       
+  lower bound       -Infinity   
+  upper bound       Infinity    
+
+
+Type frequency values: 
+Option: non Hardy-Weinberg equilibrium
+  maxfun parameter  prob_AA                 
+  value             Non-number              
+  status            Independent functional  
+  lower bound        0.000000               
+  upper bound        1.000000               
+
+  maxfun parameter  prob_AB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_BB                 
+  value             Non-number              
+  status            Independent functional  
+  lower bound        0.000000               
+  upper bound        1.000000               
+
+  maxfun parameter  freq_A      
+  value             Non-number  
+  status            Dependent   
+  lower bound        2.22e-16   
+  upper bound        1.000000   
+
+freq default:  true
+
+
+---------- 49 New Analysis Block 49 ---------- 
+
+File name root: segreg_analysis49
+Model class: D
+Each pedigree: false
+Penetration function output: false
+Type probability: false
+Primary trait: hematocrit
+
+
+Type means values: 
+Option: three means
+  maxfun parameter  mean_AA      
+  value             Non-number   
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+  maxfun parameter  mean_AB      
+  value             Non-number   
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+  maxfun parameter  mean_BB      
+  value             Non-number   
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+mean default:  true
+
+Transformation values: 
+Option: Box-Cox
+  maxfun parameter  lambda_one   
+  value              1.000000    
+  status            Independent  
+  lower bound       -1.000000    
+  upper bound       Infinity     
+
+  maxfun parameter  lambda_two  
+  value              0.000000   
+  status            Fixed       
+  lower bound       -Infinity   
+  upper bound       Infinity    
+
+
+Type frequency values: 
+Option: non Hardy-Weinberg equilibrium
+  maxfun parameter  prob_AA                 
+  value              0.040000               
+  status            Independent functional  
+  lower bound        0.000000               
+  upper bound        1.000000               
+
+  maxfun parameter  prob_AB    
+  value              0.320000  
+  status            Dependent  
+  lower bound        0.000000  
+  upper bound        1.000000  
+
+  maxfun parameter  prob_BB                 
+  value              0.640000               
+  status            Independent functional  
+  lower bound        0.000000               
+  upper bound        1.000000               
+
+  maxfun parameter  freq_A     
+  value              0.200000  
+  status            Dependent  
+  lower bound        2.22e-16  
+  upper bound        1.000000  
+
+freq default:  false
+
+
+---------- 50 New Analysis Block 50 ---------- 
+
+File name root: apricot
+Model class: invalid
+Each pedigree: false
+Penetration function output: false
+Type probability: false
+Primary trait: 
+
+
+Type means values: 
+Option: one mean
+  maxfun parameter  mean         
+  value             Non-number   
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+mean default:  true
+
+Transformation values: 
+Option: Box-Cox
+  maxfun parameter  lambda_one   
+  value              1.000000    
+  status            Independent  
+  lower bound       -1.000000    
+  upper bound       Infinity     
+
+  maxfun parameter  lambda_two  
+  value              0.000000   
+  status            Fixed       
+  lower bound       -Infinity   
+  upper bound       Infinity    
+
+
+Type frequency values: 
+Option: Hardy-Weinberg equilibrium
+  maxfun parameter  prob_AA     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_AB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_BB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  freq_A                  
+  value             Non-number              
+  status            Independent functional  
+  lower bound        2.22e-16               
+  upper bound        1.000000               
+
+freq default:  true
+
+
+---------- 51 New Analysis Block 51 ---------- 
+
+File name root: segreg_analysis51
+Model class: D
+Each pedigree: false
+Penetration function output: false
+Type probability: false
+Primary trait: hematocrit
+
+
+Type means values: 
+Option: two means
+  maxfun parameter  mean_AA_AB   
+  value              2.000000    
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+  maxfun parameter  mean_BB      
+  value              13.000000   
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+mean default:  false
+
+Transformation values: 
+Option: Box-Cox
+  maxfun parameter  lambda_one   
+  value              1.000000    
+  status            Independent  
+  lower bound       -1.000000    
+  upper bound       Infinity     
+
+  maxfun parameter  lambda_two  
+  value              0.000000   
+  status            Fixed       
+  lower bound       -Infinity   
+  upper bound       Infinity    
+
+
+Type frequency values: 
+Option: Hardy-Weinberg equilibrium
+  maxfun parameter  prob_AA     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_AB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_BB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  freq_A                  
+  value             Non-number              
+  status            Independent functional  
+  lower bound        2.22e-16               
+  upper bound        1.000000               
+
+freq default:  true
+
+
+---------- 52 New Analysis Block 52 ---------- 
+
+File name root: segreg_analysis52
+Model class: mlm
+Each pedigree: false
+Penetration function output: false
+Type probability: false
+Primary trait: disease
+
+
+Type means values: 
+Option: one mean
+  maxfun parameter  mean         
+  value             Non-number   
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+mean default:  true
+
+Transformation values: 
+Option: none
+  maxfun parameter  lambda_one   
+  value              1.000000    
+  status            Independent  
+  lower bound       -1.000000    
+  upper bound       Infinity     
+
+  maxfun parameter  lambda_two  
+  value              0.000000   
+  status            Fixed       
+  lower bound       -Infinity   
+  upper bound       Infinity    
+
+
+Type frequency values: 
+Option: Hardy-Weinberg equilibrium
+  maxfun parameter  prob_AA     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_AB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_BB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  freq_A                  
+  value             Non-number              
+  status            Independent functional  
+  lower bound        2.22e-16               
+  upper bound        1.000000               
+
+freq default:  true
+
+
+---------- 53 New Analysis Block 53 ---------- 
+
+File name root: segreg_analysis53
+Model class: mlm
+Each pedigree: false
+Penetration function output: false
+Type probability: false
+Primary trait: disease
+
+
+Type means values: 
+Option: one mean
+  maxfun parameter  mean         
+  value             Non-number   
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+mean default:  true
+
+Transformation values: 
+Option: none
+  maxfun parameter  lambda_one   
+  value              1.000000    
+  status            Independent  
+  lower bound       -1.000000    
+  upper bound       Infinity     
+
+  maxfun parameter  lambda_two  
+  value              0.000000   
+  status            Fixed       
+  lower bound       -Infinity   
+  upper bound       Infinity    
+
+
+Type frequency values: 
+Option: Hardy-Weinberg equilibrium
+  maxfun parameter  prob_AA     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_AB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_BB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  freq_A                  
+  value             Non-number              
+  status            Independent functional  
+  lower bound        2.22e-16               
+  upper bound        1.000000               
+
+freq default:  true
+
+
+---------- 54 New Analysis Block 54 ---------- 
+
+File name root: segreg_analysis54
+Model class: mlm
+Each pedigree: false
+Penetration function output: false
+Type probability: false
+Primary trait: disease
+
+
+Type means values: 
+Option: one mean
+  maxfun parameter  mean         
+  value             Non-number   
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+mean default:  true
+
+Transformation values: 
+Option: none
+  maxfun parameter  lambda_one   
+  value              1.000000    
+  status            Independent  
+  lower bound       -1.000000    
+  upper bound       Infinity     
+
+  maxfun parameter  lambda_two  
+  value              0.000000   
+  status            Fixed       
+  lower bound       -Infinity   
+  upper bound       Infinity    
+
+
+Type frequency values: 
+Option: Hardy-Weinberg equilibrium
+  maxfun parameter  prob_AA     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_AB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_BB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  freq_A                  
+  value             Non-number              
+  status            Independent functional  
+  lower bound        2.22e-16               
+  upper bound        1.000000               
+
+freq default:  true
+

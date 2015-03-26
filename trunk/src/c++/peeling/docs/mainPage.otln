@@ -1,0 +1,62 @@
+\TITLE\
+Peeling
+\BRIEF\
+Templatized interface and caching algorithms for subpedigree peeling.
+\DOC_NAME\
+peeling_main
+\DETAILED\
+\#.\ What is peeling?
+
+Peeling is a procedure for calculating likelihoods based on pedigree data. 
+See Elston Stewart, 1971.  The peeling classes in this library are based on
+the peeling methon introduced in Fernando, Stricker and Elston, 1993.
+
+\#.\ The peeling classes
+
+There are two peeler classes: the one in peeler2.h is based on the
+Multipedigree::subpedigree_type.  The one in peeler3.h is based on the
+FilteredMultipedigree::subpedigree_type.
+
+As interfaces (abstract classes), the peeler classes are not in themselves complete algorithms, but 
+include a variety of functions which must be filled in. 
+They are templatized to allow multiple different algorithms
+to be computed.  Different algorithms require different data to be
+passed up and down anterior/posterior chains.  The peeler, and its helper
+classes are templatized upon a Data class, the data which is needed
+to compute or reference a particular set of anterior/posterior
+values, and a Result class, the data which is returned from an
+anterior/posterior calculation.
+        
+The public interface of the peelers consists of inline functions
+for the caching (using the peeling_cache from cache2.h or cache3.h) and lookup of
+previously computed results.  All actual computation is done using the
+private functions which must be filled in by the user.  This is accomplished by
+specializing the class based upon the Data and Result type and adding those
+functions. 
+          
+
+\#.\ Caching
+
+There are two individual_cache classes in cache2.h and cache3.h.  They are
+completely analagous to the two peeler classes.  They declare access
+functions to be defined by the application programmer.  The access functions
+are categorized as follows:
+
+The access functions can be grouped into three categories:
+   
+-#  Test for existance - boolean test to see if there is a cached
+    value for the data or not.
+-#  Cached result lookup - returns the cached result.
+-#  Cached result setting - Set the cached result.
+         
+There are 4 functions in each category:
+           
+-# Anterior           - The cached result for the part of the
+   pedigree anterior to the individual
+-# Posterior          - The cached result for the part of
+   the pedigree posterior to the individual, including all mates.
+-# Posterior w. mate  - The cached result for the part of the pedigree
+   posterior to the individual, but only with a particular mate.
+-# Posterior w/o mate - The cached result for the part of the pedigree
+   posterior to the individual, but with all mates except a particular mate.
+                   

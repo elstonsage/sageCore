@@ -1,0 +1,20 @@
+Pedigree
+{	
+pedigree_id=FID
+individual_id=ID
+sex_field=SEX
+parent_id=MID
+parent_id=DID
+string=DNAID
+allele= DYS395a,  name="DYS395", y_linked
+allele= DYS395b,  name="DYS395", y_linked
+sex_code, male="1", female="2",missing="."
+Individual_missing_value="."
+}
+
+markerinfo_analysis
+{
+sample_id=DNAID
+pedigree_out=true
+}
+

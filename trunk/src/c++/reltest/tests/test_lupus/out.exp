@@ -1,0 +1,22 @@
+
+
+
+Reading Parameter File....................done.
+Reading Marker Locus Description File.....done.
+Reading Pedigree File.....................
+              from ped....................done.
+Sorting Pedigrees.........................done.
+Reading Genome Description File...........done.
+
+  No analyses specified.
+Performing RELTEST default analysis...
+
+Testing sib pairs.........................done.
+Testing half sib pairs....................done.
+Testing parent_offspring pairs............done.
+Testing mother_father pairs...............done.
+
+Analysis complete!
+
+
+

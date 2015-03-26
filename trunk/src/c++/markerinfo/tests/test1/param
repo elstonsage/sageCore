@@ -1,0 +1,45 @@
+pedigree
+{
+  pedigree_id=pid
+  individual_id=id
+  parent_id=da
+  parent_id=ma
+  sex_field=s
+
+  individual_missing_value="."
+  delimiters=" "
+  delimiter_mode=multiple
+
+  trait=proband, binary, missing="."
+  trait=q1, missing="0"
+
+  string=dna_id, missing="0"
+
+  allele="marker1_13a", name="Marker1 13"
+  allele="marker1_13b", name="Marker1 13"
+  allele="Marker2_18a", name="Marker2 18"
+  allele="Marker2_18b", name="Marker2 18"
+  allele="Marker3_8a", name="Marker3 8"
+  allele="Marker3_8b", name="Marker3 8"
+  allele="Marker4_13a", name="Marker4 13"
+  allele="Marker4_13b", name="Marker4 13"
+  allele="Marker5_8a", name="Marker5 8"
+  allele="Marker5_8b", name="Marker5 8"
+  allele="Marker6_9a", name="Marker6 9"
+  allele="Marker6_9b", name="Marker6 9"
+  allele="Marker7_9a", name="Marker7 9"
+  allele="Marker7_9b", name="Marker7 9"
+  allele="Marker8_8a", name="Marker8 8", missing="."
+  allele="Marker8_8b", name="Marker8 8", missing="."
+}
+
+marker
+{
+  allele_missing = "0"
+}
+
+markerinfo_analysis
+{
+  sample_id = dna_id
+  pedigree_out = true
+}

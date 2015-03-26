@@ -1,0 +1,1415 @@
+S.A.G.E. v4.6.1 -- GENIBD  
+COPYRIGHT (C) 2004 CASE WESTERN RESERVE UNIVERSITY
+
+Reading Parameter File....................done.
+Reading Marker Locus Description File.....done.
+Reading Pedigree File.....................
+              from ped....................done.
+Sorting Pedigrees.........................done.
+Reading Genome Description File...........done.
+
+GENIBD analysis.......  1
+
+===========================================================================
+Analysis 1 : Multipoint analysis on region (X):
+        * - Including intervals.
+        * - Maximum size for exact method is set to 18.
+        * - Pedigrees larger than 18 will be simulated.
+===========================================================================
+
+  Processing Region: X
+  =======================================
+
+  Analysis 1: Pedigree 50103
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 50115
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 50123
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 50127
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 50130
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 50133
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 50139
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 50279
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 50286
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 50288
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 50296
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 50308
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 50327
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 50331
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 50333
+
+  Analysis 1: Pedigree 50338
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 50340
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 50357
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 50362
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 50388
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 50391
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 50393
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 50406
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 50442
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 50444
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 50455
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 50456
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 50460
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 50461
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 50490
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 50498
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 50500
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 50508
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 50525
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 50526
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 50534
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 50563
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 50580
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 50581
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 50587
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 50588
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 50637
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 50644
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 50646
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 50647
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 50648
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 50660
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 50669
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 50671
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 50676
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 50680
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 50681
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 50716
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 50732
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 50735
+
+  Analysis 1: Pedigree 50746
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 50754
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 50785
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 50792
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 50794
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 50798
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 50803
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 50808
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 50814
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 50825
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 50847
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 50868
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 50926
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 50989
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 51103
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 51104
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 51107
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 51110
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 51111
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 51112
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 51113
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 51115
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 51116
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 51118
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 51119
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 51120
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 51124
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 51126
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 51129
+
+  Analysis 1: Pedigree 51130
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 51131
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 51133
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 51134
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 51138
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 51139
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 51140
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 51141
+
+  Analysis 1: Pedigree 51142
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 51143
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 51144
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 51148
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 51150
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 51153
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 51155
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 51158
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 51163
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 51164
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 51165
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 51166
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 51170
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 51171
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 51173
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 51175
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 51177
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 51182
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 51183
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 51185
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 51190
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 51194
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 51195
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 51202
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 51203
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 51204
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 51205
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 51206
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 51207
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 51208
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 51210
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 51211
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 51213
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 51221
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 51222
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 51226
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 51230
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 51238
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 51239
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 51241
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 51244
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 51246
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 51247
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 51249
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 51251
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 51252
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 51255
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 51263
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52102
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52105
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52107
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52108
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52113
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52114
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52117
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52118
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52119
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52120
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52121
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52122
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52124
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52130
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52132
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52135
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52136
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52137
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52139
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52141
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52143
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52145
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52147
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52148
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52150
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52152
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52153
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52155
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52156
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52157
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52158
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52159
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52161
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52162
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52165
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52167
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52169
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52170
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52172
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52173
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52174
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52175
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52176
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52178
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52179
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52181
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52183
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52185
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52186
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52187
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52188
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52189
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52190
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52191
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52192
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52195
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52197
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52198
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52200
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52201
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52202
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52204
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52205
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52206
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52207
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52208
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52209
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52210
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52211
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52212
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52214
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52215
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52216
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52217
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52219
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52221
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52222
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52223
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52225
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52226
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52227
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52229
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52233
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52234
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52235
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52236
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52238
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52239
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52240
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52241
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 52251
+
+  Analysis 1: Pedigree 52252
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  Analysis 1: Pedigree 60127
+
+  Analysis 1: Pedigree 60130
+
+  Analysis 1: Pedigree 60288
+
+  Analysis 1: Pedigree 60333
+
+  Analysis 1: Pedigree 60456
+
+  Analysis 1: Pedigree 60735
+
+  Analysis 1: Pedigree 61129
+
+  Analysis 1: Pedigree 61141
+
+  Analysis 1: Pedigree 62143
+
+
+Analysis complete!
+

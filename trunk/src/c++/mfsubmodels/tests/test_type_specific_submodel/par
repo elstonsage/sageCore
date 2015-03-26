@@ -1,0 +1,245 @@
+pedigree
+{
+  pedigree_id=PID
+  individual_id=ID
+  sex_field=SEX
+  parent_id=P1
+  parent_id=P2
+  trait=DISEASE, binary, affected=1, unaffected=0
+  trait=HEMATOCRIT
+}
+
+# The following section tests the parser's ability to detect inconsistencies
+# in type_mean sub-blocks. The comment attached to each sub-block indicates
+# which error the parser should produce.
+
+# First, we try to create genotype-value conflicts:
+
+type_mean,comment="OPTION=ONE, but at least two different values given"
+{
+  # my special comment
+  option=one
+  mean="AA", val=0.1
+  mean="AB", val=0.2
+}
+
+type_mean,comment="OPTION=TWO_DOM, but different values given for AA and AB"
+{
+  option=two_dom
+  mean="AA", val=.6
+  mean="AB", val=.2
+}
+
+type_mean,comment="OPTION=TWO or OPTION=TWO_DOM, valid value given fordominant type (AA/AB), but no value given for recessive type (BB)"
+{
+  option=two_dom
+  mean="AA", val=0.7
+}
+
+type_mean,comment="OPTION=TWO_REC, but different values given for AB and BB"
+{
+  option=two_rec
+  mean="AB", val=0.3
+  mean="BB", val=0.5
+}
+
+type_mean,comment="OPTION=TWO_REC, valid value given for dominant type(AB/BB), but no value given for recessive type (AA)"
+{
+  option=two_rec
+  mean="AB", val=0.5
+}
+
+type_mean,comment="OPTION=TWO/TWO_DOM/TWO_REC, but one one value specified"
+{
+  option=two
+  mean="AA", val=0.0
+}
+
+type_mean,comment="OPTION=THREE_ADD, three values given, but do not meet relational requirement"
+{
+  option=three_add
+  mean="AA", val=0.5
+  mean="BB", val=1.5
+  mean="AB", val=0.9
+}
+
+type_mean,comment="OPTION=THREE_DEC, three values given, but do not meet relational requirement"
+{
+  option=three_dec
+  mean="AA", val=0.5
+  mean="AB", val=1.5
+  mean="BB", val=0.9
+}
+
+type_mean,comment="OPTION=THREE_INC, three values given, but do not meet relational requirement"
+{
+  option=three_inc
+  mean="AA", val=0.5
+  mean="AB", val=1.5
+  mean="BB", val=0.9
+}
+
+type_mean,comment="OPTION=THREE_ADD/THREE_DEC/THREE_INC, at least one value given but not all three"
+{
+  option=three_dec
+  mean="AA", val=0.5
+}
+
+type_mean,comment="OPTION=TWO, but three different values given"
+{
+  option=two
+  mean="AA", val=0.1
+  mean="AB", val=0.2
+  mean="BB", val=0.3
+}
+
+type_mean,comment="OPTION=TWO, AA equals AB, but BB not given; not sure how to interpret this"
+{
+  option=two
+  mean="AA", val=0.1
+  mean="AB", val=0.1
+}
+
+type_mean,comment="OPTION=TWO, AB equals BB, but AA not given; not sure how to interpret this"
+{
+  option=two
+  mean="AB", val=0.1
+  mean="BB", val=0.1
+}
+
+type_mean,comment="OPTION=TWO, AA equals BB, and AB != AA or BB; not sure how to interpret this"
+{
+  option=two
+  mean="AA", val=0.1
+  mean="AB", val=0.2
+  mean="BB", val=0.1
+}
+
+type_var,comment="Variance sub-block indicated, value less than zero given"
+{
+  option=one
+  var="AA", val=-5
+}
+
+
+#==================================================
+#
+# Now we try to generate warnings:
+#
+#==================================================
+
+type_mean,comment="OPTION=TWO, AA and BB are given but not equal; interpreting as default behavior given by getDefaultTwoTreatment()"
+{
+  option=two
+  mean="AA", val=0.1
+  mean="BB", val=0.3
+}
+
+type_mean,comment="OPTION=TWO, AB and BB are given but not equal; interpreting as TWO_DOM"
+{
+  option=two
+  mean="AB", val=0.2
+  mean="BB", val=0.6
+}
+
+# Now we try to generate fixedness inconsistency errors:
+
+type_mean,comment="OPTION=ONE, at least two different fixedness statuses given"
+{
+  option=one
+  mean="AA", val=0.5, fixed=true
+  mean="AB", val=0.5, fixed=false
+}
+
+type_mean,comment="OPTION=TWO (interpreted as TWO_DOM) or TWO_DOM, conflicting fixed status given for AA and AB"
+{
+  option=two_dom
+  mean="AA", val=0.5, fixed=true
+  mean="AB", val=0.5, fixed=false
+  mean="BB", val=0.6
+}
+
+type_mean,comment="OPTION=TWO (interpreted as TWO_REC) or TWO_REC, conflicting fixed status given for AB and BB"
+{
+  option=two_rec
+  mean="AA", val=0.6
+  mean="AB", val=0.5, fixed=true
+  mean="BB", val=0.5, fixed=false
+}
+
+# Now we try the circumstances that are supposed to work fine:
+
+type_mean,NO_ERROR_INTENDED="If no values given, then parsing succeeds."
+{
+  option=one
+}
+
+type_mean, NO_ERROR_INTENDED="OPTION=ONE, If all given values are identical, then parsing succeeds."
+{
+  option=one
+  mean="AA", val=0.1
+  mean="AB", val=0.1
+  mean="BB", val=0.1
+}
+
+type_mean, NO_ERROR_INTENDED="OPTION=TWO, If AA and BB are given, and AA == BB, then the option is interpreted as getDefaultTwoTreatment(), and AB = AA."
+{
+  option=two
+  mean="AA",val=0.1
+  mean="BB",val=0.1
+}
+
+type_mean, NO_ERROR_INTENDED="OPTION=TWO, If AA and BB are given, and AA != BB, then the option is interpreted as getDefaultTwoTreatment(), and AB = the appropriate value."
+{
+  option=two
+  mean="AA",val=0.1
+  mean="BB",val=0.3
+}
+
+type_mean,NO_ERROR_INTENDED="OPTION=TWO, If all values are given, and all values are the same, then the option is interpreted as getDefaultTwoTreatment()."
+{
+  option=two
+  mean="AA",val=0.1
+  mean="AB",val=0.1
+  mean="BB",val=0.1
+}
+
+type_mean,NO_ERROR_INTENDED="OPTION=TWO, If all values are given, AA == AB, AA != BB, then the option is interpreted as TWO_DOM."
+{
+  option=two
+  mean="AA",val=0.1
+  mean="AB",val=0.1
+  mean="BB",val=0.2
+}
+
+type_mean,NO_ERROR_INTENDED="OPTION=TWO, If all values are given, AB == BB, AA != AB, then the option is interpreted as TWO_REC."
+{
+  option=two
+  mean="AA",val=0.1
+  mean="AB",val=0.2
+  mean="BB",val=0.2
+}
+
+type_mean,NO_ERROR_INTENDED="OPTION=TWO_DOM, If AA or AB is given, and BB is given, then AA or AB (whichever is missing) is assigned to the appropriate value."
+{
+  option=two_dom
+  mean="AA",val=0.1
+  mean="BB",val=0.3
+}
+
+type_mean,NO_ERROR_INTENDED="OPTION=TWO_REC, If AB or BB is given, and AA is given, then AB or BB (whichever is missing) is assigned to the appropriate value."
+{
+  option=two_rec
+  mean="AA", val=0.1
+  mean="BB",val=0.3
+}
+
+
+
+
+
+
+
+
+
+

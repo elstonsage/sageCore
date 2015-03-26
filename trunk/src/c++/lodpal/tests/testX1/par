@@ -1,0 +1,973 @@
+pedigree 
+{
+  individual_missing_value="0"
+
+  sex_code, male="1",female="2"
+
+  delimiter_mode="multiple"
+
+  pedigree_id=ped
+  individual_id=person
+  sex_field=sex
+  parent_id=p1
+  parent_id=p2
+  trait=sle, binary, affected="2", unaffected="1", missing="0"
+  trait=var, missing="."
+  covariate=malefam, missing="."
+  covariate=prin1, missing="."
+  covariate=prin2, missing="."
+  covariate=prin3, missing="."
+  covariate=prin4, missing="."
+  covariate=prin5, missing="."
+  covariate=prin6, missing="."
+  covariate=prin7, missing="."
+  covariate=prin8, missing="."
+  covariate=prin9, missing="."
+  covariate=prin10, missing="."
+  covariate=prin11, missing="."
+  covariate=prin12, missing="."  
+ 
+  allele="1s468a",name="1s468"
+  allele="1s468b",name="1s468"
+
+  allele="1s1612a",name="1s1612"
+  allele="1s1612b",name="1s1612"
+
+  allele="1s1597a",name="1s1597"
+  allele="1s1597b",name="1s1597"
+
+  allele="1s552a",name="1s552"
+  allele="1s552b",name="1s552"
+
+  allele="1s1622a",name="1s1622"
+  allele="1s1622b",name="1s1622"
+
+  allele="1s3721a",name="1s3721"
+  allele="1s3721b",name="1s3721"
+
+ allele="1s2134a",name="1s2134"
+ allele="1s2134b",name="1s2134"
+
+ allele="1s3728a",name="1s3728"
+  allele="1s3728b",name="1s3728"
+
+  allele="1s1665a",name="1s1665"
+  allele="1s1665b",name="1s1665"
+
+  allele="1s551a",name="1s551"
+  allele="1s551b",name="1s551"
+
+  allele="1s1588a",name="1s1588"
+  allele="1s1588b",name="1s1588"
+
+  allele="1s1631a",name="1s1631"
+  allele="1s1631b",name="1s1631"
+
+  allele="1s3723a",name="1s3723"
+  allele="1s3723b",name="1s3723"
+
+  allele="1s534a",name="1s534"
+  allele="1s534b",name="1s534"
+
+  allele="1s1653a",name="1s1653"
+  allele="1s1653b",name="1s1653"
+
+  allele="1s2771a",name="1s2771"
+  allele="1s2771b",name="1s2771"
+
+  allele="1s2705a",name="1s2705"
+  allele="1s2705b",name="1S2705"
+
+  allele="fgr2aa",name="fgr2a"
+  allele="fgr2ab",name="fgr2a"
+
+  allele="1s1677a",name="1s1677"
+  allele="1S1677b",name="1S1677"
+
+ allele="1s1589a",name="1s1589"
+ allele="1s1589b",name="1s1589"
+
+ allele="1s518a",name="1s518"
+ allele="1s518b",name="1s518"
+
+  allele="1s1660a",name="1s1660"
+  allele="1s1660b",name="1s1660"
+
+ allele="1s1678a",name="1s1678"
+ allele="1s1678b",name="1s1678"
+
+ allele="1s2141a",name="1s2141"
+ allele="1s2141b",name="1s2141"
+
+ allele="1s229a",name="1s229"
+ allele="1s229b",name="1s229"
+
+ allele="1s549a",name="1s549"
+ allele="1s549b",name="1s549"
+
+ allele="1s3462a",name="1s3462"
+ allele="1s3462b",name="1s3462"
+
+ allele="1s235a",name="1s235"
+ allele="1s235b",name="1s235"
+
+ allele="1s547a",name="1s547"
+ allele="1s547b",name="1s547"
+
+ allele="1s1609a",name="1s1609"
+ allele="1s1609b",name="1s1609"
+
+  allele="2s2952a",name="2s2952"
+  allele="2s2952b",name="2s2952"
+
+ allele="2s1400a",name="2s1400"
+  allele="2s1400b",name="2s1400"
+
+ allele="2s1360a",name="2s1360"
+ allele="2s1360b",name="2s1360"
+
+ allele="2s405a",name="2s405"
+ allele="2s405b",name="2s405"
+
+ allele="2s1788a",name="2s1788"
+ allele="2s1788b",name="2s1788"
+
+ allele="2s1356a",name="2s1356"
+ allele="2s1356b",name="2s1356"
+
+  allele="2s2739a",name="2s2739"
+ allele="2s2739b",name="2s2739"
+
+ allele="2s441a",name="2s441"
+ allele="2s441b",name="2s441"
+
+ allele="2s1777a",name="2s1777"
+ allele="2s1777b",name="2s1777"
+
+ allele="2s1790a",name="2s1790"
+ allele="2s1790b",name="2s1790"
+
+ allele="2s2972a",name="2s2972"
+ allele="2s2972b",name="2s2972"
+
+ allele="2s410a",name="2s410"
+ allele="2s410b",name="2s410"
+
+ allele="2s1328a",name="2s1328"
+ allele="2s1328b",name="2s1328"
+
+ allele="2s1334a",name="2s1334"
+ allele="2s1334b",name="2s1334"
+
+ allele="2s442a",name="2s442"
+ allele="2s442b",name="2s442"
+
+ allele="2s1353a",name="2s1353"
+ allele="2s1353b",name="2s1353"
+
+ allele="2s1776a",name="2s1776"
+ allele="2s1776b",name="2s1776"
+
+ allele="2s1391a",name="2s1391"
+ allele="2s1391b",name="2s1391"
+
+ allele="2s1384a",name="2s1384"
+ allele="2s1384b",name="2s1384"
+
+ allele="2s434a",name="2s434"
+ allele="2s434b",name="2s434"
+
+ allele="2s1363a",name="2s1363"
+ allele="2s1363b",name="2s1363"
+
+ allele="2s427a",name="2s427"
+ allele="2s427b",name="2s427"
+
+ allele="2s2968a",name="2s2968"
+ allele="2s2968b",name="2s2968"
+
+ allele="2s125a",name="2s125"
+ allele="2s125b",name="2s125"
+
+
+ allele="3s2387a",name="3s2387"
+ allele="3s2387b",name="3s2387"
+
+  allele="3s1259a",name="3s1259"
+  allele="3s1259b",name="3s1259"
+
+ allele="3s3038a",name="3s3038"
+ allele="3s3038b",name="3s3038"
+
+ allele="3s2432a",name="3s2432"
+ allele="3s2432b",name="3s2432"
+
+ allele="3s2409a",name="3s2409"
+ allele="3s2409b",name="3s2409"
+
+ allele="3s1766a",name="3s1766"
+ allele="3s1766b",name="3s1766"
+
+ allele="3s4542a",name="3s4542"
+ allele="3s4542b",name="3s4542"
+
+ allele="3s2406a",name="3s2406"
+ allele="3s2406b",name="3s2406"
+
+ allele="3s2459a",name="3s2459"
+ allele="3s2459b",name="3s2459"
+
+ allele="3s3045a",name="3s3045"
+ allele="3s3045b",name="3s3045"
+
+ allele="3s3023a",name="3s3023"
+ allele="3s3023b",name="3s3023"
+
+ allele="3s1764a",name="3s1764"
+ allele="3s1764b",name="3s1764"
+
+ allele="3s1744a",name="3s1744"
+ allele="3s1744b",name="3s1744"
+
+ allele="3s1763a",name="3s1763"
+ allele="3s1763b",name="3s1763"
+
+ allele="3s3053a",name="3s3053"
+ allele="3s3053b",name="3s3053"
+
+ allele="3s2398a",name="3s2398"
+ allele="3s2398b",name="3s2398"
+
+ allele="3s1311a",name="3s1311"
+ allele="3s1311b",name="3s1311"
+
+ allele="4s2366a",name="4s2366"
+ allele="4s2366b",name="4s2366"
+
+ allele="4s403a",name="4s403"
+ allele="4s403b",name="4s403"
+
+ allele="4s2639a",name="4s2639"
+ allele="4s2639b",name="4s2639"
+
+ allele="4s2632a",name="4s2632"
+ allele="4s2632b",name="4s2632"
+
+ allele="4s1627a",name="4s1627"
+ allele="4s1627b",name="4s1627"
+
+ allele="4s2367a",name="4s2367"
+ allele="4s2367b",name="4s2367"
+
+ allele="4s3243a",name="4s3243"
+ allele="4s3243b",name="4s3243"
+
+ allele="4s2361a",name="4s2361"
+ allele="4s2361b",name="4s2361"
+
+  allele="4s1647a",name="4s1647"
+  allele="4s1647b",name="4s1647"
+
+ allele="4s2623a",name="4s2623"
+ allele="4s2623b",name="4s2623"
+
+ allele="4s2394a",name="4s2394"
+ allele="4s2394b",name="4s2394"
+
+ allele="4s1644a",name="4s1644"
+ allele="4s1644b",name="4s1644"
+
+ allele="4s1625a",name="4s1625"
+ allele="4s1625b",name="4s1625"
+
+ allele="4s1629a",name="4s1629"
+ allele="4s1629b",name="4s1629"
+
+ allele="4s2368a",name="4s2368"
+ allele="4s2368b",name="4s2368"
+
+ allele="4s2417a",name="4s2417"
+ allele="4s2417b",name="4s2417"
+
+ allele="4s408a",name="4s408"
+ allele="4s408b",name="4s408"
+
+ allele="4s1652a",name="4s1652"
+ allele="4s1652b",name="4s1652"
+
+
+ allele="5s2488a",name="5s2488"
+ allele="5s2488b",name="5s2488"
+
+ allele="5s807a",name="5s807"
+ allele="5s807b",name="5s807"
+
+ allele="5s817a",name="5s817"
+ allele="5s817b",name="5s817"
+
+ allele="5s2845a",name="5s2845"
+ allele="5s2845b",name="5s2845"
+
+ allele="5s1470a",name="5s1470"
+ allele="5s1470b",name="5s1470"
+
+ allele="5s1457a",name="5s1457"
+ allele="5s1457b",name="5s1457"
+
+ allele="5s2500a",name="5s2500"
+ allele="5s2500b",name="5s2500"
+
+ allele="5s1501a",name="5s1501"
+ allele="5s1501b",name="5s1501"
+
+ allele="5s1725a",name="5s1725"
+ allele="5s1725b",name="5s1725"
+
+ allele="5s1462a",name="5s1462"
+ allele="5s1462b",name="5s1462"
+
+ allele="5s1453a",name="5s1453"
+ allele="5s1453b",name="5s1453"
+
+ allele="5s1505a",name="5s1505"
+ allele="5s1505b",name="5s1505"
+
+ allele="5s1480a",name="5s1480"
+ allele="5s1480b",name="5s1480"
+
+ allele="5s820a",name="5s820"
+ allele="5s820b",name="5s820"
+
+ allele="5s1471a",name="5s1471"
+ allele="5s1471b",name="5s1471"
+
+ allele="5s211a",name="5s211"
+ allele="5s211b",name="5s211"
+
+ allele="5s408a",name="5s408"
+ allele="5s408b",name="5s408"
+
+ allele="f13a1a",name="f13a1"
+ allele="f13a1b",name="f13a1"
+
+ allele="6s2434a",name="6s2434"
+ allele="6s2434b",name="6s2434"
+
+ allele="6s1959a",name="6s1959"
+ allele="6s1959b",name="6s1959"
+
+ allele="6s2439a",name="6s2439"
+ allele="6s2439b",name="6s2439"
+
+ allele="6s2427a",name="6s2427"
+ allele="6s2427b",name="6s2427"
+
+ allele="6s1017a",name="6s1017"
+ allele="6s1017b",name="6s1017"
+
+ allele="6s2410a",name="6s2410"
+ allele="6s2410b",name="6s2410"
+
+ allele="6s1053a",name="6s1053"
+ allele="6s1053b",name="6s1053"
+
+ allele="6s1031a",name="6s1031"
+ allele="6s1031b",name="6s1031"
+
+ allele="6s1056a",name="6s1056"
+ allele="6s1056b",name="6s1056"
+
+ allele="6s1021a",name="6s1021"
+ allele="6s1021b",name="6s1021"
+
+ allele="6s474a",name="6s474"
+ allele="6s474b",name="6s474"
+
+ allele="6s1040a",name="6s1040"
+ allele="6s1040b",name="6s1040"
+
+ allele="6s1009a",name="6s1009"
+ allele="6s1009b",name="6s1009"
+
+ allele="6s2436a",name="6s2436"
+ allele="6s2436b",name="6s2436"
+
+ allele="6s305a",name="6s305"
+ allele="6s305b",name="6s305"
+
+ allele="6s1277a",name="6s1277"
+ allele="6s1277b",name="6s1277"
+
+ allele="6s1027a",name="6s1027"
+ allele="6s1027b",name="6s1027"
+
+ allele="7s1819a",name="7s1819"
+ allele="7s1819b",name="7s1819"
+
+ allele="7s513a",name="7s513"
+ allele="7s513b",name="7s513"
+
+ allele="7s1802a",name="7s1802"
+ allele="7s1802b",name="7s1802"
+
+ allele="7s1808a",name="7s1808"
+ allele="7s1808b",name="7s1808"
+
+ allele="7s817a",name="7s817"
+ allele="7s817b",name="7s817"
+
+  allele="7s2846a",name="7s2846"
+  allele="7s2846b",name="7s2846"
+
+ allele="7s1818a",name="7s1818"
+  allele="7s1818b",name="7s1818"
+
+ allele="7s3046a",name="7s3046"
+ allele="7s3046b",name="7s3046"
+
+ allele="7s2204a",name="7s2204"
+ allele="7s2204b",name="7s2204"
+
+ allele="7s820a",name="7s820"
+ allele="7s820b",name="7s820"
+
+ allele="7s1799a",name="7s1799"
+ allele="7s1799b",name="7s1799"
+
+ allele="7s1842a",name="7s1842"
+ allele="7s1842b",name="7s1842"
+
+ allele="7s1804a",name="7s1804"
+ allele="7s1804b",name="7s1804"
+
+ allele="7s1824a",name="7s1824"
+ allele="7s1824b",name="7s1824"
+
+ allele="7s2195a",name="7s2195"
+ allele="7s2195b",name="7s2195"
+
+ allele="7s3070a",name="7s3070"
+ allele="7s3070b",name="7s3070"
+
+ allele="7s1823a",name="7s1823"
+ allele="7s1823b",name="7s1823"
+
+ allele="7s559a",name="7s559"
+ allele="7s559b",name="7s559"
+
+ allele="8s264a",name="8s264"
+ allele="8s264b",name="8s264"
+
+ allele="8s1130a",name="8s1130"
+ allele="8s1130b",name="8s1130"
+
+ allele="8s1145a",name="8s1145"
+ allele="8s1145b",name="8s1145"
+
+ allele="8s136a",name="8s136"
+ allele="8s136b",name="8s136"
+
+ allele="8s1477a",name="8s1477"
+ allele="8s1477b",name="8s1477"
+
+ allele="8s1110a",name="8s1110"
+ allele="8s1110b",name="8s1110"
+
+ allele="8s1113a",name="8s1113"
+ allele="8s1113b",name="8s1113"
+
+ allele="8s2324a",name="8s2324"
+ allele="8s2324b",name="8s2324"
+
+ allele="8s1119a",name="8s1119"
+ allele="8s1119b",name="8s1119"
+
+ allele="gat1a4a",name="gat1a4"
+ allele="gat1a4b",name="gat1a4"
+
+ allele="8s1132a",name="8s1132"
+ allele="8s1132b",name="8s1132"
+
+ allele="8s1179a",name="8s1179"
+ allele="8s1179b",name="8s1179"
+
+ allele="8s1128a",name="8s1128"
+ allele="8s1128b",name="8s1128"
+
+ allele="8s256a",name="8s256"
+ allele="8s256b",name="8s256"
+
+ allele="8s373a",name="8s373"
+ allele="8s373b",name="8s373"
+
+ allele="9s2169a",name="9s2169"
+  allele="9s2169b",name="9s2169"
+
+ allele="9s925a",name="9s925"
+ allele="9s925b",name="9s925"
+
+ allele="9s1121a",name="9s1121"
+ allele="9s1121b",name="9s1121"
+
+ allele="9s1118a",name="9s1118"
+ allele="9s1118b",name="9s1118"
+
+ allele="9s301a",name="9s301"
+ allele="9s301b",name="9s301"
+
+ allele="9s922a",name="9s922"
+ allele="9s922b",name="9s922"
+
+ allele="9s257a",name="9s257"
+ allele="9s257b",name="9s257"
+
+ allele="9s910a",name="9s910"
+ allele="9s910b",name="9s910"
+
+ allele="9s934a",name="9s934"
+ allele="9s934b",name="9s934"
+
+ allele="9s282a",name="9s282"
+ allele="9s282b",name="9s282"
+
+ allele="9s2157a",name="9s2157"
+ allele="9s2157b",name="9s2157"
+
+ allele="9s158a",name="9s158"
+ allele="9s158b",name="9s158"
+
+ allele="10s1435a",name="10s1435"
+ allele="10s1435b",name="10s1435"
+
+ allele="10s189a",name="10s189"
+ allele="10s189b",name="10s189"
+
+ allele="10s2325a",name="10s2325"
+ allele="10s2325b",name="10s2325"
+
+ allele="10s1423a",name="10s1423"
+ allele="10s1423b",name="10s1423"
+
+ allele="10s1426a",name="10s1426"
+ allele="10s1426b",name="10s1426"
+
+ allele="10s1208a",name="10s1208"
+ allele="10s1208b",name="10s1208"
+
+ allele="10s1225a",name="10s1225"
+ allele="10s1225b",name="10s1225"
+
+ allele="10s1432a",name="10s1432"
+ allele="10s1432b",name="10s1432"
+
+ allele="10s2327a",name="10s2327"
+ allele="10s2327b",name="10s2327"
+
+ allele="10s2470a",name="10s2470"
+ allele="10s2470b",name="10s2470"
+
+ allele="10s677a",name="10s677"
+ allele="10s677b",name="10s677"
+
+ allele="10s1239a",name="10s1239"
+ allele="10s1239b",name="10s1239"
+
+ allele="10s1213a",name="10s1213"
+ allele="10s1213b",name="10s1213"
+
+ allele="10s1248a",name="10s1248"
+ allele="10s1248b",name="10s1248"
+
+ allele="10s212a",name="10s212"
+ allele="10s212b",name="10s212"
+
+  allele="11s1984a",name="11s1984"
+  allele="11s1984b",name="11s1984"
+
+ allele="11s2362a",name="11s2362"
+ allele="11s2362b",name="11s2362"
+
+ allele="11s1999a",name="11s1999"
+ allele="11s1999b",name="11s1999"
+
+ allele="11s1981a",name="11s1981"
+ allele="11s1981b",name="11s1981"
+
+ allele="a34e8a",name="a34e8"
+ allele="a34e8b",name="a34e8"
+
+ allele="11s1392a",name="11s1392"
+ allele="11s1392b",name="11s1392"
+
+ allele="11s1985a",name="11s1985"
+ allele="11s1985b",name="11s1985"
+
+ allele="11s2371a",name="11s2371"
+ allele="11s2371b",name="11s2371"
+
+ allele="11s2002a",name="11s2002"
+ allele="11s2002b",name="11s2002"
+
+ allele="11s2000a",name="11s2000"
+ allele="11s2000b",name="11s2000"
+
+ allele="11s1986a",name="11s1986"
+ allele="11s1986b",name="11s1986"
+
+ allele="11s4464a",name="11s4464"
+ allele="11s4464b",name="11s4464"
+
+ allele="11s912a",name="11s912"
+ allele="11s912b",name="11s912"
+
+ allele="11s2359a",name="11s2359"
+ allele="11s2359b",name="11s2359"
+
+ allele="12s372a",name="12s372"
+ allele="12s372b",name="12s372"
+
+ allele="12s391a",name="12s391"
+ allele="12s391b",name="12s391"
+
+ allele="12s373a",name="12s373"
+ allele="12s373b",name="12s373"
+
+ allele="12s1042a",name="12s1042"
+ allele="12s1042b",name="12s1042"
+
+ allele="12s398a",name="12s398"
+ allele="12s398b",name="12s398"
+
+ allele="12s375a",name="12s375"
+ allele="12s375b",name="12s375"
+
+ allele="12s1064a",name="12s1064"
+ allele="12s1064b",name="12s1064"
+
+ allele="12s1300a",name="12s1300"
+ allele="12s1300b",name="12s1300"
+
+ allele="paha",name="pah"
+ allele="pahb",name="pah"
+
+ allele="12s2070a",name="12s2070"
+ allele="12s2070b",name="12s2070"
+
+ allele="12s395a",name="12s395"
+ allele="12s395b",name="12s395"
+
+  allele="12s2078a",name="12s2078"
+  allele="12s2078b",name="12s2078"
+
+  allele="12s392a",name="12s392"
+  allele="12s392b",name="12s392"
+
+ allele="13s787a",name="13s787"
+ allele="13s787b",name="13s787"
+
+ allele="13s1493a",name="13s1493"
+ allele="13s1493b",name="13s1493"
+
+  allele="13s325a",name="13s325"
+ allele="13s325b",name="13s325"
+
+ allele="13s800a",name="13s800"
+ allele="13s800b",name="13s800"
+
+ allele="13s317a",name="13s317"
+ allele="13s317b",name="13s317"
+
+ allele="13s793a",name="13s793"
+ allele="13s793b",name="13s793"
+
+ allele="13s779a",name="13s779"
+ allele="13s779b",name="13s779"
+
+ allele="13s796a",name="13s796"
+ allele="13s796b",name="13s796"
+
+ allele="13s285a",name="13s285"
+ allele="13s285b",name="13s285"
+
+ allele="14s742a",name="14s742"
+ allele="14s742b",name="14s742"
+
+ allele="14s1280a",name="14s1280"
+ allele="14s1280b",name="14s1280"
+
+ allele="14s608a",name="14s608"
+ allele="14s608b",name="14s608"
+
+ allele="14s599a",name="14s599"
+ allele="14s599b",name="14s599"
+
+ allele="14s306a",name="14s306"
+ allele="14s306b",name="14s306"
+
+ allele="14s587a",name="14s587"
+ allele="14s587b",name="14s587"
+
+ allele="14s592a",name="14s592"
+ allele="14s592b",name="14s592"
+
+ allele="14s588a",name="14s588"
+ allele="14s588b",name="14s588"
+
+ allele="14s53a",name="14s53"
+ allele="14s53b",name="14s53"
+
+ allele="14s1279a",name="14s1279"
+ allele="14s1279b",name="14s1279"
+
+ allele="14s617a",name="14s617"
+ allele="14s617b",name="14s617"
+
+ allele="14s1434a",name="14s1434"
+ allele="14s1434b",name="14s1434"
+
+ allele="15s822a",name="15s822"
+ allele="15s822b",name="15s822"
+
+ allele="15s165a",name="15s165"
+ allele="15s165b",name="15s165"
+
+ allele="actca",name="actc"
+ allele="actcb",name="actc"
+
+ allele="15s659a",name="15s659"
+ allele="15s659b",name="15s659"
+
+ allele="15s643a",name="15s643"
+ allele="15s643b",name="15s643"
+
+ allele="15s1507a",name="15s1507"
+ allele="15s1507b",name="15s1507"
+
+ allele="15s211a",name="15s211"
+ allele="15s211b",name="15s211"
+
+  allele="15s652a",name="15s652"
+  allele="15s652b",name="15s652"
+
+  allele="15s816a",name="15s816"
+  allele="15s816b",name="15s816"
+
+ allele="15s657a",name="15s657"
+ allele="15s657b",name="15s657"
+
+ allele="15s642a",name="15s642"
+ allele="15s642b",name="15s642"
+
+ allele="16s2616a",name="16s2616"
+ allele="16s2616b",name="16s2616"
+
+ allele="16s748a",name="16s748"
+ allele="16s748b",name="16s748"
+
+ allele="16s764a",name="16s764"
+ allele="16s764b",name="16s764"
+
+ allele="16s403a",name="16s403"
+ allele="16s403b",name="16s403"
+
+ allele="16s753a",name="16s753"
+ allele="16s753b",name="16s753"
+
+ allele="16s3253a",name="16s3253"
+ allele="16s3253b",name="16s3253"
+
+ allele="16s2624a",name="16s2624"
+ allele="16s2624b",name="16s2624"
+
+ allele="16s516a",name="16s516"
+ allele="16s516b",name="16s516"
+
+ allele="16s539a",name="16s539"
+ allele="16s539b",name="16s539"
+
+ allele="16s621a",name="16s621"
+ allele="16s621b",name="16s621"
+
+ allele="17s1308a",name="17s1308"
+ allele="17s1308b",name="17s1308"
+
+ allele="17s1298a",name="17s1298"
+ allele="17s1298b",name="17s1298"
+
+ allele="17s974a",name="17s974"
+ allele="17s974b",name="17s974"
+
+ allele="17s1303a",name="17s1303"
+ allele="17s1303b",name="17s1303"
+
+ allele="17s2196a",name="17s2196"
+ allele="17s2196b",name="17s2196"
+
+ allele="17s1294a",name="17s1294"
+ allele="17s1294b",name="17s1294"
+
+ allele="17s1299a",name="17s1299"
+ allele="17s1299b",name="17s1299"
+
+ allele="17s2180a",name="17s2180"
+ allele="17s2180b",name="17s2180"
+
+ allele="17s1290a",name="17s1290"
+ allele="17s1290b",name="17s1290"
+
+ allele="17s2193a",name="17s2193"
+ allele="17s2193b",name="17s2193"
+
+ allele="17s1301a",name="17s1301"
+ allele="17s1301b",name="17s1301"
+
+ allele="17s784a",name="17s784"
+ allele="17s784b",name="17s784"
+
+ allele="17s928a",name="17s928"
+ allele="17s928b",name="17s928"
+
+ allele="g178f11a",name="g178f11"
+ allele="g178f11b",name="g178f11"
+
+ allele="18s976a",name="18s976"
+ allele="18s976b",name="18s976"
+
+ allele="18s843a",name="18s843"
+ allele="18s843b",name="18s843"
+
+ allele="18s542a",name="18s542"
+ allele="18s542b",name="18s542"
+
+ allele="18s877a",name="18s877"
+ allele="18s877b",name="18s877"
+
+ allele="18s535a",name="18s535"
+ allele="18s535b",name="18s535"
+
+ allele="18s851a",name="18s851"
+ allele="18s851b",name="18s851"
+
+ allele="18s858a",name="18s858"
+ allele="18s858b",name="18s858"
+
+ allele="18s862a",name="18s862"
+ allele="18s862b",name="18s862"
+
+ allele="18s878a",name="18s878"
+ allele="18s878b",name="18s878"
+
+ allele="a82b2a",name="a82b2"
+ allele="a82b2b",name="a82b2"
+
+ allele="18s844a",name="18s844"
+ allele="18s844b",name="18s844"
+
+ allele="19s591a",name="19s591"
+ allele="19s591b",name="19s591"
+
+ allele="19s1034a",name="19s1034"
+ allele="19s1034b",name="19s1034"
+
+ allele="19s586a",name="19s586"
+ allele="19s586b",name="19s586"
+
+ allele="19s714a",name="19s714"
+ allele="19s714b",name="19s714"
+
+ allele="19s433a",name="19s433"
+ allele="19s433b",name="19s433"
+
+ allele="19s245a",name="19s245"
+ allele="19s245b",name="19s245"
+
+ allele="19s178a",name="19s178"
+ allele="19s178b",name="19s178"
+
+ allele="19s246a",name="19s246"
+ allele="19s246b",name="19s246"
+
+ allele="19s589a",name="19s589"
+ allele="19s589b",name="19s589"
+
+ allele="19s254a",name="19s254"
+ allele="19s254b",name="19s254"
+
+  allele="20s103a",name="20s103"
+ allele="20s103b",name="20s103"
+
+  allele="20s482a",name="20s482"
+  allele="20s482b",name="20s482"
+
+  allele="20s851a",name="20s851"
+  allele="20s851b",name="20s851"
+
+ allele="20s604a",name="20s604"
+ allele="20s604b",name="20s604"
+
+ allele="20s470a",name="20s470"
+ allele="20s470b",name="20s470"
+
+ allele="20s478a",name="20s478"
+ allele="20s478b",name="20s478"
+
+ allele="20s481a",name="20s481"
+ allele="20s481b",name="20s481"
+
+ allele="20s480a",name="20s480"
+ allele="20s480b",name="20s480"
+
+ allele="20s171a",name="20s171"
+ allele="20s171b",name="20s171"
+
+ allele="21s1432a",name="21s1432"
+ allele="21s1432b",name="21s1432"
+
+ allele="21s1437a",name="21s1437"
+ allele="21s1437b",name="21s1437"
+
+ allele="21s2052a",name="21s2052"
+ allele="21s2052b",name="21s2052"
+
+ allele="21s1440a",name="21s1440"
+ allele="21s1440b",name="21s1440"
+
+ allele="21s1446a",name="21s1446"
+ allele="21s1446b",name="21s1446"
+
+ allele="22s420a",name="22s420"
+ allele="22s420b",name="22s420"
+
+ allele="22s1685a",name="22s1685"
+ allele="22s1685b",name="22s1685"
+
+ allele="22s689a",name="22s689"
+ allele="22s689b",name="22s689"
+
+ allele="22s445a",name="22s445"
+ allele="22s445b",name="22s445"
+
+}
+
+lodpal_analysis, multipoint, output="x_test"
+{
+  trait=sle
+  alpha
+  covariate=malefam, single, MINIMUM
+  subset=var
+  diagnostic="20s103"
+  x_linkage
+  {
+#    pair_type="M-M"
+#    pair_type="M-F"
+#    pair_type="F_F"
+#    lambda1_equal=false
+#    lambda2_fixed=false
+  }
+#  wide_out = true
+}
+
+function
+{
+  covariate=malefam2, expression="malefam * 2"
+}

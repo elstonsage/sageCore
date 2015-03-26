@@ -1,0 +1,15 @@
+pedigree
+{
+  delimiter_mode = multiple
+  delimiters=" "
+  individual_missing_value="0"
+  sex_code,male="1",female="2",unknown="?"
+
+  pedigree_id=fam
+  treat_as_sibs
+  individual_id=id
+  sex_field=sex
+  marker_list,start=m17,end=m2
+
+  verbose = 1000
+}

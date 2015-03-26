@@ -1,0 +1,390 @@
+
+Making Global Configuration Options for x86_64-linux-gcc64 RELEASE in ../../targets/x86_64-linux-gcc64/c++/globals
+
+
+Making Containers Library for x86_64-linux-gcc64 RELEASE in ../../targets/x86_64-linux-gcc64/c++/containers
+
+
+Making Error handler streams for x86_64-linux-gcc64 RELEASE in ../../targets/x86_64-linux-gcc64/c++/error
+
+
+Making liberror.a: error Library
+
+Making Library... done.
+liberror.a
+
+Making LSF and related objects for x86_64-linux-gcc64 RELEASE in ../../targets/x86_64-linux-gcc64/c++/LSF
+
+
+Making libLSF.a: LSF Library
+
+Making Library... done.
+libLSF.a
+
+Making Fortran I/O Objects for x86_64-linux-gcc64 RELEASE in ../../targets/x86_64-linux-gcc64/c++/fortran
+
+
+Making libfortran.a: "Fortran Parsing blob"
+
+Making Library... done.
+libfortran.a
+
+Making Error handler streams for x86_64-linux-gcc64 RELEASE in ../../targets/x86_64-linux-gcc64/c++/numerics
+
+
+Making libnumerics.a: numerics Library
+
+Making Library... done.
+libnumerics.a
+
+Making Miscellaneous S.A.G.E. Utilities for x86_64-linux-gcc64 RELEASE in ../../targets/x86_64-linux-gcc64/c++/util
+
+
+Making libutil.a: "Util library"
+
+Making Library... done.
+libutil.a
+
+Making Output for x86_64-linux-gcc64 RELEASE in ../../targets/x86_64-linux-gcc64/c++/output
+
+
+Making liboutput.a: "Output library"
+
+Making Library... done.
+liboutput.a
+
+Making Application Framework Code for x86_64-linux-gcc64 RELEASE in ../../targets/x86_64-linux-gcc64/c++/app
+
+
+Making libapp.a: "Application Framework Code"
+
+Making Library... done.
+libapp.a
+
+Making Functors Library for x86_64-linux-gcc64 RELEASE in ../../targets/x86_64-linux-gcc64/c++/functors
+
+
+Making New MultiPedigree for x86_64-linux-gcc64 RELEASE in ../../targets/x86_64-linux-gcc64/c++/mped
+
+
+Making libmped.a: New MultiPedigree Library
+
+Making Library... done.
+libmped.a
+
+Making New Multi Locus for x86_64-linux-gcc64 RELEASE in ../../targets/x86_64-linux-gcc64/c++/mlocus
+
+
+Making libmlocus.a: New Multi Locus Library
+
+Making Library... done.
+libmlocus.a
+
+Making New General Referenced Pedigrees and related objects  for x86_64-linux-gcc64 RELEASE in ../../targets/x86_64-linux-gcc64/c++/rped
+
+
+Making librped.a: New General Referenced Pedigree Library
+
+Making Library... done.
+librped.a
+
+Making New Relative Pairs and related objects for x86_64-linux-gcc64 RELEASE in ../../targets/x86_64-linux-gcc64/c++/pairs
+
+
+Making libpairs.a: New Pairs Library
+
+Making Library... done.
+libpairs.a
+
+Making Filtered Pedigrees and related objects  for x86_64-linux-gcc64 RELEASE in ../../targets/x86_64-linux-gcc64/c++/fped
+
+
+Making libfped.a: FILTERED Pedigree Library
+
+Making Library... done.
+libfped.a
+
+Making MultiPedigree variable transformation for x86_64-linux-gcc64 RELEASE in ../../targets/x86_64-linux-gcc64/c++/func
+
+
+Making libfunc.a: Function library
+
+Making Library... done.
+libfunc.a
+
+Making Basic SAGE application data and tools for x86_64-linux-gcc64 RELEASE in ../../targets/x86_64-linux-gcc64/c++/sampling
+
+
+Making libsampling.a: "SAGE Sampling Library"
+
+Making Library... done.
+libsampling.a
+
+Making Genotype Elimination Model for x86_64-linux-gcc64 RELEASE in ../../targets/x86_64-linux-gcc64/c++/gelim
+
+
+Making libgelim.a: "Genotype Elimination Library"
+
+Making Library... done.
+libgelim.a
+
+Making Basic SAGE application data and tools for x86_64-linux-gcc64 RELEASE in ../../targets/x86_64-linux-gcc64/c++/data
+
+
+Making libdata.a: "SAGE Application Data"
+
+Making Library... done.
+libdata.a
+
+Making Peeling Library for x86_64-linux-gcc64 RELEASE in ../../targets/x86_64-linux-gcc64/c++/peeling
+
+
+Making Inheritance Vectors for x86_64-linux-gcc64 RELEASE in ../../targets/x86_64-linux-gcc64/c++/lvec
+
+
+Making liblvec.a: "Likelihood Vector Library"
+
+Making Library... done.
+liblvec.a
+
+Making MCMC basic objects for x86_64-linux-gcc64 RELEASE in ../../targets/x86_64-linux-gcc64/c++/mcmc
+
+
+Making libmcmc.a: "MCMC simulation Library"
+
+Making Library... done.
+libmcmc.a
+
+Making Identical By Descent for x86_64-linux-gcc64 RELEASE in ../../targets/x86_64-linux-gcc64/c++/ibd
+
+
+Making libibd.a: "Identical By Descent Library"
+
+Making Library... done.
+libibd.a
+
+Making Bases for Pair Analyses for x86_64-linux-gcc64 RELEASE in ../../targets/x86_64-linux-gcc64/c++/palbase
+
+
+Making libpalbase.a: New Pairs Library
+
+Making Library... done.
+libpalbase.a
+
+Making Maxfun for x86_64-linux-gcc64 RELEASE in ../../targets/x86_64-linux-gcc64/c++/maxfun
+
+
+Making libmaxfun.a: Maxfun Library
+
+Making Library... done.
+libmaxfun.a
+
+Making Maxfun for x86_64-linux-gcc64 RELEASE in ../../targets/x86_64-linux-gcc64/c++/maxfunapi
+
+
+Making libmaxfunapi.a: Maxfun API
+
+Making Library... done.
+libmaxfunapi.a
+
+Making Mfsubmodels for x86_64-linux-gcc64 RELEASE in ../../targets/x86_64-linux-gcc64/c++/mfsubmodels
+
+
+Making libmfsubmodels.a: Maxfun Submodels
+
+Making Library... done.
+libmfsubmodels.a
+
+Making Age of Onset for x86_64-linux-gcc64 RELEASE in ../../targets/x86_64-linux-gcc64/c++/ageon
+
+
+Making libageon.a: "Age of Onset library"
+
+Making Library... done.
+Making ageon: Age of Onset Application
+
+Linking                 (C++) ageon
+ageon
+libageon.a
+
+Making Assoc for x86_64-linux-gcc64 RELEASE in ../../targets/x86_64-linux-gcc64/c++/assoc
+
+
+Making libassoc.a: "Assoc library"
+
+Making Library... done.
+Making assoc: Assoc Application
+
+Linking                 (C++) assoc
+assoc
+libassoc.a
+
+Making Decipher for x86_64-linux-gcc64 RELEASE in ../../targets/x86_64-linux-gcc64/c++/decipher
+
+
+Making libdecipher.a: "decipher library"
+
+Making Library... done.
+Making decipher: DECIPHER Application
+
+Linking                 (C++) decipher
+decipher
+libdecipher.a
+
+Making MultiPedigree Correlations with Standard Errors for x86_64-linux-gcc64 RELEASE in ../../targets/x86_64-linux-gcc64/c++/fcor
+
+
+Making libfcor.a: New Fcor Library
+
+Making Library... done.
+Making fcor: "Multi-pedigree correlation program"
+
+Linking                 (C++) fcor
+fcor
+libfcor.a
+
+Making FREQ for x86_64-linux-gcc64 RELEASE in ../../targets/x86_64-linux-gcc64/c++/freq
+
+
+Making freq: "FREQ"
+
+Linking                 (C++) freq
+freq
+
+Making IBD Generator for x86_64-linux-gcc64 RELEASE in ../../targets/x86_64-linux-gcc64/c++/genibd
+
+
+Making libgenibd.a: "IBD generator program Library"
+
+Making Library... done.
+Making genibd: "IBD generator program"
+
+Linking                 (C++) genibd
+genibd
+libgenibd.a
+
+Making Lodlink for x86_64-linux-gcc64 RELEASE in ../../targets/x86_64-linux-gcc64/c++/lodlink
+
+
+Making liblodlink.a: "lodlink library"
+
+Making Library... done.
+Making lodlink: LODLINK Application
+
+Linking                 (C++) lodlink
+liblodlink.a
+lodlink
+
+Making LODSCORE test of Affected Relative Pair for x86_64-linux-gcc64 RELEASE in ../../targets/x86_64-linux-gcc64/c++/lodpal
+
+
+Making liblodpal.a: "Lodpal Library"
+
+Making Library... done.
+Making lodpal: "LODSCORE test of Affected Relative Pair"
+
+Linking                 (C++) lodpal
+liblodpal.a
+lodpal
+
+Making Markerinfo Main Program for x86_64-linux-gcc64 RELEASE in ../../targets/x86_64-linux-gcc64/c++/markerinfo
+
+
+Making markerinfo: "MARKERINFO"
+
+Linking                 (C++) markerinfo
+markerinfo
+
+Making  for x86_64-linux-gcc64 RELEASE in ../../targets/x86_64-linux-gcc64/c++/mlod
+
+
+Making libmlod.a: "mlod library"
+
+Making Library... done.
+Making mlod: Test of mlod parser
+
+Linking                 (C++) mlod
+libmlod.a
+mlod
+
+Making MultiPedigree statistics for x86_64-linux-gcc64 RELEASE in ../../targets/x86_64-linux-gcc64/c++/pedinfo
+
+
+Making libpedinfo.a: "Pedinfo library"
+
+Making Library... done.
+Making pedinfo: "Multi-pedigree statistics test program"
+
+Linking                 (C++) pedinfo
+libpedinfo.a
+pedinfo
+
+Making Relpal for x86_64-linux-gcc64 RELEASE in ../../targets/x86_64-linux-gcc64/c++/relpal
+
+
+Making librelpal.a: "Relpal Library"
+
+Making Library... done.
+Making relpal: Relpal
+
+Linking                 (C++) relpal
+librelpal.a
+relpal
+
+Making relationship test objects for x86_64-linux-gcc64 RELEASE in ../../targets/x86_64-linux-gcc64/c++/reltest
+
+
+Making libreltest.a: "Relationship Test program Library"
+
+Making Library... done.
+Making reltest: "Relationship Test program"
+
+Linking                 (C++) reltest
+libreltest.a
+reltest
+
+Making Regression analysis for x86_64-linux-gcc64 RELEASE in ../../targets/x86_64-linux-gcc64/c++/segreg
+
+
+Making libsegreg.a: "segreg library"
+
+../../c++/include/segreg/segreg_calculator.ipp: In member function ‘const SAGE::SEGREG::primary_analysis_results& SAGE::SEGREG::primary_analysis::run_analysis(const SAGE::SEGREG::PedigreeDataSet&, const std::vector<SAGE::SEGREG::model, std::allocator<SAGE::SEGREG::model> >&, bool)’:
+../../c++/include/segreg/segreg_calculator.ipp:361: warning: ‘mem_func.void (SAGE::SEGREG::segreg_calculator::*)(const SAGE::FPED::Member&, std::map<const SAGE::MPED::member<SAGE::FPED::FilteredMemberInfo, SAGE::MPED::no_info, SAGE::MPED::no_info, SAGE::FPED::FilteredPedigreeInfo, SAGE::FPED::FilteredMultipedigreeInfo>*, std::list<SAGE::SEGREG::pg::pen_type, std::allocator<SAGE::SEGREG::pg::pen_type> >, SAGE::SEGREG::pg::member_compare, std::allocator<std::pair<const SAGE::MPED::member<SAGE::FPED::FilteredMemberInfo, SAGE::MPED::no_info, SAGE::MPED::no_info, SAGE::FPED::FilteredPedigreeInfo, SAGE::FPED::FilteredMultipedigreeInfo>* const, std::list<SAGE::SEGREG::pg::pen_type, std::allocator<SAGE::SEGREG::pg::pen_type> > > > >&)::__pfn’ may be used uninitialized in this function
+../../c++/include/segreg/segreg_calculator.ipp:361: warning: ‘mem_func.void (SAGE::SEGREG::segreg_calculator::*)(const SAGE::FPED::Member&, std::map<const SAGE::MPED::member<SAGE::FPED::FilteredMemberInfo, SAGE::MPED::no_info, SAGE::MPED::no_info, SAGE::FPED::FilteredPedigreeInfo, SAGE::FPED::FilteredMultipedigreeInfo>*, std::list<SAGE::SEGREG::pg::pen_type, std::allocator<SAGE::SEGREG::pg::pen_type> >, SAGE::SEGREG::pg::member_compare, std::allocator<std::pair<const SAGE::MPED::member<SAGE::FPED::FilteredMemberInfo, SAGE::MPED::no_info, SAGE::MPED::no_info, SAGE::FPED::FilteredPedigreeInfo, SAGE::FPED::FilteredMultipedigreeInfo>* const, std::list<SAGE::SEGREG::pg::pen_type, std::allocator<SAGE::SEGREG::pg::pen_type> > > > >&)::__delta’ may be used uninitialized in this function
+../../c++/include/segreg/segreg_calculator.ipp:360: warning: ‘sped_func.void (SAGE::SEGREG::segreg_calculator::*)(const SAGE::FPED::Subpedigree&, std::map<const SAGE::MPED::member<SAGE::FPED::FilteredMemberInfo, SAGE::MPED::no_info, SAGE::MPED::no_info, SAGE::FPED::FilteredPedigreeInfo, SAGE::FPED::FilteredMultipedigreeInfo>*, std::list<SAGE::SEGREG::pg::pen_type, std::allocator<SAGE::SEGREG::pg::pen_type> >, SAGE::SEGREG::pg::member_compare, std::allocator<std::pair<const SAGE::MPED::member<SAGE::FPED::FilteredMemberInfo, SAGE::MPED::no_info, SAGE::MPED::no_info, SAGE::FPED::FilteredPedigreeInfo, SAGE::FPED::FilteredMultipedigreeInfo>* const, std::list<SAGE::SEGREG::pg::pen_type, std::allocator<SAGE::SEGREG::pg::pen_type> > > > >&)::__pfn’ may be used uninitialized in this function
+../../c++/include/segreg/segreg_calculator.ipp:360: warning: ‘sped_func.void (SAGE::SEGREG::segreg_calculator::*)(const SAGE::FPED::Subpedigree&, std::map<const SAGE::MPED::member<SAGE::FPED::FilteredMemberInfo, SAGE::MPED::no_info, SAGE::MPED::no_info, SAGE::FPED::FilteredPedigreeInfo, SAGE::FPED::FilteredMultipedigreeInfo>*, std::list<SAGE::SEGREG::pg::pen_type, std::allocator<SAGE::SEGREG::pg::pen_type> >, SAGE::SEGREG::pg::member_compare, std::allocator<std::pair<const SAGE::MPED::member<SAGE::FPED::FilteredMemberInfo, SAGE::MPED::no_info, SAGE::MPED::no_info, SAGE::FPED::FilteredPedigreeInfo, SAGE::FPED::FilteredMultipedigreeInfo>* const, std::list<SAGE::SEGREG::pg::pen_type, std::allocator<SAGE::SEGREG::pg::pen_type> > > > >&)::__delta’ may be used uninitialized in this function
+../../c++/include/segreg/segreg_calculator.ipp: In member function ‘std::vector<std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, double>, std::allocator<std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, double> > > SAGE::SEGREG::primary_analysis::do_single_evaluation(const SAGE::SEGREG::PedigreeDataSet&, const SAGE::SEGREG::model&, double&, std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > >&)’:
+../../c++/include/segreg/segreg_calculator.ipp:361: warning: ‘mem_func.void (SAGE::SEGREG::segreg_calculator::*)(const SAGE::FPED::Member&, std::map<const SAGE::MPED::member<SAGE::FPED::FilteredMemberInfo, SAGE::MPED::no_info, SAGE::MPED::no_info, SAGE::FPED::FilteredPedigreeInfo, SAGE::FPED::FilteredMultipedigreeInfo>*, std::list<SAGE::SEGREG::pg::pen_type, std::allocator<SAGE::SEGREG::pg::pen_type> >, SAGE::SEGREG::pg::member_compare, std::allocator<std::pair<const SAGE::MPED::member<SAGE::FPED::FilteredMemberInfo, SAGE::MPED::no_info, SAGE::MPED::no_info, SAGE::FPED::FilteredPedigreeInfo, SAGE::FPED::FilteredMultipedigreeInfo>* const, std::list<SAGE::SEGREG::pg::pen_type, std::allocator<SAGE::SEGREG::pg::pen_type> > > > >&)::__pfn’ may be used uninitialized in this function
+../../c++/include/segreg/segreg_calculator.ipp:361: warning: ‘mem_func.void (SAGE::SEGREG::segreg_calculator::*)(const SAGE::FPED::Member&, std::map<const SAGE::MPED::member<SAGE::FPED::FilteredMemberInfo, SAGE::MPED::no_info, SAGE::MPED::no_info, SAGE::FPED::FilteredPedigreeInfo, SAGE::FPED::FilteredMultipedigreeInfo>*, std::list<SAGE::SEGREG::pg::pen_type, std::allocator<SAGE::SEGREG::pg::pen_type> >, SAGE::SEGREG::pg::member_compare, std::allocator<std::pair<const SAGE::MPED::member<SAGE::FPED::FilteredMemberInfo, SAGE::MPED::no_info, SAGE::MPED::no_info, SAGE::FPED::FilteredPedigreeInfo, SAGE::FPED::FilteredMultipedigreeInfo>* const, std::list<SAGE::SEGREG::pg::pen_type, std::allocator<SAGE::SEGREG::pg::pen_type> > > > >&)::__delta’ may be used uninitialized in this function
+../../c++/include/segreg/segreg_calculator.ipp:360: warning: ‘sped_func.void (SAGE::SEGREG::segreg_calculator::*)(const SAGE::FPED::Subpedigree&, std::map<const SAGE::MPED::member<SAGE::FPED::FilteredMemberInfo, SAGE::MPED::no_info, SAGE::MPED::no_info, SAGE::FPED::FilteredPedigreeInfo, SAGE::FPED::FilteredMultipedigreeInfo>*, std::list<SAGE::SEGREG::pg::pen_type, std::allocator<SAGE::SEGREG::pg::pen_type> >, SAGE::SEGREG::pg::member_compare, std::allocator<std::pair<const SAGE::MPED::member<SAGE::FPED::FilteredMemberInfo, SAGE::MPED::no_info, SAGE::MPED::no_info, SAGE::FPED::FilteredPedigreeInfo, SAGE::FPED::FilteredMultipedigreeInfo>* const, std::list<SAGE::SEGREG::pg::pen_type, std::allocator<SAGE::SEGREG::pg::pen_type> > > > >&)::__pfn’ may be used uninitialized in this function
+../../c++/include/segreg/segreg_calculator.ipp:360: warning: ‘sped_func.void (SAGE::SEGREG::segreg_calculator::*)(const SAGE::FPED::Subpedigree&, std::map<const SAGE::MPED::member<SAGE::FPED::FilteredMemberInfo, SAGE::MPED::no_info, SAGE::MPED::no_info, SAGE::FPED::FilteredPedigreeInfo, SAGE::FPED::FilteredMultipedigreeInfo>*, std::list<SAGE::SEGREG::pg::pen_type, std::allocator<SAGE::SEGREG::pg::pen_type> >, SAGE::SEGREG::pg::member_compare, std::allocator<std::pair<const SAGE::MPED::member<SAGE::FPED::FilteredMemberInfo, SAGE::MPED::no_info, SAGE::MPED::no_info, SAGE::FPED::FilteredPedigreeInfo, SAGE::FPED::FilteredMultipedigreeInfo>* const, std::list<SAGE::SEGREG::pg::pen_type, std::allocator<SAGE::SEGREG::pg::pen_type> > > > >&)::__delta’ may be used uninitialized in this function
+Making Library... done.
+Making segreg: SEGREG Application
+
+Linking                 (C++) segreg
+libsegreg.a
+segreg
+
+Making Sibpal for x86_64-linux-gcc64 RELEASE in ../../targets/x86_64-linux-gcc64/c++/sibpal
+
+
+Making libsibpal.a: "Sibpal Library"
+
+Making Library... done.
+Making sibpal: Sibpal
+
+Linking                 (C++) sibpal
+libsibpal.a
+sibpal
+
+Making TDTEX for x86_64-linux-gcc64 RELEASE in ../../targets/x86_64-linux-gcc64/c++/tdtex
+
+
+Making libtdtex.a: "Transmission-disequilibrium test library"
+
+Making Library... done.
+Making tdtex: "Transmission-disequilibrium test application"
+
+Linking                 (C++) tdtex
+libtdtex.a
+tdtex

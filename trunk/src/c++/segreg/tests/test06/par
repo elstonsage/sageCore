@@ -1,0 +1,127 @@
+pedigree
+{
+  pedigree_id=PID
+  individual_id=ID
+  sex_field=SEX
+  parent_id=P1
+  parent_id=P2
+  trait=DISEASE, binary, affected=1, unaffected=0
+  trait=HEMATOCRIT
+  trait=t
+  trait=u
+  trait=v
+  trait=w
+  trait=x
+  trait=y
+  trait=z
+}
+
+segreg  #1
+{
+  trait = hematocrit
+  
+  type_mean
+  {
+    mean=AA, val=6, fixed=true
+  }
+  
+  type_var
+  {
+    option=two
+  }
+}
+
+segreg  #2
+{
+  trait = hematocrit
+  
+  type_mean
+  {
+    mean=AA, val=6, fixed=true
+  }
+  
+  type_var
+  {
+    option=one
+    var = AA,val=9.5,fixed=true
+  }
+}
+
+segreg  #3
+{
+  trait = hematocrit
+  
+  type_mean
+  {
+    mean=AA, val=6, fixed=true
+  }
+  
+  geno_freq
+  {
+    option=nhwe
+  }
+}
+
+segreg  #4
+{
+  trait = hematocrit
+  
+  type_mean
+  {
+    mean=AA, val=6, fixed=true
+  }
+  
+  geno_freq
+  {
+    option=hwe
+    freq_A = .3
+  }
+}
+
+segreg  #5
+{
+  trait = hematocrit
+  
+  type_mean
+  {
+    option=two
+    mean=A*, val=6
+  }
+  
+  type_var
+  {
+    option=two
+  }
+}
+
+segreg  #6
+{
+  trait = hematocrit
+  
+  type_mean
+  {
+    option=two
+    mean=A*, val=6, fixed=true
+  }
+  
+  geno_freq
+  {
+    option=nhwe
+  }
+}
+
+segreg  #7
+{
+  trait = disease
+  
+  type_suscept
+  {
+    option=three
+    suscept=AA, val=6, fixed=true
+  }
+  
+  geno_freq
+  {
+    option=nhwe
+  }
+}

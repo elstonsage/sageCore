@@ -1,0 +1,31 @@
+genome, map=haldane
+{
+  region=X, x_linked
+  {
+    marker="DXS6807"
+    distance=25
+    marker="DXS2504"
+    distance=23
+    marker="MAOA"
+    distance=32
+    marker="DXS1039"
+    distance=16
+    marker="DXS7132"
+    distance=11
+    marker="DXS453"
+    distance=6
+    marker="DXS1002"
+    distance=17
+    marker="DXS6789"
+    distance=20
+    marker="DXS2498"
+    distance=14
+    marker="DXS1001"
+    distance=26
+    marker="DXS1047"
+    distance=20
+    marker="DXS994"
+    distance=10
+    marker="DXS1062"
+  }
+}

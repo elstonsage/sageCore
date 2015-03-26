@@ -1,0 +1,56 @@
+#!/usr/local/bin/python
+#============================================================================
+# File:      find_multi
+#                                                                          
+# Author:    Dan Baechle 
+#                                                                          
+# History:   6/18/3  Created.                                          djb
+#                                                                          
+# Notes:     finds individuals w. multiple mates in a tab-delimited
+#            data file by brute force means.
+#            assumes first field is study id as in dbh.data
+#            may seg fault on beastgate, but runs perfectly on darwin. 
+#
+#============================================================================
+
+import string
+import sys
+
+# - Return tuple of all mates for given individual
+#
+def find_mates(ped, ind, records):
+  mates = {}
+  for record in records:
+    fields = string.split(string.strip(record))
+    if len(fields) > 4:
+      if fields[1] == ped:
+        if fields[3] == ind:
+          mates[fields[4]] = None
+        if fields[4] == ind:
+          mates[fields[3]] = None
+            
+  return  tuple(mates.keys())
+  
+
+if __name__ == "__main__":
+  
+  # - (ped, ind) : (mate1, mate2, ...)
+  #
+  multi_mates = {}
+
+  data_file = open(sys.argv[1], 'r')
+  records = data_file.readlines()[1:]
+  for i in range(len(records)):
+    fields = string.split(string.strip(records[i]))
+    if len(fields) > 4:
+      if fields[3] != '0':
+        mates = find_mates(fields[1], fields[3], records)
+        if len(mates) > 1:
+          multi_mates[(fields[1], fields[3])] = mates
+        mates = find_mates(fields[1], fields[4], records)
+        if len(mates) > 1:
+          multi_mates[(fields[1], fields[4])] = mates
+              
+  print multi_mates
+                
+  

@@ -1,0 +1,564 @@
+
+
+
+Reading Parameter File....................done.
+Reading Marker Locus Description File.....done.
+Reading Pedigree File.....................
+              from ped....................done.
+Sorting Pedigrees.........................done.
+Reading Genome Description File...........done.
+
+  No analyses specified.
+Performing MCMC_ENGINE default analysis...
+
+Processing Analysis....
+Processing Region: REGION1
+=======================================
+
+Pedigree 1
+marker informative? true
+mcmc_meiosis_map dump :
+p_meioses :
+0 1 : -1, -1
+1 2 : -1, -1
+2 3 : 0, 1
+3 4 : 2, 3
+
+individual_positions :
+0 : 2
+1 : 3
+
+nfbits = 4
+founder_count = 2, nonfounder_count = 2
+individual count 4
+family count 1
+
+mcmc_data_accessor dump :
+locus_count        = 1
+indicator size     = 1
+valid_loci size    = 1
+
+inheritance vector  000000
+Marker 0
+Founder Allele Graph is: VALID with likelihood 0.03//-3.50656
+NodeID  Alleles 	Edges
+======  ======= 	=====
+     0   1 / 2  	3	2	
+     1   ? / ?  	
+     2   1 / 2  	3	2	1	
+     3   1 / 2  	1	
+
+EdgeID  IndID  Alleles  M.Node F.Node
+======  =====  =======  ====== ======
+     0      1              0 <-> 1   
+     1      2   1 / 2      2 <-> 3   
+     2      3   1 / 2      0 <-> 2   
+     3      4   1 / 2      0 <-> 2   
+
+Dirty Nodes: 
+
+# founder allele patterns: 2
+
+Pattern #0: likelihood = 0.012//-4.42285
+IndID  Alleles
+=====  =======
+    1   1 / ?
+    2   2 / 1
+    3   1 / 2
+    4   1 / 2
+
+Pattern #1: likelihood = 0.018//-4.01738
+IndID  Alleles
+=====  =======
+    1   2 / ?
+    2   1 / 2
+    3   2 / 1
+    4   2 / 1
+
+inheritance vector  000001
+Marker 0
+Founder Allele Graph is: VALID with likelihood 0.0078//-4.85363
+NodeID  Alleles 	Edges
+======  ======= 	=====
+     0   1 / 2  	3	
+     1   1 / 2  	2	
+     2   1 / 2  	3	2	1	
+     3   1 / 2  	1	
+
+EdgeID  IndID  Alleles  M.Node F.Node
+======  =====  =======  ====== ======
+     0      1              0 <-> 1   
+     1      2   1 / 2      2 <-> 3   
+     2      3   1 / 2      1 <-> 2   
+     3      4   1 / 2      0 <-> 2   
+
+Dirty Nodes: 
+
+# founder allele patterns: 2
+
+Pattern #0: likelihood = 0.0024//-6.03229
+IndID  Alleles
+=====  =======
+    1   1 / 1
+    2   2 / 1
+    3   1 / 2
+    4   1 / 2
+
+Pattern #1: likelihood = 0.0054//-5.22136
+IndID  Alleles
+=====  =======
+    1   2 / 2
+    2   1 / 2
+    3   2 / 1
+    4   2 / 1
+
+inheritance vector  000010
+Marker 0
+Founder Allele Graph is: INVALID!
+NodeID  Alleles 	Edges
+======  ======= 	=====
+     0   1 / 2  	2	3	
+     1   ? / ?  	
+     2   1 / 2  	3	1	
+     3   1 / 2  	2	1	
+
+EdgeID  IndID  Alleles  M.Node F.Node
+======  =====  =======  ====== ======
+     0      1              0 <-> 1   
+     1      2   1 / 2      2 <-> 3   
+     2      3   1 / 2      0 <-> 3   
+     3      4   1 / 2      0 <-> 2   
+
+Dirty Nodes: 
+0 3 
+inheritance vector  000011
+Marker 0
+Founder Allele Graph is: VALID with likelihood 0.0072//-4.93367
+NodeID  Alleles 	Edges
+======  ======= 	=====
+     0   1 / 2  	3	
+     1   1 / 2  	2	
+     2   1 / 2  	3	1	
+     3   1 / 2  	2	1	
+
+EdgeID  IndID  Alleles  M.Node F.Node
+======  =====  =======  ====== ======
+     0      1              0 <-> 1   
+     1      2   1 / 2      2 <-> 3   
+     2      3   1 / 2      1 <-> 3   
+     3      4   1 / 2      0 <-> 2   
+
+Dirty Nodes: 
+
+# founder allele patterns: 2
+
+Pattern #0: likelihood = 0.0036//-5.62682
+IndID  Alleles
+=====  =======
+    1   1 / 2
+    2   2 / 1
+    3   2 / 1
+    4   1 / 2
+
+Pattern #1: likelihood = 0.0036//-5.62682
+IndID  Alleles
+=====  =======
+    1   2 / 1
+    2   1 / 2
+    3   1 / 2
+    4   2 / 1
+
+inheritance vector  000100
+Marker 0
+Founder Allele Graph is: VALID with likelihood 0.0078//-4.85363
+NodeID  Alleles 	Edges
+======  ======= 	=====
+     0   1 / 2  	2	
+     1   1 / 2  	3	
+     2   1 / 2  	2	3	1	
+     3   1 / 2  	1	
+
+EdgeID  IndID  Alleles  M.Node F.Node
+======  =====  =======  ====== ======
+     0      1              0 <-> 1   
+     1      2   1 / 2      2 <-> 3   
+     2      3   1 / 2      0 <-> 2   
+     3      4   1 / 2      1 <-> 2   
+
+Dirty Nodes: 
+
+# founder allele patterns: 2
+
+Pattern #0: likelihood = 0.0024//-6.03229
+IndID  Alleles
+=====  =======
+    1   1 / 1
+    2   2 / 1
+    3   1 / 2
+    4   1 / 2
+
+Pattern #1: likelihood = 0.0054//-5.22136
+IndID  Alleles
+=====  =======
+    1   2 / 2
+    2   1 / 2
+    3   2 / 1
+    4   2 / 1
+
+inheritance vector  000101
+Marker 0
+Founder Allele Graph is: VALID with likelihood 0.03//-3.50656
+NodeID  Alleles 	Edges
+======  ======= 	=====
+     0   ? / ?  	
+     1   1 / 2  	2	3	
+     2   1 / 2  	2	3	1	
+     3   1 / 2  	1	
+
+EdgeID  IndID  Alleles  M.Node F.Node
+======  =====  =======  ====== ======
+     0      1              0 <-> 1   
+     1      2   1 / 2      2 <-> 3   
+     2      3   1 / 2      1 <-> 2   
+     3      4   1 / 2      1 <-> 2   
+
+Dirty Nodes: 
+
+# founder allele patterns: 2
+
+Pattern #0: likelihood = 0.012//-4.42285
+IndID  Alleles
+=====  =======
+    1   ? / 1
+    2   2 / 1
+    3   1 / 2
+    4   1 / 2
+
+Pattern #1: likelihood = 0.018//-4.01738
+IndID  Alleles
+=====  =======
+    1   ? / 2
+    2   1 / 2
+    3   2 / 1
+    4   2 / 1
+
+inheritance vector  000110
+Marker 0
+Founder Allele Graph is: VALID with likelihood 0.0072//-4.93367
+NodeID  Alleles 	Edges
+======  ======= 	=====
+     0   1 / 2  	2	
+     1   1 / 2  	3	
+     2   1 / 2  	3	1	
+     3   1 / 2  	2	1	
+
+EdgeID  IndID  Alleles  M.Node F.Node
+======  =====  =======  ====== ======
+     0      1              0 <-> 1   
+     1      2   1 / 2      2 <-> 3   
+     2      3   1 / 2      0 <-> 3   
+     3      4   1 / 2      1 <-> 2   
+
+Dirty Nodes: 
+
+# founder allele patterns: 2
+
+Pattern #0: likelihood = 0.0036//-5.62682
+IndID  Alleles
+=====  =======
+    1   1 / 2
+    2   1 / 2
+    3   1 / 2
+    4   2 / 1
+
+Pattern #1: likelihood = 0.0036//-5.62682
+IndID  Alleles
+=====  =======
+    1   2 / 1
+    2   2 / 1
+    3   2 / 1
+    4   1 / 2
+
+inheritance vector  000111
+Marker 0
+Founder Allele Graph is: INVALID!
+NodeID  Alleles 	Edges
+======  ======= 	=====
+     0   ? / ?  	
+     1   1 / 2  	2	3	
+     2   1 / 2  	3	1	
+     3   1 / 2  	2	1	
+
+EdgeID  IndID  Alleles  M.Node F.Node
+======  =====  =======  ====== ======
+     0      1              0 <-> 1   
+     1      2   1 / 2      2 <-> 3   
+     2      3   1 / 2      1 <-> 3   
+     3      4   1 / 2      1 <-> 2   
+
+Dirty Nodes: 
+1 
+inheritance vector  001000
+Marker 0
+Founder Allele Graph is: INVALID!
+NodeID  Alleles 	Edges
+======  ======= 	=====
+     0   1 / 2  	3	2	
+     1   ? / ?  	
+     2   1 / 2  	2	1	
+     3   1 / 2  	3	1	
+
+EdgeID  IndID  Alleles  M.Node F.Node
+======  =====  =======  ====== ======
+     0      1              0 <-> 1   
+     1      2   1 / 2      2 <-> 3   
+     2      3   1 / 2      0 <-> 2   
+     3      4   1 / 2      0 <-> 3   
+
+Dirty Nodes: 
+0 1 2 3 
+inheritance vector  001001
+Marker 0
+Founder Allele Graph is: VALID with likelihood 0.0072//-4.93367
+NodeID  Alleles 	Edges
+======  ======= 	=====
+     0   1 / 2  	3	
+     1   1 / 2  	2	
+     2   1 / 2  	2	1	
+     3   1 / 2  	3	1	
+
+EdgeID  IndID  Alleles  M.Node F.Node
+======  =====  =======  ====== ======
+     0      1              0 <-> 1   
+     1      2   1 / 2      2 <-> 3   
+     2      3   1 / 2      1 <-> 2   
+     3      4   1 / 2      0 <-> 3   
+
+Dirty Nodes: 
+
+# founder allele patterns: 2
+
+Pattern #0: likelihood = 0.0036//-5.62682
+IndID  Alleles
+=====  =======
+    1   1 / 2
+    2   1 / 2
+    3   2 / 1
+    4   1 / 2
+
+Pattern #1: likelihood = 0.0036//-5.62682
+IndID  Alleles
+=====  =======
+    1   2 / 1
+    2   2 / 1
+    3   1 / 2
+    4   2 / 1
+
+inheritance vector  001010
+Marker 0
+Founder Allele Graph is: VALID with likelihood 0.03//-3.50656
+NodeID  Alleles 	Edges
+======  ======= 	=====
+     0   1 / 2  	2	3	
+     1   ? / ?  	
+     2   1 / 2  	1	
+     3   1 / 2  	2	3	1	
+
+EdgeID  IndID  Alleles  M.Node F.Node
+======  =====  =======  ====== ======
+     0      1              0 <-> 1   
+     1      2   1 / 2      2 <-> 3   
+     2      3   1 / 2      0 <-> 3   
+     3      4   1 / 2      0 <-> 3   
+
+Dirty Nodes: 
+
+# founder allele patterns: 2
+
+Pattern #0: likelihood = 0.012//-4.42285
+IndID  Alleles
+=====  =======
+    1   1 / ?
+    2   1 / 2
+    3   1 / 2
+    4   1 / 2
+
+Pattern #1: likelihood = 0.018//-4.01738
+IndID  Alleles
+=====  =======
+    1   2 / ?
+    2   2 / 1
+    3   2 / 1
+    4   2 / 1
+
+inheritance vector  001011
+Marker 0
+Founder Allele Graph is: VALID with likelihood 0.0078//-4.85363
+NodeID  Alleles 	Edges
+======  ======= 	=====
+     0   1 / 2  	3	
+     1   1 / 2  	2	
+     2   1 / 2  	1	
+     3   1 / 2  	2	3	1	
+
+EdgeID  IndID  Alleles  M.Node F.Node
+======  =====  =======  ====== ======
+     0      1              0 <-> 1   
+     1      2   1 / 2      2 <-> 3   
+     2      3   1 / 2      1 <-> 3   
+     3      4   1 / 2      0 <-> 3   
+
+Dirty Nodes: 
+
+# founder allele patterns: 2
+
+Pattern #0: likelihood = 0.0024//-6.03229
+IndID  Alleles
+=====  =======
+    1   1 / 1
+    2   1 / 2
+    3   1 / 2
+    4   1 / 2
+
+Pattern #1: likelihood = 0.0054//-5.22136
+IndID  Alleles
+=====  =======
+    1   2 / 2
+    2   2 / 1
+    3   2 / 1
+    4   2 / 1
+
+inheritance vector  001100
+Marker 0
+Founder Allele Graph is: VALID with likelihood 0.0072//-4.93367
+NodeID  Alleles 	Edges
+======  ======= 	=====
+     0   1 / 2  	2	
+     1   1 / 2  	3	
+     2   1 / 2  	2	1	
+     3   1 / 2  	3	1	
+
+EdgeID  IndID  Alleles  M.Node F.Node
+======  =====  =======  ====== ======
+     0      1              0 <-> 1   
+     1      2   1 / 2      2 <-> 3   
+     2      3   1 / 2      0 <-> 2   
+     3      4   1 / 2      1 <-> 3   
+
+Dirty Nodes: 
+
+# founder allele patterns: 2
+
+Pattern #0: likelihood = 0.0036//-5.62682
+IndID  Alleles
+=====  =======
+    1   1 / 2
+    2   2 / 1
+    3   1 / 2
+    4   2 / 1
+
+Pattern #1: likelihood = 0.0036//-5.62682
+IndID  Alleles
+=====  =======
+    1   2 / 1
+    2   1 / 2
+    3   2 / 1
+    4   1 / 2
+
+inheritance vector  001101
+Marker 0
+Founder Allele Graph is: INVALID!
+NodeID  Alleles 	Edges
+======  ======= 	=====
+     0   ? / ?  	
+     1   1 / 2  	2	3	
+     2   1 / 2  	2	1	
+     3   1 / 2  	3	1	
+
+EdgeID  IndID  Alleles  M.Node F.Node
+======  =====  =======  ====== ======
+     0      1              0 <-> 1   
+     1      2   1 / 2      2 <-> 3   
+     2      3   1 / 2      1 <-> 2   
+     3      4   1 / 2      1 <-> 3   
+
+Dirty Nodes: 
+1 
+inheritance vector  001110
+Marker 0
+Founder Allele Graph is: VALID with likelihood 0.0078//-4.85363
+NodeID  Alleles 	Edges
+======  ======= 	=====
+     0   1 / 2  	2	
+     1   1 / 2  	3	
+     2   1 / 2  	1	
+     3   1 / 2  	2	3	1	
+
+EdgeID  IndID  Alleles  M.Node F.Node
+======  =====  =======  ====== ======
+     0      1              0 <-> 1   
+     1      2   1 / 2      2 <-> 3   
+     2      3   1 / 2      0 <-> 3   
+     3      4   1 / 2      1 <-> 3   
+
+Dirty Nodes: 
+
+# founder allele patterns: 2
+
+Pattern #0: likelihood = 0.0024//-6.03229
+IndID  Alleles
+=====  =======
+    1   1 / 1
+    2   1 / 2
+    3   1 / 2
+    4   1 / 2
+
+Pattern #1: likelihood = 0.0054//-5.22136
+IndID  Alleles
+=====  =======
+    1   2 / 2
+    2   2 / 1
+    3   2 / 1
+    4   2 / 1
+
+inheritance vector  001111
+Marker 0
+Founder Allele Graph is: VALID with likelihood 0.03//-3.50656
+NodeID  Alleles 	Edges
+======  ======= 	=====
+     0   ? / ?  	
+     1   1 / 2  	2	3	
+     2   1 / 2  	1	
+     3   1 / 2  	2	3	1	
+
+EdgeID  IndID  Alleles  M.Node F.Node
+======  =====  =======  ====== ======
+     0      1              0 <-> 1   
+     1      2   1 / 2      2 <-> 3   
+     2      3   1 / 2      1 <-> 3   
+     3      4   1 / 2      1 <-> 3   
+
+Dirty Nodes: 
+
+# founder allele patterns: 2
+
+Pattern #0: likelihood = 0.012//-4.42285
+IndID  Alleles
+=====  =======
+    1   ? / 1
+    2   1 / 2
+    3   1 / 2
+    4   1 / 2
+
+Pattern #1: likelihood = 0.018//-4.01738
+IndID  Alleles
+=====  =======
+    1   ? / 2
+    2   2 / 1
+    3   2 / 1
+    4   2 / 1
+
+
+
+Analysis complete!
+

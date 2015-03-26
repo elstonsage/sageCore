@@ -1,0 +1,7 @@
+
+
+
+%AGEON-F: Overlap detected with marker_list with field sex.  Marker list fields
+          must be exclusive with regards to other fields in the pedigree block.
+          Please fix this and re-run S.A.G.E.
+%AGEON-F: Error reading pedigree data from file '../test_marker_list/ped'.

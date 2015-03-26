@@ -1,0 +1,29 @@
+=================
+
+     Results
+
+=================
+
+==============================
+     Analysis description
+==============================
+
+  Title                        assoc                         
+  Primary Trait                sbpd_rand10 (Quantitative)    
+  Allow averaging              Disabled                      
+  Omit complete summary table  Disabled                      
+  Summary table display order  By LRT p-value                
+  Summary filter               Show no more than 10 results  
+
+======================================
+     Transformation configuration
+======================================
+
+  Method                George-Elston  
+  Lambda1 is fixed at    1.000000      
+  Lambda2 is fixed at    0.000000      
+
+
+
+Note: See .det file for more information about each model
+

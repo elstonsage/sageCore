@@ -1,0 +1,875 @@
+pedigree
+{
+   delimiter_mode = multiple
+   delimiters=" "
+   individual_missing_value="0"
+   sex_code,male="M",female="F",unknown="?"
+
+   pedigree_id=PED
+   individual_id=IND
+   parent_id=MOTH
+   parent_id=FATH
+   sex_field=SEX
+
+  trait=AGE,missing=-1
+  trait=AFFECTION,missing=9,binary,affected=1,unaffected=0
+
+  trait=TRAIT,missing=-1
+  covariate=COV,missing=9,binary,affected=1,unaffected=0
+}
+
+segreg_analysis # A1
+{
+  class=FPMM
+
+  trait=AFFECTION,type=age_onset
+
+  type_var
+  {
+    option=three
+    var="AA",val=2
+    var="AB",val=13
+    var="BB",val=16
+  }
+
+  type_mean 
+  { 
+   option = three
+  }
+  transmission
+  {
+    option=homog_no_trans
+  }
+
+  transformation
+  {
+    option=none
+  }
+
+  fpmm
+  {
+    loci = 3
+    onset
+    {
+      age_onset=age
+      age_exam=age
+    }
+  }
+  type_suscept
+  {
+    option=one
+    suscept="AA",val=3
+  }
+}
+
+segreg_analysis # A2
+{
+  class=A
+
+  trait=AFFECTION,type=age_onset
+
+  type_mean
+  {
+    option=three
+    mean="AA",val=2
+    mean="AB",val=13
+    mean="BB",val=16
+  }
+
+  type_var
+  {
+    var="**",val=1.333333333333333333,fixed=false
+  }
+  
+  geno_freq
+  {
+    option=hwe
+    probs_fixed = true
+    freq_A,val=0.5
+  }
+
+  transmission
+  {
+    option=homog_no_trans
+  }
+
+  transformation
+  {
+    option=none
+  }
+
+  fpmm
+  {
+    var = 1
+    onset
+    {
+      age_onset=age
+      age_exam=age
+    }
+  }
+  type_suscept
+  {
+    option=one
+    suscept="AA",val=3
+  }
+}
+
+segreg_analysis # A3
+{
+  class=FPMM
+
+  trait=AFFECTION,type=age_onset
+
+  type_mean
+  {
+    option=three
+    mean="AA",val=2
+    mean="AB",val=13
+    mean="BB",val=16
+  }
+
+  type_var
+  {
+    var="**",val=1.333333333333333333,fixed=false
+  }
+  
+  geno_freq
+  {
+    option=hwe
+    probs_fixed = true
+    freq_A,val=0.5
+  }
+
+  transmission
+  {
+    option=homog_no_trans
+  }
+
+  transformation
+  {
+    option=none
+  }
+
+  fpmm
+  {
+    var = 1
+    onset
+    {
+      multi_dependent=S
+
+      age_onset=age
+      age_exam=age
+    }
+  }
+  type_suscept
+  {
+    option=one
+    suscept="AA",val=3
+  }
+}
+
+segreg_analysis # A4
+{
+  class=A
+
+  trait=AFFECTION,type=age_onset
+
+  type_mean
+  {
+    option=three
+    mean="AA",val=2
+    mean="AB",val=13
+    mean="BB",val=16
+  }
+
+  type_var
+  {
+    var="**",val=1.333333333333333333,fixed=false
+  }
+  
+  geno_freq
+  {
+    option=hwe
+    probs_fixed = true
+    freq_A,val=0.5
+  }
+
+  transmission
+  {
+    option=homog_no_trans
+  }
+
+  transformation
+  {
+    option=none
+  }
+
+  fpmm
+  {
+    var = 1
+    onset
+    {
+      multi_dependent=A
+
+      age_onset=age
+      age_exam=age
+    }
+  }
+  type_suscept
+  {
+    option=one
+    suscept="AA",val=3
+  }
+}
+
+segreg_analysis # A5
+{
+  class=FPMM
+
+  trait=AFFECTION,type=age_onset
+
+  type_mean
+  {
+    option=one
+    mean="AA",val=2
+  }
+
+  type_var
+  {
+    var="**",val=1.333333333333333333,fixed=false
+  }
+  
+  geno_freq
+  {
+    option=hwe
+    probs_fixed = true
+    freq_A,val=0.5
+  }
+
+  transmission
+  {
+    option=homog_no_trans
+  }
+
+  transformation
+  {
+    option=none
+  }
+
+  fpmm
+  {
+    var = 1
+    onset
+    {
+      type_dependent=S
+      multi_dependent=N
+
+      age_onset=age
+      age_exam=age
+    }
+  }
+  type_suscept
+  {
+    option=three
+    suscept="AA",val=3
+    suscept="AB",val=5
+    suscept="BB",val=7
+  }
+}
+
+segreg_analysis # A6
+{
+  class=FPMM
+
+  trait=AFFECTION,type=age_onset
+
+  type_mean
+  {
+    option=one
+    mean="AA",val=2
+  }
+
+  type_var
+  {
+    var="**",val=1.333333333333333333,fixed=false
+  }
+  
+  geno_freq
+  {
+    option=hwe
+    probs_fixed = true
+    freq_A,val=0.5
+  }
+
+  transmission
+  {
+    option=homog_no_trans
+  }
+
+  transformation
+  {
+    option=none
+  }
+
+  fpmm
+  {
+    var = 1
+    onset
+    {
+      type_dependent=S
+      multi_dependent=S
+
+      age_onset=age
+      age_exam=age
+    }
+  }
+  type_suscept
+  {
+    option=three
+    suscept="AA",val=3
+    suscept="AB",val=5
+    suscept="BB",val=7
+  }
+}
+
+segreg_analysis # A7
+{
+  class=FPMM
+
+  trait=AFFECTION,type=age_onset
+
+  type_mean
+  {
+    option=one
+    mean="AA",val=2
+  }
+
+  type_var
+  {
+    var="**",val=1.333333333333333333,fixed=false
+  }
+  
+  geno_freq
+  {
+    option=hwe
+    probs_fixed = true
+    freq_A,val=0.5
+  }
+
+  transmission
+  {
+    option=homog_no_trans
+  }
+
+  transformation
+  {
+    option=none
+  }
+
+  fpmm
+  {
+    var = 1
+    onset
+    {
+      type_dependent=S
+      multi_dependent=A
+
+      age_onset=age
+      age_exam=age
+    }
+  }
+  type_suscept
+  {
+    option=three
+    suscept="AA",val=3
+    suscept="AB",val=5
+    suscept="BB",val=7
+  }
+}
+
+segreg_analysis # A8
+{
+  class=FPMM
+
+  trait=AFFECTION,type=age_onset
+
+  type_mean
+  {
+    option=one
+    mean="AA",val=2
+  }
+
+  type_var
+  {
+    var="**",val=1.333333333333333333,fixed=false
+  }
+  
+  geno_freq
+  {
+    option=hwe
+    probs_fixed = true
+    freq_A,val=0.5
+  }
+
+  transmission
+  {
+    option=homog_no_trans
+  }
+
+  transformation
+  {
+    option=none
+  }
+
+  fpmm
+  {
+    var = 1
+    onset
+    {
+      type_dependent=S
+      multi_dependent=N
+
+      age_onset=age
+      age_exam=age
+    }
+  }
+  type_suscept
+  {
+    option=three
+    suscept="AA",val=3
+    suscept="AB",val=5
+    suscept="BB",val=7
+  }
+
+  mean_cov
+  {
+    covariate=cov,val=1
+  }
+
+  prev_constraint
+  {
+    N=1.0
+    R=0.5
+
+    covariate=cov,val=1
+
+    age=72
+  }
+}
+
+segreg_analysis # A9
+{
+  class=FPMM
+
+  trait=AFFECTION,type=age_onset
+
+  type_mean
+  {
+    option=one
+    mean="AA",val=2
+  }
+
+  type_var
+  {
+    var="**",val=1.333333333333333333,fixed=false
+  }
+  
+  geno_freq
+  {
+    option=hwe
+    probs_fixed = true
+    freq_A,val=0.5
+  }
+
+  transmission
+  {
+    option=homog_no_trans
+  }
+
+  transformation
+  {
+    option=none
+  }
+
+  fpmm
+  {
+    var = 1
+    onset
+    {
+      type_dependent=S
+      multi_dependent=N
+
+      age_onset=age
+      age_exam=age
+    }
+  }
+  type_suscept
+  {
+    option=three
+    suscept="AA",val=3
+    suscept="AB",val=5
+    suscept="BB",val=7
+  }
+
+  var_cov
+  {
+    covariate=cov,val=1
+  }
+}
+
+segreg_analysis # A10
+{
+  class=FPMM
+
+  trait=AFFECTION,type=age_onset
+
+  type_mean
+  {
+    option=one
+    mean="AA",val=2
+  }
+
+  type_var
+  {
+    var="**",val=1.333333333333333333,fixed=false
+  }
+  
+  geno_freq
+  {
+    option=hwe
+    probs_fixed = true
+    freq_A,val=0.5
+  }
+
+  transmission
+  {
+    option=homog_no_trans
+  }
+
+  transformation
+  {
+    option=none
+  }
+
+  fpmm
+  {
+    var = 1
+    onset
+    {
+      type_dependent=S
+      multi_dependent=N
+
+      age_onset=age
+      age_exam=age
+    }
+  }
+  type_suscept
+  {
+    option=three
+    suscept="AA",val=3
+    suscept="AB",val=5
+    suscept="BB",val=7
+  }
+
+  suscept_cov
+  {
+    covariate=cov,val=1
+  }
+}
+
+segreg_analysis # A11
+{
+  class=FPMM
+
+  trait=AFFECTION,type=age_onset
+
+  type_mean
+  {
+    option=one
+    mean="AA",val=2
+  }
+
+  type_var
+  {
+    var="**",val=1.333333333333333333,fixed=false
+  }
+  
+  transmission
+  {
+    option=homog_no_trans
+  }
+
+  transformation
+  {
+    option=none
+  }
+
+  fpmm
+  {
+    var = 1
+    onset
+    {
+      type_dependent=S
+      multi_dependent=N
+
+      age_onset=age
+      age_exam=age
+    }
+  }
+  type_suscept
+  {
+    option=one
+    suscept="AA",val=3
+  }
+  ascertainment
+  {
+    onset_option=actual
+    cond_set=psf
+    psf_indic=cov
+  }
+}
+
+segreg_analysis # A12
+{
+  class=FPMM
+
+  trait=AFFECTION,type=age_onset
+
+  type_mean
+  {
+    option=one
+    mean="AA",val=2
+  }
+
+  type_var
+  {
+    var="**",val=1.333333333333333333,fixed=false
+  }
+  
+  transmission
+  {
+    option=homog_no_trans
+  }
+
+  transformation
+  {
+    option=box_cox
+    lambda1=.5
+    lambda2=0
+  }
+
+  fpmm
+  {
+    var = 1
+    onset
+    {
+      type_dependent=S
+      multi_dependent=N
+
+      age_onset=age
+      age_exam=age
+    }
+  }
+  type_suscept
+  {
+    option=one
+    suscept="AA",val=3
+  }
+  ascertainment
+  {
+    onset_option=by_onset
+    cond_set=psf
+    psf_indic=cov
+  }
+}
+
+segreg_analysis # A13
+{
+  class=FPMM
+
+  trait=AFFECTION,type=age_onset
+
+  type_mean
+  {
+    option=three
+    mean="AA",val=2,fixed=true
+    mean="AB",val=13,fixed=true
+    mean="BB",val=16
+  }
+
+  type_var
+  {
+    var="**",val=1.333333333333333333,fixed=false
+  }
+  
+  geno_freq
+  {
+    option=hwe
+    probs_fixed = true
+    freq_A,val=0.5
+  }
+
+  transmission
+  {
+    option=homog_no_trans
+  }
+
+  transformation
+  {
+    option=none
+  }
+
+  fpmm
+  {
+    loci = 0
+    onset
+    {
+      age_onset=age
+      age_exam=age
+    }
+  }
+  type_suscept
+  {
+    option=one
+    suscept="AA",val=3
+  }
+}
+
+segreg_analysis # A14
+{
+  class=A
+
+  trait=AFFECTION,type=age_onset
+
+  type_mean
+  {
+    option=two
+  }
+
+  type_var
+  {
+    var="**",val=1.333333333333333333,fixed=false
+  }
+  
+  geno_freq
+  {
+    option=hwe
+    probs_fixed = true
+    freq_A,val=0.5
+  }
+
+  transmission
+  {
+    option=homog_no_trans
+  }
+
+  transformation
+  {
+    option=none
+  }
+
+  fpmm
+  {
+    loci = 2
+    onset
+    {
+      age_onset=age
+      age_exam=age
+    }
+  }
+  type_suscept
+  {
+    option=one
+    suscept="AA",val=3,fixed=true
+  }
+}
+
+
+segreg_analysis # A15
+{
+  class=FPMM
+
+  trait=AFFECTION,type=age_onset
+
+  type_mean
+  {
+    option=one
+  }
+
+  type_var
+  {
+    var="**",val=1.333333333333333333,fixed=false
+  }
+  
+transmission
+  {
+    option=homog_no_trans
+  }
+
+  transformation
+  {
+    option=none
+  }
+
+  fpmm
+  {
+    loci = 0
+    freq = 0.6 
+    onset
+    {
+      age_onset=age
+      age_exam=age
+    }
+  }
+  type_suscept
+  {
+    option=one
+    suscept="AA",val=3,fixed=true
+  }
+}
+
+segreg_analysis # A16
+{
+  class=FPMM
+
+  trait=AFFECTION,type=age_onset
+
+  type_mean
+  {
+    option=one
+  }
+
+  type_var
+  {
+    var="**",val=1.333333333333333333,fixed=false
+  }
+  
+transmission
+  {
+    option=homog_no_trans
+  }
+
+  transformation
+  {
+    option=none
+  }
+
+  fpmm
+  {
+    loci = 0
+    onset
+    {
+      type_dependent=A
+      multi_dependent=S
+      age_onset=age
+      age_exam=age
+    }
+  }
+  type_suscept
+  {
+    option=one
+    suscept="AA",val=3,fixed=true
+  }
+}
+
+

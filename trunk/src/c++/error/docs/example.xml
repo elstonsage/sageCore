@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<ErrorList><Error><GroupName>GROUPNAME</GroupName><ShortName>foo</ShortName><LongName>LONGNAME</LongName><Documentation>DOCUMENTATION</Documentation><RuntimeDoc>
+          Name is _0.
+          Age is _1.
+          Sex is _2.
+          Color is _3.
+          Height is _4.
+        </RuntimeDoc></Error><Error><GroupName>GROUPNAME</GroupName><ShortName>four args</ShortName><LongName>LONGNAME</LongName><Documentation>DOCUMENTATION</Documentation><RuntimeDoc>
+          Name is _0.
+          Age is _1.
+          Sex is _2.
+          Color is _3.
+        </RuntimeDoc></Error><Error><GroupName>GROUPNAME</GroupName><ShortName>no args</ShortName><LongName>LONGNAME</LongName><Documentation>foo</Documentation><RuntimeDoc>
+          Go figure.
+        </RuntimeDoc></Error><Error><GroupName>GROUPNAME</GroupName><ShortName>one arg</ShortName><LongName>You have thwarted me for the last time, Mr. Bond.</LongName><Documentation>DOCUMENTATION</Documentation><RuntimeDoc>
+          Name is _0.
+        </RuntimeDoc></Error><Error><GroupName>GROUPNAME</GroupName><ShortName>three args</ShortName><LongName>LONGNAME</LongName><Documentation>DOCUMENTATION</Documentation><RuntimeDoc>
+          Name is _0.
+          Age is _1.
+          Sex is _2.
+        </RuntimeDoc></Error><Error><GroupName>foo</GroupName><ShortName>two args</ShortName><LongName>LONGNAME</LongName><Documentation>DOCUMENTATION</Documentation><RuntimeDoc>
+          Name is _0.
+          Age is _1.
+        </RuntimeDoc></Error></ErrorList>

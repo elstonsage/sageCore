@@ -1,0 +1,62 @@
+
+
+
+==========
+Analysis 1
+==========
+
+
+Options Selected
+================
+Minor allele frequency filter                      no
+Sliding window                                     no
+Four gamete rule blocks                            no
+LD blocks                                          no
+EM algorithm convergence criterion                 1e-05
+Number of EM algorithm starting states             10
+  Dump                                             no
+
+Subpopulations specified                           no
+Analysis unit                                      pool
+
+Estimate haplotype frequencies                     yes
+  Cutoff                                           0.001
+Show all possible haplotype combinations table     no
+List most likely haplotype combinations            no
+Do likelihood ratio test                           no
+Compute empirical p-value                          no
+
+
+Results
+=======
+
+
+Markers in order:
+  1 2 3 
+
+
+
+                         Haplotype Frequency Estimates
+
+
+Note:  Haplotypes listed have estimated frequencies greater than or equal to
+       the cutoff or have the greatest frequency estimate.
+
+Haplotype          Frequency
+---------          ---------
+a-A-A              0.1462122
+A-A-A              0.1384748
+A-a-A              0.1379933
+a-a-A              0.1276946
+a-A-a              0.1158297
+A-A-a              0.1142333
+A-a-a              0.1104235
+a-a-a              0.1091385
+                   ---------
+Total              1.0000000
+
+Ln likelihood    -8449.82
+
+
+
+

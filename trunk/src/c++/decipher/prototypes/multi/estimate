@@ -1,0 +1,209 @@
+#!/usr/local/bin/python
+#============================================================================
+# File:      estimate
+#                                                                          
+# Author:    Dan Baechle
+#                                                                          
+# History:   12/4/3.  Created.
+#            12/22/3  Modified to allow arbitrary number of alleles at a
+#                     locus.
+#                                                                          
+# Notes:     Given a sample of genotypes, estimate frequencies of haplotypes 
+#            using the EM algorithm as described in Excoffier and Slatkin, 
+#            1995.
+#
+#============================================================================
+
+import os
+import sys
+import pickle
+from math import log10, log
+from copy import deepcopy
+
+from phenotype import *
+from parse import parse
+
+
+# - Read data and build a list of loci.
+#
+def build_loci(records, loci):
+  first_record = True
+  for record in records:
+    for l in range(1, len(record)):
+      if first_record:
+        loci.append(locus())
+
+      if record[l][0] != '?':
+        loci[l - 1].add_allele(record[l][0])
+        loci[l - 1].add_allele(record[l][1])    
+    
+    first_record = False
+    
+  for loc in loci:
+    loc.build_genotypes()
+    
+    
+# - Read data and build phenotype and haplotype data structures.
+#
+def build_phenotypes(records, phenos, haps, loci):
+  for record in records:
+    pheno_seq = []
+    for l in range(1, len(record)):
+      name = '%s/%s' % (record[l][0], record[l][1])
+      pheno_seq.append(loci[l - 1].g_index(name))
+        
+    key = tuple(pheno_seq)
+    if phenos.has_key(key):
+      phenos[key].incr_count()
+    else:
+      phenos[key] = phenotype(pheno_seq, haps, loci)
+    
+    
+def calc_weights(haps, phenos, sample_size):
+  for key in phenos.keys():
+    phenos[key].calc_weights(haps, sample_size)
+    
+    
+def print_records():
+  for record in records:
+    line = ""
+    for locus in range(1, len(record)):
+      line += '%s/%s\t' % (record[locus][0], record[locus][1])
+      
+    print line    
+
+
+def print_phenos(phenos, loci):
+  for key in phenos.keys():
+    print
+    print '%s\t' % pheno_seq_to_string(key, loci),
+    phenos[key].output(haps)
+
+
+# - Equation 4, Excoffier and Slatkin, 1995.
+#   NOT ABLE TO VERIFY VS. ARLEQUIN AS LIKELIHOOD VALUES W/I A TEST
+#   MAY VARY BY A CONSTANT OF PROPORTIONALITY.
+#
+def log_likelihood(haps, phenos, sample_size):
+  log_like = 1
+  for ph_key in phenos.keys():
+    sum = 0
+    for pr_key in phenos[ph_key].hap_pairs.keys():
+      pr_prob = haps[pr_key[0]].new_freq(sample_size) * \
+                haps[pr_key[1]].new_freq(sample_size)
+      if pr_key[0] != pr_key[1]:
+        pr_prob *= 2
+        
+      sum += pr_prob
+             
+    log_like += phenos[ph_key].count * log10(sum)
+    
+  return  log_like
+  
+  
+# - Randomly assign weights to haplotype pairs corresponding to
+#   each phenotype.
+#
+def reset_pheno_weights(phenos):
+  for key in phenos:
+    phenos[key].init_weights()
+    
+def new_likelihood(candidate, likes, epsilon):
+  new = False
+  for like in likes:
+    if abs(like - candidate) > epsilon:
+      new = True
+      break
+      
+  return  new
+  
+    
+# =========================== MAIN ==========================
+#
+DUMP = False
+
+epsilon = .0001
+run_count = 3
+
+data = open(sys.argv[1], 'r')
+records = parse(data)
+
+# - Add function here to REMOVE RECORDS CONSISTING OF MISSING
+#   DATA AT ALL LOCI.
+#
+
+###
+if DUMP:
+  print
+  print records
+  print
+###
+
+loci = []
+build_loci(records, loci)
+
+haps = haplotype_set(len(records))
+phenos = {}
+build_phenotypes(records, phenos, haps, loci)
+
+###
+if DUMP:
+  print
+  print_phenos(phenos, loci)  
+  print
+  print haps
+  print
+###
+
+os.system('date')
+
+# - Initial run.
+#
+haps.calc_freqs(phenos)
+while not haps.converged(epsilon):
+  calc_weights(haps, phenos, len(records))
+  haps.calc_freqs(phenos)
+  
+max_likelihood = log_likelihood(haps, phenos, len(records))
+likelihoods = [max_likelihood]
+best_haps = deepcopy(haps)
+multiple_maxima = False
+
+for run in range(run_count - 1):
+  reset_pheno_weights(phenos)
+  haps.zero_freqs()
+  haps.calc_freqs(phenos)
+  while not haps.converged(epsilon):
+    calc_weights(haps, phenos, len(records))
+    haps.calc_freqs(phenos)
+    
+  likelihood = log_likelihood(haps, phenos, len(records))
+  if likelihood > max_likelihood:
+    max_likelihood = likelihood
+    best_haps = deepcopy(haps)
+    
+  likelihoods.append(likelihood)
+  if new_likelihood(likelihood, likelihoods, epsilon * 100):
+    multiple_maxima = True
+  
+print
+best_haps.output()
+print 'frequency total: %f' % best_haps.total()
+print
+print 'log likelihood  %f' % max_likelihood
+if multiple_maxima:
+  print '\nMULTIPLE MAXIMA DETECTED!'
+  for likelihood in likelihoods:
+    print likelihood
+
+
+###
+if DUMP:
+  print
+  print_phenos(phenos, loci)  
+  print
+  print haps
+  print
+###
+
+os.system('date')

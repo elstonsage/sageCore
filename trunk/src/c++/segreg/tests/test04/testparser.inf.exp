@@ -1,0 +1,117 @@
+
+Family structure information on the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       SEX       PARENT1       PARENT2     
+     ------------  ------------  --------  ------------  ------------
+     1             1             F                                   
+     1             2             M                                   
+     1             3             M         1             2           
+     1             4             F         1             2           
+     1             5             M                                   
+     1             6             F         4             5           
+
+
+Phenotypes for the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       SEX_CODE              FAMILIAL_INDICATOR    FOUNDER_INDICATOR     PEDIGREE_SIZE         DISEASE               HEMATOCRIT            t                     u                     v                     w                     x                     y                     z                   
+     ------------  ------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------
+     1             1             1                     1                     1                     6                     1                     30                    1                     2                     3                     4                     5                     6                     7                   
+     1             2             0                     1                     1                     6                     0                     40                    1                     2                     3                     4                     5                     6                     7                   
+     1             3             0                     1                     0                     6                     0                     27.1                  1                     2                     3                     4                     5                     6                     7                   
+     1             4             1                     1                     0                     6                     1                     39                    1                     2                     3                     4                     5                     6                     7                   
+     1             5             0                     1                     1                     6                     0                     37.6                  1                     2                     3                     4                     5                     6                     7                   
+     1             6             1                     1                     0                     6                     1                     41.1                  1                     2                     3                     4                     5                     6                     7                   
+
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 1 New Analysis Block 1 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 2 New Analysis Block 2 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 3 New Analysis Block 3 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 4 New Analysis Block 4 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 5 New Analysis Block 5 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 6 New Analysis Block 6 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:type_var sub-block specified without specifying a mean
+                        sub-block.  Ignoring type_var sub-block ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 7 New Analysis Block 7 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:type_var sub-block specified without specifying a mean
+                        sub-block.  Ignoring type_var sub-block ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 8 New Analysis Block 8 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 9 New Analysis Block 9 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 10 New Analysis Block 10 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 11 New Analysis Block 11 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:nhwe option specified in geno_freq sub-block for
+                        commingling analysis.  Ignoring ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 12 New Analysis Block 12 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 13 New Analysis Block 13 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 14 New Analysis Block 14 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 15 New Analysis Block 15 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Warning:suscept_cov sub-block not relevant for continuous
+                          trait.  Ignoring ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 16 New Analysis Block 16 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:transmission sub-block specified without specifying a
+                        type (mean or suscept) sub-block.  Ignoring ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 17 New Analysis Block 17 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:transmission sub-block specified without specifying a
+                        type (mean or suscept) sub-block.  Ignoring ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 18 New Analysis Block 18 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:transmission sub-block specified without specifying a
+                        type (mean or suscept) sub-block.  Ignoring ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 19 New Analysis Block 19 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:transmission sub-block specified without specifying a
+                        type (mean or suscept) sub-block.  Ignoring ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 20 New Analysis Block 20 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:transmission sub-block specified without specifying a
+                        type (mean or suscept) sub-block.  Ignoring ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 21 New Analysis Block 21 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:transmission sub-block specified without specifying a
+                        type (mean or suscept) sub-block.  Ignoring ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 22 New Analysis Block 22 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 23 New Analysis Block 23 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 24 New Analysis Block 24 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:Parameter 'ONSET' not recognized.  Ignoring ...

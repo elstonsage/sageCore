@@ -1,0 +1,7 @@
+#!/bin/sh
+
+rm -f loop_test.out
+for i in *.dat; do \
+  echo $i >> loop_test.out ; \
+  ../../loop_test $i '(2(A4,1X),T21,A1,T10,2(1X,A4))' >>loop_test.out; \
+done

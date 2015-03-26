@@ -1,0 +1,157 @@
+#!/usr/local/bin/python
+
+# diff_test is a simple script for running make on the SAGE tree and doing
+# a comparison test with a pre-existing log file.
+#
+# This script must be run in the util/build_scripts directory of the SAGE tree.
+# Given a make option (default of 'all'), this script runs make with it, then
+# compares the resulting output with a log in the logs directory.  Logs are sorted
+# based upon platform, compiler and build option.
+#
+# Note that since make only compiles those things which are not already compiled,
+# this script is not sophisticated when it comes to sorting out what should and
+# shouldn't be there.  It is up to the user to make sure that the state of the
+# tree is right for correct diff testing.  One exception is the 'all' default
+# option.  When this option is requested, the tree is first cleared of pre-
+# existing object files to allow more correct testing.  It is assumed that this
+# option will be run before any other options are performed.
+#
+# Once make is complete, the output is compared against the expected log file
+# (in the util/build_scripts/exp directory) using unified diff.  Any differences
+# between the output and the expected are reported to a notify list that can
+# be specified on the command line (or defaults to wedig@darwin.cwru.edu).
+#
+# The script returns one of three values, SUCCESS, DIFFS or FAILURE.  The last
+# is returned only when make returns a failure.  In general, DIFFS indicates a
+# non-fatal failure, allowing testing to continue, while FAILURE indicates a
+# problem that precludes additional testing.
+
+import common
+import os
+import sys
+import stat
+import string
+
+pwd = os.environ['PWD']
+sys.path.append(pwd)
+
+if __name__ == '__main__':
+
+  # Parse command line
+  args, quiet, nlist = common.get_options()
+
+  # determine the make option
+  make_opt = "all"
+  
+  if len(args) :
+    if len(args) == 1:
+      make_opt = args[0]
+    else:
+      print "  Error:  No more than one argument.  Use -h to see command line options."
+      sys.exit(common.EXIT_FAILURE)
+      
+  # Create the reported name
+  report_name = "Diff Test (" + make_opt + ")"
+
+  # Print titles if not quiet
+  if quiet == 0 :
+    print
+    print "S.A.G.E. 6.x Automated Build Test"
+    print
+    print "  Selected build Option:",make_opt
+    print
+
+  # Verify that we're in the util/build_scripts directory.
+  common.check_directory()
+
+  # If we're doing a new build, we must clean out any residue
+  if(make_opt == "all"):
+    if not quiet:
+      print "  New build requested.  Clearing configuration..."
+      print
+
+    # Configure for the platform, clearing any existing objects.
+    os.chdir("src")
+    
+    cmd = './configure %s' % (common.compiler)
+    
+    if quiet:
+      cmd += " 1>/dev/null 2>/dev/null"
+      
+    os.system(cmd)
+
+    # change to the build directory
+    os.chdir("c++")
+  
+    # Clean out any libraries that might pre-exist
+    filelist = os.listdir('lib')
+  
+    for i in filelist :
+      if i[:3] == 'lib' and i[-2:] == '.a' :
+        os.remove('lib/' + i)
+  else:
+    os.chdir("src/c++")
+
+  # Determine time and date for filenames
+  logname = "%s-%s.%s.log" % (common.osystem, common.compiler, make_opt)
+
+  # Generate filename for log, 
+  fname    = '../../util/build_scripts/logs/%s.%s' % (common.date, logname)
+  expfname = '../../util/build_scripts/exp/%s' % (logname)
+
+  difffile = '../../util/build_scripts/diffs'
+
+  # If the log file already exists, delete it
+  try:
+    results = os.stat(fname)
+  except OSError:
+    results =[0,0,0,0,0,0,0,0,0]
+
+  if(results[stat.ST_SIZE] != 0):
+    os.system('rm %s' % (fname));
+
+  # Run the test
+  if not quiet:
+    print "  Running test compile of the sage sources with option:", make_opt 
+  
+  cmd = 'make %s BUILD=RELEASE ' % make_opt
+  
+  if quiet:
+    cmd += ' 1>>' + fname + ' 2>>' + fname
+  else:
+    cmd += ' 2>&1 | tee ' + fname
+    
+  if(os.system(cmd)):
+    print "  " + report_name + ":  FAILURE!"
+    common.mail_file(fname, "Failed " + report_name + ": %s" % (common.date), nlist)
+    
+    sys.exit(common.EXIT_FAILURE)
+
+  # modify the log removing certain problematic strings
+  common.remove_absolute_path                  (fname)
+  common.remove_recompiling_messages_and_flags (fname)
+
+  # Check the log versus the expected log
+  #if common.osystem != "SunOS" :
+  command = "diff -u"
+  #else:
+  #  command = "/usr/local/bin/diff -u"
+
+  if (os.system('%s %s %s >%s' % (command, expfname, fname, difffile))):
+    results = os.stat(difffile)
+
+    if(results[stat.ST_SIZE] != 0):
+      print "  " + report_name + ":  DIFFS!"
+      common.mail_file(difffile, "Diffs in " + report_name + ": %s" % (common.date), nlist)
+    else:
+      print "Unable to find expected file.  Test Aborted."
+    
+    sys.exit(common.EXIT_DIFFS)
+    
+  # No problems, so we can report SUCCESS!
+  print "SUCCESS!"
+
+  os.system('rm %s' %(difffile))
+
+  sys.exit(common.EXIT_SUCCESS)
+  

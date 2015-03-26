@@ -1,0 +1,80 @@
+pedigree
+{
+  delimiter=" "
+#  delimiter_mode = multiple
+  individual_missing_value = "0"
+
+  pedigree_id = ped
+  individual_id=id
+  parent_id=p1
+  parent_id=p2
+  sex_field=sex
+  sex_code, male=1, female=2
+  covariate=idx
+  covariate=HIV, missing="2"
+  covariate=SCAR, missing="-9"
+  covariate=PPD, missing="2"
+  trait=TB, binary, affected="1", unaffected="0", missing="2"
+  covariate=AGE, missing="-9"
+  covariate=BMI, missing="-9"
+  trait=CPPD, missing="-9.000"
+
+  trait=PC1A, missing="-99.000"
+   
+}
+
+pedinfo_analysis
+{
+  trait=PC1A
+  each_pedigree=true
+  output=tb_peds
+
+}
+
+
+segreg_analysis
+{
+  title="PC commingling"
+  trait=PC1A, type=continuous
+  type_mean
+  {
+    option=one
+    mean="A*", val=-0.0336, fixed=false
+  }
+  type_var
+  {
+    option=one
+    var="**", val=.2, fixed=false
+  }
+  class=D
+  resid
+  {
+    option=arb
+    fm, fixed=false, val=0.6
+    mo, val=-0.2
+    fo, val=0.6
+    ss, val=0.75
+  }
+  transformation
+  {
+    option=box_cox
+    lambda1, val=1.8, fixed=false
+    lambda2, val=5, fixed=true
+  }
+  geno_freq
+  {
+    option=hwe
+    freq_A, val=0.2
+  }
+  transmission
+  {
+    option=homog_no_trans
+  }
+  ascertainment
+  {
+    cond_set=psf
+    psf_indic=idx
+  }
+  output="pc_comm"
+}
+ 

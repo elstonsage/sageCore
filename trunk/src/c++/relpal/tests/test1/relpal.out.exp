@@ -1,0 +1,81 @@
+
+
+
+====================================================================================
+  Two-Level Haseman-Elston Regression Analysis for General Pedigree 
+
+  - Second (Pedigree) Level Score Tests Summary Output
+====================================================================================
+
+  Traits : (1) - X1, Quantitative
+           (2) - X2, Quantitative
+           (3) - X3, Quantitative
+
+  Legend :
+    *   - significance  .05 level
+    **  - significance  .01 level
+    *** - significance .001 level
+
+    nai - naive variance
+    sdw - robust sandwich variance
+    alt - alternative variance
+    ibd - allele sharing variance
+
+    #   - The number of pedigrees is too small for this result to be
+          reliable when analyzing this number of traits.
+
+  Empirical p-value options used :
+    seed = 100
+    min replicates = 20
+    max replicates = 10000
+
+====================================================================================
+Test                                Unadjusted   Adjusted Empirical     Number of 
+No   Variable             Count Var    T-value    T-value   P-value     Replicates
+------------------------- ----- --- ---------- ---------- ---------     ----------
+1    marker                2000 nai     9.9290     8.0951 0.0474398 *          207
+                                sdw    10.2763     8.5195 0.0417012 *          210
+                                alt    10.3824     8.6226 0.0397886 *          214
+                                ibd    10.3181     8.4511 0.0421754 *          215
+====================================================================================
+
+
+====================================================================================
+  Two-Level Haseman-Elston Regression Analysis for General Pedigree 
+
+  - Second (Pedigree) Level Score Tests Summary Output
+====================================================================================
+
+  Traits : (1) - X1, Quantitative
+           (2) - X2, Quantitative
+           (3) - X3, Quantitative
+
+  Legend :
+    *   - significance  .05 level
+    **  - significance  .01 level
+    *** - significance .001 level
+
+    nai - naive variance
+    sdw - robust sandwich variance
+    alt - alternative variance
+    ibd - allele sharing variance
+
+    #   - The number of pedigrees is too small for this result to be
+          reliable when analyzing this number of traits.
+
+  Empirical p-value options used :
+    seed = 100
+    min replicates = 20
+    max replicates = 10000
+
+====================================================================================
+Test                                Unadjusted   Adjusted Empirical     Number of 
+No   Variable             Count Var    T-value    T-value   P-value     Replicates
+------------------------- ----- --- ---------- ---------- ---------     ----------
+1    marker                2000 nai     9.7917     8.1942 0.0455238 *          207
+                                sdw    10.0766     8.5372 0.0413898 *          210
+                                alt    10.1787     8.6369 0.0395395 *          214
+                                ibd    10.1215     8.4894 0.0414365 *          215
+====================================================================================
+
+

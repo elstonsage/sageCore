@@ -1,0 +1,87 @@
+Punch List -
+ 
+  Item                                                                         Priority  Consult  Done  Note
+  ====                                                                         ========  =======  ====  ====
+  get_model() should return a const reference.                                                     x
+  Implement alpha_mother() & alpha_father() in resid sub-model.                                    x
+  Add none option to transformation sub-model                                                      x
+  Eliminate superfluous warnings regarding fixed and val                                           x
+  Modify all sub-models so that a value must be supplied if fixed == true.                         x
+  Make other warnings priority, info?                                                              x
+  Meaning of the no_trans option for transm. sub-block (see note 4 in u. doc.)                     x
+  Add 'all' option to transm. sub-block? Meta analysis in transmission?                            x
+  Reexamine fpmm sub-block and its parsing                                                         x
+  Parser 'meta-constraints' (does not include onset or ascert.)                                    x
+  Transmission/geno_freq sub-models - which is 'synched' first?                                    x     1
+  Probability functions in geno_freq sub-model?                                                    x
+  In geno_freq allele freq a should be fixed if probs fixed & nhwe spec'ed???                      x     2
+  Restructure covariate sub-models ('other' arguments confusing).                                  x
+  Evalfunc should take an errorstream instead of a multistream.                                    x
+  Test synchronize functions for all sub-models.                                                   x
+  Age of onset sub-model and parsing code.                                                         x
+  Change type_prob and type_corr to prob and corr in geno_freq sub-model?                          x
+  Change model to option in onset sub-block?                                                       x
+  Insure that geno_freq sub-block is parsed before transmission.                                   x     4
+  In type_mean sub-block, change spec_mean to mean?                                                x
+  Should default model be invalid?                                                                 x     3
+  Special case for transmission sub-model function, prob()?  Yi P36                                x
+  Transmission sub-model calc_tau_ab() - divide by 0?                                              x
+  Interpretation of option two for type_mean and type_var sub-models?                              x     6
+  Change analysis class option 'mixed' to 'fpmm'.                                                  x
+  Change default names of output files                                                             x     5
+  Review default values for non-fixed cases                                                        x
+  Make "homog_no_trans" the default transmission sub-block option.                                 x
+  Retest alpha functions.                                                                          x
+  Calc. of alphas eq. 52 and 53 Yi P27.  Potential for divide by 0?                                x
+  D21, P9 of Yi.  Potential for divide by 0?   t + lambda_two > 0?                                 x
+  Make name changes suggested by Yeunjoo                                                           x
+  ascertainment                                                                                    x
+  for 4.0, make fpmm option an error                                                               x
+  add sub-model default flag.                                                                      x
+  add dump function to each sub-model.                                                             x
+  assortative mating correlation fixed at 0 temporarily.                                           x
+  add greater precision to dump function number formats.                                           x
+  provide messages for those items not available in 4.0 release                                    x
+  change sense of option 'two'.                                                                    x
+  fix bug in transformation sub-model                                                              x
+  message if val is missing??                                                                      x
+  change the word 'discrete' to 'binary' in manual and code.                                       x
+  change lambda_one to lambda1 and lambda_two to lambda2                                           x
+  change cox_box to box_cox.                                                                       x
+  change range of corr in geno_freq.                                                               x
+  let user specify whether transmission ranges are restricted.                                     x
+  remove prop parameter from type_var sub-block.                                                   x
+  in transformation sub-block make box_cox default.                                                x
+  get rid of code unreachable warnings                                                             x  
+  change class default to D                                                                        x
+  allow both segreg and segreg_analysis                                                            x
+  refactor parsing                                                                                 x
+  put a 'secret' none option in freq sm that is set if there is only one mean?                     x
+  split prevalence in two for purposes of not available messages.                                  x
+  add a non-functional parse_type_suscept() to parser                                              x
+  parse primary trait type.  Add to model?                                                         x
+  add 'commingling block' to parsing code.                                                         x
+  add 'transmission_analysis block' to parsing code.                                               x
+  change parsing and sub-model for ascertainment per latest user doc                               x
+  no_bounds does not apply to tau_ab_free.                                                         x
+  restore and modify interactions                                                                  x
+  Does no_bounds apply to user-specified init. values?                                             x
+  one variance per type mean constraint.                                                           x
+  number test results                                                                              x
+  change working of 'FIXED' message for freq_A.  See Geoff email of 1-4-2.                         x
+  mean one => transmission no trans.  Compare to check_fail_1()                                    x
+  add type suscept sub-block                                                                       x
+  type mean cannot be included if type_suscept is included & vice versa                            x
+  
+  
+1.  Synchronization takes place in order of model members.
+2.  Make one fixity parameter.
+3.  Invalidate model if LSFBase* doesn't point to an analysis block.
+4.  Change documentation to require user to spec. geno_freq. first.  Invalidate model
+    if a geno_freq sub-block follows a transmission sub-block.
+5.  Have user specify a single string to be used as root of  all ouput file names.
+6.  Change names to var_prop_mean and std_prop_mean.  
+    Mean sub-model must be parsed and constructed before variance sub-model.
+    Variance sub-model must have a pointer to mean sub-model.
+    Mean must be greater than some epsilon if one of these options chosen.
+

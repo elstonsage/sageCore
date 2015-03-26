@@ -1,0 +1,63 @@
+#!/usr/local/bin/python
+#============================================================================
+# File:      fugue2dec
+#                                                                          
+# Author:    Dan Baechle
+#                                                                          
+# History:   3/9/6  Created.
+#                                                                          
+# Notes:     convert fugue output to decipher summary file format. 
+#
+# Usage:     fugue2dec <fugue file name> <results file name>
+#
+#============================================================================
+
+import os
+import sys
+from math import fabs
+from string import atof
+
+def parse_fugue(fugue_file):
+  haps = {}
+  lines = fugue_file.readlines()
+  
+  for line in lines:
+    fields = line.strip().split()
+    if fields:
+      if fields[0][-1] == '%':
+        haps[fields[1]] = atof(fields[0][:-1]) / 100.0
+      
+  return  haps
+        
+        
+def write_results(results_file, haps):
+  results_file.write('---\n')
+  for item in haps.items():
+    hap_name = insert_hyphens(item[0])
+    results_file.write('%s  %f\n' % (hap_name, item[1]))
+    
+  results_file.write('---\n')    
+   
+ 
+def insert_hyphens(str):
+  hyphenated_str =''
+  for c in range(len(str)):
+    hyphenated_str += str[c]
+    if c != len(str) - 1:
+      hyphenated_str += '-'
+      
+  return  hyphenated_str
+  
+
+# - MAIN -
+#
+fugue_file = open(sys.argv[1], 'r')
+fugue_data = parse_fugue(fugue_file)
+fugue_file.close()
+
+results_file = open(sys.argv[2], 'w')
+write_results(results_file, fugue_data)
+results_file.close()
+
+sys.exit(0)
+

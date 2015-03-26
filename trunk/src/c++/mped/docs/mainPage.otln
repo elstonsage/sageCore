@@ -1,0 +1,143 @@
+\DOC_NAME
+mped.new_main
+\BRIEF
+Pedigree Structural Storage Classes
+\DETAILED
+\#. What is mped.new?
+
+The mped.new library lets you organize pedigree data into convenient storage mechanisms. It organizes individuals 
+within a hierarchical system, starting with the most specific (the individual itself) to the most general (the set of 
+all individuals). The typography of organization is as follows:
+
+o Member - The individual
+
+o Family - A nuclear family, composed of two parents and at least one child
+
+o Subpedigree - A set of individuals all related to each other either by marriage or by blood
+
+o Pedigree - A set of individuals all sharing the same pedigree id (not necessarily related by marriage or blood)
+
+o Multipedigree - The set of all pedigrees
+
+Please note that mped.new uses the following definitions for offspring and progeny:
+
+o offspring - given two parents, offspring refers to those two parents' children
+
+o progeny - given a single parent, progeny refers to all that parent's children from all that parent's mates
+
+It is important to note at this point why there is a distinction between pedigree and multipedigree. If the pedigree 
+represents unrelated individuals, why is it necessary to distinguish between the multipedigree and pedigree?
+
+The answer lies in the nature of field-collected data. Often, field-collected data will code individuals as 
+being within the same set, even though they may not be related by marriage or blood. Since those individuals were 
+collected within the confines of a discrete data collection effort, however, it may be fruitful to analyze them as if 
+they did indeed share some common characteristics. A study, for instance, may have collected information from a number 
+of caucasians; another study may have collected information from a number of asians. When the data are collated 
+together, each set will retain a unique pedigree id code. Consequently, if the analysis calls for an examination of 
+"familial" effect, the distinction between the races may be telling.
+
+Please note: Within SAGE program development, you will generally not need to make extensive use of mped.new. Another 
+library (rped.new) is a full-featured extension of mped.new, and as such is designed for direct use by programmers.
+
+\#. Bases class vs. derived classes
+
+As stated above, mped.new organizes pedigree data into five major storage units. There is also a second level of 
+distinction in mped.new's form of storage: base classes (non-templatized) and derived classes (templatized).
+
+\#.#. Base classes (non-templatized)
+
+Base classes in mped.new are distinguish by the \c _base suffix (multipedigree_base, pedigree_base, subpedigree_base, 
+family_base, and member_base). The classes exist to track only pedigree \b structure. Pedigree data is treated in the 
+derived classes (see next section).
+
+Why, you might ask, is mped.new designed to separate structure from traitdata in its class organization? This is done 
+so that any algorithm that treats only treats structure can be generalized. That is, assuming there are multiple 
+derived/specialized forms of the base storage classes, any pedigree structure-based algorithm can be written once. 
+Many of the functions in mp_utilities, for instance, are designed to process mped.new's base storage classes.
+
+\#.#. Derived classes (templatized)
+
+The derived storage classes (multipedigree, pedigree, subpedigree, family, and member) are designed to extend the 
+their structure-based parent classes to include any kind of traitdata. To accomplish this, the derived storage classes 
+are templatized on an info class for each of the five organizational units. That is, a unique info type is associated 
+with each of the five levels of data organization. This also the template specialization (see SAGE::RPED, for 
+instance) to determine which levels of data organization require which types of associated data.
+
+In one extreme case, let's consider a template specialization where you didn't want \b any new information associated 
+with your derived storage classes. You could accomplish this by using the SAGE::MPED::no_info struct in your own 
+template specialization:
+
+\code
+
+typedef SAGE::MPED::no_info no_info;
+typedef SAGE::MPED::multipedigree<no_info, no_info, no_info, no_info, no_info> q_multipedigree;
+
+q_multipedigree m();
+
+\endcode
+
+Now, let's say you want to associate a status (valid vs. invalid) with every family in your template specialization. 
+You can do this by creating a class to track validity, then declaring your storage classes with that status class as a 
+template parameter:
+
+\code
+
+class StatusClass
+{
+public:
+  bool validity;
+};
+
+typedef SAGE::MPED::multipedigree<no_info, StatusClass, no_info, no_info, no_info> q_multipedigree;
+
+q_multipedigree m();
+
+\endcode
+
+Once you have created a template specialization of an mped.new derived storage class, you can use that specialization 
+to create other storage classes with the same template parameters. Let's say you want to extend the previous example 
+by creating a pedigree_iterator. Since the pedigree_iterator is templatized, you can fetch the correctly templatized 
+form of the pedigree_iterator through the multipedigree specialization:
+
+\code
+
+class StatusClass
+{
+public:
+  bool validity;
+};
+
+typedef SAGE::MPED::multipedigree<no_info, StatusClass, no_info, no_info, no_info> q_multipedigree;
+
+q_multipedigree m();
+
+q_multipedigree::pedigree_iterator p;
+
+\endcode
+
+\#. Iterators
+
+There are iterators (const and non-const) available within mped.new for the following types:
+
+o pedigree_base, pedigree
+
+o subpedigree_base, subpedigree
+
+o family_base, family
+
+o mate_base, mate
+
+o offspring_base, offspring
+
+o parent_base, parent
+
+o progeny_base, progeny
+
+o sibling_base, sibling
+
+These iterators are used to traverse the different sets of data present in the entire multipedigree.
+
+\#. More info...
+
+Please consult the modules section of this documentation for more detailed information. Also, remember that within 
+each class there is a detailed description explaining more about how to use that class.

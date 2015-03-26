@@ -1,0 +1,36 @@
+#!/usr/local/bin/python
+#============================================================================
+# File:      parse_map_file
+#                                                                          
+# Author:    Dan Baechle
+#                                                                          
+# History:   Created 3/26/7
+#                                                                          
+# Notes:     Extracts information from Haploview map file and produces a
+#            partial header for a SAGE pedigree file and a partial pedigree
+#            block for a SAGE parameter file.
+#
+#            Usage: parse_map_file <map filename>
+#
+#============================================================================
+
+import sys
+
+
+map_file       = open(sys.argv[1], 'r')
+header_file    = open('header', 'w')
+ped_block_file = open('ped_block', 'w')
+
+lines = map_file.readlines()
+for line in lines:
+  fields = line.strip().split()
+  header_file.write('%s %s ' % (fields[0] + 'a', fields[0] + 'b'))
+  ped_block_file.write('allele=%s, name=%s\n' % (fields[0] + 'a',
+                                                        fields[0]))  
+  ped_block_file.write('allele=%s, name=%s\n' % (fields[0] + 'b',
+                                                        fields[0]))                                                          
+                                                        
+
+map_file.close()
+header_file.close()
+ped_block_file.close()

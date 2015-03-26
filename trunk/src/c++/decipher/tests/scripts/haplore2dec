@@ -1,0 +1,63 @@
+#!/usr/local/bin/python
+#============================================================================
+# File:      haplore2dec
+#                                                                          
+# Author:    Dan Baechle
+#                                                                          
+# History:   3/13/6  Created.
+#                                                                          
+# Notes:     convert haplore output to decipher summary file format. 
+#
+# Usage:     haplore2dec <haplore file name> <results file name>
+#
+#============================================================================
+
+import os
+import sys
+from math import fabs
+from string import atof, join
+
+def parse_haplore(haplore_file):
+  haps = {}
+  lines = haplore_file.readlines()
+  
+  for line in lines:
+    fields = line.strip().split()
+    if fields:
+      if fields[0] == 'haplotype':
+        haps[join(fields[3:-1], '-')] = atof(fields[-1]) 
+      
+  return  haps
+        
+        
+def write_results(results_file, haps):
+  results_file.write('---\n')
+  for item in haps.items():
+    hap_name = item[0]
+    results_file.write('%s  %f\n' % (hap_name, item[1]))
+    
+  results_file.write('---\n')    
+   
+ 
+def insert_hyphens(str):
+  hyphenated_str =''
+  for c in range(len(str)):
+    hyphenated_str += str[c]
+    if c != len(str) - 1:
+      hyphenated_str += '-'
+      
+  return  hyphenated_str
+  
+
+# - MAIN -
+#
+haplore_file = open(sys.argv[1], 'r')
+haplore_data = parse_haplore(haplore_file)
+haplore_file.close()
+
+results_file = open(sys.argv[2], 'w')
+write_results(results_file, haplore_data)
+results_file.close()
+
+sys.exit(0)
+

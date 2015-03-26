@@ -1,0 +1,14 @@
+\BRIEF
+S.A.G.E. Global Configuration Options
+\DOC_NAME
+globals_main
+\DETAILED
+
+\#. Introduction
+
+The globals module is primarily for global options used to configure
+S.A.G.E. for various platforms, mostly for numerical compatibility, though
+it also includes typedefs that are of general use that aren't provided
+automatically on all platforms.
+
+

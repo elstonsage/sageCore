@@ -1,0 +1,117 @@
+pedigree
+{
+  pedigree_id=PID
+  individual_id=ID
+  sex_field=SEX
+  parent_id=P1
+  parent_id=P2
+  trait=DISEASE, binary, affected=1, unaffected=0
+  trait=HEMATOCRIT
+  trait=t
+  trait=u
+  trait=v
+  trait=w
+  trait=x
+  trait=y
+  trait=z
+}
+
+segreg_analysis      #1
+{
+  trait = hematocrit
+  
+  ascertainment
+  {
+    cond_set=psf
+    psf_indic=disease
+    cond_val=thresh_indic, thresh_indic_low=7, thresh_indic_high=9
+    thresh_indic=u
+  }
+}
+
+segreg_analysis     #2
+{
+  trait = hematocrit
+  
+  ascertainment
+  {
+    cond_set=psf
+    psf_indic=disease
+    cond_val=lte_thresh, thresh=7
+  }
+}
+
+segreg_analysis     #3
+{
+  trait = hematocrit
+  
+  ascertainment
+  {
+    psf_indic=disease
+    cond_val=lte_thresh, thresh=0
+  }
+}
+
+segreg_analysis     #4
+{
+  trait = hematocrit
+  
+  ascertainment
+  {
+    psf_indic=disease
+    cond_val, thresh=0
+  }
+}
+
+segreg_analysis     #5
+{
+  trait = hematocrit
+  
+  ascertainment
+  {
+    cond_val=w, thresh=0, thresh=8
+    thresh_indic=3
+  }
+}
+
+segreg_analysis     #6
+{
+  trait = hematocrit
+  
+  ascertainment
+  {
+    cond_set=founders
+    cond_val=thresh_indic,thresh_indic_high=7,thresh_indic_low=7
+    thresh_indic=
+  }
+}
+
+segreg_analysis     #7
+{
+  trait = hematocrit
+  
+  ascertainment
+  {
+    cond_set=psf
+    psf_indic=abc
+    psf_indic_include = 2
+    psf_indic_include = 2
+    psf_indic_include = 3
+    psf_indic_include = 4
+    cond_val=thresh_indic
+    thresh_indic=u, thresh = 3.75
+  }
+}
+
+segreg_analysis     #8
+{
+  trait = disease
+  
+  ascertainment
+  {
+    cond_set=thresh_indic
+    cond_val=thresh_indic,thresh_indic_high=7,thresh_indic_low=7
+    thresh_indic=u
+  }
+}
+

@@ -1,0 +1,165 @@
+\TITLE\
+Output Organizing and Rendering Library
+\BRIEF\
+Structures for organizing output data into sections, tables, histograms, etc.
+\DOC_NAME\
+output_main
+\DETAILED\
+\#.\ What is the Output library?
+
+The output library is a collection of classes, where each class represents a
+document *component*. You can create document components, populate them with
+values, insert them into each other, and generate output files based on
+their content.
+
+\#.\ Getting started
+
+\#.#.\ What are the different components?
+
+All components are derived from SAGE::OUTPUT::Element. The basic function of
+SAGE::OUTPUT::Element is to (1) manage a list of child elements, and (2)
+provide for the getting/setting of element "attributes" (where "attribute"
+is a name/value pair). The types of child elements that are allowed to be
+placed *in* a particular Element derivation are determined at compile-time.
+That is, if you try to insert a Table into a Double, for instance, the
+compiler won't let you do it. The documentation for each element explains
+which child elements, if any, can be inserted into it.
+
+The component list (classes derived from Element) include:
+
+- SAGE::OUTPUT::Double, SAGE::OUTPUT::Int, SAGE::OUTPUT::String - Representing simple types
+
+- SAGE::OUTPUT::NamedDouble, SAGE::OUTPUT::NamedInt, SAGE::OUTPUT::NamedString - Representing named simple types
+
+- SAGE::OUTPUT::Section - For organizing components into groupings
+
+- SAGE::OUTPUT::Table, SAGE::OUTPUT::TableColumn, SAGE::OUTPUT::TableRow - For representing a table
+
+- SAGE::OUTPUT::RenderingRules - For indicating specific rendering rules for a component
+
+\#.#.\ What do I need to include in my code to make the library available?
+
+- Include "output/output.h"
+
+- Make sure -loutput is on your LDLIBS line in your Makefile
+
+\#.#.\ A simple example
+
+Here's a quick example of how to construct a document and generate an output
+file:
+
+\code
+
+#include "output/output.h" // Include the necessary file
+
+using namespace SAGE::OUTPUT;
+
+int main()
+{
+  Section s("Top section");        // Create a section
+
+  s << (Table()                           // Create a Table
+    <<   (TableRow() << 1.0 << "Foofoo")  // Add a TableRow
+    <<   (TableRow() << -9 << -5 << -3)   // Add another TableRow
+    <<   (Table::INSERT_BLANK_ROW()))     // Add a blank TableRow
+    << NamedInt("Size", 4);               // Add a NamedInt
+
+  std::cout << s;                       // Output the section's contents to std::cout
+  s.generatePrettyPrintFile("foo.txt"); // Output the section's contents to 'foo.txt'
+  s.generateXmlFile("foo.xml");         // Output the section's contents as XML to 'foo.xml'
+}
+
+\endcode
+
+Let's review the above example in a little more detail. First of all,
+remember that you have to include 'output/output.h' to make the API
+available. 
+
+Now, let's look at how the different components are created. You are
+generally allowed to instantitate any particular component you want. Some
+constructors require titles to be passed as arguments (such as
+TableColumn's); some do not. A Section, for instance, must have a title. An
+Int (a simple value) does not require a title.
+
+After creating each component, that component is then added to a parent
+component. At the beginning of main(), a Section is created that will store
+the entire document. A Double is inserted into it, as well as a String. Then
+a Table is created, populated with content, and added to the Section
+instance.
+
+Lastly, the contents of the Section are generated as an output file
+'foo.txt', as well as an XML-formatted file 'foo.xml'.
+
+Although the selection of components may seem small at first, you will find
+(hopefully!) that the selection is in fact quite versatile. You should be
+able to create complete SAGE output files made up of basic values, named
+values, sections, and tables.
+
+\#.#.\ Compile-time errors
+
+The output library is designed to favor compile-time errors over runtime
+errors. If you try to add a disallowed child component (a Table into a
+Double, for instance), your code won't compile. Most of the time you'll get
+an informative comment accompanying your compiler error. If not, look at the
+line number cited by the compiler; an informative message will accompany the
+given line of code in the file.
+
+\#.\ Designing your own components
+
+Writing your own new component isn't particularly difficult.
+
+MORE ON THIS LATER!
+
+\#.\ Reference information
+
+For each of the following objects, the list thereafter indicates which
+objects can be inserted into them:
+
+\b Double
+- Allowable child elements: [None]
+- Required attribute: \c VALUE (floating point) indicates numeric value.
+
+\b Int
+- Allowable child elements: [None]
+- Required attribute: \c VALUE (integral) indicates numeric value.
+
+\b String
+- Allowable child elements: [None]
+- Required attribute: \c VALUE (string) indicates string value.
+
+\b NamedDouble
+- Allowable child elements: [None]
+- Required attribute: \c TITLE (string) indicates name of value.
+- Required attribute: \c VALUE (floating point) indicates numeric value.
+
+\b NamedInt
+- Allowable child elements: [None]
+- Required attribute: \c TITLE (string) indicates name of value.
+- Required attribute: \c VALUE (integral) indicates numeric value.
+
+\b NamedString
+- Allowable child elements: [None]
+- Required attribute: \c TITLE (string) - name of value.
+- Required attribute: \c VALUE (string) - string value.
+
+\b Graph
+- Allowable child elements: [None]
+- Required attribute: \c TITLE (string) - name of graph to generate
+- Required attribute: \c TYPE (string - "LINE_GRAPH", "SCATTER_PLOT", "BAR_CHART") - type of graph to generate
+- Required attribute: \c X_COLUMN (string) - Name of column that has x-coordinate values
+- Required attribute: \c X_TYPE (string - "NUMERICAL", "CATEGORICAL") - Type of values in the x-column
+- Required attrbiute: \c Y_COLUMN[x] (string, [x] = integer) - Name of column that has y-coordinate values 
+
+- RenderingRules [None]
+
+- SpannedCell [None]
+
+- UnavailableCell [None]
+
+- TableRow [SpannedCell, UnavailableCell, String, Double, Int]
+
+- TableColumn [RenderingRules]
+
+- Table [RenderingRules, TableColumn, TableRow, Graph]
+
+- Section [Section, Table, String, NamedDouble, NamedInt, NamedString]

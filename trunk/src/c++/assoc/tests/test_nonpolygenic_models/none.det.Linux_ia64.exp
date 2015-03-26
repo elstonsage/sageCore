@@ -1,0 +1,135 @@
+=================
+
+     Results
+
+=================
+
+Note: P-values for variance components and proportions are one-sided.  All others are two-sided.
+The null hypothesis for transformation parameters is 'no transformation.'
+
+
+==============================
+     Analysis description
+==============================
+
+  Title                        ________                      
+  Primary Trait                sqrtdbh (Quantitative)        
+  Allow averaging              Enabled                       
+  Omit complete summary table  Disabled                      
+  Summary table display order  By LRT p-value                
+  Summary filter               Show no more than 10 results  
+
+======================================
+     Transformation configuration
+======================================
+
+
+
+Note: No transformation applied.
+
+===========================
+
+     Model 'Alternate'
+
+===========================
+
+============================
+     Sample description
+============================
+
+  Number of individuals in dataset                                   942  
+  Number of constituent pedigrees in dataset                           7  
+  Number of singletons in dataset                                      0  
+                                                                          
+  Number of constituent pedigree members with complete information   499  
+  Number of singletons with complete information                       0  
+                                                                          
+
+====================
+     Covariates
+====================
+
+-----------------------------------------------------
+  Name   Mean       Std. dev.  Min        Max        
+-----------------------------------------------------
+  apres   0.512146   0.499852   0.000000   1.000000  
+
+================================================================
+     MAXIMIZATION RESULTS Alternate without test covariates
+================================================================
+
+-------------------------------------------------------------------
+  Parameter       Estimate   S.E.       P-value     Deriv          
+-------------------------------------------------------------------
+  Variance components
+          Random   2.868969   0.181631  < 1.00e-07   0.0001384206  
+
+  Other parameters
+  Total variance   2.868969   0.181631  < 1.00e-07   0.0000003861  
+
+       Intercept   5.064545   0.075825  < 1.00e-07   0.0000000000  
+-------------------------------------------------------------------
+
+Final ln likelihood: -971.012135
+
+======================================================================
+     VARIANCE-COVARIANCE MATRIX Alternate without test covariates
+======================================================================
+
+--------------------------------------------------------
+                  Random     Total variance  Intercept  
+--------------------------------------------------------
+  Random           0.032990   0.032990       -4.91e-08  
+  Total variance   0.032990   0.032990       -4.91e-08  
+  Intercept       -4.91e-08  -4.91e-08        0.005749  
+
+=============================================================
+     MAXIMIZATION RESULTS Alternate with test covariates
+=============================================================
+
+-------------------------------------------------------------------
+  Parameter       Estimate   S.E.       P-value     Deriv          
+-------------------------------------------------------------------
+  Variance components
+          Random   2.847909   0.180297  < 1.00e-07   0.0002492426  
+
+  Other parameters
+  Total variance   2.847909   0.180297  < 1.00e-07  -0.0000001731  
+
+       Intercept   5.064545   0.075546  < 1.00e-07   0.0000000000  
+
+  Covariates
+           apres   0.291767   0.151900   0.054759    0.0000000000  
+-------------------------------------------------------------------
+
+Final ln likelihood: -969.174211
+
+===================================================================
+     VARIANCE-COVARIANCE MATRIX Alternate with test covariates
+===================================================================
+
+---------------------------------------------------------------------------------------
+                                      Random     Total variance  Intercept  apres      
+---------------------------------------------------------------------------------------
+  Random                               0.032507   0.032507       -4.87e-08  -6.57e-09  
+  Total variance                       0.032507   0.032507       -4.87e-08  -6.57e-09  
+  Intercept                           -4.87e-08  -4.87e-08        0.005707  -6.11e-13  
+  apres                               -6.57e-09  -6.57e-09       -6.11e-13   0.023074  
+                                                                                       
+  Likelihood Surface flat                                                              
+  variance matrix near singular and                                                    
+  may be affected by rounding error.                                                   
+  Reducing the number of parameters                                                    
+  to be estimated is recommended                                                       
+
+===============================
+     Likelihood Ratio Test
+===============================
+
+  H0 ln likelihood Alternate without test covariates  -971.012135  
+  H1 ln likelihood Alternate with test covariates     -969.174211  
+                                                                   
+  2 * |H0 - H1|                                          3.675847  
+  Degrees of freedom                                            1  
+  P-value                                                0.055206  
+

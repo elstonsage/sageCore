@@ -1,0 +1,49 @@
+#########################################################################
+# This data file was generated using the config file 'ageon.cfg'
+#########################################################################
+
+pedigree
+{
+  delimiter_mode = multiple
+  delimiters="	"
+  individual_missing_value="0"
+  sex_code, male="1", female="0", unknown="?"
+
+  pedigree_id   = FAM
+  individual_id = ID
+  parent_id     = MOTHER
+  parent_id     = FATHER
+  sex_field     = SEX
+
+  trait = cov1, missing = MISS
+  trait = cov2, missing = MISS
+  trait = AE, missing = MISS
+  trait = AO, missing = -9
+  trait = AFF, missing = -9
+}
+
+ageon,out="1"   
+{   
+#  maxfun  {    level=complete  }
+
+  transformation
+  {
+    lambda1,fixed=yes
+    lambda2,fixed=yes
+  }
+  
+  affectedness=AFF
+  age_of_onset=AO
+  age_of_exam=AE
+  
+  mean_cov
+  {
+    covariate=cov1
+  }
+
+  var_cov
+  {
+    covariate=cov2
+  }
+}
+

@@ -1,0 +1,126 @@
+pedigree
+{
+  delimiter=" "
+#  delimiter_mode = multiple
+  individual_missing_value = "0"
+
+  pedigree_id=PED
+  individual_id=PERSON
+  parent_id=P1
+  parent_id=P2
+  sex_field=SEX
+  sex_code, male=1, female=2
+  trait=IDX
+  covariate=HIV, missing="2"
+  covariate=SCAR, missing="-9"
+  covariate=PPD, missing="2"
+  trait=TBACT, binary, affected="1", unaffected="0", missing="2"
+  covariate=AGE, missing="-9.00"
+  covariate=BMI, missing="-9.000"
+
+  trait=DIS1, missing="-99.000"
+  trait=DIS2, missing="-99.000"   
+}
+
+pedinfo_analysis
+{
+  phenotype=DIS1
+  output=dis_pedinfo
+
+}
+
+segreg_analysis, out="dis1comm"
+{
+  title="discriminant 1 commingling"
+  trait=DIS1, type=continuous
+  type_mean
+  {
+    option=two
+    mean="AA", val=-6.76512, fixed=false
+    mean="BB", val=0.164197, fixed=false
+  }
+  type_var
+  {
+    option=one
+    var="**", val=1.0016849331, fixed=false
+  }
+
+  class=D
+  resid
+  {
+    option="equal_po"
+    fm, fixed=false, val=0.08603855
+    fo, val=-.124966
+    ss, val=0.235991409
+  }
+  transformation
+  {
+    option=box_cox
+    lambda1, val=.0001, fixed=true
+    lambda2, val=5, fixed=true
+  }
+  geno_freq
+  {
+    option=hwe
+    freq_a,val=0.9999
+  }
+
+  transmission
+  {
+    option=homog_no_trans
+  }
+  xascertainment
+  {
+    cond_set=psf
+    psf_indic=idx
+  }
+
+}
+
+
+segreg_analysis, out="dis2comm"
+{
+  title="discriminant 2 commingling"
+  trait=DIS2, type=continuous
+  xtype_mean
+  {
+    option=one
+    mean="**", val=0.0058, fixed=false
+  }
+  type_var
+  {
+    option=one
+    var="**", val=1.5, fixed=false
+  }
+  class=D
+  resid
+  {
+    option="equal_po"
+    fm, fixed=false, val=0.2
+    xmo, val=0.4
+    fo, val=0.25
+    ss, val=0.5
+  }
+  transformation
+  {
+    option=box_cox
+    lambda1, val=1, fixed=true
+    lambda2, val=5, fixed=true
+  }
+  #geno_freq
+  #{
+  #  option=hwe
+  #}
+  transmission
+  {
+    option=homog_no_trans
+  }
+  xascertainment
+  {
+    cond_set=psf
+    psf_indic=idx
+  }
+
+}
+
+

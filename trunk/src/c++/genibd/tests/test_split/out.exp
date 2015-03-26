@@ -1,0 +1,413 @@
+
+
+
+Reading Parameter File....................done.
+Reading Marker Locus Description File.....done.
+Reading Pedigree File.....................
+              from ped....................done.
+Sorting Pedigrees.........................done.
+Reading Genome Description File...........done.
+
+GENIBD analysis.......  1
+
+===========================================================================
+split_test : Multipoint analysis on regions (CHR3, CHR4):
+        * - Including intervals.
+        * - Maximum size for exact method is set to 18.
+        * - Pedigrees larger than 18 will be split into nuclear families.
+===========================================================================
+
+  Processing Region: CHR3
+  =======================================
+
+  split_test: Pedigree 1
+
+    Nuclear Family (parents 408 and 508):
+
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+    Nuclear Family (parents G08 and G18):
+
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+    Nuclear Family (parents J08 and J18):
+
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  split_test: Pedigree 2
+
+    Nuclear Family (parents 408 and 508):
+
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+    Nuclear Family (parents G08 and G18):
+
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+    Nuclear Family (parents J08 and J18):
+
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  split_test: Pedigree 3
+
+    Nuclear Family (parents 408 and 508):
+
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+    Nuclear Family (parents G08 and G18):
+
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+    Nuclear Family (parents J08 and J18):
+
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  split_test: Pedigree 4
+
+    Nuclear Family (parents 408 and 508):
+
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+    Nuclear Family (parents G08 and G18):
+
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+    Nuclear Family (parents J08 and J18):
+
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  split_test: Pedigree 5
+
+    Nuclear Family (parents 408 and 508):
+
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+    Nuclear Family (parents G08 and G18):
+
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+    Nuclear Family (parents J08 and J18):
+
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  split_test: Pedigree 6
+
+    Nuclear Family (parents 408 and 508):
+
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+    Nuclear Family (parents G08 and G18):
+
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+    Nuclear Family (parents J08 and J18):
+
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  split_test: Pedigree 8
+
+    Nuclear Family (parents 408 and 508):
+
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+    Nuclear Family (parents G08 and G18):
+
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+    Nuclear Family (parents J08 and J18):
+
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  split_test: Pedigree 9
+
+    Nuclear Family (parents 408 and 508):
+
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+    Nuclear Family (parents G08 and G18):
+
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+    Nuclear Family (parents J08 and J18):
+
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+    Subpedigree 2 of pedigree '9' : founders (618, 718)
+
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+
+  Processing Region: CHR4
+  =======================================
+
+  split_test: Pedigree 1
+
+    Nuclear Family (parents 408 and 508):
+
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+    Nuclear Family (parents G08 and G18):
+
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+    Nuclear Family (parents J08 and J18):
+
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  split_test: Pedigree 2
+
+    Nuclear Family (parents 408 and 508):
+
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+    Nuclear Family (parents G08 and G18):
+
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+    Nuclear Family (parents J08 and J18):
+
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  split_test: Pedigree 3
+
+    Nuclear Family (parents 408 and 508):
+
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+    Nuclear Family (parents G08 and G18):
+
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+    Nuclear Family (parents J08 and J18):
+
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  split_test: Pedigree 4
+
+    Nuclear Family (parents 408 and 508):
+
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+    Nuclear Family (parents G08 and G18):
+
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+    Nuclear Family (parents J08 and J18):
+
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  split_test: Pedigree 5
+
+    Nuclear Family (parents 408 and 508):
+
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+    Nuclear Family (parents G08 and G18):
+
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+    Nuclear Family (parents J08 and J18):
+
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  split_test: Pedigree 6
+
+    Nuclear Family (parents 408 and 508):
+
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+    Nuclear Family (parents G08 and G18):
+
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+    Nuclear Family (parents J08 and J18):
+
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  split_test: Pedigree 8
+
+    Nuclear Family (parents 408 and 508):
+
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+    Nuclear Family (parents G08 and G18):
+
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+    Nuclear Family (parents J08 and J18):
+
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  split_test: Pedigree 9
+
+    Nuclear Family (parents 408 and 508):
+
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+    Nuclear Family (parents G08 and G18):
+
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+    Nuclear Family (parents J08 and J18):
+
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+    Subpedigree 2 of pedigree '9' : founders (618, 718)
+
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+
+Analysis complete!
+
+
+

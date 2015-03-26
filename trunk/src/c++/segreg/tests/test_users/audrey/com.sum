@@ -1,0 +1,37 @@
+=======================================================================================================
+  SEGREG Analysis for Trait : sqrtdbh
+=======================================================================================================
+  # Model Specification  
+
+      Model Class D
+      genotype specific mean sub-model     : one genotype specific mean
+      genotype specific variance sub-model : one genotype specific variance
+      genotype frequency sub-model         : 
+      residual correlation sub-model       : no spouse correlation,
+                                             parent-offspring and sib-sib correlations equal
+      transmission sub-model               : homogeneous no transmission
+      transformation sub-model             : none
+
+  # Number of Pedigrees : 0
+
+  # Final Estimates : 
+
+  Parameter           Parameter Est.  Standard Err.   First Deriv.   Status
+-------------------------------------------------------------------------------------------------------
+  mean                 4.92294820      0.07946233      0.00002805     IND, MAY VARY
+  variance             6.17911522      0.39119995     -0.00002235     IND, MAY VARY
+  spousal resid c      0.00000000      0.00000000                     FIXED EXTERNALLY
+  po ss resid cor      0.00000000      0.00000000                     FIXED EXTERNALLY
+  cov1                 0.49162332      0.14454109      0.00000000     IND, MAY VARY
+  cov2                -0.54526578      0.10572863      0.00000000     IND, MAY VARY
+  cov3                -0.37929951      0.16466364      0.00000000     IND, MAY VARY
+-------------------------------------------------------------------------------------------------------
+
+
+        LN(Likelihood) : -1162.43
+     -2 LN(Likelihood) : 2324.87
+=======================================================================================================
+
+Final Error Code: 5
+
+

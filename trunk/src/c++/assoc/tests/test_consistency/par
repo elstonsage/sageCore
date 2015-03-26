@@ -1,0 +1,168 @@
+pedigree
+{
+  delimiter_mode = multiple
+  delimiters=" "
+  individual_missing_value="0"
+  sex_code,male="1",female="2",unknown="?"
+
+  pedigree_id=fam
+  individual_id=id
+  parent_id=mom
+  parent_id=dad
+  sex_field=sex
+
+  trait=sqrtdbh,missing=-1
+  covariate=ABO,name=covabo,missing=0  
+  covariate=comt,missing=-1
+  covariate=KELL,missing=0
+  covariate=P,missing=0
+  covariate=FY,missing=0
+}
+
+function 
+{ 
+covariate=apres, expression="covabo<=4"
+}
+
+# Consistency check portion:
+
+assoc_analysis,out="pe_________"
+{
+  title="pe_________"
+  primary_trait=sqrtdbh
+  pe=true
+  me=false
+  fe=false
+  se=false
+  consistency
+  aa=mean
+
+  transformation
+  {
+    option=none
+  }
+}
+
+assoc_analysis,out="pe_______me"
+{
+  title="pe_______me"
+  primary_trait=sqrtdbh
+  pe=true
+  me=true
+  fe=false
+  se=false
+  consistency
+  aa=mean
+
+  transformation
+  {
+    option=none
+  }
+}
+
+assoc_analysis,out="pe____fe___"
+{
+  title="pe____fe___"
+  primary_trait=sqrtdbh
+  pe=true
+  fe=true
+  me=false
+  se=false
+  consistency
+  aa=mean
+
+  transformation
+  {
+    option=none
+  }
+}
+
+assoc_analysis,out="pe____fe_me"
+{
+  title="pe____fe_me"
+  primary_trait=sqrtdbh
+  pe=true
+  fe=true
+  me=true
+  se=false
+  consistency
+  aa=mean
+
+  transformation
+  {
+    option=none
+  }
+}
+
+assoc_analysis,out="pe_se______"
+{
+  title="pe_se______"
+  primary_trait=sqrtdbh
+  pe=true
+  se=true
+  fe=false
+  me=false
+  consistency
+  aa=mean
+
+  transformation
+  {
+    option=none
+  }
+}
+
+assoc_analysis,out="pe_se____me"
+{
+  title="pe_se____me"
+  primary_trait=sqrtdbh
+  pe=true
+  se=true
+  me=true
+  fe=false
+  consistency
+  aa=mean
+
+  transformation
+  {
+    option=none
+  }
+}
+
+assoc_analysis,out="pe_se_fe___"
+{
+  title="pe_se_fe___"
+  primary_trait=sqrtdbh
+  pe=true
+  se=true
+  fe=true
+  me=false
+  consistency
+  aa=mean
+
+  transformation
+  {
+    option=none
+  }
+}
+
+assoc_analysis,out="pe_se_fe_me"
+{
+  title="pe_se_fe_me"
+  primary_trait=sqrtdbh
+  pe=true
+  se=true
+  fe=true
+  me=true
+  consistency
+  aa=mean
+
+  transformation
+  {
+    option=none
+  }
+}
+
+pedinfo
+{
+
+}

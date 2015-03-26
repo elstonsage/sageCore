@@ -1,0 +1,306 @@
+marker
+{
+  allele_missing="0"
+}
+
+pedigree
+{
+  delimiters=" \t"
+  delimiter_mode=multiple
+  individual_missing_value="0"
+  sex_code, male="1", female="2"
+
+  pedigree_id=ped_id
+  individual_id=ind_id
+  parent_id=p1
+  parent_id=p2
+  sex_field=sex
+
+  allele=rs7288876a, name=rs7288876
+  allele=rs7288876b, name=rs7288876
+  allele=rs2845348a, name=rs2845348
+  allele=rs2845348b, name=rs2845348
+  allele=rs175138a, name=rs175138
+  allele=rs175138b, name=rs175138
+  allele=rs175139a, name=rs175139
+  allele=rs175139b, name=rs175139
+  allele=rs1860945a, name=rs1860945
+  allele=rs1860945b, name=rs1860945
+  allele=rs5748760a, name=rs5748760
+  allele=rs5748760b, name=rs5748760
+  allele=rs2399153a, name=rs2399153
+  allele=rs2399153b, name=rs2399153
+  allele=rs1034859a, name=rs1034859
+  allele=rs1034859b, name=rs1034859
+  allele=rs7290186a, name=rs7290186
+  allele=rs7290186b, name=rs7290186
+  allele=rs2040692a, name=rs2040692
+  allele=rs2040692b, name=rs2040692
+  allele=rs2097596a, name=rs2097596
+  allele=rs2097596b, name=rs2097596
+  allele=rs174345a, name=rs174345
+  allele=rs174345b, name=rs174345
+  allele=rs2535694a, name=rs2535694
+  allele=rs2535694b, name=rs2535694
+  allele=rs3747026a, name=rs3747026
+  allele=rs3747026b, name=rs3747026
+  allele=rs4269007a, name=rs4269007
+  allele=rs4269007b, name=rs4269007
+  allele=rs387399a, name=rs387399
+  allele=rs387399b, name=rs387399
+  allele=rs2252257a, name=rs2252257
+  allele=rs2252257b, name=rs2252257
+  allele=rs737923a, name=rs737923
+  allele=rs737923b, name=rs737923
+  allele=rs885978a, name=rs885978
+  allele=rs885978b, name=rs885978
+  allele=rs712948a, name=rs712948
+  allele=rs712948b, name=rs712948
+  allele=rs756658a, name=rs756658
+  allele=rs756658b, name=rs756658
+  allele=rs1476445a, name=rs1476445
+  allele=rs1476445b, name=rs1476445
+  allele=rs374225a, name=rs374225
+  allele=rs374225b, name=rs374225
+  allele=rs165630a, name=rs165630
+  allele=rs165630b, name=rs165630
+  allele=rs6004133a, name=rs6004133
+  allele=rs6004133b, name=rs6004133
+  allele=rs433457a, name=rs433457
+  allele=rs433457b, name=rs433457
+  allele=rs743409a, name=rs743409
+  allele=rs743409b, name=rs743409
+  allele=rs2283792a, name=rs2283792
+  allele=rs2283792b, name=rs2283792
+  allele=rs2012607a, name=rs2012607
+  allele=rs2012607b, name=rs2012607
+  allele=rs6003823a, name=rs6003823
+  allele=rs6003823b, name=rs6003823
+  allele=rs1003774a, name=rs1003774
+  allele=rs1003774b, name=rs1003774
+  allele=rs743377a, name=rs743377
+  allele=rs743377b, name=rs743377
+  allele=rs742163a, name=rs742163
+  allele=rs742163b, name=rs742163
+  allele=rs763281a, name=rs763281
+  allele=rs763281b, name=rs763281
+  allele=rs713816a, name=rs713816
+  allele=rs713816b, name=rs713816
+  allele=rs761670a, name=rs761670
+  allele=rs761670b, name=rs761670
+  allele=rs738401a, name=rs738401
+  allele=rs738401b, name=rs738401
+  allele=rs738402a, name=rs738402
+  allele=rs738402b, name=rs738402
+  allele=rs732933a, name=rs732933
+  allele=rs732933b, name=rs732933
+  allele=rs713751a, name=rs713751
+  allele=rs713751b, name=rs713751
+  allele=rs9613266a, name=rs9613266
+  allele=rs9613266b, name=rs9613266
+  allele=rs13055147a, name=rs13055147
+  allele=rs13055147b, name=rs13055147
+  allele=rs84312a, name=rs84312
+  allele=rs84312b, name=rs84312
+  allele=rs136926a, name=rs136926
+  allele=rs136926b, name=rs136926
+  allele=rs5762174a, name=rs5762174
+  allele=rs5762174b, name=rs5762174
+  allele=rs138650a, name=rs138650
+  allele=rs138650b, name=rs138650
+  allele=rs738995a, name=rs738995
+  allele=rs738995b, name=rs738995
+  allele=rs737622a, name=rs737622
+  allele=rs737622b, name=rs737622
+  allele=rs1997719a, name=rs1997719
+  allele=rs1997719b, name=rs1997719
+  allele=rs140062a, name=rs140062
+  allele=rs140062b, name=rs140062
+  allele=rs715494a, name=rs715494
+  allele=rs715494b, name=rs715494
+  allele=rs714027a, name=rs714027
+  allele=rs714027b, name=rs714027
+  allele=rs737805a, name=rs737805
+  allele=rs737805b, name=rs737805
+  allele=rs4444a, name=rs4444
+  allele=rs4444b, name=rs4444
+  allele=rs136488a, name=rs136488
+  allele=rs136488b, name=rs136488
+  allele=rs762883a, name=rs762883
+  allele=rs762883b, name=rs762883
+  allele=rs9862a, name=rs9862
+  allele=rs9862b, name=rs9862
+  allele=rs137410a, name=rs137410
+  allele=rs137410b, name=rs137410
+  allele=rs762058a, name=rs762058
+  allele=rs762058b, name=rs762058
+  allele=rs1844461a, name=rs1844461
+  allele=rs1844461b, name=rs1844461
+  allele=rs1380148a, name=rs1380148
+  allele=rs1380148b, name=rs1380148
+  allele=rs2056965a, name=rs2056965
+  allele=rs2056965b, name=rs2056965
+  allele=rs2008519a, name=rs2008519
+  allele=rs2008519b, name=rs2008519
+  allele=rs138777a, name=rs138777
+  allele=rs138777b, name=rs138777
+  allele=rs738510a, name=rs738510
+  allele=rs738510b, name=rs738510
+  allele=rs972153a, name=rs972153
+  allele=rs972153b, name=rs972153
+  allele=rs1540297a, name=rs1540297
+  allele=rs1540297b, name=rs1540297
+  allele=rs715550a, name=rs715550
+  allele=rs715550b, name=rs715550
+  allele=rs878847a, name=rs878847
+  allele=rs878847b, name=rs878847
+  allele=rs735853a, name=rs735853
+  allele=rs735853b, name=rs735853
+  allele=rs739096a, name=rs739096
+  allele=rs739096b, name=rs739096
+  allele=rs933224a, name=rs933224
+  allele=rs933224b, name=rs933224
+  allele=rs2413411a, name=rs2413411
+  allele=rs2413411b, name=rs2413411
+  allele=rs760519a, name=rs760519
+  allele=rs760519b, name=rs760519
+  allele=rs1534880a, name=rs1534880
+  allele=rs1534880b, name=rs1534880
+  allele=rs5756477a, name=rs5756477
+  allele=rs5756477b, name=rs5756477
+  allele=rs15996a, name=rs15996
+  allele=rs15996b, name=rs15996
+  allele=rs138383a, name=rs138383
+  allele=rs138383b, name=rs138383
+  allele=rs760645a, name=rs760645
+  allele=rs760645b, name=rs760645
+  allele=rs760482a, name=rs760482
+  allele=rs760482b, name=rs760482
+  allele=rs139316a, name=rs139316
+  allele=rs139316b, name=rs139316
+  allele=rs137636a, name=rs137636
+  allele=rs137636b, name=rs137636
+  allele=rs470084a, name=rs470084
+  allele=rs470084b, name=rs470084
+  allele=rs139062a, name=rs139062
+  allele=rs139062b, name=rs139062
+  allele=rs1884276a, name=rs1884276
+  allele=rs1884276b, name=rs1884276
+  allele=rs139451a, name=rs139451
+  allele=rs139451b, name=rs139451
+  allele=rs2024566a, name=rs2024566
+  allele=rs2024566b, name=rs2024566
+  allele=rs80477a, name=rs80477
+  allele=rs80477b, name=rs80477
+  allele=rs1052717a, name=rs1052717
+  allele=rs1052717b, name=rs1052717
+  allele=rs738377a, name=rs738377
+  allele=rs738377b, name=rs738377
+  allele=rs139027a, name=rs139027
+  allele=rs139027b, name=rs139027
+  allele=rs713912a, name=rs713912
+  allele=rs713912b, name=rs713912
+  allele=rs929090a, name=rs929090
+  allele=rs929090b, name=rs929090
+  allele=rs12170546a, name=rs12170546
+  allele=rs12170546b, name=rs12170546
+  allele=rs763041a, name=rs763041
+  allele=rs763041b, name=rs763041
+  allele=rs136904a, name=rs136904
+  allele=rs136904b, name=rs136904
+  allele=rs1540327a, name=rs1540327
+  allele=rs1540327b, name=rs1540327
+  allele=rs132817a, name=rs132817
+  allele=rs132817b, name=rs132817
+  allele=rs6006960a, name=rs6006960
+  allele=rs6006960b, name=rs6006960
+  allele=rs3213560a, name=rs3213560
+  allele=rs3213560b, name=rs3213560
+  allele=rs714022a, name=rs714022
+  allele=rs714022b, name=rs714022
+  allele=rs737822a, name=rs737822
+  allele=rs737822b, name=rs737822
+  allele=rs5769116a, name=rs5769116
+  allele=rs5769116b, name=rs5769116
+  allele=rs738672a, name=rs738672
+  allele=rs738672b, name=rs738672
+  allele=rs738486a, name=rs738486
+  allele=rs738486b, name=rs738486
+  allele=rs728591a, name=rs728591
+  allele=rs728591b, name=rs728591
+  allele=rs738704a, name=rs738704
+  allele=rs738704b, name=rs738704
+  allele=rs4403a, name=rs4403
+  allele=rs4403b, name=rs4403
+  allele=rs761793a, name=rs761793
+  allele=rs761793b, name=rs761793
+  allele=rs1028503a, name=rs1028503
+  allele=rs1028503b, name=rs1028503
+  allele=rs131020a, name=rs131020
+  allele=rs131020b, name=rs131020
+  allele=rs7410750a, name=rs7410750
+  allele=rs7410750b, name=rs7410750
+  allele=rs1474834a, name=rs1474834
+  allele=rs1474834b, name=rs1474834
+  allele=rs932497a, name=rs932497
+  allele=rs932497b, name=rs932497
+  allele=rs135223a, name=rs135223
+  allele=rs135223b, name=rs135223
+  allele=rs8136406a, name=rs8136406
+  allele=rs8136406b, name=rs8136406
+  allele=rs7286586a, name=rs7286586
+  allele=rs7286586b, name=rs7286586
+  allele=rs739240a, name=rs739240
+  allele=rs739240b, name=rs739240
+  allele=rs4824090a, name=rs4824090
+  allele=rs4824090b, name=rs4824090
+  allele=rs138853a, name=rs138853
+  allele=rs138853b, name=rs138853
+  allele=rs2092982a, name=rs2092982
+  allele=rs2092982b, name=rs2092982
+  allele=rs137879a, name=rs137879
+  allele=rs137879b, name=rs137879
+  allele=rs137930a, name=rs137930
+  allele=rs137930b, name=rs137930
+  allele=rs6712a, name=rs6712
+  allele=rs6712b, name=rs6712
+  allele=rs6520165a, name=rs6520165
+  allele=rs6520165b, name=rs6520165
+  allele=rs743616a, name=rs743616
+  allele=rs743616b, name=rs743616
+  allele=rs1001469a, name=rs1001469
+  allele=rs1001469b, name=rs1001469
+  allele=rs10451a, name=rs10451
+  allele=rs10451b, name=rs10451  
+}
+
+freq
+{
+  founder_weight=1.0
+  inbreeding=false
+}
+
+decipher 
+{
+  region=one, first=rs7288876, last=rs2535694
+  region=two, first=rs1474834, last=rs10451  
+  dump=true
+  seed=175
+
+  data
+  {
+    analysis_unit=each_individual
+  }
+  
+  blocks
+  {
+    ld=true, threshold=.5
+  }
+  
+  tasks
+  {
+    pop_freq=true, cutoff=0.001
+    all_possible_combinations_table=true
+  }
+}  
+

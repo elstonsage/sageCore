@@ -1,0 +1,39 @@
+S.A.G.E. RELEASE 4.4 -- LODLINK
+COPYRIGHT (C) 2003 CASE WESTERN RESERVE UNIVERSITY
+
+=========
+Analysis1
+=========
+
+
+Locus M2
+        
+Group   Est.      Log
+        Recomb.   Likelihood
+        Fract.      
+-----   -------   ----------
+1
+2
+
+.
+.
+.
+
+x
+
+
+Locus M3
+        
+Group   Est.      Log
+        Recomb.   Likelihood
+        Fract.      
+-----   -------   ----------
+1
+2
+
+.
+.
+.
+
+x
+

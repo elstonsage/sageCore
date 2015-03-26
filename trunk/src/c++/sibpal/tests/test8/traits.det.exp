@@ -1,0 +1,224 @@
+
+
+
+=====================================================================================
+  Haseman-Elston Regression Analysis of Full and Half Sibs
+  - single marker regression
+=====================================================================================
+
+    Binary trait : alc, affected = '1' , unaffected = '3'
+
+    Dependent variate : Weighted square trait sum and difference (W3)
+
+    w1 : 0.5
+
+    Other options used :
+      Identity weights = no
+      Robust variance  = no
+      Use sibship mean = no
+      Use BLUP mean    = yes
+
+    Legend :
+      Note - kurtosis = coefficient of kurtosis - 3
+      *   - significance  .05 level;
+      **  - significance  .01 level;
+      *** - significance .001 level;
+      #   - Negative intercept set to 0 or a common value is estimated;
+
+=====================================================================================
+Test 1
+=====================================================================================
+-----
+Model
+-----
+
+alc ~ Intercept + D3S1297(A+D) + e
+
+------
+Sample
+------
+
+Number of all sibs            =   13
+Number of full sib pairs      =    9
+Number of half sib pairs      =    9
+
+-----
+Trait
+-----
+
+Sample mean                   =    0.5385
+Sample variance               =    0.2692
+Sample skewness               =   -0.1543
+Sample kurtosis               =   -1.9762
+Pairwise full sib correlation =   -0.2000
+Intra sibship correlation     =    0.0273
+Pairwise half sib correlation =    0.1692
+
+-----------------
+Dependent variate
+-----------------
+
+- Full sib pairs
+Correlation between pairs with no sibs in common =    0.0000
+Correlation between pairs with one sib in common =    0.0000
+sibship size 2 : w = 0.681467, 1-w = 0.318533
+sibship size 4 : w = 0.681467, 1-w = 0.318533
+
+- Half sib pairs
+Correlation between pairs with no sibs in common =    0.4387
+Correlation between pairs with one sib in common =    0.4387
+sibship size 4 : w = 0.378988, 1-w = 0.621012
+sibship size 5 : w = 0.378988, 1-w = 0.621012
+
+Correlation between squared difference
+                and squared mean corrected sum   =    0.9655
+
+----------
+Regression
+----------
+
+                  before intercept is set           # after intercept is set
+                  -----------------------------     -----------------------------
+                   Estimate Std Error   P-value      Estimate Std Error   P-value     
+----------------- --------- --------- ---------     --------- --------- ---------     
+Intercept(Full)     -0.5142                            0.0000
+Intercept(Half)     -0.2145                            0.0000
+D3S1297              0.6814    0.1886 0.0010738 **     0.7020    0.2136 0.0021778 **  
+
+Total variance       9.2186                            9.2186
+Residual variance    4.5465                            5.9687
+Residual skewness   -0.2289                           -0.2576
+Residual kurtosis   -0.9813                           -0.8790
+=====================================================================================
+Test 2
+=====================================================================================
+-----
+Model
+-----
+
+alc ~ Intercept + D3S1304(A+D) + e
+
+------
+Sample
+------
+
+Number of all sibs            =   13
+Number of full sib pairs      =    6
+Number of half sib pairs      =    9
+
+-----
+Trait
+-----
+
+Sample mean                   =    0.5385
+Sample variance               =    0.2692
+Sample skewness               =   -0.1543
+Sample kurtosis               =   -1.9762
+Pairwise full sib correlation =   -0.3333
+Intra sibship correlation     =    0.0273
+Pairwise half sib correlation =    0.1692
+
+-----------------
+Dependent variate
+-----------------
+
+- Full sib pairs
+Correlation between pairs with no sibs in common =    0.0000
+Correlation between pairs with one sib in common =    0.0000
+sibship size 2 : w = 0.681467, 1-w = 0.318533
+sibship size 4 : w = 0.681467, 1-w = 0.318533
+sibship size 5 : w = 0.777578, 1-w = 0.222422
+
+- Half sib pairs
+Correlation between pairs with no sibs in common =    0.4202
+Correlation between pairs with one sib in common =    0.4202
+sibship size 4 : w = 0.503395, 1-w = 0.496605
+sibship size 5 : w = 0.493857, 1-w = 0.506143
+
+Correlation between squared difference
+                and squared mean corrected sum   =    0.9729
+
+----------
+Regression
+----------
+
+                  before intercept is set           # after intercept is set
+                  -----------------------------     -----------------------------
+                   Estimate Std Error   P-value      Estimate Std Error   P-value     
+----------------- --------- --------- ---------     --------- --------- ---------     
+Intercept(Full)     -0.9470                            0.0000
+Intercept(Half)     -0.4954                            0.0000
+D3S1304              1.5147    0.6461 0.0171604 *      0.7523    0.5846 0.1095035     
+
+Total variance       2.9767                            2.9767
+Residual variance    2.3692                            2.8520
+Residual skewness   -0.7470                           -0.7316
+Residual kurtosis   -0.4632                           -0.6419
+=====================================================================================
+Test 3
+=====================================================================================
+-----
+Model
+-----
+
+alc ~ Intercept + D3S1263(A+D) + e
+
+------
+Sample
+------
+
+Number of all sibs            =   13
+Number of full sib pairs      =    9
+Number of half sib pairs      =    9
+
+-----
+Trait
+-----
+
+Sample mean                   =    0.5385
+Sample variance               =    0.2692
+Sample skewness               =   -0.1543
+Sample kurtosis               =   -1.9762
+Pairwise full sib correlation =   -0.2000
+Intra sibship correlation     =    0.0273
+Pairwise half sib correlation =    0.1692
+
+-----------------
+Dependent variate
+-----------------
+
+- Full sib pairs
+Correlation between pairs with no sibs in common =    0.0000
+Correlation between pairs with one sib in common =    0.0000
+sibship size 2 : w = 0.681467, 1-w = 0.318533
+sibship size 4 : w = 0.681467, 1-w = 0.318533
+sibship size 5 : w = 0.448401, 1-w = 0.551599
+
+- Half sib pairs
+Correlation between pairs with no sibs in common =    0.4233
+Correlation between pairs with one sib in common =    0.4233
+sibship size 4 : w = 0.478649, 1-w = 0.521351
+sibship size 5 : w = 0.478313, 1-w = 0.521687
+
+Correlation between squared difference
+                and squared mean corrected sum   =    0.9655
+
+----------
+Regression
+----------
+
+                  before intercept is set           # after intercept is set
+                  -----------------------------     -----------------------------
+                   Estimate Std Error   P-value      Estimate Std Error   P-value     
+----------------- --------- --------- ---------     --------- --------- ---------     
+Intercept(Full)     -0.0156                            0.0000
+Intercept(Half)      0.1403                            0.0000
+D3S1263             -0.2977    0.1865 0.9355577       -0.7854    0.3597 0.9783388     
+
+Total variance       1.5218                            1.5218
+Residual variance    0.2881                            1.2585
+Residual skewness   -0.9207                           -0.3906
+Residual kurtosis   -0.3738                           -0.9782
+=====================================================================================
+
+

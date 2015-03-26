@@ -1,0 +1,40 @@
+pedigree,column
+{
+  format="A8,1X,A4,3X,A4,4X,A4,7X,A1,3X,A8,2X,A8,4(7X,A1)"
+
+  individual_missing_value="0"
+
+  # Family Structure
+
+  pedigree_id
+  individual_id
+  parent_id
+  parent_id
+  sex_field
+
+  sex_code,male=1,female=2
+
+  # Phenotypes
+
+  trait=SQRTDBH,missing=" "
+  trait=COMT,missing=" "
+  trait=A,missing=" "
+  trait=B,missing=" "
+  trait=AK1,missing=" "
+  trait=AK2,missing=" "
+}
+
+fcor2
+{
+  interclass_weight=pair
+  intraclass_weight=pair
+  standard_error=true, conservative
+}
+
+fcor2
+{
+  interclass_weight=pair
+  intraclass_weight=pair
+  standard_error=true
+  gender_name=false
+}

@@ -1,0 +1,23 @@
+pedigree
+{
+  delimiter_mode = multiple
+  delimiters=" "
+
+  individual_id=id
+  individual_missing_value="0"
+  sex_field=sex
+  sex_code,male="M",female="F",unknown="?"
+  parent_id=p1
+  parent_id=p2
+
+  trait=aff,binary,affected="1"
+  marker=m1
+}
+
+tdtex
+{
+  trait=aff
+  marker=m1
+  sample=alleles
+  sex_differential=true
+}

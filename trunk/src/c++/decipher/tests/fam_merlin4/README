@@ -1,0 +1,4 @@
+There is a difference between Merlin and Decipher in this example.  For some
+reason Merlin does not show the diplotype 1-1-2-1/1-2-1-2 as a possibility
+for individual 3 while Decipher does.  Perhaps this is a result of the way
+Merlin handles missing information.

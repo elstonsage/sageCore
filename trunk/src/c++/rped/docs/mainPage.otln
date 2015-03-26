@@ -1,0 +1,201 @@
+\TITLE\
+Referenced Multipedigrees
+\BRIEF\
+Pedigree data structures including individual traits, markers and covariates
+\DOC_NAME\
+rped_main
+\DETAILED\
+\#.\ What is rped?
+
+rped is an extension of the mped library. It extends mped by
+providing info classes (attached to each level of structural representation)
+that store trait/marker information. Also, it provides functionality for
+reading in pedigree data from a source file.
+
+\#.\ mped: A brief review
+
+mped provides basic storage classes for the structural representation of a pedigree (structural,
+in this sense, applies to lineage: parent-offspring relationships). In addition, 
+mped allows a templatized info object to be attached to each
+level of structural representation (multipedigree, pedigree, subpedigree,
+family, and member). Keep in mind that although mped allows a
+templatized info object to be attached, mped does not in fact provide
+any info objects (this is accomplish through rped).
+
+\#.\ rped's template specialization
+
+At its core, rped's primary piece of functionality is its template
+specialization of SAGE::MPED::multipedigree. This specialization
+(SAGE::RPED::RefMultiPedigree) is a version of SAGE::MPED::multipedigree
+templatized on RefMPedInfo and RefPedInfo (see next section).
+
+Furthermore, all the template-specific forms of the mped derived classes
+(SAGE::MPED::member_const_pointer, for instance) are available with the same
+name in the SAGE::RPED namespace. For instance, if you want to const-iterate
+across members, you could do the following:
+
+\code
+for(RPED::member_const_pointer mem = /* ... */) { /* ... */ }
+\endcode
+
+\#.\ The info classes
+
+The above template instantiations use two classes from rped as info
+objects: SAGE::RPED::RefMPedInfo (attached to SAGE::MPED::multipedigree),
+and SAGE::RPED::RefPedInfo (attached to SAGE::MPED::pedigree). The
+remaining three structural classes (SAGE::MPED::subpedigree,
+SAGE::MPED::family, and SAGE::MPED::member) have SAGE::MPED::no_info classes
+attached as info classes. (That is, no additional information is attached to
+those structural levels).
+
+The two info classes are designed to provide trait & marker data storage in
+rped. SAGE::RPED::RefMPedInfo (the multipedigree info object) stores \b
+meta information about traits and markers (trait names, types, missing value
+codes, etc.). SAGE::RPED::RefPedInfo, conversely, stores actual
+trait/marker \b values. 
+
+\#.\ How to import pedigree data
+
+\b Please \b note ! Before reading this section, please review the section of the user manual on
+pedigree data file specifications (section 2.3 of the SAGE 4.6 manual). You
+need to be very familiar with the structure of a pedigree file and its
+constituent members before you try to use SAGE to read in that data.
+
+First, let's review the class hierarchy that ends with the two classes
+SAGE::RPED::RefLSFFortranPedigreeFile and
+SAGE::RPED::RefLSFDelimitedPedigreeFile. It's a little complicated, but with
+good reason.
+
+At the top level is the class RefPedigreeFile, which stores data importation
+configuration options for reading in a pedigree file. Recall that pedigree
+can be formatted in one of two ways: character-delimited or
+fortran-formatted (see user manual for more information). The
+RefPedigreeFile, however, does not know about this delimited vs. fortran
+distinction. It stores configuration options general to both formats.
+
+Accordingly, there are two classes derived from SAGE::RPED::RefPedigreeFile:
+SAGE::RPED::RefFortranPedigreeFile and SAGE::RPED::RefDelimitedPedigreeFile.
+These two classes store data importation configurations options specific to
+the pedigree format (delimited vs. fortran).
+
+In addition, it should be noted that the RefPedigreeFile does not have any
+parameter file parsing ability. You can manually scan the PEDIGREE block of
+your parameter file and manually set the configuration options. Since this
+is very annoying and tedious, there is a class designed to do this for you:
+SAGE::RPED::RefLSFPedigreeFile. SAGE::RPED::RefLSFPedigreeFile's interface
+is very simple: two functions for processing LSF parameters. It should be
+noted that since SAGE::RPED::RefLSFPedigreeFile needs to be able to set
+options directly in a SAGE::RPED::RefPedigreeFile, it is accordingly derived
+from that object.
+
+Lastly, we come to the two classes you'll actually use directly:
+SAGE::RPED::RefLSFFortranPedigreeFile and
+SAGE::RPED::RefLSFDelimitedPedigreeFile. Each of these classes is multiply
+derived, from a storage class (SAGE::RPED::RefFortranPedigreeFile or
+SAGE::RPED::RefDelimitedPedigreeFile) and the LSF parsing class
+(SAGE::RPED::RefLSFPedigreeFile). These classes combine LSF parsing
+ability with pedigree file format-specific configuration options.
+
+Let's say you want to use an LSF-formatted parameter file to determine the
+data importation options for your RefMultiPedigree. You'll need the
+following items: an LSFBase pointer (pointing to the "PEDIGREE" block),
+a SAGE::RPED::RefLSFPedigreeFile pointer (for processing this pedigree block), 
+a SAGE::RPED::RefMultiPedigree, and the name of the pedigree data file.
+
+\code
+std::string pedigree_filename = "somefile.ped";
+SAGE::RPED::RefMultiPedigree ref_multi_pedigree;
+SAGE::RPED::RefLSFPedigreeFile * pedigree_reader;
+SAGE::LSFBase * params = /* Read in the appropriate parameter block here */ ;
+\endcode
+
+Now, you should scan your pedigree block to see if it indicates a
+character-delimited or fortran-formatted file. If the attribute list on the
+pedigree block itself has a "column" attribute, then this is a
+fortran-formatted file. Otherwise it is character-delimited. Accordingly,
+create the correct LSF reader:
+
+\code
+if(params->attrs() && params->attrs()->has_attr("column"))
+{
+  pedigree_reader = new SAGE::RPED::RefLSFFortranPedigreeFile();
+}
+else
+{
+  pedigree_reader = new SAGE::RPED::RefLSFDelimitedPedigreeFile();
+}
+\endcode
+
+Next, you can invoke your pedigree_reader's process_parameters() function
+(see SAGE::RPED::RefLSFPedigreeFile::process_parameters() ) to process the
+whole "PEDIGREE" block:
+
+\code
+pedigree_reader->process_parameters(ref_multi_pedigree.info(), params);
+\endcode
+
+Lastly, you can use your pedigree reader to use the configuration options
+(which you have just set) to import the actual pedigree data file (see
+SAGE::RPED::RefPedigreeFile::input() ) :
+
+\code
+pedigree_reader->input(ref_multi_pedigree, pedigree_filename, ref_multi_pedigree.info());
+\endcode
+
+\#.\ How to manually set up a trait
+
+If the provided LSF parsing features are insufficient for any reason, you
+can still manually set up any trait you want in your RefMultiPedigree. There
+are two steps to this process:
+
+\c 1 Add a trait entry to the multipedigree info object
+(SAGE::RPED::RefMultiPedigree::info() )
+
+\c 2 Add a trait entry for every constituent pedigree's info object
+(SAGE::RPED::RefPedigree::info() )
+
+Recall that trait information is stored in two distinct locations: The
+meta-information about the trait is stored in the SAGE::RPED::RefMPedInfo
+object (attached to the multipedigree), whereas trait values are stored in
+SAGE::RPED::RefPedInfo objects attached to each constituent pedigree.
+
+For instance, if you want to add a continuous trait named "height", the
+following code would be sufficient:
+
+\code
+SAGE::RPED::RefMultiPedigree rmp;
+
+// Add trait to RefMPedInfo...
+int id = rmp.info().add_trait("height", SAGE::RPED::RefTraitInfo::continuous_trait, SAGE::RPED::RefTraitInfo::trait_covariate);
+
+// Add trait to RefPedInfo's...
+for(rmp::pedigree_iterator ped = mp.pedigree_begin(); ped != mp.pedigree_end(); ++ped)
+{
+   ped->info().resize_traits(ped->info().trait_count() + 1);
+}   
+\endcode
+
+\#.\ How to iterate across pedigrees / subpedigrees / families / members
+
+Since rped only adds trait/marker information to individuals, iterating
+across pedigree \b structure is identical to mped. For instance, if you
+want to iterate across all members in the RefMultiPedigree, you could do the
+following:
+
+\code
+// Assuming rmp is a populated RefMultiPedigree...
+
+for(rmp::pedigree_iterator ped = mp.pedigree_begin(); ped != mp.pedigree_end(); ++ped)
+{
+   for(rmp::member_const_iterator mem = ped->member_begin(); mem != ped->member_end(); ++mem)
+   {
+     // mem->do_something(...);
+   }   
+}
+\endcode
+
+\#.\ Pedigree / multipedigree statistics
+
+There is also a class designed to help you analyze the statistical aspects
+of any given multipedigree. This class (SAGE::RPED::MP_stats) takes a
+SAGE::RPED::RefMultiPedigree reference at construction, along with 

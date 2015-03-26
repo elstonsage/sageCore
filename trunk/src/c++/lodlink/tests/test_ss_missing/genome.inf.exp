@@ -1,0 +1,25 @@
+MARKER MODELS:
+============================
+
+M1
+----------------------------
+
+Alleles:
+A	= 0.500000	B	= 0.500000	
+
+Genotype    Genotypic Frequency
+     A/A     0.250000
+     A/B     0.500000
+     B/B     0.250000
+
+M2
+----------------------------
+
+Alleles:
+C	= 0.300000	D	= 0.700000	
+
+Genotype    Genotypic Frequency
+     C/C     0.090000
+     C/D     0.420000
+     D/D     0.490000
+

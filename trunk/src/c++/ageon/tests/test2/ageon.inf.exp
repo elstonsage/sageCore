@@ -1,0 +1,147 @@
+
+
+
+%AGEON-W: [2] Unrecognized value for trait 'c' for individual '1' in pedigree
+          '11'.  Found 'a'.
+%AGEON-W: [3] Unrecognized value for trait 'c' for individual '2' in pedigree
+          '11'.  Found 'a'.
+%AGEON-W: [4] Unrecognized value for trait 'g' for individual '3' in pedigree
+          '11'.  Found '.'.
+%AGEON-W: [4] Unrecognized value for trait 'c' for individual '3' in pedigree
+          '11'.  Found 'a'.
+%AGEON-W: [5] Unrecognized value for trait 'c' for individual '4' in pedigree
+          '11'.  Found 'a'.
+%AGEON-W: [6] Unrecognized value for trait 'c' for individual '5' in pedigree
+          '11'.  Found 'a'.
+%AGEON-W: [7] Unrecognized value for trait 'c' for individual '1' in pedigree
+          '12'.  Found 'a'.
+%AGEON-W: [8] Unrecognized value for trait 'c' for individual '2' in pedigree
+          '12'.  Found 'a'.
+%AGEON-W: [9] Unrecognized value for trait 'c' for individual '3' in pedigree
+          '12'.  Found 'a'.
+%AGEON-W: [10] Unrecognized value for trait 'g' for individual '4' in pedigree
+          '12'.  Found '.'.
+%AGEON-W: [10] Unrecognized value for trait 'c' for individual '4' in pedigree
+          '12'.  Found 'a'.
+%AGEON-W: [11] Unrecognized value for trait 'c' for individual '5' in pedigree
+          '12'.  Found 'a'.
+%AGEON-W: [12] Unrecognized value for trait 'c' for individual '1' in pedigree
+          '21'.  Found 'b'.
+%AGEON-W: [13] Unrecognized value for trait 'c' for individual '2' in pedigree
+          '21'.  Found 'b'.
+%AGEON-W: [14] Unrecognized value for trait 'c' for individual '3' in pedigree
+          '21'.  Found 'b'.
+%AGEON-W: [15] Unrecognized value for trait 'c' for individual '4' in pedigree
+          '21'.  Found 'b'.
+%AGEON-W: [16] Unrecognized value for trait 'c' for individual '5' in pedigree
+          '21'.  Found 'b'.
+%AGEON-W: [17] Unrecognized value for trait 'c' for individual '1' in pedigree
+          '22'.  Found 'b'.
+%AGEON-W: [18] Unrecognized value for trait 'c' for individual '2' in pedigree
+          '22'.  Found 'b'.
+%AGEON-W: [19] Unrecognized value for trait 'c' for individual '3' in pedigree
+          '22'.  Found 'b'.
+%AGEON-W: [20] Unrecognized value for trait 'c' for individual '4' in pedigree
+          '22'.  Found 'b'.
+%AGEON-W: [21] Unrecognized value for trait 'c' for individual '5' in pedigree
+          '22'.  Found 'b'.
+%AGEON-W: [22] Unrecognized value for trait 'c' for individual '1' in pedigree
+          '23'.  Found 'b'.
+%AGEON-W: [23] Unrecognized value for trait 'c' for individual '2' in pedigree
+          '23'.  Found 'b'.
+%AGEON-W: [24] Unrecognized value for trait 'c' for individual '3' in pedigree
+          '23'.  Found 'b'.
+%AGEON-W: [25] Unrecognized value for trait 'c' for individual '4' in pedigree
+          '23'.  Found 'b'.
+%AGEON-W: [26] Unrecognized value for trait 'c' for individual '5' in pedigree
+          '23'.  Found 'b'.
+
+Family structure information on the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       SEX       PARENT1       PARENT2     
+     ------------  ------------  --------  ------------  ------------
+     11            1             1         .             .           
+     11            2             2         .             .           
+     11            3             2         1             2           
+     11            4             2         1             2           
+     11            5             2         1             2           
+     12            1             1         .             .           
+     12            2             2         .             .           
+     12            3             2         1             2           
+     12            4             2         1             2           
+     12            5             2         1             2           
+
+
+Phenotypes for the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       SEX_CODE              FAMILIAL_INDICATOR    FOUNDER_INDICATOR     PEDIGREE_SIZE         a                     o                     e                     g                     f                     c                   
+     ------------  ------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------
+     11            1             0                     1                     1                     5                     0                     -9                    -9                    1                     0                     -9                  
+     11            2             1                     1                     1                     5                     0                     -9                    -9                    1                     0                     -9                  
+     11            3             1                     1                     0                     5                     1                     5                     6                     -9                    1                     -9                  
+     11            4             1                     1                     0                     5                     0                     -9                    7                     2                     1                     -9                  
+     11            5             1                     1                     0                     5                     0                     7                     8                     3                     1                     -9                  
+     12            1             0                     1                     1                     5                     0                     -9                    -9                    1                     0                     -9                  
+     12            2             1                     1                     1                     5                     0                     -9                    -9                    1                     0                     -9                  
+     12            3             1                     1                     0                     5                     1                     5                     6                     2                     1                     -9                  
+     12            4             1                     1                     0                     5                     0                     -9                    7                     -9                    1                     -9                  
+     12            5             1                     1                     0                     5                     0                     7                     8                     3                     1                     -9                  
+
+
+Parsing Ageonset Analyses...
+
+Beginning new analysis block....
+
+Parsing Analysis: 'AGEON Analysis 1'....
+
+
+Analysis parsing complete.    Analysis valid.
+==============================================================
+
+Beginning new analysis block....
+
+Parsing Analysis: 'AGEON Analysis 2'....
+
+
+Analysis parsing complete.    Analysis valid.
+==============================================================
+
+Beginning new analysis block....
+
+Parsing Analysis: 'AGEON Analysis 3'....
+
+
+Analysis parsing complete.    Analysis valid.
+==============================================================
+
+Beginning new analysis block....
+
+Parsing Analysis: 'AGEON Analysis 4'....
+
+Reassigning individuals from class '??' to '?U'.
+Reassigning individuals from class '?A' to 'AA'.
+%AGEON-W: In analysis 'AGEON Analysis 4': Ignoring illogical reassignment from
+          class 'AU' to 'AA'.
+
+Analysis parsing complete.    Analysis valid.
+==============================================================
+
+
+Note:
+  To use the susceptability traits and survival analysis residuals,
+  use the additinal output files from this analysis
+  'ageon_analysis1.par' and 'ageon_analysis1.ped'.
+
+
+Note:
+  To use the susceptability traits and survival analysis residuals,
+  use the additinal output files from this analysis
+  'ageon_analysis2.par' and 'ageon_analysis2.ped'.
+
+
+Note:
+  To use the susceptability traits and survival analysis residuals,
+  use the additinal output files from this analysis
+  'ageon_analysis3.par' and 'ageon_analysis3.ped'.
+
+

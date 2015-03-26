@@ -1,0 +1,1438 @@
+=================
+
+     Results
+
+=================
+
+Note: P-values for variance components and proportions are one-sided.  All others are two-sided.
+The null hypothesis for transformation parameters is 'no transformation.'
+
+
+==============================
+     Analysis description
+==============================
+
+  Title                        assoc                         
+  Primary Trait                sbpd_rand10 (Quantitative)    
+  Allow averaging              Disabled                      
+  Omit complete summary table  Disabled                      
+  Summary table display order  By LRT p-value                
+  Summary filter               Show no more than 10 results  
+
+======================================
+     Transformation configuration
+======================================
+
+
+
+Note: No transformation applied.
+
+====================================
+
+     Model 'FAMILIAL_INDICATOR'
+
+====================================
+
+============================
+     Sample description
+============================
+
+  Number of individuals in dataset                                   604  
+  Number of constituent pedigrees in dataset                          73  
+  Number of singletons in dataset                                      3  
+                                                                          
+  Number of constituent pedigree members with complete information   432  
+  Number of singletons with complete information                       2  
+                                                                          
+
+====================
+     Covariates
+====================
+
+------------------------------------------------------------------
+  Name                Mean       Std. dev.  Min        Max        
+------------------------------------------------------------------
+  sex_code             0.559908   0.496398   0.000000   1.000000  
+  FAMILIAL_INDICATOR   0.995392   0.067728   0.000000   1.000000  
+
+=========================================================================
+     MAXIMIZATION RESULTS FAMILIAL_INDICATOR without test covariates
+=========================================================================
+
+----------------------------------------------------------------------
+  Parameter       Estimate     S.E.        P-value     Deriv          
+----------------------------------------------------------------------
+  Variance components
+          Random   300.036039   20.367756  < 1.00e-07   0.0000000355  
+
+  Other parameters
+  Total variance   300.036039   20.367756  < 1.00e-07   0.0000000267  
+
+       Intercept   131.180995    0.831461  < 1.00e-07   0.0000000000  
+
+  Covariates
+        sex_code    -4.323880    1.674988   0.009839    0.0000000000  
+----------------------------------------------------------------------
+
+Final ln likelihood: -1853.566375
+
+===============================================================================
+     VARIANCE-COVARIANCE MATRIX FAMILIAL_INDICATOR without test covariates
+===============================================================================
+
+---------------------------------------------------------------------
+                  Random       Total variance  Intercept  sex_code   
+---------------------------------------------------------------------
+  Random           414.845495   414.845495     -0.000153   3.46e-05  
+  Total variance   414.845495   414.845495     -0.000153   3.46e-05  
+  Intercept         -0.000153    -0.000153      0.691327  -1.27e-11  
+  sex_code           3.46e-05     3.46e-05     -1.27e-11   2.805586  
+
+======================================================================
+     MAXIMIZATION RESULTS FAMILIAL_INDICATOR with test covariates
+======================================================================
+
+--------------------------------------------------------------------------
+  Parameter           Estimate     S.E.        P-value     Deriv          
+--------------------------------------------------------------------------
+  Variance components
+              Random   300.035876   20.367761  < 1.00e-07  -0.0000000022  
+
+  Other parameters
+      Total variance   300.035876   20.367761  < 1.00e-07   0.0000007999  
+
+           Intercept   131.181105    0.831461  < 1.00e-07  -0.0000004046  
+
+  Covariates
+            sex_code    -4.327102    1.679942   0.010002    0.0000000000  
+  FAMILIAL_INDICATOR     0.305280   12.312859   0.980220    0.0000000000  
+--------------------------------------------------------------------------
+
+Final ln likelihood: -1853.566067
+
+============================================================================
+     VARIANCE-COVARIANCE MATRIX FAMILIAL_INDICATOR with test covariates
+============================================================================
+
+-------------------------------------------------------------------------------------------------------------
+                                      Random       Total variance  Intercept  sex_code   FAMILIAL_INDICATOR  
+-------------------------------------------------------------------------------------------------------------
+  Random                               414.845676   414.845676      0.000000   0.000000     0.000000         
+  Total variance                       414.845676   414.845676      0.000000   0.000000     0.000000         
+  Intercept                              0.000000     0.000000      0.691327   1.29e-11    -1.23e-09         
+  sex_code                               0.000000     0.000000      1.29e-11   2.822206    -1.587512         
+  FAMILIAL_INDICATOR                     0.000000     0.000000     -1.23e-09  -1.587512   151.606504         
+                                                                                                             
+  Likelihood Surface flat                                                                                    
+  variance matrix near singular and                                                                          
+  may be affected by rounding error.                                                                         
+  Reducing the number of parameters                                                                          
+  to be estimated is recommended                                                                             
+
+===============================
+     Likelihood Ratio Test
+===============================
+
+  H0 ln likelihood FAMILIAL_INDICATOR without test covariates  -1853.566375  
+  H1 ln likelihood FAMILIAL_INDICATOR with test covariates     -1853.566067  
+                                                                             
+  2 * |H0 - H1|                                                    0.000615  
+  Degrees of freedom                                                      1  
+  P-value                                                          0.980219  
+
+===================================
+
+     Model 'FOUNDER_INDICATOR'
+
+===================================
+
+============================
+     Sample description
+============================
+
+  Number of individuals in dataset                                   604  
+  Number of constituent pedigrees in dataset                          73  
+  Number of singletons in dataset                                      3  
+                                                                          
+  Number of constituent pedigree members with complete information   432  
+  Number of singletons with complete information                       2  
+                                                                          
+
+====================
+     Covariates
+====================
+
+-----------------------------------------------------------------
+  Name               Mean       Std. dev.  Min        Max        
+-----------------------------------------------------------------
+  sex_code            0.559908   0.496398   0.000000   1.000000  
+  FOUNDER_INDICATOR   0.050691   0.219366   0.000000   1.000000  
+
+========================================================================
+     MAXIMIZATION RESULTS FOUNDER_INDICATOR without test covariates
+========================================================================
+
+----------------------------------------------------------------------
+  Parameter       Estimate     S.E.        P-value     Deriv          
+----------------------------------------------------------------------
+  Variance components
+          Random   300.036039   20.367756  < 1.00e-07   0.0000000355  
+
+  Other parameters
+  Total variance   300.036039   20.367756  < 1.00e-07   0.0000000267  
+
+       Intercept   131.180995    0.831461  < 1.00e-07   0.0000000000  
+
+  Covariates
+        sex_code    -4.323880    1.674988   0.009839    0.0000000000  
+----------------------------------------------------------------------
+
+Final ln likelihood: -1853.566375
+
+==============================================================================
+     VARIANCE-COVARIANCE MATRIX FOUNDER_INDICATOR without test covariates
+==============================================================================
+
+---------------------------------------------------------------------
+                  Random       Total variance  Intercept  sex_code   
+---------------------------------------------------------------------
+  Random           414.845495   414.845495     -0.000153   3.46e-05  
+  Total variance   414.845495   414.845495     -0.000153   3.46e-05  
+  Intercept         -0.000153    -0.000153      0.691327  -1.27e-11  
+  sex_code           3.46e-05     3.46e-05     -1.27e-11   2.805586  
+
+=====================================================================
+     MAXIMIZATION RESULTS FOUNDER_INDICATOR with test covariates
+=====================================================================
+
+-------------------------------------------------------------------------
+  Parameter          Estimate     S.E.        P-value     Deriv          
+-------------------------------------------------------------------------
+  Variance components
+             Random   298.920926   20.291968  < 1.00e-07   0.0000032923  
+
+  Other parameters
+     Total variance   298.920926   20.291968  < 1.00e-07   0.0000000247  
+
+          Intercept   131.180995    0.829914  < 1.00e-07  -0.0000489391  
+
+  Covariates
+           sex_code    -4.354645    1.672046   0.009204    0.0000000000  
+  FOUNDER_INDICATOR     4.811575    3.783628   0.203486    0.0000000000  
+-------------------------------------------------------------------------
+
+Final ln likelihood: -1852.759343
+
+===========================================================================
+     VARIANCE-COVARIANCE MATRIX FOUNDER_INDICATOR with test covariates
+===========================================================================
+
+-------------------------------------------------------------------------------------------
+                     Random       Total variance  Intercept  sex_code   FOUNDER_INDICATOR  
+-------------------------------------------------------------------------------------------
+  Random              411.763970   411.763970     -0.000152  -7.76e-05    0.000211         
+  Total variance      411.763970   411.763970     -0.000152  -7.76e-05    0.000211         
+  Intercept            -0.000152    -0.000152      0.688758   2.87e-11   -7.82e-11         
+  sex_code             -7.76e-05    -7.76e-05      2.87e-11   2.795739   -0.091297         
+  FOUNDER_INDICATOR     0.000211     0.000211     -7.82e-11  -0.091297   14.315845         
+
+===============================
+     Likelihood Ratio Test
+===============================
+
+  H0 ln likelihood FOUNDER_INDICATOR without test covariates  -1853.566375  
+  H1 ln likelihood FOUNDER_INDICATOR with test covariates     -1852.759343  
+                                                                            
+  2 * |H0 - H1|                                                   1.614064  
+  Degrees of freedom                                                     1  
+  P-value                                                         0.203921  
+
+===============================
+
+     Model 'PEDIGREE_SIZE'
+
+===============================
+
+============================
+     Sample description
+============================
+
+  Number of individuals in dataset                                   604  
+  Number of constituent pedigrees in dataset                          73  
+  Number of singletons in dataset                                      3  
+                                                                          
+  Number of constituent pedigree members with complete information   432  
+  Number of singletons with complete information                       2  
+                                                                          
+
+====================
+     Covariates
+====================
+
+--------------------------------------------------------------
+  Name           Mean       Std. dev.  Min        Max         
+--------------------------------------------------------------
+  sex_code        0.559908   0.496398   0.000000    1.000000  
+  PEDIGREE_SIZE   9.523041   3.699629   1.000000   20.000000  
+
+====================================================================
+     MAXIMIZATION RESULTS PEDIGREE_SIZE without test covariates
+====================================================================
+
+----------------------------------------------------------------------
+  Parameter       Estimate     S.E.        P-value     Deriv          
+----------------------------------------------------------------------
+  Variance components
+          Random   300.036039   20.367756  < 1.00e-07   0.0000000355  
+
+  Other parameters
+  Total variance   300.036039   20.367756  < 1.00e-07   0.0000000267  
+
+       Intercept   131.180995    0.831461  < 1.00e-07   0.0000000000  
+
+  Covariates
+        sex_code    -4.323880    1.674988   0.009839    0.0000000000  
+----------------------------------------------------------------------
+
+Final ln likelihood: -1853.566375
+
+==========================================================================
+     VARIANCE-COVARIANCE MATRIX PEDIGREE_SIZE without test covariates
+==========================================================================
+
+---------------------------------------------------------------------
+                  Random       Total variance  Intercept  sex_code   
+---------------------------------------------------------------------
+  Random           414.845495   414.845495     -0.000153   3.46e-05  
+  Total variance   414.845495   414.845495     -0.000153   3.46e-05  
+  Intercept         -0.000153    -0.000153      0.691327  -1.27e-11  
+  sex_code           3.46e-05     3.46e-05     -1.27e-11   2.805586  
+
+=================================================================
+     MAXIMIZATION RESULTS PEDIGREE_SIZE with test covariates
+=================================================================
+
+----------------------------------------------------------------------
+  Parameter       Estimate     S.E.        P-value     Deriv          
+----------------------------------------------------------------------
+  Variance components
+          Random   298.703478   20.277296  < 1.00e-07   0.0000000564  
+
+  Other parameters
+  Total variance   298.703478   20.277296  < 1.00e-07  -0.0000001110  
+
+       Intercept   131.180995    0.829612  < 1.00e-07  -0.0000420818  
+
+  Covariates
+        sex_code    -4.166253    1.675100   0.012877    0.0000000000  
+   PEDIGREE_SIZE    -0.312730    0.224757   0.164099    0.0000000000  
+----------------------------------------------------------------------
+
+Final ln likelihood: -1852.600463
+
+=======================================================================
+     VARIANCE-COVARIANCE MATRIX PEDIGREE_SIZE with test covariates
+=======================================================================
+
+------------------------------------------------------------------------------------
+                  Random       Total variance  Intercept  sex_code   PEDIGREE_SIZE  
+------------------------------------------------------------------------------------
+  Random           411.168732   411.168732     -0.000152   3.81e-05   1.01e-05      
+  Total variance   411.168732   411.168732     -0.000152   3.81e-05   1.01e-05      
+  Intercept         -0.000152    -0.000152      0.688257  -1.41e-11  -3.74e-12      
+  sex_code           3.81e-05     3.81e-05     -1.41e-11   2.805959  -0.025461      
+  PEDIGREE_SIZE      1.01e-05     1.01e-05     -3.74e-12  -0.025461   0.050515      
+
+===============================
+     Likelihood Ratio Test
+===============================
+
+  H0 ln likelihood PEDIGREE_SIZE without test covariates  -1853.566375  
+  H1 ln likelihood PEDIGREE_SIZE with test covariates     -1852.600463  
+                                                                        
+  2 * |H0 - H1|                                               1.931824  
+  Degrees of freedom                                                 1  
+  P-value                                                     0.164559  
+
+===============================
+
+     Model 'foo_selection'
+
+===============================
+
+============================
+     Sample description
+============================
+
+  Number of individuals in dataset                                   604  
+  Number of constituent pedigrees in dataset                          73  
+  Number of singletons in dataset                                      3  
+                                                                          
+  Number of constituent pedigree members with complete information   432  
+  Number of singletons with complete information                       2  
+                                                                          
+
+====================
+     Covariates
+====================
+
+-------------------------------------------------------------
+  Name           Mean       Std. dev.  Min        Max        
+-------------------------------------------------------------
+  sex_code        0.559908   0.496398   0.000000   1.000000  
+  foo_selection   1.615207   0.486546   1.000000   2.000000  
+
+====================================================================
+     MAXIMIZATION RESULTS foo_selection without test covariates
+====================================================================
+
+----------------------------------------------------------------------
+  Parameter       Estimate     S.E.        P-value     Deriv          
+----------------------------------------------------------------------
+  Variance components
+          Random   300.036039   20.367756  < 1.00e-07   0.0000000355  
+
+  Other parameters
+  Total variance   300.036039   20.367756  < 1.00e-07   0.0000000267  
+
+       Intercept   131.180995    0.831461  < 1.00e-07   0.0000000000  
+
+  Covariates
+        sex_code    -4.323880    1.674988   0.009839    0.0000000000  
+----------------------------------------------------------------------
+
+Final ln likelihood: -1853.566375
+
+==========================================================================
+     VARIANCE-COVARIANCE MATRIX foo_selection without test covariates
+==========================================================================
+
+---------------------------------------------------------------------
+                  Random       Total variance  Intercept  sex_code   
+---------------------------------------------------------------------
+  Random           414.845495   414.845495     -0.000153   3.46e-05  
+  Total variance   414.845495   414.845495     -0.000153   3.46e-05  
+  Intercept         -0.000153    -0.000153      0.691327  -1.27e-11  
+  sex_code           3.46e-05     3.46e-05     -1.27e-11   2.805586  
+
+=================================================================
+     MAXIMIZATION RESULTS foo_selection with test covariates
+=================================================================
+
+----------------------------------------------------------------------
+  Parameter       Estimate     S.E.        P-value     Deriv          
+----------------------------------------------------------------------
+  Variance components
+          Random   226.207703   15.355953  < 1.00e-07   0.0000007489  
+
+  Other parameters
+  Total variance   226.207703   15.355953  < 1.00e-07   0.0000075115  
+
+       Intercept   131.180992    0.721953  < 1.00e-07   0.0000004230  
+
+  Covariates
+        sex_code    -5.400113    1.457191   0.000211    0.0000000000  
+   foo_selection    17.693939    1.486697  < 1.00e-07   0.0000000000  
+----------------------------------------------------------------------
+
+Final ln likelihood: -1792.275111
+
+=======================================================================
+     VARIANCE-COVARIANCE MATRIX foo_selection with test covariates
+=======================================================================
+
+------------------------------------------------------------------------------------
+                  Random       Total variance  Intercept  sex_code   foo_selection  
+------------------------------------------------------------------------------------
+  Random           235.805293   235.805293     -0.000119   9.84e-07  -1.62e-05      
+  Total variance   235.805293   235.805293     -0.000119   9.84e-07  -1.62e-05      
+  Intercept         -0.000119    -0.000119      0.521216  -4.98e-13   8.19e-12      
+  sex_code           9.84e-07     9.84e-07     -4.98e-13   2.123407  -0.134436      
+  foo_selection     -1.62e-05    -1.62e-05      8.19e-12  -0.134436   2.210268      
+
+===============================
+     Likelihood Ratio Test
+===============================
+
+  H0 ln likelihood foo_selection without test covariates  -1853.566375  
+  H1 ln likelihood foo_selection with test covariates     -1792.275111  
+                                                                        
+  2 * |H0 - H1|                                             122.582527  
+  Degrees of freedom                                                 1  
+  P-value                                                     1.72e-28  
+
+=========================
+
+     Model 'foo_age'
+
+=========================
+
+============================
+     Sample description
+============================
+
+  Number of individuals in dataset                                   604  
+  Number of constituent pedigrees in dataset                          73  
+  Number of singletons in dataset                                      3  
+                                                                          
+  Number of constituent pedigree members with complete information   432  
+  Number of singletons with complete information                       2  
+                                                                          
+
+====================
+     Covariates
+====================
+
+------------------------------------------------------------
+  Name      Mean        Std. dev.   Min         Max         
+------------------------------------------------------------
+  sex_code    0.559908    0.496398    0.000000    1.000000  
+  foo_age    47.456221   12.045581   19.000000   84.000000  
+
+==============================================================
+     MAXIMIZATION RESULTS foo_age without test covariates
+==============================================================
+
+----------------------------------------------------------------------
+  Parameter       Estimate     S.E.        P-value     Deriv          
+----------------------------------------------------------------------
+  Variance components
+          Random   300.036039   20.367756  < 1.00e-07   0.0000000355  
+
+  Other parameters
+  Total variance   300.036039   20.367756  < 1.00e-07   0.0000000267  
+
+       Intercept   131.180995    0.831461  < 1.00e-07   0.0000000000  
+
+  Covariates
+        sex_code    -4.323880    1.674988   0.009839    0.0000000000  
+----------------------------------------------------------------------
+
+Final ln likelihood: -1853.566375
+
+====================================================================
+     VARIANCE-COVARIANCE MATRIX foo_age without test covariates
+====================================================================
+
+---------------------------------------------------------------------
+                  Random       Total variance  Intercept  sex_code   
+---------------------------------------------------------------------
+  Random           414.845495   414.845495     -0.000153   3.46e-05  
+  Total variance   414.845495   414.845495     -0.000153   3.46e-05  
+  Intercept         -0.000153    -0.000153      0.691327  -1.27e-11  
+  sex_code           3.46e-05     3.46e-05     -1.27e-11   2.805586  
+
+===========================================================
+     MAXIMIZATION RESULTS foo_age with test covariates
+===========================================================
+
+----------------------------------------------------------------------
+  Parameter       Estimate     S.E.        P-value     Deriv          
+----------------------------------------------------------------------
+  Variance components
+          Random   273.728887   18.581912  < 1.00e-07  -0.0000000936  
+
+  Other parameters
+  Total variance   273.728887   18.581912  < 1.00e-07   0.0000010291  
+
+       Intercept   131.180995    0.794174  < 1.00e-07  -0.0000002355  
+
+  Covariates
+        sex_code    -5.368967    1.608035   0.000841    0.0000000000  
+         foo_age     0.427976    0.066267  < 1.00e-07   0.0000000000  
+----------------------------------------------------------------------
+
+Final ln likelihood: -1833.653463
+
+=================================================================
+     VARIANCE-COVARIANCE MATRIX foo_age with test covariates
+=================================================================
+
+--------------------------------------------------------------------------------
+                  Random       Total variance  Intercept  sex_code   foo_age    
+--------------------------------------------------------------------------------
+  Random           345.287452   345.287452     -0.000140  -5.00e-06  -4.40e-07  
+  Total variance   345.287452   345.287452     -0.000140  -5.00e-06  -4.40e-07  
+  Intercept         -0.000140    -0.000140      0.630712   2.03e-12   1.79e-13  
+  sex_code          -5.00e-06    -5.00e-06      2.03e-12   2.585776  -0.010723  
+  foo_age           -4.40e-07    -4.40e-07      1.79e-13  -0.010723   0.004391  
+
+===============================
+     Likelihood Ratio Test
+===============================
+
+  H0 ln likelihood foo_age without test covariates  -1853.566375  
+  H1 ln likelihood foo_age with test covariates     -1833.653463  
+                                                                  
+  2 * |H0 - H1|                                        39.825823  
+  Degrees of freedom                                           1  
+  P-value                                               2.78e-10  
+
+=========================
+
+     Model 'foo_bmi'
+
+=========================
+
+============================
+     Sample description
+============================
+
+  Number of individuals in dataset                                   604  
+  Number of constituent pedigrees in dataset                          73  
+  Number of singletons in dataset                                      3  
+                                                                          
+  Number of constituent pedigree members with complete information   432  
+  Number of singletons with complete information                       2  
+                                                                          
+
+====================
+     Covariates
+====================
+
+-----------------------------------------------------------
+  Name      Mean        Std. dev.  Min         Max         
+-----------------------------------------------------------
+  sex_code    0.559908   0.496398    0.000000    1.000000  
+  foo_bmi    28.584562   5.176045   16.100000   48.400000  
+
+==============================================================
+     MAXIMIZATION RESULTS foo_bmi without test covariates
+==============================================================
+
+----------------------------------------------------------------------
+  Parameter       Estimate     S.E.        P-value     Deriv          
+----------------------------------------------------------------------
+  Variance components
+          Random   300.036039   20.367756  < 1.00e-07   0.0000000355  
+
+  Other parameters
+  Total variance   300.036039   20.367756  < 1.00e-07   0.0000000267  
+
+       Intercept   131.180995    0.831461  < 1.00e-07   0.0000000000  
+
+  Covariates
+        sex_code    -4.323880    1.674988   0.009839    0.0000000000  
+----------------------------------------------------------------------
+
+Final ln likelihood: -1853.566375
+
+====================================================================
+     VARIANCE-COVARIANCE MATRIX foo_bmi without test covariates
+====================================================================
+
+---------------------------------------------------------------------
+                  Random       Total variance  Intercept  sex_code   
+---------------------------------------------------------------------
+  Random           414.845495   414.845495     -0.000153   3.46e-05  
+  Total variance   414.845495   414.845495     -0.000153   3.46e-05  
+  Intercept         -0.000153    -0.000153      0.691327  -1.27e-11  
+  sex_code           3.46e-05     3.46e-05     -1.27e-11   2.805586  
+
+===========================================================
+     MAXIMIZATION RESULTS foo_bmi with test covariates
+===========================================================
+
+----------------------------------------------------------------------
+  Parameter       Estimate     S.E.        P-value     Deriv          
+----------------------------------------------------------------------
+  Variance components
+          Random   297.593903   20.201944  < 1.00e-07   0.0000011117  
+
+  Other parameters
+  Total variance   297.593903   20.201944  < 1.00e-07   0.0000022608  
+
+       Intercept   131.180994    0.828070  < 1.00e-07  -0.0000261374  
+
+  Covariates
+        sex_code    -5.012986    1.707656   0.003329    0.0000000000  
+         foo_bmi     0.309041    0.163769   0.059153    0.0000000000  
+----------------------------------------------------------------------
+
+Final ln likelihood: -1851.793200
+
+=================================================================
+     VARIANCE-COVARIANCE MATRIX foo_bmi with test covariates
+=================================================================
+
+--------------------------------------------------------------------------------
+                  Random       Total variance  Intercept  sex_code   foo_bmi    
+--------------------------------------------------------------------------------
+  Random           408.118542   408.118542     -0.000154  -2.03e-05   4.72e-06  
+  Total variance   408.118542   408.118542     -0.000154  -2.03e-05   4.72e-06  
+  Intercept         -0.000154    -0.000154      0.685700   7.64e-12  -1.78e-12  
+  sex_code          -2.03e-05    -2.03e-05      7.64e-12   2.916090  -0.059802  
+  foo_bmi            4.72e-06     4.72e-06     -1.78e-12  -0.059802   0.026820  
+
+===============================
+     Likelihood Ratio Test
+===============================
+
+  H0 ln likelihood foo_bmi without test covariates  -1853.566375  
+  H1 ln likelihood foo_bmi with test covariates     -1851.793200  
+                                                                  
+  2 * |H0 - H1|                                         3.546350  
+  Degrees of freedom                                           1  
+  P-value                                               0.059677  
+
+=================================
+
+     Model 'foo_sbpd_rand10'
+
+=================================
+
+============================
+     Sample description
+============================
+
+  Number of individuals in dataset                                   604  
+  Number of constituent pedigrees in dataset                          73  
+  Number of singletons in dataset                                      3  
+                                                                          
+  Number of constituent pedigree members with complete information   432  
+  Number of singletons with complete information                       2  
+                                                                          
+
+====================
+     Covariates
+====================
+
+---------------------------------------------------------------------
+  Name             Mean         Std. dev.   Min         Max          
+---------------------------------------------------------------------
+  sex_code            0.559908    0.496398    0.000000     1.000000  
+  foo_sbpd_rand10   132.181106   17.454032   84.900000   191.000000  
+
+======================================================================
+     MAXIMIZATION RESULTS foo_sbpd_rand10 without test covariates
+======================================================================
+
+----------------------------------------------------------------------
+  Parameter       Estimate     S.E.        P-value     Deriv          
+----------------------------------------------------------------------
+  Variance components
+          Random   300.036039   20.367756  < 1.00e-07   0.0000000355  
+
+  Other parameters
+  Total variance   300.036039   20.367756  < 1.00e-07   0.0000000267  
+
+       Intercept   131.180995    0.831461  < 1.00e-07   0.0000000000  
+
+  Covariates
+        sex_code    -4.323880    1.674988   0.009839    0.0000000000  
+----------------------------------------------------------------------
+
+Final ln likelihood: -1853.566375
+
+============================================================================
+     VARIANCE-COVARIANCE MATRIX foo_sbpd_rand10 without test covariates
+============================================================================
+
+---------------------------------------------------------------------
+                  Random       Total variance  Intercept  sex_code   
+---------------------------------------------------------------------
+  Random           414.845495   414.845495     -0.000153   3.46e-05  
+  Total variance   414.845495   414.845495     -0.000153   3.46e-05  
+  Intercept         -0.000153    -0.000153      0.691327  -1.27e-11  
+  sex_code           3.46e-05     3.46e-05     -1.27e-11   2.805586  
+
+===================================================================
+     MAXIMIZATION RESULTS foo_sbpd_rand10 with test covariates
+===================================================================
+
+-------------------------------------------------------------------------
+  Parameter        Estimate     S.E.         P-value      Deriv          
+-------------------------------------------------------------------------
+  Variance components
+           Random     7.85e-05         Ind. func. fixed near bnd         
+
+  Other parameters
+   Total variance     7.85e-05  Unavailable  Unavailable   0.0000110040  
+
+        Intercept   131.181106   0.000425    < 1.00e-07    0.0001145202  
+
+  Covariates
+         sex_code    -8.80e-12   0.000863     1.000000     0.0000000000  
+  foo_sbpd_rand10     1.000000   2.46e-05    < 1.00e-07    0.0000000000  
+-------------------------------------------------------------------------
+
+Final ln likelihood:  1652.364916
+
+=========================================================================
+     VARIANCE-COVARIANCE MATRIX foo_sbpd_rand10 with test covariates
+=========================================================================
+
+--------------------------------------------------------------------------------------------------------
+                                      Random     Total variance  Intercept  sex_code   foo_sbpd_rand10  
+--------------------------------------------------------------------------------------------------------
+  Random                               0.000000   0.000000        0.000000   0.000000   0.000000        
+  Total variance                       0.000000   0.000000        0.000000   0.000000   0.000000        
+  Intercept                            0.000000   0.000000        1.81e-07  -2.45e-18  -8.44e-21        
+  sex_code                             0.000000   0.000000       -2.45e-18   7.45e-07   2.61e-09        
+  foo_sbpd_rand10                      0.000000   0.000000       -8.44e-21   2.61e-09   6.03e-10        
+                                                                                                        
+  Likelihood Surface flat                                                                               
+  variance matrix near singular and                                                                     
+  may be affected by rounding error.                                                                    
+  Reducing the number of parameters                                                                     
+  to be estimated is recommended                                                                        
+
+===============================
+     Likelihood Ratio Test
+===============================
+
+  H0 ln likelihood foo_sbpd_rand10 without test covariates  -1853.566375  
+  H1 ln likelihood foo_sbpd_rand10 with test covariates      1652.364916  
+                                                                          
+  2 * |H0 - H1|                                              7011.862581  
+  Degrees of freedom                                                   1  
+  P-value                                                       1.000000  
+
+=============================
+
+     Model 'foo_na_u24c'
+
+=============================
+
+============================
+     Sample description
+============================
+
+  Number of individuals in dataset                                   604  
+  Number of constituent pedigrees in dataset                          73  
+  Number of singletons in dataset                                      3  
+                                                                          
+  Number of constituent pedigree members with complete information   423  
+  Number of singletons with complete information                       2  
+                                                                          
+
+====================
+     Covariates
+====================
+
+----------------------------------------------------------------
+  Name         Mean         Std. dev.   Min        Max          
+----------------------------------------------------------------
+  sex_code        0.555294    0.496933   0.000000     1.000000  
+  foo_na_u24c   106.973341   54.015420   4.130000   329.110000  
+
+==================================================================
+     MAXIMIZATION RESULTS foo_na_u24c without test covariates
+==================================================================
+
+----------------------------------------------------------------------
+  Parameter       Estimate     S.E.        P-value     Deriv          
+----------------------------------------------------------------------
+  Variance components
+          Random   297.732700   20.424277  < 1.00e-07  -0.0000000304  
+
+  Other parameters
+  Total variance   297.732700   20.424277  < 1.00e-07   0.0000000309  
+
+       Intercept   131.133772    0.836987  < 1.00e-07   0.0000000000  
+
+  Covariates
+        sex_code    -4.010422    1.684304   0.017263    0.0000000000  
+----------------------------------------------------------------------
+
+Final ln likelihood: -1813.490721
+
+========================================================================
+     VARIANCE-COVARIANCE MATRIX foo_na_u24c without test covariates
+========================================================================
+
+---------------------------------------------------------------------
+                  Random       Total variance  Intercept  sex_code   
+---------------------------------------------------------------------
+  Random           417.151076   417.151076     -0.000155   0.000000  
+  Total variance   417.151076   417.151076     -0.000155   0.000000  
+  Intercept         -0.000155    -0.000155      0.700548   0.000000  
+  sex_code           0.000000     0.000000      0.000000   2.836879  
+
+===============================================================
+     MAXIMIZATION RESULTS foo_na_u24c with test covariates
+===============================================================
+
+----------------------------------------------------------------------
+  Parameter       Estimate     S.E.        P-value     Deriv          
+----------------------------------------------------------------------
+  Variance components
+          Random   294.751922   20.219799  < 1.00e-07   0.0000005727  
+
+  Other parameters
+  Total variance   294.751922   20.219799  < 1.00e-07   0.0001593868  
+
+       Intercept   131.133772    0.832787  < 1.00e-07   0.0000034687  
+
+  Covariates
+        sex_code    -3.781233    1.679495   0.024360    0.0000000000  
+     foo_na_u24c     0.032032    0.015451   0.038158    0.0000000000  
+----------------------------------------------------------------------
+
+Final ln likelihood: -1811.352533
+
+=====================================================================
+     VARIANCE-COVARIANCE MATRIX foo_na_u24c with test covariates
+=====================================================================
+
+----------------------------------------------------------------------------------
+                  Random       Total variance  Intercept  sex_code   foo_na_u24c  
+----------------------------------------------------------------------------------
+  Random           408.840258   408.840258     -0.000153  -5.46e-06  -4.69e-08    
+  Total variance   408.840258   408.840258     -0.000153  -5.46e-06  -4.69e-08    
+  Intercept         -0.000153    -0.000153      0.693534   2.05e-12   1.76e-14    
+  sex_code          -5.46e-06    -5.46e-06      2.05e-12   2.820703   0.001708    
+  foo_na_u24c       -4.69e-08    -4.69e-08      1.76e-14   0.001708   0.000239    
+
+===============================
+     Likelihood Ratio Test
+===============================
+
+  H0 ln likelihood foo_na_u24c without test covariates  -1813.490721  
+  H1 ln likelihood foo_na_u24c with test covariates     -1811.352533  
+                                                                      
+  2 * |H0 - H1|                                             4.276377  
+  Degrees of freedom                                               1  
+  P-value                                                   0.038646  
+
+============================
+
+     Model 'foo_k_u24c'
+
+============================
+
+============================
+     Sample description
+============================
+
+  Number of individuals in dataset                                   604  
+  Number of constituent pedigrees in dataset                          73  
+  Number of singletons in dataset                                      3  
+                                                                          
+  Number of constituent pedigree members with complete information   423  
+  Number of singletons with complete information                       2  
+                                                                          
+
+====================
+     Covariates
+====================
+
+--------------------------------------------------------------
+  Name        Mean        Std. dev.   Min        Max          
+--------------------------------------------------------------
+  sex_code      0.555294    0.496933   0.000000     1.000000  
+  foo_k_u24c   45.255247   19.190001   4.920000   188.790000  
+
+=================================================================
+     MAXIMIZATION RESULTS foo_k_u24c without test covariates
+=================================================================
+
+----------------------------------------------------------------------
+  Parameter       Estimate     S.E.        P-value     Deriv          
+----------------------------------------------------------------------
+  Variance components
+          Random   297.732700   20.424277  < 1.00e-07  -0.0000000304  
+
+  Other parameters
+  Total variance   297.732700   20.424277  < 1.00e-07   0.0000000309  
+
+       Intercept   131.133772    0.836987  < 1.00e-07   0.0000000000  
+
+  Covariates
+        sex_code    -4.010422    1.684304   0.017263    0.0000000000  
+----------------------------------------------------------------------
+
+Final ln likelihood: -1813.490721
+
+=======================================================================
+     VARIANCE-COVARIANCE MATRIX foo_k_u24c without test covariates
+=======================================================================
+
+---------------------------------------------------------------------
+                  Random       Total variance  Intercept  sex_code   
+---------------------------------------------------------------------
+  Random           417.151076   417.151076     -0.000155   0.000000  
+  Total variance   417.151076   417.151076     -0.000155   0.000000  
+  Intercept         -0.000155    -0.000155      0.700548   0.000000  
+  sex_code           0.000000     0.000000      0.000000   2.836879  
+
+==============================================================
+     MAXIMIZATION RESULTS foo_k_u24c with test covariates
+==============================================================
+
+----------------------------------------------------------------------
+  Parameter       Estimate     S.E.        P-value     Deriv          
+----------------------------------------------------------------------
+  Variance components
+          Random   294.563305   20.207072  < 1.00e-07  -0.0000070463  
+
+  Other parameters
+  Total variance   294.563305   20.207072  < 1.00e-07   0.0000638122  
+
+       Intercept   131.133838    0.832520  < 1.00e-07   0.0000012454  
+
+  Covariates
+        sex_code    -3.722359    1.680718   0.026778    0.0000000000  
+      foo_k_u24c     0.093116    0.043523   0.032397    0.0000000000  
+----------------------------------------------------------------------
+
+Final ln likelihood: -1811.214262
+
+====================================================================
+     VARIANCE-COVARIANCE MATRIX foo_k_u24c with test covariates
+====================================================================
+
+---------------------------------------------------------------------------------
+                  Random       Total variance  Intercept  sex_code   foo_k_u24c  
+---------------------------------------------------------------------------------
+  Random           408.325751   408.325751     -6.13e-05   7.75e-06   1.61e-08   
+  Total variance   408.325751   408.325751     -6.13e-05   7.75e-06   1.61e-08   
+  Intercept         -6.13e-05    -6.13e-05      0.693090  -1.16e-12  -2.41e-15   
+  sex_code           7.75e-06     7.75e-06     -1.16e-12   2.824814   0.005860   
+  foo_k_u24c         1.61e-08     1.61e-08     -2.41e-15   0.005860   0.001894   
+
+===============================
+     Likelihood Ratio Test
+===============================
+
+  H0 ln likelihood foo_k_u24c without test covariates  -1813.490721  
+  H1 ln likelihood foo_k_u24c with test covariates     -1811.214262  
+                                                                     
+  2 * |H0 - H1|                                            4.552918  
+  Degrees of freedom                                              1  
+  P-value                                                  0.032863  
+
+==============================
+
+     Model 'foo_SEX_CODE'
+
+==============================
+
+============================
+     Sample description
+============================
+
+  Number of individuals in dataset                                   604  
+  Number of constituent pedigrees in dataset                          73  
+  Number of singletons in dataset                                      3  
+                                                                          
+  Number of constituent pedigree members with complete information   432  
+  Number of singletons with complete information                       2  
+                                                                          
+
+====================
+     Covariates
+====================
+
+------------------------------------------------------------
+  Name          Mean       Std. dev.  Min        Max        
+------------------------------------------------------------
+  sex_code       0.559908   0.496398   0.000000   1.000000  
+  foo_SEX_CODE   1.559908   0.496398   1.000000   2.000000  
+
+===================================================================
+     MAXIMIZATION RESULTS foo_SEX_CODE without test covariates
+===================================================================
+
+----------------------------------------------------------------------
+  Parameter       Estimate     S.E.        P-value     Deriv          
+----------------------------------------------------------------------
+  Variance components
+          Random   300.036039   20.367756  < 1.00e-07   0.0000000355  
+
+  Other parameters
+  Total variance   300.036039   20.367756  < 1.00e-07   0.0000000267  
+
+       Intercept   131.180995    0.831461  < 1.00e-07   0.0000000000  
+
+  Covariates
+        sex_code    -4.323880    1.674988   0.009839    0.0000000000  
+----------------------------------------------------------------------
+
+Final ln likelihood: -1853.566375
+
+=========================================================================
+     VARIANCE-COVARIANCE MATRIX foo_SEX_CODE without test covariates
+=========================================================================
+
+---------------------------------------------------------------------
+                  Random       Total variance  Intercept  sex_code   
+---------------------------------------------------------------------
+  Random           414.845495   414.845495     -0.000153   3.46e-05  
+  Total variance   414.845495   414.845495     -0.000153   3.46e-05  
+  Intercept         -0.000153    -0.000153      0.691327  -1.27e-11  
+  sex_code           3.46e-05     3.46e-05     -1.27e-11   2.805586  
+
+================================================================
+     MAXIMIZATION RESULTS foo_SEX_CODE with test covariates
+================================================================
+
+-----------------------------------------------------------------------
+  Parameter       Estimate     S.E.         P-value     Deriv          
+-----------------------------------------------------------------------
+  Variance components
+          Random   300.036299    20.367790  < 1.00e-07  -0.0000000002  
+
+  Other parameters
+  Total variance   300.036299    20.367790  < 1.00e-07   0.0000003989  
+
+       Intercept   131.181106     0.831461  < 1.00e-07   0.0000001349  
+
+  Covariates
+        sex_code    -4.323905   301.661510   0.988564    0.0000000000  
+    foo_SEX_CODE    -1.43e-09   301.657628   1.000000    0.0000000000  
+-----------------------------------------------------------------------
+
+Final ln likelihood: -1853.566375
+
+======================================================================
+     VARIANCE-COVARIANCE MATRIX foo_SEX_CODE with test covariates
+======================================================================
+
+----------------------------------------------------------------------------------------
+                  Random       Total variance  Intercept  sex_code       foo_SEX_CODE   
+----------------------------------------------------------------------------------------
+  Random           414.846873   414.846873      0.000000       0.000000       0.000000  
+  Total variance   414.846873   414.846873      0.000000       0.000000       0.000000  
+  Intercept          0.000000     0.000000      0.691328       0.000000       0.000000  
+  sex_code           0.000000     0.000000      0.000000   90999.666718  -90997.092827  
+  foo_SEX_CODE       0.000000     0.000000      0.000000  -90997.092827   90997.324522  
+
+===============================
+     Likelihood Ratio Test
+===============================
+
+  H0 ln likelihood foo_SEX_CODE without test covariates  -1853.566375  
+  H1 ln likelihood foo_SEX_CODE with test covariates     -1853.566375  
+                                                                       
+  2 * |H0 - H1|                                              1.81e-08  
+  Degrees of freedom                                                1  
+  P-value                                                    0.999893  
+
+========================================
+
+     Model 'foo_FAMILIAL_INDICATOR'
+
+========================================
+
+============================
+     Sample description
+============================
+
+  Number of individuals in dataset                                   604  
+  Number of constituent pedigrees in dataset                          73  
+  Number of singletons in dataset                                      3  
+                                                                          
+  Number of constituent pedigree members with complete information   432  
+  Number of singletons with complete information                       2  
+                                                                          
+
+====================
+     Covariates
+====================
+
+----------------------------------------------------------------------
+  Name                    Mean       Std. dev.  Min        Max        
+----------------------------------------------------------------------
+  sex_code                 0.559908   0.496398   0.000000   1.000000  
+  foo_FAMILIAL_INDICATOR   1.995392   0.067728   1.000000   2.000000  
+
+=============================================================================
+     MAXIMIZATION RESULTS foo_FAMILIAL_INDICATOR without test covariates
+=============================================================================
+
+----------------------------------------------------------------------
+  Parameter       Estimate     S.E.        P-value     Deriv          
+----------------------------------------------------------------------
+  Variance components
+          Random   300.036039   20.367756  < 1.00e-07   0.0000000355  
+
+  Other parameters
+  Total variance   300.036039   20.367756  < 1.00e-07   0.0000000267  
+
+       Intercept   131.180995    0.831461  < 1.00e-07   0.0000000000  
+
+  Covariates
+        sex_code    -4.323880    1.674988   0.009839    0.0000000000  
+----------------------------------------------------------------------
+
+Final ln likelihood: -1853.566375
+
+===================================================================================
+     VARIANCE-COVARIANCE MATRIX foo_FAMILIAL_INDICATOR without test covariates
+===================================================================================
+
+---------------------------------------------------------------------
+                  Random       Total variance  Intercept  sex_code   
+---------------------------------------------------------------------
+  Random           414.845495   414.845495     -0.000153   3.46e-05  
+  Total variance   414.845495   414.845495     -0.000153   3.46e-05  
+  Intercept         -0.000153    -0.000153      0.691327  -1.27e-11  
+  sex_code           3.46e-05     3.46e-05     -1.27e-11   2.805586  
+
+==========================================================================
+     MAXIMIZATION RESULTS foo_FAMILIAL_INDICATOR with test covariates
+==========================================================================
+
+------------------------------------------------------------------------------
+  Parameter               Estimate     S.E.        P-value     Deriv          
+------------------------------------------------------------------------------
+  Variance components
+                  Random   300.035876   20.367761  < 1.00e-07  -0.0000000022  
+
+  Other parameters
+          Total variance   300.035876   20.367761  < 1.00e-07   0.0000007999  
+
+               Intercept   131.181105    0.831461  < 1.00e-07  -0.0000004046  
+
+  Covariates
+                sex_code    -4.327102    1.679942   0.010002    0.0000000000  
+  foo_FAMILIAL_INDICATOR     0.305280   12.312859   0.980220    0.0000000000  
+------------------------------------------------------------------------------
+
+Final ln likelihood: -1853.566067
+
+================================================================================
+     VARIANCE-COVARIANCE MATRIX foo_FAMILIAL_INDICATOR with test covariates
+================================================================================
+
+-----------------------------------------------------------------------------------------------------------------
+                                      Random       Total variance  Intercept  sex_code   foo_FAMILIAL_INDICATOR  
+-----------------------------------------------------------------------------------------------------------------
+  Random                               414.845676   414.845676      0.000000   0.000000     0.000000             
+  Total variance                       414.845676   414.845676      0.000000   0.000000     0.000000             
+  Intercept                              0.000000     0.000000      0.691327   1.29e-11    -1.23e-09             
+  sex_code                               0.000000     0.000000      1.29e-11   2.822206    -1.587512             
+  foo_FAMILIAL_INDICATOR                 0.000000     0.000000     -1.23e-09  -1.587512   151.606504             
+                                                                                                                 
+  Likelihood Surface flat                                                                                        
+  variance matrix near singular and                                                                              
+  may be affected by rounding error.                                                                             
+  Reducing the number of parameters                                                                              
+  to be estimated is recommended                                                                                 
+
+===============================
+     Likelihood Ratio Test
+===============================
+
+  H0 ln likelihood foo_FAMILIAL_INDICATOR without test covariates  -1853.566375  
+  H1 ln likelihood foo_FAMILIAL_INDICATOR with test covariates     -1853.566067  
+                                                                                 
+  2 * |H0 - H1|                                                        0.000615  
+  Degrees of freedom                                                          1  
+  P-value                                                              0.980219  
+
+=======================================
+
+     Model 'foo_FOUNDER_INDICATOR'
+
+=======================================
+
+============================
+     Sample description
+============================
+
+  Number of individuals in dataset                                   604  
+  Number of constituent pedigrees in dataset                          73  
+  Number of singletons in dataset                                      3  
+                                                                          
+  Number of constituent pedigree members with complete information   432  
+  Number of singletons with complete information                       2  
+                                                                          
+
+====================
+     Covariates
+====================
+
+---------------------------------------------------------------------
+  Name                   Mean       Std. dev.  Min        Max        
+---------------------------------------------------------------------
+  sex_code                0.559908   0.496398   0.000000   1.000000  
+  foo_FOUNDER_INDICATOR   1.050691   0.219366   1.000000   2.000000  
+
+============================================================================
+     MAXIMIZATION RESULTS foo_FOUNDER_INDICATOR without test covariates
+============================================================================
+
+----------------------------------------------------------------------
+  Parameter       Estimate     S.E.        P-value     Deriv          
+----------------------------------------------------------------------
+  Variance components
+          Random   300.036039   20.367756  < 1.00e-07   0.0000000355  
+
+  Other parameters
+  Total variance   300.036039   20.367756  < 1.00e-07   0.0000000267  
+
+       Intercept   131.180995    0.831461  < 1.00e-07   0.0000000000  
+
+  Covariates
+        sex_code    -4.323880    1.674988   0.009839    0.0000000000  
+----------------------------------------------------------------------
+
+Final ln likelihood: -1853.566375
+
+==================================================================================
+     VARIANCE-COVARIANCE MATRIX foo_FOUNDER_INDICATOR without test covariates
+==================================================================================
+
+---------------------------------------------------------------------
+                  Random       Total variance  Intercept  sex_code   
+---------------------------------------------------------------------
+  Random           414.845495   414.845495     -0.000153   3.46e-05  
+  Total variance   414.845495   414.845495     -0.000153   3.46e-05  
+  Intercept         -0.000153    -0.000153      0.691327  -1.27e-11  
+  sex_code           3.46e-05     3.46e-05     -1.27e-11   2.805586  
+
+=========================================================================
+     MAXIMIZATION RESULTS foo_FOUNDER_INDICATOR with test covariates
+=========================================================================
+
+-----------------------------------------------------------------------------
+  Parameter              Estimate     S.E.        P-value     Deriv          
+-----------------------------------------------------------------------------
+  Variance components
+                 Random   298.922292   20.292150  < 1.00e-07  -0.0000000677  
+
+  Other parameters
+         Total variance   298.922292   20.292150  < 1.00e-07   0.0000000319  
+
+              Intercept   131.180995    0.829916  < 1.00e-07   0.0000162285  
+
+  Covariates
+               sex_code    -4.354616    1.672051   0.009205    0.0000000000  
+  foo_FOUNDER_INDICATOR     4.811372    3.783636   0.203506    0.0000000000  
+-----------------------------------------------------------------------------
+
+Final ln likelihood: -1852.759343
+
+===============================================================================
+     VARIANCE-COVARIANCE MATRIX foo_FOUNDER_INDICATOR with test covariates
+===============================================================================
+
+---------------------------------------------------------------------------------------------------
+                         Random       Total variance  Intercept  sex_code   foo_FOUNDER_INDICATOR  
+---------------------------------------------------------------------------------------------------
+  Random                  411.771372   411.771372     -0.000152  -3.80e-05   -7.51e-05             
+  Total variance          411.771372   411.771372     -0.000152  -3.80e-05   -7.51e-05             
+  Intercept                -0.000152    -0.000152      0.688761   1.41e-11    2.78e-11             
+  sex_code                 -3.80e-05    -3.80e-05      1.41e-11   2.795753   -0.091301             
+  foo_FOUNDER_INDICATOR    -7.51e-05    -7.51e-05      2.78e-11  -0.091301   14.315901             
+
+===============================
+     Likelihood Ratio Test
+===============================
+
+  H0 ln likelihood foo_FOUNDER_INDICATOR without test covariates  -1853.566375  
+  H1 ln likelihood foo_FOUNDER_INDICATOR with test covariates     -1852.759343  
+                                                                                
+  2 * |H0 - H1|                                                       1.614064  
+  Degrees of freedom                                                         1  
+  P-value                                                             0.203921  
+
+===================================
+
+     Model 'foo_PEDIGREE_SIZE'
+
+===================================
+
+============================
+     Sample description
+============================
+
+  Number of individuals in dataset                                   604  
+  Number of constituent pedigrees in dataset                          73  
+  Number of singletons in dataset                                      3  
+                                                                          
+  Number of constituent pedigree members with complete information   432  
+  Number of singletons with complete information                       2  
+                                                                          
+
+====================
+     Covariates
+====================
+
+-------------------------------------------------------------------
+  Name               Mean        Std. dev.  Min        Max         
+-------------------------------------------------------------------
+  sex_code             0.559908   0.496398   0.000000    1.000000  
+  foo_PEDIGREE_SIZE   10.523041   3.699629   2.000000   21.000000  
+
+========================================================================
+     MAXIMIZATION RESULTS foo_PEDIGREE_SIZE without test covariates
+========================================================================
+
+----------------------------------------------------------------------
+  Parameter       Estimate     S.E.        P-value     Deriv          
+----------------------------------------------------------------------
+  Variance components
+          Random   300.036039   20.367756  < 1.00e-07   0.0000000355  
+
+  Other parameters
+  Total variance   300.036039   20.367756  < 1.00e-07   0.0000000267  
+
+       Intercept   131.180995    0.831461  < 1.00e-07   0.0000000000  
+
+  Covariates
+        sex_code    -4.323880    1.674988   0.009839    0.0000000000  
+----------------------------------------------------------------------
+
+Final ln likelihood: -1853.566375
+
+==============================================================================
+     VARIANCE-COVARIANCE MATRIX foo_PEDIGREE_SIZE without test covariates
+==============================================================================
+
+---------------------------------------------------------------------
+                  Random       Total variance  Intercept  sex_code   
+---------------------------------------------------------------------
+  Random           414.845495   414.845495     -0.000153   3.46e-05  
+  Total variance   414.845495   414.845495     -0.000153   3.46e-05  
+  Intercept         -0.000153    -0.000153      0.691327  -1.27e-11  
+  sex_code           3.46e-05     3.46e-05     -1.27e-11   2.805586  
+
+=====================================================================
+     MAXIMIZATION RESULTS foo_PEDIGREE_SIZE with test covariates
+=====================================================================
+
+-------------------------------------------------------------------------
+  Parameter          Estimate     S.E.        P-value     Deriv          
+-------------------------------------------------------------------------
+  Variance components
+             Random   298.703478   20.277296  < 1.00e-07   0.0000000564  
+
+  Other parameters
+     Total variance   298.703478   20.277296  < 1.00e-07  -0.0000001110  
+
+          Intercept   131.180995    0.829612  < 1.00e-07  -0.0000420818  
+
+  Covariates
+           sex_code    -4.166253    1.675100   0.012877    0.0000000000  
+  foo_PEDIGREE_SIZE    -0.312730    0.224757   0.164099    0.0000000000  
+-------------------------------------------------------------------------
+
+Final ln likelihood: -1852.600463
+
+===========================================================================
+     VARIANCE-COVARIANCE MATRIX foo_PEDIGREE_SIZE with test covariates
+===========================================================================
+
+-------------------------------------------------------------------------------------------
+                     Random       Total variance  Intercept  sex_code   foo_PEDIGREE_SIZE  
+-------------------------------------------------------------------------------------------
+  Random              411.168732   411.168732     -0.000152   3.81e-05   1.01e-05          
+  Total variance      411.168732   411.168732     -0.000152   3.81e-05   1.01e-05          
+  Intercept            -0.000152    -0.000152      0.688257  -1.41e-11  -3.74e-12          
+  sex_code              3.81e-05     3.81e-05     -1.41e-11   2.805959  -0.025461          
+  foo_PEDIGREE_SIZE     1.01e-05     1.01e-05     -3.74e-12  -0.025461   0.050515          
+
+===============================
+     Likelihood Ratio Test
+===============================
+
+  H0 ln likelihood foo_PEDIGREE_SIZE without test covariates  -1853.566375  
+  H1 ln likelihood foo_PEDIGREE_SIZE with test covariates     -1852.600463  
+                                                                            
+  2 * |H0 - H1|                                                   1.931824  
+  Degrees of freedom                                                     1  
+  P-value                                                         0.164559  
+

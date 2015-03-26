@@ -1,0 +1,420 @@
+#!/usr/local/bin/python
+#============================================================================
+# File:      pool_simulate
+#                                                                          
+# Author:    Dan Baechle
+#                                                                          
+# History:   1/25/6  Created.
+#            3/20/6  Modified to create EHP.R data files.
+#                                                                          
+# Notes:     Generate pool genotypes to be used by a program that estimates
+#            haplotype frequencies.  Haplotypes and their frequencies
+#            are given in the pool_sim_params module.  The program is completely
+#            general with respect to the number of loci and the number of
+#            alleles at any given locus.
+#
+#============================================================================
+
+import os
+import sys
+import random
+import math
+from copy import deepcopy
+
+pwd = os.environ['PWD']
+sys.path.append(pwd)
+
+from pool_sim_params import *
+
+EHP_R = True
+
+######################### Preliminaries #########################
+
+# - Insure that specified haplotype frequencies total to 1 and that
+#   the haplotypes are all the same length.
+#
+def check_params():
+  if not haps_uniform():
+    sys.stderr.write('Not all haplotypes are the same length.\n')
+    sys.exit(1)
+    
+  normalize_frequencies()
+  
+  
+# - Are the specified haplotypes all of the same length?
+#
+def haps_uniform():
+  uniform = True
+  hap_length = len(haps[0][1])
+  for h in range(1, len(haps)):
+    if len(haps[h][1]) != hap_length:
+      uniform = False
+      break
+      
+  return  uniform
+    
+
+# - If total of haplotype frequencies not w/i epsilon of 1,
+#   print a warning and normalize them.
+#
+def normalize_frequencies():
+  epsilon = .01
+  freq_total = 0
+  for h in range(len(haps)):
+    freq_total += haps[h][0]
+    
+  if abs(1 - freq_total) > epsilon:
+    sys.stderr.write('Warning.  Haplotype frequencies do not total to 1.  Normalizing ...\n')
+    for h in range(len(haps)):
+      haps[h][0] /= float(freq_total)
+      # print haps[h][0]
+    
+def create_allele_list():
+  allele_list = []
+  for l in range(len(haps[0][1])):
+    alleles = {}
+    for hap in haps:
+      alleles[hap[1][l]] = 0
+      
+    allele_list.append(alleles)
+    
+  return  allele_list
+
+def write_pools_sub_block(allele_list):
+  pools_file = open('pools_sub_block.txt', 'w')
+  
+  pools_file.write('pools\n')
+  pools_file.write('{\n')
+  pools_file.write('  pool_size=%d\n\n' % pool_size)
+  
+  trait_idx = 0
+  allele_count = len(allele_list)
+  for l in range(allele_count):
+    pools_file.write('  locus=%d\n' % (l + 1))
+    pools_file.write('  {\n')
+    alleles = allele_list[l].keys()
+    for a in range(len(alleles) - 1):
+      trait_idx += 1
+      pools_file.write('    allele=%s, trait=T%d\n' % (alleles[a], trait_idx))
+      
+    pools_file.write('    last_allele=%s\n' % alleles[-1])
+    pools_file.write('  }\n')
+    
+    if(l != allele_count - 1):
+      pools_file.write('\n')
+    
+  pools_file.write('}\n')
+    
+  pools_file.close()
+
+
+# - Create a list whose values define bounds of a sequence of intervals
+#   proportional to the haplotype frequencies.
+# 
+def create_hap_intervals():
+  hap_intervals = []
+
+  running_total = 0.0
+  hap_intervals.append(running_total)
+  for h in range(len(haps)):
+    running_total += haps[h][0]
+    hap_intervals.append(running_total)
+    
+  return  hap_intervals
+
+######################### Record Creation #########################
+
+
+# - Records are of the format, [ m1[a1, a2, ...], m2[a1, a2, ...], ...], 
+#   where m is a marker locus and a is an allele.
+#
+def create_records():
+  records = []
+  for pool in range(pool_count):
+    record = []
+    haplotypes = []    
+    record += get_genotypes(haplotypes)
+    
+    # - Tabulate actual haplotype counts.
+    #
+    for hap in haplotypes:
+      hap_counts[hap] += 1    
+    
+    records.append(record)
+    
+  write_counts()
+    
+  #print "raw records ",
+  #print records
+  
+  reformat_records_1(records)
+  
+  if fraction_missing_data:
+    inject_missing_data(records)
+  
+  if EHP_R:
+    print_results_ehp_r(records)
+  
+  #print "count format ",
+  #print records
+  
+  reformat_records_2(records)
+
+  #print "weight format ",
+  #print records  
+    
+  if fraction_ambiguous_data:
+    inject_ambiguous_data(records)
+
+  return  records
+
+
+# - Log actual haplotype frequencies.
+#    
+def write_counts():
+  freqs = []
+  total_count = reduce(lambda a, b : a + b, hap_counts)
+  for c in range(len(hap_counts)):
+    freqs.append(frequency(float(hap_counts[c]) / float(total_count),
+                      haplotype_string(c)))
+
+  freqs.sort()
+  freqs.reverse()
+
+  counts = open('counts.log', 'w')
+  for freq in freqs:
+    counts.write('%s\n' % freq.__repr__())
+
+  counts.close()
+
+    
+def get_genotypes(haplotypes):
+  for h in range(pool_size):
+    haplotypes.append(get_haplotype())
+
+  genotypes = []  
+  for l in range(len(haps[0][1])):
+    genotype = []
+    for h in haplotypes:
+      genotype.append(haps[h][1][l])
+      
+    genotypes.append(genotype)
+    
+  return genotypes
+   
+
+# - pick a haplotype with frequencies specified in haps.
+#
+def get_haplotype():
+  random_number = random.uniform(hap_intervals[0], hap_intervals[-1])
+  haplotype = 0
+  while random_number > hap_intervals[haplotype + 1]:
+    haplotype += 1
+    
+  return  haplotype
+  
+
+def haplotype_string(h):
+  return  reduce(lambda a, b : '%s-%s' % (a, b), haps[h][1])
+
+# - Put records in the form [ l1{a1:c1, ...}, l2{a1:c1, ...}, ...] where l's
+#   are loci, a's are alleles and c's are counts.
+#
+def reformat_records_1(records):
+  for record in records:
+    for l in range(len(record)):
+      locus = deepcopy(allele_list[l])
+      for allele in record[l]:
+        locus[allele] += 1
+        
+      record[l] = locus
+
+
+# - Change allele counts to allele weights.
+#
+def reformat_records_2(records):
+  for record in records:
+    for locus in record:  
+      alleles = locus.keys()
+      for a in range(len(alleles)):
+        if locus[alleles[a]] != -1:
+          locus[alleles[a]] = float(locus[alleles[a]]) / float(pool_size)
+
+
+def inject_ambiguous_data(records):
+  if not EHP_R:
+    for record in records:
+      for locus in record:
+        if take_action(fraction_ambiguous_data):
+          if take_action(.5):
+            make_ambiguous_plus(locus)
+          else:
+            make_ambiguous_minus(locus)
+  else:
+    print 'Cannot produce ambiguous data when EHP_R is true!'
+    sys.exit(1)
+       
+   
+# - Note: May result in an individual allele weight or an allele 
+#         total greater than 1, in which case, Decipher will treat 
+#         this locus as missing.
+#
+def make_ambiguous_plus(locus):
+  #print 'plus'
+  #print_locus(locus, True)
+  #print
+  
+  factor = 1.01 * ambiguity_factor()
+  keys = locus.keys()
+  for a in range(len(keys)):
+    if a == len(keys) - 1:
+      locus[keys[a]] = 1 - reduce(lambda a, b : a + b, locus.values()[:-1])
+    else:
+      locus[keys[a]] += factor
+
+  #print_locus(locus, True)
+  #print
+  #print
+
+  
+# - Note: May result in an individual allele weight or an allele 
+#         total less than 0, in which case, Decipher will treat 
+#         this locus as missing.
+#
+def make_ambiguous_minus(locus):
+  #print 'minus'
+  #print_locus(locus, True)
+  #print
+
+  factor = 1.01 * ambiguity_factor()
+  keys = locus.keys()
+  for a in range(len(keys)):
+    if a == len(keys) - 1:
+      locus[keys[a]] = 1 - reduce(lambda a, b : a + b, locus.values()[:-1])
+    else:
+      locus[keys[a]] -= factor
+    
+  #print_locus(locus, True)
+  #print
+  #print
+
+
+def ambiguity_factor():
+  return  1.0 / pool_size / 2.0
+  
+  
+def inject_missing_data(records):
+  for record in records:
+    for locus in record:
+      if take_action(fraction_missing_data):
+        for allele in locus.keys():
+          locus[allele] = -1
+
+
+# - Return 'True' the given fraction of the time.
+#
+def take_action(fraction):
+  missing = False
+  random_number = random.uniform(0, 1)
+  if random_number < fraction:
+    missing = True
+    
+  return  missing  
+  
+############################ Output ############################
+
+def print_haplotype(h):
+  print reduce(lambda a, b : '%s %s' % (a, b), haps[h][1])  
+
+def print_results(allele_list, records):
+  print_header(allele_list)
+  print_data(records)
+    
+  
+def print_header(allele_list):
+  header = 'PID ID P1 P2 SEX '
+  trait_idx = 0
+  for locus in allele_list:
+    for a in range(len(locus) - 1):
+      trait_idx += 1
+      header += 'T%d ' % trait_idx
+    
+  print header  
+
+  
+def print_data(records):
+  for r in range(len(records)):
+    print '1 %d 0 0 M ' % (r + 1),
+    for locus in records[r]:
+      print_locus(locus, False)
+      
+    print 
+    
+
+def print_locus(locus, debug):
+  weights = locus.values()
+  if debug:
+    for weight in weights:
+      count = math.floor(weight * pool_size + .5)
+      print '%f(%d) ' % (weight, count),
+  else:
+    for weight in weights[:-1]:
+      print '%f ' % weight,
+    
+
+class frequency:
+  def __init__(self, freq, name):
+    self.freq = freq
+    self.name = name
+    
+  def __repr__(self):
+    return  '%s    %f' % (self.name, self.freq)
+
+  def __cmp__(self, other):
+    return  cmp(self.freq, other.freq)
+
+
+# - Assumes records are in 'allele count' format.
+#
+def print_results_ehp_r(records):
+  ehp_r_file = open('ehp_r_ped', 'w')
+    
+  for record in records:
+    for locus in record:
+      ehp_r_file.write('%d ' % locus.values()[1])
+      
+    ehp_r_file.write('\n')
+  
+  ehp_r_file.close()
+  
+
+  
+# - MAIN -
+#
+check_params()
+
+# - For tallying actual haplotype counts.
+#
+hap_counts = []
+for h in range(len(haps)):
+  hap_counts.append(0)
+
+allele_list = create_allele_list()
+#print allele_list
+
+write_pools_sub_block(allele_list)
+
+hap_intervals = create_hap_intervals()
+#print hap_intervals
+
+records = create_records()
+  
+"""
+for record in records:
+  print record
+"""
+
+print_results(allele_list, records)
+
+sys.exit(0)
+

@@ -1,0 +1,276 @@
+Making test_indexed_map: "Indexed Map Test"
+
+Linking                 (C++) test_indexed_map
+Making test_sequence_map: "Indexed Map Test"
+
+Linking                 (C++) test_sequence_map
+Making test_anyvector: "AnyVector test"
+
+Linking                 (C++) test_anyvector
+Making liberror.a: error Library
+
+Making libLSF.a: LSF Library
+
+Making LSFtest: LSF test program
+
+Linking                 (C++) LSFtest
+Making xml_convert: LSF-to-XML converter
+
+Linking                 (C++) xml_convert
+Making libfortran.a: "Fortran Parsing blob"
+
+Making libnumerics.a: numerics Library
+
+Making libutil.a: "Util library"
+
+Making test_disambiguator: Test disambiguator
+
+Linking                 (C++) test_disambiguator
+Making test_regex: Test regex functions
+
+Linking                 (C++) test_regex
+Making test_autotrace: Test auto tracer
+
+Linking                 (C++) test_autotrace
+Making test_stringutils: Test string utils
+
+Linking                 (C++) test_stringutils
+Making test_typeinfo: Test type info
+
+Linking                 (C++) test_typeinfo
+Making test_outline: Test outline outline
+
+Linking                 (C++) test_outline
+Making liboutput.a: "Output library"
+
+Making libapp.a: "Application Framework Code"
+
+Making test_app: Age of Onset Application
+
+Linking                 (C++) test_app
+../../../../../../auxx/extern_libs/archive/i386-linux2.0-gcc/libpython1.5.a(importdl.o): In function `_PyImport_LoadDynamicModule':
+/root/auxx/extern_libs/tarballs/Python-1.5.2/Python/./importdl.c:444: warning: Using 'dlopen' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+Making test_functor: "Functor / sequence test"
+
+Linking                 (C++) test_functor
+Making libmped.a: New MultiPedigree Library
+
+Making a2_test: New MultiPedigree Test
+
+Linking                 (C++) a2_test
+Making libmlocus.a: New Multi Locus Library
+
+Making test_mlocus: New Multi Locus Test
+
+Linking                 (C++) test_mlocus
+Making librped.a: New General Referenced Pedigree Library
+
+Making test_rp_info: Test of MP File Input
+
+Linking                 (C++) test_rp_info
+Making mpfiletest: Test of MP File Input
+
+Linking                 (C++) mpfiletest
+Making loop_test: "Multi-pedigree loop test program"
+
+Linking                 (C++) loop_test
+Making libpairs.a: New Pairs Library
+
+Making testrelmatrix: Test of relationship matrix
+
+Linking                 (C++) testrelmatrix
+Making testrelpair: Test of filtering pair generator
+
+Linking                 (C++) testrelpair
+Making testrelpair_simple: Simple test of pair generator
+
+Linking                 (C++) testrelpair_simple
+Making testindfilter: Test of individual filter
+
+Linking                 (C++) testindfilter
+Making libfped.a: FILTERED Pedigree Library
+
+Making filter_test: "Multi-pedigree loop test program"
+
+Linking                 (C++) filter_test
+Making libfunc.a: Function library
+
+Making test_func: Test of function code
+
+Linking                 (C++) test_func
+../../../../../../auxx/extern_libs/archive/i386-linux2.0-gcc/libpython1.5.a(importdl.o): In function `_PyImport_LoadDynamicModule':
+/root/auxx/extern_libs/tarballs/Python-1.5.2/Python/./importdl.c:444: warning: Using 'dlopen' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+Making test_parse: Test of parsing code
+
+Linking                 (C++) test_parse
+Making test_expression: Test of expression code
+
+Linking                 (C++) test_expression
+../../../../../../auxx/extern_libs/archive/i386-linux2.0-gcc/libpython1.5.a(importdl.o): In function `_PyImport_LoadDynamicModule':
+/root/auxx/extern_libs/tarballs/Python-1.5.2/Python/./importdl.c:444: warning: Using 'dlopen' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+Making libsampling.a: "SAGE Sampling Library"
+
+Making test_sampling: Sampling test executable
+
+Linking                 (C++) test_sampling
+../../../../../../auxx/extern_libs/archive/i386-linux2.0-gcc/libpython1.5.a(importdl.o): In function `_PyImport_LoadDynamicModule':
+/root/auxx/extern_libs/tarballs/Python-1.5.2/Python/./importdl.c:444: warning: Using 'dlopen' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+Making libgelim.a: "Genotype Elimination Library"
+
+Making test_gelim: Test of MP File Input
+
+Linking                 (C++) test_gelim
+Making libdata.a: "SAGE Application Data"
+
+Making test_cmdline: Tests the command line parsing stuff
+
+Linking                 (C++) test_cmdline
+Making test_peeler2: Test of MP File Input
+
+Linking                 (C++) test_peeler2
+Making liblvec.a: "Likelihood Vector Library"
+
+Making test_ivg: "Inheritance Vector test Program"
+
+Linking                 (C++) test_ivg
+../../../../../../auxx/extern_libs/archive/i386-linux2.0-gcc/libpython1.5.a(importdl.o): In function `_PyImport_LoadDynamicModule':
+/root/auxx/extern_libs/tarballs/Python-1.5.2/Python/./importdl.c:444: warning: Using 'dlopen' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+Making test_nodes: "Node Testing Program"
+
+Linking                 (C++) test_nodes
+Making libmcmc.a: "MCMC simulation Library"
+
+Making test_mcmc: "MCMC Components Testing Program"
+
+Linking                 (C++) test_mcmc
+../../../../../../auxx/extern_libs/archive/i386-linux2.0-gcc/libpython1.5.a(importdl.o): In function `_PyImport_LoadDynamicModule':
+/root/auxx/extern_libs/tarballs/Python-1.5.2/Python/./importdl.c:444: warning: Using 'dlopen' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+Making libibd.a: "Identical By Descent Library"
+
+Making libpalbase.a: New Pairs Library
+
+Making libmaxfun.a: Maxfun Library
+
+Making maxex2: Simple Maxfun example
+
+Linking                 (C++) maxex2
+Making maxex3: Simple Maxfun example
+
+Linking                 (C++) maxex3
+Making maxex4: Simple Maxfun example
+
+Linking                 (C++) maxex4
+Making libmaxfunapi.a: Maxfun API
+
+Making maxtest: Maxfun API Test
+
+Linking                 (C++) maxtest
+Making maxtest2: Maxfun API Test
+
+Linking                 (C++) maxtest2
+Making libmfsubmodels.a: Maxfun Submodels
+
+Making test_type_specific_submodel: Test for TypeSpecificSubmodel
+
+Linking                 (C++) test_type_specific_submodel
+../../../../../../auxx/extern_libs/archive/i386-linux2.0-gcc/libpython1.5.a(importdl.o): In function `_PyImport_LoadDynamicModule':
+/root/auxx/extern_libs/tarballs/Python-1.5.2/Python/./importdl.c:444: warning: Using 'dlopen' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+Making test_transformation_submodel: Test for TransformationSubmodel
+
+Linking                 (C++) test_transformation_submodel
+Making libageon.a: "Age of Onset library"
+
+Making ageon: Age of Onset Application
+
+Making libassoc.a: "Assoc library"
+
+Making assoc: Assoc Application
+
+Making libdecipher.a: "decipher library"
+
+Making decipher: DECIPHER Application
+
+Making libfcor.a: New Fcor Library
+
+Making fcor: "Multi-pedigree correlation program"
+
+Making freq: "FREQ"
+
+Making libgenibd.a: "IBD generator program Library"
+
+Making genibd: "IBD generator program"
+
+Making liblodlink.a: "lodlink library"
+
+Making lodlink: LODLINK Application
+
+Making test_parser: Test of lodlink parser
+
+Linking                 (C++) test_parser
+../../../../../../auxx/extern_libs/archive/i386-linux2.0-gcc/libpython1.5.a(importdl.o): In function `_PyImport_LoadDynamicModule':
+/root/auxx/extern_libs/tarballs/Python-1.5.2/Python/./importdl.c:444: warning: Using 'dlopen' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+Making test_mle: Test of lodlink mle_sub_model
+
+Linking                 (C++) test_mle
+Making test_tcalc: Test of lodlink trans_calculator class
+
+Linking                 (C++) test_tcalc
+Making test_peeler: Test of lodlink peeler class
+
+Linking                 (C++) test_peeler
+Making test_mpcalc: Test of likelihood calculator classes
+
+Linking                 (C++) test_mpcalc
+Making test_max: Test of maximization
+
+Linking                 (C++) test_max
+Making liblodpal.a: "Lodpal Library"
+
+Making lodpal: "LODSCORE test of Affected Relative Pair"
+
+Making markerinfo: "MARKERINFO"
+
+Making libmlod.a: "mlod library"
+
+Making test_parser: Test of mlod parser
+
+Linking                 (C++) test_parser
+../../../../../../auxx/extern_libs/archive/i386-linux2.0-gcc/libpython1.5.a(importdl.o): In function `_PyImport_LoadDynamicModule':
+/root/auxx/extern_libs/tarballs/Python-1.5.2/Python/./importdl.c:444: warning: Using 'dlopen' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+Making mlod: Test of mlod parser
+
+Making libpedinfo.a: "Pedinfo library"
+
+Making pedinfo: "Multi-pedigree statistics test program"
+
+Making librelpal.a: "Relpal Library"
+
+Making relpal: Relpal
+
+Making libreltest.a: "Relationship Test program Library"
+
+Making reltest: "Relationship Test program"
+
+Making libsegreg.a: "segreg library"
+
+Making segreg: SEGREG Application
+
+Making test_type_description: SEGREG Application
+
+Linking                 (C++) test_type_description
+Making test_segreg: Test of segreg calculators
+
+Linking                 (C++) test_segreg
+../../../../../../auxx/extern_libs/archive/i386-linux2.0-gcc/libpython1.5.a(importdl.o): In function `_PyImport_LoadDynamicModule':
+/root/auxx/extern_libs/tarballs/Python-1.5.2/Python/./importdl.c:444: warning: Using 'dlopen' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+Making test_parser: Test of segreg parser
+
+Linking                 (C++) test_parser
+Making libsibpal.a: "Sibpal Library"
+
+Making sibpal: Sibpal
+
+Making libtdtex.a: "Transmission-disequilibrium test library"
+
+Making tdtex: "Transmission-disequilibrium test application"
+

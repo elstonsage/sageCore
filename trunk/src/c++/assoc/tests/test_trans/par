@@ -1,0 +1,64 @@
+pedigree
+{
+  delimiters = "\t"
+  delimiter_mode = "single"
+
+  individual_missing_value = ""
+  sex_code, male = "1",female = "2",unknown = "", trait
+
+  pedigree_id = "famnbr5"
+  individual_id = "cpnbrx"
+  parent_id = "FATH"
+  parent_id = "MOTH"
+  sex_field = "SEX"
+
+  phenotype = "SBP", continuous, missing = ""
+  covariate = "AGE", continuous, missing = ""
+  marker = "da", allele_delimiter = "/", allele_missing = ""
+  marker = "db", allele_delimiter = "/", allele_missing = ""
+  marker = "dc", allele_delimiter = "/", allele_missing = ""
+}
+
+marker
+{
+  allele_delimiter="/"
+  allele_missing=""
+}
+
+function
+{
+  covariate=logsbp, expression="log(SBP)", missing=""
+}
+
+function 
+{
+  covariate=rsbp, expression="1/sbp", missing=""
+}
+
+assoc, out = "logsbp"
+{
+  title = "analysis1"
+  
+  primary_trait = "logsbp"
+  
+  covariate = "AGE"
+  covariate = "SEX_CODE"
+  
+  polygenic_effect = "true"
+  family_effect = "false"
+  marital_effect = "true"
+  sibship_effect = "false"
+  
+  transformation 
+  {  
+    option = "george_elston"; lambda1, fixed=false, lower_bound = "-1"; lambda2, val = "0", fixed = "true"; 
+    both_sides
+  }
+  
+  allow_averaging = "none"
+  
+  maxfun 
+  { 
+    debug=COMPLETE; 
+  }
+}

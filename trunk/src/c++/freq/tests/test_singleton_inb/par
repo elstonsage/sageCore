@@ -1,0 +1,35 @@
+pedigree
+{
+delimiters = "\t"
+delimiter_mode = "single"
+
+individual_missing_value = "9"
+sex_code, male = "1",female = "0",unknown = "."
+
+pedigree_id = "ID"
+individual_id = "CC"
+sex_field = "gender"
+
+marker = "cdx01", allele_delimiter = "/"
+marker = "taq01", allele_delimiter = "/"
+marker = "fok01", allele_delimiter = "/"
+
+}
+marker
+{
+allele_delimiter="/"
+allele_missing="."
+
+}
+
+freq, out = "FREQ1"
+{
+marker = "cdx01"
+marker = "taq01"
+marker = "fok01"
+skip_mle = "false"
+inbreeding="true"
+
+#maxfun_debug
+}
+

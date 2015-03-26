@@ -1,0 +1,396 @@
+\TITLE\
+MAXFUN API
+\BRIEF\
+Maximization C++ API using MAXFUN
+\MODULE_NAME\
+maxfunapi_main
+\DETAILED\
+\#. What is the Maxfun API?
+The Maxfun API is a set of wrapper classes that provide an easy-to-use interface
+for Maxfun. You can still use Maxfun directly, but the wrapper classes make it easier
+to organize your model/parameters, execute a maximization, and process maximization
+results.
+
+\#. How can I get started using it?
+
+\#.#. Start with a program that is ready to use Maxfun.
+
+It's best to start with a program that already has the basic components for using maxfun. That means you should have 
+an inherited instance of SAGE::MaxFunction, with the evaluate() and update_bounds() virtual functions defined.
+
+The MaxfunAPI features are then made available by including "maxfunapi.h" in your program. This file is located in the 
+maxfun include directory (src/c++/include/maxfunapi).
+
+Thus, in any file that will make use of the Maxfun API, you should include "maxfunapi/maxfunapi.h".
+
+\code
+//=============================================
+//
+// File: MyFile.h
+//
+//=============================================
+#include "maxfunapi/maxfunapi.h"
+\endcode
+
+\#.#.\ Instantiate ParameterMgr
+
+Detailed explanation available at: SAGE::MAXFUN::ParameterMgr
+
+SAGE::MAXFUN::ParameterMgr is a manager object that keeps track of your parameters. You will use it to set up the 
+initial state for all your parameters, as well as fetch/set parameter values during maximization. You will need to create an instance of 
+the SAGE::MAXFUN::ParameterMgr object somewhere in your program kernel. Generally, if you have some sort of "model" 
+class that describes the particular details/options for your analysis, you should put the ParameterMgr object there.
+
+\code
+using namespace SAGE;
+
+class MyModel
+{
+	public:
+		// ...
+
+	private:
+		// ...
+		MAXFUN::ParameterMgr my_mgr;
+};
+\endcode
+
+You will also need some way to pull out a non-const reference to your ParameterMgr object. This is necessary because 
+when you invoke SAGE::MAXFUN::maximize() (the API function for maximizing), you will have to pass it a non-const 
+reference to the SAGE::MAXFUN::ParameterMgr.
+
+\code
+using namespace SAGE;
+
+class MyModel
+{
+	private:
+		MAXFUN::ParameterMgr my_mgr;
+	public:
+		MAXFUN::ParameterMgr & getMgr() { return my_mgr; }
+};
+\endcode
+
+\#.#.\ Setup ParameterMgr
+
+Detailed explanation available at: SAGE::MAXFUN::ParameterMgr, SAGE::MAXFUN::Parameter, SAGE::MAXFUN::Parameter::ParamTypeEnum 
+
+Set up your SAGE::MAXFUN::ParameterMgr object with the appropriate parameters.
+
+There are a number of options available for each parameter (see SAGE::MAXFUN::Parameter), but for simplicity's sake we 
+will only consider the six required components for the moment. These are:
+
+Group name: Each parameter MUST belong to a named group. Even if your parameters do not need to be grouped, they must 
+be placed in a named group within the Maxfun API. If they are "global" parameters, put each one in a group whose name is 
+identical to the parameter. When you use the output formatting features later on, those functions will recognize that 
+group name and parameter name are identical, and format the output as if that parameter was not in a group.
+
+Parameter name: Each parameter must have a name. It's generally not a good idea to repeat names within a single 
+maximization (for instance, to have two parameters named "Intercept", one in "Mean group" and one in "Variance 
+group"), but it is possible. Generally speaking, you should pick a name that is intuitive and easy to read. (Note: There is also a 
+SAGE::MAXFUN::Parameter::setNameAbbr() feature, which allows you to specify an alternate abbreviated name for output 
+purposes. If there is not enough room to print the entire name in the output, then SAGE::MAXFUN::Parameter::getNameAbbr()
+will be used instead).
+
+Initial type: There are four initial types available. SAGE::MAXFUN::Parameter::INDEPENDENT indicates a completely 
+independently estimated parameter. SAGE::MAXFUN::Parameter::INDEPENDENT_FUNCTIONAL indicates an independently 
+estimated parameter that is used in the calculation of a dependent parameter. SAGE::MAXFUN::Parameter::DEPENDENT 
+indicates a parameter that is dependent on other SAGE::MAXFUN::Parameter::INDEPENDENT_FUNCTIONAL parameters, and whose 
+value you (the programmer) will calculate in each update_bounds() call. SAGE::MAXFUN::Parameter::FIXED indicates a 
+parameter whose value will be fixed during the entire maximization. Please consult SAGE::MAXFUN::Parameter::ParamTypeEnum for more information on this option.
+
+Initial estimate: The initial value for this parameter at the very beginning of maximization.
+
+Lower bound: The (inclusive) lower bound for this parameter's estimation.
+
+Upper bound: The (inclusive) upper bound for this parameter's estimation.
+
+Please note that for upper and lower bound, SAGE::MAXFUN::MF_INFINITY is predefined and available for use. It is used in 
+the examples below.
+
+You can add parameters to ParameterMgr with the SAGE::MAXFUN::ParameterMgr::addParameter() function. For instance, to 
+add a parameter in group "means" named "theta" with initial value = 1.0, lower bound = -Infinity, upper bound = +Infinity, 
+and type = SAGE::MAXFUN::Parameter::INDEPENDENT, you would use the following code:
+
+\code
+my_mgr.addParameter("means", "theta", MAXFUN::Parameter::INDEPENDENT, 1.0, -MAXFUN::MF_INFINITY, MAXFUN::MF_INFINITY);
+\endcode
+
+You should add the SAGE::MAXFUN::ParameterMgr::addParameter() function calls wherever your kernel is set up:
+\code
+void MyKernel::SetupParameters()
+{
+	// ...
+	my_mgr.addParameter("means", "theta1", MAXFUN::Parameter::INDEPENDENT, 1.0, -MAXFUN::MF_INFINITY, MAXFUN::MF_INFINITY);
+	my_mgr.addParameter("means", "theta2", MAXFUN::Parameter::INDEPENDENT, 1.0, -MAXFUN::MF_INFINITY, MAXFUN::MF_INFINITY);
+	// ...
+}
+\endcode
+
+\#.#.\ Modify your kernel
+
+Detailed explanation available at: SAGE::MAXFUN::ParameterMgr
+
+Modify your kernel to use the SAGE::MAXFUN::ParameterMgr object when it needs parameter values. Whenever you make 
+reference to some parameter value that you have explicitly implemented, you should instead change it to pull out the value from 
+ParameterMgr.
+
+For instance, let's say your original likelihood function uses a parameter called "my_t" and looks something like 
+this:
+
+\code
+double MyKernel::Setup();
+{
+  my_t = 0.0;
+}
+
+double MyKernel::calculateLikelihood()
+{
+  return exp(-my_t * my_t);
+}
+\endcode
+
+Your modified code should look like this:
+
+\code
+
+void MyKernel::Setup()
+{
+  my_mgr.addParameter("globalgroup", "t", MAXFUN::Parameter::INDEPENDENT, 0.0, -MAXFUN::MF_INFINITY, MAXFUN::MF_INFINITY);
+}
+
+double MyKernel::CalculateLikelihood()
+{
+  return exp(-minfo("globalgroup", "t") * minfo("globalgroup", "t"));
+}
+\endcode
+
+Also, please note that the pulling out the parameter value by group name & parameter name is not the only way. You can 
+also pull out parameter values by using their unique index number. This is advantageous because it avoids doing a 
+name lookup, and hence runs a lot faster.
+
+The unique ID number is returned by the original SAGE::MAXFUN::ParameterMgr::addParameter() function. You can store 
+that ID number, and then use it later in your kernel to more quickly fetch parameter values.
+
+\code
+
+class MyKernel : public MaxFunction
+{
+  // ...
+
+  private:
+	my_t_idx;
+
+  // ...
+};
+
+void MyKernel::Setup()
+{
+  my_t_idx = my_mgr.addParameter("globalgroup", "t", MAXFUN::Parameter::INDEPENDENT, 0.0, -MAXFUN::MF_INFINITY, MAXFUN::MF_INFINITY);
+}
+
+double MyKernel::calculateLikelihood()
+{
+  return exp(-minfo(my_t_idx) * minfo(my_t_idx));
+}
+\endcode
+
+\#.#.\ Instantiate MaxFunction
+
+Create an instance of MaxFunction, and customize your update_bounds() and evaluate() functions.
+
+\code
+class MyFunction : public MaxFunction
+{
+    virtual double evaluate      (vector<double> & params);
+    virtual int    update_bounds (vector<double> & params);
+
+    MyKernel my_kernel;
+};
+
+double MyFunction::evaluate(vector<double> & params)
+{
+  return my_kernel.calculateLikelihood();
+}
+
+int MyFunction::update_bounds(vector<double> & params)
+{
+  // ...
+}
+
+MyFunction my_func;
+
+\endcode
+
+\#.#.\ Maximize!
+
+Detailed explanation available at: SAGE::MmximizeDefault(), SAGE::maximize(), SAGE::MAXFUN::Results, 
+SAGE::MAXFUN::DebugCfg, SAGE::MAXFUN::SequenceCfg
+
+For a default maximization, you can invoke the function SAGE::MAXFUN::maximizeDefault(), and store the results 
+in a SAGE::MAXFUN::Results object:
+
+\code
+MAXFUN::Results my_results = MAXFUN::maximizeDefault(my_func.getParameterMgr(), my_func);
+\endcode
+
+Alternately, you can invoke SAGE::MAXFUN::maximize(), which also takes a MaxfunDebug object and a MaxfunConfig object 
+as additional parameters. You will have to create instances of those two objects before invoking 
+SAGE::MAXFUN::maximize().
+
+\code
+MAXFUN::DebugCfg my_dbg(MAXFUN::DebugCfg::COMPLETE);
+MAXFUN::SequenceCfg my_cfg(MAXFUN::SequenceCfg::DEFAULT_MAXIMIZATION);
+MAXFUN::Results my_results = MAXFUN::maximize(my_func.getParameterMgr(), my_func, my_cfg, my_dbg);
+\endcode
+
+The Results object contains a great amount of information about the maximization, including final parameter 
+estimates, standard errors, derivatives, p-values, maximization status, variance-covariance matrices, and more.
+
+\#.#.#.\ Debugging configuration
+
+Although you can directly set up your SAGE::MAXFUN::DebugCfg instance
+however you want it, you may want to set up your SAGE program to read the
+debug configuration on a per-analysis basis from the parameter file
+associated with your analysis. To do so, you'll want to make sure that there
+is an accessible SAGE::MAXFUN::DebugCfg instance available in your model.
+Then, when you're parsing the parameter file, if you encounter a "MAXFUN"
+sub-block you can invoke SAGE::MAXFUN::parseDebugParams() to setup the
+debugging object. Later on, when you invoke your analysis, your debugging
+object will already be configured for runtime output.
+
+\#.#.\ Generate output
+
+Detailed explanation available at: SAGE::MAXFUN::formatEstimates(), SAGE::MAXFUN::formatMatrix(), 
+SAGE::MAXFUN::formatJointTest()
+
+There are a number of global functions available for turning your maximization results into output. These 
+functions return the output in the form of a std::string, which you can use any way you want. These functions include:
+
+SAGE::MAXFUN::formatEstimates(): Provides a summary of maximization condition, as well as final parameter estimates, 
+standard errors, p-values, derivatives, and final function value.
+
+SAGE::MAXFUN::formatJointTest(): Performs a chi-square joint test between two Results objects.
+
+SAGE::MAXFUN::formatMatrix(): Provides a variance-covariance matrix.
+
+Let's say you want to generate all three output features (estimates, joint test, and matrix):
+
+\code
+MAXFUN::Results my_results1 = MAXFUN::maximizeDefault(my_func1.getParameterMgr(), my_func1);
+MAXFUN::Results my_results2 = MAXFUN::maximizeDefault(my_func2.getParameterMgr(), my_func2);
+
+cout << MAXFUN::formatEstimates (my_results1);
+cout << MAXFUN::formatMatrix    (my_results1);
+cout << MAXFUN::formatJointTest (my_results1, my_results2);
+\endcode
+
+\#.#.\ A short example
+
+Here is a complete example of how to use the Maxfun API:
+
+\code
+#include "maxfunapi/maxfunapi.h"
+
+using namespace std;
+using namespace SAGE;
+
+class MyFunction : public MaxFunction
+{
+public:
+  MyFunction();
+
+  virtual double evaluate      (parameter_vector& theta);
+  virtual int    update_bounds (parameter_vector& theta);
+
+  MAXFUN::ParameterMgr m;
+};
+
+MyFunction::MyFunction()
+{
+  m.addParameter("global", "X", MAXFUN::Parameter::INDEPENDENT, -1.0, -MAXFUN::MF_INFINITY, MAXFUN::MF_INFINITY);
+}
+
+double MyFunction::evaluate(parameter_vector& tr)
+{
+  double result = exp(-(m("global", "X") * m("global", "X")));
+
+  return result;
+}
+
+int MyFunction::update_bounds(parameter_vector& tr)
+{
+  return 0;
+}
+
+} // End namespace
+
+int main(int argc, char* argv[])
+{
+  MyFunction my_func;
+
+  MAXFUN::Results results = MAXFUN::maximizeDefault(my_func.m, my_func);
+
+  cout << MAXFUN::formatEstimates(results);
+
+  return 0;
+}
+\endcode
+
+When executed, the above program will produce the following output:
+
+\code
+================================================================================
+          MAXIMIZATION RESULTS Default analysis
+================================================================================
+
+Parameter                      Estimate          S.E.        P-value         Deriv
+
+global
+                             X -0.000000         0.707107    1.000000        0.000000    
+
+Final function value: 1.000000
+\endcode
+
+\#.\ More advanced runtime debugging
+
+The first thing you should do to learn more about maxfunapi's debugging
+features is to read the complete detailed description of
+SAGE::MAXFUN::DebugCfg. The basic idea here is that the runtime debugging
+options are specified via an instance of SAGE::MAXFUN::DebugCfg.
+Although the simple version of maximize() implicitly generates a
+SAGE::MAXFUN::DebugCfg instance with the
+SAGE::MAXFUN::DebugCfg::NO_DEBUG_INFO template, you can specify your own
+optoins by creating your own SAGE::MAXFUN::DebugCfg object:
+
+\code
+SAGE::MAXFUN::DebugCfg my_dbg;
+\endcode
+
+Now you can set up whatever specific options you want for your runtime
+debugging!
+
+\code
+my_dbg.setReportBasicConfig(true);
+SAGE::MAXFUN::maximize(my_func.getParameterMgr(), my_func, my_sequence_cfg, my_dbg);
+\endcode
+
+\#.\ What about redirecting debugging output to a specific file or stream?
+
+I'm glad you asked! Redirecting runtime debugging output isn't too
+complicated. SAGE::MAXFUN::DebugCfg lets you specify which outputstream to
+use, via the SAGE::MAXFUN::DebugCfg::setDebugOutput() functions. To modify
+your code to redirect debugging output to a file or outputstream, all you
+need to do is invoke SAGE::MXAFUN::DebugCfg::setDebugOutput() prior to 
+invoking SAGE::MAXFUN::maximize():
+
+\code
+SAGE::MAXFUN::DebugCfg my_dbg(SAGE::MAXFUN::DebugCfg::DEBUG_COMPLETE);
+my_dbg.setDebugOutput("somefile.max", false);
+SAGE::MAXFUN::maximize(my_param_mgr, my_max_function, my_sequence_cfg, my_dbg);
+\endcode
+
+\#.\ I want to see a more detailed explanation.
+
+Please consult the reference section of this manual for more detailed information. Each class has a detailed 
+description that will explain much more about its functionality and use within the API.

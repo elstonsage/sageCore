@@ -1,0 +1,59 @@
+
+
+
+
+Family structure information on the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       SEX       PARENT1       PARENT2     
+     ------------  ------------  --------  ------------  ------------
+     17            2             1         0             0           
+     17            3             2         1             2           
+     17            4             2         1             2           
+     32            2             2         0             0           
+     32            3             2         1             2           
+     32            4             2         1             2           
+     32            5             1         1             2           
+
+
+Phenotypes for the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       SEX_CODE              FAMILIAL_INDICATOR    FOUNDER_INDICATOR     PEDIGREE_SIZE         T2                    T3                    T1                  
+     ------------  ------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------
+     17            2             0                     1                     1                     4                     2                     0                     no                  
+     17            3             1                     1                     0                     4                     3                     1                     no                  
+     17            4             1                     1                     0                     4                     1                     1                     rep                 
+     32            2             1                     1                     1                     5                     3                     0                     no                  
+     32            3             1                     1                     0                     5                     1                     0                     rep                 
+     32            4             1                     1                     0                     5                     9                     0                     no                  
+     32            5             0                     1                     0                     5                     9                     0                     no                  
+
+
+Markers for the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       C01R0001      C01R0002      C01R0003      C01R0004    
+     ------------  ------------  ------------  ------------  ------------  ------------
+     17            2             1/0           1/0           1/0           1/0         
+     17            3             1/1           1/1           2/2           1/1         
+     17            4             1/1           2/2           2/2           2/2         
+     32            2             1/1           2/2           2/2           2/2         
+     32            3             1/1           1/1           2/2           2/2         
+     32            4             1/1           1/1           2/2           2/2         
+     32            5             0/0           1/0           1/0           1/0         
+
+%DECIPHER-W: Marker 'C01R0001' has only one allele.  This marker will be
+             unavailable for all analyses.
+%DECIPHER-I: Mapping function not specified.  Using Haldane Mapping Function.
+%DECIPHER-W: Marker 'C01R0001' not found.  Marker will not be used for analysis
+             .
+%DECIPHER-W: Marker C01R0002 is the first valid marker in region one.  It will
+             be set to a position of 0.
+
+  Performing analysis: Analysis 1
+  ===========================================================================
+
+    Total population. 
+      Determining possible haplotype combinations ................... done.
+      Maximizing likelihood ......................................... done. 
+
+  ===========================================================================
+

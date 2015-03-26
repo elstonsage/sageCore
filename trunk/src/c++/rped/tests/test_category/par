@@ -1,0 +1,8 @@
+pedigree
+{
+  delimiters = " "
+  delimiter_mode = multiple
+  individual_id = id
+  trait=val, categorical, missing = "missing", values = "red, blue"
+  trait=bin, binary, affected=aff,unaffected=non
+}

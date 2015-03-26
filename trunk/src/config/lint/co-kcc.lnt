@@ -1,0 +1,15 @@
+//    Compiler Options for KAI C++
+
+-d__KCC   
+
+-i/usr/include 
+
+-function(exit, __assert)
+
+-e736  // Comes up complaining about prototype coercion with isnan and the
+-e747  // like due to how KAI defines this
+
+-e506
+-e666
+
+-esym(40,__func__)

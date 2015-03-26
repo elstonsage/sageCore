@@ -1,0 +1,127 @@
+=======================================================================================================
+  SEGREG Analysis for Trait : PC1A
+=======================================================================================================
+  # Model Specification  
+
+      Model Class D
+      genotype specific mean sub-model     : one genotype specific mean
+      genotype specific variance sub-model : one genotype specific variance
+      genotype frequency sub-model         : 
+      residual correlation sub-model       : 
+                                             rbitrary
+      transmission sub-model               : homogeneous no transmission
+      transformation sub-model             : Box-Cox
+
+  # Number of Pedigrees : 0
+
+  # Final Estimates : 
+
+  Parameter           Parameter Est.  Standard Err.   First Deriv.   Status
+-------------------------------------------------------------------------------------------------------
+  mean                 0.07710045      0.07594775     -0.00027621     IND, MAY VARY
+  variance             1.08715744      0.09525018      0.00025407     IND, MAY VARY
+  spousal resid c      0.28091173      0.10741211     -0.00027621     IND, MAY VARY
+  fo resid corr        0.07323646      0.08338825     -0.00027621     IND, MAY VARY
+  mo resid corr        0.33686461      0.09615479     -0.00027621     IND, MAY VARY
+  ss resid corr        0.38348444      0.07658714     -0.00082864     IND, MAY VARY
+  lambda_one           0.81603750      0.19096892      0.00016924     IND, MAY VARY
+  lambda_two           5.00000000      0.00000000                     FIXED EXTERNALLY
+-------------------------------------------------------------------------------------------------------
+
+
+        LN(Likelihood) : -524.373
+     -2 LN(Likelihood) : 1048.75
+=======================================================================================================
+
+Final Error Code: 5
+
+
+=======================================================================================================
+  SEGREG Analysis for Trait : PC1A
+=======================================================================================================
+  # Model Specification  
+
+      Model Class D
+      genotype specific mean sub-model     : two genotype specific means
+      genotype specific variance sub-model : one genotype specific variance
+      genotype frequency sub-model         : Hardy-Weinberg equilibrium
+      residual correlation sub-model       : 
+                                             rbitrary
+      transmission sub-model               : homogeneous no transmission
+      transformation sub-model             : Box-Cox
+
+  # Number of Pedigrees : 0
+
+  # Final Estimates : 
+
+  Parameter           Parameter Est.  Standard Err.   First Deriv.   Status
+-------------------------------------------------------------------------------------------------------
+  mean_AA_AB          -1.38812726      0.28439605      0.00000000     IND, MAY VARY
+  mean_BB              0.22330183      0.10903748      0.00000000     IND, MAY VARY
+  variance             0.80562375      0.12316671      0.00000000     IND, MAY VARY
+  prob_AA              0.00307910      0.00356019                     DEPENDENT
+  prob_AB              0.10482100      0.05703918                     DEPENDENT
+  prob_BB              0.89209990      0.06059937                     DEPENDENT
+  freq_A               0.05548960      0.03207978     -0.00027621     IND-FN, MAY VARY
+  genotypic corr.      0.00000000      0.00000000                     FIXED EXTERNALLY
+  spousal resid c      0.27266271      0.14160878      0.00000000     IND, MAY VARY
+  fo resid corr        0.07867039      0.10072555      0.00000000     IND, MAY VARY
+  mo resid corr        0.40071548      0.13791706      0.00000000     IND, MAY VARY
+  ss resid corr        0.44994670      0.08280181      0.00000000     IND, MAY VARY
+  lambda_one           0.28302672      0.23237781      0.00000000     IND, MAY VARY
+  lambda_two           5.00000000      0.00000000                     FIXED EXTERNALLY
+-------------------------------------------------------------------------------------------------------
+
+
+        LN(Likelihood) : -521.229
+     -2 LN(Likelihood) : 1042.46
+=======================================================================================================
+
+Final Error Code: 5
+
+
+=======================================================================================================
+  SEGREG Analysis for Trait : PC1A
+=======================================================================================================
+  # Model Specification  
+
+      Model Class D
+      genotype specific mean sub-model     : three genotype specific means
+      genotype specific variance sub-model : one genotype specific variance
+      genotype frequency sub-model         : Hardy-Weinberg equilibrium
+      residual correlation sub-model       : 
+                                             rbitrary
+      transmission sub-model               : homogeneous no transmission
+      transformation sub-model             : Box-Cox
+
+  # Number of Pedigrees : 0
+
+  # Final Estimates : 
+
+  Parameter           Parameter Est.  Standard Err.   First Deriv.   Status
+-------------------------------------------------------------------------------------------------------
+  mean_AA             -2.66478919      0.44089798     -0.00010365     IND, MAY VARY
+  mean_AB             -1.23857421      0.17746964      0.00033451     IND, MAY VARY
+  mean_BB              0.29375762      0.09204326     -0.00027621     IND, MAY VARY
+  variance             0.67097762      0.10788206     -0.00020583     IND, MAY VARY
+  prob_AA              0.00669112      0.00428002                     DEPENDENT
+  prob_AB              0.15021627      0.04376340                     DEPENDENT
+  prob_BB              0.84309261      0.04804342                     DEPENDENT
+  freq_A               0.08179925      0.02616172      0.00000000     IND-FN, MAY VARY
+  genotypic corr.      0.00000000      0.00000000                     FIXED EXTERNALLY
+  spousal resid c      0.27145712      0.16249124      0.00000000     IND, MAY VARY
+  fo resid corr        0.11543702      0.11621474      0.00000000     IND, MAY VARY
+  mo resid corr        0.41308800      0.14707650      0.00000000     IND, MAY VARY
+  ss resid corr        0.47082061      0.08378186     -0.00027621     IND, MAY VARY
+  lambda_one           0.00000000      0.00000000     -1.12308444     IND, FIXED BY MAXFUN AT BOUND
+  lambda_two           5.00000000      0.00000000                     FIXED EXTERNALLY
+-------------------------------------------------------------------------------------------------------
+
+
+        LN(Likelihood) : -518.87
+     -2 LN(Likelihood) : 1037.74
+=======================================================================================================
+
+Final Error Code: 5
+
+

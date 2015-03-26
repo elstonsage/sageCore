@@ -1,0 +1,221 @@
+#!/usr/local/bin/python
+#============================================================================
+# File:      simulate
+#                                                                          
+# Author:    Dan Baechle
+#                                                                          
+# History:   Created 4/29/5
+#                                                                          
+# Notes:     Generates pedigree file to test haplotype estimation of
+#            DECIPHER for the case of unrelated individuals.  Haplotypes 
+#            and their frequencies are given in the sim_params module.  
+#            The program is completely general with respect to the number of 
+#            loci and the number of alleles at any given locus.
+#
+#============================================================================
+
+import copy
+import os
+import sys
+import random
+
+pwd = os.environ['PWD']
+sys.path.append(pwd)
+
+import sim_params
+
+
+# - Insure that specified haplotype frequencies total to 1 and that
+#   the haplotypes are all the same length.
+#
+def check_params():
+  if not haps_uniform():
+    sys.stderr.write('Not all haplotypes are the same length.\n')
+    sys.exit(1)
+    
+  normalize_frequencies()
+  
+  
+# - Are the specified haplotypes all of the same length?
+#
+def haps_uniform():
+  hap_length = len(haps[0][1])
+  for h in range(1, len(haps)):
+    if len(haps[h][1]) != hap_length:
+      return  0
+      
+  return  1
+    
+
+# - If total of haplotype frequencies not w/i epsilon of 1,
+#   print a warning and normalize them.
+#
+def normalize_frequencies():
+  epsilon = .001
+  freq_total = 0
+  for h in range(len(haps)):
+    freq_total += haps[h][0]
+    
+  if abs(1 - freq_total) > epsilon:
+    sys.stderr.write('Warning.  Haplotype frequencies do not total to 1.  Normalizing ...\n')
+    for h in range(len(haps)):
+      haps[h][0] /= float(freq_total)
+
+
+# - Records are of the format, [pid id, dad, mom, sex, rep, m1[a1, a2], m2[a1, a2], ...], 
+#   where rep is a binary trait, m is a marker locus and a is an allele.
+#
+def create_records(ind_count):
+  records = []
+  for ind in range(3000, ind_count + 3000):
+    hap_pair = []
+    record = []
+    record.append(ind + 1)
+    record.append(ind + 1)
+    record.append(0)
+    record.append(0)
+    record.append(1)
+    record.append(1)
+    record += get_genotypes(hap_pair)
+    records.append(record)
+    
+    # - Tabulate actual haplotype counts.
+    #
+    hap_counts[hap_pair[0]] += 1
+    hap_counts[hap_pair[1]] += 1    
+    
+  if sim_params.fraction_missing_data != 0:
+    inject_missing_data(records)
+    
+  return  records
+   
+   
+# - Create a list whose values define bounds of a sequence of intervals
+#   proportional to the haplotype frequencies.
+# 
+def create_hap_intervals():
+  hap_intervals = []
+
+  running_total = 0.0
+  hap_intervals.append(running_total)
+  for h in range(len(haps)):
+    running_total += haps[h][0]
+    hap_intervals.append(running_total)
+    
+  return  hap_intervals
+
+
+# - pick a haplotype with frequencies specified in haps.
+#
+def get_haplotype():
+  random_number = random.uniform(hap_intervals[0], hap_intervals[-1])
+  haplotype = 0
+  while random_number > hap_intervals[haplotype + 1]:
+    haplotype += 1
+    
+  return  haplotype
+  
+  
+def haplotype_string(h):
+  return  reduce(lambda a, b : '%s %s' % (a, b), haps[h][1])  
+  
+def print_haplotype(h):
+  print reduce(lambda a, b : '%s %s' % (a, b), haps[h][1])  
+
+  
+def get_genotypes(hap_pair):
+  hap1 = get_haplotype()
+  hap2 = get_haplotype()
+  hap_pair.append(hap1)
+  hap_pair.append(hap2)  
+  
+  genotype = []
+  for l in range(len(haps[hap1][1])):
+    genotype.append([haps[hap1][1][l], haps[hap2][1][l]])
+    
+  return genotype
+  
+  
+def inject_missing_data(records):
+  for record in records:
+    for locus in record[6:]:
+      if make_missing(sim_params.fraction_missing_data):
+        locus[0], locus[1] = '?', '?'
+
+
+# - Return 'True' a given fraction of the time.
+#
+def make_missing(fraction):
+  missing = False
+  random_number = random.uniform(0, 1)
+  if random_number < fraction:
+    missing = True
+    
+  return  missing
+
+
+def print_results():
+  print_header()
+  print_data()
+  
+  
+def print_header():
+  header = 'PID ID DAD MOM SEX REP  '
+  for l in range(6, len(records[0])):
+    header += 'M%s' % (l - 5)
+    if l != len(records[0]) - 1:
+      header += ' '
+      
+  print header  
+  
+  
+def print_data():
+  for r in range(len(records)):
+    print '%d %d %d %d %d %d ' % (records[r][0], records[r][1], records[r][2],
+                                  records[r][3], records[r][4], records[r][5] ),
+    print_genotype(records[r])
+    
+
+def print_genotype(record):
+  record_str = ""
+  
+  for l in range(6, len(record)):
+    record_str += '%s/%s' % (record[l][0], record[l][1])
+    if l != len(record) - 1:
+      record_str += ' '
+      
+  print  record_str   
+
+
+  
+# - Main.
+#
+haps = copy.deepcopy(sim_params.haps)
+
+hap_file = open('haplotypes.txt', 'w')
+for hap in haps:
+  hap_file.write(hap.__repr__() + '\n')
+  
+hap_file.close()
+
+# - For tallying actual haplotype counts.
+#
+hap_counts = []
+for h in range(len(haps)):
+  hap_counts.append(0)
+
+check_params()
+hap_intervals = create_hap_intervals()
+  
+records = create_records(sim_params.ind_count)
+print_results()
+
+# - Log actual haplotype frequencies.
+#
+total_count = reduce(lambda a, b : a + b, hap_counts)
+counts = open('counts.log', 'w')
+for c in range(len(hap_counts)):
+  counts.write('%s    %f\n' % (haplotype_string(c), float(hap_counts[c]) / float(total_count)))
+counts.close()
+
+sys.exit(0)

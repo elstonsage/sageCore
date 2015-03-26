@@ -1,0 +1,36 @@
+pedigree
+{
+  pedigree_id=PED
+  individual_id=IND
+  parent_id=P1
+  parent_id=P2
+  sex_field=SEX  
+  trait = T, missing=-999
+  marker=T1, missing=0
+  marker=M1, missing=0
+  marker=M2, missing=0
+  
+  sex_code, male=1, female=0
+  individual_missing_value=0
+  delimiter_mode=multiple
+  verbose=13
+}
+
+lodlink
+{
+  model, trait=segreg_analysis1
+  linkage_tests=false, sex_specific=true, homog=true
+  
+  homog_tests
+  {
+    smiths_test=false, sex_specific=true
+    mortons_test=false, sex_specific=true
+  }
+  
+  lods
+  {
+    option=none
+  }
+  
+  genotypes=true, sex_specific=true
+}

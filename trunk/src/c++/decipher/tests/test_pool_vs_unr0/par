@@ -1,0 +1,52 @@
+pedigree
+{
+  pedigree_id=PID
+  individual_id=ID
+  parent_id=P1
+  parent_id=P2
+  sex_field=SEX
+  trait=M1, missing=-1
+  trait=M2, missing=-1
+
+  delimiters=" "
+  delimiter_mode=multiple
+  individual_missing_value=0
+  verbose=20
+}
+
+decipher, out=analysis1
+{
+  epsilon=.000001
+
+  data
+  {
+    analysis_unit=pool
+    
+    pools
+    {
+      pool_size=2
+    
+      locus=M1
+      {
+        allele=A, trait=M1
+        last_allele=a
+      }
+      
+      locus=M2
+      {
+        allele=A, trait=M2
+        last_allele=a
+      }
+    }    
+  }
+  
+  tasks
+  {
+    pop_freq=true
+    all_possible_diplotypes_table=true
+    most_likely_diplotypes=true, cutoff=.0001
+    likelihood_ratio_test=false
+  }
+}
+
+

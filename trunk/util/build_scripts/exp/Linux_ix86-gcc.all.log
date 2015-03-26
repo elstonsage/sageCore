@@ -1,0 +1,422 @@
+
+Making Global Configuration Options for i386-linux2.0-gcc RELEASE in ../../targets/i386-linux2.0-gcc/c++/globals
+
+
+Making Containers Library for i386-linux2.0-gcc RELEASE in ../../targets/i386-linux2.0-gcc/c++/containers
+
+
+Making Error handler streams for i386-linux2.0-gcc RELEASE in ../../targets/i386-linux2.0-gcc/c++/error
+
+
+Making liberror.a: error Library
+
+Making Library... done.
+liberror.a
+
+Making LSF and related objects for i386-linux2.0-gcc RELEASE in ../../targets/i386-linux2.0-gcc/c++/LSF
+
+
+Making libLSF.a: LSF Library
+
+Making Library... done.
+libLSF.a
+
+Making Fortran I/O Objects for i386-linux2.0-gcc RELEASE in ../../targets/i386-linux2.0-gcc/c++/fortran
+
+
+Making libfortran.a: "Fortran Parsing blob"
+
+Making Library... done.
+libfortran.a
+
+Making Error handler streams for i386-linux2.0-gcc RELEASE in ../../targets/i386-linux2.0-gcc/c++/numerics
+
+
+Making libnumerics.a: numerics Library
+
+Making Library... done.
+libnumerics.a
+
+Making Miscellaneous S.A.G.E. Utilities for i386-linux2.0-gcc RELEASE in ../../targets/i386-linux2.0-gcc/c++/util
+
+
+Making libutil.a: "Util library"
+
+Making Library... done.
+libutil.a
+
+Making Output for i386-linux2.0-gcc RELEASE in ../../targets/i386-linux2.0-gcc/c++/output
+
+
+Making liboutput.a: "Output library"
+
+Making Library... done.
+liboutput.a
+
+Making Application Framework Code for i386-linux2.0-gcc RELEASE in ../../targets/i386-linux2.0-gcc/c++/app
+
+
+Making libapp.a: "Application Framework Code"
+
+Making Library... done.
+libapp.a
+
+Making Functors Library for i386-linux2.0-gcc RELEASE in ../../targets/i386-linux2.0-gcc/c++/functors
+
+
+Making New MultiPedigree for i386-linux2.0-gcc RELEASE in ../../targets/i386-linux2.0-gcc/c++/mped
+
+
+Making libmped.a: New MultiPedigree Library
+
+Making Library... done.
+libmped.a
+
+Making New Multi Locus for i386-linux2.0-gcc RELEASE in ../../targets/i386-linux2.0-gcc/c++/mlocus
+
+
+Making libmlocus.a: New Multi Locus Library
+
+Making Library... done.
+libmlocus.a
+
+Making New General Referenced Pedigrees and related objects  for i386-linux2.0-gcc RELEASE in ../../targets/i386-linux2.0-gcc/c++/rped
+
+
+Making librped.a: New General Referenced Pedigree Library
+
+Making Library... done.
+librped.a
+
+Making New Relative Pairs and related objects for i386-linux2.0-gcc RELEASE in ../../targets/i386-linux2.0-gcc/c++/pairs
+
+
+Making libpairs.a: New Pairs Library
+
+Making Library... done.
+libpairs.a
+
+Making Filtered Pedigrees and related objects  for i386-linux2.0-gcc RELEASE in ../../targets/i386-linux2.0-gcc/c++/fped
+
+
+Making libfped.a: FILTERED Pedigree Library
+
+Making Library... done.
+libfped.a
+
+Making MultiPedigree variable transformation for i386-linux2.0-gcc RELEASE in ../../targets/i386-linux2.0-gcc/c++/func
+
+
+Making libfunc.a: Function library
+
+Making Library... done.
+libfunc.a
+
+Making Basic SAGE application data and tools for i386-linux2.0-gcc RELEASE in ../../targets/i386-linux2.0-gcc/c++/sampling
+
+
+Making libsampling.a: "SAGE Sampling Library"
+
+Making Library... done.
+libsampling.a
+
+Making Genotype Elimination Model for i386-linux2.0-gcc RELEASE in ../../targets/i386-linux2.0-gcc/c++/gelim
+
+
+Making libgelim.a: "Genotype Elimination Library"
+
+Making Library... done.
+libgelim.a
+
+Making Basic SAGE application data and tools for i386-linux2.0-gcc RELEASE in ../../targets/i386-linux2.0-gcc/c++/data
+
+
+Making libdata.a: "SAGE Application Data"
+
+Making Library... done.
+libdata.a
+
+Making Peeling Library for i386-linux2.0-gcc RELEASE in ../../targets/i386-linux2.0-gcc/c++/peeling
+
+
+Making Inheritance Vectors for i386-linux2.0-gcc RELEASE in ../../targets/i386-linux2.0-gcc/c++/lvec
+
+
+Making liblvec.a: "Likelihood Vector Library"
+
+Making Library... done.
+liblvec.a
+
+Making MCMC basic objects for i386-linux2.0-gcc RELEASE in ../../targets/i386-linux2.0-gcc/c++/mcmc
+
+
+Making libmcmc.a: "MCMC simulation Library"
+
+Making Library... done.
+libmcmc.a
+
+Making Identical By Descent for i386-linux2.0-gcc RELEASE in ../../targets/i386-linux2.0-gcc/c++/ibd
+
+
+Making libibd.a: "Identical By Descent Library"
+
+Making Library... done.
+libibd.a
+
+Making Bases for Pair Analyses for i386-linux2.0-gcc RELEASE in ../../targets/i386-linux2.0-gcc/c++/palbase
+
+
+Making libpalbase.a: New Pairs Library
+
+Making Library... done.
+libpalbase.a
+
+Making Maxfun for i386-linux2.0-gcc RELEASE in ../../targets/i386-linux2.0-gcc/c++/maxfun
+
+
+Making libmaxfun.a: Maxfun Library
+
+Making Library... done.
+libmaxfun.a
+
+Making Maxfun for i386-linux2.0-gcc RELEASE in ../../targets/i386-linux2.0-gcc/c++/maxfunapi
+
+
+Making libmaxfunapi.a: Maxfun API
+
+Making Library... done.
+libmaxfunapi.a
+
+Making Mfsubmodels for i386-linux2.0-gcc RELEASE in ../../targets/i386-linux2.0-gcc/c++/mfsubmodels
+
+
+Making libmfsubmodels.a: Maxfun Submodels
+
+Making Library... done.
+libmfsubmodels.a
+
+Making Age of Onset for i386-linux2.0-gcc RELEASE in ../../targets/i386-linux2.0-gcc/c++/ageon
+
+
+Making libageon.a: "Age of Onset library"
+
+Making Library... done.
+Making ageon: Age of Onset Application
+
+Linking                 (C++) ageon
+../../../../../auxx/extern_libs/archive/i386-linux2.0-gcc/libpython1.5.a(importdl.o): In function `_PyImport_LoadDynamicModule':
+/root/auxx/extern_libs/tarballs/Python-1.5.2/Python/./importdl.c:444: warning: Using 'dlopen' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+ageon
+libageon.a
+
+Making Assoc for i386-linux2.0-gcc RELEASE in ../../targets/i386-linux2.0-gcc/c++/assoc
+
+
+Making libassoc.a: "Assoc library"
+
+Making Library... done.
+Making assoc: Assoc Application
+
+Linking                 (C++) assoc
+../../../../../auxx/extern_libs/archive/i386-linux2.0-gcc/libpython1.5.a(importdl.o): In function `_PyImport_LoadDynamicModule':
+/root/auxx/extern_libs/tarballs/Python-1.5.2/Python/./importdl.c:444: warning: Using 'dlopen' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+assoc
+libassoc.a
+
+Making Decipher for i386-linux2.0-gcc RELEASE in ../../targets/i386-linux2.0-gcc/c++/decipher
+
+
+Making libdecipher.a: "decipher library"
+
+Making Library... done.
+Making decipher: DECIPHER Application
+
+Linking                 (C++) decipher
+../../../../../auxx/extern_libs/archive/i386-linux2.0-gcc/libpython1.5.a(importdl.o): In function `_PyImport_LoadDynamicModule':
+/root/auxx/extern_libs/tarballs/Python-1.5.2/Python/./importdl.c:444: warning: Using 'dlopen' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+decipher
+libdecipher.a
+
+Making MultiPedigree Correlations with Standard Errors for i386-linux2.0-gcc RELEASE in ../../targets/i386-linux2.0-gcc/c++/fcor
+
+
+Making libfcor.a: New Fcor Library
+
+Making Library... done.
+Making fcor: "Multi-pedigree correlation program"
+
+Linking                 (C++) fcor
+../../../../../auxx/extern_libs/archive/i386-linux2.0-gcc/libpython1.5.a(importdl.o): In function `_PyImport_LoadDynamicModule':
+/root/auxx/extern_libs/tarballs/Python-1.5.2/Python/./importdl.c:444: warning: Using 'dlopen' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+fcor
+libfcor.a
+
+Making FREQ for i386-linux2.0-gcc RELEASE in ../../targets/i386-linux2.0-gcc/c++/freq
+
+
+Making freq: "FREQ"
+
+Linking                 (C++) freq
+../../../../../auxx/extern_libs/archive/i386-linux2.0-gcc/libpython1.5.a(importdl.o): In function `_PyImport_LoadDynamicModule':
+/root/auxx/extern_libs/tarballs/Python-1.5.2/Python/./importdl.c:444: warning: Using 'dlopen' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+freq
+
+Making IBD Generator for i386-linux2.0-gcc RELEASE in ../../targets/i386-linux2.0-gcc/c++/genibd
+
+
+Making libgenibd.a: "IBD generator program Library"
+
+Making Library... done.
+Making genibd: "IBD generator program"
+
+Linking                 (C++) genibd
+../../../../../auxx/extern_libs/archive/i386-linux2.0-gcc/libpython1.5.a(importdl.o): In function `_PyImport_LoadDynamicModule':
+/root/auxx/extern_libs/tarballs/Python-1.5.2/Python/./importdl.c:444: warning: Using 'dlopen' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+genibd
+libgenibd.a
+
+Making Lodlink for i386-linux2.0-gcc RELEASE in ../../targets/i386-linux2.0-gcc/c++/lodlink
+
+
+Making liblodlink.a: "lodlink library"
+
+Making Library... done.
+Making lodlink: LODLINK Application
+
+Linking                 (C++) lodlink
+../../../../../auxx/extern_libs/archive/i386-linux2.0-gcc/libpython1.5.a(importdl.o): In function `_PyImport_LoadDynamicModule':
+/root/auxx/extern_libs/tarballs/Python-1.5.2/Python/./importdl.c:444: warning: Using 'dlopen' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+liblodlink.a
+lodlink
+
+Making LODSCORE test of Affected Relative Pair for i386-linux2.0-gcc RELEASE in ../../targets/i386-linux2.0-gcc/c++/lodpal
+
+
+Making liblodpal.a: "Lodpal Library"
+
+Making Library... done.
+Making lodpal: "LODSCORE test of Affected Relative Pair"
+
+Linking                 (C++) lodpal
+../../../../../auxx/extern_libs/archive/i386-linux2.0-gcc/libpython1.5.a(importdl.o): In function `_PyImport_LoadDynamicModule':
+/root/auxx/extern_libs/tarballs/Python-1.5.2/Python/./importdl.c:444: warning: Using 'dlopen' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+liblodpal.a
+lodpal
+
+Making Markerinfo Main Program for i386-linux2.0-gcc RELEASE in ../../targets/i386-linux2.0-gcc/c++/markerinfo
+
+
+Making markerinfo: "MARKERINFO"
+
+Linking                 (C++) markerinfo
+../../../../../auxx/extern_libs/archive/i386-linux2.0-gcc/libpython1.5.a(importdl.o): In function `_PyImport_LoadDynamicModule':
+/root/auxx/extern_libs/tarballs/Python-1.5.2/Python/./importdl.c:444: warning: Using 'dlopen' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+markerinfo
+
+Making  for i386-linux2.0-gcc RELEASE in ../../targets/i386-linux2.0-gcc/c++/mlod
+
+
+Making libmlod.a: "mlod library"
+
+Making Library... done.
+Making mlod: Test of mlod parser
+
+Linking                 (C++) mlod
+../../../../../auxx/extern_libs/archive/i386-linux2.0-gcc/libpython1.5.a(importdl.o): In function `_PyImport_LoadDynamicModule':
+/root/auxx/extern_libs/tarballs/Python-1.5.2/Python/./importdl.c:444: warning: Using 'dlopen' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+libmlod.a
+mlod
+
+Making MultiPedigree statistics for i386-linux2.0-gcc RELEASE in ../../targets/i386-linux2.0-gcc/c++/pedinfo
+
+
+Making libpedinfo.a: "Pedinfo library"
+
+Making Library... done.
+Making pedinfo: "Multi-pedigree statistics test program"
+
+Linking                 (C++) pedinfo
+../../../../../auxx/extern_libs/archive/i386-linux2.0-gcc/libpython1.5.a(importdl.o): In function `_PyImport_LoadDynamicModule':
+/root/auxx/extern_libs/tarballs/Python-1.5.2/Python/./importdl.c:444: warning: Using 'dlopen' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+libpedinfo.a
+pedinfo
+
+Making Relpal for i386-linux2.0-gcc RELEASE in ../../targets/i386-linux2.0-gcc/c++/relpal
+
+
+Making librelpal.a: "Relpal Library"
+
+Making Library... done.
+Making relpal: Relpal
+
+Linking                 (C++) relpal
+../../../../../auxx/extern_libs/archive/i386-linux2.0-gcc/libpython1.5.a(importdl.o): In function `_PyImport_LoadDynamicModule':
+/root/auxx/extern_libs/tarballs/Python-1.5.2/Python/./importdl.c:444: warning: Using 'dlopen' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+librelpal.a
+relpal
+
+Making relationship test objects for i386-linux2.0-gcc RELEASE in ../../targets/i386-linux2.0-gcc/c++/reltest
+
+
+Making libreltest.a: "Relationship Test program Library"
+
+Making Library... done.
+Making reltest: "Relationship Test program"
+
+Linking                 (C++) reltest
+../../../../../auxx/extern_libs/archive/i386-linux2.0-gcc/libpython1.5.a(importdl.o): In function `_PyImport_LoadDynamicModule':
+/root/auxx/extern_libs/tarballs/Python-1.5.2/Python/./importdl.c:444: warning: Using 'dlopen' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+libreltest.a
+reltest
+
+Making Regression analysis for i386-linux2.0-gcc RELEASE in ../../targets/i386-linux2.0-gcc/c++/segreg
+
+
+Making libsegreg.a: "segreg library"
+
+../../c++/include/segreg/segreg_calculator.ipp: In member function ‘const SAGE::SEGREG::primary_analysis_results& SAGE::SEGREG::primary_analysis::run_analysis(const SAGE::SEGREG::PedigreeDataSet&, const std::vector<SAGE::SEGREG::model, std::allocator<SAGE::SEGREG::model> >&, bool)’:
+../../c++/include/segreg/segreg_calculator.ipp:361: warning: ‘mem_func.void (SAGE::SEGREG::segreg_calculator::*)(const SAGE::FPED::Member&, std::map<const SAGE::MPED::member<SAGE::FPED::FilteredMemberInfo, SAGE::MPED::no_info, SAGE::MPED::no_info, SAGE::FPED::FilteredPedigreeInfo, SAGE::FPED::FilteredMultipedigreeInfo>*, std::list<SAGE::SEGREG::pg::pen_type, std::allocator<SAGE::SEGREG::pg::pen_type> >, SAGE::SEGREG::pg::member_compare, std::allocator<std::pair<const SAGE::MPED::member<SAGE::FPED::FilteredMemberInfo, SAGE::MPED::no_info, SAGE::MPED::no_info, SAGE::FPED::FilteredPedigreeInfo, SAGE::FPED::FilteredMultipedigreeInfo>* const, std::list<SAGE::SEGREG::pg::pen_type, std::allocator<SAGE::SEGREG::pg::pen_type> > > > >&)::__pfn’ may be used uninitialized in this function
+../../c++/include/segreg/segreg_calculator.ipp:361: warning: ‘mem_func.void (SAGE::SEGREG::segreg_calculator::*)(const SAGE::FPED::Member&, std::map<const SAGE::MPED::member<SAGE::FPED::FilteredMemberInfo, SAGE::MPED::no_info, SAGE::MPED::no_info, SAGE::FPED::FilteredPedigreeInfo, SAGE::FPED::FilteredMultipedigreeInfo>*, std::list<SAGE::SEGREG::pg::pen_type, std::allocator<SAGE::SEGREG::pg::pen_type> >, SAGE::SEGREG::pg::member_compare, std::allocator<std::pair<const SAGE::MPED::member<SAGE::FPED::FilteredMemberInfo, SAGE::MPED::no_info, SAGE::MPED::no_info, SAGE::FPED::FilteredPedigreeInfo, SAGE::FPED::FilteredMultipedigreeInfo>* const, std::list<SAGE::SEGREG::pg::pen_type, std::allocator<SAGE::SEGREG::pg::pen_type> > > > >&)::__delta’ may be used uninitialized in this function
+../../c++/include/segreg/segreg_calculator.ipp:360: warning: ‘sped_func.void (SAGE::SEGREG::segreg_calculator::*)(const SAGE::FPED::Subpedigree&, std::map<const SAGE::MPED::member<SAGE::FPED::FilteredMemberInfo, SAGE::MPED::no_info, SAGE::MPED::no_info, SAGE::FPED::FilteredPedigreeInfo, SAGE::FPED::FilteredMultipedigreeInfo>*, std::list<SAGE::SEGREG::pg::pen_type, std::allocator<SAGE::SEGREG::pg::pen_type> >, SAGE::SEGREG::pg::member_compare, std::allocator<std::pair<const SAGE::MPED::member<SAGE::FPED::FilteredMemberInfo, SAGE::MPED::no_info, SAGE::MPED::no_info, SAGE::FPED::FilteredPedigreeInfo, SAGE::FPED::FilteredMultipedigreeInfo>* const, std::list<SAGE::SEGREG::pg::pen_type, std::allocator<SAGE::SEGREG::pg::pen_type> > > > >&)::__pfn’ may be used uninitialized in this function
+../../c++/include/segreg/segreg_calculator.ipp:360: warning: ‘sped_func.void (SAGE::SEGREG::segreg_calculator::*)(const SAGE::FPED::Subpedigree&, std::map<const SAGE::MPED::member<SAGE::FPED::FilteredMemberInfo, SAGE::MPED::no_info, SAGE::MPED::no_info, SAGE::FPED::FilteredPedigreeInfo, SAGE::FPED::FilteredMultipedigreeInfo>*, std::list<SAGE::SEGREG::pg::pen_type, std::allocator<SAGE::SEGREG::pg::pen_type> >, SAGE::SEGREG::pg::member_compare, std::allocator<std::pair<const SAGE::MPED::member<SAGE::FPED::FilteredMemberInfo, SAGE::MPED::no_info, SAGE::MPED::no_info, SAGE::FPED::FilteredPedigreeInfo, SAGE::FPED::FilteredMultipedigreeInfo>* const, std::list<SAGE::SEGREG::pg::pen_type, std::allocator<SAGE::SEGREG::pg::pen_type> > > > >&)::__delta’ may be used uninitialized in this function
+../../c++/include/segreg/segreg_calculator.ipp: In member function ‘std::vector<std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, double>, std::allocator<std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, double> > > SAGE::SEGREG::primary_analysis::do_single_evaluation(const SAGE::SEGREG::PedigreeDataSet&, const SAGE::SEGREG::model&, double&, std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > >&)’:
+../../c++/include/segreg/segreg_calculator.ipp:361: warning: ‘mem_func.void (SAGE::SEGREG::segreg_calculator::*)(const SAGE::FPED::Member&, std::map<const SAGE::MPED::member<SAGE::FPED::FilteredMemberInfo, SAGE::MPED::no_info, SAGE::MPED::no_info, SAGE::FPED::FilteredPedigreeInfo, SAGE::FPED::FilteredMultipedigreeInfo>*, std::list<SAGE::SEGREG::pg::pen_type, std::allocator<SAGE::SEGREG::pg::pen_type> >, SAGE::SEGREG::pg::member_compare, std::allocator<std::pair<const SAGE::MPED::member<SAGE::FPED::FilteredMemberInfo, SAGE::MPED::no_info, SAGE::MPED::no_info, SAGE::FPED::FilteredPedigreeInfo, SAGE::FPED::FilteredMultipedigreeInfo>* const, std::list<SAGE::SEGREG::pg::pen_type, std::allocator<SAGE::SEGREG::pg::pen_type> > > > >&)::__pfn’ may be used uninitialized in this function
+../../c++/include/segreg/segreg_calculator.ipp:361: warning: ‘mem_func.void (SAGE::SEGREG::segreg_calculator::*)(const SAGE::FPED::Member&, std::map<const SAGE::MPED::member<SAGE::FPED::FilteredMemberInfo, SAGE::MPED::no_info, SAGE::MPED::no_info, SAGE::FPED::FilteredPedigreeInfo, SAGE::FPED::FilteredMultipedigreeInfo>*, std::list<SAGE::SEGREG::pg::pen_type, std::allocator<SAGE::SEGREG::pg::pen_type> >, SAGE::SEGREG::pg::member_compare, std::allocator<std::pair<const SAGE::MPED::member<SAGE::FPED::FilteredMemberInfo, SAGE::MPED::no_info, SAGE::MPED::no_info, SAGE::FPED::FilteredPedigreeInfo, SAGE::FPED::FilteredMultipedigreeInfo>* const, std::list<SAGE::SEGREG::pg::pen_type, std::allocator<SAGE::SEGREG::pg::pen_type> > > > >&)::__delta’ may be used uninitialized in this function
+../../c++/include/segreg/segreg_calculator.ipp:360: warning: ‘sped_func.void (SAGE::SEGREG::segreg_calculator::*)(const SAGE::FPED::Subpedigree&, std::map<const SAGE::MPED::member<SAGE::FPED::FilteredMemberInfo, SAGE::MPED::no_info, SAGE::MPED::no_info, SAGE::FPED::FilteredPedigreeInfo, SAGE::FPED::FilteredMultipedigreeInfo>*, std::list<SAGE::SEGREG::pg::pen_type, std::allocator<SAGE::SEGREG::pg::pen_type> >, SAGE::SEGREG::pg::member_compare, std::allocator<std::pair<const SAGE::MPED::member<SAGE::FPED::FilteredMemberInfo, SAGE::MPED::no_info, SAGE::MPED::no_info, SAGE::FPED::FilteredPedigreeInfo, SAGE::FPED::FilteredMultipedigreeInfo>* const, std::list<SAGE::SEGREG::pg::pen_type, std::allocator<SAGE::SEGREG::pg::pen_type> > > > >&)::__pfn’ may be used uninitialized in this function
+../../c++/include/segreg/segreg_calculator.ipp:360: warning: ‘sped_func.void (SAGE::SEGREG::segreg_calculator::*)(const SAGE::FPED::Subpedigree&, std::map<const SAGE::MPED::member<SAGE::FPED::FilteredMemberInfo, SAGE::MPED::no_info, SAGE::MPED::no_info, SAGE::FPED::FilteredPedigreeInfo, SAGE::FPED::FilteredMultipedigreeInfo>*, std::list<SAGE::SEGREG::pg::pen_type, std::allocator<SAGE::SEGREG::pg::pen_type> >, SAGE::SEGREG::pg::member_compare, std::allocator<std::pair<const SAGE::MPED::member<SAGE::FPED::FilteredMemberInfo, SAGE::MPED::no_info, SAGE::MPED::no_info, SAGE::FPED::FilteredPedigreeInfo, SAGE::FPED::FilteredMultipedigreeInfo>* const, std::list<SAGE::SEGREG::pg::pen_type, std::allocator<SAGE::SEGREG::pg::pen_type> > > > >&)::__delta’ may be used uninitialized in this function
+Making Library... done.
+Making segreg: SEGREG Application
+
+Linking                 (C++) segreg
+../../../../../auxx/extern_libs/archive/i386-linux2.0-gcc/libpython1.5.a(importdl.o): In function `_PyImport_LoadDynamicModule':
+/root/auxx/extern_libs/tarballs/Python-1.5.2/Python/./importdl.c:444: warning: Using 'dlopen' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+libsegreg.a
+segreg
+
+Making Sibpal for i386-linux2.0-gcc RELEASE in ../../targets/i386-linux2.0-gcc/c++/sibpal
+
+
+Making libsibpal.a: "Sibpal Library"
+
+Making Library... done.
+Making sibpal: Sibpal
+
+Linking                 (C++) sibpal
+../../../../../auxx/extern_libs/archive/i386-linux2.0-gcc/libpython1.5.a(importdl.o): In function `_PyImport_LoadDynamicModule':
+/root/auxx/extern_libs/tarballs/Python-1.5.2/Python/./importdl.c:444: warning: Using 'dlopen' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+libsibpal.a
+sibpal
+
+Making TDTEX for i386-linux2.0-gcc RELEASE in ../../targets/i386-linux2.0-gcc/c++/tdtex
+
+
+Making libtdtex.a: "Transmission-disequilibrium test library"
+
+Making Library... done.
+Making tdtex: "Transmission-disequilibrium test application"
+
+Linking                 (C++) tdtex
+../../../../../auxx/extern_libs/archive/i386-linux2.0-gcc/libpython1.5.a(importdl.o): In function `_PyImport_LoadDynamicModule':
+/root/auxx/extern_libs/tarballs/Python-1.5.2/Python/./importdl.c:444: warning: Using 'dlopen' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+libtdtex.a
+tdtex

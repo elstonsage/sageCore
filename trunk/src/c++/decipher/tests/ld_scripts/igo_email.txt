@@ -1,0 +1,74 @@
+Return-Path: <rigo@darwin.EPBI.CWRU.edu>
+Received: from [127.0.0.1] (genepi-igo.EPBI.CWRU.Edu [129.22.245.138])
+	(authenticated bits=0)
+	by darwin.epbi.cwru.edu (8.13.1/8.13.1) with ESMTP id l2NHbwMY001193
+	for <dbaechle@darwin.epbi.cwru.edu>; Fri, 23 Mar 2007 13:37:59 -0400
+Message-ID: <4604104B.10300@darwin.case.edu>
+Date: Fri, 23 Mar 2007 13:37:15 -0400
+From: Rob Igo <rigo@darwin.EPBI.CWRU.edu>
+User-Agent: Thunderbird 1.5.0.10 (Windows/20070221)
+MIME-Version: 1.0
+To: Dan Baechle <dbaechle@darwin.epbi.cwru.edu>
+Subject: LD Block Finder from the FIND Project
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-GENEPI-MailScanner-Information: Please contact the ISP for more information
+X-GENEPI-MailScanner: Not scanned: please contact your Internet E-Mail Service Provider for details
+X-GENEPI-MailScanner-SpamCheck: not spam, SpamAssassin (score=-4.494,
+	required 4.5, autolearn=not spam, ALL_TRUSTED -1.80, AWL -0.10,
+	BAYES_00 -2.60)
+X-GENEPI-MailScanner-From: rigo@darwin.case.edu
+X-Spam-Status: No
+
+Howdy!  I've whittled my original LD-blocking script to a form that will 
+merely find and report the LD blocks, based on the criterion that every 
+pair of adjacent markers must have | D' | above a given threshold.
+
+I've created a directory /home/rigo/for_dan/, that contains the script 
+and a couple of sample files.  It contents are:
+
+FIND_blox.pl:  Perl script
+chr22_map.txt:  Sample Haploview map (info) file
+chr22_ped.txt:  Sample Haploview data file
+
+Of course, you'll need to copy these over to your home directory before 
+using them.
+
+To run Haploview and obtain a file containing | D' | values, enter the 
+following command (on longitude or latitude) in the same directory as 
+the chr22* files:
+
+java -jar /home/rigo/software/Haploview.jar -n -pedfile chr22_ped.txt 
+-info chr22_map.txt -hwcutoff 0 -maxDistance 5000 -check -dprime
+
+This will generate an output file called chr22_ped.txt.LD, containing, 
+for each pair of tested markers, the marker names, | D' |, LOD score for 
+testing | D' | = 0, and some other stuff.  Note the lack of restriction 
+for Hardy-Weinber equilibrium (-hwcutoff 0) and the 5 Mb max distance 
+for comparisons (-maxDistance 5000; the default is 500 kb).
+
+The Perl script takes as arguments (in order) the Haploview map file, 
+the Haploview LD output file just created, and (optionally) the minimum 
+| D' | and LOD score required to consider two markers in high LD.  
+NOTE:  If you don't supply the minimum | D' | and LOD score, the script 
+will default to a min. | D' | of 0.7 and LOD score of 0 (i.e., no LOD 
+score requirement).
+
+To run it on the sample files, the syntax is
+
+FIND_blox.pl chr22_map.txt chr22_ped.txt.LD
+
+If you want to specify a different minimum | D' | than 0.7, just add it 
+as a third argument, and if you want to set a minimum LOD score, add it 
+as a fourth argument.
+
+The output is a text file called LDblox.out, which lists the markers in 
+each block.
+
+Please let me know if you have any questions.
+
+Cheers,
+
+Rob
+
+

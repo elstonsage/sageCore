@@ -1,0 +1,666 @@
+S.A.G.E. v5.0 -- GENIBD  
+COPYRIGHT (C) 2004 CASE WESTERN RESERVE UNIVERSITY
+
+Reading Parameter File....................done.
+Reading Marker Locus Description File.....done.
+Reading Pedigree File.....................
+              from ped....................done.
+Sorting Pedigrees.........................done.
+Reading Genome Description File...........done.
+
+GENIBD analysis.......  1
+
+===========================================================================
+affy : Multipoint analysis on region (CHROMOSOME1):
+        * - Maximum size for exact method is set to 16.
+===========================================================================
+
+  Processing Region: CHROMOSOME1
+  =======================================
+
+  affy: Pedigree 10084
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10130
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10038
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10006
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10027
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10080
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10093
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10024
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10128
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10121
+
+  affy: Pedigree 10106
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10040
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10019
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10023
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10081
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10122
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10141
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10071
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10052
+
+  affy: Pedigree 10030
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10034
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10124
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10017
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10048
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10025
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10067
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10051
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10066
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10087
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10103
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10007
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10102
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10107
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10035
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10064
+
+  affy: Pedigree 10021
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10059
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10100
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10137
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10099
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10096
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10041
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10062
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10074
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10105
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10143
+
+  affy: Pedigree 10073
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10061
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10129
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10036
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10125
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10045
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10053
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10032
+
+  affy: Pedigree 10046
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10020
+
+  affy: Pedigree 10108
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10111
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10050
+
+  affy: Pedigree 10082
+
+  affy: Pedigree 10009
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10117
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10118
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10077
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10104
+
+  affy: Pedigree 10013
+
+  affy: Pedigree 10109
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10058
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10085
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10133
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10078
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10042
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10033
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10092
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10057
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10014
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10037
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10028
+
+  affy: Pedigree 10056
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10068
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10010
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10115
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10088
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10054
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10095
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10031
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10114
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10136
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10127
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10055
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10079
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10008
+
+  affy: Pedigree 10018
+
+  affy: Pedigree 10001
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10131
+
+  affy: Pedigree 10123
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10029
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10012
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10140
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10004
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10011
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10097
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10094
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10126
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10075
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10065
+
+  affy: Pedigree 10134
+
+  affy: Pedigree 10072
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10091
+
+  affy: Pedigree 10142
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10070
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10060
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10022
+
+  affy: Pedigree 10003
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10076
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10119
+
+  affy: Pedigree 10101
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10112
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10049
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10089
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10090
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10132
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10110
+
+  affy: Pedigree 10139
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10120
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10069
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10039
+
+  affy: Pedigree 10083
+
+  affy: Pedigree 10043
+
+  affy: Pedigree 10116
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10047
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10135
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10002
+
+  affy: Pedigree 10113
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10016
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10098
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10063
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10044
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10015
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10026
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10005
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10138
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  affy: Pedigree 10086
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+
+Analysis complete!
+

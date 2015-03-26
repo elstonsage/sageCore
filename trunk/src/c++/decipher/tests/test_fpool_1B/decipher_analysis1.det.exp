@@ -1,0 +1,24 @@
+
+
+
+==========
+Analysis 1
+==========
+
+
+Markers in order:
+  m1 m2 m3 
+
+
+
+                      All Possible Haplotype Combinations
+
+
+                                      Pedigree:Member
+                            1:1 
+0-0-0  0-0-1  1-1-0  1-1-1   x  
+0-0-0  0-1-1  1-0-0  1-1-1   x  
+0-0-1  0-1-0  1-0-1  1-1-0   x  
+0-1-0  0-1-1  1-0-0  1-0-1   x  
+
+

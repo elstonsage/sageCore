@@ -1,0 +1,62 @@
+=====================================================================================================
+  SEGREG Analysis for Trait : AFFECTION
+=====================================================================================================
+  # Model Specification  
+
+    Model Class MLM
+    Type susceptibilities        : one susceptibility
+    Susceptibility covariates    :
+          COV                    : (Mean =      0.43333)
+    Residual correlations        : Arbitrary
+    Type frequency               : 
+    Transmission                 : homogeneous no transmission
+
+
+    NOTE:  All covariates are centered at mean 0.0 for analysis.  The centering
+           means listed are the means of all non-missing values of the covariate,
+           regardless of the missingness of other variables used in the analysis.
+           It follows that, unless the missingness is the same for the trait and
+           all covariates used, these means may not be the appropriate centering
+           means for the results below.
+
+  # Number of constituent pedigrees   : 3
+  # Number of unconnected individuals : 0
+
+  # Final Estimates : 
+
+  Parameter           Parameter Est.  Standard Err.   First Deriv.   Status
+-----------------------------------------------------------------------------------------------------
+  susc                 0.71880720     -----------     -0.05687145     Independent
+  COV                  2.64775870     -----------     -0.08116078     Independent
+  marital resid a      0.00000000     -----------                     Fixed
+  fo resid assoc      -1.78814144     -----------     -0.70631302     Independent
+  mo resid assoc      -1.22920590     -----------     -0.16179050     Independent
+  ss resid assoc       0.30000000     -----------                     Fixed
+-----------------------------------------------------------------------------------------------------
+
+%SEGREG-I: The likelihood surface is flat and standard errors cannot be
+           computed.
+    Variance-covariance matrix not available due to computational problems.
+    See below.
+
+-----------------------------------------------------------------------------------------------------
+                                        Residual Correlations
+
+                       AA                  AB                  BB                  Overall
+-----------------------------------------------------------------------------------------------------
+father_mother          0.0000              0.0000              0.0000           0                             
+parent_offspring      -0.2905             -0.2905             -0.2905           -0.290511                     
+sib_sib                0.0359              0.0359              0.0359           0.0359447                     
+-----------------------------------------------------------------------------------------------------
+
+
+        LN(Likelihood) : -13.4391
+     -2 LN(Likelihood) : 26.8782
+    Akaike's AIC score : 34.8782
+=====================================================================================================
+
+%SEGREG-E: Likelihood may not be maximized because of model constraints on
+           parameters. 
+%SEGREG-E: Estimating fewer parameters may help.
+
+

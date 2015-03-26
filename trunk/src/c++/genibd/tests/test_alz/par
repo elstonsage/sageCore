@@ -1,0 +1,81 @@
+marker
+{
+  allele_missing="0"
+}
+
+pedigree
+{
+  verbose = 20
+  individual_missing_value = "0"
+
+  pedigree_id = pid
+  individual_id = id
+  parent_id = p1
+  parent_id = p2
+  sex_field = sex
+  sex_code, male = "1", female = "2", missing = "0", trait
+  trait = alz, binary, affected = "2", unaffected = "1", missing = "0"
+  trait = usex, binary, affected = "1", unaffected = "0"
+  covariate = E4, missing = "."
+  covariate = E2, missing = "."
+  covariate = agevar, missing = "."
+  covariate = currntage, missing = "."
+  covariate = dementia, missing = "."
+  covariate = duration, missing = "."
+
+  allele = "DXS6807a", name = "DXS6807", x_linked
+  allele = "DXS6807b", name = "DXS6807", x_linked
+  allele = "DXS2504a", name = "DXS2504", x_linked
+  allele = "DXS2504b", name = "DXS2504", x_linked
+  allele = "MAOAa", name = "MAOA", x_linked
+  allele = "MAOAb", name = "MAOA", x_linked
+  allele = "DXS1039a", name = "DXS1039", x_linked
+  allele = "DXS1039b", name = "DXS1039", x_linked
+  allele = "DXS7132a", name = "DXS7132", x_linked
+  allele = "DXS7132b", name = "DXS7132", x_linked
+  allele = "DXS453a", name = "DXS453", x_linked
+  allele = "DXS453b", name = "DXS453", x_linked
+  allele = "DXS1002a", name = "DXS1002", x_linked
+  allele = "DXS1002b", name = "DXS1002", x_linked
+  allele = "DXS6789a", name = "DXS6789", x_linked
+  allele = "DXS6789b", name = "DXS6789", x_linked
+  allele = "DXS2498a", name = "DXS2498", x_linked
+  allele = "DXS2498b", name = "DXS2498", x_linked
+  allele = "DXS1001a", name = "DXS1001", x_linked
+  allele = "DXS1001b", name = "DXS1001", x_linked
+  allele = "DXS1047a", name = "DXS1047", x_linked
+  allele = "DXS1047b", name = "DXS1047", x_linked
+  allele = "DXS994a", name = "DXS994", x_linked
+  allele = "DXS994b", name = "DXS994", x_linked
+  allele = "DXS1062a", name = "DXS1062", x_linked
+  allele = "DXS1062b", name = "DXS1062", x_linked
+}
+
+genibd, out = chrxs
+{
+  ibd_mode = multipoint
+  distance = 2.0
+  scan_type = intervals
+}
+
+lodpal, multipoint, output=ALZX1
+{
+  trait=alz
+  subset=usex
+  x_linkage
+  {
+    lambda1_equal = true
+  }
+  wide_out=true
+}
+
+lodpal, multipoint, output=ALZX2
+{
+  trait=alz
+  subset=usex
+  x_linkage
+  {
+    lambda1_equal = false
+  }
+  wide_out=true
+}

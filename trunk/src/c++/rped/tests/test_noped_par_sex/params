@@ -1,0 +1,14 @@
+pedigree
+{
+  delimiter_mode = multiple
+  delimiters=" "
+  individual_missing_value="0"
+  sex_code,male="1",female="2",unknown="?"
+  sex_field=sex
+  parent_id=p1
+  parent_id=p2
+
+  individual_id=id
+
+  verbose = 1000
+}

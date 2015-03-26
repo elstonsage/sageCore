@@ -1,0 +1,54 @@
+=================
+
+     Results
+
+=================
+
+==============================
+     Analysis description
+==============================
+
+  Title                        assoc                         
+  Primary Trait                AFF (Binary)                  
+  Allow averaging              Disabled                      
+  Omit complete summary table  Disabled                      
+  Summary table display order  By LRT p-value                
+  Summary filter               Show no more than 10 results  
+-------------------------------------------------------------
+
+Note: This output contains results for a binary trait using an algorithm still in Beta release form. Please verify results before reporting.
+
+======================================
+     Transformation configuration
+======================================
+
+  Method                George-Elston  
+  Lambda1 is estimated                 
+  Lambda2 is fixed at    0.000000      
+
+=======================
+     Summary table
+=======================
+
+-------------------------------------------------------------------------------------
+  Model   Intercept  Test cov.  Estimate   Std. err.  P-value (Wald)  P-value (LRT)  
+-------------------------------------------------------------------------------------
+  marker  -9.210237  m           8.15e-06   0.009465   0.999313        0.999462      
+-------------------------------------------------------------------------------------
+
+Note: Models with an asterisk (*) may not have converged.
+
+================================
+     Complete summary table
+================================
+
+-------------------------------------------------------------------------------------
+  Model   Intercept  Test cov.  Estimate   Std. err.  P-value (Wald)  P-value (LRT)  
+-------------------------------------------------------------------------------------
+  marker  -9.210237  m           8.15e-06   0.009465   0.999313        0.999462      
+-------------------------------------------------------------------------------------
+
+Note: Models with an asterisk (*) may not have converged.
+
+Note: See .det file for more information about each model
+

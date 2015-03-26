@@ -1,0 +1,128 @@
+
+
+
+%RELPAL-W: Trait 'EF' has multiple types listed.  Setting to unknown.
+
+Family structure information on the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       SEX       PARENT1       PARENT2     
+     ------------  ------------  --------  ------------  ------------
+     1   1         1             1         0             0           
+     1   1         2             2         0             0           
+     1   1         479           2         1             2           
+     1   1         480           1         1             2           
+     1   2         3             1         0             0           
+     1   2         4             2         0             0           
+     1   2         481           2         3             4           
+     1   2         482           2         3             4           
+     1   3         5             1         0             0           
+     1   3         6             2         0             0           
+
+
+Phenotypes for the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       SEX_CODE              FAMILIAL_INDICATOR    FOUNDER_INDICATOR     PEDIGREE_SIZE         age                   alive                 proband               affection             EF                    Q1                    Q2                    Q3                    Q4                    Q5                  
+     ------------  ------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------
+     1   1         1             0                     1                     1                     4                     67                    0                     0                     0                                                                                                                                                       
+     1   1         2             1                     1                     1                     4                     63                    0                     0                     0                                                                                                                                                       
+     1   1         479           1                     1                     0                     4                     64                    0                     0                     0                     22.347                27.0711               43.7173               84.5391               11.047                24.4446             
+     1   1         480           0                     1                     0                     4                     58                    1                     0                     0                     22.652                20.1002               35.1667               45.6036               12.1438               26.5537             
+     1   2         3             0                     1                     1                     4                     67                    1                     0                     0                     29.384                21.639                33.1938               54.7596               10.28                 18.8664             
+     1   2         4             1                     1                     1                     4                     67                    1                     0                     0                     22.294                33.2402               28.9267               67.913                10.7452               23.1766             
+     1   2         481           1                     1                     0                     4                     29                    1                     0                     0                     36.868                34.9028               36.3824               83.0885               11.0479               29.2171             
+     1   2         482           1                     1                     0                     4                     19                    1                     0                     0                     29.588                27.8714               48.824                70.8467               10.6258               22.7816             
+     1   3         5             0                     1                     1                     5                     65                    1                     0                     0                     27.984                23.3207               37.8797               57.1144               10.9946               28.0294             
+     1   3         6             1                     1                     1                     5                     61                    1                     0                     0                     28.162                24.0919               54.2628               93.8941               11.7494               25.9936             
+
+
+Markers for the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       D5G1          D5G2          D5G3          D5G4          D5G5          D5G6          D5G7          D5G8          D5G9          D5G10         D5G11         D5G12         D5G13         D5G14         D5G15         D5G16         D5G17         D5G18         D5G19         D5G20         D5G21         D5G22         D5G23         D5G24         D5G25       
+     ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------
+     1   1         1             B/B           A/E           G/G           D/D           C/D           A/B           B/E           D/E           B/C           D/D           D/G           B/C           F/H           C/D           E/E           B/B           D/D           G/G           C/C           B/C           A/C           D/F           E/G           E/F           C/C         
+     1   1         2             C/D           E/D           D/D           D/A           A/B           A/B           E/E           E/C           A/D           B/B           D/E           E/E           D/G           C/D           A/G           D/E           A/F           A/E           A/B           B/E           G/G           D/F           C/D           E/A           B/D         
+     1   1         479           B/C           E/D           G/D           D/A           C/B           A/B           B/E           D/C           B/D           D/B           G/E           C/E           H/D           C/D           E/A           B/D           D/F           G/E           C/A           B/B           A/G           D/D           G/D           E/E           C/D         
+     1   1         480           B/D           E/E           G/D           D/D           C/A           A/A           E/E           E/E           C/A           D/B           D/D           B/E           F/G           C/D           E/G           B/E           D/A           G/A           C/B           C/E           C/G           F/F           E/C           F/A           C/B         
+     1   2         3             C/D           E/F           D/D           D/A           C/F           B/C           E/D           E/B           B/F           D/B           E/I           B/A           H/H           B/B           A/C           C/C           D/B           B/D           A/B           B/D           A/D           A/A           G/C           E/F           C/D         
+     1   2         4             C/D           E/D           A/A           E/F           C/D           D/F           E/E           B/A           C/C           D/B           I/B           B/B           F/H           C/B           G/L           D/C           E/E           G/C           B/B           B/D           A/D           A/A           E/G           F/F           C/D         
+     1   2         481           C/C           E/E           D/A           A/E           D/F           B/F           E/D           B/B           B/C           D/D           E/I           B/B           H/H           C/B           C/L           D/C           B/E           G/B           A/B           D/D           A/D           A/A           G/G           E/F           C/D         
+     1   2         482           D/D           D/F           D/A           D/F           C/C           C/D           E/E           B/A           B/C           D/B           E/B           B/B           F/H           B/B           G/C           C/C           B/E           B/C           A/B           D/D           A/D           A/A           G/G           E/F           C/D         
+     1   3         5             C/C           E/D           D/A           A/E           D/B           A/C           D/F           E/E           C/E           B/B           G/E           A/F           H/G           C/A           A/C           E/C           B/C           G/A           B/B           E/D           A/F           D/F           A/B           A/C           B/D         
+     1   3         6             D/A           E/C           D/H           D/F           B/F           A/C           E/D           B/B           C/E           B/F           F/H           B/A           G/E           D/B           E/A           D/C           C/C           G/A           C/B           B/B           D/F           D/D           E/D           F/F           C/D         
+
+%RELPAL-W: There are no information whether the ibd values are singlepoint or
+           multipoint.  They will be processed as singlepoint ibd values.
+
+RELPAL analysis.......1  
+
+%RELPAL-I: No Markers are specified for the single_marker model.  Using all
+           markers from the ibd file...
+
+=================================
+  Relpal Analysis Specification  
+=================================
+
+model: multiple traits, single marker
+
+trait:
+   trait 1: EF
+   trait 2: Q2
+
+first_level:
+
+transform residuals from 1st level to 2nd level
+
+second_level:
+  test marker 1: D5G1
+  test marker 2: D5G2
+  test marker 3: D5G3
+  test marker 4: D5G4
+  test marker 5: D5G5
+  test marker 6: D5G6
+  test marker 7: D5G7
+  test marker 8: D5G8
+  test marker 9: D5G9
+  test marker 10: D5G10
+  test marker 11: D5G11
+  test marker 12: D5G12
+  test marker 13: D5G13
+  test marker 14: D5G14
+  test marker 15: D5G15
+  test marker 16: D5G16
+  test marker 17: D5G17
+  test marker 18: D5G18
+  test marker 19: D5G19
+  test marker 20: D5G20
+  test marker 21: D5G21
+  test marker 22: D5G22
+  test marker 23: D5G23
+  test marker 24: D5G24
+  test marker 25: D5G25
+
+data options:
+  use_members = every
+  use_pairs = all
+
+output options:
+  detailed_out = yes
+  export_out = no
+  data_out = no
+  debug_out = no
+  residual_out = no
+
+asymptotic pvalue options:
+  seed = 100
+  replicates = 0
+  min_replicates = 20
+  max_replicates = 10000
+  threshold = 0.05
+  width = 0.2
+  confidence = 0.95
+
+variance options:
+  naive variance = true
+  robust sandwich variance = true
+  alternative variance = true
+  IBD variance conditional on trait = true
+
+

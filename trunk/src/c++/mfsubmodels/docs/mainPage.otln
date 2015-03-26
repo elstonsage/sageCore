@@ -1,0 +1,55 @@
+\TITLE\
+MFSUBMODELS
+\BRIEF\
+Submodels for use with Maxfun
+\MODULE_NAME\
+mfsubmodels_main
+\DETAILED\
+
+\#.\ What is the mfsubmodels library?
+
+The mfsubmodels library provides a variety of submodels for use with the
+Maxfun API. If you're not familiar with the Maxfun API already, you should
+read the tutorial for that library. This tutorial presupposes familiarity
+with maxfunapi.
+
+\#.\ Remind me again how MAXFUN::Submodel's work!
+
+MAXFUN::Submodel are handy little object for encapsulating related
+parameters as well as functionality for processing them. For instance, let's
+say you want to estimate transformation parameters in your model? You could
+explicitly add power and shift parameters to your MAXFUN::ParameterMgr, and
+add some transformFoo() function to your kernel. That would work fine. But
+wouldn't it be nice if such a chunk of code already existed?
+
+Well, it does!
+
+The MFSUBMODELS::TransformationSubmodel does this for you. All you need to
+do is (1) instantiate it somewhere in your model, (2) remember to add it to
+your MAXFUN::ParameterMgr immediately prior to maximization, and (3)
+remember to remove it therefrom immediately after maximization. For example:
+
+\code
+...BLAH BLAH BLAH...
+\endcode
+
+\#.\ How do I parse the parameter file sub-block for any given submodel?
+
+For every submodel FooSubmodel, there is a corresponding class named
+FooParser. This class will have a publicly available static parsing
+function, generally of the form 
+
+parse(submodel &, const LSFBase * param, cerrorstream & errors)
+
+For instance, if you want to parse a transformation sub-block, you can use
+SAGE::MFSUBMODELS::TransformationParser::parse() to do so.
+
+\#.\ List of available submodels and their parsers
+
+For transformation math:
+
+SAGE::MFSUBMODELS::TransformationSubmodel, SAGE::MFSUBMODELS::TransformationParser
+
+For type-specific (usually by genotype) collections of values:
+
+SAGE::MFSUBMODELS::TypeSpecificSubmodel, SAGE::MFSUBMODELS::TypeSpecificParser 

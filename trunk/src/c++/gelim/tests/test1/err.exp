@@ -1,0 +1,56 @@
+%GELIMTEST-E: At Marker 'MARKER1' parents '7' and '1' in pedigree '3 18' are
+              inconsistent with the following child(ren) of their nuclear 
+              family: 95, 94, 93.
+%GELIMTEST-E: At Marker 'MARKER2' parents '7' and '1' in pedigree '3 18' are
+              inconsistent with the following child(ren) of their nuclear 
+              family: 95, 94, 93, 92, 91.
+%GELIMTEST-E: At Marker 'MARKER3' parents '7' and '1' in pedigree '3 18' are
+              inconsistent with the following child(ren) of their nuclear 
+              family: 91.
+%GELIMTEST-E: At Marker 'MARKER4' parents '7' and '1' in pedigree '3 18' are
+              inconsistent with the following child(ren) of their nuclear 
+              family: 91.
+%GELIMTEST-E: At Marker 'MARKER5' parents '7' and '1' in pedigree '3 18' are
+              inconsistent with the following child(ren) of their nuclear 
+              family: 95, 94, 93, 92, 91.
+%GELIMTEST-E: At Marker 'MARKER6' parents '7' and '1' in pedigree '3 18' are
+              inconsistent with the following child(ren) of their nuclear 
+              family: 95, 94, 93, 92, 91.
+%GELIMTEST-E: At Marker 'MARKER7' parents '7' and '1' in pedigree '3 18' are
+              inconsistent with the following child(ren) of their nuclear 
+              family: 94.
+%GELIMTEST-E: At Marker 'MARKER8' parents '7' and '1' in pedigree '3 18' are
+              inconsistent with the following child(ren) of their nuclear 
+              family: 94.
+%GELIMTEST-E: Pedigree '3 18' is inconsistent at marker 'Marker1'.  No
+              information will be used at this marker for this pedigree.
+%GELIMTEST-E: Pedigree '3 18' is inconsistent at marker 'Marker2'.  No
+              information will be used at this marker for this pedigree.
+%GELIMTEST-E: Pedigree '3 18' is inconsistent at marker 'Marker3'.  No
+              information will be used at this marker for this pedigree.
+%GELIMTEST-E: Pedigree '3 18' is inconsistent at marker 'Marker4'.  No
+              information will be used at this marker for this pedigree.
+%GELIMTEST-E: Pedigree '3 18' is inconsistent at marker 'Marker5'.  No
+              information will be used at this marker for this pedigree.
+%GELIMTEST-E: Pedigree '3 18' is inconsistent at marker 'Marker6'.  No
+              information will be used at this marker for this pedigree.
+%GELIMTEST-E: Pedigree '3 18' is inconsistent at marker 'Marker7'.  No
+              information will be used at this marker for this pedigree.
+%GELIMTEST-E: Pedigree '3 18' is inconsistent at marker 'Marker8'.  No
+              information will be used at this marker for this pedigree.
+%GELIMTEST-E: At Marker 'MARKER1' parents '6' and '2' in pedigree '4 18' are
+              inconsistent with the following child(ren) of their nuclear 
+              family: 9.
+%GELIMTEST-E: At Marker 'MARKER2' parents '3' and '4' in pedigree '4 18' are
+              inconsistent with the following child(ren) of their nuclear 
+              family: 8, 7, 6, 5.
+%GELIMTEST-E: Pedigree '4 18' is inconsistent at marker 'Marker1'.  No
+              information will be used at this marker for this pedigree.
+%GELIMTEST-E: Pedigree '4 18' is inconsistent at marker 'Marker2'.  No
+              information will be used at this marker for this pedigree.
+%GELIMTEST-W: No marker phenotype data for pedigree '4 18' at marker 'Marker3'.
+%GELIMTEST-W: No marker phenotype data for pedigree '4 18' at marker 'Marker4'.
+%GELIMTEST-W: No marker phenotype data for pedigree '4 18' at marker 'Marker5'.
+%GELIMTEST-W: No marker phenotype data for pedigree '4 18' at marker 'Marker6'.
+%GELIMTEST-W: No marker phenotype data for pedigree '4 18' at marker 'Marker7'.
+%GELIMTEST-W: No marker phenotype data for pedigree '4 18' at marker 'Marker8'.

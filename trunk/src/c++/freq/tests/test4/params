@@ -1,0 +1,61 @@
+pedigree
+{
+   delimiter_mode = multiple
+   delimiters=" "
+   individual_missing_value="0"
+   sex_code,male="1",female="2",unknown="?"
+
+   pedigree_id=fam
+   individual_id=id
+   parent_id=mom
+   parent_id=dad
+   sex_field=sex
+
+  trait=dbh,missing=-1
+  trait=sqrtdbh,missing=-1
+  trait=comt,missing=-1
+  covariate=cov1,missing=9
+  covariate=cov2,missing=9
+  covariate=cov3,missing=9
+  #covariate=ABO,name=covabo,missing=0  
+  # Markers
+
+  marker= ABO,missing=0
+  marker= KELL,missing=0
+  marker = P,missing=0
+  marker= FY,missing=0
+  marker= JK,missing=0
+  marker= PGD,missing=0
+  marker= ADA,missing=0
+  marker= AK1,missing=0
+  marker= ACP1,missing=0
+  marker= PGM1,missing=0
+  marker= HBB,missing=0
+  marker= GPT,missing=0
+  marker= C3,missing=0
+  marker= HP,missing=0
+  marker= TF,missing=0
+  marker= GC,missing=0
+  marker= ORM,missing=0
+  marker= GM,missing=0
+  marker= KM,missing=0
+  marker= BF,missing=0
+  marker= ESD,missing=0
+  marker= GLO1,missing=0
+  marker= LE,missing=0
+}
+
+#GENIBD Analysis
+genibd,out=singledbh
+{
+  title="Singlepoint"
+  ibd_mode=singlepoint
+ }
+
+#SIBPAL
+trait_regression,single
+{ 
+  regression_method=diff
+  trait=sqrtdbh
+  trait=dbh
+}

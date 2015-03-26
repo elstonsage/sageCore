@@ -1,0 +1,103 @@
+
+
+
+
+Family structure information on the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       SEX       PARENT1       PARENT2     
+     ------------  ------------  --------  ------------  ------------
+     1046          1             1         0             0           
+     1046          2             2         0             0           
+     1046          3             1         1             2           
+     1046          4             1         1             2           
+     1058          1             1         0             0           
+     1058          2             2         0             0           
+     1058          3             1         1             2           
+     1058          4             1         1             2           
+     1079          1             1         0             0           
+     1079          2             2         0             0           
+
+
+Phenotypes for the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       SEX_CODE              FAMILIAL_INDICATOR    FOUNDER_INDICATOR     PEDIGREE_SIZE         aff                 
+     ------------  ------------  --------------------  --------------------  --------------------  --------------------  --------------------
+     1046          1             0                     1                     1                     4                     0                   
+     1046          2             1                     1                     1                     4                     0                   
+     1046          3             0                     1                     0                     4                     0                   
+     1046          4             0                     1                     0                     4                     1                   
+     1058          1             0                     1                     1                     4                     0                   
+     1058          2             1                     1                     1                     4                     0                   
+     1058          3             0                     1                     0                     4                     1                   
+     1058          4             0                     1                     0                     4                     1                   
+     1079          1             0                     1                     1                     4                     0                   
+     1079          2             1                     1                     1                     4                     0                   
+
+
+Phenotypes for the first 10 pairs read from file: pros1xwt.in
+
+     PED ID        IND. ID       IND. ID       gleason             
+     ------------  ------------  ------------  --------------------
+     1003          3             4             11                  
+%LODPAL-W: [2] Bad pedigree ID.
+%LODPAL-W: Cannot find pair: 1003 (3, 4).  Skipping...
+     1025          3             4             12                  
+%LODPAL-W: [4] Bad pedigree ID.
+%LODPAL-W: Cannot find pair: 1025 (3, 4).  Skipping...
+     1046          3             4             15                  
+     1058          3             4             8                   
+     1079          3             4             5                   
+     1104          3             4             11                  
+     1154          3             4             9                   
+     1169          3             4             12                  
+     1169          3             5             11                  
+     1169          4             5             13                  
+%LODPAL-W: [36] Bad pedigree ID.
+%LODPAL-W: Cannot find pair: 1222 (3, 4).  Skipping...
+%LODPAL-W: [76] Bad Second Pair ID.
+%LODPAL-W: Cannot find pair: 1522 (3, 5).  Skipping...
+%LODPAL-W: [78] Bad Second Pair ID.
+%LODPAL-W: Cannot find pair: 1522 (4, 5).  Skipping...
+%LODPAL-W: [280] Bad Second Pair ID.
+%LODPAL-W: Cannot find pair: 3938 (3, 5).  Skipping...
+%LODPAL-W: [282] Bad Second Pair ID.
+%LODPAL-W: Cannot find pair: 3938 (4, 5).  Skipping...
+%LODPAL-W: [326] Bad pedigree ID.
+%LODPAL-W: Cannot find pair: 4120 (3, 4).  Skipping...
+%LODPAL-W: [348] Bad Second Pair ID.
+%LODPAL-W: Cannot find pair: 4155 (3, 5).  Skipping...
+%LODPAL-W: [350] Bad Second Pair ID.
+%LODPAL-W: Cannot find pair: 4155 (4, 5).  Skipping...
+%LODPAL-W: [374] Bad pedigree ID.
+%LODPAL-W: Cannot find pair: 4194 (3, 4).  Skipping...
+%LODPAL-W: [446] Bad pedigree ID.
+%LODPAL-W: Cannot find pair: 4264 (3, 4).  Skipping...
+%LODPAL-W: [536] Bad pedigree ID.
+%LODPAL-W: Cannot find pair: 4363 (3, 4).  Skipping...
+%LODPAL-W: [578] Bad pedigree ID.
+%LODPAL-W: Cannot find pair: 4425 (3, 4).  Skipping...
+%LODPAL-W: [600] Bad pedigree ID.
+%LODPAL-W: Cannot find pair: 4459 (3, 4).  Skipping...
+%LODPAL-W: [626] Bad Second Pair ID.
+%LODPAL-W: Cannot find pair: 4505 (3, 5).  Skipping...
+%LODPAL-W: [628] Bad Second Pair ID.
+%LODPAL-W: Cannot find pair: 4505 (4, 5).  Skipping...
+%LODPAL-W: [636] Bad pedigree ID.
+%LODPAL-W: Cannot find pair: 4545 (3, 4).  Skipping...
+%LODPAL-W: [638] Bad pedigree ID.
+%LODPAL-W: Cannot find pair: 4550 (3, 4).  Skipping...
+%LODPAL-W: [640] Bad pedigree ID.
+%LODPAL-W: Cannot find pair: 4566 (3, 4).  Skipping...
+%LODPAL-W: [642] Bad pedigree ID.
+%LODPAL-W: Cannot find pair: 4577 (3, 4).  Skipping...
+%LODPAL-W: [644] Bad pedigree ID.
+%LODPAL-W: Cannot find pair: 4599 (3, 4).  Skipping...
+%LODPAL-W: [646] Bad pedigree ID.
+%LODPAL-W: Cannot find pair: 4601 (3, 4).  Skipping...
+%LODPAL-W: [648] Bad pedigree ID.
+%LODPAL-W: Cannot find pair: 4609 (3, 4).  Skipping...
+%LODPAL-W: [650] Bad pedigree ID.
+%LODPAL-W: Cannot find pair: 4613 (3, 4).  Skipping...
+%LODPAL-W: [652] Bad pedigree ID.
+%LODPAL-W: Cannot find pair: 9993 (3, 4).  Skipping...
+

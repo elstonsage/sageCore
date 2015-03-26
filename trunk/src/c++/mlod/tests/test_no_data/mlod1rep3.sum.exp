@@ -1,0 +1,27 @@
+
+Analysis: MLOD Analysis 1
+
+* LOD Score analysis on region (Region_chr01) with trait (REP3_2REC)
+
+* Scan only markers.
+
+* Maximum 2n-f pedigree size cutoff is 18
+
+* Individual Pedigree LOD scores will not be printed.
+
+* Output will be sent to files of the form: mlod1rep3.(det,sum)
+
+
+
+========================================
+     Analysis Data Sample (summary)
+========================================
+
+-----------------------------------------------------------------
+                                    To Be Analyzed  In Data Set  
+-----------------------------------------------------------------
+  Number of Individuals:                         0  (   1497  )  
+  Number of Pedigrees:                           0  (     23  )  
+  Number of Constituent Pedigrees:               0  (     23  )  
+
+No valid peigree data for analysis MLOD Analysis 1.

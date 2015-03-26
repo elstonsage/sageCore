@@ -1,0 +1,25 @@
+pedigree
+{
+  delimiters = "\t"
+  delimiter_mode = single
+  individual_missing_value = "0"
+
+  sex_code, male = "1", female = "2", missing = "0"
+
+  pedigree_id = pedid
+  individual_id = indid
+  parent_id = dad
+  parent_id = mom
+  sex_field = sex
+
+  trait = "cancer", missing = "0"
+
+
+  marker_list, start = "D1S468", end = "D22S445"
+}
+
+marker
+{
+  allele_missing = "0"
+  allele_delimiter = "/"
+}

@@ -1,0 +1,57 @@
+
+
+
+
+Family structure information on the first 10 individuals read from file: mixed_ped
+
+     PED. ID       IND. ID       SEX       PARENT1       PARENT2     
+     ------------  ------------  --------  ------------  ------------
+     1             1             1         0             0           
+     1             2             2         0             0           
+     1             3             1         0             0           
+     2             1             1         0             0           
+     2             2             2         0             0           
+     2             3             1         1             2           
+     3             1             1         0             0           
+     3             2             2         0             0           
+
+
+Phenotypes for the first 10 individuals read from file: mixed_ped
+
+     PED. ID       IND. ID       SEX_CODE              FAMILIAL_INDICATOR    FOUNDER_INDICATOR     PEDIGREE_SIZE       
+     ------------  ------------  --------------------  --------------------  --------------------  --------------------
+     1             1             0                     1                     1                     3                   
+     1             2             1                     1                     1                     3                   
+     1             3             0                     1                     1                     3                   
+     2             1             0                     1                     1                     3                   
+     2             2             1                     1                     1                     3                   
+     2             3             0                     1                     0                     3                   
+     3             1             0                     1                     1                     3                   
+     3             2             1                     1                     1                     3                   
+
+
+Markers for the first 10 individuals read from file: mixed_ped
+
+     PED. ID       IND. ID       m1            m2            m3          
+     ------------  ------------  ------------  ------------  ------------
+     1             1             0/1           0/1           0/1         
+     1             2             0/1           0/1           0/1         
+     1             3             0/0           -/-           0/1         
+     2             1             0/1           0/1           0/1         
+     2             2             0/1           0/1           0/1         
+     2             3             0/0           -/-           0/1         
+     3             1             -/-           -/-           -/-         
+     3             2             -/-           -/-           -/-         
+
+%DECIPHER-I: Mapping function not specified.  Using Haldane Mapping Function.
+
+  Performing analysis: Analysis 1
+  ===========================================================================
+
+%DECIPHER-I: Constituent pedigree in pedigree 3 containing member 1 contains no
+             genotyped founders.  Looking for a family representative ...
+    Total population. 
+      Determining possible haplotype combinations ................... done.
+
+  ===========================================================================
+

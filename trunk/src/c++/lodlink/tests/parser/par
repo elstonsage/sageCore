@@ -1,0 +1,278 @@
+pedigree
+{
+  pedigree_id=PID
+  individual_id=ID
+  sex_field=SEX
+  parent_id=P1
+  parent_id=P2
+  trait=DISEASE, binary, affected=1, unaffected=0
+  trait=HEMATOCRIT
+  trait=t
+  trait=u
+  trait=v
+  trait=w
+  trait=x
+  trait=y
+  trait=z
+  marker=loc1,dynamic=true
+  marker=loc2,dynamic=true
+}
+
+lodlink   #1
+{
+  
+}
+
+lodlink, out=second_test   #2
+{
+  title = "the second test"
+  model, trait=HEMATOCRIT
+}
+
+lodlink   #3
+{
+  model, trait=loc1
+}
+
+lodlink   #4
+{
+  model, marker=loc1
+}
+
+lodlink   #5
+{
+  model, marker=loc1
+  lods
+  {
+    option=none
+  }
+}
+
+lodlink   #6
+{
+  model, marker=loc1
+  lods
+  {
+    option=specified
+    
+    average
+    {
+      theta = .2
+      theta = .001
+      theta = .6
+      theta = .2
+    }
+  }
+}
+
+lodlink   #7
+{
+  model, marker=loc1
+  lods
+  {
+    option=specified
+  }
+}
+
+lodlink   #8
+{
+  model, marker=loc1
+  lods
+  {
+    option=specified
+    sex_specific = true
+    
+    male_female
+    {
+      theta, male = .2, female = .4
+      theta, male = .2, female = .3
+      theta, male = .2, female = .6
+      theta, male = .2, female = .3
+    }
+  }
+}
+
+lodlink   #9
+{
+  model, marker=loc2
+  
+  genotypes=true
+}
+
+lodlink   #10
+{
+  model, trait=t
+  
+  genotypes=true, sex_specific=true
+}
+
+lodlink   #11
+{
+  model, trait=t
+  
+  genotypes=true, sex_specific=false
+}
+
+lodlink   #12
+{
+  model, marker=loc2
+  lods
+  {
+    option=none
+  }
+  linkage_tests, homog=false  
+}
+
+lodlink   #13
+{
+  model, marker=loc2
+  lods
+  {
+    option=none
+  }
+  linkage_tests=false, homog=false,sex_specific=true  
+}
+
+lodlink   #14
+{
+  model, marker=loc2
+  lods
+  {
+    option=none
+  }
+  homog_tests
+  {
+    smiths_test=true
+    mortons_test=true,sex_specific=true
+  }  
+}
+
+lodlink   #15
+{
+  model, marker=loc2
+  lods
+  {
+    option=none
+  }
+  homog_tests
+  {
+    smiths_test=true
+    mortons_test=true,sex_specific=true
+    {
+      group=one
+      {
+        pedigree_id = 3
+        pedigree_id = 5
+      }
+      
+      group=two
+      {
+        pedigree_id = 1
+        pedigree_id = 2
+        pedigree_id = 4
+      }
+    }
+  }  
+}
+
+lodlink   #16
+{
+  model, marker=loc1
+  lods
+  {
+    option=specified
+    
+    average
+    {
+      theta = .2
+      theta = 1.2
+      theta = -.2
+    }
+  }
+}
+
+lodlink   #17
+{
+  model, marker=loc2
+  lods
+  {
+    option=none
+  }
+  homog_tests
+  {
+    smiths_test=true
+    mortons_test=true,sex_specific=true
+    {
+      group=one
+      {
+        pedigree_id = 3
+        pedigree_id = 5
+      }
+      
+      group=two
+      {
+        pedigree_id = 1
+        pedigree_id = 2
+        pedigree_id = 4
+        pedigree_id = 4
+      }
+    }
+  }  
+}
+
+lodlink   #18
+{
+  model, marker=loc2
+  lods
+  {
+    option=none
+  }
+  homog_tests
+  {
+    smiths_test=true
+    mortons_test=true,sex_specific=true
+    {
+      group=one
+      {
+        pedigree_id = 3
+        pedigree_id = 5
+        pedigree_id = 4
+      }
+      
+      group=two
+      {
+        pedigree_id = 1
+        pedigree_id = 2
+        pedigree_id = 4
+      }
+    }
+  }  
+}
+
+lodlink   #19
+{
+  model, marker=loc2
+  lods
+  {
+    option=none
+  }
+  homog_tests
+  {
+    smiths_test=true
+    mortons_test=true,sex_specific=true
+    {
+      group=one
+      {
+        pedigree_id = 3
+        pedigree_id = 5
+        pedigree_id = 4
+      }
+      
+      group=one
+      {
+        pedigree_id = 1
+        pedigree_id = 2
+      }
+    }
+  }  
+}

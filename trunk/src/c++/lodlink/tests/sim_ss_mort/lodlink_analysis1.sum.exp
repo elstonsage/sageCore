@@ -1,0 +1,50 @@
+
+
+
+===============================
+LODLINK Analysis 1 SUMMARY FILE
+===============================
+
+
+Options Selected
+================
+Main locus type                          trait
+Main locus name                          T1
+
+Lod scores                               no
+
+Linkage tests                            no
+  Sex-specific recombination fractions   no
+  Assume homogeneity                     yes
+
+Smith's test for homogeneity             no
+  Sex-specific recombination fractions   no
+
+Morton's test for homogeneity            yes
+  Sex-specific recombination fractions   yes
+
+Genotype probabilities                   no
+  Sex-specific recombination fractions   no
+
+
+Groups Selected
+===============
+group 1 pedigrees                  1   10   2   3   4   5   6   7   8   9   
+group 2 pedigrees                  11   12   13   14   15   16   17   18   19   20   
+
+
+Results
+=======
+
+
+
+
+                  Morton's Homogeneity Test           
+                  Sex-Specific Recombination Fractions
+                                                      
+Locus             Chi         P-Value     
+                  Square                  
+                  Stat                    
+---------------   ---------   ---------   
+M1                     8.27     0.01604   
+M2                     18.3   0.0001037   

@@ -1,0 +1,256 @@
+Making test_indexed_map: "Indexed Map Test"
+
+Linking                 (C++) test_indexed_map
+Making test_sequence_map: "Indexed Map Test"
+
+Linking                 (C++) test_sequence_map
+Making test_anyvector: "AnyVector test"
+
+Linking                 (C++) test_anyvector
+Making liberror.a: error Library
+
+Making libLSF.a: LSF Library
+
+Making LSFtest.exe: LSF test program
+
+Linking                 (C++) LSFtest.exe
+Making xml_convert.exe: LSF-to-XML converter
+
+Linking                 (C++) xml_convert.exe
+Making libfortran.a: "Fortran Parsing blob"
+
+Making libnumerics.a: numerics Library
+
+Making libutil.a: "Util library"
+
+Making test_disambiguator.exe: Test disambiguator
+
+Linking                 (C++) test_disambiguator.exe
+Making test_regex.exe: Test regex functions
+
+Linking                 (C++) test_regex.exe
+Making test_autotrace.exe: Test auto tracer
+
+Linking                 (C++) test_autotrace.exe
+Making test_stringutils.exe: Test string utils
+
+Linking                 (C++) test_stringutils.exe
+Making test_typeinfo.exe: Test type info
+
+Linking                 (C++) test_typeinfo.exe
+Making test_outline.exe: Test outline outline
+
+Linking                 (C++) test_outline.exe
+Making liboutput.a: "Output library"
+
+Making libapp.a: "Application Framework Code"
+
+Making test_app: Age of Onset Application
+
+Linking                 (C++) test_app
+Making test_functor: "Functor / sequence test"
+
+Linking                 (C++) test_functor
+Making libmped.a: New MultiPedigree Library
+
+Making a2_test.exe: New MultiPedigree Test
+
+Linking                 (C++) a2_test.exe
+Making libmlocus.a: New Multi Locus Library
+
+Making test_mlocus.exe: New Multi Locus Test
+
+Linking                 (C++) test_mlocus.exe
+Making librped.a: New General Referenced Pedigree Library
+
+Making test_rp_info: Test of MP File Input
+
+Linking                 (C++) test_rp_info
+Making mpfiletest: Test of MP File Input
+
+Linking                 (C++) mpfiletest
+Making loop_test: "Multi-pedigree loop test program"
+
+Linking                 (C++) loop_test
+Making libpairs.a: New Pairs Library
+
+Making testrelmatrix.exe: Test of relationship matrix
+
+Linking                 (C++) testrelmatrix.exe
+Making testrelpair.exe: Test of filtering pair generator
+
+Linking                 (C++) testrelpair.exe
+Making testrelpair_simple.exe: Simple test of pair generator
+
+Linking                 (C++) testrelpair_simple.exe
+Making testindfilter.exe: Test of individual filter
+
+Linking                 (C++) testindfilter.exe
+Making libfped.a: FILTERED Pedigree Library
+
+Making filter_test.exe: "Multi-pedigree loop test program"
+
+Linking                 (C++) filter_test.exe
+Making libfunc.a: Function library
+
+Making test_func: Test of function code
+
+Linking                 (C++) test_func
+Making test_parse: Test of parsing code
+
+Linking                 (C++) test_parse
+Making test_expression: Test of expression code
+
+Linking                 (C++) test_expression
+Making libsampling.a: "SAGE Sampling Library"
+
+Making test_sampling.exe: Sampling test executable
+
+Linking                 (C++) test_sampling.exe
+Making libgelim.a: "Genotype Elimination Library"
+
+Making test_gelim: Test of MP File Input
+
+Linking                 (C++) test_gelim
+Making libdata.a: "SAGE Application Data"
+
+Making test_cmdline.exe: Tests the command line parsing stuff
+
+Linking                 (C++) test_cmdline.exe
+Making test_peeler2.exe: Test of MP File Input
+
+Linking                 (C++) test_peeler2.exe
+Making liblvec.a: "Likelihood Vector Library"
+
+Making test_ivg: "Inheritance Vector test Program"
+
+Linking                 (C++) test_ivg
+Making test_nodes: "Node Testing Program"
+
+Linking                 (C++) test_nodes
+Making libmcmc.a: "MCMC simulation Library"
+
+Making test_mcmc.exe: "MCMC Components Testing Program"
+
+Linking                 (C++) test_mcmc.exe
+Making libibd.a: "Identical By Descent Library"
+
+Making libpalbase.a: New Pairs Library
+
+Making libmaxfun.a: Maxfun Library
+
+Making maxex2.exe: Simple Maxfun example
+
+Linking                 (C++) maxex2.exe
+Making maxex3.exe: Simple Maxfun example
+
+Linking                 (C++) maxex3.exe
+Making maxex4.exe: Simple Maxfun example
+
+Linking                 (C++) maxex4.exe
+Making libmaxfunapi.a: Maxfun API
+
+Making maxtest: Maxfun API Test
+
+Linking                 (C++) maxtest
+Making maxtest2: Maxfun API Test
+
+Linking                 (C++) maxtest2
+Making libmfsubmodels.a: Maxfun Submodels
+
+Making test_type_specific_submodel.exe: Test for TypeSpecificSubmodel
+
+Linking                 (C++) test_type_specific_submodel.exe
+Making test_transformation_submodel.exe: Test for TransformationSubmodel
+
+Linking                 (C++) test_transformation_submodel.exe
+Making libageon.a: "Age of Onset library"
+
+Making ageon: 
+
+Making libassoc.a: "Assoc library"
+
+Making assoc.exe: Assoc Application
+
+Making libdecipher.a: "decipher library"
+
+Making decipher.exe: DECIPHER Application
+
+Making libfcor.a: New Fcor Library
+
+Making fcor.exe: "Multi-pedigree correlation program"
+
+Making freq.exe: "FREQ"
+
+Making libgenibd.a: "IBD generator program Library"
+
+Making genibd.exe: "IBD generator program"
+
+Making liblodlink.a: "lodlink library"
+
+Making lodlink.exe: LODLINK Application
+
+Making test_parser.exe: Test of lodlink parser
+
+Linking                 (C++) test_parser.exe
+Making test_mle.exe: Test of lodlink mle_sub_model
+
+Linking                 (C++) test_mle.exe
+Making test_tcalc.exe: Test of lodlink trans_calculator class
+
+Linking                 (C++) test_tcalc.exe
+Making test_peeler.exe: Test of lodlink peeler class
+
+Linking                 (C++) test_peeler.exe
+Making test_mpcalc.exe: Test of likelihood calculator classes
+
+Linking                 (C++) test_mpcalc.exe
+Making test_max.exe: Test of maximization
+
+Linking                 (C++) test_max.exe
+Making liblodpal.a: "Lodpal Library"
+
+Making lodpal.exe: "LODSCORE test of Affected Relative Pair"
+
+Making markerinfo.exe: "MARKERINFO"
+
+Making libmlod.a: "mlod library"
+
+Making test_parser.exe: Test of mlod parser
+
+Linking                 (C++) test_parser.exe
+Making mlod.exe: Test of mlod parser
+
+Making libpedinfo.a: "Pedinfo library"
+
+Making pedinfo.exe: "Multi-pedigree statistics test program"
+
+Making librelpal.a: "Relpal Library"
+
+Making relpal.exe: Relpal
+
+Making libreltest.a: "Relationship Test program Library"
+
+Making reltest.exe: "Relationship Test program"
+
+Making libsegreg.a: "segreg library"
+
+Making segreg.exe: SEGREG Application
+
+Making test_type_description.exe: SEGREG Application
+
+Linking                 (C++) test_type_description.exe
+Making test_segreg.exe: Test of segreg calculators
+
+Linking                 (C++) test_segreg.exe
+Making test_parser.exe: Test of segreg parser
+
+Linking                 (C++) test_parser.exe
+Making libsibpal.a: "Sibpal Library"
+
+Making sibpal.exe: Sibpal
+
+Making libtdtex.a: "Transmission-disequilibrium test library"
+
+Making tdtex.exe: "Transmission-disequilibrium test application"
+

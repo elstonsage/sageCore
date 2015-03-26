@@ -1,0 +1,162 @@
+
+
+
+
+Family structure information on the first 100 individuals read from file: ped
+
+     PED. ID       IND. ID       SEX       PARENT1       PARENT2     
+     ------------  ------------  --------  ------------  ------------
+     1             1             1         0             0           
+     1             2             2         0             0           
+     1             3             1         0             0           
+     1             4             2         0             0           
+     1             5             2         1             2           
+     1             6             2         1             2           
+     1             7             1         3             4           
+     1             8             1         3             4           
+     1             9             2         6             7           
+     1             10            2         6             7           
+     1             11            1         0             0           
+     1             12            2         0             0           
+     1             13            1         1             2           
+     1             14            2         1             2           
+     1             15            2         1             2           
+
+
+Phenotypes for the first 100 individuals read from file: ped
+
+     PED. ID       IND. ID       SEX_CODE              FAMILIAL_INDICATOR    FOUNDER_INDICATOR     PEDIGREE_SIZE         bp                    age                 
+     ------------  ------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------
+     1             1             0                     1                     1                     15                    117                   2                   
+     1             2             1                     1                     1                     15                    120                   12                  
+     1             3             0                     1                     1                     15                    121                   1                   
+     1             4             1                     1                     1                     15                    150                   15                  
+     1             5             1                     1                     0                     15                    145                   8                   
+     1             6             1                     1                     0                     15                    118                   4                   
+     1             7             0                     1                     0                     15                    110                   12                  
+     1             8             0                     1                     0                     15                    165                   21                  
+     1             9             1                     1                     0                     15                    132                   16                  
+     1             10            1                     1                     0                     15                    123                   23                  
+     1             11            0                     1                     1                     15                    117                   2                   
+     1             12            1                     1                     1                     15                    120                   12                  
+     1             13            0                     1                     0                     15                    121                   1                   
+     1             14            1                     1                     0                     15                    150                   15                  
+     1             15            1                     1                     0                     15                    145                   8                   
+
+%PEDINFO-W: Unconnected individuals detected in pedigree '1'.  This may not be
+            intended.  Results may be incorrect.
+%PEDINFO-I: Processing 'mean_adj(bp, 0, class1, class2, class3)'...
+%PEDINFO-I: Calculating non-binned means & stdevs...
+%PEDINFO-I: class1: 117 117 145 121 121 145 118 mean = 126.286 stdev = 12.8933
+%PEDINFO-I: class2: 150 120 120 150 110 132 mean = 130.333 stdev = 16.7531
+%PEDINFO-I: class3: 123 165 mean = 144 stdev = 29.6985
+%PEDINFO-I: Summary stats: 117 150 117 120 120 150 145 121 121 110 145 118 123
+            165 132 mean = 130.267 stdev = 16.412
+%PEDINFO-I: Calculating binned means & stdevs...
+%PEDINFO-I: No minimum bin size required
+%PEDINFO-I: Processing 'var_adj (bp, 0, class1, class2, class3)'...
+%PEDINFO-I: Calculating non-binned means & stdevs...
+%PEDINFO-I: class1: 117 117 145 121 121 145 118 mean = 126.286 stdev = 12.8933
+%PEDINFO-I: class2: 150 120 120 150 110 132 mean = 130.333 stdev = 16.7531
+%PEDINFO-I: class3: 123 165 mean = 144 stdev = 29.6985
+%PEDINFO-I: Summary stats: 117 150 117 120 120 150 145 121 121 110 145 118 123
+            165 132 mean = 130.267 stdev = 16.412
+%PEDINFO-I: Calculating binned means & stdevs...
+%PEDINFO-I: No minimum bin size required
+%PEDINFO-I: Processing 'z_score (bp, 0, class1, class2, class3)'...
+%PEDINFO-I: Calculating non-binned means & stdevs...
+%PEDINFO-I: class1: 117 117 145 121 121 145 118 mean = 126.286 stdev = 12.8933
+%PEDINFO-I: class2: 150 120 120 150 110 132 mean = 130.333 stdev = 16.7531
+%PEDINFO-I: class3: 123 165 mean = 144 stdev = 29.6985
+%PEDINFO-I: Summary stats: 117 150 117 120 120 150 145 121 121 110 145 118 123
+            165 132 mean = 130.267 stdev = 16.412
+%PEDINFO-I: Calculating binned means & stdevs...
+%PEDINFO-I: No minimum bin size required
+%PEDINFO-I: Processing 'mean_adj(bp, 10, class1, class2, class3)'...
+%PEDINFO-I: Calculating non-binned means & stdevs...
+%PEDINFO-I: class1: 117 117 145 121 121 145 118 mean = 126.286 stdev = 12.8933
+%PEDINFO-I: class2: 150 120 120 150 110 132 mean = 130.333 stdev = 16.7531
+%PEDINFO-I: class3: 123 165 mean = 144 stdev = 29.6985
+%PEDINFO-I: Summary stats: 117 150 117 120 120 150 145 121 121 110 145 118 123
+            165 132 mean = 130.267 stdev = 16.412
+%PEDINFO-I: Calculating binned means & stdevs...
+%PEDINFO-I: Bin endpoints: class1: 0 to 0.7 class2: 0.7 to 1.3 class3: 1.3 to
+            1.5 
+%PEDINFO-I: Total bin proportion? 1.5
+%PEDINFO-I: Binning class1 with 7 of 10 individuals
+%PEDINFO-I: 70.0% of class1, 30.0% of class2, 0.0% of class3, MEAN changed from
+            126.285714 to 127.500000 STDEV changed from 12.893335 to 14.051267
+%PEDINFO-I: Binning class2 with 6 of 10 individuals
+%PEDINFO-I: 20.0% of class1, 60.0% of class2, 20.0% of class3, MEAN changed
+            from 130.333333 to 132.257143 STDEV changed from 16.753109 to
+            18.570230
+%PEDINFO-I: Binning class3 with 2 of 10 individuals
+%PEDINFO-I: 20.0% of class1, 60.0% of class2, 20.0% of class3, MEAN changed
+            from 144.000000 to 132.257143 STDEV changed from 29.698485 to
+            18.570230
+%PEDINFO-I: Processing 'var_adj (bp, 10, class1, class2, class3)'...
+%PEDINFO-I: Calculating non-binned means & stdevs...
+%PEDINFO-I: class1: 117 117 145 121 121 145 118 mean = 126.286 stdev = 12.8933
+%PEDINFO-I: class2: 150 120 120 150 110 132 mean = 130.333 stdev = 16.7531
+%PEDINFO-I: class3: 123 165 mean = 144 stdev = 29.6985
+%PEDINFO-I: Summary stats: 117 150 117 120 120 150 145 121 121 110 145 118 123
+            165 132 mean = 130.267 stdev = 16.412
+%PEDINFO-I: Calculating binned means & stdevs...
+%PEDINFO-I: Bin endpoints: class1: 0 to 0.7 class2: 0.7 to 1.3 class3: 1.3 to
+            1.5 
+%PEDINFO-I: Total bin proportion? 1.5
+%PEDINFO-I: Binning class1 with 7 of 10 individuals
+%PEDINFO-I: 70.0% of class1, 30.0% of class2, 0.0% of class3, MEAN changed from
+            126.285714 to 127.500000 STDEV changed from 12.893335 to 14.051267
+%PEDINFO-I: Binning class2 with 6 of 10 individuals
+%PEDINFO-I: 20.0% of class1, 60.0% of class2, 20.0% of class3, MEAN changed
+            from 130.333333 to 132.257143 STDEV changed from 16.753109 to
+            18.570230
+%PEDINFO-I: Binning class3 with 2 of 10 individuals
+%PEDINFO-I: 20.0% of class1, 60.0% of class2, 20.0% of class3, MEAN changed
+            from 144.000000 to 132.257143 STDEV changed from 29.698485 to
+            18.570230
+%PEDINFO-I: Processing 'z_score (bp, 10, class1, class2, class3)'...
+%PEDINFO-I: Calculating non-binned means & stdevs...
+%PEDINFO-I: class1: 117 117 145 121 121 145 118 mean = 126.286 stdev = 12.8933
+%PEDINFO-I: class2: 150 120 120 150 110 132 mean = 130.333 stdev = 16.7531
+%PEDINFO-I: class3: 123 165 mean = 144 stdev = 29.6985
+%PEDINFO-I: Summary stats: 117 150 117 120 120 150 145 121 121 110 145 118 123
+            165 132 mean = 130.267 stdev = 16.412
+%PEDINFO-I: Calculating binned means & stdevs...
+%PEDINFO-I: Bin endpoints: class1: 0 to 0.7 class2: 0.7 to 1.3 class3: 1.3 to
+            1.5 
+%PEDINFO-I: Total bin proportion? 1.5
+%PEDINFO-I: Binning class1 with 7 of 10 individuals
+%PEDINFO-I: 70.0% of class1, 30.0% of class2, 0.0% of class3, MEAN changed from
+            126.285714 to 127.500000 STDEV changed from 12.893335 to 14.051267
+%PEDINFO-I: Binning class2 with 6 of 10 individuals
+%PEDINFO-I: 20.0% of class1, 60.0% of class2, 20.0% of class3, MEAN changed
+            from 130.333333 to 132.257143 STDEV changed from 16.753109 to
+            18.570230
+%PEDINFO-I: Binning class3 with 2 of 10 individuals
+%PEDINFO-I: 20.0% of class1, 60.0% of class2, 20.0% of class3, MEAN changed
+            from 144.000000 to 132.257143 STDEV changed from 29.698485 to
+            18.570230
+
+New phenotypes for individuals created by function block(s) :
+
+     PED. ID       IND. ID       class1                class2                class3                meanadj               varadj                z_score               class_meanadj         class_varadj          class_z_score         class_bin_meanadj     class_bin_varadj      class_bin_z_score   
+     ------------  ------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------
+     1             1             1                     0                     0                     -13.2667              7.12895               -0.808354             -9.28571              9.07446               -0.720195             -10.5                 8.32665               -0.747264           
+     1             2             0                     1                     0                     -10.2667              7.31174               -0.62556              -10.3333              7.16285               -0.616801             -12.2571              6.46196               -0.660043           
+     1             3             1                     0                     0                     -9.26667              7.37267               -0.564629             -5.28571              9.38469               -0.409957             -6.5                  8.61132               -0.462592           
+     1             4             0                     1                     0                     19.7333               9.13968               1.20238               19.6667               8.95356               1.17391               17.7429               8.07744               0.955446            
+     1             5             1                     0                     0                     14.7333               8.83502               0.897719              18.7143               11.2461               1.45147               17.5                  10.3194               1.24544             
+     1             6             1                     0                     0                     -12.2667              7.18988               -0.747422             -8.28571              9.15202               -0.642635             -9.5                  8.39782               -0.676096           
+     1             7             0                     1                     0                     -20.2667              6.70243               -1.23487              -20.3333              6.56595               -1.21371              -22.2571              5.92346               -1.19854            
+     1             8             0                     0                     1                     34.7333               10.0536               2.11634               21                    5.55584               0.707107              32.7429               8.88519               1.76319             
+     1             9             0                     1                     0                     1.73333               8.04292               0.105614              1.66667               7.87913               0.099484              -0.257143             7.10815               -0.013847           
+     1             10            0                     0                     1                     -7.26667              7.49454               -0.442767             -21                   4.14163               -0.707107             -9.25714              6.6235                -0.498494           
+     1             11            1                     0                     0                     -13.2667              7.12895               -0.808354             -9.28571              9.07446               -0.720195             -10.5                 8.32665               -0.747264           
+     1             12            0                     1                     0                     -10.2667              7.31174               -0.62556              -10.3333              7.16285               -0.616801             -12.2571              6.46196               -0.660043           
+     1             13            1                     0                     0                     -9.26667              7.37267               -0.564629             -5.28571              9.38469               -0.409957             -6.5                  8.61132               -0.462592           
+     1             14            0                     1                     0                     19.7333               9.13968               1.20238               19.6667               8.95356               1.17391               17.7429               8.07744               0.955446            
+     1             15            1                     0                     0                     14.7333               8.83502               0.897719              18.7143               11.2461               1.45147               17.5                  10.3194               1.24544             
+
+

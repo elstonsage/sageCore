@@ -1,0 +1,30 @@
+
+
+
+Reading Parameter File....................done.
+Reading Pedigree File.....................
+              from ped....................done.
+Sorting Pedigrees.........................done.
+Reading Genome Description File...........done.
+
+Parsing DECIPHER analyses ...
+
+
+Parsing new analysis block ...
+
+%DECIPHER-E: Parameter 'ALL_POSSIBLE_DIPLOTYPES' in tasks sub-block not
+             recognized.  Ignoring parameter ...
+
+Parsing of Analysis 1 complete.  Analysis valid.
+------------------------------------------------------------------------------
+
+  Performing analysis: Analysis 1
+  ===========================================================================
+
+    Total population. 
+      Determining possible haplotype combinations ................... done.
+
+  ===========================================================================
+
+
+

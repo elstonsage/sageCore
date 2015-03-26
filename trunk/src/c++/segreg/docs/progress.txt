@@ -1,0 +1,20 @@
+
+                        Interface          Internals             Parsing
+ Sub-Block           Code    Tested     Code    Tested **    Code     Tested
+ =========           ====    ======     ====    ======       ====     ======
+ composite_trait      x        x         x         x           x         x
+ onset
+ type_mean            x        x         x         x           x         x
+ type_var             x        x         x         x           x         x
+ mean_cov             x        x         x         x           x         x
+ var_cov              x        x         x         x           x         x
+ suscept_cov          x        x         x         x           x         x
+ resid                x        x         x         x           x         x
+ transformation       x        x         x         x           x         x
+ geno_freq            x        x         x         x           x         x
+ transmission         x        x         x         x           x         x
+ fpmm                 x        x         x         x           x         x
+ ascertainment
+ 
+ ** Synchronization functions not tested.
+ 

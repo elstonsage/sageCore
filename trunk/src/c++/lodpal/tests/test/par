@@ -1,0 +1,93 @@
+# HLA linkage analysis parameters.  
+#Change as needed!
+# revised april 29 05 with TBnew var
+pedigree
+{
+  delimiter=","
+#  delimiter_mode = multiple
+  individual_missing_value = "0"
+
+  pedigree_id = IDNO
+  individual_id=SERIAL
+  parent_id=M_DAD
+  parent_id=M_MOM
+  sex_field=SEX
+  sex_code, male=1, female=0
+
+  no_sex_ok=true
+
+  #trait=PROBAND
+  #string=BUFSPEC
+  string=FULLID
+  #covariate=STUDY
+  trait=ZTNFK, missing="-99.00"   
+  #trait=TTNFK, missing="-99.00"
+  trait=PREDK1, missing="-99.00"
+  trait=ITNFK, missing="-99.00"   
+  trait=IPREDK, missing="-99.00"
+  #string=BOXPOS
+  covariate=HIVSTAT, missing="9"
+  covariate=AGE, missing="-99"
+  trait=TB, binary, affected=1, unaffected=0
+  trait=TBnew, binary, affected=1, unaffected=0
+  xcovariate=SEX 
+  #trait=PPD5, binary
+  covariate=GANDA
+  covariate=EDLEVEL
+  trait=TNFA
+  trait=PREDA
+  trait=var
+  trait=medTNF, missing="-99"
+
+
+
+#markers!
+
+#HLA
+  allele=D6S306A,name=D6S306,missing="0"
+  allele=D6S306B,name=D6S306,missing="0"
+  allele=TNFBA,name=TNFB,missing="0"
+  allele=TNFBB,name=TNFB,missing="0"
+  allele=D6S273A,name=D6S273,missing="0"
+  allele=D6S273B,name=D6S273,missing="0"
+  allele=D6S439A,name=D6S439,missing="0"
+  allele=D6S439B,name=D6S439,missing="0"
+  allele=D6S265A,name=D6S265,missing="0"
+  allele=D6S265B,name=D6S265,missing="0"
+  allele=D6S1701A,name=D6S1701,missing="0"
+  allele=D6S1701B,name=D6S1701,missing="0"
+   
+}
+
+function
+{
+  trait=HIVNEG, expression="not(HIVSTAT==1)"
+}
+
+lodpal, multipoint, out="with_subset"
+{
+  trait=TBnew, noconunaff
+  subset=HIVNEG
+  wide_out=true 
+  diagnostic=D6S1587
+#  turn_off_default=true
+}
+
+lodpal, multipoint, out="without_subset"
+{
+  trait=TBnew, noconunaff
+  wide_out=true 
+}
+
+lodpal, multipoint, out="one_contrast"
+{
+  trait=TBnew, contrast
+  wide_out=true 
+}
+
+lodpal, multipoint, out="two_contrast"
+{
+  trait=TBnew, contrast
+  two
+  wide_out=true 
+}

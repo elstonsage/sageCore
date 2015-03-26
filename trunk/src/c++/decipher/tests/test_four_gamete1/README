@@ -1,0 +1,6 @@
+Region analysed by DECIPHER consists of the 17th thru the 36th markers in
+the Haploview plot.
+
+Haploview excludes marker rs527705 from the beginning of the 3rd block;
+DECIPHER does not.  This in turn, causes the 3rd block to be split into two
+in DECIPHER, but not in Haploview.

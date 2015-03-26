@@ -1,0 +1,89 @@
+
+
+
+
+===========================================================
+  Variance-Covariance matrix for Correlations of
+     MOTHER:SON
+       with
+     MOTHER:SON
+
+     trait(s) : EF Q1 - JOINTLY
+
+  **** : Value is not estimable.
+  [  ] : Calculated by setting at least one nonestimable
+         required correlation to a value of 0.
+===========================================================
+
+  Legend : 
+    [Row1] MOTHER-EF : SON-EF
+    [Row2] MOTHER-EF : SON-Q1
+    [Row3] MOTHER-Q1 : SON-EF
+    [Row4] MOTHER-Q1 : SON-Q1
+    [Col1] MOTHER-EF : SON-EF
+    [Col2] MOTHER-EF : SON-Q1
+    [Col3] MOTHER-Q1 : SON-EF
+    [Col4] MOTHER-Q1 : SON-Q1
+  ------------------------------------------------------------
+     \       [Col1]       [Col2]       [Col3]       [Col4]    
+  ------------------------------------------------------------
+  [Row1]  [ 0.0102212] [ 0.0056456] [ 0.0063615] [ 0.0059603] 
+  [Row2]  [ 0.0056456] [ 0.0185319] [ 0.0071741] [ 0.0072704] 
+  [Row3]  [ 0.0063615] [ 0.0071741] [ 0.0200389] [ 0.0078568] 
+  [Row4]  [ 0.0059603] [ 0.0072704] [ 0.0078568] [ 0.0140540] 
+  ------------------------------------------------------------
+
+  The Smallest Number of Pairs Used in
+    Calculating Required Correlations
+  ------------------------------------------------------------
+     \       [Col1]       [Col2]       [Col3]       [Col4]    
+  ------------------------------------------------------------
+  [Row1]  [         3] [         3] [         3] [         3] 
+  [Row2]  [         3] [         3] [         3] [         3] 
+  [Row3]  [         3] [         3] [         3] [         3] 
+  [Row4]  [         3] [         3] [         3] [         3] 
+  ------------------------------------------------------------
+
+
+===========================================================
+  Variance-Covariance matrix for Correlations of
+     PARENT:OFFSPRING
+       with
+     PARENT:OFFSPRING
+
+     trait(s) : EF Q1 - JOINTLY
+
+  **** : Value is not estimable.
+  [  ] : Calculated by setting at least one nonestimable
+         required correlation to a value of 0.
+===========================================================
+
+  Legend : 
+    [Row1] PARENT-EF : OFFSPRING-EF
+    [Row2] PARENT-EF : OFFSPRING-Q1
+    [Row3] PARENT-Q1 : OFFSPRING-EF
+    [Row4] PARENT-Q1 : OFFSPRING-Q1
+    [Col1] PARENT-EF : OFFSPRING-EF
+    [Col2] PARENT-EF : OFFSPRING-Q1
+    [Col3] PARENT-Q1 : OFFSPRING-EF
+    [Col4] PARENT-Q1 : OFFSPRING-Q1
+  ------------------------------------------------------------
+     \       [Col1]       [Col2]       [Col3]       [Col4]    
+  ------------------------------------------------------------
+  [Row1]    0.0039752    0.0027275    0.0026446    0.0012138  
+  [Row2]    0.0027275    0.0075078    0.0056453    0.0023507  
+  [Row3]    0.0026446    0.0056453    0.0079855    0.0025747  
+  [Row4]    0.0012138    0.0023507    0.0025747    0.0035194  
+  ------------------------------------------------------------
+
+  The Smallest Number of Pairs Used in
+    Calculating Required Correlations
+  ------------------------------------------------------------
+     \       [Col1]       [Col2]       [Col3]       [Col4]    
+  ------------------------------------------------------------
+  [Row1]           70           70           70           70  
+  [Row2]           70           70           70           70  
+  [Row3]           70           70           70           70  
+  [Row4]           70           70           70           70  
+  ------------------------------------------------------------
+

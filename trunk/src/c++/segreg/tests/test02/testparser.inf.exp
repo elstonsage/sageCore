@@ -1,0 +1,375 @@
+
+Family structure information on the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       SEX       PARENT1       PARENT2     
+     ------------  ------------  --------  ------------  ------------
+     1             1             F                                   
+     1             2             M                                   
+     1             3             M         1             2           
+     1             4             F         1             2           
+     1             5             M                                   
+     1             6             F         4             5           
+
+
+Phenotypes for the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       SEX_CODE              FAMILIAL_INDICATOR    FOUNDER_INDICATOR     PEDIGREE_SIZE         DISEASE               HEMATOCRIT            t                     u                     v                     w                     x                     y                     z                   
+     ------------  ------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------
+     1             1             1                     1                     1                     6                     1                     30                    1                     2                     3                     4                     5                     6                     7                   
+     1             2             0                     1                     1                     6                     0                     40                    1                     2                     3                     4                     5                     6                     7                   
+     1             3             0                     1                     0                     6                     0                     27.1                  1                     2                     3                     4                     5                     6                     7                   
+     1             4             1                     1                     0                     6                     1                     39                    1                     2                     3                     4                     5                     6                     7                   
+     1             5             0                     1                     1                     6                     0                     37.6                  1                     2                     3                     4                     5                     6                     7                   
+     1             6             1                     1                     0                     6                     1                     41.1                  1                     2                     3                     4                     5                     6                     7                   
+
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 1 New Analysis Block 1 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:Transmission probability specified in transmission
+                        sub-block with no_trans or homog_no_trans option. 
+                        Ignoring ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 2 New Analysis Block 2 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Critical:No value given for tau AA in transmission sub-block
+                           with attribute, fixed, equal to 'true'.  Skipping
+                           analysis ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 3 New Analysis Block 3 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 4 New Analysis Block 4 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:Transmission probability specified in transmission
+                        sub-block with no_trans or homog_no_trans option. 
+                        Ignoring ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 5 New Analysis Block 5 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 6 New Analysis Block 6 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:Transmission probability AB specified in transmission
+                        sub-block with homog_general option.  Ignoring ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 7 New Analysis Block 7 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 8 New Analysis Block 8 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 9 New Analysis Block 9 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:Transmission probability specified in transmission
+                        sub-block with general option is not within allowable
+                        range.  Ignoring ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 10 New Analysis Block 10 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Critical:Transmission probability specified in transmission
+                           sub-block with general option is not within
+                           allowable range.  Skipping analysis ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 11 New Analysis Block 11 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 12 New Analysis Block 12 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 13 New Analysis Block 13 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:Transmission probability BB specified in transmission
+                        sub-block with tau_ab_free option.  Ignoring ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 14 New Analysis Block 14 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 15 New Analysis Block 15 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Critical:Parameter ss  not in agreement with mo or fo in
+                           resid sub-block with equal_po_ss option.  Skipping
+                           analysis ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 16 New Analysis Block 16 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:A correlation specified in resid sub-block is not
+                        within allowable limits.  Ignoring ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 17 New Analysis Block 17 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 18 New Analysis Block 18 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 19 New Analysis Block 19 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 20 New Analysis Block 20 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 21 New Analysis Block 21 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Critical:Parameters mo and fo not in agreement in resid
+                           sub-block with equal_po option.  Skipping analysis
+                           ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 22 New Analysis Block 22 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Critical:Parameters mo and fo not in agreement in resid
+                           sub-block with equal_po option.  Skipping analysis
+                           ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 23 New Analysis Block 23 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:Parameters mo and fo not in agreement in resid
+                        sub-block with equal_po option.  Ignoring fo ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 24 New Analysis Block 24 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 25 New Analysis Block 25 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 26 New Analysis Block 26 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:A correlation specified in resid sub-block is not
+                        within allowable limits.  Ignoring ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 27 New Analysis Block 27 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 28 New Analysis Block 28 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Critical:Non-positive value specified for parameter, var, in
+                           type_var sub-block.  Skipping analysis ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 29 New Analysis Block 29 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:Non-positive value specified for parameter, var, in
+                        type_var sub-block.  Ignoring ...
+%TESTSEGREGPARSER-Error:Non-positive value specified for parameter, var, in
+                        type_var sub-block.  Ignoring ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 30 New Analysis Block 30 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:type_var sub-block specified without specifying a mean
+                        sub-block.  Ignoring type_var sub-block ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 31 New Analysis Block 31 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:type_var sub-block specified without specifying a mean
+                        sub-block.  Ignoring type_var sub-block ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 32 New Analysis Block 32 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:type_var sub-block specified without specifying a mean
+                        sub-block.  Ignoring type_var sub-block ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 33 New Analysis Block 33 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Critical:Conflicting data for genotype specific variances. 
+                           Skipping analysis ... 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 34 New Analysis Block 34 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:type_var sub-block specified without specifying a mean
+                        sub-block.  Ignoring type_var sub-block ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 35 New Analysis Block 35 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:type_var sub-block specified without specifying a mean
+                        sub-block.  Ignoring type_var sub-block ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 36 New Analysis Block 36 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:type_var sub-block specified without specifying a mean
+                        sub-block.  Ignoring type_var sub-block ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 37 New Analysis Block 37 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:fpmm sub-block only relevant when value of class
+                        parameter is 'fpmm'.  Ignoring ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 38 New Analysis Block 38 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Critical:Parameter freq in fpmm sub-block outside of
+                           allowable range.  Skipping analysis ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 39 New Analysis Block 39 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:Value for 'freq' parameter in fpmm sub-block not
+                        understood.  Ignoring ...
+%TESTSEGREGPARSER-Error:fpmm sub-block only relevant when value of class
+                        parameter is 'fpmm'.  Ignoring ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 40 New Analysis Block 40 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:Value for 'freq' parameter in fpmm sub-block missing. 
+                        Ignoring ...
+%TESTSEGREGPARSER-Error:fpmm sub-block only relevant when value of class
+                        parameter is 'fpmm'.  Ignoring ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 41 New Analysis Block 41 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Critical:Parameter var specified in fpmm sub-block is not
+                           within allowable limits.  Skipping analysis ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 42 New Analysis Block 42 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:Transmission probability AA specified in transmission
+                        sub-block with tau_ab_free option.  Ignoring ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 43 New Analysis Block 43 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 44 New Analysis Block 44 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Critical:Parameter loci in fpmm sub-block outside of
+                           allowable range.  Skipping analysis ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 45 New Analysis Block 45 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:Value for 'loci' parameter in fpmm sub-block not
+                        understood.  Ignoring ...
+%TESTSEGREGPARSER-Error:fpmm sub-block only relevant when value of class
+                        parameter is 'fpmm'.  Ignoring ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 46 New Analysis Block 46 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Critical:Parameter loci in fpmm sub-block outside of
+                           allowable range.  Skipping analysis ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 47 New Analysis Block 47 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Critical:Parameter loci in fpmm sub-block outside of
+                           allowable range.  Skipping analysis ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 48 New Analysis Block 48 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Critical:Parameter loci in fpmm sub-block outside of
+                           allowable range.  Skipping analysis ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 49 New Analysis Block 49 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Warning:Transmission sub-block contains no parameters.
+%TESTSEGREGPARSER-Error:transmission sub-block specified without specifying a
+                        type (mean or suscept) sub-block.  Ignoring ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 50 New Analysis Block 50 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:nhwe option specified in geno_freq sub-block for
+                        commingling analysis.  Ignoring ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 51 New Analysis Block 51 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Warning:resid sub-block contains no parameters.
+%TESTSEGREGPARSER-Error:resid sub-block not relevant when value of class
+                        parameter is 'fpmm'.  Ignoring ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 52 New Analysis Block 52 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Warning:type_var sub-block not relevant for binary trait. 
+                          Ignoring ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 53 New Analysis Block 53 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:nhwe option not allowed in geno_freq sub-block with two
+                        types in type_mean or type_suscept sub-block.  Using
+                        hwe option ...
+%TESTSEGREGPARSER-Error:Transmission probability specified in transmission
+                        sub-block with no_trans or homog_no_trans option. 
+                        Ignoring ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 54 New Analysis Block 54 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:Parameter 'PROP' in type_var sub-block not recognized. 
+                        Ignoring ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 55 New Analysis Block 55 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:A correlation specified in resid sub-block is not
+                        within allowable limits.  Ignoring ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 56 New Analysis Block 56 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Critical:A correlation specified in resid sub-block is not
+                           within allowable limits.  Skipping analysis ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 57 New Analysis Block 57 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:Value 'STD_PROP_MEAN' for option parameter of type_var
+                        sub-block not recognized.  Ignoring ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 58 New Analysis Block 58 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 59 New Analysis Block 59 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:Specifed transmission sub-block parameter, no_bounds,
+                        not relevant for option, homog_mendelian.  Ignoring ...
+%TESTSEGREGPARSER-Error:parameter, no_bounds, not relevant for homog_mendelian
+                        option in transmission sub-block.  Ignoring ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 60 New Analysis Block 60 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:Specifed transmission sub-block parameter, no_bounds,
+                        not relevant for option, homog_mendelian.  Ignoring ...
+%TESTSEGREGPARSER-Error:parameter, no_bounds, not relevant for homog_mendelian
+                        option in transmission sub-block.  Ignoring ...
+%TESTSEGREGPARSER-Critical:Option, three variances, specified in type_var
+                           sub-block with option, two means, specified in
+                           type_mean sub-block.  Skipping analysis ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 61 New Analysis Block 61 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Critical:Option, two variances, A recessive, specified in
+                           type_var sub-block with option, two means, specified
+                           in type_mean sub-block.  Skipping analysis ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 62 New Analysis Block 62 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 63 New Analysis Block 63 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Critical:Specified transmission sub-block option not allowed
+                           with only one type specified.  Skipping analysis ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 64 New Analysis Block 64 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 65 New Analysis Block 65 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 66 New Analysis Block 66 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Warning:type_var sub-block not relevant for binary trait. 
+                          Ignoring ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 67 New Analysis Block 67 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 68 New Analysis Block 68 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:A correlation specified in resid sub-block is not
+                        within allowable limits.  Ignoring ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 69 New Analysis Block 69 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 70 New Analysis Block 70 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Critical:Specified transmission sub-block option not allowed
+                           with only one type specified.  Skipping analysis ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 71 New Analysis Block 71 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 72 New Analysis Block 72 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:Specifed transmission sub-block parameter, no_bounds,
+                        not relevant for option, mitochondrial.  Ignoring ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 73 New Analysis Block 73 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:Transmission probability specified in transmission
+                        sub-block with mitochondrial option.  Ignoring ...

@@ -1,0 +1,957 @@
+S.A.G.E. v4.6.1 -- GENIBD  
+COPYRIGHT (C) 2004 CASE WESTERN RESERVE UNIVERSITY
+
+File generated on : Tue Aug 17 16:47:22 2004
+
+
+%GENIBD-W: [450] Unrecognized value for marker 'DXS1039' of individual '5110147
+           ' in pedigree '51158': Found '4', '0'. Marker will be set to missing
+           for this individual.
+%GENIBD-W: [650] Unrecognized value for marker 'DXS1039' of individual '5210015
+           ' in pedigree '52108': Found '4', '0'. Marker will be set to missing
+           for this individual.
+%GENIBD-W: [701] Unrecognized value for marker 'DXS1039' of individual '5210141
+           ' in pedigree '52132': Found '4', '0'. Marker will be set to missing
+           for this individual.
+%GENIBD-W: [777] Unrecognized value for marker 'DXS1039' of individual '5210209
+           ' in pedigree '52159': Found '4', '0'. Marker will be set to missing
+           for this individual.
+%GENIBD-W: [801] Unrecognized value for marker 'DXS1039' of individual '5210168
+           ' in pedigree '52169': Found '4', '0'. Marker will be set to missing
+           for this individual.
+%GENIBD-W: [801] Unrecognized value for marker 'DXS1002' of individual '5210168
+           ' in pedigree '52169': Found '2', '0'. Marker will be set to missing
+           for this individual.
+
+Family structure information on the first 20 individuals read from file: ped
+
+     PED. ID       IND. ID       SEX       PARENT1       PARENT2     
+     ------------  ------------  --------  ------------  ------------
+     50103         5010004       2         5090004       5090005     
+     50103         5010005       2         5090004       5090005     
+     50103         5090004       2         0             0           
+     50103         5090005       1         0             0           
+     50115         5010018       2         5090039       5090040     
+     50115         5010196       2         5090039       5090040     
+     50115         5010397       2         5090039       5090040     
+     50115         5090039       1         0             0           
+     50115         5090040       2         0             0           
+     50123         5010028       2         5090122       5090123     
+     50123         5010029       1         5090122       5090123     
+     50123         5010132       2         5090122       5090123     
+     50123         5090122       1         0             0           
+     50123         5090123       2         0             0           
+     50127         5010007       1         5090142       5090143     
+     50127         5010328       1         5090142       5090143     
+     50127         5090143       1         0             0           
+     50127         5090142       2         0             0           
+     50130         5010056       2         5090158       5090159     
+     50130         5010279       1         5090158       5090159     
+
+
+Markers for the first 20 individuals read from file: ped
+
+     PED. ID       IND. ID       DXS6807       DXS2504       MAOA          DXS1039       DXS7132       DXS453        DXS1002       DXS6789       DXS2498       DXS1001       DXS1047       DXS994        DXS1062     
+     ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------
+     50103         5010004       1/4           4/6           0/0           0/0           3/4           0/0           0/0           7/11          2/2           5/7           0/0           2/3           1/3         
+     50103         5010005       4/5           0/0           3/3           0/0           4/4           1/5           4/5           7/11          2/2           0/0           6/7           1/2           3/4         
+     50103         5090004       0/0           0/0           0/0           0/0           0/0           0/0           0/0           0/0           0/0           0/0           0/0           0/0           0/0         
+     50103         5090005       0/0           0/0           0/0           0/0           0/0           0/0           0/0           0/0           0/0           0/0           0/0           0/0           0/0         
+     50115         5010018       5/5           5/6           2/3           4/4           4/5           5/6           3/4           8/10          1/2           0/0           5/9           1/2           4/6         
+     50115         5010196       4/5           6/6           2/7           4/6           4/5           3/6           3/5           7/8           0/0           6/8           5/5           2/6           4/6         
+     50115         5010397       4/5           6/6           2/3           4/4           4/5           5/6           3/4           8/10          2/2           6/8           5/5           2/6           4/6         
+     50115         5090039       0/0           0/0           0/0           0/0           0/0           0/0           0/0           0/0           0/0           0/0           0/0           0/0           0/0         
+     50115         5090040       0/0           0/0           0/0           0/0           0/0           0/0           0/0           0/0           0/0           0/0           0/0           0/0           0/0         
+     50123         5010028       1/4           5/6           0/0           4/4           3/3           1/5           2/4           7/7           2/2           5/10          4/6           3/4           6/6         
+     50123         5010029       0/0           0/0           0/0           4/0           0/0           0/0           0/0           0/0           0/0           0/0           4/0           0/0           0/0         
+     50123         5010132       1/5           5/5           3/4           4/4           3/3           1/5           2/4           7/7           2/2           5/10          4/6           4/4           3/6         
+     50123         5090122       0/0           0/0           0/0           0/0           0/0           0/0           0/0           0/0           0/0           0/0           0/0           0/0           0/0         
+     50123         5090123       0/0           0/0           0/0           0/0           0/0           0/0           0/0           0/0           0/0           0/0           0/0           0/0           0/0         
+     50127         5010007       5/0           5/0           3/0           4/0           4/0           6/0           6/0           7/0           2/0           8/0           7/0           4/0           7/0         
+     50127         5010328       0/0           0/0           3/0           4/0           0/0           6/0           0/0           0/0           0/0           0/0           5/0           3/0           0/0         
+     50127         5090143       0/0           0/0           0/0           0/0           0/0           0/0           0/0           0/0           0/0           0/0           0/0           0/0           0/0         
+     50127         5090142       0/0           0/0           0/0           0/0           0/0           0/0           0/0           0/0           0/0           0/0           0/0           0/0           0/0         
+     50130         5010056       0/0           0/0           7/7           4/4           0/0           0/0           4/5           0/0           0/0           0/0           3/7           3/4           1/3         
+     50130         5010279       4/0           6/0           7/0           0/0           6/0           0/0           4/0           0/0           0/0           5/0           5/0           2/0           0/0         
+
+%GENIBD-I: Analysis title unspecified.  Will use 'Analysis 1'.
+
+===========================================================================
+Analysis 1 : Multipoint analysis on region (X):
+        * - Including intervals.
+        * - Maximum size for exact method is set to 18.
+        * - Pedigrees larger than 18 will be simulated.
+===========================================================================
+
+Processing Region: X
+=======================================
+
+Processing Pedigree 50103..............
+
+%GENIBD-W: No phenotype information for pedigree '50103' at marker 'DXS1039'.
+
+Processing Pedigree 50115..............
+
+
+Processing Pedigree 50123..............
+
+
+Processing Pedigree 50127..............
+
+
+Processing Pedigree 50130..............
+
+%GENIBD-W: No phenotype information for pedigree '50130' at marker 'DXS2498'.
+
+Processing Pedigree 50133..............
+
+
+Processing Pedigree 50139..............
+
+
+Processing Pedigree 50279..............
+
+
+Processing Pedigree 50286..............
+
+
+Processing Pedigree 50288..............
+
+
+Processing Pedigree 50296..............
+
+
+Processing Pedigree 50308..............
+
+
+Processing Pedigree 50327..............
+
+%GENIBD-W: No phenotype information for pedigree '50327' at marker 'DXS2504'.
+%GENIBD-W: No phenotype information for pedigree '50327' at marker 'DXS7132'.
+
+Processing Pedigree 50331..............
+
+
+Processing Pedigree 50333..............
+
+
+Processing Pedigree 50338..............
+
+
+Processing Pedigree 50340..............
+
+
+Processing Pedigree 50357..............
+
+%GENIBD-W: No phenotype information for pedigree '50357' at marker 'DXS1039'.
+
+Processing Pedigree 50362..............
+
+%GENIBD-W: No phenotype information for pedigree '50362' at marker 'DXS1039'.
+
+Processing Pedigree 50388..............
+
+
+Processing Pedigree 50391..............
+
+%GENIBD-W: No phenotype information for pedigree '50391' at marker 'DXS1039'.
+
+Processing Pedigree 50393..............
+
+
+Processing Pedigree 50406..............
+
+
+Processing Pedigree 50442..............
+
+
+Processing Pedigree 50444..............
+
+
+Processing Pedigree 50455..............
+
+
+Processing Pedigree 50456..............
+
+
+Processing Pedigree 50460..............
+
+
+Processing Pedigree 50461..............
+
+
+Processing Pedigree 50490..............
+
+
+Processing Pedigree 50498..............
+
+%GENIBD-W: No phenotype information for pedigree '50498' at marker 'DXS7132'.
+
+Processing Pedigree 50500..............
+
+
+Processing Pedigree 50508..............
+
+
+Processing Pedigree 50525..............
+
+
+Processing Pedigree 50526..............
+
+
+Processing Pedigree 50534..............
+
+
+Processing Pedigree 50563..............
+
+
+Processing Pedigree 50580..............
+
+%GENIBD-W: No phenotype information for pedigree '50580' at marker 'DXS1001'.
+
+Processing Pedigree 50581..............
+
+
+Processing Pedigree 50587..............
+
+%GENIBD-W: No phenotype information for pedigree '50587' at marker 'DXS6807'.
+%GENIBD-W: No phenotype information for pedigree '50587' at marker 'DXS1001'.
+
+Processing Pedigree 50588..............
+
+%GENIBD-W: No phenotype information for pedigree '50588' at marker 'DXS6807'.
+
+Processing Pedigree 50637..............
+
+
+Processing Pedigree 50644..............
+
+
+Processing Pedigree 50646..............
+
+
+Processing Pedigree 50647..............
+
+
+Processing Pedigree 50648..............
+
+%GENIBD-W: No phenotype information for pedigree '50648' at marker 'DXS6789'.
+
+Processing Pedigree 50660..............
+
+%GENIBD-W: No phenotype information for pedigree '50660' at marker 'DXS6807'.
+%GENIBD-W: No phenotype information for pedigree '50660' at marker 'DXS7132'.
+
+Processing Pedigree 50669..............
+
+%GENIBD-W: No phenotype information for pedigree '50669' at marker 'DXS1039'.
+
+Processing Pedigree 50671..............
+
+%GENIBD-W: No phenotype information for pedigree '50671' at marker 'DXS6807'.
+%GENIBD-W: No phenotype information for pedigree '50671' at marker 'MAOA'.
+%GENIBD-W: No phenotype information for pedigree '50671' at marker 'DXS7132'.
+%GENIBD-W: No phenotype information for pedigree '50671' at marker 'DXS6789'.
+%GENIBD-W: No phenotype information for pedigree '50671' at marker 'DXS994'.
+%GENIBD-W: No phenotype information for pedigree '50671' at marker 'DXS1062'.
+
+Processing Pedigree 50676..............
+
+
+Processing Pedigree 50680..............
+
+%GENIBD-W: No phenotype information for pedigree '50680' at marker 'DXS2504'.
+%GENIBD-W: No phenotype information for pedigree '50680' at marker 'DXS1039'.
+%GENIBD-W: No phenotype information for pedigree '50680' at marker 'DXS6789'.
+
+Processing Pedigree 50681..............
+
+
+Processing Pedigree 50716..............
+
+%GENIBD-W: No phenotype information for pedigree '50716' at marker 'DXS1039'.
+
+Processing Pedigree 50732..............
+
+%GENIBD-W: No phenotype information for pedigree '50732' at marker 'DXS2504'.
+%GENIBD-W: No phenotype information for pedigree '50732' at marker 'DXS1001'.
+
+Processing Pedigree 50735..............
+
+%GENIBD-I: Pedigree '50735' has no valid pairs after removing uninformative
+           individuals.  It will be skipped.
+
+Processing Pedigree 50746..............
+
+
+Processing Pedigree 50754..............
+
+%GENIBD-W: No phenotype information for pedigree '50754' at marker 'DXS6789'.
+
+Processing Pedigree 50785..............
+
+
+Processing Pedigree 50792..............
+
+
+Processing Pedigree 50794..............
+
+%GENIBD-W: No phenotype information for pedigree '50794' at marker 'DXS2504'.
+
+Processing Pedigree 50798..............
+
+
+Processing Pedigree 50803..............
+
+%GENIBD-W: No phenotype information for pedigree '50803' at marker 'DXS6807'.
+%GENIBD-W: No phenotype information for pedigree '50803' at marker 'DXS1039'.
+%GENIBD-W: No phenotype information for pedigree '50803' at marker 'DXS7132'.
+%GENIBD-W: No phenotype information for pedigree '50803' at marker 'DXS453'.
+%GENIBD-W: No phenotype information for pedigree '50803' at marker 'DXS1001'.
+%GENIBD-W: No phenotype information for pedigree '50803' at marker 'DXS1047'.
+%GENIBD-W: No phenotype information for pedigree '50803' at marker 'DXS994'.
+
+Processing Pedigree 50808..............
+
+
+Processing Pedigree 50814..............
+
+
+Processing Pedigree 50825..............
+
+
+Processing Pedigree 50847..............
+
+%GENIBD-W: No phenotype information for pedigree '50847' at marker 'DXS7132'.
+
+Processing Pedigree 50868..............
+
+
+Processing Pedigree 50926..............
+
+%GENIBD-W: No phenotype information for pedigree '50926' at marker 'DXS7132'.
+
+Processing Pedigree 50989..............
+
+
+Processing Pedigree 51103..............
+
+
+Processing Pedigree 51104..............
+
+
+Processing Pedigree 51107..............
+
+
+Processing Pedigree 51110..............
+
+
+Processing Pedigree 51111..............
+
+
+Processing Pedigree 51112..............
+
+
+Processing Pedigree 51113..............
+
+%GENIBD-W: No phenotype information for pedigree '51113' at marker 'DXS2504'.
+%GENIBD-W: No phenotype information for pedigree '51113' at marker 'DXS1001'.
+
+Processing Pedigree 51115..............
+
+%GENIBD-W: No phenotype information for pedigree '51115' at marker 'DXS1001'.
+
+Processing Pedigree 51116..............
+
+%GENIBD-W: No phenotype information for pedigree '51116' at marker 'DXS1062'.
+
+Processing Pedigree 51118..............
+
+
+Processing Pedigree 51119..............
+
+
+Processing Pedigree 51120..............
+
+%GENIBD-W: No phenotype information for pedigree '51120' at marker 'DXS2504'.
+%GENIBD-W: No phenotype information for pedigree '51120' at marker 'DXS2498'.
+%GENIBD-W: No phenotype information for pedigree '51120' at marker 'DXS1047'.
+%GENIBD-W: No phenotype information for pedigree '51120' at marker 'DXS994'.
+
+Processing Pedigree 51124..............
+
+
+Processing Pedigree 51126..............
+
+
+Processing Pedigree 51129..............
+
+%GENIBD-I: Pedigree '51129' has no valid pairs after removing uninformative
+           individuals.  It will be skipped.
+
+Processing Pedigree 51130..............
+
+
+Processing Pedigree 51131..............
+
+
+Processing Pedigree 51133..............
+
+
+Processing Pedigree 51134..............
+
+
+Processing Pedigree 51138..............
+
+
+Processing Pedigree 51139..............
+
+%GENIBD-W: No phenotype information for pedigree '51139' at marker 'DXS2498'.
+
+Processing Pedigree 51140..............
+
+%GENIBD-W: No phenotype information for pedigree '51140' at marker 'DXS6807'.
+%GENIBD-W: No phenotype information for pedigree '51140' at marker 'DXS2504'.
+%GENIBD-W: No phenotype information for pedigree '51140' at marker 'MAOA'.
+%GENIBD-W: No phenotype information for pedigree '51140' at marker 'DXS1002'.
+%GENIBD-W: No phenotype information for pedigree '51140' at marker 'DXS6789'.
+%GENIBD-W: No phenotype information for pedigree '51140' at marker 'DXS1001'.
+
+Processing Pedigree 51141..............
+
+
+Processing Pedigree 51142..............
+
+%GENIBD-W: No phenotype information for pedigree '51142' at marker 'DXS2498'.
+
+Processing Pedigree 51143..............
+
+
+Processing Pedigree 51144..............
+
+
+Processing Pedigree 51148..............
+
+
+Processing Pedigree 51150..............
+
+
+Processing Pedigree 51153..............
+
+
+Processing Pedigree 51155..............
+
+
+Processing Pedigree 51158..............
+
+
+Processing Pedigree 51163..............
+
+
+Processing Pedigree 51164..............
+
+
+Processing Pedigree 51165..............
+
+
+Processing Pedigree 51166..............
+
+
+Processing Pedigree 51170..............
+
+
+Processing Pedigree 51171..............
+
+
+Processing Pedigree 51173..............
+
+%GENIBD-W: No phenotype information for pedigree '51173' at marker 'MAOA'.
+%GENIBD-W: No phenotype information for pedigree '51173' at marker 'DXS6789'.
+%GENIBD-W: No phenotype information for pedigree '51173' at marker 'DXS1047'.
+%GENIBD-W: No phenotype information for pedigree '51173' at marker 'DXS1062'.
+
+Processing Pedigree 51175..............
+
+
+Processing Pedigree 51177..............
+
+%GENIBD-W: No phenotype information for pedigree '51177' at marker 'DXS453'.
+
+Processing Pedigree 51182..............
+
+
+Processing Pedigree 51183..............
+
+
+Processing Pedigree 51185..............
+
+
+Processing Pedigree 51190..............
+
+
+Processing Pedigree 51194..............
+
+
+Processing Pedigree 51195..............
+
+
+Processing Pedigree 51202..............
+
+%GENIBD-W: No phenotype information for pedigree '51202' at marker 'DXS2498'.
+
+Processing Pedigree 51203..............
+
+
+Processing Pedigree 51204..............
+
+
+Processing Pedigree 51205..............
+
+%GENIBD-W: No phenotype information for pedigree '51205' at marker 'DXS2498'.
+
+Processing Pedigree 51206..............
+
+
+Processing Pedigree 51207..............
+
+
+Processing Pedigree 51208..............
+
+%GENIBD-W: No phenotype information for pedigree '51208' at marker 'DXS7132'.
+
+Processing Pedigree 51210..............
+
+%GENIBD-W: No phenotype information for pedigree '51210' at marker 'DXS2498'.
+
+Processing Pedigree 51211..............
+
+%GENIBD-W: No phenotype information for pedigree '51211' at marker 'DXS1039'.
+%GENIBD-W: No phenotype information for pedigree '51211' at marker 'DXS7132'.
+
+Processing Pedigree 51213..............
+
+%GENIBD-W: No phenotype information for pedigree '51213' at marker 'DXS2498'.
+
+Processing Pedigree 51221..............
+
+%GENIBD-W: No phenotype information for pedigree '51221' at marker 'MAOA'.
+%GENIBD-W: No phenotype information for pedigree '51221' at marker 'DXS994'.
+
+Processing Pedigree 51222..............
+
+%GENIBD-W: No phenotype information for pedigree '51222' at marker 'MAOA'.
+%GENIBD-W: No phenotype information for pedigree '51222' at marker 'DXS994'.
+
+Processing Pedigree 51226..............
+
+
+Processing Pedigree 51230..............
+
+
+Processing Pedigree 51238..............
+
+
+Processing Pedigree 51239..............
+
+
+Processing Pedigree 51241..............
+
+
+Processing Pedigree 51244..............
+
+
+Processing Pedigree 51246..............
+
+
+Processing Pedigree 51247..............
+
+
+Processing Pedigree 51249..............
+
+
+Processing Pedigree 51251..............
+
+
+Processing Pedigree 51252..............
+
+%GENIBD-W: No phenotype information for pedigree '51252' at marker 'DXS6807'.
+%GENIBD-W: No phenotype information for pedigree '51252' at marker 'DXS2504'.
+%GENIBD-W: No phenotype information for pedigree '51252' at marker 'DXS7132'.
+%GENIBD-W: No phenotype information for pedigree '51252' at marker 'DXS2498'.
+%GENIBD-W: No phenotype information for pedigree '51252' at marker 'DXS1001'.
+
+Processing Pedigree 51255..............
+
+
+Processing Pedigree 51263..............
+
+%GENIBD-W: No phenotype information for pedigree '51263' at marker 'DXS2504'.
+
+Processing Pedigree 52102..............
+
+
+Processing Pedigree 52105..............
+
+
+Processing Pedigree 52107..............
+
+
+Processing Pedigree 52108..............
+
+%GENIBD-W: No phenotype information for pedigree '52108' at marker 'DXS453'.
+%GENIBD-W: No phenotype information for pedigree '52108' at marker 'DXS1047'.
+%GENIBD-W: No phenotype information for pedigree '52108' at marker 'DXS1062'.
+
+Processing Pedigree 52113..............
+
+
+Processing Pedigree 52114..............
+
+
+Processing Pedigree 52117..............
+
+
+Processing Pedigree 52118..............
+
+%GENIBD-W: No phenotype information for pedigree '52118' at marker 'DXS1001'.
+
+Processing Pedigree 52119..............
+
+
+Processing Pedigree 52120..............
+
+
+Processing Pedigree 52121..............
+
+%GENIBD-W: No phenotype information for pedigree '52121' at marker 'DXS7132'.
+
+Processing Pedigree 52122..............
+
+
+Processing Pedigree 52124..............
+
+
+Processing Pedigree 52130..............
+
+
+Processing Pedigree 52132..............
+
+%GENIBD-W: No phenotype information for pedigree '52132' at marker 'DXS6789'.
+%GENIBD-W: No phenotype information for pedigree '52132' at marker 'DXS2498'.
+
+Processing Pedigree 52135..............
+
+%GENIBD-W: No phenotype information for pedigree '52135' at marker 'DXS2498'.
+
+Processing Pedigree 52136..............
+
+%GENIBD-W: No phenotype information for pedigree '52136' at marker 'DXS1039'.
+%GENIBD-W: No phenotype information for pedigree '52136' at marker 'DXS2498'.
+
+Processing Pedigree 52137..............
+
+
+Processing Pedigree 52139..............
+
+%GENIBD-W: No phenotype information for pedigree '52139' at marker 'DXS7132'.
+%GENIBD-W: No phenotype information for pedigree '52139' at marker 'DXS2498'.
+
+Processing Pedigree 52141..............
+
+%GENIBD-W: No phenotype information for pedigree '52141' at marker 'DXS2498'.
+
+Processing Pedigree 52143..............
+
+%GENIBD-I: The following individual(s) were removed as uninformative before
+           processing pedigree 'Pedigree '52143'': (5291433).
+
+Processing Pedigree 52145..............
+
+
+Processing Pedigree 52147..............
+
+
+Processing Pedigree 52148..............
+
+
+Processing Pedigree 52150..............
+
+%GENIBD-W: No phenotype information for pedigree '52150' at marker 'DXS2498'.
+
+Processing Pedigree 52152..............
+
+%GENIBD-W: No phenotype information for pedigree '52152' at marker 'DXS2498'.
+
+Processing Pedigree 52153..............
+
+
+Processing Pedigree 52155..............
+
+
+Processing Pedigree 52156..............
+
+%GENIBD-W: No phenotype information for pedigree '52156' at marker 'DXS2498'.
+%GENIBD-W: No phenotype information for pedigree '52156' at marker 'DXS1062'.
+
+Processing Pedigree 52157..............
+
+%GENIBD-W: No phenotype information for pedigree '52157' at marker 'DXS2498'.
+
+Processing Pedigree 52158..............
+
+%GENIBD-W: No phenotype information for pedigree '52158' at marker 'DXS453'.
+
+Processing Pedigree 52159..............
+
+
+Processing Pedigree 52161..............
+
+
+Processing Pedigree 52162..............
+
+
+Processing Pedigree 52165..............
+
+
+Processing Pedigree 52167..............
+
+
+Processing Pedigree 52169..............
+
+
+Processing Pedigree 52170..............
+
+%GENIBD-I: The following individual(s) were removed as uninformative before
+           processing pedigree 'Pedigree '52170'': (5210189).
+%GENIBD-W: No phenotype information for pedigree '52170' at marker 'DXS7132'.
+
+Processing Pedigree 52172..............
+
+
+Processing Pedigree 52173..............
+
+%GENIBD-W: No phenotype information for pedigree '52173' at marker 'DXS7132'.
+
+Processing Pedigree 52174..............
+
+
+Processing Pedigree 52175..............
+
+%GENIBD-W: No phenotype information for pedigree '52175' at marker 'DXS7132'.
+
+Processing Pedigree 52176..............
+
+
+Processing Pedigree 52178..............
+
+
+Processing Pedigree 52179..............
+
+
+Processing Pedigree 52181..............
+
+
+Processing Pedigree 52183..............
+
+
+Processing Pedigree 52185..............
+
+
+Processing Pedigree 52186..............
+
+
+Processing Pedigree 52187..............
+
+
+Processing Pedigree 52188..............
+
+%GENIBD-W: No phenotype information for pedigree '52188' at marker 'DXS2498'.
+%GENIBD-W: No phenotype information for pedigree '52188' at marker 'DXS1047'.
+
+Processing Pedigree 52189..............
+
+
+Processing Pedigree 52190..............
+
+%GENIBD-I: The following individual(s) were removed as uninformative before
+           processing pedigree 'Pedigree '52190'': (5210258).
+
+Processing Pedigree 52191..............
+
+%GENIBD-W: No phenotype information for pedigree '52191' at marker 'MAOA'.
+%GENIBD-W: No phenotype information for pedigree '52191' at marker 'DXS2498'.
+
+Processing Pedigree 52192..............
+
+%GENIBD-W: No phenotype information for pedigree '52192' at marker 'DXS6807'.
+%GENIBD-W: No phenotype information for pedigree '52192' at marker 'DXS2504'.
+
+Processing Pedigree 52195..............
+
+%GENIBD-W: No phenotype information for pedigree '52195' at marker 'DXS2498'.
+
+Processing Pedigree 52197..............
+
+
+Processing Pedigree 52198..............
+
+
+Processing Pedigree 52200..............
+
+
+Processing Pedigree 52201..............
+
+
+Processing Pedigree 52202..............
+
+
+Processing Pedigree 52204..............
+
+%GENIBD-W: No phenotype information for pedigree '52204' at marker 'DXS2498'.
+
+Processing Pedigree 52205..............
+
+%GENIBD-W: No phenotype information for pedigree '52205' at marker 'DXS7132'.
+
+Processing Pedigree 52206..............
+
+
+Processing Pedigree 52207..............
+
+%GENIBD-W: No phenotype information for pedigree '52207' at marker 'DXS2498'.
+
+Processing Pedigree 52208..............
+
+
+Processing Pedigree 52209..............
+
+
+Processing Pedigree 52210..............
+
+%GENIBD-W: No phenotype information for pedigree '52210' at marker 'DXS2498'.
+
+Processing Pedigree 52211..............
+
+%GENIBD-W: No phenotype information for pedigree '52211' at marker 'MAOA'.
+
+Processing Pedigree 52212..............
+
+
+Processing Pedigree 52214..............
+
+%GENIBD-W: No phenotype information for pedigree '52214' at marker 'DXS7132'.
+%GENIBD-W: No phenotype information for pedigree '52214' at marker 'DXS6789'.
+
+Processing Pedigree 52215..............
+
+%GENIBD-W: No phenotype information for pedigree '52215' at marker 'MAOA'.
+%GENIBD-W: No phenotype information for pedigree '52215' at marker 'DXS994'.
+
+Processing Pedigree 52216..............
+
+%GENIBD-W: No phenotype information for pedigree '52216' at marker 'MAOA'.
+%GENIBD-W: No phenotype information for pedigree '52216' at marker 'DXS994'.
+
+Processing Pedigree 52217..............
+
+%GENIBD-W: No phenotype information for pedigree '52217' at marker 'MAOA'.
+%GENIBD-W: No phenotype information for pedigree '52217' at marker 'DXS1002'.
+%GENIBD-W: No phenotype information for pedigree '52217' at marker 'DXS994'.
+
+Processing Pedigree 52219..............
+
+%GENIBD-W: No phenotype information for pedigree '52219' at marker 'MAOA'.
+%GENIBD-W: No phenotype information for pedigree '52219' at marker 'DXS994'.
+
+Processing Pedigree 52221..............
+
+%GENIBD-W: No phenotype information for pedigree '52221' at marker 'MAOA'.
+%GENIBD-W: No phenotype information for pedigree '52221' at marker 'DXS453'.
+%GENIBD-W: No phenotype information for pedigree '52221' at marker 'DXS994'.
+
+Processing Pedigree 52222..............
+
+%GENIBD-W: No phenotype information for pedigree '52222' at marker 'MAOA'.
+%GENIBD-W: No phenotype information for pedigree '52222' at marker 'DXS994'.
+
+Processing Pedigree 52223..............
+
+%GENIBD-W: No phenotype information for pedigree '52223' at marker 'MAOA'.
+%GENIBD-W: No phenotype information for pedigree '52223' at marker 'DXS994'.
+
+Processing Pedigree 52225..............
+
+%GENIBD-W: No phenotype information for pedigree '52225' at marker 'MAOA'.
+%GENIBD-W: No phenotype information for pedigree '52225' at marker 'DXS994'.
+
+Processing Pedigree 52226..............
+
+
+Processing Pedigree 52227..............
+
+
+Processing Pedigree 52229..............
+
+%GENIBD-W: No phenotype information for pedigree '52229' at marker 'DXS1001'.
+
+Processing Pedigree 52233..............
+
+%GENIBD-W: No phenotype information for pedigree '52233' at marker 'DXS7132'.
+
+Processing Pedigree 52234..............
+
+%GENIBD-I: The following individual(s) were removed as uninformative before
+           processing pedigree 'Pedigree '52234'': (5210393).
+
+Processing Pedigree 52235..............
+
+
+Processing Pedigree 52236..............
+
+
+Processing Pedigree 52238..............
+
+
+Processing Pedigree 52239..............
+
+
+Processing Pedigree 52240..............
+
+%GENIBD-I: The following individual(s) were removed as uninformative before
+           processing pedigree 'Pedigree '52240'': (5210483).
+
+Processing Pedigree 52241..............
+
+
+Processing Pedigree 52251..............
+
+
+Processing Pedigree 52252..............
+
+
+Processing Pedigree 60127..............
+
+
+Processing Pedigree 60130..............
+
+
+Processing Pedigree 60288..............
+
+
+Processing Pedigree 60333..............
+
+
+Processing Pedigree 60456..............
+
+
+Processing Pedigree 60735..............
+
+
+Processing Pedigree 61129..............
+
+
+Processing Pedigree 61141..............
+
+
+Processing Pedigree 62143..............
+

@@ -1,0 +1,591 @@
+Str: 3.14159
+Real: 3.14159
+Int: 3
+3.14159
+A1	V1
+A2	V2
+A3	V3
+A4	V4
+A5	V5
+A1	V1
+A3	V3
+A4	V4
+Begin iteration: size = 2
+test2	test3	
+End iteration: 
+
+Test of general iterators
+    test1
+    test2
+    test3
+done.
+
+          Initial objects: 1
+
+Simple LSF Dump:
+base              : composite           [LIST   7]
+  base            : composite1-1        [LIST   0]
+  base            : component1-1
+  base            : composite1-2        [LIST   0]
+  map             : map1-1
+  base            : base1-1
+  base            : composite1-3        [LIST   0]
+  base            : component1-2
+
+
+LSF Dump:
+composite
+{
+  composite1-1
+  component1-1
+  composite1-2
+  map1-1=map
+  base1-1
+  composite1-3
+  component1-2
+}
+
+ 2*5000 + 3 more objects: 10003
+   5000 + 2 objects left: 5002
+            Final objects: 1
+
+Factory dump: 
+None	0
+base	65536
+expr	786432
+expression	786432
+factory	393216
+guard	720896
+int	458752
+item	131072
+iterator	655360
+list	196608
+map	327680
+real	524288
+ref	262144
+string	589824
+switch	851968
+
+
+LSF Dump:
+root
+{
+  test_header=item,NAME="Test Header",VALUE="<HEAD>This is the header<" \
+              "/HEAD>"
+  x=int,VALUE=1
+  x1=int,VALUE=-1
+  y=real,VALUE=1
+  y2=real,VALUE=1.00001
+  y3=real,VALUE=1e+07
+  y4=real,VALUE=1e+07
+  y5=real,VALUE=1e+11
+  y6=real,VALUE=-1e+11
+  y7=real,VALUE=1e+11
+  y8=real,VALUE=-1e-09
+  y9=real,VALUE=1e-09
+  z=string,VALUE=1!
+  test2=string,VALUE=4
+  test=list
+  {
+    test2=list
+    {
+      test3=list
+      {
+        test4=list
+      }
+    }
+  }
+  test_doc=list,DISPLAY,NAME="Test document for Sample.lsf"
+  {
+    test_header
+    test_body
+    test_footer
+  }
+  test_header=item,NAME="Test Header",VALUE="<HEAD>This is the header<" \
+              "/HEAD>"
+  test_body=list,NAME="Test Body"
+  {
+    =string,VALUE=<BODY>
+  }
+  a
+  b=int,VALUE=1
+  c=int,VALUE=1
+  test_of_new_attrs=list,NAME="this is a string",INT=5,REAL=5.6,POINTER=0
+  test[$i]=item,NAME="$test[$i].name"
+  =string,VALUE="test\n\test2\ntest\t3\n"
+}
+
+Y Z X X Y
+This should be X: X
+This should be Y: Y.  And a $.
+'one'
+'two'
+'three'
+'four'
+'five'
+'six'
+''
+''
+'a'
+'b'
+'c'
+'d'
+
+Normal:
+
+SkipC:
+
+SkipL:
+
+SkipT:
+
+SkipLT:
+
+SkipLC:
+
+SkipCT:
+
+SkipLCT:
+
+
+Normal:,,,
+    1(,): ''       2(,): ''       3(,): ''       4(): ''   
+SkipC:,,,
+    1(,): ''       2(): ''   
+SkipL:,,,
+    1(): ''   
+SkipT:,,,
+    1(,): ''   
+SkipLT:,,,
+
+SkipLC:,,,
+    1(): ''   
+SkipCT:,,,
+    1(,): ''   
+SkipLCT:,,,
+
+
+Normal:a,,,
+    1(,): 'a'       2(,): ''       3(,): ''       4(): ''   
+SkipC:a,,,
+    1(,): 'a'       2(): ''   
+SkipL:a,,,
+    1(,): 'a'       2(,): ''       3(,): ''       4(): ''   
+SkipT:a,,,
+    1(,): 'a'   
+SkipLT:a,,,
+    1(,): 'a'   
+SkipLC:a,,,
+    1(,): 'a'       2(): ''   
+SkipCT:a,,,
+    1(,): 'a'   
+SkipLCT:a,,,
+    1(,): 'a'   
+
+Normal:,,,a
+    1(,): ''       2(,): ''       3(,): ''       4(): 'a'   
+SkipC:,,,a
+    1(,): ''       2(): 'a'   
+SkipL:,,,a
+    1(): 'a'   
+SkipT:,,,a
+    1(,): ''       2(,): ''       3(,): ''       4(): 'a'   
+SkipLT:,,,a
+    1(): 'a'   
+SkipLC:,,,a
+    1(): 'a'   
+SkipCT:,,,a
+    1(,): ''       2(): 'a'   
+SkipLCT:,,,a
+    1(): 'a'   
+
+Normal:,a,
+    1(,): ''       2(,): 'a'       3(): ''   
+SkipC:,a,
+    1(,): ''       2(,): 'a'       3(): ''   
+SkipL:,a,
+    1(,): 'a'       2(): ''   
+SkipT:,a,
+    1(,): ''       2(,): 'a'   
+SkipLT:,a,
+    1(,): 'a'   
+SkipLC:,a,
+    1(,): 'a'       2(): ''   
+SkipCT:,a,
+    1(,): ''       2(,): 'a'   
+SkipLCT:,a,
+    1(,): 'a'   
+
+Normal:	aaa 
+    1(): 'aaa'   
+SkipC:	aaa 
+    1(): 'aaa'   
+SkipL:	aaa 
+    1(): 'aaa'   
+SkipT:	aaa 
+    1(): 'aaa'   
+SkipLT:	aaa 
+    1(): 'aaa'   
+SkipLC:	aaa 
+    1(): 'aaa'   
+SkipCT:	aaa 
+    1(): 'aaa'   
+SkipLCT:	aaa 
+    1(): 'aaa'   
+
+Normal:, aaa
+    1(,): ''       2(): 'aaa'   
+SkipC:, aaa
+    1(,): ''       2(): 'aaa'   
+SkipL:, aaa
+    1(): 'aaa'   
+SkipT:, aaa
+    1(,): ''       2(): 'aaa'   
+SkipLT:, aaa
+    1(): 'aaa'   
+SkipLC:, aaa
+    1(): 'aaa'   
+SkipCT:, aaa
+    1(,): ''       2(): 'aaa'   
+SkipLCT:, aaa
+    1(): 'aaa'   
+
+Normal:aaa,
+    1(,): 'aaa'       2(): ''   
+SkipC:aaa,
+    1(,): 'aaa'       2(): ''   
+SkipL:aaa,
+    1(,): 'aaa'       2(): ''   
+SkipT:aaa,
+    1(,): 'aaa'   
+SkipLT:aaa,
+    1(,): 'aaa'   
+SkipLC:aaa,
+    1(,): 'aaa'       2(): ''   
+SkipCT:aaa,
+    1(,): 'aaa'   
+SkipLCT:aaa,
+    1(,): 'aaa'   
+
+Normal: aaa ,,a,,aaa
+    1(,): 'aaa'       2(,): ''       3(,): 'a'       4(,): ''       5(): 'aaa'   
+SkipC: aaa ,,a,,aaa
+    1(,): 'aaa'       2(,): 'a'       3(): 'aaa'   
+SkipL: aaa ,,a,,aaa
+    1(,): 'aaa'       2(,): ''       3(,): 'a'       4(,): ''       5(): 'aaa'   
+SkipT: aaa ,,a,,aaa
+    1(,): 'aaa'       2(,): ''       3(,): 'a'       4(,): ''       5(): 'aaa'   
+SkipLT: aaa ,,a,,aaa
+    1(,): 'aaa'       2(,): ''       3(,): 'a'       4(,): ''       5(): 'aaa'   
+SkipLC: aaa ,,a,,aaa
+    1(,): 'aaa'       2(,): 'a'       3(): 'aaa'   
+SkipCT: aaa ,,a,,aaa
+    1(,): 'aaa'       2(,): 'a'       3(): 'aaa'   
+SkipLCT: aaa ,,a,,aaa
+    1(,): 'aaa'       2(,): 'a'       3(): 'aaa'   
+
+Normal:,,a,,
+    1(,): ''       2(,): ''       3(,): 'a'       4(,): ''       5(): ''   
+SkipC:,,a,,
+    1(,): ''       2(,): 'a'       3(): ''   
+SkipL:,,a,,
+    1(,): 'a'       2(,): ''       3(): ''   
+SkipT:,,a,,
+    1(,): ''       2(,): ''       3(,): 'a'   
+SkipLT:,,a,,
+    1(,): 'a'   
+SkipLC:,,a,,
+    1(,): 'a'       2(): ''   
+SkipCT:,,a,,
+    1(,): ''       2(,): 'a'   
+SkipLCT:,,a,,
+    1(,): 'a'   
+
+Normal:aaa ,,a,,
+    1(,): 'aaa'       2(,): ''       3(,): 'a'       4(,): ''       5(): ''   
+SkipC:aaa ,,a,,
+    1(,): 'aaa'       2(,): 'a'       3(): ''   
+SkipL:aaa ,,a,,
+    1(,): 'aaa'       2(,): ''       3(,): 'a'       4(,): ''       5(): ''   
+SkipT:aaa ,,a,,
+    1(,): 'aaa'       2(,): ''       3(,): 'a'   
+SkipLT:aaa ,,a,,
+    1(,): 'aaa'       2(,): ''       3(,): 'a'   
+SkipLC:aaa ,,a,,
+    1(,): 'aaa'       2(,): 'a'       3(): ''   
+SkipCT:aaa ,,a,,
+    1(,): 'aaa'       2(,): 'a'   
+SkipLCT:aaa ,,a,,
+    1(,): 'aaa'       2(,): 'a'   
+
+Normal:,, a,,aaa
+    1(,): ''       2(,): ''       3(,): 'a'       4(,): ''       5(): 'aaa'   
+SkipC:,, a,,aaa
+    1(,): ''       2(,): 'a'       3(): 'aaa'   
+SkipL:,, a,,aaa
+    1(,): 'a'       2(,): ''       3(): 'aaa'   
+SkipT:,, a,,aaa
+    1(,): ''       2(,): ''       3(,): 'a'       4(,): ''       5(): 'aaa'   
+SkipLT:,, a,,aaa
+    1(,): 'a'       2(,): ''       3(): 'aaa'   
+SkipLC:,, a,,aaa
+    1(,): 'a'       2(): 'aaa'   
+SkipCT:,, a,,aaa
+    1(,): ''       2(,): 'a'       3(): 'aaa'   
+SkipLCT:,, a,,aaa
+    1(,): 'a'       2(): 'aaa'   
+
+Normal:\,\,\,,\,\,\,
+    1(,): ',,,'       2(): ',,,'   
+SkipC:\,\,\,,\,\,\,
+    1(,): ',,,'       2(): ',,,'   
+SkipL:\,\,\,,\,\,\,
+    1(,): ',,,'       2(): ',,,'   
+SkipT:\,\,\,,\,\,\,
+    1(,): ',,,'       2(): ',,,'   
+SkipLT:\,\,\,,\,\,\,
+    1(,): ',,,'       2(): ',,,'   
+SkipLC:\,\,\,,\,\,\,
+    1(,): ',,,'       2(): ',,,'   
+SkipCT:\,\,\,,\,\,\,
+    1(,): ',,,'       2(): ',,,'   
+SkipLCT:\,\,\,,\,\,\,
+    1(,): ',,,'       2(): ',,,'   
+
+Normal:",,,",",,,"
+    1(,): ',,,'       2(): ',,,'   
+SkipC:",,,",",,,"
+    1(,): ',,,'       2(): ',,,'   
+SkipL:",,,",",,,"
+    1(,): ',,,'       2(): ',,,'   
+SkipT:",,,",",,,"
+    1(,): ',,,'       2(): ',,,'   
+SkipLT:",,,",",,,"
+    1(,): ',,,'       2(): ',,,'   
+SkipLC:",,,",",,,"
+    1(,): ',,,'       2(): ',,,'   
+SkipCT:",,,",",,,"
+    1(,): ',,,'       2(): ',,,'   
+SkipLCT:",,,",",,,"
+    1(,): ',,,'       2(): ',,,'   
+
+Normal:a\ta
+    1(): 'a	a'   
+SkipC:a\ta
+    1(): 'a	a'   
+SkipL:a\ta
+    1(): 'a	a'   
+SkipT:a\ta
+    1(): 'a	a'   
+SkipLT:a\ta
+    1(): 'a	a'   
+SkipLC:a\ta
+    1(): 'a	a'   
+SkipCT:a\ta
+    1(): 'a	a'   
+SkipLCT:a\ta
+    1(): 'a	a'   
+
+Normal:,|a|b|,c|d|,f,,,g|h|,
+    1(,): ''       2(|): ''       3(|): 'a'       4(|): 'b'       5(,): ''       6(|): 'c'       7(|): 'd'       8(,): ''       9(,): 'f'       10(,): ''       11(,): ''       12(|): 'g'       13(|): 'h'       14(,): ''       15(): ''   
+SkipC:,|a|b|,c|d|,f,,,g|h|,
+    1(,): ''       2(|): 'a'       3(|): 'b'       4(|): 'c'       5(|): 'd'       6(,): 'f'       7(|): 'g'       8(|): 'h'       9(): ''   
+SkipL:,|a|b|,c|d|,f,,,g|h|,
+    1(|): 'a'       2(|): 'b'       3(,): ''       4(|): 'c'       5(|): 'd'       6(,): ''       7(,): 'f'       8(,): ''       9(,): ''       10(|): 'g'       11(|): 'h'       12(,): ''       13(): ''   
+SkipT:,|a|b|,c|d|,f,,,g|h|,
+    1(,): ''       2(|): ''       3(|): 'a'       4(|): 'b'       5(,): ''       6(|): 'c'       7(|): 'd'       8(,): ''       9(,): 'f'       10(,): ''       11(,): ''       12(|): 'g'       13(|): 'h'   
+SkipLT:,|a|b|,c|d|,f,,,g|h|,
+    1(|): 'a'       2(|): 'b'       3(,): ''       4(|): 'c'       5(|): 'd'       6(,): ''       7(,): 'f'       8(,): ''       9(,): ''       10(|): 'g'       11(|): 'h'   
+SkipLC:,|a|b|,c|d|,f,,,g|h|,
+    1(|): 'a'       2(|): 'b'       3(|): 'c'       4(|): 'd'       5(,): 'f'       6(|): 'g'       7(|): 'h'       8(): ''   
+SkipCT:,|a|b|,c|d|,f,,,g|h|,
+    1(,): ''       2(|): 'a'       3(|): 'b'       4(|): 'c'       5(|): 'd'       6(,): 'f'       7(|): 'g'       8(|): 'h'   
+SkipLCT:,|a|b|,c|d|,f,,,g|h|,
+    1(|): 'a'       2(|): 'b'       3(|): 'c'       4(|): 'd'       5(,): 'f'       6(|): 'g'       7(|): 'h'   
+
+Normal:a,"b,c",d
+    1(,): 'a'       2(,): 'b,c'       3(): 'd'   
+SkipC:a,"b,c",d
+    1(,): 'a'       2(,): 'b,c'       3(): 'd'   
+SkipL:a,"b,c",d
+    1(,): 'a'       2(,): 'b,c'       3(): 'd'   
+SkipT:a,"b,c",d
+    1(,): 'a'       2(,): 'b,c'       3(): 'd'   
+SkipLT:a,"b,c",d
+    1(,): 'a'       2(,): 'b,c'       3(): 'd'   
+SkipLC:a,"b,c",d
+    1(,): 'a'       2(,): 'b,c'       3(): 'd'   
+SkipCT:a,"b,c",d
+    1(,): 'a'       2(,): 'b,c'       3(): 'd'   
+SkipLCT:a,"b,c",d
+    1(,): 'a'       2(,): 'b,c'       3(): 'd'   
+
+Normal:a,"b,c,d","e,"
+    1(,): 'a'       2(,): 'b,c,d'       3(): 'e,'   
+SkipC:a,"b,c,d","e,"
+    1(,): 'a'       2(,): 'b,c,d'       3(): 'e,'   
+SkipL:a,"b,c,d","e,"
+    1(,): 'a'       2(,): 'b,c,d'       3(): 'e,'   
+SkipT:a,"b,c,d","e,"
+    1(,): 'a'       2(,): 'b,c,d'       3(): 'e,'   
+SkipLT:a,"b,c,d","e,"
+    1(,): 'a'       2(,): 'b,c,d'       3(): 'e,'   
+SkipLC:a,"b,c,d","e,"
+    1(,): 'a'       2(,): 'b,c,d'       3(): 'e,'   
+SkipCT:a,"b,c,d","e,"
+    1(,): 'a'       2(,): 'b,c,d'       3(): 'e,'   
+SkipLCT:a,"b,c,d","e,"
+    1(,): 'a'       2(,): 'b,c,d'       3(): 'e,'   
+
+Normal:""
+    1(): ''   
+SkipC:""
+    1(): ''   
+SkipL:""
+    1(): ''   
+SkipT:""
+    1(): ''   
+SkipLT:""
+    1(): ''   
+SkipLC:""
+    1(): ''   
+SkipCT:""
+    1(): ''   
+SkipLCT:""
+    1(): ''   
+
+Normal:,"",
+    1(,): ''       2(,): ''       3(): ''   
+SkipC:,"",
+    1(,): ''       2(,): ''       3(): ''   
+SkipL:,"",
+    1(,): ''       2(): ''   
+SkipT:,"",
+    1(,): ''       2(,): ''   
+SkipLT:,"",
+    1(,): ''   
+SkipLC:,"",
+    1(,): ''       2(): ''   
+SkipCT:,"",
+    1(,): ''       2(,): ''   
+SkipLCT:,"",
+    1(,): ''   
+
+Normal:,",",
+    1(,): ''       2(,): ','       3(): ''   
+SkipC:,",",
+    1(,): ''       2(,): ','       3(): ''   
+SkipL:,",",
+    1(,): ','       2(): ''   
+SkipT:,",",
+    1(,): ''       2(,): ','   
+SkipLT:,",",
+    1(,): ','   
+SkipLC:,",",
+    1(,): ','       2(): ''   
+SkipCT:,",",
+    1(,): ''       2(,): ','   
+SkipLCT:,",",
+    1(,): ','   
+
+Normal:"""
+    1(): '"'   
+SkipC:"""
+    1(): '"'   
+SkipL:"""
+    1(): '"'   
+SkipT:"""
+    1(): '"'   
+SkipLT:"""
+    1(): '"'   
+SkipLC:"""
+    1(): '"'   
+SkipCT:"""
+    1(): '"'   
+SkipLCT:"""
+    1(): '"'   
+
+Normal:"
+    1(): ''   
+SkipC:"
+    1(): ''   
+SkipL:"
+    1(): ''   
+SkipT:"
+    1(): ''   
+SkipLT:"
+    1(): ''   
+SkipLC:"
+    1(): ''   
+SkipCT:"
+    1(): ''   
+SkipLCT:"
+    1(): ''   
+
+Normal:""
+    1(): ''   
+SkipC:""
+    1(): ''   
+SkipL:""
+    1(): ''   
+SkipT:""
+    1(): ''   
+SkipLT:""
+    1(): ''   
+SkipLC:""
+    1(): ''   
+SkipCT:""
+    1(): ''   
+SkipLCT:""
+    1(): ''   
+
+Normal:"""
+    1(): '"'   
+SkipC:"""
+    1(): '"'   
+SkipL:"""
+    1(): '"'   
+SkipT:"""
+    1(): '"'   
+SkipLT:"""
+    1(): '"'   
+SkipLC:"""
+    1(): '"'   
+SkipCT:"""
+    1(): '"'   
+SkipLCT:"""
+    1(): '"'   
+
+Normal:""""
+    1(): '"'   
+SkipC:""""
+    1(): '"'   
+SkipL:""""
+    1(): '"'   
+SkipT:""""
+    1(): '"'   
+SkipLT:""""
+    1(): '"'   
+SkipLC:""""
+    1(): '"'   
+SkipCT:""""
+    1(): '"'   
+SkipLCT:""""
+    1(): '"'   
+
+Normal:"""""
+    1(): '""'   
+SkipC:"""""
+    1(): '""'   
+SkipL:"""""
+    1(): '""'   
+SkipT:"""""
+    1(): '""'   
+SkipLT:"""""
+    1(): '""'   
+SkipLC:"""""
+    1(): '""'   
+SkipCT:"""""
+    1(): '""'   
+SkipLCT:"""""
+    1(): '""'   

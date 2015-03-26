@@ -1,0 +1,24 @@
+pedigree
+{
+  delimiter_mode=multiple
+	delimiters=" "
+	pedigree_id=fam
+	individual_id=id
+	parent_id=mom
+	parent_id=dad
+        sex_field=sex,male=1, female=2
+	individual_missing_value="0"
+#	sex_code,male=1, female=2
+	trait="sqrtdbh", missing=-1
+        marker=abo
+        marker=ak1
+        marker=orm
+}
+
+pedinfo_analysis
+{
+  each_pedigree=true
+}
+
+
+

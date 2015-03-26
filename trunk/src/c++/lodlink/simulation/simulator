@@ -1,0 +1,166 @@
+#!/usr/local/bin/python
+
+from random import *
+
+from params import *
+
+# Create a map of pedigree ids
+
+ped_map = { }
+
+for i in range(len(pedigree)) :
+  ped_map[pedigree[i][0]] = i
+
+# Create the allele map for each marker
+
+allele_map = []
+
+for i in markers :
+  d = 0.0
+  
+  ranges = [d]
+  
+  for j in i[3]:
+  
+    d = d + j
+    ranges = ranges + [d]
+  
+  allele_map = allele_map + [ranges]
+
+def create_allele(m) :
+
+  alleles = allele_map[m]
+  
+  max = alleles[-1]
+  
+  v = uniform(0.000000000000000001, max)
+  
+  x = 0
+  
+  while v > alleles[x]:
+    x = x + 1
+    
+  return x
+
+def create_genotype(m):
+
+  return [create_allele(m), create_allele(m)]
+  
+# Generate a trait and return it as a pair of trait value, trait genotype
+
+def create_trait():
+  
+  a1 = (random() < trait_freq_a)
+  a2 = (random() < trait_freq_a)
+
+  geno = a1 + a2   # Gives value 0, 1, 2 for AA, AB, BB
+  
+  v = normalvariate(trait_means[geno], trait_var[geno])
+  
+  return [v, [a1+1,a2+1]]
+
+def create_founder():
+
+  f = create_trait()
+
+  for i in range(len(markers)):
+    f = f + [create_genotype(i)]
+
+  return f
+    
+def create_nonfounder(m, f, alpha):
+
+  whm = random() < 0.5   # Which allele of mother?
+  whf = random() < 0.5   # Which allele of father?
+
+  am = m[1][whm] - 1
+  af = f[1][whf] - 1
+
+  geno = am + af
+
+  v = normalvariate(trait_means[geno], trait_var[geno])
+  
+  gt = [v, [am+1,af+1]]
+  
+  for i in range(len(markers)):
+    if alpha[i] == 0:
+      rm = random() < 0.5
+      rf = random() < 0.5
+    else:
+      rm = random() < markers[i][0]
+      rf = random() < markers[i][1]
+
+    mam = m[i+2][(1-rm) * whm + rm * (1-whm)]
+    maf = f[i+2][(1-rf) * whf + rf * (1-whf)]
+
+    gt = gt + [[mam, maf]]
+
+  return gt
+
+def create_pedigree():
+  data = []
+
+  # Determine if each marker is linked or not by heterogeneity
+  
+  alphas = []
+  
+  for i in markers :
+    alphas = alphas + [random() < i[2]]  # reversed positions of random() 
+                                         # i[2] per discussion w. GCW 
+
+  for i in pedigree :
+    if i[1] == 0 :                      # Founder
+      data = data + [create_founder()]
+    else :                              # Nonfounder
+    
+      p1data = data[ped_map[i[1]]]
+      p2data = data[ped_map[i[2]]]
+    
+      if pedigree[ped_map[i[1]]][1] == 0:   # If p1 is mother. Note
+                                            # that this is easy to break
+        mothdata = p1data
+        fathdata = p2data
+      else:
+        mothdata = p2data
+        fathdata = p1data
+        
+      data = data + [create_nonfounder(mothdata, fathdata, alphas)]
+      
+  return data
+
+def print_header():
+  print "PED\tIND\tP1\tP2\tSEX\tT\tT1",
+
+  for i in range(len(markers)):
+    print "\tM" + `i+1`,
+
+  print
+
+def print_ind(p, struct, data):
+  print p,'\t',struct[0],'\t',struct[1],'\t',struct[2],'\t',struct[3],
+
+  ind_missing = (struct[1] == 0 and founders_missing) or \
+                (individual_missing > random())
+                
+  if ind_missing:
+    print '\t%3.0f' % (-999),
+
+    for j in data[1:]:
+      print '\t' + `0` + '/' + `0`,
+  else:
+    print '\t%3.3f' % data[0],
+
+    for j in data[1:]:
+      print '\t' + `j[0]` + '/' + `j[1]`,
+
+  print
+
+
+print_header()
+
+
+for j in range(ped_count):
+  p = create_pedigree()
+
+  for i in range(len(pedigree)):
+    print_ind(j+1,pedigree[i], p[i])

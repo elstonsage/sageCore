@@ -1,0 +1,70 @@
+pedigree,column
+{
+format="12(a8)"
+pedigree_id
+individual_id
+parent_id
+parent_id
+Sex_field
+individual_missing_value="."
+sex_code,male="M",female="F",missing="?"
+covariate=covar,missing="5"
+covariate=age,missing="."  
+trait=RETINO,missing="5"
+trait=Affected,missing="5"
+trait=RET,missing="5",binary
+trait=CASE,missing="5"
+trait=PROBAND,missing="5"
+}
+
+#pedinfo_analysis
+#{
+#each_pedigree=true
+#trait=RET
+#}
+
+segreg_analysis,out="egcov"
+{
+ trait=RET
+  
+ type_suscept
+  {
+    option="two_dom"
+
+  }                             
+
+  ascertainment
+  {
+    cond_set="psf"
+    psf_indic=PROBAND
+  }
+
+  resid
+  {
+  fm,val=0,fixed="true"
+  mo,val=0,fixed="true"
+  fo,val=0,fixed="true"
+  ss,val=0,fixed="true"
+  }
+
+  suscept_cov
+  {
+    covariate=covar,interaction="true"
+   }
+
+  geno_freq
+  {
+    option="hwe"
+ }
+
+  transmission
+  {
+    option="homog_mendelian"
+ }
+
+#  prev_constraint
+#  {
+#   R=6
+#   N=120000
+#  }
+}

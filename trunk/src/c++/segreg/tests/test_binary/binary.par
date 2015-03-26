@@ -1,0 +1,197 @@
+pedigree
+{
+   delimiter_mode = multiple
+   delimiters=" "
+   individual_missing_value="0"
+   sex_code,male="M",female="F",unknown="?"
+
+   pedigree_id=PED
+   individual_id=IND
+   parent_id=MOTH
+   parent_id=FATH
+   sex_field=SEX
+
+  trait=AGE,missing=-1
+  trait=AFFECTION,missing=9,binary,affected=1,unaffected=0
+
+  trait=TRAIT,missing=-1
+  covariate=COV,missing=9,binary,affected=1,unaffected=0
+}
+
+segreg_analysis # one suscept, no covariates
+{
+  trait=AFFECTION
+
+  transmission
+  {
+    option=homog_no_trans
+  }
+
+  type_suscept
+  {
+    option=one
+    suscept="AA",val=3
+  }
+
+  prev_constraint
+  {
+    N=1
+    R=.5
+  }
+}
+
+segreg_analysis # 3 susceptibilities, Covariate for the susc
+{
+  trait=AFFECTION
+
+  geno_freq
+  {
+    option=hwe
+    probs_fixed = true
+    freq_A,val=0.5
+  }
+
+  transmission
+  {
+    option=homog_no_trans
+  }
+
+  type_suscept
+  {
+    option=three
+    suscept="AA",val=3
+    suscept="AB",val=-5
+    suscept="BB",val=-7
+  }
+
+  suscept_cov
+  {
+    covariate=cov,val=1
+  }
+  prev_constraint
+  {
+    N=1
+    R=.5
+  }
+}
+
+segreg_analysis # One suscept, ascertained on cov
+{
+  trait=AFFECTION
+
+  transmission
+  {
+    option=homog_no_trans
+  }
+
+  type_suscept
+  {
+    option=one
+    suscept="AA",val=0
+  }
+  ascertainment
+  {
+    onset_option=actual
+    cond_set=psf
+    psf_indic=cov
+  }
+}
+segreg_analysis # One suscept, polygenic
+{
+  trait=AFFECTION
+
+  class=fpmm
+
+  transmission
+  {
+    option=homog_no_trans
+  }
+
+  type_suscept
+  {
+    option=one
+    suscept="AA",val=-3
+  }
+
+  fpmm
+  {
+    var = 1
+  }
+  prev_constraint
+  {
+    N=1
+    R=.5
+  }
+}
+
+segreg_analysis # One suscept, ascertained on cov, fpmm
+{
+  trait=AFFECTION
+
+  geno_freq
+  {
+    option=hwe
+    probs_fixed = true
+    freq_A,val=0.5
+  }
+
+  class=fpmm
+
+  transmission
+  {
+    option=homog_no_trans
+  }
+
+  type_suscept
+  {
+    option=three
+    suscept="AA",val=-5
+    suscept="AB",val=0
+    suscept="BB",val=3
+  }
+  ascertainment
+  {
+    onset_option=actual
+    cond_set=psf
+    psf_indic=cov
+  }
+
+  fpmm
+  {
+    var = 1
+  }
+}
+
+segreg_analysis # One suscept, residuals
+{
+  trait=AFFECTION
+
+  geno_freq
+  {
+    option=hwe
+    probs_fixed = true
+    freq_A,val=0.5
+  }
+
+  transmission
+  {
+    option=homog_mendelian
+  }
+
+  type_suscept
+  {
+    option=three
+    suscept="AA",val=-5
+    suscept="AB",val=0
+    suscept="BB",val=3
+  }
+  resid
+  {
+    option=arb
+    fm=0.1
+    fo=0.2
+    mo=0.3
+    ss=0.4
+  }
+
+}

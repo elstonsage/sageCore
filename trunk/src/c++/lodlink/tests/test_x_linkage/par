@@ -1,0 +1,46 @@
+marker
+{
+  allele_missing="0"
+  allele_delimiter="/"
+}
+
+pedigree
+{
+  delimiters=" "
+  delimiter_mode=multiple
+  individual_missing_value="0"
+  sex_code, male="1", female="2"
+
+  pedigree_id=family
+  individual_id=ind
+  parent_id=father
+  parent_id=mother
+  sex_field=sex
+
+  string=T1
+  trait=T2
+  trait=T3, binary, missing=9
+
+  marker=C01R0001
+  marker=C01R0002
+  marker=C01R0003, x_linked
+  marker=C01R0004
+}
+
+lodlink 
+{
+  model, marker=C01R0001
+  linkage_tests=true, sex_specific=false
+  
+  homog_tests
+  {
+    smiths_test=false
+    mortons_test=false
+  }
+  
+  lods
+  {
+    option=none
+  }
+}  
+

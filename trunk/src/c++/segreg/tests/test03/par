@@ -1,0 +1,130 @@
+pedigree
+{
+  pedigree_id=PID
+  individual_id=ID
+  sex_field=SEX
+  parent_id=P1
+  parent_id=P2
+  trait=DISEASE, binary, affected=1, unaffected=0
+  trait=HEMATOCRIT
+  trait=t
+  trait=u
+  trait=v
+  trait=w
+  trait=x
+  trait=y
+  trait=z
+}
+
+segreg_analysis   #1
+{
+  trait = hematocrit
+  
+  resid
+  {
+    option=arb
+    fm,val=.1
+    mo,val=.2
+    fo,val=.3
+    ss,val=.4
+  }
+}
+
+segreg_analysis   #2
+{
+  trait = hematocrit
+  
+  geno_freq
+  {
+    option=nhwe
+    prob=AA,val=.1
+    prob=AB,val=.2
+    prob=BB,val=.7
+    corr,val=.5
+  }
+  
+  transmission
+  {
+    option = general
+    tau=AA,  val=.1
+    tau=AB,  val=.1
+    tau=BB,  val=0
+  }
+  
+  type_mean
+  {
+    option=two
+  }
+}
+
+segreg_analysis   #3
+{
+  trait = hematocrit
+  
+  geno_freq
+  {
+    option=nhwe
+    prob=AA,val=.1
+    prob=AB,val=.2
+    prob=BB,val=.7
+    corr,val=.5
+  }
+  
+  transmission
+  {
+    option = no_trans
+  }
+  
+  type_mean
+  {
+    option=two
+  }
+}
+
+segreg_analysis   #4
+{
+  trait = hematocrit
+  
+  transformation
+  {
+    option = box_cox
+    lambda2, val=2
+    lambda1, val=1.5
+  }
+}
+
+segreg_analysis   #5
+{
+  trait = hematocrit
+  
+  transformation
+  {
+    option = box_cox
+    lambda2, val=2.5
+    lambda1, val=0
+  }
+}
+
+segreg_analysis   #6
+{
+  trait = hematocrit
+  
+  transformation
+  {
+    option = george_elston
+    lambda2, val= -2.5
+    lambda1, val= .5
+  }
+}
+
+segreg_analysis   #7
+{
+  trait = hematocrit
+  
+  transformation
+  {
+    option = george_elston
+    lambda2, val= -2.5
+    lambda1, val= 0
+  }
+}

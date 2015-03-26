@@ -1,0 +1,110 @@
+
+
+
+Reading Parameter File....................done.
+Reading Marker Locus Description File.....done.
+Reading Pedigree File.....................
+              from ped....................done.
+Sorting Pedigrees.........................done.
+Reading Genome Description File...........done.
+
+GENIBD analysis.......  1
+
+===========================================================================
+Analysis 1 : Multipoint analysis on region (CHR3_1):
+        * - Maximum size for exact method is set to 18.
+===========================================================================
+
+  Processing Region: CHR3_1
+  =======================================
+
+  Analysis 1: Pedigree 7
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+
+GENIBD analysis.......  2
+
+===========================================================================
+Analysis 2 : Multipoint analysis on region (CHR3_2):
+        * - Maximum size for exact method is set to 18.
+===========================================================================
+
+  Processing Region: CHR3_2
+  =======================================
+
+  Analysis 2: Pedigree 7
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+
+GENIBD analysis.......  3
+
+===========================================================================
+Analysis 3 : Multipoint analysis on region (CHR3_3):
+        * - Maximum size for exact method is set to 18.
+===========================================================================
+
+  Processing Region: CHR3_3
+  =======================================
+
+  Analysis 3: Pedigree 7
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+
+GENIBD analysis.......  4
+
+===========================================================================
+Analysis 4 : Multipoint analysis on region (X1):
+        * - Maximum size for exact method is set to 18.
+===========================================================================
+
+  Processing Region: X1
+  =======================================
+
+  Analysis 4: Pedigree 7
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+
+GENIBD analysis.......  5
+
+===========================================================================
+Analysis 5 : Multipoint analysis on region (X2):
+        * - Maximum size for exact method is set to 18.
+===========================================================================
+
+  Processing Region: X2
+  =======================================
+
+  Analysis 5: Pedigree 7
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+
+GENIBD analysis.......  6
+
+===========================================================================
+Analysis 6 : Multipoint analysis on region (X3):
+        * - Maximum size for exact method is set to 18.
+===========================================================================
+
+  Processing Region: X3
+  =======================================
+
+  Analysis 6: Pedigree 7
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+
+Analysis complete!
+
+
+

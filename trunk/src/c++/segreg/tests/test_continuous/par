@@ -1,0 +1,291 @@
+pedigree
+{
+   delimiter_mode = multiple
+   delimiters=" "
+   individual_missing_value="0"
+   sex_code,male="M",female="F",unknown="?"
+
+   pedigree_id=PED
+   individual_id=IND
+   parent_id=MOTH
+   parent_id=FATH
+   sex_field=SEX
+
+  trait=AGE,missing=-1
+  trait=AFFECTION,missing=9,binary,affected=1,unaffected=0
+
+  trait=TRAIT,missing=-1
+  covariate=COV,missing=9,binary,affected=1,unaffected=0
+}
+
+segreg_analysis # three means
+{
+  trait=trait
+
+  geno_freq
+  {
+    option=hwe
+    probs_fixed = true
+    freq_A,val=0.5
+  }
+
+  transmission
+  {
+    option=homog_no_trans
+  }
+
+  transformation
+  {
+    option=none
+  }
+
+  type_var
+  {
+    option=one
+    var="AA",val=1
+  }
+
+  resid
+  {
+    fo=0
+  }
+
+  type_mean
+  {
+    option=three
+    mean="AA",val=3
+    mean="AB",val=5
+    mean="BB",val=7
+  }
+}
+
+segreg_analysis # three means, covariate on mean
+{
+  trait=trait
+
+  geno_freq
+  {
+    option=hwe
+    probs_fixed = true
+    freq_A,val=0.5
+  }
+
+  transmission
+  {
+    option=homog_no_trans
+  }
+
+  transformation
+  {
+    option=none
+  }
+
+  type_var
+  {
+    option=one
+    var="AA",val=1
+  }
+
+  resid
+  {
+    fo=0
+  }
+
+  type_mean
+  {
+    option=three
+    mean="AA",val=3
+    mean="AB",val=5
+    mean="BB",val=7
+  }
+
+  mean_cov
+  {
+    covariate=cov,val=1
+  }
+}
+
+segreg_analysis # three means, covariate on variance
+{
+  trait=trait
+
+  geno_freq
+  {
+    option=hwe
+    probs_fixed = true
+    freq_A,val=0.5
+  }
+
+  transmission
+  {
+    option=homog_no_trans
+  }
+
+  transformation
+  {
+    option=none
+  }
+
+  type_var
+  {
+    option=one
+    var="AA",val=1
+  }
+
+  resid
+  {
+    fo=0
+  }
+
+  type_mean
+  {
+    option=three
+    mean="AA",val=3
+    mean="AB",val=5
+    mean="BB",val=7
+  }
+
+  var_cov
+  {
+    covariate=cov,val=1
+  }
+}
+
+segreg_analysis # three means, composite trait
+{
+  trait=trait
+
+  geno_freq
+  {
+    option=hwe
+    probs_fixed = true
+    freq_A,val=0.5
+  }
+
+  transmission
+  {
+    option=homog_no_trans
+  }
+
+  transformation
+  {
+    option=none
+  }
+
+  type_var
+  {
+    option=one
+    var="AA",val=1
+  }
+
+  resid
+  {
+    fo=0
+  }
+
+  type_mean
+  {
+    option=three
+    mean="AA",val=3
+    mean="AB",val=5
+    mean="BB",val=7
+  }
+
+  composite_trait
+  {
+    covariate=cov,val=1
+  }
+}
+
+segreg_analysis # three means, ascertainment on cov
+{
+  trait=trait
+
+  geno_freq
+  {
+    option=hwe
+    probs_fixed = true
+    freq_A,val=0.5
+  }
+
+  transmission
+  {
+    option=homog_no_trans
+  }
+
+  transformation
+  {
+    option=none
+  }
+
+  type_var
+  {
+    option=one
+    var="AA",val=1
+  }
+
+  resid
+  {
+    fo=0
+  }
+
+  type_mean
+  {
+    option=three
+    mean="AA",val=3
+    mean="AB",val=5
+    mean="BB",val=7
+  }
+
+  ascertainment
+  {
+    cond_val=actual
+    cond_set=psf
+    psf_indic=cov
+  }
+}
+
+segreg_analysis # residuals
+{
+  trait=trait
+
+  geno_freq
+  {
+    option=hwe
+    probs_fixed = true
+    freq_A,val=0.5
+  }
+
+  transmission
+  {
+    option=homog_no_trans
+  }
+
+  transformation
+  {
+    option=none
+  }
+
+  type_var
+  {
+    option=one
+    var="AA",val=1
+  }
+
+  resid
+  {
+    option=arb
+    fm=0.05
+    fo=0.0
+    mo=0.04
+    ss=0.0
+  }
+
+  type_mean
+  {
+    option=three
+    mean="AA",val=3
+    mean="AB",val=5
+    mean="BB",val=7
+  }
+}

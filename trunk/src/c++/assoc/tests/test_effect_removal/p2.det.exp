@@ -1,0 +1,158 @@
+=================
+
+     Results
+
+=================
+
+Note: P-values for variance components and proportions are one-sided.  All others are two-sided.
+The null hypothesis for transformation parameters is 'no transformation.'
+
+
+==============================
+     Analysis description
+==============================
+
+  Title                        assoc                         
+  Primary Trait                AFF (Binary)                  
+  Allow averaging              Disabled                      
+  Omit complete summary table  Disabled                      
+  Summary table display order  By LRT p-value                
+  Summary filter               Show no more than 10 results  
+-------------------------------------------------------------
+
+Note: This output contains results for a binary trait using an algorithm still in Beta release form. Please verify results before reporting.
+
+======================================
+     Transformation configuration
+======================================
+
+  Method                George-Elston  
+  Lambda1 is estimated                 
+  Lambda2 is fixed at    0.000000      
+
+========================
+
+     Model 'marker'
+
+========================
+
+============================
+     Sample description
+============================
+
+  Number of individuals in dataset                                   5000  
+  Number of constituent pedigrees in dataset                          625  
+  Number of singletons in dataset                                       0  
+                                                                           
+  Number of constituent pedigree members with complete information   5000  
+  Number of singletons with complete information                        0  
+                                                                           
+
+====================
+     Covariates
+====================
+
+----------------------------------------------------
+  Name  Mean       Std. dev.  Min        Max        
+----------------------------------------------------
+  m      0.408000   0.571958   0.000000   2.000000  
+
+=============================================================
+     MAXIMIZATION RESULTS marker without test covariates
+=============================================================
+
+----------------------------------------------------------------------
+  Parameter       Estimate   S.E.         P-value      Deriv          
+----------------------------------------------------------------------
+  Variance components
+          Random   0.051078   0.001022    < 1.00e-07   -0.4822617063  
+
+  Other parameters
+  Total variance   0.051078   0.001022    < 1.00e-07    0.2770039716  
+
+  Variance proportions
+          Random   1.000000  Unavailable  Unavailable   0.0000000000  
+
+       Intercept  -9.210237   0.004289    < 1.00e-07    0.0000000000  
+
+  Transformation
+         Lambda1   0.000000            Ind. fixed @ bound             
+         Lambda2   0.000000                   Fixed                   
+----------------------------------------------------------------------
+
+Final ln likelihood:  341.332038
+
+===================================================================
+     VARIANCE-COVARIANCE MATRIX marker without test covariates
+===================================================================
+
+--------------------------------------------------------------------------------------------------------------------------------
+                                                                    Random     Total variance  Random     Intercept  Lambda1    
+--------------------------------------------------------------------------------------------------------------------------------
+  Random                                                             1.04e-06   1.04e-06        0.000000  -1.44e-10   0.000000  
+  Total variance                                                     1.04e-06   1.04e-06        0.000000  -1.44e-10   0.000000  
+  Random                                                             0.000000   0.000000        0.000000   0.000000   0.000000  
+  Intercept                                                         -1.44e-10  -1.44e-10        0.000000   1.84e-05   0.000000  
+  Lambda1                                                            0.000000   0.000000        0.000000   0.000000   0.000000  
+                                                                                                                                
+  Likelihood Surface flat variance matrix near singular and                                                                     
+  may be affected by rounding error.                                                                                            
+  Reducing the number of parameters to be estimated is recommended                                                              
+
+==========================================================
+     MAXIMIZATION RESULTS marker with test covariates
+==========================================================
+
+----------------------------------------------------------------------
+  Parameter       Estimate   S.E.         P-value      Deriv          
+----------------------------------------------------------------------
+  Variance components
+          Random   0.051077   0.001022    < 1.00e-07    0.0774706280  
+
+  Other parameters
+  Total variance   0.051077   0.001022    < 1.00e-07    0.2885980696  
+
+  Variance proportions
+          Random   1.000000  Unavailable  Unavailable  -0.1892030698  
+
+       Intercept  -9.210237   0.005393    < 1.00e-07    0.0000000000  
+
+  Covariates
+               m   8.15e-06   0.009465     0.999313     0.0000000000  
+
+  Transformation
+         Lambda1   0.000000            Ind. fixed @ bound             
+         Lambda2   0.000000                   Fixed                   
+----------------------------------------------------------------------
+
+Final ln likelihood:  341.332038
+
+================================================================
+     VARIANCE-COVARIANCE MATRIX marker with test covariates
+================================================================
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+                                                                    Random     Total variance  Random     Intercept  m          Lambda1    
+-------------------------------------------------------------------------------------------------------------------------------------------
+  Random                                                             1.04e-06   1.04e-06        0.000000  -2.28e-10  -1.51e-11   0.000000  
+  Total variance                                                     1.04e-06   1.04e-06        0.000000  -2.28e-10  -1.51e-11   0.000000  
+  Random                                                             0.000000   0.000000        0.000000   0.000000   0.000000   0.000000  
+  Intercept                                                         -2.28e-10  -2.28e-10        0.000000   2.91e-05   8.94e-11   0.000000  
+  m                                                                 -1.51e-11  -1.51e-11        0.000000   8.94e-11   8.96e-05   0.000000  
+  Lambda1                                                            0.000000   0.000000        0.000000   0.000000   0.000000   0.000000  
+                                                                                                                                           
+  Likelihood Surface flat variance matrix near singular and                                                                                
+  may be affected by rounding error.                                                                                                       
+  Reducing the number of parameters to be estimated is recommended                                                                         
+
+====================
+     Joint test
+====================
+
+  H0 ln likelihood marker without test covariates   341.332038  
+  H1 ln likelihood marker with test covariates      341.332038  
+                                                                
+  2 * |H0 - H1|                                       4.54e-07  
+  Degrees of freedom                                         1  
+  P-value                                             0.999462  
+

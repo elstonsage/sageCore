@@ -1,0 +1,40 @@
+=====================================================================================================
+  SEGREG Analysis for Trait : cleft
+=====================================================================================================
+  # Model Specification  
+
+    Model Class MLM
+    Type susceptibilities        : two susceptibilities, A recessive
+    Residual correlations        : No spouse correlation, parent-offspring and
+                                   sib-sib correlations equal
+    Ascertainment                : proband sampling frame, actual
+    Prevalence Options           : Sample Size     : 2000
+                                    Number Affected : 1
+
+  # Number of connected pedigrees     : 353
+  # Number of unconnected individuals : 0
+
+  # Final Estimates : 
+
+  Parameter           Parameter Est.  Standard Err.   First Deriv.   Status
+-----------------------------------------------------------------------------------------------------
+  susc_AA             -6.49649343      0.00099337      0.08006014     IND, MAY VARY
+  susc_AB_BB          -1.69512138      0.00025920     -0.11601769     IND, MAY VARY
+  marital resid a      0.00000000                                     FIXED EXTERNALLY
+  po = ss resid a      0.07238726      0.00007645     -0.01519175     IND, MAY VARY
+  prob_AA              0.99751248      0.00014975                     DEPENDENT
+  prob_AB              0.00248598      0.00014957                     DEPENDENT
+  prob_BB              0.00000155      0.00000019                     DEPENDENT
+  freq_A               0.99875546      0.00007497     -764.496671     IND-FN, MAY VARY
+  genotypic corr.      0.00000000                                     FIXED EXTERNALLY
+  transm prob_AA       1.00000000                                     FIXED EXTERNALLY
+  transm prob_AB       0.00000000                                     IND, FIXED BY MAXFUN AT BOUND
+  transm prob_BB       0.00000000                                     FIXED EXTERNALLY
+-----------------------------------------------------------------------------------------------------
+
+
+        LN(Likelihood) : -194.032
+     -2 LN(Likelihood) : 388.064
+    Akaike's AIC score : 396.064
+=====================================================================================================
+

@@ -1,0 +1,88 @@
+
+
+
+%GENIBD-W: Allele frequencies for marker D3S1304 do not sum to 1.  Allele
+           frequencies will be normalized to 1.
+%GENIBD-W: Allele frequencies for marker D3S1263 do not sum to 1.  Allele
+           frequencies will be normalized to 1.
+%GENIBD-W: Allele frequencies for marker DXS1304 do not sum to 1.  Allele
+           frequencies will be normalized to 1.
+%GENIBD-W: Allele frequencies for marker DXS1263 do not sum to 1.  Allele
+           frequencies will be normalized to 1.
+
+Family structure information on the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       SEX       PARENT1       PARENT2     
+     ------------  ------------  --------  ------------  ------------
+     7             408           F         0             0           
+     7             508           M         0             0           
+     7             208           M         408           508         
+     7             G08           F         408           508         
+     7             I08           M         408           508         
+     7             J08           M         408           508         
+     7             G18           M         0             0           
+     7             A18           F         G08           G18         
+     7             D18           M         G08           G18         
+     7             G28           M         0             0           
+
+
+Markers for the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       D3S1297       D3S1304       D3S1263       DXS1297       DXS1304       DXS1263     
+     ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------
+     7             408           0/0           0/0           0/0           0/0           0/0           0/0         
+     7             508           0/0           0/0           0/0           0/0           0/0           0/0         
+     7             208           227/219       265/265       235/241       219/0         261/0         233/0       
+     7             G08           227/219       265/265       241/233       227/219       261/261       233/233     
+     7             I08           227/219       261/261       245/233       219/0         261/0         233/0       
+     7             J08           227/219       261/265       235/241       219/0         261/0         233/0       
+     7             G18           225/223       0/0           0/0           225/0         0/0           0/0         
+     7             A18           225/219       261/265       245/233       225/219       261/261       233/233     
+     7             D18           227/223       261/265       245/233       227/0         261/0         233/0       
+     7             G28           225/223       0/0           0/0           225/0         0/0           0/0         
+
+%GENIBD-I: Analysis title unspecified.  Will use 'Analysis 1'.
+
+===========================================================================
+Analysis 1 : Singlepoint analysis on regions (CHR3, X):
+        * - Pedigrees with loops will not be processed.
+===========================================================================
+
+Processing Region: CHR3
+=======================================
+
+Processing Pedigree 7..............
+
+%GENIBD-I: The following individual(s) were removed as uninformative before
+           processing pedigree 'Pedigree '7'': (D48, D28).
+
+Processing Region: X
+=======================================
+
+Processing Pedigree 7..............
+
+%GENIBD-I: The following individual(s) were removed as uninformative before
+           processing pedigree 'Pedigree '7'': (D48, D28).
+%GENIBD-I: Mapping function not specified.  Using Haldane Mapping Function.
+%GENIBD-I: Analysis title unspecified.  Will use 'Analysis 2'.
+
+===========================================================================
+Analysis 2 : Multipoint analysis on regions (CHR3, X):
+        * - Maximum size for exact method is set to 18.
+===========================================================================
+
+Processing Region: CHR3
+=======================================
+
+Processing Pedigree 7..............
+
+%GENIBD-I: The following individual(s) were removed as uninformative before
+           processing pedigree 'Pedigree '7'': (D48, D28).
+
+Processing Region: X
+=======================================
+
+Processing Pedigree 7..............
+
+%GENIBD-I: The following individual(s) were removed as uninformative before
+           processing pedigree 'Pedigree '7'': (D48, D28).

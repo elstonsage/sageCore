@@ -1,0 +1,1011 @@
+
+
+
+==============================================================================
+  Haseman-Elston Regression Analysis of Full Sibs
+  - single marker regression
+==============================================================================
+
+    Binary trait : affection, affected = 'A' , unaffected = 'U'
+
+    Dependent variate : Mean-corrected squared trait sum
+
+    w1 : 0.5
+
+    Other options used :
+      Identity weights = no
+      Robust variance  = no
+      Use sibship mean = no
+      Use BLUP mean    = yes
+
+    Legend :
+      Note - kurtosis = coefficient of kurtosis - 3
+      *   - significance  .05 level;
+      **  - significance  .01 level;
+      *** - significance .001 level;
+      #   - Negative intercept set to 0;
+
+==============================================================================
+Test  Independent                                                 Nominal     
+No.   variable          Pairs   Parameter    Estimate Std Error   P-value     
+----- ----------------- ----- ----------- ----------- --------- ---------     
+1     D5G1                 28 (A+D)GenVar     0.0091     0.0484 0.4263206     
+2     D5G2                 28 (A+D)GenVar     0.0084     0.0410 0.4196007     
+3     D5G3                 28 (A+D)GenVar    -0.0071     0.0440 0.5638272     
+4     D5G4                 28 (A+D)GenVar    -0.0109     0.0500 0.5851358     
+5     D5G5                 28 (A+D)GenVar    -0.0312     0.0372 0.7958775     
+6     D5G6                 28 (A+D)GenVar    -0.0050     0.0419 0.5472066     
+7     D5G7                 28 (A+D)GenVar    -0.0445     0.0462 0.8284773     
+8     D5G8                 28 (A+D)GenVar    -0.0001     0.0505 0.5009461     
+9     D5G9                 28 (A+D)GenVar     0.0342 #   0.0385 0.1910808     
+10    D5G10                28 (A+D)GenVar     0.0000     0.0455 0.4998275     
+11    D5G11                28 (A+D)GenVar    -0.0028     0.0442 0.5253352     
+12    D5G12                28 (A+D)GenVar    -0.0057     0.0437 0.5513993     
+13    D5G13                28 (A+D)GenVar     0.0368 #   0.0421 0.1948479     
+14    D5G14                28 (A+D)GenVar     0.0053     0.0415 0.4494727     
+15    D5G15                28 (A+D)GenVar     0.0085     0.0429 0.4225026     
+16    D5G16                28 (A+D)GenVar     0.0038     0.0430 0.4647367     
+17    D5G17                28 (A+D)GenVar     0.0038     0.0366 0.4590882     
+18    D5G18                28 (A+D)GenVar    -0.0560     0.0391 0.9181156     
+19    D5G19                28 (A+D)GenVar    -0.0430     0.0387 0.8622303     
+20    D5G20                28 (A+D)GenVar    -0.0474     0.0329 0.9195686     
+21    D5G21                28 (A+D)GenVar    -0.0393     0.0370 0.8509547     
+22    D5G22                28 (A+D)GenVar    -0.0052     0.0361 0.5562893     
+23    D5G23                28 (A+D)GenVar    -0.0491     0.0472 0.8463763     
+24    D5G24                28 (A+D)GenVar    -0.0093     0.0408 0.5895602     
+25    D5G25                28 (A+D)GenVar    -0.0630     0.0370 0.9498824     
+==============================================================================
+
+
+==============================================================================
+  Haseman-Elston Regression Analysis of Full Sibs
+  - single marker regression
+==============================================================================
+
+    Continuous trait : Q1
+
+    Dependent variate : Mean-corrected squared trait sum
+
+    w1 : 0.5
+
+    Other options used :
+      Identity weights = no
+      Robust variance  = no
+      Use sibship mean = no
+      Use BLUP mean    = yes
+
+    Legend :
+      Note - kurtosis = coefficient of kurtosis - 3
+      *   - significance  .05 level;
+      **  - significance  .01 level;
+      *** - significance .001 level;
+      #   - Negative intercept set to 0;
+
+==============================================================================
+Test  Independent                                                 Nominal     
+No.   variable          Pairs   Parameter    Estimate Std Error   P-value     
+----- ----------------- ----- ----------- ----------- --------- ---------     
+1     D5G1                 28 (A+D)GenVar   -16.2244    45.2104 0.6387562     
+2     D5G2                 28 (A+D)GenVar   -31.6755    34.6866 0.8153877     
+3     D5G3                 28 (A+D)GenVar    45.4840    41.1718 0.1395108     
+4     D5G4                 28 (A+D)GenVar   -54.9869    49.9302 0.8597508     
+5     D5G5                 28 (A+D)GenVar     2.8026    36.9801 0.4700738     
+6     D5G6                 28 (A+D)GenVar   -54.8903    39.1555 0.9138249     
+7     D5G7                 28 (A+D)GenVar   -47.5177    41.1555 0.8708120     
+8     D5G8                 28 (A+D)GenVar   -15.9571    44.6102 0.6383257     
+9     D5G9                 28 (A+D)GenVar   -36.5933    34.8731 0.8483352     
+10    D5G10                28 (A+D)GenVar   -38.4906    38.0186 0.8398366     
+11    D5G11                28 (A+D)GenVar   -36.5021    39.4209 0.8186643     
+12    D5G12                28 (A+D)GenVar   -10.0150    40.3888 0.5969808     
+13    D5G13                28 (A+D)GenVar   -35.9749    36.8216 0.8313798     
+14    D5G14                28 (A+D)GenVar    -1.1392    36.8100 0.5122305     
+15    D5G15                28 (A+D)GenVar    15.7287    37.4840 0.3390448     
+16    D5G16                28 (A+D)GenVar     6.6213    37.7692 0.4310724     
+17    D5G17                28 (A+D)GenVar   -18.3046    32.9679 0.7083445     
+18    D5G18                28 (A+D)GenVar    -6.1447    36.3509 0.5664863     
+19    D5G19                28 (A+D)GenVar   -38.5444    38.3527 0.8380897     
+20    D5G20                28 (A+D)GenVar   -27.7373    33.1757 0.7947739     
+21    D5G21                28 (A+D)GenVar   -58.2034    36.0582 0.9409388     
+22    D5G22                28 (A+D)GenVar   -44.7360    34.6206 0.8963771     
+23    D5G23                28 (A+D)GenVar    -6.3138    49.0899 0.5506927     
+24    D5G24                28 (A+D)GenVar   -59.1619    39.3206 0.9279822     
+25    D5G25                28 (A+D)GenVar   -34.2540    38.0282 0.8121576     
+==============================================================================
+
+
+==============================================================================
+  Haseman-Elston Regression Analysis of Full Sibs
+  - single marker regression
+==============================================================================
+
+    Continuous trait : Q2
+
+    Dependent variate : Mean-corrected squared trait sum
+
+    w1 : 0.5
+
+    Other options used :
+      Identity weights = no
+      Robust variance  = no
+      Use sibship mean = no
+      Use BLUP mean    = yes
+
+    Legend :
+      Note - kurtosis = coefficient of kurtosis - 3
+      *   - significance  .05 level;
+      **  - significance  .01 level;
+      *** - significance .001 level;
+      #   - Negative intercept set to 0;
+
+==============================================================================
+Test  Independent                                                 Nominal     
+No.   variable          Pairs   Parameter    Estimate Std Error   P-value     
+----- ----------------- ----- ----------- ----------- --------- ---------     
+1     D5G1                 28 (A+D)GenVar   -15.0697    24.1538 0.7310367     
+2     D5G2                 28 (A+D)GenVar   -21.2057    20.0149 0.8506191     
+3     D5G3                 28 (A+D)GenVar   -17.8555    21.6023 0.7921330     
+4     D5G4                 28 (A+D)GenVar    -9.1620    25.1640 0.6406877     
+5     D5G5                 28 (A+D)GenVar   -10.6808    18.8637 0.7120362     
+6     D5G6                 28 (A+D)GenVar   -22.0571    20.9269 0.8493896     
+7     D5G7                 28 (A+D)GenVar   -19.4688    22.6331 0.8013705     
+8     D5G8                 28 (A+D)GenVar   -30.0871    24.7140 0.8830098     
+9     D5G9                 28 (A+D)GenVar   -22.4585    19.6864 0.8680168     
+10    D5G10                28 (A+D)GenVar   -25.6770    21.8029 0.8754011     
+11    D5G11                28 (A+D)GenVar   -19.8151    21.3567 0.8191385     
+12    D5G12                28 (A+D)GenVar   -22.1650    24.5410 0.8127913     
+13    D5G13                28 (A+D)GenVar   -19.7538    21.5858 0.8158872     
+14    D5G14                28 (A+D)GenVar   -25.9110    20.9446 0.8866522     
+15    D5G15                28 (A+D)GenVar     1.7723    22.1242 0.4683717     
+16    D5G16                28 (A+D)GenVar    -0.6634    22.2901 0.5117615     
+17    D5G17                28 (A+D)GenVar    -3.4937    17.8995 0.5766450     
+18    D5G18                28 (A+D)GenVar     8.0550    19.9996 0.3451477     
+19    D5G19                28 (A+D)GenVar     4.2847    19.8094 0.4151919     
+20    D5G20                28 (A+D)GenVar     6.9363    17.3541 0.3462633     
+21    D5G21                28 (A+D)GenVar     7.8361    18.9929 0.3415870     
+22    D5G22                28 (A+D)GenVar     6.6144    18.1867 0.3594592     
+23    D5G23                28 (A+D)GenVar   -13.3270    24.3112 0.7059649     
+24    D5G24                28 (A+D)GenVar    10.8161    20.7348 0.3030869     
+25    D5G25                28 (A+D)GenVar    13.7458    19.8092 0.2468331     
+==============================================================================
+
+
+==============================================================================
+  Haseman-Elston Regression Analysis of Full Sibs
+  - single marker regression
+==============================================================================
+
+    Continuous trait : Q3
+
+    Dependent variate : Mean-corrected squared trait sum
+
+    w1 : 0.5
+
+    Other options used :
+      Identity weights = no
+      Robust variance  = no
+      Use sibship mean = no
+      Use BLUP mean    = yes
+
+    Legend :
+      Note - kurtosis = coefficient of kurtosis - 3
+      *   - significance  .05 level;
+      **  - significance  .01 level;
+      *** - significance .001 level;
+      #   - Negative intercept set to 0;
+
+==============================================================================
+Test  Independent                                                 Nominal     
+No.   variable          Pairs   Parameter    Estimate Std Error   P-value     
+----- ----------------- ----- ----------- ----------- --------- ---------     
+1     D5G1                 28 (A+D)GenVar    12.3067   246.1589 0.4802471     
+2     D5G2                 28 (A+D)GenVar   -42.7348   204.2737 0.5820700     
+3     D5G3                 28 (A+D)GenVar   212.3864   219.8765 0.1713249     
+4     D5G4                 28 (A+D)GenVar  -116.6543   253.6767 0.6753487     
+5     D5G5                 28 (A+D)GenVar   172.6338   189.0114 0.1845711     
+6     D5G6                 28 (A+D)GenVar   -16.3891   214.2970 0.5301987     
+7     D5G7                 28 (A+D)GenVar    20.6808   235.9524 0.4654016     
+8     D5G8                 28 (A+D)GenVar    76.1660   252.8963 0.3827942     
+9     D5G9                 28 (A+D)GenVar    30.1438   200.4270 0.4407843     
+10    D5G10                28 (A+D)GenVar    49.3265   227.6414 0.4150413     
+11    D5G11                28 (A+D)GenVar   -26.3253   222.1479 0.5467269     
+12    D5G12                28 (A+D)GenVar   -67.3777   244.6814 0.6074353     
+13    D5G13                28 (A+D)GenVar   -56.7498   217.7676 0.6018101     
+14    D5G14                28 (A+D)GenVar    50.4793   214.4617 0.4078462     
+15    D5G15                28 (A+D)GenVar   167.9046   217.9175 0.2238477     
+16    D5G16                28 (A+D)GenVar   122.7961   219.8720 0.2905565     
+17    D5G17                28 (A+D)GenVar    47.1793   183.7120 0.3996357     
+18    D5G18                28 (A+D)GenVar    93.5742   203.6453 0.3247781     
+19    D5G19                28 (A+D)GenVar   -40.2250   201.7781 0.5782597     
+20    D5G20                28 (A+D)GenVar    26.3404   174.1981 0.4404672     
+21    D5G21                28 (A+D)GenVar    -4.8792   193.0559 0.5099887     
+22    D5G22                28 (A+D)GenVar    23.7977   184.3888 0.4491324     
+23    D5G23                28 (A+D)GenVar  -118.3488   244.2048 0.6840761     
+24    D5G24                28 (A+D)GenVar  -114.0145   207.4819 0.7064157     
+25    D5G25                28 (A+D)GenVar   -29.9462   199.0482 0.5592348     
+==============================================================================
+
+
+==============================================================================
+  Haseman-Elston Regression Analysis of Full Sibs
+  - single marker regression
+==============================================================================
+
+    Continuous trait : Q4
+
+    Dependent variate : Mean-corrected squared trait sum
+
+    w1 : 0.5
+
+    Other options used :
+      Identity weights = no
+      Robust variance  = no
+      Use sibship mean = no
+      Use BLUP mean    = yes
+
+    Legend :
+      Note - kurtosis = coefficient of kurtosis - 3
+      *   - significance  .05 level;
+      **  - significance  .01 level;
+      *** - significance .001 level;
+      #   - Negative intercept set to 0;
+
+==============================================================================
+Test  Independent                                                 Nominal     
+No.   variable          Pairs   Parameter    Estimate Std Error   P-value     
+----- ----------------- ----- ----------- ----------- --------- ---------     
+1     D5G1                 28 (A+D)GenVar    -0.4608     0.2411 0.9666700     
+2     D5G2                 28 (A+D)GenVar    -0.4089     0.2026 0.9731858     
+3     D5G3                 28 (A+D)GenVar    -0.2783     0.2273 0.8843436     
+4     D5G4                 28 (A+D)GenVar    -0.1503     0.2625 0.7141380     
+5     D5G5                 28 (A+D)GenVar    -0.3365     0.1886 0.9571999     
+6     D5G6                 28 (A+D)GenVar    -0.5067     0.1998 0.9913536     
+7     D5G7                 28 (A+D)GenVar    -0.5213     0.2266 0.9853154     
+8     D5G8                 28 (A+D)GenVar    -0.5460     0.2454 0.9826903     
+9     D5G9                 28 (A+D)GenVar    -0.4340     0.1932 0.9834723     
+10    D5G10                28 (A+D)GenVar    -0.8228     0.1794 0.9999536     
+11    D5G11                28 (A+D)GenVar    -0.3835     0.2222 0.9520760     
+12    D5G12                28 (A+D)GenVar    -0.3165     0.2555 0.8869681     
+13    D5G13                28 (A+D)GenVar    -0.3450     0.2207 0.9351806     
+14    D5G14                28 (A+D)GenVar    -0.3843     0.2166 0.9563546     
+15    D5G15                28 (A+D)GenVar    -0.4032     0.2252 0.9577168     
+16    D5G16                28 (A+D)GenVar    -0.3618     0.2280 0.9378703     
+17    D5G17                28 (A+D)GenVar    -0.3679     0.1803 0.9744289     
+18    D5G18                28 (A+D)GenVar    -0.3601     0.2037 0.9558140     
+19    D5G19                28 (A+D)GenVar    -0.3561     0.1989 0.9576785     
+20    D5G20                28 (A+D)GenVar    -0.1753     0.1776 0.8338942     
+21    D5G21                28 (A+D)GenVar    -0.1934     0.1967 0.8328854     
+22    D5G22                28 (A+D)GenVar    -0.1045     0.1906 0.7059989     
+23    D5G23                28 (A+D)GenVar    -0.1800     0.2512 0.7601461     
+24    D5G24                28 (A+D)GenVar    -0.0043     0.2166 0.5077603     
+25    D5G25                28 (A+D)GenVar    -0.0643     0.2057 0.6215108     
+==============================================================================
+
+
+==============================================================================
+  Haseman-Elston Regression Analysis of Full Sibs
+  - single marker regression
+==============================================================================
+
+    Continuous trait : Q5
+
+    Dependent variate : Mean-corrected squared trait sum
+
+    w1 : 0.5
+
+    Other options used :
+      Identity weights = no
+      Robust variance  = no
+      Use sibship mean = no
+      Use BLUP mean    = yes
+
+    Legend :
+      Note - kurtosis = coefficient of kurtosis - 3
+      *   - significance  .05 level;
+      **  - significance  .01 level;
+      *** - significance .001 level;
+      #   - Negative intercept set to 0;
+
+==============================================================================
+Test  Independent                                                 Nominal     
+No.   variable          Pairs   Parameter    Estimate Std Error   P-value     
+----- ----------------- ----- ----------- ----------- --------- ---------     
+1     D5G1                 28 (A+D)GenVar   -27.1662    15.1534 0.9578879     
+2     D5G2                 28 (A+D)GenVar   -11.0054    13.2861 0.7926293     
+3     D5G3                 28 (A+D)GenVar    -7.6293    14.3593 0.7002281     
+4     D5G4                 28 (A+D)GenVar   -14.9729    16.0989 0.8197074     
+5     D5G5                 28 (A+D)GenVar   -12.1318    12.1093 0.8373469     
+6     D5G6                 28 (A+D)GenVar   -10.3090    13.6424 0.7718027     
+7     D5G7                 28 (A+D)GenVar    -5.6913    15.3531 0.6431214     
+8     D5G8                 28 (A+D)GenVar   -14.4503    16.2908 0.8085503     
+9     D5G9                 28 (A+D)GenVar     1.0695    13.0305 0.4675944     
+10    D5G10                28 (A+D)GenVar   -14.2083    14.6202 0.8301175     
+11    D5G11                28 (A+D)GenVar    -7.7955    14.4079 0.7035469     
+12    D5G12                28 (A+D)GenVar    -1.8775    16.2329 0.5456116     
+13    D5G13                28 (A+D)GenVar     4.0431    14.2370 0.3892926     
+14    D5G14                28 (A+D)GenVar     0.1415    14.1652 0.4960506     
+15    D5G15                28 (A+D)GenVar   -20.4698    14.1841 0.9197604     
+16    D5G16                28 (A+D)GenVar   -11.8560    14.5648 0.7886217     
+17    D5G17                28 (A+D)GenVar   -17.0241    11.4253 0.9260971     
+18    D5G18                28 (A+D)GenVar   -19.1545    12.7546 0.9276185     
+19    D5G19                28 (A+D)GenVar   -21.3087    12.4331 0.9509937     
+20    D5G20                28 (A+D)GenVar   -18.2134    10.8898 0.9470143     
+21    D5G21                28 (A+D)GenVar   -11.6570    12.2767 0.8246104     
+22    D5G22                28 (A+D)GenVar   -15.0695    11.6256 0.8970666     
+23    D5G23                28 (A+D)GenVar   -24.6725    15.2091 0.9418111     
+24    D5G24                28 (A+D)GenVar    -4.1742    13.3541 0.6214991     
+25    D5G25                28 (A+D)GenVar   -11.3190    12.6863 0.8099218     
+==============================================================================
+
+
+==============================================================================
+  Haseman-Elston Regression Analysis of Full Sibs
+  - single marker regression
+==============================================================================
+
+    Binary trait : affection, affected = 'A' , unaffected = 'U'
+
+    Dependent variate : Squared trait difference
+
+    w1 : 0.5
+
+    Other options used :
+      Identity weights = no
+      Robust variance  = no
+      Use sibship mean = no
+      Use BLUP mean    = yes
+
+    Legend :
+      Note - kurtosis = coefficient of kurtosis - 3
+      *   - significance  .05 level;
+      **  - significance  .01 level;
+      *** - significance .001 level;
+      #   - Negative intercept set to 0;
+
+==============================================================================
+Test  Independent                                                 Nominal     
+No.   variable          Pairs   Parameter    Estimate Std Error   P-value     
+----- ----------------- ----- ----------- ----------- --------- ---------     
+1     D5G1                 28 (A+D)GenVar    -0.0127 #   0.0713 0.5701046     
+2     D5G2                 28 (A+D)GenVar    -0.0127 #   0.0603 0.5828910     
+3     D5G3                 28 (A+D)GenVar     0.0107 #   0.0646 0.4350192     
+4     D5G4                 28 (A+D)GenVar     0.0163 #   0.0736 0.4131334     
+5     D5G5                 28 (A+D)GenVar     0.0468 #   0.0547 0.1995131     
+6     D5G6                 28 (A+D)GenVar     0.0076 #   0.0618 0.4515587     
+7     D5G7                 28 (A+D)GenVar     0.0667 #   0.0678 0.1671104     
+8     D5G8                 28 (A+D)GenVar     0.0000 #   0.0741 0.5000000     
+9     D5G9                 28 (A+D)GenVar    -0.0512     0.0587 0.8046652     
+10    D5G10                28 (A+D)GenVar     0.0000 #   0.0668 0.5000000     
+11    D5G11                28 (A+D)GenVar     0.0042 #   0.0650 0.4743414     
+12    D5G12                28 (A+D)GenVar     0.0056 #   0.0644 0.4659736     
+13    D5G13                28 (A+D)GenVar    -0.0552     0.0642 0.8009718     
+14    D5G14                28 (A+D)GenVar    -0.0079 #   0.0612 0.5508677     
+15    D5G15                28 (A+D)GenVar    -0.0126 #   0.0632 0.5780825     
+16    D5G16                28 (A+D)GenVar    -0.0059 #   0.0636 0.5366080     
+17    D5G17                28 (A+D)GenVar    -0.0058 #   0.0537 0.5424235     
+18    D5G18                28 (A+D)GenVar     0.0837 #   0.0575 0.0783823     
+19    D5G19                28 (A+D)GenVar     0.0646 #   0.0569 0.1331353     
+20    D5G20                28 (A+D)GenVar     0.0711 #   0.0483 0.0762895     
+21    D5G21                28 (A+D)GenVar     0.0589 #   0.0545 0.1443593     
+22    D5G22                28 (A+D)GenVar     0.0080 #   0.0531 0.4408437     
+23    D5G23                28 (A+D)GenVar     0.0736 #   0.0695 0.1491753     
+24    D5G24                28 (A+D)GenVar     0.0142 #   0.0602 0.4075198     
+25    D5G25                28 (A+D)GenVar     0.0947 #   0.0544 0.0465754 *   
+==============================================================================
+
+
+==============================================================================
+  Haseman-Elston Regression Analysis of Full Sibs
+  - single marker regression
+==============================================================================
+
+    Continuous trait : Q1
+
+    Dependent variate : Squared trait difference
+
+    w1 : 0.5
+
+    Other options used :
+      Identity weights = no
+      Robust variance  = no
+      Use sibship mean = no
+      Use BLUP mean    = yes
+
+    Legend :
+      Note - kurtosis = coefficient of kurtosis - 3
+      *   - significance  .05 level;
+      **  - significance  .01 level;
+      *** - significance .001 level;
+      #   - Negative intercept set to 0;
+
+==============================================================================
+Test  Independent                                                 Nominal     
+No.   variable          Pairs   Parameter    Estimate Std Error   P-value     
+----- ----------------- ----- ----------- ----------- --------- ---------     
+1     D5G1                 28 (A+D)GenVar    25.4130 #  60.0976 0.3378724     
+2     D5G2                 28 (A+D)GenVar    34.6644 #  49.1740 0.2434445     
+3     D5G3                 28 (A+D)GenVar    25.5450 #  55.0731 0.3232410     
+4     D5G4                 28 (A+D)GenVar   -55.7056 #  63.6819 0.8052869     
+5     D5G5                 28 (A+D)GenVar    56.5250 #  46.3430 0.1165614     
+6     D5G6                 28 (A+D)GenVar    13.7201 #  53.4326 0.3996496     
+7     D5G7                 28 (A+D)GenVar     2.2783 #  57.4835 0.4843383     
+8     D5G8                 28 (A+D)GenVar    28.9224 #  60.8191 0.3191106     
+9     D5G9                 28 (A+D)GenVar     3.8618 #  48.9388 0.4688431     
+10    D5G10                28 (A+D)GenVar    16.3603 #  54.6301 0.3834355     
+11    D5G11                28 (A+D)GenVar   -23.5215 #  53.6542 0.6677043     
+12    D5G12                28 (A+D)GenVar   -19.8094 #  56.9454 0.6346811     
+13    D5G13                28 (A+D)GenVar   -50.0230 #  51.6499 0.8293045     
+14    D5G14                28 (A+D)GenVar   -42.6737 #  50.2021 0.7986108     
+15    D5G15                28 (A+D)GenVar   -34.2496 #  53.4186 0.7365863     
+16    D5G16                28 (A+D)GenVar   -23.4091 #  53.3202 0.6679329     
+17    D5G17                28 (A+D)GenVar     6.2074 #  44.8223 0.4454412     
+18    D5G18                28 (A+D)GenVar     9.9429 #  49.4855 0.4211311     
+19    D5G19                28 (A+D)GenVar    54.0615 #  49.7422 0.1433591     
+20    D5G20                28 (A+D)GenVar    60.8993 #  42.2915 0.0806827     
+21    D5G21                28 (A+D)GenVar    71.5146 #  46.7023 0.0686662     
+22    D5G22                28 (A+D)GenVar    42.9772 #  45.6488 0.1774045     
+23    D5G23                28 (A+D)GenVar    -3.8120 #  62.1575 0.5242254     
+24    D5G24                28 (A+D)GenVar    30.4921 #  52.3304 0.2824707     
+25    D5G25                28 (A+D)GenVar    99.6550 #  46.4569 0.0205484 *   
+==============================================================================
+
+
+==============================================================================
+  Haseman-Elston Regression Analysis of Full Sibs
+  - single marker regression
+==============================================================================
+
+    Continuous trait : Q2
+
+    Dependent variate : Squared trait difference
+
+    w1 : 0.5
+
+    Other options used :
+      Identity weights = no
+      Robust variance  = no
+      Use sibship mean = no
+      Use BLUP mean    = yes
+
+    Legend :
+      Note - kurtosis = coefficient of kurtosis - 3
+      *   - significance  .05 level;
+      **  - significance  .01 level;
+      *** - significance .001 level;
+      #   - Negative intercept set to 0;
+
+==============================================================================
+Test  Independent                                                 Nominal     
+No.   variable          Pairs   Parameter    Estimate Std Error   P-value     
+----- ----------------- ----- ----------- ----------- --------- ---------     
+1     D5G1                 28 (A+D)GenVar   -42.2430 #  30.7221 0.9097829     
+2     D5G2                 28 (A+D)GenVar   -26.7602 #  26.3951 0.8401686     
+3     D5G3                 28 (A+D)GenVar    38.8069 #  27.6542 0.0859633     
+4     D5G4                 28 (A+D)GenVar    -7.5402 #  32.5652 0.5906797     
+5     D5G5                 28 (A+D)GenVar    16.2037 #  24.4623 0.2566670     
+6     D5G6                 28 (A+D)GenVar     6.9927 #  27.5065 0.4006258     
+7     D5G7                 28 (A+D)GenVar    -6.8673 #  30.7323 0.5875683     
+8     D5G8                 28 (A+D)GenVar    -0.5729 #  33.0421 0.5068534     
+9     D5G9                 28 (A+D)GenVar     6.4751 #  26.0120 0.4026507     
+10    D5G10                28 (A+D)GenVar   -19.5849 #  29.5444 0.7434915     
+11    D5G11                28 (A+D)GenVar    -2.5316 #  28.9514 0.5345182     
+12    D5G12                28 (A+D)GenVar   -15.5168 #  32.3084 0.6825487     
+13    D5G13                28 (A+D)GenVar   -13.2455 #  28.3791 0.6777827     
+14    D5G14                28 (A+D)GenVar     5.2404 #  28.2881 0.4272083     
+15    D5G15                28 (A+D)GenVar    15.6597 #  29.3024 0.2987127     
+16    D5G16                28 (A+D)GenVar    33.5098 #  28.7588 0.1270647     
+17    D5G17                28 (A+D)GenVar     8.4048 #  23.9098 0.3639631     
+18    D5G18                28 (A+D)GenVar   -12.5532 #  26.4940 0.6802785     
+19    D5G19                28 (A+D)GenVar    14.4155 #  25.7167 0.2898631     
+20    D5G20                28 (A+D)GenVar     4.1491 #  22.3088 0.4269234     
+21    D5G21                28 (A+D)GenVar    25.5350 #  24.2333 0.1506762     
+22    D5G22                28 (A+D)GenVar    26.3917 #  23.1071 0.1317107     
+23    D5G23                28 (A+D)GenVar   -49.4603 #  29.8236 0.9455969     
+24    D5G24                28 (A+D)GenVar    19.8785 #  26.4601 0.2294958     
+25    D5G25                28 (A+D)GenVar    -0.9645 #  25.4404 0.5149822     
+==============================================================================
+
+
+==============================================================================
+  Haseman-Elston Regression Analysis of Full Sibs
+  - single marker regression
+==============================================================================
+
+    Continuous trait : Q3
+
+    Dependent variate : Squared trait difference
+
+    w1 : 0.5
+
+    Other options used :
+      Identity weights = no
+      Robust variance  = no
+      Use sibship mean = no
+      Use BLUP mean    = yes
+
+    Legend :
+      Note - kurtosis = coefficient of kurtosis - 3
+      *   - significance  .05 level;
+      **  - significance  .01 level;
+      *** - significance .001 level;
+      #   - Negative intercept set to 0;
+
+==============================================================================
+Test  Independent                                                 Nominal     
+No.   variable          Pairs   Parameter    Estimate Std Error   P-value     
+----- ----------------- ----- ----------- ----------- --------- ---------     
+1     D5G1                 28 (A+D)GenVar  -250.1755 # 280.0522 0.8102095     
+2     D5G2                 28 (A+D)GenVar  -224.4762 # 230.7039 0.8304062     
+3     D5G3                 28 (A+D)GenVar   203.6693 # 254.7034 0.2154512     
+4     D5G4                 28 (A+D)GenVar  -259.9199 # 292.1994 0.8092119     
+5     D5G5                 28 (A+D)GenVar    76.2145 # 222.0485 0.3670405     
+6     D5G6                 28 (A+D)GenVar  -116.4527 # 246.8378 0.6795622     
+7     D5G7                 28 (A+D)GenVar   -52.4770 # 269.6602 0.5764201     
+8     D5G8                 28 (A+D)GenVar    82.3994 # 287.8959 0.3884499     
+9     D5G9                 28 (A+D)GenVar   -17.3774 # 229.6542 0.5298793     
+10    D5G10                28 (A+D)GenVar  -108.4965 # 259.0737 0.6606573     
+11    D5G11                28 (A+D)GenVar   -64.7825 # 253.7633 0.5997819     
+12    D5G12                28 (A+D)GenVar    68.0442 # 276.3567 0.4036875     
+13    D5G13                28 (A+D)GenVar  -192.4888 # 245.5284 0.7800614     
+14    D5G14                28 (A+D)GenVar  -103.4467 # 241.9212 0.6638349     
+15    D5G15                28 (A+D)GenVar   166.7158 # 247.0037 0.2527224     
+16    D5G16                28 (A+D)GenVar   220.0568 # 247.4929 0.1908897     
+17    D5G17                28 (A+D)GenVar    74.6246 # 209.8822 0.3624684     
+18    D5G18                28 (A+D)GenVar   168.4505 # 230.1596 0.2352719     
+19    D5G19                28 (A+D)GenVar   349.9875 # 223.8883 0.0648231     
+20    D5G20                28 (A+D)GenVar   296.2097 # 193.3517 0.0685816     
+21    D5G21                28 (A+D)GenVar   346.2930 # 213.0884 0.0578780     
+22    D5G22                28 (A+D)GenVar   234.7116 # 208.3291 0.1349047     
+23    D5G23                28 (A+D)GenVar     3.1468 # 284.9206 0.4956346     
+24    D5G24                28 (A+D)GenVar   283.6858 # 236.0922 0.1199784     
+25    D5G25                28 (A+D)GenVar   355.8325 # 220.6392 0.0592155     
+==============================================================================
+
+
+==============================================================================
+  Haseman-Elston Regression Analysis of Full Sibs
+  - single marker regression
+==============================================================================
+
+    Continuous trait : Q4
+
+    Dependent variate : Squared trait difference
+
+    w1 : 0.5
+
+    Other options used :
+      Identity weights = no
+      Robust variance  = no
+      Use sibship mean = no
+      Use BLUP mean    = yes
+
+    Legend :
+      Note - kurtosis = coefficient of kurtosis - 3
+      *   - significance  .05 level;
+      **  - significance  .01 level;
+      *** - significance .001 level;
+      #   - Negative intercept set to 0;
+
+==============================================================================
+Test  Independent                                                 Nominal     
+No.   variable          Pairs   Parameter    Estimate Std Error   P-value     
+----- ----------------- ----- ----------- ----------- --------- ---------     
+1     D5G1                 28 (A+D)GenVar     0.2981 #   0.4538 0.2583836     
+2     D5G2                 28 (A+D)GenVar     0.1329 #   0.3803 0.3647354     
+3     D5G3                 28 (A+D)GenVar     0.6362 #   0.3970 0.0603358     
+4     D5G4                 28 (A+D)GenVar     0.6397 #   0.4593 0.0874993     
+5     D5G5                 28 (A+D)GenVar     0.4979 #   0.3427 0.0789018     
+6     D5G6                 28 (A+D)GenVar     0.0081 #   0.3978 0.4919489     
+7     D5G7                 28 (A+D)GenVar     0.4370 #   0.4317 0.1601872     
+8     D5G8                 28 (A+D)GenVar     0.3932 #   0.4650 0.2026085     
+9     D5G9                 28 (A+D)GenVar    -0.2450 #   0.3678 0.7444667     
+10    D5G10                28 (A+D)GenVar     0.0402 #   0.4226 0.4624560     
+11    D5G11                28 (A+D)GenVar     0.4574 #   0.4015 0.1323597     
+12    D5G12                28 (A+D)GenVar     0.0440 #   0.4528 0.4616684     
+13    D5G13                28 (A+D)GenVar    -0.3398 #   0.3955 0.8010915     
+14    D5G14                28 (A+D)GenVar    -0.0071 #   0.3972 0.5071081     
+15    D5G15                28 (A+D)GenVar     0.2390 #   0.4121 0.2833395     
+16    D5G16                28 (A+D)GenVar     0.0569 #   0.4124 0.4456034     
+17    D5G17                28 (A+D)GenVar     0.0721 #   0.3410 0.4170418     
+18    D5G18                28 (A+D)GenVar     0.2634 #   0.3775 0.2456273     
+19    D5G19                28 (A+D)GenVar     0.3729 #   0.3698 0.1610853     
+20    D5G20                28 (A+D)GenVar     0.3564 #   0.3170 0.1353519     
+21    D5G21                28 (A+D)GenVar    -0.0312 #   0.3583 0.5344033     
+22    D5G22                28 (A+D)GenVar     0.1384 #   0.3417 0.3443592     
+23    D5G23                28 (A+D)GenVar     1.0099 #   0.4132 0.0106662 *   
+24    D5G24                28 (A+D)GenVar    -0.1996 #   0.3855 0.6955795     
+25    D5G25                28 (A+D)GenVar    -0.0051 #   0.3700 0.5054826     
+==============================================================================
+
+
+==============================================================================
+  Haseman-Elston Regression Analysis of Full Sibs
+  - single marker regression
+==============================================================================
+
+    Continuous trait : Q5
+
+    Dependent variate : Squared trait difference
+
+    w1 : 0.5
+
+    Other options used :
+      Identity weights = no
+      Robust variance  = no
+      Use sibship mean = no
+      Use BLUP mean    = yes
+
+    Legend :
+      Note - kurtosis = coefficient of kurtosis - 3
+      *   - significance  .05 level;
+      **  - significance  .01 level;
+      *** - significance .001 level;
+      #   - Negative intercept set to 0;
+
+==============================================================================
+Test  Independent                                                 Nominal     
+No.   variable          Pairs   Parameter    Estimate Std Error   P-value     
+----- ----------------- ----- ----------- ----------- --------- ---------     
+1     D5G1                 28 (A+D)GenVar    -2.1971 #  23.0938 0.5375463     
+2     D5G2                 28 (A+D)GenVar     9.6926 #  18.8644 0.3057854     
+3     D5G3                 28 (A+D)GenVar   -26.3242 #  20.4477 0.8955575     
+4     D5G4                 28 (A+D)GenVar    -0.2142 #  24.3822 0.5034718     
+5     D5G5                 28 (A+D)GenVar    -8.3108 #  18.1674 0.6744996     
+6     D5G6                 28 (A+D)GenVar     4.6386 #  20.2979 0.4104794     
+7     D5G7                 28 (A+D)GenVar    31.5048 #  21.1930 0.0743569     
+8     D5G8                 28 (A+D)GenVar   -32.3420 #  22.5872 0.9181723     
+9     D5G9                 28 (A+D)GenVar    -3.9030 #  18.7575 0.5816346     
+10    D5G10                28 (A+D)GenVar    22.9259 #  20.7892 0.1399275     
+11    D5G11                28 (A+D)GenVar     0.6928 #  20.7050 0.4867767     
+12    D5G12                28 (A+D)GenVar   -15.1559 #  22.3538 0.7482300     
+13    D5G13                28 (A+D)GenVar     1.5140 #  20.1713 0.4703616     
+14    D5G14                28 (A+D)GenVar   -20.5117 #  19.6899 0.8466139     
+15    D5G15                28 (A+D)GenVar   -13.2492 #  19.8872 0.7445376     
+16    D5G16                28 (A+D)GenVar   -24.2559 #  20.0912 0.8811041     
+17    D5G17                28 (A+D)GenVar   -11.7110 #  17.0445 0.7510556     
+18    D5G18                28 (A+D)GenVar    -2.3384 #  19.0605 0.5483675     
+19    D5G19                28 (A+D)GenVar    -0.2730 #  19.1823 0.5056257     
+20    D5G20                28 (A+D)GenVar     5.3603 #  16.5087 0.3739573     
+21    D5G21                28 (A+D)GenVar     9.4776 #  18.2276 0.3036660     
+22    D5G22                28 (A+D)GenVar    -2.8202 #  17.4671 0.5635316     
+23    D5G23                28 (A+D)GenVar     8.8137 #  23.3681 0.3544982     
+24    D5G24                28 (A+D)GenVar     1.3825 #  19.8915 0.4725503     
+25    D5G25                28 (A+D)GenVar    16.6823 #  18.6825 0.1898909     
+==============================================================================
+
+
+==============================================================================
+  Haseman-Elston Regression Analysis of Full Sibs
+  - single marker regression
+==============================================================================
+
+    Binary trait : affection, affected = 'A' , unaffected = 'U'
+
+    Dependent variate : Weighted square trait sum and difference (W4)
+
+    w1 : 0.5
+
+    Other options used :
+      Identity weights = no
+      Robust variance  = no
+      Use sibship mean = no
+      Use BLUP mean    = yes
+
+    Legend :
+      Note - kurtosis = coefficient of kurtosis - 3
+      *   - significance  .05 level;
+      **  - significance  .01 level;
+      *** - significance .001 level;
+      #   - Negative intercept set to 0;
+
+==============================================================================
+Test  Independent                                                 Nominal     
+No.   variable          Pairs   Parameter    Estimate Std Error   P-value     
+----- ----------------- ----- ----------- ----------- --------- ---------     
+1     D5G1                 28 (A+D)GenVar     0.0019     0.0094 0.4198278     
+2     D5G2                 28 (A+D)GenVar     0.0020     0.0090 0.4134176     
+3     D5G3                 28 (A+D)GenVar    -0.0007     0.0062 0.5468446     
+4     D5G4                 28 (A+D)GenVar    -0.0007     0.0059 0.5480590     
+5     D5G5                 28 (A+D)GenVar    -0.0029     0.0055 0.6984557     
+6     D5G6                 28 (A+D)GenVar    -0.0006     0.0065 0.5367711     
+7     D5G7                 28 (A+D)GenVar    -0.0082     0.0095 0.8029832     
+8     D5G8                 28 (A+D)GenVar    -0.0001     0.0116 0.5028499     
+9     D5G9                 28 (A+D)GenVar     0.0075 #   0.0088 0.2014249     
+10    D5G10                28 (A+D)GenVar     0.0000 #   0.0106 0.4994900     
+11    D5G11                28 (A+D)GenVar    -0.0007     0.0092 0.5289892     
+12    D5G12                28 (A+D)GenVar    -0.0010     0.0087 0.5459751     
+13    D5G13                28 (A+D)GenVar     0.0081 #   0.0097 0.2044158     
+14    D5G14                28 (A+D)GenVar     0.0011     0.0080 0.4445848     
+15    D5G15                28 (A+D)GenVar     0.0015     0.0083 0.4269639     
+16    D5G16                28 (A+D)GenVar     0.0008     0.0080 0.4619239     
+17    D5G17                28 (A+D)GenVar     0.0008     0.0074 0.4578285     
+18    D5G18                28 (A+D)GenVar    -0.0103     0.0082 0.8896609     
+19    D5G19                28 (A+D)GenVar    -0.0075     0.0077 0.8308893     
+20    D5G20                28 (A+D)GenVar    -0.0085     0.0068 0.8898795     
+21    D5G21                28 (A+D)GenVar    -0.0070     0.0075 0.8224262     
+22    D5G22                28 (A+D)GenVar    -0.0010     0.0075 0.5506195     
+23    D5G23                28 (A+D)GenVar    -0.0024     0.0051 0.6771712     
+24    D5G24                28 (A+D)GenVar    -0.0019     0.0087 0.5857890     
+25    D5G25                28 (A+D)GenVar    -0.0123     0.0079 0.9341406     
+==============================================================================
+
+
+==============================================================================
+  Haseman-Elston Regression Analysis of Full Sibs
+  - single marker regression
+==============================================================================
+
+    Continuous trait : Q1
+
+    Dependent variate : Weighted square trait sum and difference (W4)
+
+    w1 : 0.5
+
+    Other options used :
+      Identity weights = no
+      Robust variance  = no
+      Use sibship mean = no
+      Use BLUP mean    = yes
+
+    Legend :
+      Note - kurtosis = coefficient of kurtosis - 3
+      *   - significance  .05 level;
+      **  - significance  .01 level;
+      *** - significance .001 level;
+      #   - Negative intercept set to 0;
+
+==============================================================================
+Test  Independent                                                 Nominal     
+No.   variable          Pairs   Parameter    Estimate Std Error   P-value     
+----- ----------------- ----- ----------- ----------- --------- ---------     
+1     D5G1                 28 (A+D)GenVar     0.2816 #  38.3835 0.4971000     
+2     D5G2                 28 (A+D)GenVar    -9.5711 #  30.4424 0.6221827     
+3     D5G3                 28 (A+D)GenVar    37.8911 #  34.7988 0.1429187     
+4     D5G4                 28 (A+D)GenVar   -55.8164    39.9526 0.9131143     
+5     D5G5                 28 (A+D)GenVar    23.8449 #  30.4996 0.2205643     
+6     D5G6                 28 (A+D)GenVar   -32.0580    32.8821 0.8308768     
+7     D5G7                 28 (A+D)GenVar   -31.9874    34.5578 0.8185785     
+8     D5G8                 28 (A+D)GenVar     0.2212 #  38.2207 0.4977122     
+9     D5G9                 28 (A+D)GenVar   -23.0711    29.3802 0.7804310     
+10    D5G10                28 (A+D)GenVar   -21.1469    32.4366 0.7400257     
+11    D5G11                28 (A+D)GenVar   -32.7763    32.6557 0.8377808     
+12    D5G12                28 (A+D)GenVar   -14.5005 #  34.8128 0.6598420     
+13    D5G13                28 (A+D)GenVar   -41.1444    30.4698 0.9059400     
+14    D5G14                28 (A+D)GenVar   -15.1305 #  31.4050 0.6830807     
+15    D5G15                28 (A+D)GenVar    -0.4135 #  32.5831 0.5050161     
+16    D5G16                28 (A+D)GenVar    -3.4164 #  32.6394 0.5412949     
+17    D5G17                28 (A+D)GenVar    -9.5190 #  28.1967 0.6308589     
+18    D5G18                28 (A+D)GenVar     0.2576 #  31.0497 0.4967203     
+19    D5G19                28 (A+D)GenVar    -5.0867 #  32.4794 0.5616430     
+20    D5G20                28 (A+D)GenVar     4.9865 #  27.9447 0.4298535     
+21    D5G21                28 (A+D)GenVar   -11.4583 #  31.1362 0.6421309     
+22    D5G22                28 (A+D)GenVar   -13.5636 #  29.6403 0.6745515     
+23    D5G23                28 (A+D)GenVar    -5.1823 #  40.7931 0.5500748     
+24    D5G24                28 (A+D)GenVar   -27.9610    32.6092 0.8006296     
+25    D5G25                28 (A+D)GenVar    17.0358 #  31.6576 0.2974489     
+==============================================================================
+
+
+==============================================================================
+  Haseman-Elston Regression Analysis of Full Sibs
+  - single marker regression
+==============================================================================
+
+    Continuous trait : Q2
+
+    Dependent variate : Weighted square trait sum and difference (W4)
+
+    w1 : 0.5
+
+    Other options used :
+      Identity weights = no
+      Robust variance  = no
+      Use sibship mean = no
+      Use BLUP mean    = yes
+
+    Legend :
+      Note - kurtosis = coefficient of kurtosis - 3
+      *   - significance  .05 level;
+      **  - significance  .01 level;
+      *** - significance .001 level;
+      #   - Negative intercept set to 0;
+
+==============================================================================
+Test  Independent                                                 Nominal     
+No.   variable          Pairs   Parameter    Estimate Std Error   P-value     
+----- ----------------- ----- ----------- ----------- --------- ---------     
+1     D5G1                 28 (A+D)GenVar   -28.3034    21.5708 0.8997359     
+2     D5G2                 28 (A+D)GenVar   -22.8780 #  18.8009 0.8829056     
+3     D5G3                 28 (A+D)GenVar     9.7570 #  19.2813 0.3084689     
+4     D5G4                 28 (A+D)GenVar   -10.8975 #  22.3630 0.6850116     
+5     D5G5                 28 (A+D)GenVar     0.4861 #  17.1221 0.4887791     
+6     D5G6                 28 (A+D)GenVar   -12.0886 #  19.2606 0.7322408     
+7     D5G7                 28 (A+D)GenVar   -15.5027 #  21.0077 0.7665460     
+8     D5G8                 28 (A+D)GenVar   -17.8038 #  23.8901 0.7687173     
+9     D5G9                 28 (A+D)GenVar   -10.5667 #  18.6381 0.7122816     
+10    D5G10                28 (A+D)GenVar   -21.5181 #  20.4744 0.8487065     
+11    D5G11                28 (A+D)GenVar   -13.9896 #  19.9649 0.7552603     
+12    D5G12                28 (A+D)GenVar   -13.3663 #  24.2370 0.7070813     
+13    D5G13                28 (A+D)GenVar   -16.3999 #  20.3021 0.7868654     
+14    D5G14                28 (A+D)GenVar   -13.0382 #  20.6417 0.7335349     
+15    D5G15                28 (A+D)GenVar     2.0643 #  21.5023 0.4621136     
+16    D5G16                28 (A+D)GenVar     7.9656 #  21.5998 0.3575833     
+17    D5G17                28 (A+D)GenVar    -4.2502 #  16.5013 0.6006537     
+18    D5G18                28 (A+D)GenVar    -5.8850 #  18.2405 0.6252710     
+19    D5G19                28 (A+D)GenVar     0.7388 #  17.7711 0.4835717     
+20    D5G20                28 (A+D)GenVar    -0.7272 #  15.6779 0.5183260     
+21    D5G21                28 (A+D)GenVar     7.3466 #  17.0861 0.3353129     
+22    D5G22                28 (A+D)GenVar     7.2017 #  16.4360 0.3323759     
+23    D5G23                28 (A+D)GenVar   -26.8256    21.2716 0.8909691     
+24    D5G24                28 (A+D)GenVar     6.2747 #  18.6003 0.3692331     
+25    D5G25                28 (A+D)GenVar     0.4161 #  17.8431 0.4907827     
+==============================================================================
+
+
+==============================================================================
+  Haseman-Elston Regression Analysis of Full Sibs
+  - single marker regression
+==============================================================================
+
+    Continuous trait : Q3
+
+    Dependent variate : Weighted square trait sum and difference (W4)
+
+    w1 : 0.5
+
+    Other options used :
+      Identity weights = no
+      Robust variance  = no
+      Use sibship mean = no
+      Use BLUP mean    = yes
+
+    Legend :
+      Note - kurtosis = coefficient of kurtosis - 3
+      *   - significance  .05 level;
+      **  - significance  .01 level;
+      *** - significance .001 level;
+      #   - Negative intercept set to 0;
+
+==============================================================================
+Test  Independent                                                 Nominal     
+No.   variable          Pairs   Parameter    Estimate Std Error   P-value     
+----- ----------------- ----- ----------- ----------- --------- ---------     
+1     D5G1                 28 (A+D)GenVar  -118.2590   202.8157 0.7176629     
+2     D5G2                 28 (A+D)GenVar  -125.8021   171.2573 0.7655360     
+3     D5G3                 28 (A+D)GenVar   246.5343 # 176.9796 0.0874906     
+4     D5G4                 28 (A+D)GenVar  -186.1235   208.5355 0.8100015     
+5     D5G5                 28 (A+D)GenVar   150.2030 # 155.2119 0.1708845     
+6     D5G6                 28 (A+D)GenVar   -66.4619   178.5143 0.6437141     
+7     D5G7                 28 (A+D)GenVar    -6.6102   197.8466 0.5132034     
+8     D5G8                 28 (A+D)GenVar    96.9629 # 210.6002 0.3244535     
+9     D5G9                 28 (A+D)GenVar     8.2434   169.5344 0.4807885     
+10    D5G10                28 (A+D)GenVar   -19.1543   191.9482 0.5393754     
+11    D5G11                28 (A+D)GenVar   -38.7679   186.5518 0.5815327     
+12    D5G12                28 (A+D)GenVar    -1.4387   210.9256 0.5026960     
+13    D5G13                28 (A+D)GenVar  -120.2929   183.7866 0.7408445     
+14    D5G14                28 (A+D)GenVar    -0.3930   183.3240 0.5008472     
+15    D5G15                28 (A+D)GenVar   148.3109 # 183.3273 0.2127947     
+16    D5G16                28 (A+D)GenVar   146.0018 # 184.0302 0.2172431     
+17    D5G17                28 (A+D)GenVar    34.1920 # 151.8666 0.4117808     
+18    D5G18                28 (A+D)GenVar    95.6107 # 169.8238 0.2890406     
+19    D5G19                28 (A+D)GenVar   103.2096 # 164.1388 0.2673836     
+20    D5G20                28 (A+D)GenVar   123.4548 # 141.9135 0.1960034     
+21    D5G21                28 (A+D)GenVar   124.4114 # 155.8660 0.2158613     
+22    D5G22                28 (A+D)GenVar    90.4725 # 150.1292 0.2758913     
+23    D5G23                28 (A+D)GenVar   -82.5666   203.3516 0.6560392     
+24    D5G24                28 (A+D)GenVar    25.9386   174.2504 0.4413860     
+25    D5G25                28 (A+D)GenVar   111.0277 # 163.6849 0.2516766     
+==============================================================================
+
+
+==============================================================================
+  Haseman-Elston Regression Analysis of Full Sibs
+  - single marker regression
+==============================================================================
+
+    Continuous trait : Q4
+
+    Dependent variate : Weighted square trait sum and difference (W4)
+
+    w1 : 0.5
+
+    Other options used :
+      Identity weights = no
+      Robust variance  = no
+      Use sibship mean = no
+      Use BLUP mean    = yes
+
+    Legend :
+      Note - kurtosis = coefficient of kurtosis - 3
+      *   - significance  .05 level;
+      **  - significance  .01 level;
+      *** - significance .001 level;
+      #   - Negative intercept set to 0;
+
+==============================================================================
+Test  Independent                                                 Nominal     
+No.   variable          Pairs   Parameter    Estimate Std Error   P-value     
+----- ----------------- ----- ----------- ----------- --------- ---------     
+1     D5G1                 28 (A+D)GenVar    -0.2867     0.2321 0.8863238     
+2     D5G2                 28 (A+D)GenVar    -0.2849     0.1951 0.9220521     
+3     D5G3                 28 (A+D)GenVar    -0.0416     0.2158 0.5757752     
+4     D5G4                 28 (A+D)GenVar     0.0308     0.2493 0.4512265     
+5     D5G5                 28 (A+D)GenVar    -0.1415     0.1826 0.7774459     
+6     D5G6                 28 (A+D)GenVar    -0.4042     0.1924 0.9774720     
+7     D5G7                 28 (A+D)GenVar    -0.3193     0.2222 0.9189203     
+8     D5G8                 28 (A+D)GenVar    -0.3388     0.2402 0.9151421     
+9     D5G9                 28 (A+D)GenVar    -0.3930     0.1820 0.9800682     
+10    D5G10                28 (A+D)GenVar    -0.6959     0.1800 0.9996849     
+11    D5G11                28 (A+D)GenVar    -0.1902     0.2165 0.8063062     
+12    D5G12                28 (A+D)GenVar    -0.2376     0.2426 0.8319953     
+13    D5G13                28 (A+D)GenVar    -0.3395     0.2065 0.9440749     
+14    D5G14                28 (A+D)GenVar    -0.2928     0.2065 0.9161737     
+15    D5G15                28 (A+D)GenVar    -0.2563     0.2169 0.8761570     
+16    D5G16                28 (A+D)GenVar    -0.2652     0.2173 0.8835161     
+17    D5G17                28 (A+D)GenVar    -0.2696     0.1730 0.9345790     
+18    D5G18                28 (A+D)GenVar    -0.2147     0.1957 0.8588730     
+19    D5G19                28 (A+D)GenVar    -0.1927     0.1954 0.8336368     
+20    D5G20                28 (A+D)GenVar    -0.0368     0.1714 0.5841739     
+21    D5G21                28 (A+D)GenVar    -0.1594     0.1844 0.8025586     
+22    D5G22                28 (A+D)GenVar    -0.0464     0.1802 0.6005421     
+23    D5G23                28 (A+D)GenVar     0.1288 #   0.2388 0.2969471     
+24    D5G24                28 (A+D)GenVar    -0.0573     0.2005 0.6112914     
+25    D5G25                28 (A+D)GenVar    -0.0459     0.1927 0.5932640     
+==============================================================================
+
+
+==============================================================================
+  Haseman-Elston Regression Analysis of Full Sibs
+  - single marker regression
+==============================================================================
+
+    Continuous trait : Q5
+
+    Dependent variate : Weighted square trait sum and difference (W4)
+
+    w1 : 0.5
+
+    Other options used :
+      Identity weights = no
+      Robust variance  = no
+      Use sibship mean = no
+      Use BLUP mean    = yes
+
+    Legend :
+      Note - kurtosis = coefficient of kurtosis - 3
+      *   - significance  .05 level;
+      **  - significance  .01 level;
+      *** - significance .001 level;
+      #   - Negative intercept set to 0;
+
+==============================================================================
+Test  Independent                                                 Nominal     
+No.   variable          Pairs   Parameter    Estimate Std Error   P-value     
+----- ----------------- ----- ----------- ----------- --------- ---------     
+1     D5G1                 28 (A+D)GenVar   -19.2900    13.7244 0.9143655     
+2     D5G2                 28 (A+D)GenVar    -4.8622    12.3379 0.6516944     
+3     D5G3                 28 (A+D)GenVar   -11.6414    12.4199 0.8215480     
+4     D5G4                 28 (A+D)GenVar   -10.8013    13.9847 0.7766959     
+5     D5G5                 28 (A+D)GenVar    -9.6746    10.6012 0.8152339     
+6     D5G6                 28 (A+D)GenVar    -6.2132    12.1453 0.6934437     
+7     D5G7                 28 (A+D)GenVar     4.1740    13.6518 0.3810704     
+8     D5G8                 28 (A+D)GenVar   -17.5793    14.9782 0.8746088     
+9     D5G9                 28 (A+D)GenVar    -2.0161    11.7674 0.5673779     
+10    D5G10                28 (A+D)GenVar    -3.6576    13.3819 0.6066569     
+11    D5G11                28 (A+D)GenVar    -6.6101    12.7927 0.6952158     
+12    D5G12                28 (A+D)GenVar    -7.0435    15.6776 0.6715892     
+13    D5G13                28 (A+D)GenVar     1.8977    13.0464 0.4427151     
+14    D5G14                28 (A+D)GenVar    -6.3769    13.2349 0.6830931     
+15    D5G15                28 (A+D)GenVar   -18.6927    13.3619 0.9133955     
+16    D5G16                28 (A+D)GenVar   -16.6030    13.4712 0.8858023     
+17    D5G17                28 (A+D)GenVar   -15.0200    10.0368 0.9269376     
+18    D5G18                28 (A+D)GenVar   -14.0475    11.4285 0.8851914     
+19    D5G19                28 (A+D)GenVar   -15.2030    10.9791 0.9112632     
+20    D5G20                28 (A+D)GenVar   -11.9917     9.8462 0.8831009     
+21    D5G21                28 (A+D)GenVar    -6.3319    10.8691 0.7174890     
+22    D5G22                28 (A+D)GenVar   -11.7859    10.2170 0.8706035     
+23    D5G23                28 (A+D)GenVar   -14.7039    13.5668 0.8559835     
+24    D5G24                28 (A+D)GenVar    -3.6516    11.6971 0.6213510     
+25    D5G25                28 (A+D)GenVar    -3.7177    11.3923 0.6266557     
+==============================================================================
+
+

@@ -1,0 +1,107 @@
+S.A.G.E. v4.4 -- SEGREG  
+COPYRIGHT (C) 2003 CASE WESTERN RESERVE UNIVERSITY
+
+File generated on : Tue Sep 30 14:10:22 2003
+
+
+
+Family structure information on the first 13 individuals read from file: ped
+
+     PED. ID       IND. ID       SEX       PARENT1       PARENT2     
+     ------------  ------------  --------  ------------  ------------
+     1             1             0         0             0           
+     1             2             1         0             0           
+     1             3             0         0             0           
+     1             4             1         1             2           
+     1             5             0         0             0           
+     1             6             1         1             2           
+     1             7             0         0             0           
+     1             8             1         3             4           
+     1             9             0         4             5           
+     1             10            0         6             7           
+     1             11            0         6             7           
+     1             12            1         6             7           
+     1             13            0         6             7           
+
+
+Phenotypes for the first 13 individuals read from file: ped
+
+     PED. ID       IND. ID       T                   
+     ------------  ------------  --------------------
+     1             1             7.269               
+     1             2             8.457               
+     1             3             12.182              
+     1             4             12.463              
+     1             5             8.476               
+     1             6             -999                
+     1             7             4.299               
+     1             8             11.384              
+     1             9             8.343               
+     1             10            4.975               
+     1             11            6.555               
+     1             12            5.125               
+     1             13            4.807               
+
+
+Parsing Segreg Analyses...
+
+Beginning new analysis block....
+
+
+Parsing Analysis: 'SEGREG Analysis 1'....
+
+
+Analysis parsing complete.  Analysis valid.
+------------------------------------------------------------------------------
+
+  Performing analysis: SEGREG Analysis 1
+  ===========================================================================
+
+    Setting up initial model..................................
+      Setting to one mean........................................Done.
+      Setting to homog_no_trans..................................Done.
+    Setting up initial model.....................................Done.
+    Maximizing one mean, homog. no transm.....................
+        Testing model............................................Done.
+        Performing Maximization..................................Done.
+        Finalizing Model.........................................Done.
+    Maximizing one mean, homog. no transm........................Done.
+    Maximizing two means, mendelian transm....................
+        Testing Initial Value  1.................................Done.
+        Testing Initial Value  2.................................Done.
+        Testing Initial Value  3.................................Done.
+        Testing Initial Value  4.................................Done.
+        Testing Initial Value  5.................................Done.
+        Testing Initial Value  6.................................Done.
+        Attempting Initial Value  1..............................Done.
+        Attempting Initial Value  2..............................Done.
+        Attempting Initial Value  3..............................Done.
+        Attempting Initial Value  4..............................Done.
+        Attempting Initial Value  5..............................Done.
+        Attempting Initial Value  6..............................Done.
+      Choosing models to finalize...(keeping  4).................Done.
+        Finalizing Model  1......................................Done.
+        Finalizing Model  2......................................Done.
+        Finalizing Model  3......................................Done.
+        Finalizing Model  4......................................Done.
+      Choosing Final Estimates...................................Done.
+    Maximizing two means, mendelian transm.......................Done.
+    Maximizing three means, mendelian transm..................
+        Testing Initial Value  1.................................Done.
+        Testing Initial Value  2.................................Done.
+        Testing Initial Value  3.................................Done.
+        Testing Initial Value  4.................................Done.
+        Attempting Initial Value  1..............................Done.
+        Attempting Initial Value  2..............................Done.
+        Attempting Initial Value  3..............................Done.
+        Attempting Initial Value  4..............................Done.
+      Choosing models to finalize...(keeping  4).................Done.
+        Finalizing Model  1......................................Done.
+        Finalizing Model  2......................................Done.
+        Finalizing Model  3......................................Done.
+        Finalizing Model  4......................................Done.
+      Choosing Final Estimates...................................Done.
+    Maximizing three means, mendelian transm.....................Done.
+
+  ===========================================================================
+

@@ -1,0 +1,78 @@
+=================
+
+     Results
+
+=================
+
+Note: P-values for variance components and proportions are one-sided.  All others are two-sided.
+The null hypothesis for transformation parameters is 'no transformation.'
+
+
+==============================
+     Analysis description
+==============================
+
+  Title                        assoc                         
+  Primary Trait                PHEN (Quantitative)           
+  Allow averaging              Disabled                      
+  Omit complete summary table  Disabled                      
+  Summary table display order  By LRT p-value                
+  Summary filter               Show no more than 10 results  
+
+======================================
+     Transformation configuration
+======================================
+
+
+
+Note: No transformation applied.
+
+==========================
+
+     Model 'Baseline'
+
+==========================
+
+============================
+     Sample description
+============================
+
+  Number of individuals in dataset                                   8  
+  Number of constituent pedigrees in dataset                         2  
+  Number of singletons in dataset                                    0  
+                                                                        
+  Number of constituent pedigree members with complete information   8  
+  Number of singletons with complete information                     0  
+                                                                        
+
+===============================================================
+     MAXIMIZATION RESULTS Baseline without test covariates
+===============================================================
+
+------------------------------------------------------------------
+  Parameter       Estimate   S.E.       P-value    Deriv          
+------------------------------------------------------------------
+  Variance components
+          Random   0.140312   0.081010   0.083266  -0.0002306107  
+     cluster_var   0.117806   0.154225   0.222475  -0.0002413118  
+
+  Other parameters
+  Total variance   0.258118   0.164519   0.116666  -0.0000009525  
+
+       Intercept   0.491715   0.276482   0.075327   0.0000000000  
+------------------------------------------------------------------
+
+Final ln likelihood: -21.508914
+
+=====================================================================
+     VARIANCE-COVARIANCE MATRIX Baseline without test covariates
+=====================================================================
+
+---------------------------------------------------------------------
+                  Random     cluster_var  Total variance  Intercept  
+---------------------------------------------------------------------
+  Random           0.006563  -0.001641     0.004922       -7.30e-13  
+  cluster_var     -0.001641   0.023785     0.022145       -5.33e-08  
+  Total variance   0.004922   0.022145     0.027067       -5.33e-08  
+  Intercept       -7.30e-13  -5.33e-08    -5.33e-08        0.076442  
+

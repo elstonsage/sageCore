@@ -1,0 +1,431 @@
+pedigree
+{
+  pedigree_id=PID
+  individual_id=ID
+  sex_field=SEX
+  parent_id=P1
+  parent_id=P2
+  trait=DISEASE, binary, affected=1, unaffected=0
+  trait=HEMATOCRIT
+  trait=t
+  trait=u
+  trait=v
+  trait=w
+  trait=x
+  trait=y
+  trait=z
+}
+
+segreg_analysis   #1
+{
+  trait = hematocrit
+  class = fpmm
+  
+  fpmm
+  {
+    onset
+    {
+     
+    }
+  }
+}
+
+segreg_analysis   #2
+{
+  trait = hematocrit,type=age_onset
+  class = fpmm
+  
+  fpmm
+  {
+    onset
+    {
+      type_dependent=S
+      multi_dependent=N
+      
+      age_onset=y
+      age_exam=x
+    }
+  }
+}
+
+segreg_analysis   #3
+{
+  trait = disease,type=age_onset
+  class = fpmm
+  
+  fpmm
+  {
+    onset
+    {
+     
+    }
+  }
+}
+
+segreg_analysis   #4
+{
+  trait = disease,type=age_onset
+  class = fpmm
+  
+  fpmm
+  {
+    onset
+    {
+      type_dependent=S
+      multi_dependent=A
+      
+      age_onset=y
+      age_exam=x
+    }
+  }
+}
+
+segreg_analysis   #5
+{
+  trait = disease,type=age_onset
+  class = fpmm
+  
+  fpmm
+  {
+    onset
+    {
+      type_dependent=A
+      multi_dependent=S
+      
+      age_onset=x
+    }
+  }
+}
+
+segreg_analysis   #6
+{
+  trait = disease,type=age_onset
+  class = D
+  
+}
+segreg_analysis   #7
+{
+  trait = disease,type=age_onset
+  
+}
+
+segreg_analysis   #8
+{
+  trait = disease,type=age_onset
+  
+  fpmm
+  {
+  }
+}
+
+segreg_analysis   #9
+{
+  trait = disease,type=age_onset
+  class = fpmm
+  
+  fpmm
+  {
+    onset
+    {
+      type_dependent=A
+      multi_dependent=S
+      
+      age_onset=x
+      age_exam=x
+    }
+  }
+
+  type_suscept
+  {
+    option=three
+  }
+}
+
+segreg_analysis   #10
+{
+  trait = disease,type=age_onset
+  class = fpmm
+  
+  fpmm
+  {
+    onset
+    {
+      type_dependent=S
+      multi_dependent=S
+      
+      age_onset=x
+      age_exam=x
+    }
+  }
+
+  type_mean
+  {
+    option=three
+  }
+}
+
+segreg_analysis   #11 - commingling on susc.
+{
+  trait = disease,type=age_onset
+  class = fpmm
+  
+  fpmm
+  {
+    onset
+    {
+      type_dependent=S
+      multi_dependent=S
+      
+      age_onset=x
+      age_exam=x
+    }
+  }
+}
+
+segreg_analysis   #12 - commingling on mean
+{
+  trait = disease,type=age_onset
+  class = fpmm
+  
+  fpmm
+  {
+    onset
+    {
+      type_dependent=A
+      multi_dependent=S
+      
+      age_onset=x
+      age_exam=x
+    }
+  }
+}
+
+segreg_analysis   #13 - segregation analysis
+{
+  trait = disease,type=age_onset
+  class = fpmm
+  
+  fpmm
+  {
+    onset
+    {
+      type_dependent=A
+      multi_dependent=S
+      
+      age_onset=x
+      age_exam=x
+    }
+  }
+
+  type_mean
+  {
+    option=three
+  }
+}
+
+segreg_analysis   #14 - not commingling or segregation
+{
+  trait = disease,type=age_onset
+  class = fpmm
+  
+  fpmm
+  {
+    onset
+    {
+      type_dependent=S
+      multi_dependent=S
+      
+      age_onset=x
+      age_exam=x
+    }
+  }
+
+  type_suscept
+  {
+    option=three
+  }
+
+  transmission
+  {
+    option=homog_mendelian
+  }
+}
+
+segreg_analysis   #15 - Not an onset trait
+{
+  trait = disease
+
+  ascertainment
+  {
+    onset_option
+  }
+}
+
+
+segreg_analysis   #16 - not enough info
+{
+  trait = disease,type=age_onset
+  class = fpmm
+  
+  fpmm
+  {
+    onset
+    {
+      type_dependent=A
+      multi_dependent=S
+      
+      age_onset=x
+      age_exam=x
+    }
+  }
+
+  ascertainment
+  {
+    onset_option
+  }
+}
+
+segreg_analysis   #17 - no cond_set
+{
+  trait = disease,type=age_onset
+  class = fpmm
+  
+  fpmm
+  {
+    onset
+    {
+      type_dependent=A
+      multi_dependent=S
+      
+      age_onset=x
+      age_exam=x
+    }
+  }
+
+  ascertainment
+  {
+    onset_option=by_onset
+  }
+}
+
+segreg_analysis   #18 - ok
+{
+  trait = disease,type=age_onset
+  class = fpmm
+  
+  fpmm
+  {
+    onset
+    {
+      type_dependent=A
+      multi_dependent=S
+      
+      age_onset=x
+      age_exam=x
+    }
+  }
+
+  ascertainment
+  {
+    cond_set=founders
+    cond_val=actual
+  }
+}
+
+segreg_analysis   #19 - cond_val not valid for onset
+{
+  trait = disease,type=age_onset
+  class = fpmm
+  
+  fpmm
+  {
+    onset
+    {
+      type_dependent=A
+      multi_dependent=S
+      
+      age_onset=x
+      age_exam=x
+    }
+  }
+
+  ascertainment
+  {
+    cond_set=founders
+    cond_val=gte_thresh
+  }
+}
+
+segreg_analysis   #20 - everything ok
+{
+  trait = disease,type=age_onset
+  class = fpmm
+  
+  fpmm
+  {
+    onset
+    {
+      type_dependent=A
+      multi_dependent=S
+      
+      age_onset=x
+      age_exam=x
+    }
+  }
+
+  ascertainment
+  {
+    cond_set=founders
+    onset_option=by_onset
+  }
+}
+
+segreg_analysis   #21 - cond value second
+{
+  trait = disease,type=age_onset
+  class = fpmm
+  
+  fpmm
+  {
+    onset
+    {
+      type_dependent=A
+      multi_dependent=S
+      
+      age_onset=x
+      age_exam=x
+    }
+  }
+
+  ascertainment
+  {
+    cond_set=founders
+    onset_option=by_onset
+    cond_val=actual
+  }
+}
+segreg_analysis   #22 - cond_val first
+{
+  trait = disease,type=age_onset
+  class = fpmm
+  
+  fpmm
+  {
+    onset
+    {
+      type_dependent=A
+      multi_dependent=S
+      
+      age_onset=x
+      age_exam=x
+    }
+  }
+
+  ascertainment
+  {
+    cond_set=founders
+    cond_val =actual
+    onset_option=by_onset
+  }
+}
+

@@ -1,0 +1,94 @@
+pedigree
+{
+  pedigree_id=PED
+  individual_id=IND
+  parent_id=P1
+  parent_id=P2
+  sex_field=SEX  
+  trait = T, missing=-999
+  marker=T1, missing=0
+  marker=M1, missing=0
+  marker=M2, missing=0
+  
+  sex_code, male=1, female=0
+  individual_missing_value=0
+  delimiter_mode=multiple
+  verbose=500
+}
+
+lodlink
+{
+  model, trait=T1
+  linkage_tests=false, sex_specific=false, homog=true
+  
+  homog_tests
+  {
+    smiths_test=false, sex_specific=false
+    mortons_test=true, sex_specific=false
+    {
+      group=1
+      {
+        pedigree_id=1
+        pedigree_id=2
+        pedigree_id=3
+        pedigree_id=4
+        pedigree_id=5
+        pedigree_id=6
+        pedigree_id=7
+        pedigree_id=8
+        pedigree_id=9
+        pedigree_id=10        
+        pedigree_id=11
+        pedigree_id=12
+        pedigree_id=13
+        pedigree_id=14
+        pedigree_id=15
+        pedigree_id=16
+        pedigree_id=17
+        pedigree_id=18
+        pedigree_id=19
+        pedigree_id=20                
+        pedigree_id=21
+        pedigree_id=22
+        pedigree_id=23
+        pedigree_id=24
+        pedigree_id=25                        
+      }
+      
+      group=2
+      {
+        pedigree_id=26
+        pedigree_id=27
+        pedigree_id=28
+        pedigree_id=29
+        pedigree_id=30
+        pedigree_id=31
+        pedigree_id=32
+        pedigree_id=33
+        pedigree_id=34
+        pedigree_id=35        
+        pedigree_id=36
+        pedigree_id=37
+        pedigree_id=38
+        pedigree_id=39
+        pedigree_id=40
+        pedigree_id=41
+        pedigree_id=42
+        pedigree_id=43
+        pedigree_id=44
+        pedigree_id=45                
+        pedigree_id=46
+        pedigree_id=47
+        pedigree_id=48
+        pedigree_id=49
+        pedigree_id=50                               
+      }
+    }
+  }
+  
+  lods
+  {
+    option=none
+  }
+}
+

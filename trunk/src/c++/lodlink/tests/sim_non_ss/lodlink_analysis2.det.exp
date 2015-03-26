@@ -1,0 +1,1864 @@
+
+
+
+==============================
+LODLINK Analysis 2 DETAIL FILE
+==============================
+
+
+Options Selected
+================
+Main locus type                          trait
+Main locus name                          T1
+
+Lod scores                               no
+
+Linkage tests                            yes
+  Sex-specific recombination fractions   no
+  Assume homogeneity                     no
+
+Smith's test for homogeneity             yes
+  Sex-specific recombination fractions   no
+
+Morton's test for homogeneity            no
+
+Genotype probabilities                   no
+
+
+Results
+=======
+
+                  Posterior Probabilities by Constituent Pedigree
+                  ** Indicates Evidence for Linkage
+
+
+                  Constituent Pedigree in Pedigree 1 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 2 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.765989
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 3 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.721701
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 4 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                   0.984616
+
+
+                  Constituent Pedigree in Pedigree 5 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.803323
+M2                   0.909570
+
+
+                  Constituent Pedigree in Pedigree 6 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                   0.967520
+
+
+                  Constituent Pedigree in Pedigree 7 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 8 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.859202
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 9 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 10 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 11 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 12 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.765989
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 13 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 14 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                   0.958347
+
+
+                  Constituent Pedigree in Pedigree 15 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 16 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.844517
+M2                   0.955406
+
+
+                  Constituent Pedigree in Pedigree 17 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 18 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                   0.949930
+
+
+                  Constituent Pedigree in Pedigree 19 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                   0.916506
+
+
+                  Constituent Pedigree in Pedigree 20 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                   0.974023
+
+
+                  Constituent Pedigree in Pedigree 21 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 22 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.731821
+M2                   0.958347
+
+
+                  Constituent Pedigree in Pedigree 23 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 24 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 25 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.791881
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 26 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.745393
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 27 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.794847
+M2                   0.991041
+
+
+                  Constituent Pedigree in Pedigree 28 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                   0.925350
+
+
+                  Constituent Pedigree in Pedigree 29 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 30 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 31 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.785812
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 32 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 33 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 34 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.731938
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 35 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 36 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.837545
+M2                   0.916506
+
+
+                  Constituent Pedigree in Pedigree 37 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.794847
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 38 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 39 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                   0.971824
+
+
+                  Constituent Pedigree in Pedigree 40 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                   0.948945
+
+
+                  Constituent Pedigree in Pedigree 41 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                   0.970406
+
+
+                  Constituent Pedigree in Pedigree 42 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 43 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                   0.916506
+
+
+                  Constituent Pedigree in Pedigree 44 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                   0.949930
+
+
+                  Constituent Pedigree in Pedigree 45 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.731821
+M2                   0.901870
+
+
+                  Constituent Pedigree in Pedigree 46 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.718331
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 47 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 48 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                   0.973705
+
+
+                  Constituent Pedigree in Pedigree 49 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                   0.925350
+
+
+                  Constituent Pedigree in Pedigree 50 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 51 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                   0.921929
+
+
+                  Constituent Pedigree in Pedigree 52 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.779812
+M2                   0.968470
+
+
+                  Constituent Pedigree in Pedigree 53 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 54 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 55 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                   0.919754
+
+
+                  Constituent Pedigree in Pedigree 56 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                   0.975792
+
+
+                  Constituent Pedigree in Pedigree 57 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.765989
+M2                   0.887480
+
+
+                  Constituent Pedigree in Pedigree 58 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.859202
+M2                   0.909570
+
+
+                  Constituent Pedigree in Pedigree 59 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.718331
+M2                   0.887068
+
+
+                  Constituent Pedigree in Pedigree 60 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.745393
+M2                   0.965953
+
+
+                  Constituent Pedigree in Pedigree 61 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.718331
+M2                   0.887068
+
+
+                  Constituent Pedigree in Pedigree 62 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                   0.912889
+
+
+                  Constituent Pedigree in Pedigree 63 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 64 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.844473
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 65 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 66 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.765989
+M2                   0.916506
+
+
+                  Constituent Pedigree in Pedigree 67 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                   0.965738
+
+
+                  Constituent Pedigree in Pedigree 68 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                   0.916506
+
+
+                  Constituent Pedigree in Pedigree 69 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.871421
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 70 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.718331
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 71 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                   0.916506
+
+
+                  Constituent Pedigree in Pedigree 72 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 73 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.813282
+M2                   0.901870
+
+
+                  Constituent Pedigree in Pedigree 74 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                   0.916506
+
+
+                  Constituent Pedigree in Pedigree 75 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.883847
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 76 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.731821
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 77 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.724530
+M2                   0.968076
+
+
+                  Constituent Pedigree in Pedigree 78 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                   0.947702
+
+
+                  Constituent Pedigree in Pedigree 79 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                   0.970406
+
+
+                  Constituent Pedigree in Pedigree 80 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 81 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.732182
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 82 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.803323
+M2                   0.929715
+
+
+                  Constituent Pedigree in Pedigree 83 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.713468
+M2                   0.948397
+
+
+                  Constituent Pedigree in Pedigree 84 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                   0.980139
+
+
+                  Constituent Pedigree in Pedigree 85 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                   0.882201
+
+
+                  Constituent Pedigree in Pedigree 86 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 87 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.761244
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 88 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                   0.916091
+
+
+                  Constituent Pedigree in Pedigree 89 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 90 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 91 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.765989
+M2                   0.916506
+
+
+                  Constituent Pedigree in Pedigree 92 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                   0.885609
+
+
+                  Constituent Pedigree in Pedigree 93 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 94 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 95 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                   0.909570
+
+
+                  Constituent Pedigree in Pedigree 96 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.714173
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 97 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 98 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.837545
+M2                   0.925350
+
+
+                  Constituent Pedigree in Pedigree 99 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.765989
+M2                   0.894527
+
+
+                  Constituent Pedigree in Pedigree 100 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 101 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                   0.980003
+
+
+                  Constituent Pedigree in Pedigree 102 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 103 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 104 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                   0.986866
+
+
+                  Constituent Pedigree in Pedigree 105 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                   0.978718
+
+
+                  Constituent Pedigree in Pedigree 106 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.718331
+M2                   0.955109
+
+
+                  Constituent Pedigree in Pedigree 107 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 108 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 109 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                   0.969716
+
+
+                  Constituent Pedigree in Pedigree 110 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.775148
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 111 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                   0.904939
+
+
+                  Constituent Pedigree in Pedigree 112 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                   0.955406
+
+
+                  Constituent Pedigree in Pedigree 113 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                   0.949749
+
+
+                  Constituent Pedigree in Pedigree 114 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 115 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 116 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                   0.916506
+
+
+                  Constituent Pedigree in Pedigree 117 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.803323
+M2                   0.916506
+
+
+                  Constituent Pedigree in Pedigree 118 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 119 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.765989
+M2                   0.916506
+
+
+                  Constituent Pedigree in Pedigree 120 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.721701
+M2                   0.916506
+
+
+                  Constituent Pedigree in Pedigree 121 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                   0.964397
+
+
+                  Constituent Pedigree in Pedigree 122 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                   0.942922
+
+
+                  Constituent Pedigree in Pedigree 123 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                   0.967791
+
+
+                  Constituent Pedigree in Pedigree 124 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.905762
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 125 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.765989
+M2                   0.943822
+
+
+                  Constituent Pedigree in Pedigree 126 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.765989
+M2                   0.916506
+
+
+                  Constituent Pedigree in Pedigree 127 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                   0.920892
+
+
+                  Constituent Pedigree in Pedigree 128 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 129 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.754266
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 130 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                   0.916506
+
+
+                  Constituent Pedigree in Pedigree 131 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                   0.969716
+
+
+                  Constituent Pedigree in Pedigree 132 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                   0.916506
+
+
+                  Constituent Pedigree in Pedigree 133 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                   0.987429
+
+
+                  Constituent Pedigree in Pedigree 134 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.883847
+M2                   0.969716
+
+
+                  Constituent Pedigree in Pedigree 135 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.765989
+M2                   0.916506
+
+
+                  Constituent Pedigree in Pedigree 136 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                   0.894549
+
+
+                  Constituent Pedigree in Pedigree 137 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.731938
+M2                   0.899211
+
+
+                  Constituent Pedigree in Pedigree 138 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                   0.887480
+
+
+                  Constituent Pedigree in Pedigree 139 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                   0.910199
+
+
+                  Constituent Pedigree in Pedigree 140 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.905762
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 141 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                   0.943822
+
+
+                  Constituent Pedigree in Pedigree 142 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                   0.929319
+
+
+                  Constituent Pedigree in Pedigree 143 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 144 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.721787
+M2                   0.925350
+
+
+                  Constituent Pedigree in Pedigree 145 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.765989
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 146 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 147 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                   0.930339
+
+
+                  Constituent Pedigree in Pedigree 148 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.883847
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 149 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                   0.980003
+
+
+                  Constituent Pedigree in Pedigree 150 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.744456
+M2                   0.916506
+
+
+                  Constituent Pedigree in Pedigree 151 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 152 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.830512
+M2                   0.916506
+
+
+                  Constituent Pedigree in Pedigree 153 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.718331
+M2                   0.987750
+
+
+                  Constituent Pedigree in Pedigree 154 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                   0.991608
+
+
+                  Constituent Pedigree in Pedigree 155 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.755280
+M2                   0.980375
+
+
+                  Constituent Pedigree in Pedigree 156 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                   0.964276
+
+
+                  Constituent Pedigree in Pedigree 157 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                   0.916506
+
+
+                  Constituent Pedigree in Pedigree 158 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                   0.969716
+
+
+                  Constituent Pedigree in Pedigree 159 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.765989
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 160 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                   0.952713
+
+
+                  Constituent Pedigree in Pedigree 161 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.803323
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 162 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                   0.955613
+
+
+                  Constituent Pedigree in Pedigree 163 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                   0.972402
+
+
+                  Constituent Pedigree in Pedigree 164 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                   0.887480
+
+
+                  Constituent Pedigree in Pedigree 165 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.744597
+M2                   0.961762
+
+
+                  Constituent Pedigree in Pedigree 166 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                   0.994595
+
+
+                  Constituent Pedigree in Pedigree 167 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.905762
+M2                   0.973705
+
+
+                  Constituent Pedigree in Pedigree 168 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                   0.880121
+
+
+                  Constituent Pedigree in Pedigree 169 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.786690
+M2                   0.975325
+
+
+                  Constituent Pedigree in Pedigree 170 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 171 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 172 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                   0.916506
+
+
+                  Constituent Pedigree in Pedigree 173 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                   0.952371
+
+
+                  Constituent Pedigree in Pedigree 174 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.802137
+M2                   0.977488
+
+
+                  Constituent Pedigree in Pedigree 175 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 176 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.883847
+M2                   0.916506
+
+
+                  Constituent Pedigree in Pedigree 177 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.718742
+M2                   0.900967
+
+
+                  Constituent Pedigree in Pedigree 178 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 179 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.840957
+M2                   0.900533
+
+
+                  Constituent Pedigree in Pedigree 180 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.765989
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 181 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.804041
+M2                   0.943822
+
+
+                  Constituent Pedigree in Pedigree 182 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.765989
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 183 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                   0.916506
+
+
+                  Constituent Pedigree in Pedigree 184 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.830512
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 185 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                   0.909277
+
+
+                  Constituent Pedigree in Pedigree 186 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                   0.949749
+
+
+                  Constituent Pedigree in Pedigree 187 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.722722
+M2                   0.934375
+
+
+                  Constituent Pedigree in Pedigree 188 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 189 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                   0.945606
+
+
+                  Constituent Pedigree in Pedigree 190 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 191 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                   0.937180
+
+
+                  Constituent Pedigree in Pedigree 192 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                   0.972400
+
+
+                  Constituent Pedigree in Pedigree 193 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                   0.970406
+
+
+                  Constituent Pedigree in Pedigree 194 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                   0.932092
+
+
+                  Constituent Pedigree in Pedigree 195 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.859202
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 196 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 197 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.887500
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 198 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                       --- 
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 199 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.772394
+M2                       --- 
+
+
+                  Constituent Pedigree in Pedigree 200 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                   0.830512
+M2                   0.908621
+
+
+
+
+
+                    Faraway's Linkage Test             
+                    Variance-Covariance Matrices       
+                    Parameter Order (Avg Recomb, Alpha)
+
+Locus             
+---------------
+M1                    0.016878    0.058673
+                      0.058673    0.228295
+
+M2                    0.000593    0.001446
+                      0.001446    0.007799
+
+
+
+
+                    Smith's Homogeneity Test           
+                    Variance-Covariance Matrices       
+                    Parameter Order (Avg Recomb, Alpha)
+
+Locus             
+---------------
+M1                    0.016878    0.058673
+                      0.058673    0.228295
+
+M2                    0.000593    0.001446
+                      0.001446    0.007799
+

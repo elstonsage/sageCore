@@ -1,0 +1,69 @@
+#3-27-02 Parameter for markerinfo v4. 
+
+pedigree
+{
+	delimiters="\t"
+
+	sex_code,male="1",female="2",missing="9"
+	individual_missing_value=" "
+
+   	pedigree_id=NewFamID
+	individual_id=InvID
+	phenotype=Proband,binary,affected="1",unaffected="2", missing="0"
+	sex_field=Sex
+	phenotype=Lab_Num,missing=" " 
+	parent_id=MID
+	parent_id=DID
+	phenotype=InAccess,missing=" " 
+	
+	allele=M1A1,name=D10S1230,missing=" " 
+	allele=M1A2,name=D10S1230,missing=" "  
+	allele=M2A1,name=D1S1640,missing=" "  
+	allele=M2A2,name=D1S1640,missing=" "  
+	allele=M3A1,name=D12S308,missing=" "  
+	allele=M3A2,name=D12S308,missing=" "  
+	allele=M4A1,name=D10S169,missing=" "  
+	allele=M4A2,name=D10S169,missing=" "  
+	allele=M5A1,name=D7S1819,missing=" "  
+	allele=M5A2,name=D7S1819,missing=" "  
+	allele=M6A1,name=D1S215,missing=" "  
+	allele=M6A2,name=D1S215,missing=" "  
+	allele=M7A1,name=D12S320,missing=" "  
+	allele=M7A2,name=D12S320,missing=" "  
+	allele=M8A1,name=D6S1669,missing=" "  
+	allele=M8A2,name=D6S1669,missing=" "  
+	allele=M9A1,name=D20S189,missing=" "  
+	allele=M9A2,name=D20S189,missing=" "  
+	allele=M10A1,name=WT1PCR2,missing=" "  
+	allele=M10A2,name=WT1PCR2,missing=" "  
+	allele=M11A1,name=D1S2852,missing=" "  
+	allele=M11A2,name=D1S2852,missing=" "  
+	allele=M12A1,name=D19S191,missing=" "  
+	allele=M12A2,name=D19S191,missing=" "  
+	allele=M13A1,name=D19S417,missing=" "  
+	allele=M13A2,name=D19S417,missing=" "  
+	allele=M14A1,name=D19S609,missing=" "  
+	allele=M14A2,name=D19S609,missing=" "  
+	allele=M15A1,name=D3S1763,missing=" "  
+	allele=M15A2,name=D3S1763,missing=" "  
+	allele=M16A1,name=D19S416,missing=" "  
+	allele=M16A2,name=D19S416,missing=" "  
+	allele=M17A1,name=D19S425,missing=" "  
+	allele=M17A2,name=D19S425,missing=" "  
+	allele=M18A1,name=D3S1744,missing=" " 	 
+	allele=M18A2,name=D3S1744,missing=" " 	 
+	allele=M19A1,name=D20S894,missing=" "  
+	allele=M19A2,name=D20S894,missing=" "  
+	allele=M20A1,name=ATA57C01,missing=" "  
+	allele=M20A2,name=ATA57C01,missing=" "  
+	allele=M21A1,name=D1S198,missing=" "  
+	allele=M21A2,name=D1S198,missing=" "  
+	allele=M22A1,name=D22S425,missing=" "  
+	allele=M22A2,name=D22S425,missing=" "  
+	allele=M23A1,name=D3S2427,missing=" "  
+	allele=M23A2,name=D3S2427,missing=" "  
+	
+		
+	phenotype=HaveGenotypes,missing=" " 
+#	require_record="true"
+}

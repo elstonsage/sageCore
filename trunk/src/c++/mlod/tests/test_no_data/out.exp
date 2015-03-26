@@ -1,0 +1,52 @@
+
+
+
+Reading Parameter File....................done.
+Reading Marker Locus Description File.....done.
+Reading Trait Model Description File......done.
+Reading Pedigree File.....................
+              from Chr01_Rep03............done.
+Sorting Pedigrees.........................done.
+Reading Genome Description File...........done.
+Beginning new analysis block ...
+
+
+Analysis parsing complete.  Analysis valid.
+------------------------------------------------------------------------------
+
+Processing Analyses....
+
+Running Analysis: MLOD Analysis 1
+==============================================================
+
+Analysis: MLOD Analysis 1
+
+* LOD Score analysis on region (Region_chr01) with trait (REP3_2REC)
+
+* Scan only markers.
+
+* Maximum 2n-f pedigree size cutoff is 18
+
+* Individual Pedigree LOD scores will not be printed.
+
+* Output will be sent to files of the form: mlod1rep3.(det,sum)
+
+
+
+
+Generating Valid Pedigree Data Sample......Done.
+
+========================================
+     Analysis Data Sample (summary)
+========================================
+
+-----------------------------------------------------------------
+                                    To Be Analyzed  In Data Set  
+-----------------------------------------------------------------
+  Number of Individuals:                         0  (   1497  )  
+  Number of Pedigrees:                           0  (     23  )  
+  Number of Constituent Pedigrees:               0  (     23  )  
+
+%MLOD-E: No valid peigree data for analysis MLOD Analysis 1.
+
+

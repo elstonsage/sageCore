@@ -1,0 +1,45 @@
+S.A.G.E. v4.0 (internal alpha 3) -- SEGREG  
+COPYRIGHT (C) 2002 CASE WESTERN RESERVE UNIVERSITY
+
+Reading Parameter File....................done.
+Reading Pedigree File.....................
+              from fam.complete...........done.
+Sorting pedigrees.........................done.
+
+Parsing Segreg Analyses...
+
+Beginning new analysis block....
+
+
+Parsing Analysis: 'PC commingling'....
+
+
+Analysis parsing complete.  Analysis valid.
+------------------------------------------------------------------------------
+
+  Performing analysis: PC commingling
+  ===========================================================================
+
+  Doing Commingling Analysis:
+    Maximizing one-mean model.............
+        Testing model.....................Calculating Thresholds?
+0	7.22022e-06
+1	1
+2	0.2
+3	0.2
+4	0.2
+5	0.35
+6	1
+7	5
+8	2.6525e-314
+9	2.96439e-323
+10	0
+11	0
+12	0
+13	0
+14	0
+15	0
+16	0
+17	0
+18	0
+19	2.96439e-323

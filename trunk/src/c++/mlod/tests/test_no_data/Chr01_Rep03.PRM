@@ -1,0 +1,309 @@
+pedigree
+{
+  delimiter=","
+#  delimiter_mode = multiple
+  individual_missing_value = "0"
+
+  string=Alive
+  sex_field=Sex
+  sex_code, male=1, female=2, missing=0
+  parent_id=FatherID
+  parent_id=MotherID
+  trait=Q1, missing="" 
+  trait=Q2, missing="" 
+  trait=Q3, missing="" 
+  trait=Q4, missing="" 
+  trait=Q5, missing=""
+  trait=PRIN1, missing="" 
+  trait=PRIN2, missing="" 
+  pedigree_id = Pedigree
+  individual_id=ID
+
+#Genotype Data Field Specifications
+marker = D01G002
+marker = D01G003
+marker = D01G004
+marker = D01G005
+marker = D01G006
+marker = D01G007
+marker = D01G008
+marker = D01G009
+marker = D01G010
+marker = D01G011
+marker = D01G012
+marker = D01G013
+marker = D01G014
+marker = D01G015
+marker = D01G016
+marker = D01G017
+marker = D01G018
+marker = D01G019
+marker = D01G020
+marker = D01G021
+marker = D01G022
+marker = D01G023
+marker = D01G024
+marker = D01G025
+marker = D01G026
+marker = D01G027
+marker = D01G028
+marker = D01G029
+marker = D01G030
+marker = D01G031
+marker = D01G032
+marker = D01G033
+marker = D01G034
+marker = D01G035
+marker = D01G036
+marker = D01G037
+marker = D01G038
+marker = D01G039
+marker = D01G040
+marker = D01G041
+marker = D01G042
+marker = D01G043
+marker = D01G044
+marker = D01G045
+marker = D01G046
+marker = D01G047
+marker = D01G048
+marker = D01G049
+marker = D01G050
+marker = D01G051
+marker = D01G052
+marker = D01G053
+marker = D01G054
+marker = D01G055
+marker = D01G056
+marker = D01G057
+marker = D01G058
+marker = D01G059
+marker = D01G060
+marker = D01G061
+marker = D01G062
+marker = D01G063
+marker = D01G064
+marker = D01G065
+marker = D01G066
+marker = D01G067
+marker = D01G068
+marker = D01G069
+marker = D01G070
+marker = D01G071
+marker = D01G072
+marker = D01G073
+marker = D01G074
+marker = D01G075
+marker = D01G076
+marker = D01G077
+marker = D01G078
+marker = D01G079
+marker = D01G080
+marker = D01G081
+marker = D01G082
+marker = D01G083
+marker = D01G084
+marker = D01G085
+marker = D01G086
+marker = D01G087
+marker = D01G088
+marker = D01G089
+marker = D01G090
+marker = D01G091
+marker = D01G092
+marker = D01G093
+marker = D01G094
+marker = D01G095
+marker = D01G096
+marker = D01G097
+marker = D01G098
+marker = D01G099
+marker = D01G100
+marker = D01G101
+marker = D01G102
+marker = D01G103
+marker = D01G104
+marker = D01G105
+marker = D01G106
+marker = D01G107
+marker = D01G108
+marker = D01G109
+marker = D01G110
+marker = D01G111
+marker = D01G112
+marker = D01G113
+marker = D01G114
+marker = D01G115
+marker = D01G116
+marker = D01G117
+marker = D01G118
+marker = D01G119
+marker = D01G120
+marker = D01G121
+marker = D01G122
+marker = D01G123
+marker = D01G124
+marker = D01G125
+marker = D01G126
+marker = D01G127
+marker = D01G128
+marker = D01G129
+marker = D01G130
+marker = D01G131
+marker = D01G132
+marker = D01G133
+marker = D01G134
+marker = D01G135
+marker = D01G136
+marker = D01G137
+marker = D01G138
+marker = D01G139
+marker = D01G140
+marker = D01G141
+marker = D01G142
+marker = D01G143
+marker = D01G144
+marker = D01G145
+marker = D01G146
+marker = D01G147
+marker = D01G148
+marker = D01G149
+marker = D01G150
+marker = D01G151
+marker = D01G152
+marker = D01G153
+marker = D01G154
+marker = D01G155
+marker = D01G156
+marker = D01G157
+marker = D01G158
+marker = D01G159
+marker = D01G160
+marker = D01G161
+marker = D01G162
+marker = D01G163
+marker = D01G164
+marker = D01G165
+marker = D01G166
+marker = D01G167
+marker = D01G168
+marker = D01G169
+marker = D01G170
+marker = D01G171
+marker = D01G172
+marker = D01G173
+marker = D01G174
+marker = D01G175
+marker = D01G176
+marker = D01G177
+marker = D01G178
+marker = D01G179
+marker = D01G180
+marker = D01G181
+marker = D01G182
+marker = D01G183
+marker = D01G184
+marker = D01G185
+marker = D01G186
+marker = D01G187
+marker = D01G188
+marker = D01G189
+marker = D01G190
+marker = D01G191
+marker = D01G192
+marker = D01G193
+marker = D01G194
+marker = D01G195
+marker = D01G196
+marker = D01G197
+marker = D01G198
+marker = D01G199
+marker = D01G200
+marker = D01G201
+marker = D01G202
+marker = D01G203
+marker = D01G204
+marker = D01G205
+marker = D01G206
+marker = D01G207
+marker = D01G208
+marker = D01G209
+marker = D01G210
+marker = D01G211
+marker = D01G212
+marker = D01G213
+marker = D01G214
+marker = D01G215
+marker = D01G216
+marker = D01G217
+marker = D01G218
+marker = D01G219
+marker = D01G220
+
+
+}
+
+freq, out = "rep3freq1"
+{
+}
+
+genibd, out = "genibdout"
+{
+  region = "Region_chr01"
+  ibd_mode = singlepoint
+}
+
+#sibpal
+trait_regression, out="sibpalQ1out", single
+{
+   trait=Q1
+   regression_method=w4
+}
+
+trait_regression, out="sibpalQ2out", single
+{
+   trait=Q2
+   regression_method=w4
+}
+
+trait_regression, out="sibpalQ3out", single
+{
+   trait=Q3
+   regression_method=w4
+}
+
+trait_regression, out="sibpalQ4out", single
+{
+   trait=Q4
+   regression_method=w4
+}
+
+trait_regression, out="sibpalQ5out", single
+{
+   trait=Q5
+   regression_method=w4
+}
+
+trait_regression, out="sibpalPrin1Out", single
+{
+   trait=Prin1
+   regression_method=w4
+}
+
+trait_regression, out="sibpalPrin2Out", single
+{
+   trait=Prin2
+   regression_method=w4
+}
+
+#lodlink
+lodlink, out = "lod1rep3"
+{
+model, trait="rep3_2rec"
+}
+
+mlod, out="mlod1rep3"
+{
+ region=Region_chr01
+ trait_marker="rep3_2rec"
+}

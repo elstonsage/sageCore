@@ -1,0 +1,61 @@
+=====================================================================================================
+  SEGREG Analysis for Trait : t2
+=====================================================================================================
+  # Model Specification  
+
+    Model Class A
+    Type means                   : one mean
+    Mean covariates              :
+          cov1                   : (Mean =      0.51800)
+          cov2                   : (Mean =     -0.02241)
+    Type variances               : one variance
+    Residual correlations        : No spouse correlation, parent-offspring and
+                                   sib-sib correlations equal
+    Transformation               : none
+    Type frequency               : 
+    Transmission                 : homogeneous no transmission
+
+
+    NOTE:  All covariates are centered at mean 0.0 for analysis.  The centering
+           means listed are the means of all non-missing values of the covariate,
+           regardless of the missingness of other variables used in the analysis.
+           It follows that, unless the missingness is the same for the trait and
+           all covariates used, these means may not be the appropriate centering
+           means for the results below.
+
+  # Number of constituent pedigrees   : 100
+  # Number of unconnected individuals : 0
+
+  # Final Estimates : 
+
+  Parameter           Parameter Est.  Standard Err.   First Deriv.   Status
+-----------------------------------------------------------------------------------------------------
+  mean                -0.06292000      0.05733814      0.00000000     Independent
+  cov1                 1.98554517      0.11483043     -0.00006956     Independent
+  cov2                 2.99434081      0.05691259     -0.00004612     Independent
+  variance             4.93713647      0.18028004      0.00002797     Independent
+  marital resid c      0.00000000                                     Fixed
+  po = ss resid c      0.00000000                                     Fixed
+-----------------------------------------------------------------------------------------------------
+
+
+  # Variance-Covariance Matrix : 
+
+             |     mean            cov1            cov2            variance   
+------------------------------------------------------------------------------
+  mean       |      0.00328766      0.00000000      0.00000000      0.00000000
+  cov1       |      0.00000000      0.01318603      0.00015129      0.00000000
+  cov2       |      0.00000000      0.00015129      0.00323904      0.00000000
+  variance   |      0.00000000      0.00000000      0.00000000      0.03250089
+------------------------------------------------------------------------------
+
+
+        LN(Likelihood) : -3326
+     -2 LN(Likelihood) : 6651.99
+    Akaike's AIC score : 6659.99
+=====================================================================================================
+
+%SEGREG-W: Accumulation of round off errors or boundary problem 
+%SEGREG-W: Check results carefully 
+
+

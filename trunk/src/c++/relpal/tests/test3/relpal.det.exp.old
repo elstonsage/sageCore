@@ -1,0 +1,65 @@
+
+
+
+====================================================================================
+  Two-Level Haseman-Elston Regression Analysis for General Pedigree 
+
+  - Second (Pedigree) Level Score Tests Detailed Output
+====================================================================================
+
+  Traits : (1) - con_t1, Quantitative
+           (2) - con_t2, Quantitative
+
+  Legend :
+    *   - significance  .05 level
+    **  - significance  .01 level
+    *** - significance .001 level
+
+    nai - naive variance
+    sdw - robust sandwich variance
+    alt - alternative variance
+    ibd - allele sharing variance
+
+  Empirical p-value options used :
+    seed = 100
+    min replicates = 20
+    max replicates = 10000
+
+====================================================================================
+Test 1
+====================================================================================
+-----
+Model
+-----
+
+H0: con_t1, con_t2 ~ [Intercept] + POLYGENIC_EFF + RANDOM_EFF
+H1: con_t1, con_t2 ~ [Intercept] + loc2 + POLYGENIC_EFF + RANDOM_EFF
+
+------------
+Sample Count
+------------
+
+Number of individuals used at first level     = 16
+Number of relative pairs used at second level = 27
+
+-----------------
+Estimates from H0
+-----------------
+
+Test                                                                   Nominal    
+Variable                      Estimate Variance-Covariance   Chi-sq.   P-value    
+------------------------- ------------ ------------------- --------- ---------    
+------------------
+Score Test Results
+------------------
+
+Test                          Unadjusted   Adjusted Empirical     Number of 
+Variable                  Var    T-value    T-value   P-value     Replicates
+------------------------- --- ---------- ---------- ---------     ----------
+loc2                      nai     9.1179     8.5136 0.0104402 *          187
+                          sdw     3.0000     0.9778 0.1473941            299
+                          alt 10986.5370 10985.4913 0.0000000 ***      10000
+                          ibd    17.5286    16.9415 0.0001838 ***        235
+
+====================================================================================
+

@@ -1,0 +1,25 @@
+pedigree
+{
+  delimiters = "\t"
+  delimiter_mode = single
+  individual_missing_value = "."
+
+  sex_code, male = "1", female = "2", missing = "."
+
+  pedigree_id = pedid
+  individual_id = indid
+  parent_id = dad
+  parent_id = mom
+  sex_field = sex
+
+
+  string = DNAID
+
+  marker_list, start = "D3S2418", end = "D9S2157"
+}
+
+marker
+{
+  allele_missing = "."
+  allele_delimiter = "/"
+}

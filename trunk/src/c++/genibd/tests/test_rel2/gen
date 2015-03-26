@@ -1,0 +1,32 @@
+genome
+{
+   region="chr3_1"
+   {
+      marker="D3S1297"
+   }
+
+   region="chr3_2"
+   {
+      marker="D3S1304"
+   }
+
+   region="chr3_3"
+   {
+      marker="D3S1263"
+   }
+
+   region="X1", x_linked
+   {
+      marker="DXS1297"
+   }   
+
+   region="X2", x_linked
+   {
+      marker="DXS1304"
+   }   
+
+   region="X3", x_linked
+   {
+      marker="DXS1263"
+   }   
+}

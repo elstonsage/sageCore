@@ -1,0 +1,1274 @@
+
+
+
+Reading Parameter File....................done.
+Reading Pedigree File.....................
+              from ped....................done.
+Sorting Pedigrees.........................done.
+
+Parsing Segreg Analyses...
+
+Beginning new analysis block....
+
+
+Parsing Analysis: 'SEGREG Analysis 1'....
+
+
+Analysis parsing complete.  Analysis valid.
+------------------------------------------------------------------------------
+
+Beginning new analysis block....
+
+
+Parsing Analysis: 'SEGREG Analysis 2'....
+
+
+Analysis parsing complete.  Analysis valid.
+------------------------------------------------------------------------------
+
+Beginning new analysis block....
+
+
+Parsing Analysis: 'SEGREG Analysis 3'....
+
+
+Analysis parsing complete.  Analysis valid.
+------------------------------------------------------------------------------
+
+Beginning new analysis block....
+
+
+Parsing Analysis: 'SEGREG Analysis 4'....
+
+
+Analysis parsing complete.  Analysis valid.
+------------------------------------------------------------------------------
+
+Beginning new analysis block....
+
+
+Parsing Analysis: 'SEGREG Analysis 5'....
+
+
+Analysis parsing complete.  Analysis valid.
+------------------------------------------------------------------------------
+
+Beginning new analysis block....
+
+
+Parsing Analysis: 'SEGREG Analysis 6'....
+
+
+Analysis parsing complete.  Analysis valid.
+------------------------------------------------------------------------------
+
+Beginning new analysis block....
+
+
+Parsing Analysis: 'SEGREG Analysis 7'....
+
+
+Analysis parsing complete.  Analysis valid.
+------------------------------------------------------------------------------
+
+Beginning new analysis block....
+
+
+Parsing Analysis: 'SEGREG Analysis 8'....
+
+
+Analysis parsing complete.  Analysis valid.
+------------------------------------------------------------------------------
+
+Evaluating pedigrees............Done.
+
+  Performing analysis: SEGREG Analysis 1
+  ===========================================================================
+
+    Setting up initial model..................................
+      Setting to one mean........................................Done.
+      Setting to homog_no_trans..................................Done.
+    Setting up initial model.....................................Done.
+    Maximizing one mean, homog. no transm.....................
+        Testing model............................................Done.
+        Performing Maximization..................................Done.
+        Finalizing Model.........................................Done.
+    Maximizing one mean, homog. no transm........................Done.
+    Maximizing two means, homog. no transm....................
+        Testing Initial Value  1.................................Done.
+        Testing Initial Value  2.................................Done.
+        Testing Initial Value  3.................................Done.
+        Testing Initial Value  4.................................Done.
+        Attempting Initial Value  1..............................Done.
+        Attempting Initial Value  2..............................Done.
+        Attempting Initial Value  3..............................Done.
+        Attempting Initial Value  4..............................Done.
+      Choosing models to finalize...(keeping  4).................Done.
+        Finalizing Model  1......................................Done.
+        Finalizing Model  2......................................Done.
+        Finalizing Model  3......................................Done.
+        Finalizing Model  4......................................Done.
+      Choosing Final Estimates...................................Done.
+    Maximizing two means, homog. no transm.......................Done.
+    Maximizing two means, mendelian transm....................
+        Testing Initial Value  1.................................Done.
+        Testing Initial Value  2.................................Done.
+        Testing Initial Value  3.................................Done.
+        Testing Initial Value  4.................................Done.
+        Attempting Initial Value  1..............................Done.
+        Attempting Initial Value  2..............................Done.
+        Attempting Initial Value  3..............................Done.
+        Attempting Initial Value  4..............................Done.
+      Choosing models to finalize...(keeping  4).................Done.
+        Finalizing Model  1......................................Done.
+        Finalizing Model  2......................................Done.
+        Finalizing Model  3......................................Done.
+        Finalizing Model  4......................................Done.
+      Choosing Final Estimates...................................Done.
+    Maximizing two means, mendelian transm.......................Done.
+    Maximizing two means, homog. general transm...............
+        Testing Initial Value  1.................................Done.
+        Testing Initial Value  2.................................Done.
+        Testing Initial Value  3.................................Done.
+        Testing Initial Value  4.................................Done.
+        Testing Initial Value  5.................................Done.
+        Testing Initial Value  6.................................Done.
+        Testing Initial Value  7.................................Done.
+        Testing Initial Value  8.................................Done.
+        Attempting Initial Value  1..............................Done.
+        Attempting Initial Value  2..............................Done.
+        Attempting Initial Value  3..............................Done.
+        Attempting Initial Value  4..............................Done.
+        Attempting Initial Value  5..............................Done.
+        Attempting Initial Value  6..............................Done.
+        Attempting Initial Value  7..............................Done.
+        Attempting Initial Value  8..............................Done.
+      Choosing models to finalize...(keeping  8).................Done.
+        Finalizing Model  1......................................Done.
+        Finalizing Model  2......................................Done.
+        Finalizing Model  3......................................Done.
+        Finalizing Model  4......................................Done.
+        Finalizing Model  5......................................Done.
+        Finalizing Model  6......................................Done.
+        Finalizing Model  7......................................Done.
+        Finalizing Model  8......................................Done.
+      Choosing Final Estimates...................................Done.
+    Maximizing two means, homog. general transm..................Done.
+    Maximizing two means, tau_ab free transm..................
+        Testing Initial Value  1.................................Done.
+        Testing Initial Value  2.................................Done.
+        Testing Initial Value  3.................................Done.
+        Testing Initial Value  4.................................Done.
+        Attempting Initial Value  1..............................Done.
+        Attempting Initial Value  2..............................Done.
+        Attempting Initial Value  3..............................Done.
+        Attempting Initial Value  4..............................Done.
+      Choosing models to finalize...(keeping  4).................Done.
+        Finalizing Model  1......................................Done.
+        Finalizing Model  2......................................Done.
+        Finalizing Model  3......................................Done.
+        Finalizing Model  4......................................Done.
+      Choosing Final Estimates...................................Done.
+    Maximizing two means, tau_ab free transm.....................Done.
+    Maximizing two means, general transm......................
+        Testing Initial Value  1.................................Done.
+        Testing Initial Value  2.................................Done.
+        Attempting Initial Value  1..............................Done.
+        Attempting Initial Value  2..............................Done.
+      Choosing models to finalize...(keeping  2).................Done.
+        Finalizing Model  1......................................Done.
+        Finalizing Model  2......................................Done.
+      Choosing Final Estimates...................................Done.
+    Maximizing two means, general transm.........................Done.
+    Maximizing three means, homog. no transm..................
+        Testing Initial Value  1.................................Done.
+        Testing Initial Value  2.................................Done.
+        Testing Initial Value  3.................................Done.
+        Testing Initial Value  4.................................Done.
+        Attempting Initial Value  1..............................Done.
+        Attempting Initial Value  2..............................Done.
+        Attempting Initial Value  3..............................Done.
+        Attempting Initial Value  4..............................Done.
+      Choosing models to finalize...(keeping  2).................Done.
+        Finalizing Model  1......................................Done.
+        Finalizing Model  2......................................Done.
+      Choosing Final Estimates...................................Done.
+    Maximizing three means, homog. no transm.....................Done.
+    Maximizing three means, no transm.........................
+        Testing Initial Value  1.................................Done.
+        Testing Initial Value  2.................................Done.
+        Testing Initial Value  3.................................Done.
+        Testing Initial Value  4.................................Done.
+        Testing Initial Value  5.................................Done.
+        Attempting Initial Value  1..............................Done.
+        Attempting Initial Value  2..............................Done.
+        Attempting Initial Value  3..............................Done.
+        Attempting Initial Value  4..............................Done.
+        Attempting Initial Value  5..............................Done.
+      Choosing models to finalize...(keeping  3).................Done.
+        Finalizing Model  1......................................Done.
+        Finalizing Model  2......................................Done.
+        Finalizing Model  3......................................Done.
+      Choosing Final Estimates...................................Done.
+    Maximizing three means, no transm............................Done.
+    Maximizing three means, mendelian transm..................
+        Testing Initial Value  1.................................Done.
+        Testing Initial Value  2.................................Done.
+        Testing Initial Value  3.................................Done.
+        Testing Initial Value  4.................................Done.
+        Attempting Initial Value  1..............................Done.
+        Attempting Initial Value  2..............................Done.
+        Attempting Initial Value  3..............................Done.
+        Attempting Initial Value  4..............................Done.
+      Choosing models to finalize...(keeping  3).................Done.
+        Finalizing Model  1......................................Done.
+        Finalizing Model  2......................................Done.
+        Finalizing Model  3......................................Done.
+      Choosing Final Estimates...................................Done.
+    Maximizing three means, mendelian transm.....................Done.
+    Maximizing three means, homog. general transm.............
+        Testing Initial Value  1.................................Done.
+        Testing Initial Value  2.................................Done.
+        Testing Initial Value  3.................................Done.
+        Testing Initial Value  4.................................Done.
+        Testing Initial Value  5.................................Done.
+        Testing Initial Value  6.................................Done.
+        Testing Initial Value  7.................................Done.
+        Testing Initial Value  8.................................Done.
+        Testing Initial Value  9.................................Done.
+        Testing Initial Value 10.................................Done.
+        Testing Initial Value 11.................................Done.
+        Testing Initial Value 12.................................Done.
+        Keeping 11 of 12 initial models..........................Done.
+        Attempting Initial Value  1..............................Done.
+        Attempting Initial Value  2..............................Done.
+        Attempting Initial Value  3..............................Done.
+        Attempting Initial Value  4..............................Done.
+        Attempting Initial Value  5..............................Done.
+        Attempting Initial Value  6..............................Done.
+        Attempting Initial Value  7..............................Done.
+        Attempting Initial Value  8..............................Done.
+        Attempting Initial Value  9..............................Done.
+        Attempting Initial Value 10..............................Done.
+        Attempting Initial Value 11..............................Done.
+      Choosing models to finalize...(keeping  8).................Done.
+        Finalizing Model  1......................................Done.
+        Finalizing Model  2......................................Done.
+        Finalizing Model  3......................................Done.
+        Finalizing Model  4......................................Done.
+        Finalizing Model  5......................................Done.
+        Finalizing Model  6......................................Done.
+        Finalizing Model  7......................................Done.
+        Finalizing Model  8......................................Done.
+      Choosing Final Estimates...................................Done.
+    Maximizing three means, homog. general transm................Done.
+    Maximizing three means, tau_ab free transm................
+        Testing Initial Value  1.................................Done.
+        Testing Initial Value  2.................................Done.
+        Testing Initial Value  3.................................Done.
+        Testing Initial Value  4.................................Done.
+        Testing Initial Value  5.................................Done.
+        Testing Initial Value  6.................................Done.
+        Attempting Initial Value  1..............................Done.
+        Attempting Initial Value  2..............................Done.
+        Attempting Initial Value  3..............................Done.
+        Attempting Initial Value  4..............................Done.
+        Attempting Initial Value  5..............................Done.
+        Attempting Initial Value  6..............................Done.
+      Choosing models to finalize...(keeping  5).................Done.
+        Finalizing Model  1......................................Done.
+        Finalizing Model  2......................................Done.
+        Finalizing Model  3......................................Done.
+        Finalizing Model  4......................................Done.
+        Finalizing Model  5......................................Done.
+      Choosing Final Estimates...................................Done.
+    Maximizing three means, tau_ab free transm...................Done.
+    Maximizing three means, general transm....................
+        Testing Initial Value  1.................................Done.
+        Testing Initial Value  2.................................Done.
+        Testing Initial Value  3.................................Done.
+        Testing Initial Value  4.................................Done.
+        Testing Initial Value  5.................................Done.
+        Testing Initial Value  6.................................Done.
+        Testing Initial Value  7.................................Done.
+        Keeping  6 of  7 initial models..........................Done.
+        Attempting Initial Value  1..............................Done.
+        Attempting Initial Value  2..............................Done.
+        Attempting Initial Value  3..............................Done.
+        Attempting Initial Value  4..............................Done.
+        Attempting Initial Value  5..............................Done.
+        Attempting Initial Value  6..............................Done.
+      Choosing models to finalize...(keeping  3).................Done.
+        Finalizing Model  1......................................Done.
+        Finalizing Model  2......................................Done.
+        Finalizing Model  3......................................Done.
+      Choosing Final Estimates...................................Done.
+    Maximizing three means, general transm.......................Done.
+
+  ===========================================================================
+
+  Performing analysis: SEGREG Analysis 2
+  ===========================================================================
+
+    Setting up initial model.....................................Done.
+    Maximizing one mean.......................................
+        Testing model............................................Done.
+        Performing Maximization..................................Done.
+        Finalizing Model.........................................Done.
+    Maximizing one mean..........................................Done.
+    Maximizing two means......................................
+        Testing Initial Value  1.................................Done.
+        Testing Initial Value  2.................................Done.
+        Testing Initial Value  3.................................Done.
+        Testing Initial Value  4.................................Done.
+        Attempting Initial Value  1..............................Done.
+        Attempting Initial Value  2..............................Done.
+        Attempting Initial Value  3..............................Done.
+        Attempting Initial Value  4..............................Done.
+      Choosing models to finalize...(keeping  4).................Done.
+        Finalizing Model  1......................................Done.
+        Finalizing Model  2......................................Done.
+        Finalizing Model  3......................................Done.
+        Finalizing Model  4......................................Done.
+      Choosing Final Estimates...................................Done.
+    Maximizing two means.........................................Done.
+    Maximizing three means....................................
+        Testing Initial Value  1.................................Done.
+        Testing Initial Value  2.................................Done.
+        Testing Initial Value  3.................................Done.
+        Testing Initial Value  4.................................Done.
+        Attempting Initial Value  1..............................Done.
+        Attempting Initial Value  2..............................Done.
+        Attempting Initial Value  3..............................Done.
+        Attempting Initial Value  4..............................Done.
+      Choosing models to finalize...(keeping  4).................Done.
+        Finalizing Model  1......................................Done.
+        Finalizing Model  2......................................Done.
+        Finalizing Model  3......................................Done.
+        Finalizing Model  4......................................Done.
+      Choosing Final Estimates...................................Done.
+    Maximizing three means.......................................Done.
+
+  ===========================================================================
+
+  Performing analysis: SEGREG Analysis 3
+  ===========================================================================
+
+    Setting up initial model..................................
+      Setting to one mean........................................Done.
+    Setting up initial model.....................................Done.
+    Maximizing one mean, homog. no transm.....................
+        Testing model............................................Done.
+        Performing Maximization..................................Done.
+        Finalizing Model.........................................Done.
+    Maximizing one mean, homog. no transm........................Done.
+    Maximizing two means, homog. no transm....................
+        Testing Initial Value  1.................................Done.
+        Testing Initial Value  2.................................Done.
+        Testing Initial Value  3.................................Done.
+        Testing Initial Value  4.................................Done.
+        Attempting Initial Value  1..............................Done.
+        Attempting Initial Value  2..............................Done.
+        Attempting Initial Value  3..............................Done.
+        Attempting Initial Value  4..............................Done.
+      Choosing models to finalize...(keeping  4).................Done.
+        Finalizing Model  1......................................Done.
+        Finalizing Model  2......................................Done.
+        Finalizing Model  3......................................Done.
+        Finalizing Model  4......................................Done.
+      Choosing Final Estimates...................................Done.
+    Maximizing two means, homog. no transm.......................Done.
+    Maximizing two means, mendelian transm....................
+        Testing Initial Value  1.................................Done.
+        Testing Initial Value  2.................................Done.
+        Testing Initial Value  3.................................Done.
+        Testing Initial Value  4.................................Done.
+        Attempting Initial Value  1..............................Done.
+        Attempting Initial Value  2..............................Done.
+        Attempting Initial Value  3..............................Done.
+        Attempting Initial Value  4..............................Done.
+      Choosing models to finalize...(keeping  4).................Done.
+        Finalizing Model  1......................................Done.
+        Finalizing Model  2......................................Done.
+        Finalizing Model  3......................................Done.
+        Finalizing Model  4......................................Done.
+      Choosing Final Estimates...................................Done.
+    Maximizing two means, mendelian transm.......................Done.
+    Maximizing two means, homog. general transm...............
+        Testing Initial Value  1.................................Done.
+        Testing Initial Value  2.................................Done.
+        Testing Initial Value  3.................................Done.
+        Testing Initial Value  4.................................Done.
+        Testing Initial Value  5.................................Done.
+        Testing Initial Value  6.................................Done.
+        Testing Initial Value  7.................................Done.
+        Testing Initial Value  8.................................Done.
+        Attempting Initial Value  1..............................Done.
+        Attempting Initial Value  2..............................Done.
+        Attempting Initial Value  3..............................Done.
+        Attempting Initial Value  4..............................Done.
+        Attempting Initial Value  5..............................Done.
+        Attempting Initial Value  6..............................Done.
+        Attempting Initial Value  7..............................Done.
+        Attempting Initial Value  8..............................Done.
+      Choosing models to finalize...(keeping  8).................Done.
+        Finalizing Model  1......................................Done.
+        Finalizing Model  2......................................Done.
+        Finalizing Model  3......................................Done.
+        Finalizing Model  4......................................Done.
+        Finalizing Model  5......................................Done.
+        Finalizing Model  6......................................Done.
+        Finalizing Model  7......................................Done.
+        Finalizing Model  8......................................Done.
+      Choosing Final Estimates...................................Done.
+    Maximizing two means, homog. general transm..................Done.
+    Maximizing two means, tau_ab free transm..................
+        Testing Initial Value  1.................................Done.
+        Testing Initial Value  2.................................Done.
+        Testing Initial Value  3.................................Done.
+        Testing Initial Value  4.................................Done.
+        Attempting Initial Value  1..............................Done.
+        Attempting Initial Value  2..............................Done.
+        Attempting Initial Value  3..............................Done.
+        Attempting Initial Value  4..............................Done.
+      Choosing models to finalize...(keeping  1).................Done.
+        Finalizing Model.........................................Done.
+    Maximizing two means, tau_ab free transm.....................Done.
+    Maximizing two means, general transm......................
+        Testing Initial Value  1.................................Done.
+        Testing Initial Value  2.................................Done.
+        Attempting Initial Value  1..............................Done.
+        Attempting Initial Value  2..............................Done.
+      Choosing models to finalize...(keeping  2).................Done.
+        Finalizing Model  1......................................Done.
+        Finalizing Model  2......................................Done.
+      Choosing Final Estimates...................................Done.
+    Maximizing two means, general transm.........................Done.
+
+  ===========================================================================
+
+  Performing analysis: SEGREG Analysis 4
+  ===========================================================================
+
+    Setting up initial model..................................
+      Setting to one mean........................................Done.
+    Setting up initial model.....................................Done.
+    Maximizing one mean, homog. no transm.....................
+        Testing model............................................Done.
+        Performing Maximization..................................Done.
+        Finalizing Model.........................................Done.
+    Maximizing one mean, homog. no transm........................Done.
+    Maximizing two means, homog. no transm....................
+        Testing Initial Value  1.................................Done.
+        Testing Initial Value  2.................................Done.
+        Testing Initial Value  3.................................Done.
+        Testing Initial Value  4.................................Done.
+        Attempting Initial Value  1..............................Done.
+        Attempting Initial Value  2..............................Done.
+        Attempting Initial Value  3..............................Done.
+        Attempting Initial Value  4..............................Done.
+      Choosing models to finalize...(keeping  1).................Done.
+        Finalizing Model.........................................Done.
+    Maximizing two means, homog. no transm.......................Done.
+    Maximizing three means, homog. no transm..................
+        Testing Initial Value  1.................................Done.
+        Testing Initial Value  2.................................Done.
+        Testing Initial Value  3.................................Done.
+        Testing Initial Value  4.................................Done.
+        Attempting Initial Value  1..............................Done.
+        Attempting Initial Value  2..............................Done.
+        Attempting Initial Value  3..............................Done.
+        Attempting Initial Value  4..............................Done.
+      Choosing models to finalize...(keeping  1).................Done.
+        Finalizing Model.........................................Done.
+    Maximizing three means, homog. no transm.....................Done.
+    Maximizing two means, mendelian transm....................
+        Testing Initial Value  1.................................Done.
+        Testing Initial Value  2.................................Done.
+        Testing Initial Value  3.................................Done.
+        Testing Initial Value  4.................................Done.
+        Attempting Initial Value  1..............................Done.
+        Attempting Initial Value  2..............................Done.
+        Attempting Initial Value  3..............................Done.
+        Attempting Initial Value  4..............................Done.
+      Choosing models to finalize...(keeping  4).................Done.
+        Finalizing Model  1......................................Done.
+        Finalizing Model  2......................................Done.
+        Finalizing Model  3......................................Done.
+        Finalizing Model  4......................................Done.
+      Choosing Final Estimates...................................Done.
+    Maximizing two means, mendelian transm.......................Done.
+    Maximizing three means, mendelian transm..................
+        Testing Initial Value  1.................................Done.
+        Testing Initial Value  2.................................Done.
+        Testing Initial Value  3.................................Done.
+        Testing Initial Value  4.................................Done.
+        Attempting Initial Value  1..............................Done.
+        Attempting Initial Value  2..............................Done.
+        Attempting Initial Value  3..............................Done.
+        Attempting Initial Value  4..............................Done.
+      Choosing models to finalize...(keeping  2).................Done.
+        Finalizing Model  1......................................Done.
+        Finalizing Model  2......................................Done.
+      Choosing Final Estimates...................................Done.
+    Maximizing three means, mendelian transm.....................Done.
+    Maximizing two means, homog. general transm...............
+        Testing Initial Value  1.................................Done.
+        Testing Initial Value  2.................................Done.
+        Testing Initial Value  3.................................Done.
+        Testing Initial Value  4.................................Done.
+        Testing Initial Value  5.................................Done.
+        Testing Initial Value  6.................................Done.
+        Testing Initial Value  7.................................Done.
+        Testing Initial Value  8.................................Done.
+        Attempting Initial Value  1..............................Done.
+        Attempting Initial Value  2..............................Done.
+        Attempting Initial Value  3..............................Done.
+        Attempting Initial Value  4..............................Done.
+        Attempting Initial Value  5..............................Done.
+        Attempting Initial Value  6..............................Done.
+        Attempting Initial Value  7..............................Done.
+        Attempting Initial Value  8..............................Done.
+      Choosing models to finalize...(keeping  2).................Done.
+        Finalizing Model  1......................................Done.
+        Finalizing Model  2......................................Done.
+      Choosing Final Estimates...................................Done.
+    Maximizing two means, homog. general transm..................Done.
+    Maximizing three means, homog. general transm.............
+        Testing Initial Value  1.................................Done.
+        Testing Initial Value  2.................................Done.
+        Testing Initial Value  3.................................Done.
+        Testing Initial Value  4.................................Done.
+        Testing Initial Value  5.................................Done.
+        Testing Initial Value  6.................................Done.
+        Testing Initial Value  7.................................Done.
+        Testing Initial Value  8.................................Done.
+        Testing Initial Value  9.................................Done.
+        Testing Initial Value 10.................................Done.
+        Testing Initial Value 11.................................Done.
+        Testing Initial Value 12.................................Done.
+        Attempting Initial Value  1..............................Done.
+        Attempting Initial Value  2..............................Done.
+        Attempting Initial Value  3..............................Done.
+        Attempting Initial Value  4..............................Done.
+        Attempting Initial Value  5..............................Done.
+        Attempting Initial Value  6..............................Done.
+        Attempting Initial Value  7..............................Done.
+        Attempting Initial Value  8..............................Done.
+        Attempting Initial Value  9..............................Done.
+        Attempting Initial Value 10..............................Done.
+        Attempting Initial Value 11..............................Done.
+        Attempting Initial Value 12..............................Done.
+      Choosing models to finalize...(keeping  1).................Done.
+        Finalizing Model.........................................Done.
+    Maximizing three means, homog. general transm................Done.
+    Maximizing two means, tau_ab free transm..................
+        Testing Initial Value  1.................................Done.
+        Testing Initial Value  2.................................Done.
+        Testing Initial Value  3.................................Done.
+        Testing Initial Value  4.................................Done.
+        Attempting Initial Value  1..............................Done.
+        Attempting Initial Value  2..............................Done.
+        Attempting Initial Value  3..............................Done.
+        Attempting Initial Value  4..............................Done.
+      Choosing models to finalize...(keeping  4).................Done.
+        Finalizing Model  1......................................Done.
+        Finalizing Model  2......................................Done.
+        Finalizing Model  3......................................Done.
+        Finalizing Model  4......................................Done.
+      Choosing Final Estimates...................................Done.
+    Maximizing two means, tau_ab free transm.....................Done.
+    Maximizing three means, tau_ab free transm................
+        Testing Initial Value  1.................................Done.
+        Testing Initial Value  2.................................Done.
+        Testing Initial Value  3.................................Done.
+        Testing Initial Value  4.................................Done.
+        Testing Initial Value  5.................................Done.
+        Testing Initial Value  6.................................Done.
+        Attempting Initial Value  1..............................Done.
+        Attempting Initial Value  2..............................Done.
+        Attempting Initial Value  3..............................Done.
+        Attempting Initial Value  4..............................Done.
+        Attempting Initial Value  5..............................Done.
+        Attempting Initial Value  6..............................Done.
+      Choosing models to finalize...(keeping  2).................Done.
+        Finalizing Model  1......................................Done.
+        Finalizing Model  2......................................Done.
+      Choosing Final Estimates...................................Done.
+    Maximizing three means, tau_ab free transm...................Done.
+    Maximizing two means, general transm......................
+        Testing Initial Value  1.................................Done.
+        Testing Initial Value  2.................................Done.
+        Attempting Initial Value  1..............................Done.
+        Attempting Initial Value  2..............................Done.
+      Choosing models to finalize...(keeping  1).................Done.
+        Finalizing Model.........................................Done.
+    Maximizing two means, general transm.........................Done.
+    Maximizing three means, no transm.........................
+        Testing Initial Value  1.................................Done.
+        Testing Initial Value  2.................................Done.
+        Testing Initial Value  3.................................Done.
+        Testing Initial Value  4.................................Done.
+        Testing Initial Value  5.................................Done.
+        Attempting Initial Value  1..............................Done.
+        Attempting Initial Value  2..............................Done.
+        Attempting Initial Value  3..............................Done.
+        Attempting Initial Value  4..............................Done.
+        Attempting Initial Value  5..............................Done.
+      Choosing models to finalize...(keeping  2).................Done.
+        Finalizing Model  1......................................Done.
+        Finalizing Model  2......................................Done.
+      Choosing Final Estimates...................................Done.
+    Maximizing three means, no transm............................Done.
+    Maximizing three means, general transm....................
+        Testing Initial Value  1.................................Done.
+        Testing Initial Value  2.................................Done.
+        Testing Initial Value  3.................................Done.
+        Testing Initial Value  4.................................Done.
+        Testing Initial Value  5.................................Done.
+        Testing Initial Value  6.................................Done.
+        Testing Initial Value  7.................................Done.
+        Attempting Initial Value  1..............................Done.
+        Attempting Initial Value  2..............................Done.
+        Attempting Initial Value  3..............................Done.
+        Attempting Initial Value  4..............................Done.
+        Attempting Initial Value  5..............................Done.
+        Attempting Initial Value  6..............................Done.
+        Attempting Initial Value  7..............................Done.
+      Choosing models to finalize...(keeping  2).................Done.
+        Finalizing Model  1......................................Done.
+        Finalizing Model  2......................................Done.
+      Choosing Final Estimates...................................Done.
+    Maximizing three means, general transm.......................Done.
+
+  ===========================================================================
+
+  Performing analysis: SEGREG Analysis 5
+  ===========================================================================
+
+    Setting up initial model..................................
+      Setting to one mean........................................Done.
+      Setting to homog_no_trans..................................Done.
+    Setting up initial model.....................................Done.
+    Maximizing one mean, homog. no transm.....................
+        Testing model............................................Done.
+        Performing Maximization..................................Done.
+        Finalizing Model.........................................Done.
+    Maximizing one mean, homog. no transm........................Done.
+    Maximizing two means, homog. no transm....................
+        Testing Initial Value  1.................................Done.
+        Testing Initial Value  2.................................Done.
+        Testing Initial Value  3.................................Done.
+        Testing Initial Value  4.................................Done.
+        Testing Initial Value  5.................................Done.
+        Testing Initial Value  6.................................Done.
+        Attempting Initial Value  1..............................Done.
+        Attempting Initial Value  2..............................Done.
+        Attempting Initial Value  3..............................Done.
+        Attempting Initial Value  4..............................Done.
+        Attempting Initial Value  5..............................Done.
+        Attempting Initial Value  6..............................Done.
+      Choosing models to finalize...(keeping  1).................Done.
+        Finalizing Model.........................................Done.
+    Maximizing two means, homog. no transm.......................Done.
+    Maximizing two means, mendelian transm....................
+        Testing Initial Value  1.................................Done.
+        Testing Initial Value  2.................................Done.
+        Testing Initial Value  3.................................Done.
+        Testing Initial Value  4.................................Done.
+        Testing Initial Value  5.................................Done.
+        Testing Initial Value  6.................................Done.
+        Attempting Initial Value  1..............................Done.
+        Attempting Initial Value  2..............................Done.
+        Attempting Initial Value  3..............................Done.
+        Attempting Initial Value  4..............................Done.
+        Attempting Initial Value  5..............................Done.
+        Attempting Initial Value  6..............................Done.
+      Choosing models to finalize...(keeping  2).................Done.
+        Finalizing Model  1......................................Done.
+        Finalizing Model  2......................................Done.
+      Choosing Final Estimates...................................Done.
+    Maximizing two means, mendelian transm.......................Done.
+    Maximizing two means, homog. general transm...............
+        Testing Initial Value  1.................................Done.
+        Testing Initial Value  2.................................Done.
+        Testing Initial Value  3.................................Done.
+        Testing Initial Value  4.................................Done.
+        Testing Initial Value  5.................................Done.
+        Testing Initial Value  6.................................Done.
+        Testing Initial Value  7.................................Done.
+        Testing Initial Value  8.................................Done.
+        Attempting Initial Value  1..............................Done.
+        Attempting Initial Value  2..............................Done.
+        Attempting Initial Value  3..............................Done.
+        Attempting Initial Value  4..............................Done.
+        Attempting Initial Value  5..............................Done.
+        Attempting Initial Value  6..............................Done.
+        Attempting Initial Value  7..............................Done.
+        Attempting Initial Value  8..............................Done.
+      Choosing models to finalize...(keeping  8).................Done.
+        Finalizing Model  1......................................Done.
+        Finalizing Model  2......................................Done.
+        Finalizing Model  3......................................Done.
+        Finalizing Model  4......................................Done.
+        Finalizing Model  5......................................Done.
+        Finalizing Model  6......................................Done.
+        Finalizing Model  7......................................Done.
+        Finalizing Model  8......................................Done.
+      Choosing Final Estimates...................................Done.
+    Maximizing two means, homog. general transm..................Done.
+    Maximizing two means, tau_ab free transm..................
+        Testing Initial Value  1.................................Done.
+        Testing Initial Value  2.................................Done.
+        Testing Initial Value  3.................................Done.
+        Testing Initial Value  4.................................Done.
+        Attempting Initial Value  1..............................Done.
+        Attempting Initial Value  2..............................Done.
+        Attempting Initial Value  3..............................Done.
+        Attempting Initial Value  4..............................Done.
+      Choosing models to finalize...(keeping  4).................Done.
+        Finalizing Model  1......................................Done.
+        Finalizing Model  2......................................Done.
+        Finalizing Model  3......................................Done.
+        Finalizing Model  4......................................Done.
+      Choosing Final Estimates...................................Done.
+    Maximizing two means, tau_ab free transm.....................Done.
+    Maximizing two means, general transm......................
+        Testing Initial Value  1.................................Done.
+        Testing Initial Value  2.................................Done.
+        Attempting Initial Value  1..............................Done.
+        Attempting Initial Value  2..............................Done.
+      Choosing models to finalize...(keeping  2).................Done.
+        Finalizing Model  1......................................Done.
+        Finalizing Model  2......................................Done.
+      Choosing Final Estimates...................................Done.
+    Maximizing two means, general transm.........................Done.
+    Maximizing three means, homog. no transm..................
+        Testing Initial Value  1.................................Done.
+        Testing Initial Value  2.................................Done.
+        Testing Initial Value  3.................................Done.
+        Testing Initial Value  4.................................Done.
+        Attempting Initial Value  1..............................Done.
+        Attempting Initial Value  2..............................Done.
+        Attempting Initial Value  3..............................Done.
+        Attempting Initial Value  4..............................Done.
+      Choosing models to finalize...(keeping  4).................Done.
+        Finalizing Model  1......................................Done.
+        Finalizing Model  2......................................Done.
+        Finalizing Model  3......................................Done.
+        Finalizing Model  4......................................Done.
+      Choosing Final Estimates...................................Done.
+    Maximizing three means, homog. no transm.....................Done.
+    Maximizing three means, no transm.........................
+        Testing Initial Value  1.................................Done.
+        Testing Initial Value  2.................................Done.
+        Testing Initial Value  3.................................Done.
+        Testing Initial Value  4.................................Done.
+        Testing Initial Value  5.................................Done.
+        Attempting Initial Value  1..............................Done.
+        Attempting Initial Value  2..............................Done.
+        Attempting Initial Value  3..............................Done.
+        Attempting Initial Value  4..............................Done.
+        Attempting Initial Value  5..............................Done.
+      Choosing models to finalize...(keeping  5).................Done.
+        Finalizing Model  1......................................Done.
+        Finalizing Model  2......................................Done.
+        Finalizing Model  3......................................Done.
+        Finalizing Model  4......................................Done.
+        Finalizing Model  5......................................Done.
+      Choosing Final Estimates...................................Done.
+    Maximizing three means, no transm............................Done.
+    Maximizing three means, mendelian transm..................
+        Testing Initial Value  1.................................Done.
+        Testing Initial Value  2.................................Done.
+        Testing Initial Value  3.................................Done.
+        Testing Initial Value  4.................................Done.
+        Attempting Initial Value  1..............................Done.
+        Attempting Initial Value  2..............................Done.
+        Attempting Initial Value  3..............................Done.
+        Attempting Initial Value  4..............................Done.
+      Choosing models to finalize...(keeping  3).................Done.
+        Finalizing Model  1......................................Done.
+        Finalizing Model  2......................................Done.
+        Finalizing Model  3......................................Done.
+      Choosing Final Estimates...................................Done.
+    Maximizing three means, mendelian transm.....................Done.
+    Maximizing three means, homog. general transm.............
+        Testing Initial Value  1.................................Done.
+        Testing Initial Value  2.................................Done.
+        Testing Initial Value  3.................................Done.
+        Testing Initial Value  4.................................Done.
+        Testing Initial Value  5.................................Done.
+        Testing Initial Value  6.................................Done.
+        Testing Initial Value  7.................................Done.
+        Testing Initial Value  8.................................Done.
+        Testing Initial Value  9.................................Done.
+        Testing Initial Value 10.................................Done.
+        Testing Initial Value 11.................................Done.
+        Testing Initial Value 12.................................Done.
+        Attempting Initial Value  1..............................Done.
+        Attempting Initial Value  2..............................Done.
+        Attempting Initial Value  3..............................Done.
+        Attempting Initial Value  4..............................Done.
+        Attempting Initial Value  5..............................Done.
+        Attempting Initial Value  6..............................Done.
+        Attempting Initial Value  7..............................Done.
+        Attempting Initial Value  8..............................Done.
+        Attempting Initial Value  9..............................Done.
+        Attempting Initial Value 10..............................Done.
+        Attempting Initial Value 11..............................Done.
+        Attempting Initial Value 12..............................Done.
+      Choosing models to finalize...(keeping 12).................Done.
+        Finalizing Model  1......................................Done.
+        Finalizing Model  2......................................Done.
+        Finalizing Model  3......................................Done.
+        Finalizing Model  4......................................Done.
+        Finalizing Model  5......................................Done.
+        Finalizing Model  6......................................Done.
+        Finalizing Model  7......................................Done.
+        Finalizing Model  8......................................Done.
+        Finalizing Model  9......................................Done.
+        Finalizing Model 10......................................Done.
+        Finalizing Model 11......................................Done.
+        Finalizing Model 12......................................Done.
+      Choosing Final Estimates...................................Done.
+    Maximizing three means, homog. general transm................Done.
+    Maximizing three means, tau_ab free transm................
+        Testing Initial Value  1.................................Done.
+        Testing Initial Value  2.................................Done.
+        Testing Initial Value  3.................................Done.
+        Testing Initial Value  4.................................Done.
+        Testing Initial Value  5.................................Done.
+        Testing Initial Value  6.................................Done.
+        Attempting Initial Value  1..............................Done.
+        Attempting Initial Value  2..............................Done.
+        Attempting Initial Value  3..............................Done.
+        Attempting Initial Value  4..............................Done.
+        Attempting Initial Value  5..............................Done.
+        Attempting Initial Value  6..............................Done.
+      Choosing models to finalize...(keeping  6).................Done.
+        Finalizing Model  1......................................Done.
+        Finalizing Model  2......................................Done.
+        Finalizing Model  3......................................Done.
+        Finalizing Model  4......................................Done.
+        Finalizing Model  5......................................Done.
+        Finalizing Model  6......................................Done.
+      Choosing Final Estimates...................................Done.
+    Maximizing three means, tau_ab free transm...................Done.
+    Maximizing three means, general transm....................
+        Testing Initial Value  1.................................Done.
+        Testing Initial Value  2.................................Done.
+        Testing Initial Value  3.................................Done.
+        Testing Initial Value  4.................................Done.
+        Testing Initial Value  5.................................Done.
+        Testing Initial Value  6.................................Done.
+        Testing Initial Value  7.................................Done.
+        Attempting Initial Value  1..............................Done.
+        Attempting Initial Value  2..............................Done.
+        Attempting Initial Value  3..............................Done.
+        Attempting Initial Value  4..............................Done.
+        Attempting Initial Value  5..............................Done.
+        Attempting Initial Value  6..............................Done.
+        Attempting Initial Value  7..............................Done.
+      Choosing models to finalize...(keeping  5).................Done.
+        Finalizing Model  1......................................Done.
+        Finalizing Model  2......................................Done.
+        Finalizing Model  3......................................Done.
+        Finalizing Model  4......................................Done.
+        Finalizing Model  5......................................Done.
+      Choosing Final Estimates...................................Done.
+    Maximizing three means, general transm.......................Done.
+
+  ===========================================================================
+
+  Performing analysis: SEGREG Analysis 6
+  ===========================================================================
+
+    Setting up initial model.....................................Done.
+    Maximizing one mean.......................................
+        Testing model............................................Done.
+        Performing Maximization..................................Done.
+        Finalizing Model.........................................Done.
+    Maximizing one mean..........................................Done.
+    Maximizing two means......................................
+        Testing Initial Value  1.................................Done.
+        Testing Initial Value  2.................................Done.
+        Testing Initial Value  3.................................Done.
+        Testing Initial Value  4.................................Done.
+        Testing Initial Value  5.................................Done.
+        Testing Initial Value  6.................................Done.
+        Attempting Initial Value  1..............................Done.
+        Attempting Initial Value  2..............................Done.
+        Attempting Initial Value  3..............................Done.
+        Attempting Initial Value  4..............................Done.
+        Attempting Initial Value  5..............................Done.
+        Attempting Initial Value  6..............................Done.
+      Choosing models to finalize...(keeping  6).................Done.
+        Finalizing Model  1......................................Done.
+        Finalizing Model  2......................................Done.
+        Finalizing Model  3......................................Done.
+        Finalizing Model  4......................................Done.
+        Finalizing Model  5......................................Done.
+        Finalizing Model  6......................................Done.
+      Choosing Final Estimates...................................Done.
+    Maximizing two means.........................................Done.
+    Maximizing three means....................................
+        Testing Initial Value  1.................................Done.
+        Testing Initial Value  2.................................Done.
+        Testing Initial Value  3.................................Done.
+        Testing Initial Value  4.................................Done.
+        Attempting Initial Value  1..............................Done.
+        Attempting Initial Value  2..............................Done.
+        Attempting Initial Value  3..............................Done.
+        Attempting Initial Value  4..............................Done.
+      Choosing models to finalize...(keeping  4).................Done.
+        Finalizing Model  1......................................Done.
+        Finalizing Model  2......................................Done.
+        Finalizing Model  3......................................Done.
+        Finalizing Model  4......................................Done.
+      Choosing Final Estimates...................................Done.
+    Maximizing three means.......................................Done.
+
+  ===========================================================================
+
+  Performing analysis: SEGREG Analysis 7
+  ===========================================================================
+
+    Setting up initial model..................................
+      Setting to one mean........................................Done.
+    Setting up initial model.....................................Done.
+    Maximizing one mean, homog. no transm.....................
+        Testing model............................................Done.
+        Performing Maximization..................................Done.
+        Finalizing Model.........................................Done.
+    Maximizing one mean, homog. no transm........................Done.
+    Maximizing two means, homog. no transm....................
+        Testing Initial Value  1.................................Done.
+        Testing Initial Value  2.................................Done.
+        Testing Initial Value  3.................................Done.
+        Testing Initial Value  4.................................Done.
+        Testing Initial Value  5.................................Done.
+        Testing Initial Value  6.................................Done.
+        Attempting Initial Value  1..............................Done.
+        Attempting Initial Value  2..............................Done.
+        Attempting Initial Value  3..............................Done.
+        Attempting Initial Value  4..............................Done.
+        Attempting Initial Value  5..............................Done.
+        Attempting Initial Value  6..............................Done.
+      Choosing models to finalize...(keeping  6).................Done.
+        Finalizing Model  1......................................Done.
+        Finalizing Model  2......................................Done.
+        Finalizing Model  3......................................Done.
+        Finalizing Model  4......................................Done.
+        Finalizing Model  5......................................Done.
+        Finalizing Model  6......................................Done.
+      Choosing Final Estimates...................................Done.
+    Maximizing two means, homog. no transm.......................Done.
+    Maximizing two means, mendelian transm....................
+        Testing Initial Value  1.................................Done.
+        Testing Initial Value  2.................................Done.
+        Testing Initial Value  3.................................Done.
+        Testing Initial Value  4.................................Done.
+        Testing Initial Value  5.................................Done.
+        Testing Initial Value  6.................................Done.
+        Attempting Initial Value  1..............................Done.
+        Attempting Initial Value  2..............................Done.
+        Attempting Initial Value  3..............................Done.
+        Attempting Initial Value  4..............................Done.
+        Attempting Initial Value  5..............................Done.
+        Attempting Initial Value  6..............................Done.
+      Choosing models to finalize...(keeping  6).................Done.
+        Finalizing Model  1......................................Done.
+        Finalizing Model  2......................................Done.
+        Finalizing Model  3......................................Done.
+        Finalizing Model  4......................................Done.
+        Finalizing Model  5......................................Done.
+        Finalizing Model  6......................................Done.
+      Choosing Final Estimates...................................Done.
+    Maximizing two means, mendelian transm.......................Done.
+    Maximizing two means, homog. general transm...............
+        Testing Initial Value  1.................................Done.
+        Testing Initial Value  2.................................Done.
+        Testing Initial Value  3.................................Done.
+        Testing Initial Value  4.................................Done.
+        Testing Initial Value  5.................................Done.
+        Testing Initial Value  6.................................Done.
+        Testing Initial Value  7.................................Done.
+        Testing Initial Value  8.................................Done.
+        Attempting Initial Value  1..............................Done.
+        Attempting Initial Value  2..............................Done.
+        Attempting Initial Value  3..............................Done.
+        Attempting Initial Value  4..............................Done.
+        Attempting Initial Value  5..............................Done.
+        Attempting Initial Value  6..............................Done.
+        Attempting Initial Value  7..............................Done.
+        Attempting Initial Value  8..............................Done.
+      Choosing models to finalize...(keeping  8).................Done.
+        Finalizing Model  1......................................Done.
+        Finalizing Model  2......................................Done.
+        Finalizing Model  3......................................Done.
+        Finalizing Model  4......................................Done.
+        Finalizing Model  5......................................Done.
+        Finalizing Model  6......................................Done.
+        Finalizing Model  7......................................Done.
+        Finalizing Model  8......................................Done.
+      Choosing Final Estimates...................................Done.
+    Maximizing two means, homog. general transm..................Done.
+    Maximizing two means, tau_ab free transm..................
+        Testing Initial Value  1.................................Done.
+        Testing Initial Value  2.................................Done.
+        Testing Initial Value  3.................................Done.
+        Testing Initial Value  4.................................Done.
+        Attempting Initial Value  1..............................Done.
+        Attempting Initial Value  2..............................Done.
+        Attempting Initial Value  3..............................Done.
+        Attempting Initial Value  4..............................Done.
+      Choosing models to finalize...(keeping  4).................Done.
+        Finalizing Model  1......................................Done.
+        Finalizing Model  2......................................Done.
+        Finalizing Model  3......................................Done.
+        Finalizing Model  4......................................Done.
+      Choosing Final Estimates...................................Done.
+    Maximizing two means, tau_ab free transm.....................Done.
+    Maximizing two means, general transm......................
+        Testing Initial Value  1.................................Done.
+        Testing Initial Value  2.................................Done.
+        Attempting Initial Value  1..............................Done.
+        Attempting Initial Value  2..............................Done.
+      Choosing models to finalize...(keeping  2).................Done.
+        Finalizing Model  1......................................Done.
+        Finalizing Model  2......................................Done.
+      Choosing Final Estimates...................................Done.
+    Maximizing two means, general transm.........................Done.
+
+  ===========================================================================
+
+  Performing analysis: SEGREG Analysis 8
+  ===========================================================================
+
+    Setting up initial model..................................
+      Setting to one mean........................................Done.
+    Setting up initial model.....................................Done.
+    Maximizing one mean, homog. no transm.....................
+        Testing model............................................Done.
+        Performing Maximization..................................Done.
+        Finalizing Model.........................................Done.
+    Maximizing one mean, homog. no transm........................Done.
+    Maximizing two means, homog. no transm....................
+        Testing Initial Value  1.................................Done.
+        Testing Initial Value  2.................................Done.
+        Testing Initial Value  3.................................Done.
+        Testing Initial Value  4.................................Done.
+        Testing Initial Value  5.................................Done.
+        Testing Initial Value  6.................................Done.
+        Attempting Initial Value  1..............................Done.
+        Attempting Initial Value  2..............................Done.
+        Attempting Initial Value  3..............................Done.
+        Attempting Initial Value  4..............................Done.
+        Attempting Initial Value  5..............................Done.
+        Attempting Initial Value  6..............................Done.
+      Choosing models to finalize...(keeping  6).................Done.
+        Finalizing Model  1......................................Done.
+        Finalizing Model  2......................................Done.
+        Finalizing Model  3......................................Done.
+        Finalizing Model  4......................................Done.
+        Finalizing Model  5......................................Done.
+        Finalizing Model  6......................................Done.
+      Choosing Final Estimates...................................Done.
+    Maximizing two means, homog. no transm.......................Done.
+    Maximizing three means, homog. no transm..................
+        Testing Initial Value  1.................................Done.
+        Testing Initial Value  2.................................Done.
+        Testing Initial Value  3.................................Done.
+        Testing Initial Value  4.................................Done.
+        Keeping  3 of  4 initial models..........................Done.
+        Attempting Initial Value  1..............................Done.
+        Attempting Initial Value  2..............................Done.
+        Attempting Initial Value  3..............................Done.
+      Choosing models to finalize...(keeping  3).................Done.
+        Finalizing Model  1......................................Done.
+        Finalizing Model  2......................................Done.
+        Finalizing Model  3......................................Done.
+      Choosing Final Estimates...................................Done.
+    Maximizing three means, homog. no transm.....................Done.
+    Maximizing two means, mendelian transm....................
+        Testing Initial Value  1.................................Done.
+        Testing Initial Value  2.................................Done.
+        Testing Initial Value  3.................................Done.
+        Testing Initial Value  4.................................Done.
+        Testing Initial Value  5.................................Done.
+        Testing Initial Value  6.................................Done.
+        Attempting Initial Value  1..............................Done.
+        Attempting Initial Value  2..............................Done.
+        Attempting Initial Value  3..............................Done.
+        Attempting Initial Value  4..............................Done.
+        Attempting Initial Value  5..............................Done.
+        Attempting Initial Value  6..............................Done.
+      Choosing models to finalize...(keeping  1).................Done.
+        Finalizing Model.........................................Done.
+    Maximizing two means, mendelian transm.......................Done.
+    Maximizing three means, mendelian transm..................
+        Testing Initial Value  1.................................Done.
+        Testing Initial Value  2.................................Done.
+        Testing Initial Value  3.................................Done.
+        Testing Initial Value  4.................................Done.
+        Attempting Initial Value  1..............................Done.
+        Attempting Initial Value  2..............................Done.
+        Attempting Initial Value  3..............................Done.
+        Attempting Initial Value  4..............................Done.
+      Choosing models to finalize...(keeping  3).................Done.
+        Finalizing Model  1......................................Done.
+        Finalizing Model  2......................................Done.
+        Finalizing Model  3......................................Done.
+      Choosing Final Estimates...................................Done.
+    Maximizing three means, mendelian transm.....................Done.
+    Maximizing two means, homog. general transm...............
+        Testing Initial Value  1.................................Done.
+        Testing Initial Value  2.................................Done.
+        Testing Initial Value  3.................................Done.
+        Testing Initial Value  4.................................Done.
+        Testing Initial Value  5.................................Done.
+        Testing Initial Value  6.................................Done.
+        Testing Initial Value  7.................................Done.
+        Testing Initial Value  8.................................Done.
+        Attempting Initial Value  1..............................Done.
+        Attempting Initial Value  2..............................Done.
+        Attempting Initial Value  3..............................Done.
+        Attempting Initial Value  4..............................Done.
+        Attempting Initial Value  5..............................Done.
+        Attempting Initial Value  6..............................Done.
+        Attempting Initial Value  7..............................Done.
+        Attempting Initial Value  8..............................Done.
+      Choosing models to finalize...(keeping  4).................Done.
+        Finalizing Model  1......................................Done.
+        Finalizing Model  2......................................Done.
+        Finalizing Model  3......................................Done.
+        Finalizing Model  4......................................Done.
+      Choosing Final Estimates...................................Done.
+    Maximizing two means, homog. general transm..................Done.
+    Maximizing three means, homog. general transm.............
+        Testing Initial Value  1.................................Done.
+        Testing Initial Value  2.................................Done.
+        Testing Initial Value  3.................................Done.
+        Testing Initial Value  4.................................Done.
+        Testing Initial Value  5.................................Done.
+        Testing Initial Value  6.................................Done.
+        Testing Initial Value  7.................................Done.
+        Testing Initial Value  8.................................Done.
+        Testing Initial Value  9.................................Done.
+        Testing Initial Value 10.................................Done.
+        Testing Initial Value 11.................................Done.
+        Testing Initial Value 12.................................Done.
+        Attempting Initial Value  1..............................Done.
+        Attempting Initial Value  2..............................Done.
+        Attempting Initial Value  3..............................Done.
+        Attempting Initial Value  4..............................Done.
+        Attempting Initial Value  5..............................Done.
+        Attempting Initial Value  6..............................Done.
+        Attempting Initial Value  7..............................Done.
+        Attempting Initial Value  8..............................Done.
+        Attempting Initial Value  9..............................Done.
+        Attempting Initial Value 10..............................Done.
+        Attempting Initial Value 11..............................Done.
+        Attempting Initial Value 12..............................Done.
+      Choosing models to finalize...(keeping  9).................Done.
+        Finalizing Model  1......................................Done.
+        Finalizing Model  2......................................Done.
+        Finalizing Model  3......................................Done.
+        Finalizing Model  4......................................Done.
+        Finalizing Model  5......................................Done.
+        Finalizing Model  6......................................Done.
+        Finalizing Model  7......................................Done.
+        Finalizing Model  8......................................Done.
+        Finalizing Model  9......................................Done.
+      Choosing Final Estimates...................................Done.
+    Maximizing three means, homog. general transm................Done.
+    Maximizing two means, tau_ab free transm..................
+        Testing Initial Value  1.................................Done.
+        Testing Initial Value  2.................................Done.
+        Testing Initial Value  3.................................Done.
+        Testing Initial Value  4.................................Done.
+        Attempting Initial Value  1..............................Done.
+        Attempting Initial Value  2..............................Done.
+        Attempting Initial Value  3..............................Done.
+        Attempting Initial Value  4..............................Done.
+      Choosing models to finalize...(keeping  2).................Done.
+        Finalizing Model  1......................................Done.
+        Finalizing Model  2......................................Done.
+      Choosing Final Estimates...................................Done.
+    Maximizing two means, tau_ab free transm.....................Done.
+    Maximizing three means, tau_ab free transm................
+        Testing Initial Value  1.................................Done.
+        Testing Initial Value  2.................................Done.
+        Testing Initial Value  3.................................Done.
+        Testing Initial Value  4.................................Done.
+        Testing Initial Value  5.................................Done.
+        Testing Initial Value  6.................................Done.
+        Attempting Initial Value  1..............................Done.
+        Attempting Initial Value  2..............................Done.
+        Attempting Initial Value  3..............................Done.
+        Attempting Initial Value  4..............................Done.
+        Attempting Initial Value  5..............................Done.
+        Attempting Initial Value  6..............................Done.
+      Choosing models to finalize...(keeping  5).................Done.
+        Finalizing Model  1......................................Done.
+        Finalizing Model  2......................................Done.
+        Finalizing Model  3......................................Done.
+        Finalizing Model  4......................................Done.
+        Finalizing Model  5......................................Done.
+      Choosing Final Estimates...................................Done.
+    Maximizing three means, tau_ab free transm...................Done.
+    Maximizing two means, general transm......................
+        Testing Initial Value  1.................................Done.
+        Testing Initial Value  2.................................Done.
+        Attempting Initial Value  1..............................Done.
+        Attempting Initial Value  2..............................Done.
+      Choosing models to finalize...(keeping  2).................Done.
+        Finalizing Model  1......................................Done.
+        Finalizing Model  2......................................Done.
+      Choosing Final Estimates...................................Done.
+    Maximizing two means, general transm.........................Done.
+    Maximizing three means, no transm.........................
+        Testing Initial Value  1.................................Done.
+        Testing Initial Value  2.................................Done.
+        Testing Initial Value  3.................................Done.
+        Testing Initial Value  4.................................Done.
+        Testing Initial Value  5.................................Done.
+        Keeping  4 of  5 initial models..........................Done.
+        Attempting Initial Value  1..............................Done.
+        Attempting Initial Value  2..............................Done.
+        Attempting Initial Value  3..............................Done.
+        Attempting Initial Value  4..............................Done.
+      Choosing models to finalize...(keeping  4).................Done.
+        Finalizing Model  1......................................Done.
+        Finalizing Model  2......................................Done.
+        Finalizing Model  3......................................Done.
+        Finalizing Model  4......................................Done.
+      Choosing Final Estimates...................................Done.
+    Maximizing three means, no transm............................Done.
+    Maximizing three means, general transm....................
+        Testing Initial Value  1.................................Done.
+        Testing Initial Value  2.................................Done.
+        Testing Initial Value  3.................................Done.
+        Testing Initial Value  4.................................Done.
+        Testing Initial Value  5.................................Done.
+        Testing Initial Value  6.................................Done.
+        Testing Initial Value  7.................................Done.
+        Attempting Initial Value  1..............................Done.
+        Attempting Initial Value  2..............................Done.
+        Attempting Initial Value  3..............................Done.
+        Attempting Initial Value  4..............................Done.
+        Attempting Initial Value  5..............................Done.
+        Attempting Initial Value  6..............................Done.
+        Attempting Initial Value  7..............................Done.
+      Choosing models to finalize...(keeping  5).................Done.
+        Finalizing Model  1......................................Done.
+        Finalizing Model  2......................................Done.
+        Finalizing Model  3......................................Done.
+        Finalizing Model  4......................................Done.
+        Finalizing Model  5......................................Done.
+      Choosing Final Estimates...................................Done.
+    Maximizing three means, general transm.......................Done.
+
+  ===========================================================================
+

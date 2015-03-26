@@ -1,0 +1,50 @@
+marker
+{
+  allele_missing=0
+}
+
+pedigree
+{
+   delimiter_mode = multiple
+   delimiters=" "
+   individual_missing_value="0"
+   sex_code, male="M", female="F", trait
+
+   pedigree_id   = pedid
+   individual_id = id
+   parent_id     = mom
+   parent_id     = dad
+   sex_field     = s
+
+   trait=alc, binary, affected="1", unaffected="3"
+   trait=t1, missing = "0"
+
+   allele="D3S1297a", name = D3S1297
+   allele="D3S1297b", name = D3S1297
+}
+
+
+#parameters for GEN_IBD
+
+ibd_analysis, out="single" 
+{
+  mode=singlepoint
+  use_simulation=false
+#  scan_type=intervals
+  region=chr3
+#   distance = "3.0"
+}
+
+sibpal
+{
+  trait_regression, single
+  {
+    trait = alc, mean=blup
+    regression_method=w4
+    use_pairs=both
+    export_out = true
+    print_correlation_matrix = D3S1297
+    print_design_matrix = D3S1297, rows=all
+    dump_data = D3S1297
+  }
+}

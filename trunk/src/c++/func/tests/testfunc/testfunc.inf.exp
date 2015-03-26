@@ -1,0 +1,70 @@
+
+Family structure information on the first 10 individuals read from file: myped1
+
+     PED. ID       IND. ID       SEX       PARENT1       PARENT2     
+     ------------  ------------  --------  ------------  ------------
+     1             1             F                                   
+     1             2             M                                   
+     1             3             M         1             2           
+     1             4             F         1             2           
+     1             5             M                                   
+     1             6             F         4             5           
+
+
+Phenotypes for the first 10 individuals read from file: myped1
+
+     PED. ID       IND. ID       SEX_CODE              FAMILIAL_INDICATOR    FOUNDER_INDICATOR     PEDIGREE_SIZE         disease               HEMATOCRIT          
+     ------------  ------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------
+     1             1             1                     1                     1                     6                     1                     30                  
+     1             2             0                     1                     1                     6                     0                     40                  
+     1             3             0                     1                     0                     6                     0                     27.1                
+     1             4             1                     1                     0                     6                     1                     39                  
+     1             5             0                     1                     1                     6                     0                                         
+     1             6             1                     1                     0                     6                     1                     41.1                
+
+%TESTFUNC-Error:Function block expression, 'dom(LOC1, A')', contains a syntax
+                error, an ambiguous name (used for both a trait and a marker),
+                or a name beginning with an underscore.  Function parameter
+                ignored.
+%TESTFUNC-Error:Function block constant expression, 'C *** 3', not understood. 
+                Function parameter ignored.
+%TESTFUNC-Error:Function block constant expression, 'sqrt(-72)', not understood
+                .  Function parameter ignored.
+%TESTFUNC-Error:Invalid parameter in function block, ''.
+                Parameter ignored.
+%TESTFUNC-Error:Function block parameter is missing a variable name and/or
+                expression. Function parameter ignored.
+%TESTFUNC-Error:More than one function block parameter from the group: trait,
+                covariate, or phenotype was found.
+                Duplicate parameter ignored.
+%TESTFUNC-Error:Name for new variable 'x', in function block is that of an
+                existing variable, Function parameter ignored.
+%TESTFUNC-Error:Invalid parameter in function block, 'six'.
+                Parameter ignored.
+%TESTFUNC-Error:No name given for function block parameter, 'constant'.
+                Parameter ignored.
+%TESTFUNC-Error:No expression given for function block parameter, 'constant'.
+                Parameter ignored.
+%TESTFUNC-Error:No name given for function block parameter, 'TRAIT'.
+                Parameter ignored.
+%TESTFUNC-Error:No expression given for function block parameter, 'TRAIT'.
+                Parameter ignored.
+%TESTFUNC-Error:More than one function block parameter from the group: trait,
+                covariate, or phenotype was found.
+                Duplicate parameter ignored.
+%TESTFUNC-Error:More than one function block parameter from the group: trait,
+                covariate, or phenotype was found.
+                Duplicate parameter ignored.
+%TESTFUNC-Error:More than one function block parameter from the group: trait,
+                covariate, or phenotype was found.
+                Duplicate parameter ignored.
+%TESTFUNC-Error:More than one function block parameter from the group: trait,
+                covariate, or phenotype was found.
+                Duplicate parameter ignored.
+%TESTFUNC-Warning:Invalid value for function block parameter, 'time limit'. 
+                  Default value of 30 used.
+%TESTFUNC-Error:Function block parameter is missing a variable name and/or
+                expression. Function parameter ignored.
+%TESTFUNC-Error:Could not evaluate function block expression 'hematocrit / 0'
+                for one or more individuals.  Missing value(s) generated.
+%TESTFUNC-Error:

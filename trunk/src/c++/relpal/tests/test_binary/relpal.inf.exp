@@ -1,0 +1,103 @@
+
+
+
+
+Family structure information on the first 20 individuals read from file: ped
+
+     PED. ID       IND. ID       SEX       PARENT1       PARENT2     
+     ------------  ------------  --------  ------------  ------------
+     1             1             1         0             0           
+     1             2             0         1             3           
+     1             3             0         0             0           
+     1             4             1         1             3           
+     1             5             0         1             3           
+     2             1             1         0             0           
+     2             2             0         0             0           
+     2             3             1         1             2           
+     2             4             0         0             0           
+     2             5             0         1             4           
+     3             1             1         0             0           
+     3             2             0         0             0           
+     3             3             1         1             6           
+     3             4             1         1             2           
+     3             6             0         0             0           
+     4             1             1         0             0           
+     4             2             0         0             0           
+     4             3             0         2             5           
+     4             4             0         1             2           
+     4             5             1         0             0           
+
+
+Phenotypes for the first 20 individuals read from file: ped
+
+     PED. ID       IND. ID       SEX_CODE              FAMILIAL_INDICATOR    FOUNDER_INDICATOR     PEDIGREE_SIZE         halfsib               age                   aff                   ATA103C06_ADD_245     ATA34E08_ADD_161      JPTCODE             
+     ------------  ------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------
+     1             1             0                     1                     1                     5                     0                     999                   999                   ?                     ?                     0                   
+     1             2             1                     1                     0                     5                     0                     35                    1                     0                     1                     20009               
+     1             3             1                     1                     1                     5                     0                     75                    999                   1                     1                     71849               
+     1             4             0                     1                     0                     5                     0                     50                    1                     0                     1                     20300               
+     1             5             1                     1                     0                     5                     0                     42                    0                     1                     2                     20229               
+     2             1             0                     1                     1                     5                     0                     999                   999                   ?                     ?                     0                   
+     2             2             1                     1                     1                     5                     0                     999                   999                   ?                     ?                     0                   
+     2             3             0                     1                     0                     5                     1                     37                    1                     0                     1                     72818               
+     2             4             1                     1                     1                     5                     0                     55                    999                   1                     2                     71796               
+     2             5             1                     1                     0                     5                     0                     35                    1                     1                     2                     71784               
+     3             1             0                     1                     1                     5                     0                     999                   999                   ?                     ?                     0                   
+     3             2             1                     1                     1                     5                     0                     999                   999                   ?                     ?                     0                   
+     3             3             0                     1                     0                     5                     1                     39                    1                     0                     1                     71580               
+     3             4             0                     1                     0                     5                     0                     46                    1                     1                     2                     71760               
+     3             6             1                     1                     1                     5                     0                     999                   999                   ?                     ?                     0                   
+     4             1             0                     1                     1                     5                     0                     999                   999                   ?                     ?                     0                   
+     4             2             1                     1                     1                     5                     0                     999                   999                   ?                     ?                     0                   
+     4             3             1                     1                     0                     5                     1                     46                    1                     0                     1                     19768               
+     4             4             1                     1                     0                     5                     0                     47                    1                     1                     1                     71740               
+     4             5             0                     1                     1                     5                     0                     0                     999                   ?                     ?                     0                   
+
+%RELPAL-W: Unconnected individuals detected in pedigree '183'.  This may not be
+           intended.  Results may be incorrect.
+
+RELPAL analysis.......1  
+
+
+=================================
+  Relpal Analysis Specification  
+=================================
+
+model: multiple traits, zero marker
+
+trait:
+   trait 1: aff
+   trait 2: SEX_CODE
+   trait 3: halfsib
+
+first_level:
+  batch covariate 1: age, adj_t = all
+  batch covariate 2: ATA103C06_ADD_245, adj_t = all
+  batch covariate 3: ATA34E08_ADD_161, adj_t = all
+
+transform residuals from 1st level to 2nd level
+
+second_level:
+
+data options:
+  use_members = every
+  use_pairs = both sib
+
+output options:
+  detailed_out = yes
+  export_out = yes
+  data_out = no
+  debug_out = no
+  residual_out = no
+
+asymptotic pvalue options:
+  seed = 0
+  replicates = 0
+  min_replicates = 20
+  max_replicates = 10000
+  threshold = 0.05
+  width = 0.2
+  confidence = 0.95
+
+
+%RELPAL-W: May not be fully converged!

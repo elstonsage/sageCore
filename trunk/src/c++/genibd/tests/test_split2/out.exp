@@ -1,0 +1,58 @@
+
+
+
+Reading Parameter File....................done.
+Reading Marker Locus Description File.....done.
+Reading Pedigree File.....................
+              from ped....................done.
+Sorting Pedigrees.........................done.
+Reading Genome Description File...........done.
+
+GENIBD analysis.......  1
+
+===========================================================================
+multi : Multipoint analysis on region (CH_17):
+        * - Including intervals.
+        * - Maximum size for exact method is set to 18.
+===========================================================================
+
+  Processing Region: CH_17
+  =======================================
+
+  multi: Pedigree 2
+
+    Subpedigree 1 of pedigree '2' : founders (100011, 100012)
+
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+    Subpedigree 2 of pedigree '2' : founders (101431, 101432)
+
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+  multi: Pedigree 113
+
+    Subpedigree 1 of pedigree '113' : founders (101876, 101877)
+
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+    Subpedigree 2 of pedigree '113' : founders (101921, 101922)
+
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+
+Analysis complete!
+
+
+

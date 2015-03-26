@@ -1,0 +1,53 @@
+pedigree
+{
+   delimiter_mode = multiple
+   delimiters=" "
+   individual_missing_value="0"
+   sex_code,male="M",female="F",unknown="?"
+
+   pedigree_id=PED
+   individual_id=IND
+   parent_id=MOTH
+   parent_id=FATH
+   sex_field=SEX
+
+  trait=AGE,missing=-1
+  trait=AFFECTION,missing=9,binary,affected=1,unaffected=0
+
+  trait=TRAIT,missing=-1
+  covariate=COV,missing=9,binary,affected=1,unaffected=0
+}
+
+segreg_analysis # one suscept, no covariates
+{
+  trait=AFFECTION
+
+  type_suscept
+  {
+    option=one
+    suscept="AA",val=3
+  }
+  suscept_cov
+  {
+    covariate=COV
+  }
+}
+
+segreg_analysis # one suscept, no covariates
+{
+  trait=AFFECTION
+
+  type_suscept
+  {
+    option=one
+    suscept="AA",val=3
+  }
+  suscept_cov
+  {
+    covariate=COV
+  }
+  resid
+  {
+    option=arb
+  }
+}

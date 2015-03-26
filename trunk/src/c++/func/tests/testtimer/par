@@ -1,0 +1,25 @@
+pedigree
+{
+  pedigree_id=PID
+  individual_id=ID
+  sex_field=SEX
+  parent_id=P1
+  parent_id=P2
+  trait=disease, affected=1, unaffected=0
+  trait="HEMATOCRIT"
+  marker=LOC1
+}
+
+pedinfo
+{
+
+}
+
+function
+{
+  time_limit=1
+
+  constant=k, expression="200L ** 100000L"
+  trait=x, expression="2 * HEMATOCRIT"
+}
+

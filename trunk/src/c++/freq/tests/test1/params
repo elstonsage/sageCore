@@ -1,0 +1,25 @@
+pedigree,column
+{
+  format="(2A6,5X,A1,2A6,T36,F1.0,T38,14A4)"
+  individual_missing_value="0"
+  sex_code,missing="?",male="1",female="2"
+  trait="Trait1",binary,affected="2",unaffected="1",missing=" "
+  marker=m1
+  marker=m2
+  marker=m3
+  marker=m4
+  marker=m5
+  marker=m6
+  marker=m7
+  marker=m8
+  marker=m9
+  marker=m10
+  marker=m11
+  marker=m12
+  marker=m13
+  marker=m14
+}
+
+freq{  founder_weight=0.5; }
+freq{  founder_weight=0.0; }
+freq{  founder_weight=none;}

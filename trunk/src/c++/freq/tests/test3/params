@@ -1,0 +1,45 @@
+pedigree
+{
+  delimiters=" "
+  delimiter_mode=multiple
+
+  # Field encoding parameters
+
+  individual_missing_value="0"
+  sex_code,male="1",female="2",unknown="?"
+
+  # Field specification: maps the field name to the field's use.
+
+  # Family Structure fields.
+  pedigree_id=PID
+  individual_id=ID
+  parent_id=DAD
+  parent_id=MOM
+  sex_field=SEX
+
+  marker=G1,name=D5G1
+  marker=G2,name=D5G2
+  marker=G3,name=D5G3
+  marker=G4,name=D5G4
+  marker=G5,name=D5G5
+  marker=G6,name=D5G6
+  marker=G7,name=D5G7
+  marker=G8,name=D5G8
+  marker=G9,name=D5G9
+  marker=G10,name=D5G10
+  marker=G11,name=D5G11
+  marker=G12,name=D5G12
+  marker=G13,name=D5G13
+  marker=G14,name=D5G14
+  marker=G15,name=D5G15
+  marker=G16,name=D5G16
+  marker=G17,name=D5G17
+  marker=G18,name=D5G18
+  marker=G19,name=D5G19
+  marker=G20,name=D5G20
+  marker=G21,name=D5G21
+  marker=G22,name=D5G22
+  marker=G23,name=D5G23
+  marker=G24,name=D5G24
+  marker=G25,name=D5G25
+}

@@ -1,0 +1,385 @@
+Testing Global Configuration Options: Passed
+Making test_indexed_map: "Indexed Map Test"
+
+Making test_sequence_map: "Indexed Map Test"
+
+Making test_anyvector: "AnyVector test"
+
+Testing Containers Library: Passed
+Making liberror.a: error Library
+
+Testing Error handler streams: Passed
+Making libLSF.a: LSF Library
+
+Making LSFtest: LSF test program
+
+Making xml_convert: LSF-to-XML converter
+
+Testing LSF and related objects: .
+----------------------------------------------------------------------
+
+OK
+Passed
+Making libfortran.a: "Fortran Parsing blob"
+
+Testing "Fortran I/O Objects": Passed
+Making libnumerics.a: numerics Library
+
+Testing Error handler streams: Passed
+Making libutil.a: "Util library"
+
+Making test_disambiguator: Test disambiguator
+
+Making test_regex: Test regex functions
+
+Making test_autotrace: Test auto tracer
+
+Making test_stringutils: Test string utils
+
+Making test_typeinfo: Test type info
+
+Making test_outline: Test outline outline
+
+Testing Miscellaneous S.A.G.E. Utilities: .
+----------------------------------------------------------------------
+
+OK
+Passed
+Making liboutput.a: "Output library"
+
+Making otest: Output Application
+
+Testing "Output": .
+----------------------------------------------------------------------
+
+OK
+Passed
+Making libapp.a: "Application Framework Code"
+
+Making test_app: Age of Onset Application
+
+Testing Application Framework Code: 
+----------------------------------------------------------------------
+
+OK
+Passed
+Making test_functor: "Functor / sequence test"
+
+Testing Functors Library: .
+----------------------------------------------------------------------
+
+OK
+Passed
+Making libmped.a: New MultiPedigree Library
+
+Making a2_test: New MultiPedigree Test
+
+Testing New MultiPedigree: .
+----------------------------------------------------------------------
+
+OK
+Passed
+Making libmlocus.a: New Multi Locus Library
+
+Making test_mlocus: New Multi Locus Test
+
+Testing New Multi Locus: .
+----------------------------------------------------------------------
+
+OK
+Passed
+Making librped.a: New General Referenced Pedigree Library
+
+Making test_rp_info: Test of MP File Input
+
+Making mpfiletest: Test of MP File Input
+
+Making loop_test: "Multi-pedigree loop test program"
+
+Testing "New General Referenced Pedigrees and related objects" : .....................................
+----------------------------------------------------------------------
+
+OK
+Passed
+Making libpairs.a: New Pairs Library
+
+Making testrelmatrix: Test of relationship matrix
+
+Making testrelpair: Test of filtering pair generator
+
+Making testrelpair_simple: Simple test of pair generator
+
+Making testindfilter: Test of individual filter
+
+Testing "New Relative Pairs and related objects": .....
+----------------------------------------------------------------------
+
+OK
+Passed
+Making libfped.a: FILTERED Pedigree Library
+
+Making filter_test: "Multi-pedigree loop test program"
+
+Testing "Filtered Pedigrees and related objects" : .
+----------------------------------------------------------------------
+
+OK
+Passed
+Making libfunc.a: Function library
+
+Making test_func: Test of function code
+
+Making test_parse: Test of parsing code
+
+Making test_expression: Test of expression code
+
+Testing MultiPedigree variable transformation: ........
+----------------------------------------------------------------------
+
+OK
+Passed
+Making libsampling.a: "SAGE Sampling Library"
+
+Making test_sampling: Sampling test executable
+
+Testing Basic SAGE application data and tools: .
+----------------------------------------------------------------------
+
+OK
+Passed
+Making libgelim.a: "Genotype Elimination Library"
+
+Making test_gelim: Test of MP File Input
+
+Testing "Genotype Elimination Model": ..
+----------------------------------------------------------------------
+
+OK
+Passed
+Making libdata.a: "SAGE Application Data"
+
+Making test_cmdline: Tests the command line parsing stuff
+
+Testing Basic SAGE application data and tools: .
+----------------------------------------------------------------------
+
+OK
+Passed
+Making test_peeler2: Test of MP File Input
+
+Testing "Peeling Library": .
+----------------------------------------------------------------------
+
+OK
+Passed
+Making liblvec.a: "Likelihood Vector Library"
+
+Making test_ivg: "Inheritance Vector test Program"
+
+Making test_nodes: "Node Testing Program"
+
+Testing "Inheritance Vectors": ...
+----------------------------------------------------------------------
+
+OK
+Passed
+Making libmcmc.a: "MCMC simulation Library"
+
+Making test_mcmc: "MCMC Components Testing Program"
+
+Testing "MCMC basic objects": ..
+----------------------------------------------------------------------
+
+OK
+Passed
+Making libibd.a: "Identical By Descent Library"
+
+Testing "Identical By Descent": Passed
+Making libpalbase.a: New Pairs Library
+
+Testing "Bases for Pair Analyses": Passed
+Making libmaxfun.a: Maxfun Library
+
+Testing Maxfun: Passed
+Making libmaxfunapi.a: Maxfun API
+
+Making maxtest: Maxfun API Test
+
+Making maxtest2: Maxfun API Test
+
+Testing Maxfun: .
+----------------------------------------------------------------------
+
+OK
+Passed
+Making libmfsubmodels.a: Maxfun Submodels
+
+Making test_type_specific_submodel: Test for TypeSpecificSubmodel
+
+Making test_transformation_submodel: Test for TransformationSubmodel
+
+Testing "Mfsubmodels": .
+----------------------------------------------------------------------
+
+OK
+Passed
+Making libageon.a: "Age of Onset library"
+
+Making ageon: Age of Onset Application
+
+Testing "Age of Onset": ...
+----------------------------------------------------------------------
+
+OK
+Passed
+Making libassoc.a: "Assoc library"
+
+Making assoc: Assoc Application
+
+Testing "Assoc": ..........
+----------------------------------------------------------------------
+
+OK
+Passed
+Making libdecipher.a: "decipher library"
+
+Making decipher: DECIPHER Application
+
+Testing "Decipher": ..............................
+----------------------------------------------------------------------
+
+OK
+Passed
+Making libfcor.a: New Fcor Library
+
+Making fcor: "Multi-pedigree correlation program"
+
+Testing MultiPedigree Correlations with Standard Errors: .....
+----------------------------------------------------------------------
+
+OK
+Passed
+Making freq: "FREQ"
+
+Testing FREQ: .......
+----------------------------------------------------------------------
+
+OK
+Passed
+Making libgenibd.a: "IBD generator program Library"
+
+Making genibd: "IBD generator program"
+
+Testing IBD Generator: .............
+----------------------------------------------------------------------
+
+OK
+Passed
+Making liblodlink.a: "lodlink library"
+
+Making lodlink: LODLINK Application
+
+Making test_parser: Test of lodlink parser
+
+Making test_mle: Test of lodlink mle_sub_model
+
+Making test_tcalc: Test of lodlink trans_calculator class
+
+Making test_peeler: Test of lodlink peeler class
+
+Making test_mpcalc: Test of likelihood calculator classes
+
+Making test_max: Test of maximization
+
+Testing "Lodlink": ......................
+----------------------------------------------------------------------
+
+OK
+Passed
+Making liblodpal.a: "Lodpal Library"
+
+Making lodpal: "LODSCORE test of Affected Relative Pair"
+
+Testing LODSCORE test of Affected Relative Pair: ......
+----------------------------------------------------------------------
+
+OK
+Passed
+Making markerinfo: "MARKERINFO"
+
+Testing Markerinfo Main Program: ........
+----------------------------------------------------------------------
+
+OK
+Passed
+Making libmlod.a: "mlod library"
+
+Making test_parser: Test of mlod parser
+
+Making mlod: Test of mlod parser
+
+Testing : ...
+----------------------------------------------------------------------
+
+OK
+Passed
+Making libpedinfo.a: "Pedinfo library"
+
+Making pedinfo: "Multi-pedigree statistics test program"
+
+Testing MultiPedigree statistics: .....
+----------------------------------------------------------------------
+
+OK
+Passed
+Making librelpal.a: "Relpal Library"
+
+Making relpal: Relpal
+
+Testing Relpal: .....
+----------------------------------------------------------------------
+
+OK
+Passed
+Making libreltest.a: "Relationship Test program Library"
+
+Making reltest: "Relationship Test program"
+
+Testing relationship test objects: ....
+----------------------------------------------------------------------
+
+OK
+Passed
+Making libsegreg.a: "segreg library"
+
+Making segreg: SEGREG Application
+
+Making test_type_description: SEGREG Application
+
+Making test_segreg: Test of segreg calculators
+
+Making test_parser: Test of segreg parser
+
+Testing "Regression analysis": ..........................
+----------------------------------------------------------------------
+
+OK
+Passed
+Making libsibpal.a: "Sibpal Library"
+
+Making sibpal: Sibpal
+
+Testing Sibpal: ..............
+----------------------------------------------------------------------
+
+OK
+Passed
+Making libtdtex.a: "Transmission-disequilibrium test library"
+
+Making tdtex: "Transmission-disequilibrium test application"
+
+Testing TDTEX: .......
+----------------------------------------------------------------------
+
+OK
+Passed

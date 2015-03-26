@@ -1,0 +1,27 @@
+function
+{
+  trait=x,expression="x % 2",missing=-9,binary,affected=1,unaffected=0
+}
+
+function
+{
+  trait=x,expression="x % 2",missing=-9,binary,affected=0,unaffected=0
+}
+
+function
+{
+  trait=x,expression="x % 2",missing="0",binary,affected=1,unaffected=0
+}
+
+function
+{
+  trait=x,expression="x % 2",binary
+}
+
+function
+{
+  phenotype=y,
+            expression="disease + disease",
+            missing=X,
+            binary
+}

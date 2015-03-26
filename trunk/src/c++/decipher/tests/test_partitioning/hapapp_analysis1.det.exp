@@ -1,0 +1,32 @@
+
+
+
+==========
+Analysis 1
+==========
+
+
+Markers in order:
+  C01R0001 C01R0002 C01R0003 C01R0004 
+
+
+
+                      All Possible Haplotype Combinations
+
+Population:  0 / 2
+
+                            Pedigree:Member
+                  11:3 13:3 15:3 18:3 32:3 99:1 
+1-1-1-1  1-1-1-1   x    x    x    x    x    -   
+2-2-2-2  2-2-2-2   -    -    -    -    -    x   
+
+
+Population:  1 / 1
+
+                            Pedigree:Member
+                  12:4 14:4 17:4 34:4 
+1-1-1-1  1-1-1-1   x    x    x    x   
+1-1-1-1  2-1-1-1   x    -    -    x   
+2-1-1-1  2-1-1-1   x    -    -    x   
+
+

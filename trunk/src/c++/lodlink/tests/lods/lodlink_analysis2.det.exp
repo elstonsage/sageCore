@@ -1,0 +1,84 @@
+
+
+
+==============================
+LODLINK Analysis 2 DETAIL FILE
+==============================
+
+
+Options Selected
+================
+Main locus type                          marker
+Main locus name                          M1
+
+Lod scores                               yes
+
+  Recombination Fractions Selected
+  ================================
+  Male                 0.3000         0.4000         0.4000         0.4000         0.5000   
+  Female               0.1000         0.0000         0.1000         0.2000         0.1000   
+
+Linkage tests                            no
+
+Smith's test for homogeneity             no
+
+Morton's test for homogeneity            no
+
+Genotype probabilities                   no
+
+
+Results
+=======
+
+                  Lod Scores By Constituent Pedigree          
+                  Sex-Specific Recombination Fractions        
+                  Male Recom - 1st Row, Female Recom - 2nd Row
+
+                  Constituent Pedigree in Pedigree 1 Containing Member 1
+
+                  0.3000         0.4000         0.4000         0.4000         0.5000         
+Locus             0.1000         0.0000         0.1000         0.2000         0.1000         
+---------------   ------------   ------------   ------------   ------------   ------------   
+M2                    0.214844       0.301030       0.214844       0.133539       0.214844   
+
+
+                  Constituent Pedigree in Pedigree 2 Containing Member 3
+
+                  0.3000         0.4000         0.4000         0.4000         0.5000         
+Locus             0.1000         0.0000         0.1000         0.2000         0.1000         
+---------------   ------------   ------------   ------------   ------------   ------------   
+M2                   -0.443697      -Infinity      -0.443697      -0.193820      -0.443697   
+
+
+                  Constituent Pedigree in Pedigree 3 Containing Member 6
+
+                  0.3000         0.4000         0.4000         0.4000         0.5000         
+Locus             0.1000         0.0000         0.1000         0.2000         0.1000         
+---------------   ------------   ------------   ------------   ------------   ------------   
+M2                    0.064458       0.017033       0.017033       0.017033       0.000000   
+
+
+                  Constituent Pedigree in Pedigree 4 Containing Member 10
+
+                  0.3000         0.4000         0.4000         0.4000         0.5000         
+Locus             0.1000         0.0000         0.1000         0.2000         0.1000         
+---------------   ------------   ------------   ------------   ------------   ------------   
+M2                    0.064458       0.017033       0.017033       0.017033       0.000000   
+
+
+                  Constituent Pedigree in Pedigree 5 Containing Member 12
+
+                  0.3000         0.4000         0.4000         0.4000         0.5000         
+Locus             0.1000         0.0000         0.1000         0.2000         0.1000         
+---------------   ------------   ------------   ------------   ------------   ------------   
+M2                   -0.443697      -Infinity      -0.443697      -0.193820      -0.443697   
+
+
+                  Constituent Pedigree in Pedigree 6 Containing Member 15
+
+                  0.3000         0.4000         0.4000         0.4000         0.5000         
+Locus             0.1000         0.0000         0.1000         0.2000         0.1000         
+---------------   ------------   ------------   ------------   ------------   ------------   
+M2                   -0.075721      -0.017729      -0.017729      -0.017729       0.000000   
+
+

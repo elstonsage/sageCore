@@ -1,0 +1,18 @@
+pedigree
+{
+  pedigree_id=pid
+  individual_id=id
+  parent_id=da
+  parent_id=ma
+  sex_field=s
+
+  individual_missing_value="."
+  delimiters=" "
+  delimiter_mode=multiple
+
+  marker="ABO", name="ABO"
+}
+
+markerinfo_analysis
+{
+}

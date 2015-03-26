@@ -1,0 +1,64 @@
+# parameters1: Example parameter file for S.A.G.E. Beta 8
+# This example parameter file can be used with all S.A.G.E. Beta 8 programs
+# in conjuntion with the Pedigree Data File: pedigree1
+# Pedigree Specification - used by all programs
+#   We wish to use the Character Delimited Pedigree Reader
+pedigree
+{
+  # Specify the format of the data.  This includes
+  # the delimiter character " " as well as allowing
+  # multiple delimiter characters to be delimit a field
+  # Field encoding parameters
+  individual_missing_value="0"
+  sex_code,male="1",female="2",missing="9"
+verbose
+  # Field specification: maps the field name to the field's use.
+  # Family Structure fields.
+  pedigree_id=familyid
+  individual_id=personid
+  parent_id=fatherid
+  parent_id=motherid
+  sex_field=sex
+  # Trait and covariate phenotypes.
+  covariate=proband, name="Proband Status"
+#  covariate=gender, name="gender"
+  trait=cleft, binary
+}
+pedinfo
+{
+  each_pedigree=true
+  trait=cleft
+}
+segreg
+{
+title="CP and Control families"
+trait=cleft
+type_suscept
+{   
+    option="two_rec"
+    suscept="AA",val=-6.084,fixed=false
+    suscept="B*",val=-1.441,fixed=false
+}
+resid
+{
+    option="equal_po_ss"
+    fm,val=0.0,fixed=true
+    mo,val=0.1,fixed=false
+}
+transmission
+{
+    option="general"
+    tau="A*",val=0.9,fixed=false
+    tau="BB",val=0.0,fixed=true
+}
+prev_constraint
+{
+    N=2000
+    R=1
+}
+ascertainment
+{
+    cond_set="psf"
+    psf_indic="Proband status"
+}
+}

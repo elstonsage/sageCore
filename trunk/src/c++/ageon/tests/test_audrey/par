@@ -1,0 +1,55 @@
+pedigree
+{
+  delimiter_mode = single
+  delimiters="\t"
+  individual_missing_value=""
+  sex_code, male="1", female="2", unknown="?"
+
+  pedigree_id   = Fam
+  individual_id = ind
+  parent_id     = p1
+  parent_id     = p2
+  sex_field     = sex
+
+  trait = aff, binary, affected = 2, unaffected = 1, missing = "0"
+  trait = onset, missing = -9
+  trait = exam, missing = -9
+  trait = onset_exam, missing = -9
+}
+
+pedinfo
+{
+  trait = aff
+}
+
+fcor
+{
+  trait = a
+  standard_error = false
+}
+
+ageon
+{
+  affectedness = aff
+  age_of_onset = onset
+  age_of_exam = exam
+
+  transformation
+  {
+    lambda1, val=1.0, fixed=true
+    lambda2, val=1.0, fixed=true
+  }
+}
+
+ageon
+{
+  affectedness = aff
+  age_of_onset = onset_exam
+  age_of_exam = onset_exam
+
+  transformation
+  {
+    lambda1, val=1.0, fixed=true
+    lambda2, val=1.0, fixed=true
+  }
+}

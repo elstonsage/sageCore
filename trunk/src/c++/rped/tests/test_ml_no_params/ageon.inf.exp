@@ -1,0 +1,6 @@
+
+
+
+%AGEON-F: marker_list parameter requires both start and end attributes
+          specified.  Please check your file and re-run S.A.G.E.
+%AGEON-F: Error reading pedigree data from file '../test_marker_list/ped'.

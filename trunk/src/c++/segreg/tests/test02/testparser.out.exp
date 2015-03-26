@@ -1,0 +1,3736 @@
+
+---------- 1 New Analysis Block 1 ---------- 
+
+Model class: D
+
+Transmission values: 
+Option: homogeneous no transmission
+transm default:  true
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+  maxfun parameter  marital resid corr  
+  value              0.000000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  po = ss resid corr  
+  value              0.500000           
+  status            Independent         
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+resid default:  true
+
+Type variances values: 
+Option: one variance
+  maxfun parameter  variance     
+  value             Non-number   
+  status            Independent  
+  lower bound        1.00e-05    
+  upper bound       Infinity     
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+  maxfun parameter  polyg variance  
+  value             Non-number      
+  status            Independent     
+  lower bound        1.00e-05       
+  upper bound       Infinity        
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+---------- 2 New Analysis Block 2 ---------- 
+
+Model class: invalid
+
+Transmission values: 
+Option: homogeneous no transmission
+transm default:  true
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+  maxfun parameter  marital resid corr  
+  value              0.000000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  po = ss resid corr  
+  value              0.500000           
+  status            Independent         
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+resid default:  true
+
+Type variances values: 
+Option: one variance
+  maxfun parameter  variance     
+  value             Non-number   
+  status            Independent  
+  lower bound        1.00e-05    
+  upper bound       Infinity     
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+  maxfun parameter  polyg variance  
+  value             Non-number      
+  status            Independent     
+  lower bound        1.00e-05       
+  upper bound       Infinity        
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+---------- 3 New Analysis Block 3 ---------- 
+
+Model class: D
+
+Transmission values: 
+Option: homogeneous no transmission
+transm default:  true
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+  maxfun parameter  marital resid corr  
+  value              0.000000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  po = ss resid corr  
+  value              0.500000           
+  status            Independent         
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+resid default:  true
+
+Type variances values: 
+Option: one variance
+  maxfun parameter  variance     
+  value             Non-number   
+  status            Independent  
+  lower bound        1.00e-05    
+  upper bound       Infinity     
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+  maxfun parameter  polyg variance  
+  value             Non-number      
+  status            Independent     
+  lower bound        1.00e-05       
+  upper bound       Infinity        
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+---------- 4 New Analysis Block 4 ---------- 
+
+Model class: D
+
+Transmission values: 
+Option: homogeneous no transmission
+transm default:  true
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+  maxfun parameter  marital resid corr  
+  value              0.000000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  po = ss resid corr  
+  value              0.500000           
+  status            Independent         
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+resid default:  true
+
+Type variances values: 
+Option: one variance
+  maxfun parameter  variance     
+  value             Non-number   
+  status            Independent  
+  lower bound        1.00e-05    
+  upper bound       Infinity     
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+  maxfun parameter  polyg variance  
+  value             Non-number      
+  status            Independent     
+  lower bound        1.00e-05       
+  upper bound       Infinity        
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+---------- 5 New Analysis Block 5 ---------- 
+
+Model class: D
+
+Transmission values: 
+Option: homogeneous general
+  maxfun parameter  transm prob_AA          
+  value              0.300000               
+  status            Independent functional  
+  lower bound        0.000000               
+  upper bound        1.000000               
+
+  maxfun parameter  transm prob_AB  
+  value             Non-number      
+  status            Dependent       
+  lower bound        0.000000       
+  upper bound        1.000000       
+
+  maxfun parameter  transm prob_BB          
+  value              0.300000               
+  status            Independent functional  
+  lower bound        0.000000               
+  upper bound        1.000000               
+
+transm default:  false
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+  maxfun parameter  marital resid corr  
+  value              0.000000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  po = ss resid corr  
+  value              0.500000           
+  status            Independent         
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+resid default:  true
+
+Type variances values: 
+Option: one variance
+  maxfun parameter  variance     
+  value             Non-number   
+  status            Independent  
+  lower bound        1.00e-05    
+  upper bound       Infinity     
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+  maxfun parameter  polyg variance  
+  value             Non-number      
+  status            Independent     
+  lower bound        1.00e-05       
+  upper bound       Infinity        
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+---------- 6 New Analysis Block 6 ---------- 
+
+Model class: D
+
+Transmission values: 
+Option: homogeneous general
+  maxfun parameter  transm prob_AA          
+  value              0.300000               
+  status            Independent functional  
+  lower bound        0.000000               
+  upper bound        1.000000               
+
+  maxfun parameter  transm prob_AB  
+  value             Non-number      
+  status            Dependent       
+  lower bound        0.000000       
+  upper bound        1.000000       
+
+  maxfun parameter  transm prob_BB          
+  value              0.300000               
+  status            Independent functional  
+  lower bound        0.000000               
+  upper bound        1.000000               
+
+transm default:  false
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+  maxfun parameter  marital resid corr  
+  value              0.000000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  po = ss resid corr  
+  value              0.500000           
+  status            Independent         
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+resid default:  true
+
+Type variances values: 
+Option: one variance
+  maxfun parameter  variance     
+  value             Non-number   
+  status            Independent  
+  lower bound        1.00e-05    
+  upper bound       Infinity     
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+  maxfun parameter  polyg variance  
+  value             Non-number      
+  status            Independent     
+  lower bound        1.00e-05       
+  upper bound       Infinity        
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+---------- 7 New Analysis Block 7 ---------- 
+
+Model class: D
+
+Transmission values: 
+Option: homogeneous general
+  maxfun parameter  transm prob_AA  
+  value              0.300000       
+  status            Fixed           
+  lower bound        0.000000       
+  upper bound        1.000000       
+
+  maxfun parameter  transm prob_AB  
+  value             Non-number      
+  status            Dependent       
+  lower bound        0.000000       
+  upper bound        1.000000       
+
+  maxfun parameter  transm prob_BB          
+  value              0.300000               
+  status            Independent functional  
+  lower bound        0.000000               
+  upper bound        1.000000               
+
+transm default:  false
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+  maxfun parameter  marital resid corr  
+  value              0.000000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  po = ss resid corr  
+  value              0.500000           
+  status            Independent         
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+resid default:  true
+
+Type variances values: 
+Option: one variance
+  maxfun parameter  variance     
+  value             Non-number   
+  status            Independent  
+  lower bound        1.00e-05    
+  upper bound       Infinity     
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+  maxfun parameter  polyg variance  
+  value             Non-number      
+  status            Independent     
+  lower bound        1.00e-05       
+  upper bound       Infinity        
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+---------- 8 New Analysis Block 8 ---------- 
+
+Model class: D
+
+Transmission values: 
+Option: general
+  maxfun parameter  transm prob_AA  
+  value              0.300000       
+  status            Fixed           
+  lower bound        0.000000       
+  upper bound        1.000000       
+
+  maxfun parameter  transm prob_AB  
+  value              0.700000       
+  status            Independent     
+  lower bound        0.000000       
+  upper bound        1.000000       
+
+  maxfun parameter  transm prob_BB  
+  value              0.300000       
+  status            Independent     
+  lower bound        0.000000       
+  upper bound        1.000000       
+
+transm default:  false
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+  maxfun parameter  marital resid corr  
+  value              0.000000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  po = ss resid corr  
+  value              0.500000           
+  status            Independent         
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+resid default:  true
+
+Type variances values: 
+Option: one variance
+  maxfun parameter  variance     
+  value             Non-number   
+  status            Independent  
+  lower bound        1.00e-05    
+  upper bound       Infinity     
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+  maxfun parameter  polyg variance  
+  value             Non-number      
+  status            Independent     
+  lower bound        1.00e-05       
+  upper bound       Infinity        
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+---------- 9 New Analysis Block 9 ---------- 
+
+Model class: D
+
+Transmission values: 
+Option: general
+  maxfun parameter  transm prob_AA  
+  value              0.300000       
+  status            Fixed           
+  lower bound        0.000000       
+  upper bound        1.000000       
+
+  maxfun parameter  transm prob_AB  
+  value             Non-number      
+  status            Independent     
+  lower bound        0.000000       
+  upper bound        1.000000       
+
+  maxfun parameter  transm prob_BB  
+  value              0.300000       
+  status            Independent     
+  lower bound        0.000000       
+  upper bound        1.000000       
+
+transm default:  false
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+  maxfun parameter  marital resid corr  
+  value              0.000000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  po = ss resid corr  
+  value              0.500000           
+  status            Independent         
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+resid default:  true
+
+Type variances values: 
+Option: one variance
+  maxfun parameter  variance     
+  value             Non-number   
+  status            Independent  
+  lower bound        1.00e-05    
+  upper bound       Infinity     
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+  maxfun parameter  polyg variance  
+  value             Non-number      
+  status            Independent     
+  lower bound        1.00e-05       
+  upper bound       Infinity        
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+---------- 10 New Analysis Block 10 ---------- 
+
+Model class: D
+
+Transmission values: 
+Option: general
+  maxfun parameter  transm prob_AA  
+  value             Non-number      
+  status            Independent     
+  lower bound        0.000000       
+  upper bound        1.000000       
+
+  maxfun parameter  transm prob_AB  
+  value              0.300000       
+  status            Independent     
+  lower bound        0.000000       
+  upper bound        1.000000       
+
+  maxfun parameter  transm prob_BB  
+  value              0.300000       
+  status            Independent     
+  lower bound        0.000000       
+  upper bound        1.000000       
+
+transm default:  false
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+  maxfun parameter  marital resid corr  
+  value              0.000000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  po = ss resid corr  
+  value              0.500000           
+  status            Independent         
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+resid default:  true
+
+Type variances values: 
+Option: one variance
+  maxfun parameter  variance     
+  value             Non-number   
+  status            Independent  
+  lower bound        1.00e-05    
+  upper bound       Infinity     
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+  maxfun parameter  polyg variance  
+  value             Non-number      
+  status            Independent     
+  lower bound        1.00e-05       
+  upper bound       Infinity        
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+---------- 11 New Analysis Block 11 ---------- 
+
+Model class: D
+
+Transmission values: 
+Option: tau AB free
+  maxfun parameter  transm prob_AA  
+  value              1.000000       
+  status            Fixed           
+  lower bound        0.000000       
+  upper bound        1.000000       
+
+  maxfun parameter  transm prob_AB  
+  value             Non-number      
+  status            Independent     
+  lower bound        0.000000       
+  upper bound        1.000000       
+
+  maxfun parameter  transm prob_BB  
+  value              0.000000       
+  status            Fixed           
+  lower bound        0.000000       
+  upper bound        1.000000       
+
+transm default:  true
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+  maxfun parameter  marital resid corr  
+  value              0.000000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  po = ss resid corr  
+  value              0.500000           
+  status            Independent         
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+resid default:  true
+
+Type variances values: 
+Option: one variance
+  maxfun parameter  variance     
+  value             Non-number   
+  status            Independent  
+  lower bound        1.00e-05    
+  upper bound       Infinity     
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+  maxfun parameter  polyg variance  
+  value             Non-number      
+  status            Independent     
+  lower bound        1.00e-05       
+  upper bound       Infinity        
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+---------- 12 New Analysis Block 12 ---------- 
+
+Model class: D
+
+Transmission values: 
+Option: tau AB free
+  maxfun parameter  transm prob_AA  
+  value              1.000000       
+  status            Fixed           
+  lower bound        0.000000       
+  upper bound        1.000000       
+
+  maxfun parameter  transm prob_AB  
+  value              0.750000       
+  status            Fixed           
+  lower bound        0.000000       
+  upper bound        1.000000       
+
+  maxfun parameter  transm prob_BB  
+  value              0.000000       
+  status            Fixed           
+  lower bound        0.000000       
+  upper bound        1.000000       
+
+transm default:  false
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+  maxfun parameter  marital resid corr  
+  value              0.000000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  po = ss resid corr  
+  value              0.500000           
+  status            Independent         
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+resid default:  true
+
+Type variances values: 
+Option: one variance
+  maxfun parameter  variance     
+  value             Non-number   
+  status            Independent  
+  lower bound        1.00e-05    
+  upper bound       Infinity     
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+  maxfun parameter  polyg variance  
+  value             Non-number      
+  status            Independent     
+  lower bound        1.00e-05       
+  upper bound       Infinity        
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+---------- 13 New Analysis Block 13 ---------- 
+
+Model class: D
+
+Transmission values: 
+Option: tau AB free
+  maxfun parameter  transm prob_AA  
+  value              1.000000       
+  status            Fixed           
+  lower bound        0.000000       
+  upper bound        1.000000       
+
+  maxfun parameter  transm prob_AB  
+  value              0.750000       
+  status            Independent     
+  lower bound        0.000000       
+  upper bound        1.000000       
+
+  maxfun parameter  transm prob_BB  
+  value              0.000000       
+  status            Fixed           
+  lower bound        0.000000       
+  upper bound        1.000000       
+
+transm default:  false
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+  maxfun parameter  marital resid corr  
+  value              0.000000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  po = ss resid corr  
+  value              0.500000           
+  status            Independent         
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+resid default:  true
+
+Type variances values: 
+Option: one variance
+  maxfun parameter  variance     
+  value             Non-number   
+  status            Independent  
+  lower bound        1.00e-05    
+  upper bound       Infinity     
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+  maxfun parameter  polyg variance  
+  value             Non-number      
+  status            Independent     
+  lower bound        1.00e-05       
+  upper bound       Infinity        
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+---------- 14 New Analysis Block 14 ---------- 
+
+Model class: D
+
+Transmission values: 
+Option: homogeneous no transmission
+transm default:  true
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+  maxfun parameter  marital resid corr  
+  value              0.000000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  po = ss resid corr  
+  value              0.500000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+resid default:  false
+
+Type variances values: 
+Option: one variance
+  maxfun parameter  variance     
+  value             Non-number   
+  status            Independent  
+  lower bound        1.00e-05    
+  upper bound       Infinity     
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+  maxfun parameter  polyg variance  
+  value             Non-number      
+  status            Independent     
+  lower bound        1.00e-05       
+  upper bound       Infinity        
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+---------- 15 New Analysis Block 15 ---------- 
+
+Model class: invalid
+
+Transmission values: 
+Option: homogeneous no transmission
+transm default:  true
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+  maxfun parameter  marital resid corr  
+  value              0.000000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  po = ss resid corr  
+  value              0.500000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+resid default:  false
+
+Type variances values: 
+Option: one variance
+  maxfun parameter  variance     
+  value             Non-number   
+  status            Independent  
+  lower bound        1.00e-05    
+  upper bound       Infinity     
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+  maxfun parameter  polyg variance  
+  value             Non-number      
+  status            Independent     
+  lower bound        1.00e-05       
+  upper bound       Infinity        
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+---------- 16 New Analysis Block 16 ---------- 
+
+Model class: D
+
+Transmission values: 
+Option: homogeneous no transmission
+transm default:  true
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+  maxfun parameter  marital resid corr  
+  value              0.000000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  po = ss resid corr  
+  value              0.500000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+resid default:  false
+
+Type variances values: 
+Option: one variance
+  maxfun parameter  variance     
+  value             Non-number   
+  status            Independent  
+  lower bound        1.00e-05    
+  upper bound       Infinity     
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+  maxfun parameter  polyg variance  
+  value             Non-number      
+  status            Independent     
+  lower bound        1.00e-05       
+  upper bound       Infinity        
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+---------- 17 New Analysis Block 17 ---------- 
+
+Model class: D
+
+Transmission values: 
+Option: homogeneous no transmission
+transm default:  true
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+  maxfun parameter  marital resid corr  
+  value              0.000000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  po = ss resid corr  
+  value              0.500000           
+  status            Independent         
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+resid default:  false
+
+Type variances values: 
+Option: one variance
+  maxfun parameter  variance     
+  value             Non-number   
+  status            Independent  
+  lower bound        1.00e-05    
+  upper bound       Infinity     
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+  maxfun parameter  polyg variance  
+  value             Non-number      
+  status            Independent     
+  lower bound        1.00e-05       
+  upper bound       Infinity        
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+---------- 18 New Analysis Block 18 ---------- 
+
+Model class: D
+
+Transmission values: 
+Option: homogeneous no transmission
+transm default:  true
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+  maxfun parameter  marital resid corr  
+  value              0.200000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  po = ss resid corr  
+  value              0.500000           
+  status            Independent         
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+resid default:  false
+
+Type variances values: 
+Option: one variance
+  maxfun parameter  variance     
+  value             Non-number   
+  status            Independent  
+  lower bound        1.00e-05    
+  upper bound       Infinity     
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+  maxfun parameter  polyg variance  
+  value             Non-number      
+  status            Independent     
+  lower bound        1.00e-05       
+  upper bound       Infinity        
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+---------- 19 New Analysis Block 19 ---------- 
+
+Model class: D
+
+Transmission values: 
+Option: homogeneous no transmission
+transm default:  true
+
+Residual correlations values: 
+Option: Spouse and sib-sib correlations independent, mother-offspring and father-offspring correlations equal
+  maxfun parameter  marital resid corr  
+  value              0.000000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  po resid corr  
+  value              0.500000      
+  status            Independent    
+  lower bound       -1.000000      
+  upper bound        1.000000      
+
+  maxfun parameter  ss resid corr  
+  value              0.980000      
+  status            Independent    
+  lower bound       -1.000000      
+  upper bound        1.000000      
+
+resid default:  false
+
+Type variances values: 
+Option: one variance
+  maxfun parameter  variance     
+  value             Non-number   
+  status            Independent  
+  lower bound        1.00e-05    
+  upper bound       Infinity     
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+  maxfun parameter  polyg variance  
+  value             Non-number      
+  status            Independent     
+  lower bound        1.00e-05       
+  upper bound       Infinity        
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+---------- 20 New Analysis Block 20 ---------- 
+
+Model class: D
+
+Transmission values: 
+Option: homogeneous no transmission
+transm default:  true
+
+Residual correlations values: 
+Option: Spouse and sib-sib correlations independent, mother-offspring and father-offspring correlations equal
+  maxfun parameter  marital resid corr  
+  value             -0.300000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  po resid corr  
+  value              0.500000      
+  status            Independent    
+  lower bound       -1.000000      
+  upper bound        1.000000      
+
+  maxfun parameter  ss resid corr  
+  value              0.300000      
+  status            Independent    
+  lower bound       -1.000000      
+  upper bound        1.000000      
+
+resid default:  false
+
+Type variances values: 
+Option: one variance
+  maxfun parameter  variance     
+  value             Non-number   
+  status            Independent  
+  lower bound        1.00e-05    
+  upper bound       Infinity     
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+  maxfun parameter  polyg variance  
+  value             Non-number      
+  status            Independent     
+  lower bound        1.00e-05       
+  upper bound       Infinity        
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+---------- 21 New Analysis Block 21 ---------- 
+
+Model class: invalid
+
+Transmission values: 
+Option: homogeneous no transmission
+transm default:  true
+
+Residual correlations values: 
+Option: Spouse and sib-sib correlations independent, mother-offspring and father-offspring correlations equal
+  maxfun parameter  marital resid corr  
+  value              0.000000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  po resid corr  
+  value             -0.300000      
+  status            Fixed          
+  lower bound       -1.000000      
+  upper bound        1.000000      
+
+  maxfun parameter  ss resid corr  
+  value              0.980000      
+  status            Independent    
+  lower bound       -1.000000      
+  upper bound        1.000000      
+
+resid default:  false
+
+Type variances values: 
+Option: one variance
+  maxfun parameter  variance     
+  value             Non-number   
+  status            Independent  
+  lower bound        1.00e-05    
+  upper bound       Infinity     
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+  maxfun parameter  polyg variance  
+  value             Non-number      
+  status            Independent     
+  lower bound        1.00e-05       
+  upper bound       Infinity        
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+---------- 22 New Analysis Block 22 ---------- 
+
+Model class: invalid
+
+Transmission values: 
+Option: homogeneous no transmission
+transm default:  true
+
+Residual correlations values: 
+Option: Spouse and sib-sib correlations independent, mother-offspring and father-offspring correlations equal
+  maxfun parameter  marital resid corr  
+  value              0.000000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  po resid corr  
+  value              0.300000      
+  status            Fixed          
+  lower bound       -1.000000      
+  upper bound        1.000000      
+
+  maxfun parameter  ss resid corr  
+  value              0.980000      
+  status            Independent    
+  lower bound       -1.000000      
+  upper bound        1.000000      
+
+resid default:  false
+
+Type variances values: 
+Option: one variance
+  maxfun parameter  variance     
+  value             Non-number   
+  status            Independent  
+  lower bound        1.00e-05    
+  upper bound       Infinity     
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+  maxfun parameter  polyg variance  
+  value             Non-number      
+  status            Independent     
+  lower bound        1.00e-05       
+  upper bound       Infinity        
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+---------- 23 New Analysis Block 23 ---------- 
+
+Model class: D
+
+Transmission values: 
+Option: homogeneous no transmission
+transm default:  true
+
+Residual correlations values: 
+Option: Spouse and sib-sib correlations independent, mother-offspring and father-offspring correlations equal
+  maxfun parameter  marital resid corr  
+  value              0.000000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  po resid corr  
+  value             -0.300000      
+  status            Independent    
+  lower bound       -1.000000      
+  upper bound        1.000000      
+
+  maxfun parameter  ss resid corr  
+  value              0.980000      
+  status            Independent    
+  lower bound       -1.000000      
+  upper bound        1.000000      
+
+resid default:  false
+
+Type variances values: 
+Option: one variance
+  maxfun parameter  variance     
+  value             Non-number   
+  status            Independent  
+  lower bound        1.00e-05    
+  upper bound       Infinity     
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+  maxfun parameter  polyg variance  
+  value             Non-number      
+  status            Independent     
+  lower bound        1.00e-05       
+  upper bound       Infinity        
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+---------- 24 New Analysis Block 24 ---------- 
+
+Model class: D
+
+Transmission values: 
+Option: homogeneous no transmission
+transm default:  true
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+  maxfun parameter  marital resid corr  
+  value              0.000000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  po = ss resid corr  
+  value              0.500000           
+  status            Independent         
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+resid default:  false
+
+Type variances values: 
+Option: one variance
+  maxfun parameter  variance     
+  value             Non-number   
+  status            Independent  
+  lower bound        1.00e-05    
+  upper bound       Infinity     
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+  maxfun parameter  polyg variance  
+  value             Non-number      
+  status            Independent     
+  lower bound        1.00e-05       
+  upper bound       Infinity        
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+---------- 25 New Analysis Block 25 ---------- 
+
+Model class: D
+
+Transmission values: 
+Option: homogeneous no transmission
+transm default:  true
+
+Residual correlations values: 
+Option: Arbitrary
+  maxfun parameter  marital resid corr  
+  value              0.000000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  fo resid corr  
+  value              0.500000      
+  status            Independent    
+  lower bound       -1.000000      
+  upper bound        1.000000      
+
+  maxfun parameter  mo resid corr  
+  value              0.500000      
+  status            Independent    
+  lower bound       -1.000000      
+  upper bound        1.000000      
+
+  maxfun parameter  ss resid corr  
+  value              0.980000      
+  status            Fixed          
+  lower bound       -1.000000      
+  upper bound        1.000000      
+
+resid default:  false
+
+Type variances values: 
+Option: one variance
+  maxfun parameter  variance     
+  value             Non-number   
+  status            Independent  
+  lower bound        1.00e-05    
+  upper bound       Infinity     
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+  maxfun parameter  polyg variance  
+  value             Non-number      
+  status            Independent     
+  lower bound        1.00e-05       
+  upper bound       Infinity        
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+---------- 26 New Analysis Block 26 ---------- 
+
+Model class: D
+
+Transmission values: 
+Option: homogeneous no transmission
+transm default:  true
+
+Residual correlations values: 
+Option: Arbitrary
+  maxfun parameter  marital resid corr  
+  value              0.700000           
+  status            Independent         
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  fo resid corr  
+  value              0.500000      
+  status            Independent    
+  lower bound       -1.000000      
+  upper bound        1.000000      
+
+  maxfun parameter  mo resid corr  
+  value              0.500000      
+  status            Independent    
+  lower bound       -1.000000      
+  upper bound        1.000000      
+
+  maxfun parameter  ss resid corr  
+  value              0.980000      
+  status            Fixed          
+  lower bound       -1.000000      
+  upper bound        1.000000      
+
+resid default:  false
+
+Type variances values: 
+Option: one variance
+  maxfun parameter  variance     
+  value             Non-number   
+  status            Independent  
+  lower bound        1.00e-05    
+  upper bound       Infinity     
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+  maxfun parameter  polyg variance  
+  value             Non-number      
+  status            Independent     
+  lower bound        1.00e-05       
+  upper bound       Infinity        
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+---------- 27 New Analysis Block 27 ---------- 
+
+Model class: D
+
+Transmission values: 
+Option: homogeneous no transmission
+transm default:  true
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+  maxfun parameter  marital resid corr  
+  value              0.000000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  po = ss resid corr  
+  value              0.500000           
+  status            Independent         
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+resid default:  true
+
+Type variances values: 
+Option: one variance
+  maxfun parameter  variance   
+  value              0.500000  
+  status            Fixed      
+  lower bound        1.00e-05  
+  upper bound       Infinity   
+
+var default:  false
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+  maxfun parameter  polyg variance  
+  value             Non-number      
+  status            Independent     
+  lower bound        1.00e-05       
+  upper bound       Infinity        
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+---------- 28 New Analysis Block 28 ---------- 
+
+Model class: invalid
+
+Transmission values: 
+Option: homogeneous no transmission
+transm default:  true
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+  maxfun parameter  marital resid corr  
+  value              0.000000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  po = ss resid corr  
+  value              0.500000           
+  status            Independent         
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+resid default:  true
+
+Type variances values: 
+Option: one variance
+  maxfun parameter  variance     
+  value             Non-number   
+  status            Independent  
+  lower bound        1.00e-05    
+  upper bound       Infinity     
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+  maxfun parameter  polyg variance  
+  value             Non-number      
+  status            Independent     
+  lower bound        1.00e-05       
+  upper bound       Infinity        
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+---------- 29 New Analysis Block 29 ---------- 
+
+Model class: D
+
+Transmission values: 
+Option: homogeneous no transmission
+transm default:  true
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+  maxfun parameter  marital resid corr  
+  value              0.000000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  po = ss resid corr  
+  value              0.500000           
+  status            Independent         
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+resid default:  true
+
+Type variances values: 
+Option: one variance
+  maxfun parameter  variance     
+  value             Non-number   
+  status            Independent  
+  lower bound        1.00e-05    
+  upper bound       Infinity     
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+  maxfun parameter  polyg variance  
+  value             Non-number      
+  status            Independent     
+  lower bound        1.00e-05       
+  upper bound       Infinity        
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+---------- 30 New Analysis Block 30 ---------- 
+
+Model class: D
+
+Transmission values: 
+Option: homogeneous no transmission
+transm default:  true
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+  maxfun parameter  marital resid corr  
+  value              0.000000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  po = ss resid corr  
+  value              0.500000           
+  status            Independent         
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+resid default:  true
+
+Type variances values: 
+Option: one variance
+  maxfun parameter  variance     
+  value             Non-number   
+  status            Independent  
+  lower bound        1.00e-05    
+  upper bound       Infinity     
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+  maxfun parameter  polyg variance  
+  value             Non-number      
+  status            Independent     
+  lower bound        1.00e-05       
+  upper bound       Infinity        
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+---------- 31 New Analysis Block 31 ---------- 
+
+Model class: D
+
+Transmission values: 
+Option: homogeneous no transmission
+transm default:  true
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+  maxfun parameter  marital resid corr  
+  value              0.000000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  po = ss resid corr  
+  value              0.500000           
+  status            Independent         
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+resid default:  true
+
+Type variances values: 
+Option: one variance
+  maxfun parameter  variance     
+  value             Non-number   
+  status            Independent  
+  lower bound        1.00e-05    
+  upper bound       Infinity     
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+  maxfun parameter  polyg variance  
+  value             Non-number      
+  status            Independent     
+  lower bound        1.00e-05       
+  upper bound       Infinity        
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+---------- 32 New Analysis Block 32 ---------- 
+
+Model class: D
+
+Transmission values: 
+Option: homogeneous no transmission
+transm default:  true
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+  maxfun parameter  marital resid corr  
+  value              0.000000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  po = ss resid corr  
+  value              0.500000           
+  status            Independent         
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+resid default:  true
+
+Type variances values: 
+Option: one variance
+  maxfun parameter  variance     
+  value             Non-number   
+  status            Independent  
+  lower bound        1.00e-05    
+  upper bound       Infinity     
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+  maxfun parameter  polyg variance  
+  value             Non-number      
+  status            Independent     
+  lower bound        1.00e-05       
+  upper bound       Infinity        
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+---------- 33 New Analysis Block 33 ---------- 
+
+Model class: invalid
+
+Transmission values: 
+Option: homogeneous no transmission
+transm default:  true
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+  maxfun parameter  marital resid corr  
+  value              0.000000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  po = ss resid corr  
+  value              0.500000           
+  status            Independent         
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+resid default:  true
+
+Type variances values: 
+Option: one variance
+  maxfun parameter  variance     
+  value             Non-number   
+  status            Independent  
+  lower bound        1.00e-05    
+  upper bound       Infinity     
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+  maxfun parameter  polyg variance  
+  value             Non-number      
+  status            Independent     
+  lower bound        1.00e-05       
+  upper bound       Infinity        
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+---------- 34 New Analysis Block 34 ---------- 
+
+Model class: D
+
+Transmission values: 
+Option: homogeneous no transmission
+transm default:  true
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+  maxfun parameter  marital resid corr  
+  value              0.000000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  po = ss resid corr  
+  value              0.500000           
+  status            Independent         
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+resid default:  true
+
+Type variances values: 
+Option: one variance
+  maxfun parameter  variance     
+  value             Non-number   
+  status            Independent  
+  lower bound        1.00e-05    
+  upper bound       Infinity     
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+  maxfun parameter  polyg variance  
+  value             Non-number      
+  status            Independent     
+  lower bound        1.00e-05       
+  upper bound       Infinity        
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+---------- 35 New Analysis Block 35 ---------- 
+
+Model class: D
+
+Transmission values: 
+Option: homogeneous no transmission
+transm default:  true
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+  maxfun parameter  marital resid corr  
+  value              0.000000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  po = ss resid corr  
+  value              0.500000           
+  status            Independent         
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+resid default:  true
+
+Type variances values: 
+Option: one variance
+  maxfun parameter  variance     
+  value             Non-number   
+  status            Independent  
+  lower bound        1.00e-05    
+  upper bound       Infinity     
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+  maxfun parameter  polyg variance  
+  value             Non-number      
+  status            Independent     
+  lower bound        1.00e-05       
+  upper bound       Infinity        
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+---------- 36 New Analysis Block 36 ---------- 
+
+Model class: D
+
+Transmission values: 
+Option: homogeneous no transmission
+transm default:  true
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+  maxfun parameter  marital resid corr  
+  value              0.000000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  po = ss resid corr  
+  value              0.500000           
+  status            Independent         
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+resid default:  true
+
+Type variances values: 
+Option: one variance
+  maxfun parameter  variance     
+  value             Non-number   
+  status            Independent  
+  lower bound        1.00e-05    
+  upper bound       Infinity     
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+  maxfun parameter  polyg variance  
+  value             Non-number      
+  status            Independent     
+  lower bound        1.00e-05       
+  upper bound       Infinity        
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+---------- 37 New Analysis Block 37 ---------- 
+
+Model class: D
+
+Transmission values: 
+Option: homogeneous no transmission
+transm default:  true
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+  maxfun parameter  marital resid corr  
+  value              0.000000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  po = ss resid corr  
+  value              0.500000           
+  status            Independent         
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+resid default:  true
+
+Type variances values: 
+Option: one variance
+  maxfun parameter  variance     
+  value             Non-number   
+  status            Independent  
+  lower bound        1.00e-05    
+  upper bound       Infinity     
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.1
+  maxfun parameter  polyg variance  
+  value              22.000000      
+  status            Fixed           
+  lower bound         1.00e-05      
+  upper bound       Infinity        
+
+fpmm frequency: 0.1
+fpmm loci: 3
+
+
+---------- 38 New Analysis Block 38 ---------- 
+
+Model class: invalid
+
+Transmission values: 
+Option: homogeneous no transmission
+transm default:  true
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+  maxfun parameter  marital resid corr  
+  value              0.000000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  po = ss resid corr  
+  value             Non-number          
+  status            Independent         
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+resid default:  true
+
+Type variances values: 
+Option: one variance
+  maxfun parameter  variance     
+  value             Non-number   
+  status            Independent  
+  lower bound        1.00e-05    
+  upper bound       Infinity     
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+  maxfun parameter  polyg variance  
+  value              22.000000      
+  status            Fixed           
+  lower bound         1.00e-05      
+  upper bound       Infinity        
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+---------- 39 New Analysis Block 39 ---------- 
+
+Model class: D
+
+Transmission values: 
+Option: homogeneous no transmission
+transm default:  true
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+  maxfun parameter  marital resid corr  
+  value              0.000000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  po = ss resid corr  
+  value              0.500000           
+  status            Independent         
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+resid default:  true
+
+Type variances values: 
+Option: one variance
+  maxfun parameter  variance     
+  value             Non-number   
+  status            Independent  
+  lower bound        1.00e-05    
+  upper bound       Infinity     
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+  maxfun parameter  polyg variance  
+  value              22.000000      
+  status            Fixed           
+  lower bound         1.00e-05      
+  upper bound       Infinity        
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+---------- 40 New Analysis Block 40 ---------- 
+
+Model class: D
+
+Transmission values: 
+Option: homogeneous no transmission
+transm default:  true
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+  maxfun parameter  marital resid corr  
+  value              0.000000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  po = ss resid corr  
+  value              0.500000           
+  status            Independent         
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+resid default:  true
+
+Type variances values: 
+Option: one variance
+  maxfun parameter  variance     
+  value             Non-number   
+  status            Independent  
+  lower bound        1.00e-05    
+  upper bound       Infinity     
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+  maxfun parameter  polyg variance  
+  value              22.000000      
+  status            Fixed           
+  lower bound         1.00e-05      
+  upper bound       Infinity        
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+---------- 41 New Analysis Block 41 ---------- 
+
+Model class: invalid
+
+Transmission values: 
+Option: homogeneous no transmission
+transm default:  true
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+  maxfun parameter  marital resid corr  
+  value              0.000000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  po = ss resid corr  
+  value             Non-number          
+  status            Independent         
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+resid default:  true
+
+Type variances values: 
+Option: one variance
+  maxfun parameter  variance     
+  value             Non-number   
+  status            Independent  
+  lower bound        1.00e-05    
+  upper bound       Infinity     
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+  maxfun parameter  polyg variance  
+  value             Non-number      
+  status            Independent     
+  lower bound        1.00e-05       
+  upper bound       Infinity        
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+---------- 42 New Analysis Block 42 ---------- 
+
+Model class: D
+
+Transmission values: 
+Option: tau AB free
+  maxfun parameter  transm prob_AA  
+  value              1.000000       
+  status            Fixed           
+  lower bound        0.000000       
+  upper bound        1.000000       
+
+  maxfun parameter  transm prob_AB  
+  value              0.500000       
+  status            Independent     
+  lower bound        0.000000       
+  upper bound        1.000000       
+
+  maxfun parameter  transm prob_BB  
+  value              0.000000       
+  status            Fixed           
+  lower bound        0.000000       
+  upper bound        1.000000       
+
+transm default:  false
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+  maxfun parameter  marital resid corr  
+  value              0.000000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  po = ss resid corr  
+  value              0.500000           
+  status            Independent         
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+resid default:  true
+
+Type variances values: 
+Option: one variance
+  maxfun parameter  variance     
+  value             Non-number   
+  status            Independent  
+  lower bound        1.00e-05    
+  upper bound       Infinity     
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+  maxfun parameter  polyg variance  
+  value             Non-number      
+  status            Independent     
+  lower bound        1.00e-05       
+  upper bound       Infinity        
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+---------- 43 New Analysis Block 43 ---------- 
+
+Model class: mixed
+
+Transmission values: 
+Option: homogeneous no transmission
+transm default:  true
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+  maxfun parameter  marital resid corr  
+  value              0.000000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  po = ss resid corr  
+  value             Non-number          
+  status            Independent         
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+resid default:  true
+
+Type variances values: 
+Option: one variance
+  maxfun parameter  variance     
+  value             Non-number   
+  status            Independent  
+  lower bound        1.00e-05    
+  upper bound       Infinity     
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 4 loci, frequency = 0.6
+  maxfun parameter  polyg variance  
+  value             Non-number      
+  status            Independent     
+  lower bound        1.00e-05       
+  upper bound       Infinity        
+
+fpmm frequency: 0.6
+fpmm loci: 4
+
+
+---------- 44 New Analysis Block 44 ---------- 
+
+Model class: invalid
+
+Transmission values: 
+Option: homogeneous no transmission
+transm default:  true
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+  maxfun parameter  marital resid corr  
+  value              0.000000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  po = ss resid corr  
+  value             Non-number          
+  status            Independent         
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+resid default:  true
+
+Type variances values: 
+Option: one variance
+  maxfun parameter  variance     
+  value             Non-number   
+  status            Independent  
+  lower bound        1.00e-05    
+  upper bound       Infinity     
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+  maxfun parameter  polyg variance  
+  value             Non-number      
+  status            Independent     
+  lower bound        1.00e-05       
+  upper bound       Infinity        
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+---------- 45 New Analysis Block 45 ---------- 
+
+Model class: D
+
+Transmission values: 
+Option: homogeneous no transmission
+transm default:  true
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+  maxfun parameter  marital resid corr  
+  value              0.000000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  po = ss resid corr  
+  value              0.500000           
+  status            Independent         
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+resid default:  true
+
+Type variances values: 
+Option: one variance
+  maxfun parameter  variance     
+  value             Non-number   
+  status            Independent  
+  lower bound        1.00e-05    
+  upper bound       Infinity     
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+  maxfun parameter  polyg variance  
+  value             Non-number      
+  status            Independent     
+  lower bound        1.00e-05       
+  upper bound       Infinity        
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+---------- 46 New Analysis Block 46 ---------- 
+
+Model class: invalid
+
+Transmission values: 
+Option: homogeneous no transmission
+transm default:  true
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+  maxfun parameter  marital resid corr  
+  value              0.000000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  po = ss resid corr  
+  value             Non-number          
+  status            Independent         
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+resid default:  true
+
+Type variances values: 
+Option: one variance
+  maxfun parameter  variance     
+  value             Non-number   
+  status            Independent  
+  lower bound        1.00e-05    
+  upper bound       Infinity     
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+  maxfun parameter  polyg variance  
+  value             Non-number      
+  status            Independent     
+  lower bound        1.00e-05       
+  upper bound       Infinity        
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+---------- 47 New Analysis Block 47 ---------- 
+
+Model class: invalid
+
+Transmission values: 
+Option: homogeneous no transmission
+transm default:  true
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+  maxfun parameter  marital resid corr  
+  value              0.000000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  po = ss resid corr  
+  value             Non-number          
+  status            Independent         
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+resid default:  true
+
+Type variances values: 
+Option: one variance
+  maxfun parameter  variance     
+  value             Non-number   
+  status            Independent  
+  lower bound        1.00e-05    
+  upper bound       Infinity     
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+  maxfun parameter  polyg variance  
+  value             Non-number      
+  status            Independent     
+  lower bound        1.00e-05       
+  upper bound       Infinity        
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+---------- 48 New Analysis Block 48 ---------- 
+
+Model class: invalid
+
+Transmission values: 
+Option: homogeneous no transmission
+transm default:  true
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+  maxfun parameter  marital resid corr  
+  value              0.000000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  po = ss resid corr  
+  value             Non-number          
+  status            Independent         
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+resid default:  true
+
+Type variances values: 
+Option: one variance
+  maxfun parameter  variance     
+  value             Non-number   
+  status            Independent  
+  lower bound        1.00e-05    
+  upper bound       Infinity     
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+  maxfun parameter  polyg variance  
+  value             Non-number      
+  status            Independent     
+  lower bound        1.00e-05       
+  upper bound       Infinity        
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+---------- 49 New Analysis Block 49 ---------- 
+
+Model class: D
+
+Transmission values: 
+Option: homogeneous no transmission
+transm default:  true
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+  maxfun parameter  marital resid corr  
+  value              0.000000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  po = ss resid corr  
+  value              0.500000           
+  status            Independent         
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+resid default:  true
+
+Type variances values: 
+Option: one variance
+  maxfun parameter  variance     
+  value             Non-number   
+  status            Independent  
+  lower bound        1.00e-05    
+  upper bound       Infinity     
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+  maxfun parameter  polyg variance  
+  value             Non-number      
+  status            Independent     
+  lower bound        1.00e-05       
+  upper bound       Infinity        
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+---------- 50 New Analysis Block 50 ---------- 
+
+Model class: D
+
+Transmission values: 
+Option: homogeneous no transmission
+transm default:  true
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+  maxfun parameter  marital resid corr  
+  value              0.000000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  po = ss resid corr  
+  value              0.500000           
+  status            Independent         
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+resid default:  true
+
+Type variances values: 
+Option: one variance
+  maxfun parameter  variance     
+  value             Non-number   
+  status            Independent  
+  lower bound        1.00e-05    
+  upper bound       Infinity     
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+  maxfun parameter  polyg variance  
+  value             Non-number      
+  status            Independent     
+  lower bound        1.00e-05       
+  upper bound       Infinity        
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+---------- 51 New Analysis Block 51 ---------- 
+
+Model class: mixed
+
+Transmission values: 
+Option: homogeneous no transmission
+transm default:  true
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+  maxfun parameter  marital resid corr  
+  value              0.000000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  po = ss resid corr  
+  value             Non-number          
+  status            Independent         
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+resid default:  true
+
+Type variances values: 
+Option: one variance
+  maxfun parameter  variance     
+  value             Non-number   
+  status            Independent  
+  lower bound        1.00e-05    
+  upper bound       Infinity     
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+  maxfun parameter  polyg variance  
+  value             Non-number      
+  status            Independent     
+  lower bound        1.00e-05       
+  upper bound       Infinity        
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+---------- 52 New Analysis Block 52 ---------- 
+
+Model class: mlm
+
+Transmission values: 
+Option: homogeneous no transmission
+transm default:  true
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+  maxfun parameter  marital resid assoc  
+  value              0.000000            
+  status            Fixed                
+  lower bound       -Infinity            
+  upper bound       Infinity             
+
+  maxfun parameter  po = ss resid assoc  
+  value              0.300000            
+  status            Independent          
+  lower bound       -Infinity            
+  upper bound       Infinity             
+
+resid default:  true
+
+Type variances values: 
+Option: one variance
+  maxfun parameter  variance     
+  value             Non-number   
+  status            Independent  
+  lower bound        1.00e-05    
+  upper bound       Infinity     
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+  maxfun parameter  polyg variance  
+  value             Non-number      
+  status            Independent     
+  lower bound        1.00e-05       
+  upper bound       Infinity        
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+---------- 53 New Analysis Block 53 ---------- 
+
+Model class: D
+
+Transmission values: 
+Option: homogeneous no transmission
+transm default:  true
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+  maxfun parameter  marital resid corr  
+  value              0.000000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  po = ss resid corr  
+  value              0.500000           
+  status            Independent         
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+resid default:  true
+
+Type variances values: 
+Option: one variance
+  maxfun parameter  variance     
+  value             Non-number   
+  status            Independent  
+  lower bound        1.00e-05    
+  upper bound       Infinity     
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+  maxfun parameter  polyg variance  
+  value             Non-number      
+  status            Independent     
+  lower bound        1.00e-05       
+  upper bound       Infinity        
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+---------- 54 New Analysis Block 54 ---------- 
+
+Model class: D
+
+Transmission values: 
+Option: homogeneous no transmission
+transm default:  true
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+  maxfun parameter  marital resid corr  
+  value              0.000000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  po = ss resid corr  
+  value              0.500000           
+  status            Independent         
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+resid default:  true
+
+Type variances values: 
+Option: one variance
+  maxfun parameter  variance     
+  value             Non-number   
+  status            Independent  
+  lower bound        1.00e-05    
+  upper bound       Infinity     
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+  maxfun parameter  polyg variance  
+  value             Non-number      
+  status            Independent     
+  lower bound        1.00e-05       
+  upper bound       Infinity        
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+---------- 55 New Analysis Block 55 ---------- 
+
+Model class: D
+
+Transmission values: 
+Option: homogeneous no transmission
+transm default:  true
+
+Residual correlations values: 
+Option: Arbitrary
+  maxfun parameter  marital resid corr  
+  value              0.000000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  fo resid corr  
+  value              0.500000      
+  status            Independent    
+  lower bound       -1.000000      
+  upper bound        1.000000      
+
+  maxfun parameter  mo resid corr  
+  value              0.500000      
+  status            Independent    
+  lower bound       -1.000000      
+  upper bound        1.000000      
+
+  maxfun parameter  ss resid corr  
+  value              0.980000      
+  status            Fixed          
+  lower bound       -1.000000      
+  upper bound        1.000000      
+
+resid default:  false
+
+Type variances values: 
+Option: one variance
+  maxfun parameter  variance     
+  value             Non-number   
+  status            Independent  
+  lower bound        1.00e-05    
+  upper bound       Infinity     
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+  maxfun parameter  polyg variance  
+  value             Non-number      
+  status            Independent     
+  lower bound        1.00e-05       
+  upper bound       Infinity        
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+---------- 56 New Analysis Block 56 ---------- 
+
+Model class: invalid
+
+Transmission values: 
+Option: homogeneous no transmission
+transm default:  true
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+  maxfun parameter  marital resid corr  
+  value              0.000000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  po = ss resid corr  
+  value             Non-number          
+  status            Independent         
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+resid default:  false
+
+Type variances values: 
+Option: one variance
+  maxfun parameter  variance     
+  value             Non-number   
+  status            Independent  
+  lower bound        1.00e-05    
+  upper bound       Infinity     
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+  maxfun parameter  polyg variance  
+  value             Non-number      
+  status            Independent     
+  lower bound        1.00e-05       
+  upper bound       Infinity        
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+---------- 57 New Analysis Block 57 ---------- 
+
+Model class: D
+
+Transmission values: 
+Option: homogeneous no transmission
+transm default:  true
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+  maxfun parameter  marital resid corr  
+  value              0.000000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  po = ss resid corr  
+  value              0.500000           
+  status            Independent         
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+resid default:  true
+
+Type variances values: 
+Option: one variance
+  maxfun parameter  variance     
+  value             Non-number   
+  status            Independent  
+  lower bound        1.00e-05    
+  upper bound       Infinity     
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+  maxfun parameter  polyg variance  
+  value             Non-number      
+  status            Independent     
+  lower bound        1.00e-05       
+  upper bound       Infinity        
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+---------- 58 New Analysis Block 58 ---------- 
+
+Model class: D
+
+Transmission values: 
+Option: general
+  maxfun parameter  transm prob_AA  
+  value             Non-number      
+  status            Independent     
+  lower bound       -Infinity       
+  upper bound       Infinity        
+
+  maxfun parameter  transm prob_AB  
+  value             Non-number      
+  status            Independent     
+  lower bound       -Infinity       
+  upper bound       Infinity        
+
+  maxfun parameter  transm prob_BB  
+  value             Non-number      
+  status            Independent     
+  lower bound       -Infinity       
+  upper bound       Infinity        
+
+transm default:  true
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+  maxfun parameter  marital resid corr  
+  value              0.000000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  po = ss resid corr  
+  value              0.500000           
+  status            Independent         
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+resid default:  true
+
+Type variances values: 
+Option: one variance
+  maxfun parameter  variance     
+  value             Non-number   
+  status            Independent  
+  lower bound        1.00e-05    
+  upper bound       Infinity     
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+  maxfun parameter  polyg variance  
+  value             Non-number      
+  status            Independent     
+  lower bound        1.00e-05       
+  upper bound       Infinity        
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+---------- 59 New Analysis Block 59 ---------- 
+
+Model class: D
+
+Transmission values: 
+Option: homogeneous mendelian
+  maxfun parameter  transm prob_AA  
+  value              1.000000       
+  status            Fixed           
+  lower bound        0.000000       
+  upper bound        1.000000       
+
+  maxfun parameter  transm prob_AB  
+  value              0.500000       
+  status            Fixed           
+  lower bound        0.000000       
+  upper bound        1.000000       
+
+  maxfun parameter  transm prob_BB  
+  value              0.000000       
+  status            Fixed           
+  lower bound        0.000000       
+  upper bound        1.000000       
+
+transm default:  true
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+  maxfun parameter  marital resid corr  
+  value              0.000000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  po = ss resid corr  
+  value              0.500000           
+  status            Independent         
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+resid default:  true
+
+Type variances values: 
+Option: one variance
+  maxfun parameter  variance     
+  value             Non-number   
+  status            Independent  
+  lower bound        1.00e-05    
+  upper bound       Infinity     
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+  maxfun parameter  polyg variance  
+  value             Non-number      
+  status            Independent     
+  lower bound        1.00e-05       
+  upper bound       Infinity        
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+---------- 60 New Analysis Block 60 ---------- 
+
+Model class: invalid
+
+Transmission values: 
+Option: homogeneous mendelian
+  maxfun parameter  transm prob_AA  
+  value              1.000000       
+  status            Fixed           
+  lower bound        0.000000       
+  upper bound        1.000000       
+
+  maxfun parameter  transm prob_AB  
+  value              0.500000       
+  status            Fixed           
+  lower bound        0.000000       
+  upper bound        1.000000       
+
+  maxfun parameter  transm prob_BB  
+  value              0.000000       
+  status            Fixed           
+  lower bound        0.000000       
+  upper bound        1.000000       
+
+transm default:  true
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+  maxfun parameter  marital resid corr  
+  value              0.000000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  po = ss resid corr  
+  value              0.500000           
+  status            Independent         
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+resid default:  true
+
+Type variances values: 
+Option: one variance
+  maxfun parameter  variance     
+  value             Non-number   
+  status            Independent  
+  lower bound        1.00e-05    
+  upper bound       Infinity     
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+  maxfun parameter  polyg variance  
+  value             Non-number      
+  status            Independent     
+  lower bound        1.00e-05       
+  upper bound       Infinity        
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+---------- 61 New Analysis Block 61 ---------- 
+
+Model class: invalid
+
+Transmission values: 
+Option: homogeneous mendelian
+  maxfun parameter  transm prob_AA  
+  value              1.000000       
+  status            Fixed           
+  lower bound        0.000000       
+  upper bound        1.000000       
+
+  maxfun parameter  transm prob_AB  
+  value              0.500000       
+  status            Fixed           
+  lower bound        0.000000       
+  upper bound        1.000000       
+
+  maxfun parameter  transm prob_BB  
+  value              0.000000       
+  status            Fixed           
+  lower bound        0.000000       
+  upper bound        1.000000       
+
+transm default:  true
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+  maxfun parameter  marital resid corr  
+  value              0.000000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  po = ss resid corr  
+  value              0.500000           
+  status            Independent         
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+resid default:  true
+
+Type variances values: 
+Option: one variance
+  maxfun parameter  variance     
+  value             Non-number   
+  status            Independent  
+  lower bound        1.00e-05    
+  upper bound       Infinity     
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+  maxfun parameter  polyg variance  
+  value             Non-number      
+  status            Independent     
+  lower bound        1.00e-05       
+  upper bound       Infinity        
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+---------- 62 New Analysis Block 62 ---------- 
+
+Model class: D
+
+Transmission values: 
+Option: homogeneous mendelian
+  maxfun parameter  transm prob_AA  
+  value              1.000000       
+  status            Fixed           
+  lower bound        0.000000       
+  upper bound        1.000000       
+
+  maxfun parameter  transm prob_AB  
+  value              0.500000       
+  status            Fixed           
+  lower bound        0.000000       
+  upper bound        1.000000       
+
+  maxfun parameter  transm prob_BB  
+  value              0.000000       
+  status            Fixed           
+  lower bound        0.000000       
+  upper bound        1.000000       
+
+transm default:  true
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+  maxfun parameter  marital resid corr  
+  value              0.000000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  po = ss resid corr  
+  value              0.500000           
+  status            Independent         
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+resid default:  true
+
+Type variances values: 
+Option: two variances, A recessive
+  maxfun parameter  variance_AA  
+  value             Non-number   
+  status            Independent  
+  lower bound        1.00e-05    
+  upper bound       Infinity     
+
+  maxfun parameter  variance_AB_BB  
+  value             Non-number      
+  status            Independent     
+  lower bound        1.00e-05       
+  upper bound       Infinity        
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+  maxfun parameter  polyg variance  
+  value             Non-number      
+  status            Independent     
+  lower bound        1.00e-05       
+  upper bound       Infinity        
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+---------- 63 New Analysis Block 63 ---------- 
+
+Model class: invalid
+
+Transmission values: 
+Option: homogeneous mendelian
+  maxfun parameter  transm prob_AA  
+  value              1.000000       
+  status            Fixed           
+  lower bound        0.000000       
+  upper bound        1.000000       
+
+  maxfun parameter  transm prob_AB  
+  value              0.500000       
+  status            Fixed           
+  lower bound        0.000000       
+  upper bound        1.000000       
+
+  maxfun parameter  transm prob_BB  
+  value              0.000000       
+  status            Fixed           
+  lower bound        0.000000       
+  upper bound        1.000000       
+
+transm default:  true
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+  maxfun parameter  marital resid corr  
+  value              0.000000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  po = ss resid corr  
+  value              0.500000           
+  status            Independent         
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+resid default:  true
+
+Type variances values: 
+Option: one variance
+  maxfun parameter  variance     
+  value             Non-number   
+  status            Independent  
+  lower bound        1.00e-05    
+  upper bound       Infinity     
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+  maxfun parameter  polyg variance  
+  value             Non-number      
+  status            Independent     
+  lower bound        1.00e-05       
+  upper bound       Infinity        
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+---------- 64 New Analysis Block 64 ---------- 
+
+Model class: mlm
+
+Transmission values: 
+Option: homogeneous no transmission
+transm default:  true
+
+Residual correlations values: 
+Option: Arbitrary
+  maxfun parameter  marital resid assoc  
+  value              0.000000            
+  status            Fixed                
+  lower bound       -Infinity            
+  upper bound       Infinity             
+
+  maxfun parameter  fo resid assoc  
+  value              0.300000       
+  status            Independent     
+  lower bound       -Infinity       
+  upper bound       Infinity        
+
+  maxfun parameter  mo resid assoc  
+  value              0.300000       
+  status            Independent     
+  lower bound       -Infinity       
+  upper bound       Infinity        
+
+  maxfun parameter  ss resid assoc  
+  value              0.300000       
+  status            Fixed           
+  lower bound       -Infinity       
+  upper bound       Infinity        
+
+resid default:  false
+
+Type variances values: 
+Option: one variance
+  maxfun parameter  variance     
+  value             Non-number   
+  status            Independent  
+  lower bound        1.00e-05    
+  upper bound       Infinity     
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+  maxfun parameter  polyg variance  
+  value             Non-number      
+  status            Independent     
+  lower bound        1.00e-05       
+  upper bound       Infinity        
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+---------- 65 New Analysis Block 65 ---------- 
+
+Model class: A
+
+Transmission values: 
+Option: homogeneous no transmission
+transm default:  true
+
+Residual correlations values: 
+Option: Spouse and sib-sib correlations independent, mother-offspring and father-offspring correlations equal
+  maxfun parameter  marital resid corr  
+  value              0.000000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  po resid corr  
+  value              0.500000      
+  status            Independent    
+  lower bound       -1.000000      
+  upper bound        1.000000      
+
+  maxfun parameter  ss resid corr  
+  value              0.500000      
+  status            Independent    
+  lower bound       -1.000000      
+  upper bound        1.000000      
+
+resid default:  false
+
+Type variances values: 
+Option: one variance
+  maxfun parameter  variance     
+  value             Non-number   
+  status            Independent  
+  lower bound        1.00e-05    
+  upper bound       Infinity     
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+  maxfun parameter  polyg variance  
+  value             Non-number      
+  status            Independent     
+  lower bound        1.00e-05       
+  upper bound       Infinity        
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+---------- 66 New Analysis Block 66 ---------- 
+
+Model class: mlm
+
+Transmission values: 
+Option: homogeneous no transmission
+transm default:  true
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+  maxfun parameter  marital resid assoc  
+  value              0.000000            
+  status            Fixed                
+  lower bound       -Infinity            
+  upper bound       Infinity             
+
+  maxfun parameter  po = ss resid assoc  
+  value              0.300000            
+  status            Independent          
+  lower bound       -Infinity            
+  upper bound       Infinity             
+
+resid default:  true
+
+Type variances values: 
+Option: one variance
+  maxfun parameter  variance     
+  value             Non-number   
+  status            Independent  
+  lower bound        1.00e-05    
+  upper bound       Infinity     
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+  maxfun parameter  polyg variance  
+  value             Non-number      
+  status            Independent     
+  lower bound        1.00e-05       
+  upper bound       Infinity        
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+---------- 67 New Analysis Block 67 ---------- 
+
+Model class: mlm
+
+Transmission values: 
+Option: homogeneous no transmission
+transm default:  true
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+  maxfun parameter  marital resid assoc  
+  value              0.000000            
+  status            Fixed                
+  lower bound       -Infinity            
+  upper bound       Infinity             
+
+  maxfun parameter  po = ss resid assoc  
+  value              3.000000            
+  status            Independent          
+  lower bound       -Infinity            
+  upper bound       Infinity             
+
+resid default:  false
+
+Type variances values: 
+Option: one variance
+  maxfun parameter  variance     
+  value             Non-number   
+  status            Independent  
+  lower bound        1.00e-05    
+  upper bound       Infinity     
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+  maxfun parameter  polyg variance  
+  value             Non-number      
+  status            Independent     
+  lower bound        1.00e-05       
+  upper bound       Infinity        
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+---------- 68 New Analysis Block 68 ---------- 
+
+Model class: D
+
+Transmission values: 
+Option: homogeneous no transmission
+transm default:  true
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+  maxfun parameter  marital resid corr  
+  value              0.000000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  po = ss resid corr  
+  value              0.500000           
+  status            Independent         
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+resid default:  false
+
+Type variances values: 
+Option: one variance
+  maxfun parameter  variance     
+  value             Non-number   
+  status            Independent  
+  lower bound        1.00e-05    
+  upper bound       Infinity     
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+  maxfun parameter  polyg variance  
+  value             Non-number      
+  status            Independent     
+  lower bound        1.00e-05       
+  upper bound       Infinity        
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+---------- 69 New Analysis Block 69 ---------- 
+
+Model class: D
+
+Transmission values: 
+Option: mitochondrial
+transm default:  true
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+  maxfun parameter  marital resid corr  
+  value              0.000000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  po = ss resid corr  
+  value              0.500000           
+  status            Independent         
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+resid default:  true
+
+Type variances values: 
+Option: one variance
+  maxfun parameter  variance     
+  value             Non-number   
+  status            Independent  
+  lower bound        1.00e-05    
+  upper bound       Infinity     
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+  maxfun parameter  polyg variance  
+  value             Non-number      
+  status            Independent     
+  lower bound        1.00e-05       
+  upper bound       Infinity        
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+---------- 70 New Analysis Block 70 ---------- 
+
+Model class: invalid
+
+Transmission values: 
+Option: mitochondrial
+transm default:  true
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+  maxfun parameter  marital resid corr  
+  value              0.000000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  po = ss resid corr  
+  value              0.500000           
+  status            Independent         
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+resid default:  true
+
+Type variances values: 
+Option: one variance
+  maxfun parameter  variance     
+  value             Non-number   
+  status            Independent  
+  lower bound        1.00e-05    
+  upper bound       Infinity     
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+  maxfun parameter  polyg variance  
+  value             Non-number      
+  status            Independent     
+  lower bound        1.00e-05       
+  upper bound       Infinity        
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+---------- 71 New Analysis Block 71 ---------- 
+
+Model class: D
+
+Transmission values: 
+Option: mitochondrial
+transm default:  true
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+  maxfun parameter  marital resid corr  
+  value              0.000000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  po = ss resid corr  
+  value              0.500000           
+  status            Independent         
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+resid default:  true
+
+Type variances values: 
+Option: one variance
+  maxfun parameter  variance     
+  value             Non-number   
+  status            Independent  
+  lower bound        1.00e-05    
+  upper bound       Infinity     
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+  maxfun parameter  polyg variance  
+  value             Non-number      
+  status            Independent     
+  lower bound        1.00e-05       
+  upper bound       Infinity        
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+---------- 72 New Analysis Block 72 ---------- 
+
+Model class: D
+
+Transmission values: 
+Option: mitochondrial
+transm default:  true
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+  maxfun parameter  marital resid corr  
+  value              0.000000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  po = ss resid corr  
+  value              0.500000           
+  status            Independent         
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+resid default:  true
+
+Type variances values: 
+Option: one variance
+  maxfun parameter  variance     
+  value             Non-number   
+  status            Independent  
+  lower bound        1.00e-05    
+  upper bound       Infinity     
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+  maxfun parameter  polyg variance  
+  value             Non-number      
+  status            Independent     
+  lower bound        1.00e-05       
+  upper bound       Infinity        
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+---------- 73 New Analysis Block 73 ---------- 
+
+Model class: D
+
+Transmission values: 
+Option: mitochondrial
+transm default:  true
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+  maxfun parameter  marital resid corr  
+  value              0.000000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  po = ss resid corr  
+  value              0.500000           
+  status            Independent         
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+resid default:  true
+
+Type variances values: 
+Option: one variance
+  maxfun parameter  variance     
+  value             Non-number   
+  status            Independent  
+  lower bound        1.00e-05    
+  upper bound       Infinity     
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+  maxfun parameter  polyg variance  
+  value             Non-number      
+  status            Independent     
+  lower bound        1.00e-05       
+  upper bound       Infinity        
+
+fpmm frequency: 0.5
+fpmm loci: 3
+

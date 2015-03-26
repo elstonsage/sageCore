@@ -1,0 +1,1027 @@
+
+# Finite polygenic mixed model
+fpmm
+{
+  loci=4
+  freq=0.6
+  var, val=12.3, fixed=false
+}
+
+# Transformation
+transformation
+{
+  # Box-Cox
+  option=box_cox
+  lambda1, val=1, fixed=false, lower_bound=-1
+  lambda2, val=0, fixed=true
+}
+
+# Transmission
+transmission
+{
+  # homogeneous no transmission
+  option=homog_no_trans
+}
+
+# Age of onset
+onset
+{
+  # age of onset depends on type
+  type_dependent=A
+
+  # no polygenic component
+  multi_dependent=N
+
+}
+
+# Ascertainment
+ascertainment
+{
+  # none
+  cond_set=none
+
+  # actual
+  cond_val=actual
+}
+
+# Transformation
+transformation
+{
+  # George-Elston
+  option=george_elston
+  lambda1, val=2.7, fixed=false, lower_bound=1, upper_bound=73.7
+  lambda2, val=-5.2, fixed=true
+}
+
+# Transmission
+transmission
+{
+  # homogeneous no transmission
+  option=homog_no_trans
+}
+
+# Age of onset
+onset
+{
+  # age of onset depends on type
+  type_dependent=A
+
+  # no polygenic component
+  multi_dependent=N
+
+}
+
+# Ascertainment
+ascertainment
+{
+  # none
+  cond_set=none
+
+  # actual
+  cond_val=actual
+}
+
+# Transformation
+transformation
+{
+  # George-Elston
+  option=george_elston
+  lambda1, val=2.7, fixed=false, lower_bound=1
+  lambda2, val=-5.2, fixed=true
+}
+
+# Transmission
+transmission
+{
+  # homogeneous no transmission
+  option=homog_no_trans
+}
+
+# Age of onset
+onset
+{
+  # age of onset depends on type
+  type_dependent=A
+
+  # no polygenic component
+  multi_dependent=N
+
+}
+
+# Ascertainment
+ascertainment
+{
+  # none
+  cond_set=none
+
+  # actual
+  cond_val=actual
+}
+
+# Transformation
+transformation
+{
+  # Box-Cox
+  option=box_cox
+  lambda1, val=1, fixed=false, lower_bound=-1
+  lambda2, val=0, fixed=true
+}
+
+# Type means
+type_mean
+{
+  # three means
+  option=three
+  mean=AA, val=2.7, fixed=false
+  mean=AB, val=-5.2, fixed=true
+  mean=BB, val=0, fixed=false
+}
+
+# Transmission
+transmission
+{
+  # homogeneous no transmission
+  option=homog_no_trans
+}
+
+# Age of onset
+onset
+{
+  # age of onset depends on type
+  type_dependent=A
+
+  # no polygenic component
+  multi_dependent=N
+
+}
+
+# Ascertainment
+ascertainment
+{
+  # none
+  cond_set=none
+
+  # actual
+  cond_val=actual
+}
+
+# Transformation
+transformation
+{
+  # Box-Cox
+  option=box_cox
+  lambda1, val=1, fixed=false, lower_bound=-1
+  lambda2, val=0, fixed=true
+}
+
+# Type means
+type_mean
+{
+  # one mean
+  option=one
+  mean=AA, val=2.7, fixed=false
+  mean=AB, val=2.7, fixed=false
+  mean=BB, val=2.7, fixed=false
+}
+
+# Transmission
+transmission
+{
+  # homogeneous no transmission
+  option=homog_no_trans
+}
+
+# Age of onset
+onset
+{
+  # age of onset depends on type
+  type_dependent=A
+
+  # no polygenic component
+  multi_dependent=N
+
+}
+
+# Ascertainment
+ascertainment
+{
+  # none
+  cond_set=none
+
+  # actual
+  cond_val=actual
+}
+
+# Transformation
+transformation
+{
+  # Box-Cox
+  option=box_cox
+  lambda1, val=1, fixed=false, lower_bound=-1
+  lambda2, val=0, fixed=true
+}
+
+# Transmission
+transmission
+{
+  # homogeneous no transmission
+  option=homog_no_trans
+}
+
+# Age of onset
+onset
+{
+  # age of onset depends on type
+  type_dependent=A
+
+  # no polygenic component
+  multi_dependent=N
+
+}
+
+# Ascertainment
+ascertainment
+{
+  # none
+  cond_set=none
+
+  # actual
+  cond_val=actual
+}
+
+# Transformation
+transformation
+{
+  # Box-Cox
+  option=box_cox
+  lambda1, val=1, fixed=false, lower_bound=-1
+  lambda2, val=0, fixed=true
+}
+
+# Transmission
+transmission
+{
+  # homogeneous no transmission
+  option=homog_no_trans
+}
+
+# Age of onset
+onset
+{
+  # age of onset depends on type
+  type_dependent=A
+
+  # no polygenic component
+  multi_dependent=N
+
+}
+
+# Ascertainment
+ascertainment
+{
+  # none
+  cond_set=none
+
+  # actual
+  cond_val=actual
+}
+
+# Transformation
+transformation
+{
+  # Box-Cox
+  option=box_cox
+  lambda1, val=1, fixed=false, lower_bound=-1
+  lambda2, val=0, fixed=true
+}
+
+# Residual correlations
+resid
+{
+  # Arbitrary
+  option=arb
+  fm, val=0.2, fixed=true
+  mo, val=0.3, fixed=false
+  fo, val=0.4, fixed=false
+  ss, val=0.5, fixed=false
+}
+Testing RegPenetranceCommonAdjustments: D
+
+Important Correlations:
+=======================
+Pfm : 0.2
+Pms : 0.3
+Pfs : 0.4
+Pbb : 0.5
+
+Spousal Variance Adjustment: -0.04
+
+Moth Inf  Fath Inf  Par Var Adj
+========  ========  ===========
+false     false               0
+false     true            -0.16
+true      false           -0.09
+true      true        -0.210417
+
+Sib  FF Sib Coeff  FF Sib Var Adj  FT Sib Coeff  FT Sib Var Adj  TF Sib Coeff  TF Sib Var Adj  TT Sib Coeff  TT Sib Var Adj
+===  ============  ==============  ============  ==============  ============  ==============  ============  ==============
+  0             0               0             0               0             0               0             0               0
+  1           0.5           -0.25      0.404762       -0.202381      0.450549       -0.225275      0.366755       -0.183377
+  2      0.333333       -0.333333      0.288136       -0.288136      0.310606       -0.310606       0.26834        -0.26834
+  3          0.25          -0.375      0.223684       -0.335526      0.236994       -0.355491      0.211568       -0.317352
+  4           0.2            -0.4      0.182796       -0.365591      0.191589       -0.383178      0.174623       -0.349246
+  5      0.166667       -0.416667      0.154545       -0.386364      0.160784       -0.401961      0.148663       -0.371658
+
+
+# Transmission
+transmission
+{
+  # homogeneous no transmission
+  option=homog_no_trans
+}
+
+# Age of onset
+onset
+{
+  # age of onset depends on type
+  type_dependent=A
+
+  # no polygenic component
+  multi_dependent=N
+
+}
+
+# Ascertainment
+ascertainment
+{
+  # none
+  cond_set=none
+
+  # actual
+  cond_val=actual
+}
+
+# Transformation
+transformation
+{
+  # Box-Cox
+  option=box_cox
+  lambda1, val=1, fixed=false, lower_bound=-1
+  lambda2, val=0, fixed=true
+}
+
+# Residual correlations
+resid
+{
+  # No spouse correlation, parent-offspring and sib-sib correlations equal
+  option=equal_po_ss
+  fm, val=0, fixed=true
+  mo, val=0.3, fixed=true
+  fo, val=0.3, fixed=true
+  ss, val=0.3, fixed=true
+}
+Testing RegPenetranceCommonAdjustments: D
+
+Important Correlations:
+=======================
+Pfm : 0
+Pms : 0.3
+Pfs : 0.3
+Pbb : 0.3
+
+Spousal Variance Adjustment: 0
+
+Moth Inf  Fath Inf  Par Var Adj
+========  ========  ===========
+false     false               0
+false     true            -0.09
+true      false           -0.09
+true      true            -0.18
+
+Sib  FF Sib Coeff  FF Sib Var Adj  FT Sib Coeff  FT Sib Var Adj  TF Sib Coeff  TF Sib Var Adj  TT Sib Coeff  TT Sib Var Adj
+===  ============  ==============  ============  ==============  ============  ==============  ============  ==============
+  0             0               0             0               0             0               0             0               0
+  1           0.3           -0.09      0.230769      -0.0692308      0.230769      -0.0692308      0.146341      -0.0439024
+  2      0.230769       -0.138462        0.1875         -0.1125        0.1875         -0.1125       0.12766      -0.0765957
+  3        0.1875        -0.16875      0.157895       -0.142105      0.157895       -0.142105      0.113208       -0.101887
+  4      0.157895       -0.189474      0.136364       -0.163636      0.136364       -0.163636      0.101695       -0.122034
+  5      0.136364       -0.204545          0.12           -0.18          0.12           -0.18     0.0923077       -0.138462
+
+
+# Transmission
+transmission
+{
+  # homogeneous no transmission
+  option=homog_no_trans
+}
+
+# Age of onset
+onset
+{
+  # age of onset depends on type
+  type_dependent=A
+
+  # no polygenic component
+  multi_dependent=N
+
+}
+
+# Ascertainment
+ascertainment
+{
+  # none
+  cond_set=none
+
+  # actual
+  cond_val=actual
+}
+
+# Transformation
+transformation
+{
+  # Box-Cox
+  option=box_cox
+  lambda1, val=1, fixed=false, lower_bound=-1
+  lambda2, val=0, fixed=true
+}
+
+# Type frequency
+geno_freq
+{
+  # Hardy-Weinberg equilibrium
+  option=hwe
+  probs_fixed=false
+  allele_freq_A, val=0.67
+}
+
+# Transmission
+transmission
+{
+  # homogeneous no transmission
+  option=homog_no_trans
+}
+
+# Age of onset
+onset
+{
+  # age of onset depends on type
+  type_dependent=A
+
+  # no polygenic component
+  multi_dependent=N
+
+}
+
+# Ascertainment
+ascertainment
+{
+  # none
+  cond_set=none
+
+  # actual
+  cond_val=actual
+}
+
+# Transformation
+transformation
+{
+  # Box-Cox
+  option=box_cox
+  lambda1, val=1, fixed=false, lower_bound=-1
+  lambda2, val=0, fixed=true
+}
+
+# Transmission
+transmission
+{
+  # homogeneous no transmission
+  option=homog_no_trans
+}
+
+# Age of onset
+onset
+{
+  # age of onset depends on type
+  type_dependent=A
+
+  # no polygenic component
+  multi_dependent=N
+
+}
+
+# Ascertainment
+ascertainment
+{
+  # none
+  cond_set=none
+
+  # actual
+  cond_val=actual
+}
+
+# Transformation
+transformation
+{
+  # Box-Cox
+  option=box_cox
+  lambda1, val=1, fixed=false, lower_bound=-1
+  lambda2, val=0, fixed=true
+}
+
+# Composite trait covariates
+composite_trait
+{
+  covariate=t, val=0.6, fixed=true
+  covariate=u, val=0.7, fixed=false
+}
+
+# Transmission
+transmission
+{
+  # homogeneous no transmission
+  option=homog_no_trans
+}
+
+# Age of onset
+onset
+{
+  # age of onset depends on type
+  type_dependent=A
+
+  # no polygenic component
+  multi_dependent=N
+
+}
+
+# Ascertainment
+ascertainment
+{
+  # none
+  cond_set=none
+
+  # actual
+  cond_val=actual
+}
+
+# Transformation
+transformation
+{
+  # Box-Cox
+  option=box_cox
+  lambda1, val=1, fixed=false, lower_bound=-1
+  lambda2, val=0, fixed=true
+}
+
+# Mean covariates
+mean_cov
+{
+  covariate=t, val=0.6666, fixed=false, interaction=true
+  covariate=u, val=0, fixed=false, interaction=false
+}
+
+# Transmission
+transmission
+{
+  # homogeneous no transmission
+  option=homog_no_trans
+}
+
+# Age of onset
+onset
+{
+  # age of onset depends on type
+  type_dependent=A
+
+  # no polygenic component
+  multi_dependent=N
+
+}
+
+# Ascertainment
+ascertainment
+{
+  # none
+  cond_set=none
+
+  # actual
+  cond_val=actual
+}
+
+# Transformation
+transformation
+{
+  # Box-Cox
+  option=box_cox
+  lambda1, val=1, fixed=false, lower_bound=-1
+  lambda2, val=0, fixed=true
+}
+
+# Variance covariates
+var_cov
+{
+  covariate=t, val=0.6666, fixed=false, interaction=true
+  covariate=u, val=0, fixed=false, interaction=false
+}
+
+# Transmission
+transmission
+{
+  # homogeneous no transmission
+  option=homog_no_trans
+}
+
+# Age of onset
+onset
+{
+  # age of onset depends on type
+  type_dependent=A
+
+  # no polygenic component
+  multi_dependent=N
+
+}
+
+# Ascertainment
+ascertainment
+{
+  # none
+  cond_set=none
+
+  # actual
+  cond_val=actual
+}
+
+# Transformation
+transformation
+{
+  # Box-Cox
+  option=box_cox
+  lambda1, val=1, fixed=false, lower_bound=-1
+  lambda2, val=0, fixed=true
+}
+
+# Transmission
+transmission
+{
+  # homogeneous no transmission
+  option=homog_no_trans
+}
+
+# Age of onset
+onset
+{
+  # age of onset depends on type
+  type_dependent=A
+
+  # no polygenic component
+  multi_dependent=N
+
+}
+
+# Ascertainment
+ascertainment
+{
+  # none
+  cond_set=none
+
+  # actual
+  cond_val=actual
+}
+
+# Transformation
+transformation
+{
+  # Box-Cox
+  option=box_cox
+  lambda1, val=1, fixed=false, lower_bound=-1
+  lambda2, val=0, fixed=true
+}
+
+# Transmission
+transmission
+{
+  # homogeneous no transmission
+  option=homog_no_trans
+}
+
+# Age of onset
+onset
+{
+  # age of onset depends on type
+  type_dependent=A
+
+  # no polygenic component
+  multi_dependent=N
+
+}
+
+# Ascertainment
+ascertainment
+{
+  # none
+  cond_set=none
+
+  # actual
+  cond_val=actual
+}
+
+# Transformation
+transformation
+{
+  # Box-Cox
+  option=box_cox
+  lambda1, val=1, fixed=false, lower_bound=-1
+  lambda2, val=0, fixed=true
+}
+
+# Transmission
+transmission
+{
+  # homogeneous no transmission
+  option=homog_no_trans
+}
+
+# Age of onset
+onset
+{
+  # age of onset depends on type
+  type_dependent=A
+
+  # no polygenic component
+  multi_dependent=N
+
+}
+
+# Ascertainment
+ascertainment
+{
+  # none
+  cond_set=none
+
+  # actual
+  cond_val=actual
+}
+
+# Transformation
+transformation
+{
+  # Box-Cox
+  option=box_cox
+  lambda1, val=1, fixed=false, lower_bound=-1
+  lambda2, val=0, fixed=true
+}
+
+# Transmission
+transmission
+{
+  # homogeneous no transmission
+  option=homog_no_trans
+}
+
+# Age of onset
+onset
+{
+  # age of onset depends on type
+  type_dependent=A
+
+  # no polygenic component
+  multi_dependent=N
+
+}
+
+# Ascertainment
+ascertainment
+{
+  # none
+  cond_set=none
+
+  # actual
+  cond_val=actual
+}
+
+# Transformation
+transformation
+{
+  # Box-Cox
+  option=box_cox
+  lambda1, val=1, fixed=false, lower_bound=-1
+  lambda2, val=0, fixed=true
+}
+
+# Transmission
+transmission
+{
+  # homogeneous no transmission
+  option=homog_no_trans
+}
+
+# Age of onset
+onset
+{
+  # age of onset depends on type
+  type_dependent=A
+
+  # no polygenic component
+  multi_dependent=N
+
+}
+
+# Ascertainment
+ascertainment
+{
+  # none
+  cond_set=none
+
+  # actual
+  cond_val=actual
+}
+
+# Transformation
+transformation
+{
+  # Box-Cox
+  option=box_cox
+  lambda1, val=1, fixed=false, lower_bound=-1
+  lambda2, val=0, fixed=true
+}
+
+# Transmission
+transmission
+{
+  # homogeneous no transmission
+  option=homog_no_trans
+}
+
+# Age of onset
+onset
+{
+  # age of onset depends on type
+  type_dependent=A
+
+  # no polygenic component
+  multi_dependent=N
+
+}
+
+# Ascertainment
+ascertainment
+{
+  # none
+  cond_set=none
+
+  # actual
+  cond_val=actual
+}
+
+# Transformation
+transformation
+{
+  # Box-Cox
+  option=box_cox
+  lambda1, val=1, fixed=false, lower_bound=-1
+  lambda2, val=0, fixed=true
+}
+
+# Transmission
+transmission
+{
+  # homogeneous no transmission
+  option=homog_no_trans
+}
+
+# Age of onset
+onset
+{
+  # age of onset depends on type
+  type_dependent=A
+
+  # no polygenic component
+  multi_dependent=N
+
+}
+
+# Ascertainment
+ascertainment
+{
+  # none
+  cond_set=none
+
+  # actual
+  cond_val=actual
+}
+
+# Transformation
+transformation
+{
+  # Box-Cox
+  option=box_cox
+  lambda1, val=1, fixed=false, lower_bound=-1
+  lambda2, val=0, fixed=true
+}
+
+# Transmission
+transmission
+{
+  # homogeneous no transmission
+  option=homog_no_trans
+}
+
+# Age of onset
+onset
+{
+  # age of onset depends on type
+  type_dependent=A
+
+  # no polygenic component
+  multi_dependent=N
+
+}
+
+# Ascertainment
+ascertainment
+{
+  # proband sampling frame
+  cond_set=psf
+  psf_indic=disease
+  psf_indic_include=1
+
+  # greater than or equal to threshold
+  cond_val=gte_thresh, thresh=0.7
+}
+
+# Transformation
+transformation
+{
+  # Box-Cox
+  option=box_cox
+  lambda1, val=1, fixed=false, lower_bound=-1
+  lambda2, val=0, fixed=true
+}
+
+# Transmission
+transmission
+{
+  # homogeneous no transmission
+  option=homog_no_trans
+}
+
+# Age of onset
+onset
+{
+  # age of onset depends on type
+  type_dependent=A
+
+  # no polygenic component
+  multi_dependent=N
+
+}
+
+# Ascertainment
+ascertainment
+{
+  # proband sampling frame
+  cond_set=psf
+  psf_indic=disease
+  psf_indic_include=1
+
+  # threshold indicator
+  cond_val=thresh_indic, thresh_indic_high=8, thresh_indic_low=4
+  thresh_indic=w, thresh=0
+}
+
+# Transformation
+transformation
+{
+  # Box-Cox
+  option=box_cox
+  lambda1, val=1, fixed=false, lower_bound=-1
+  lambda2, val=0, fixed=true
+}
+
+# Transmission
+transmission
+{
+  # homogeneous no transmission
+  option=homog_no_trans
+}
+
+# Age of onset
+onset
+{
+  # age of onset depends on type
+  type_dependent=A
+
+  # no polygenic component
+  multi_dependent=N
+
+}
+
+# Ascertainment
+ascertainment
+{
+  # none
+  cond_set=none
+
+  # actual
+  cond_val=actual
+}

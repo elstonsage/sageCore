@@ -1,0 +1,74 @@
+
+
+
+
+Family structure information on the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       SEX       PARENT1       PARENT2     
+     ------------  ------------  --------  ------------  ------------
+     1             1             1         0             0           
+     1             2             2         0             0           
+     1             479           2         1             2           
+     1             480           1         1             2           
+     2             3             1         0             0           
+     2             4             2         0             0           
+     2             481           2         3             4           
+     2             482           2         3             4           
+     3             5             1         0             0           
+     3             6             2         0             0           
+
+
+Phenotypes for the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       SEX_CODE              FAMILIAL_INDICATOR    FOUNDER_INDICATOR     PEDIGREE_SIZE         AGE                   Alive                 Proband               affection             EF                    Q1                    Q2                    Q3                    Q4                    Q5                  
+     ------------  ------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------
+     1             1             0                     1                     1                     4                     67                    0                     0                     0                     XXXXXX                XXXXXX                XXXXXX                XXXXXX                XXXXXX                XXXXXX              
+     1             2             1                     1                     1                     4                     63                    0                     0                     0                     XXXXXX                XXXXXX                XXXXXX                XXXXXX                XXXXXX                XXXXXX              
+     1             479           1                     1                     0                     4                     64                    1                     0                     0                     22.347                27.0711               43.7173               84.5391               11.047                24.4446             
+     1             480           0                     1                     0                     4                     58                    1                     0                     0                     22.652                20.1002               35.1667               45.6036               12.1438               26.5537             
+     2             3             0                     1                     1                     4                     67                    1                     0                     0                     29.384                21.639                33.1938               54.7596               10.28                 18.8664             
+     2             4             1                     1                     1                     4                     67                    1                     0                     0                     22.294                33.2402               28.9267               67.913                10.7452               23.1766             
+     2             481           1                     1                     0                     4                     29                    1                     0                     0                     36.868                34.9028               36.3824               83.0885               11.0479               29.2171             
+     2             482           1                     1                     0                     4                     19                    1                     0                     0                     29.588                27.8714               48.824                70.8467               10.6258               22.7816             
+     3             5             0                     1                     1                     5                     65                    1                     0                     0                     27.984                23.3207               37.8797               57.1144               10.9946               28.0294             
+     3             6             1                     1                     1                     5                     61                    1                     0                     0                     28.162                24.0919               54.2628               93.8941               11.7494               25.9936             
+
+
+Markers for the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       D5G1          D5G2          D5G3          D5G4          D5G5          D5G6          D5G7          D5G8          D5G9          D5G10         D5G11         D5G12         D5G13         D5G14         D5G15         D5G16         D5G17         D5G18         D5G19         D5G20         D5G21         D5G22         D5G23         D5G24         D5G25       
+     ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------
+     1             1             B/B           A/E           G/G           D/D           C/D           A/B           B/E           D/E           B/C           D/D           D/G           B/C           F/H           C/D           E/E           B/B           D/D           G/G           C/C           B/C           A/C           D/F           E/G           E/F           C/C         
+     1             2             C/D           E/D           D/D           D/A           A/B           A/B           E/E           E/C           A/D           B/B           D/E           E/E           D/G           C/D           A/G           D/E           A/F           A/E           A/B           B/E           G/G           D/F           C/D           E/A           B/D         
+     1             479           B/C           E/D           G/D           D/A           C/B           A/B           B/E           D/C           B/D           D/B           G/E           C/E           H/D           C/D           E/A           B/D           D/F           G/E           C/A           B/B           A/G           D/D           G/D           E/E           C/D         
+     1             480           B/D           E/E           G/D           D/D           C/A           A/A           E/E           E/E           C/A           D/B           D/D           B/E           F/G           C/D           E/G           B/E           D/A           G/A           C/B           C/E           C/G           F/F           E/C           F/A           C/B         
+     2             3             C/D           E/F           D/D           D/A           C/F           B/C           E/D           E/B           B/F           D/B           E/I           B/A           H/H           B/B           A/C           C/C           D/B           B/D           A/B           B/D           A/D           A/A           G/C           E/F           C/D         
+     2             4             C/D           E/D           A/A           E/F           C/D           D/F           E/E           B/A           C/C           D/B           I/B           B/B           F/H           C/B           G/L           D/C           E/E           G/C           B/B           B/D           A/D           A/A           E/G           F/F           C/D         
+     2             481           C/C           E/E           D/A           A/E           D/F           B/F           E/D           B/B           B/C           D/D           E/I           B/B           H/H           C/B           C/L           D/C           B/E           G/B           A/B           D/D           A/D           A/A           G/G           E/F           C/D         
+     2             482           D/D           D/F           D/A           D/F           C/C           C/D           E/E           B/A           B/C           D/B           E/B           B/B           F/H           B/B           G/C           C/C           B/E           B/C           A/B           D/D           A/D           A/A           G/G           E/F           C/D         
+     3             5             C/C           E/D           D/A           A/E           D/B           A/C           D/F           E/E           C/E           B/B           G/E           A/F           H/G           C/A           A/C           E/C           B/C           G/A           B/B           E/D           A/F           D/F           A/B           A/C           B/D         
+     3             6             D/A           E/C           D/H           D/F           B/F           A/C           E/D           B/B           C/E           B/F           F/H           B/A           G/E           D/B           E/A           D/C           C/C           G/A           C/B           B/B           D/F           D/D           E/D           F/F           C/D         
+
+%SIBPAL-W: Interaction terms are allowed only when both corresponding main
+           effects are included in the model.  Skipping interaction term 'D5G1
+           x Q1(Dom x C,prod)'.
+%SIBPAL-W: Interaction terms are allowed only when both corresponding main
+           effects are included in the model.  Skipping interaction term 'D5G1
+           x D5G2(Add x A+D)'.
+%SIBPAL-W: Interaction terms are allowed only when both corresponding main
+           effects are included in the model.  Skipping interaction term 'D5G1
+           x Q1(Dom x C,sum)'.
+%SIBPAL-W: Interaction terms are allowed only when both corresponding main
+           effects are included in the model.  Skipping interaction term 'D5G1
+           x D5G2(Add x Add)'.
+%SIBPAL-W: Interaction terms are allowed only when both corresponding main
+           effects are included in the model.  Skipping interaction term 'D5G1
+           x Q1(Dom x C,sum)'.
+%SIBPAL-W: Interaction terms are allowed only when both corresponding main
+           effects are included in the model.  Skipping interaction term 'D5G1
+           x D5G2(Add x Add)'.
+%SIBPAL-W: At least 10 pairs per parameter are suggested for multiple
+           regression.
+%SIBPAL-W: Interaction terms are allowed only when both corresponding main
+           effects are included in the model.  Skipping interaction term 'D5G1
+           x D5G2(Add x Add)'.

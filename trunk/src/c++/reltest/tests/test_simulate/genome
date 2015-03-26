@@ -1,0 +1,556 @@
+missing=0 
+genome="simulate", map="KOSAMBI"
+{
+ region="chrom#1"
+ {
+  marker="1m1 5"
+  theta=0.189974
+  marker="1m2 4"
+  theta=0.127148
+  marker="1m3 10"
+  theta=0.136453
+  marker="1m4 6"
+  theta=0.154753
+  marker="1m5 3"
+  theta=0.172607
+  marker="1m6 8"
+  theta=0.0986877
+  marker="1m7 7"
+  theta=0.117748
+  marker="1m8 5"
+  theta=0.145656
+  marker="1m9 3"
+  theta=0.163739
+  marker="1m10 6"
+  theta=0.145656
+  marker="1m11 4"
+ }
+
+ region="chrom#2"
+ {
+  marker="2m1 5"
+  theta=0.189974
+  marker="2m2 4"
+  theta=0.127148
+  marker="2m3 10"
+  theta=0.136453
+  marker="2m4 6"
+  theta=0.154753
+  marker="2m5 3"
+  theta=0.172607
+  marker="2m6 8"
+  theta=0.0986877
+  marker="2m7 7"
+  theta=0.117748
+  marker="2m8 5"
+  theta=0.145656
+  marker="2m9 3"
+  theta=0.163739
+  marker="2m10 6"
+  theta=0.145656
+  marker="2m11 4"
+ }
+
+ region="chrom#3"
+ {
+  marker="3m1 5"
+  theta=0.189974
+  marker="3m2 4"
+  theta=0.127148
+  marker="3m3 10"
+  theta=0.136453
+  marker="3m4 6"
+  theta=0.154753
+  marker="3m5 3"
+  theta=0.172607
+  marker="3m6 8"
+  theta=0.0986877
+  marker="3m7 7"
+  theta=0.117748
+  marker="3m8 5"
+  theta=0.145656
+  marker="3m9 3"
+  theta=0.163739
+  marker="3m10 6"
+  theta=0.145656
+  marker="3m11 4"
+ }
+
+ region="chrom#4"
+ {
+  marker="4m1 5"
+  theta=0.189974
+  marker="4m2 4"
+  theta=0.127148
+  marker="4m3 10"
+  theta=0.136453
+  marker="4m4 6"
+  theta=0.154753
+  marker="4m5 3"
+  theta=0.172607
+  marker="4m6 8"
+  theta=0.0986877
+  marker="4m7 7"
+  theta=0.117748
+  marker="4m8 5"
+  theta=0.145656
+  marker="4m9 3"
+  theta=0.163739
+  marker="4m10 6"
+  theta=0.145656
+  marker="4m11 4"
+ }
+
+ region="chrom#5"
+ {
+  marker="5m1 5"
+  theta=0.189974
+  marker="5m2 4"
+  theta=0.127148
+  marker="5m3 10"
+  theta=0.136453
+  marker="5m4 6"
+  theta=0.154753
+  marker="5m5 3"
+  theta=0.172607
+  marker="5m6 8"
+  theta=0.0986877
+  marker="5m7 7"
+  theta=0.117748
+  marker="5m8 5"
+  theta=0.145656
+  marker="5m9 3"
+  theta=0.163739
+  marker="5m10 6"
+  theta=0.145656
+  marker="5m11 4"
+ }
+
+ region="chrom#6"
+ {
+  marker="6m1 5"
+  theta=0.189974
+  marker="6m2 4"
+  theta=0.127148
+  marker="6m3 10"
+  theta=0.136453
+  marker="6m4 6"
+  theta=0.154753
+  marker="6m5 3"
+  theta=0.172607
+  marker="6m6 8"
+  theta=0.0986877
+  marker="6m7 7"
+  theta=0.117748
+  marker="6m8 5"
+  theta=0.145656
+  marker="6m9 3"
+  theta=0.163739
+  marker="6m10 6"
+  theta=0.145656
+  marker="6m11 4"
+ }
+
+ region="chrom#7"
+ {
+  marker="7m1 5"
+  theta=0.189974
+  marker="7m2 4"
+  theta=0.127148
+  marker="7m3 10"
+  theta=0.136453
+  marker="7m4 6"
+  theta=0.154753
+  marker="7m5 3"
+  theta=0.172607
+  marker="7m6 8"
+  theta=0.0986877
+  marker="7m7 7"
+  theta=0.117748
+  marker="7m8 5"
+  theta=0.145656
+  marker="7m9 3"
+  theta=0.163739
+  marker="7m10 6"
+  theta=0.145656
+  marker="7m11 4"
+ }
+
+ region="chrom#8"
+ {
+  marker="8m1 5"
+  theta=0.189974
+  marker="8m2 4"
+  theta=0.127148
+  marker="8m3 10"
+  theta=0.136453
+  marker="8m4 6"
+  theta=0.154753
+  marker="8m5 3"
+  theta=0.172607
+  marker="8m6 8"
+  theta=0.0986877
+  marker="8m7 7"
+  theta=0.117748
+  marker="8m8 5"
+  theta=0.145656
+  marker="8m9 3"
+  theta=0.163739
+  marker="8m10 6"
+  theta=0.145656
+  marker="8m11 4"
+ }
+
+ region="chrom#9"
+ {
+  marker="9m1 5"
+  theta=0.189974
+  marker="9m2 4"
+  theta=0.127148
+  marker="9m3 10"
+  theta=0.136453
+  marker="9m4 6"
+  theta=0.154753
+  marker="9m5 3"
+  theta=0.172607
+  marker="9m6 8"
+  theta=0.0986877
+  marker="9m7 7"
+  theta=0.117748
+  marker="9m8 5"
+  theta=0.145656
+  marker="9m9 3"
+  theta=0.163739
+  marker="9m10 6"
+  theta=0.145656
+  marker="9m11 4"
+ }
+
+ region="chrom#10"
+ {
+  marker="10m1 5"
+  theta=0.189974
+  marker="10m2 4"
+  theta=0.127148
+  marker="10m3 10"
+  theta=0.136453
+  marker="10m4 6"
+  theta=0.154753
+  marker="10m5 3"
+  theta=0.172607
+  marker="10m6 8"
+  theta=0.0986877
+  marker="10m7 7"
+  theta=0.117748
+  marker="10m8 5"
+  theta=0.145656
+  marker="10m9 3"
+  theta=0.163739
+  marker="10m10 6"
+  theta=0.145656
+  marker="10m11 4"
+ }
+
+ region="chrom#11"
+ {
+  marker="11m1 5"
+  theta=0.189974
+  marker="11m2 4"
+  theta=0.127148
+  marker="11m3 10"
+  theta=0.136453
+  marker="11m4 6"
+  theta=0.154753
+  marker="11m5 3"
+  theta=0.172607
+  marker="11m6 8"
+  theta=0.0986877
+  marker="11m7 7"
+  theta=0.117748
+  marker="11m8 5"
+  theta=0.145656
+  marker="11m9 3"
+  theta=0.163739
+  marker="11m10 6"
+  theta=0.145656
+  marker="11m11 4"
+ }
+
+ region="chrom#12"
+ {
+  marker="12m1 5"
+  theta=0.189974
+  marker="12m2 4"
+  theta=0.127148
+  marker="12m3 10"
+  theta=0.136453
+  marker="12m4 6"
+  theta=0.154753
+  marker="12m5 3"
+  theta=0.172607
+  marker="12m6 8"
+  theta=0.0986877
+  marker="12m7 7"
+  theta=0.117748
+  marker="12m8 5"
+  theta=0.145656
+  marker="12m9 3"
+  theta=0.163739
+  marker="12m10 6"
+  theta=0.145656
+  marker="12m11 4"
+ }
+
+ region="chrom#13"
+ {
+  marker="13m1 5"
+  theta=0.189974
+  marker="13m2 4"
+  theta=0.127148
+  marker="13m3 10"
+  theta=0.136453
+  marker="13m4 6"
+  theta=0.154753
+  marker="13m5 3"
+  theta=0.172607
+  marker="13m6 8"
+  theta=0.0986877
+  marker="13m7 7"
+  theta=0.117748
+  marker="13m8 5"
+  theta=0.145656
+  marker="13m9 3"
+  theta=0.163739
+  marker="13m10 6"
+  theta=0.145656
+  marker="13m11 4"
+ }
+
+ region="chrom#14"
+ {
+  marker="14m1 5"
+  theta=0.189974
+  marker="14m2 4"
+  theta=0.127148
+  marker="14m3 10"
+  theta=0.136453
+  marker="14m4 6"
+  theta=0.154753
+  marker="14m5 3"
+  theta=0.172607
+  marker="14m6 8"
+  theta=0.0986877
+  marker="14m7 7"
+  theta=0.117748
+  marker="14m8 5"
+  theta=0.145656
+  marker="14m9 3"
+  theta=0.163739
+  marker="14m10 6"
+  theta=0.145656
+  marker="14m11 4"
+ }
+
+ region="chrom#15"
+ {
+  marker="15m1 5"
+  theta=0.189974
+  marker="15m2 4"
+  theta=0.127148
+  marker="15m3 10"
+  theta=0.136453
+  marker="15m4 6"
+  theta=0.154753
+  marker="15m5 3"
+  theta=0.172607
+  marker="15m6 8"
+  theta=0.0986877
+  marker="15m7 7"
+  theta=0.117748
+  marker="15m8 5"
+  theta=0.145656
+  marker="15m9 3"
+  theta=0.163739
+  marker="15m10 6"
+  theta=0.145656
+  marker="15m11 4"
+ }
+
+ region="chrom#16"
+ {
+  marker="16m1 5"
+  theta=0.189974
+  marker="16m2 4"
+  theta=0.127148
+  marker="16m3 10"
+  theta=0.136453
+  marker="16m4 6"
+  theta=0.154753
+  marker="16m5 3"
+  theta=0.172607
+  marker="16m6 8"
+  theta=0.0986877
+  marker="16m7 7"
+  theta=0.117748
+  marker="16m8 5"
+  theta=0.145656
+  marker="16m9 3"
+  theta=0.163739
+  marker="16m10 6"
+  theta=0.145656
+  marker="16m11 4"
+ }
+
+ region="chrom#17"
+ {
+  marker="17m1 5"
+  theta=0.189974
+  marker="17m2 4"
+  theta=0.127148
+  marker="17m3 10"
+  theta=0.136453
+  marker="17m4 6"
+  theta=0.154753
+  marker="17m5 3"
+  theta=0.172607
+  marker="17m6 8"
+  theta=0.0986877
+  marker="17m7 7"
+  theta=0.117748
+  marker="17m8 5"
+  theta=0.145656
+  marker="17m9 3"
+  theta=0.163739
+  marker="17m10 6"
+  theta=0.145656
+  marker="17m11 4"
+ }
+
+ region="chrom#18"
+ {
+  marker="18m1 5"
+  theta=0.189974
+  marker="18m2 4"
+  theta=0.127148
+  marker="18m3 10"
+  theta=0.136453
+  marker="18m4 6"
+  theta=0.154753
+  marker="18m5 3"
+  theta=0.172607
+  marker="18m6 8"
+  theta=0.0986877
+  marker="18m7 7"
+  theta=0.117748
+  marker="18m8 5"
+  theta=0.145656
+  marker="18m9 3"
+  theta=0.163739
+  marker="18m10 6"
+  theta=0.145656
+  marker="18m11 4"
+ }
+
+ region="chrom#19"
+ {
+  marker="19m1 5"
+  theta=0.189974
+  marker="19m2 4"
+  theta=0.127148
+  marker="19m3 10"
+  theta=0.136453
+  marker="19m4 6"
+  theta=0.154753
+  marker="19m5 3"
+  theta=0.172607
+  marker="19m6 8"
+  theta=0.0986877
+  marker="19m7 7"
+  theta=0.117748
+  marker="19m8 5"
+  theta=0.145656
+  marker="19m9 3"
+  theta=0.163739
+  marker="19m10 6"
+  theta=0.145656
+  marker="19m11 4"
+ }
+
+ region="chrom#20"
+ {
+  marker="20m1 5"
+  theta=0.189974
+  marker="20m2 4"
+  theta=0.127148
+  marker="20m3 10"
+  theta=0.136453
+  marker="20m4 6"
+  theta=0.154753
+  marker="20m5 3"
+  theta=0.172607
+  marker="20m6 8"
+  theta=0.0986877
+  marker="20m7 7"
+  theta=0.117748
+  marker="20m8 5"
+  theta=0.145656
+  marker="20m9 3"
+  theta=0.163739
+  marker="20m10 6"
+  theta=0.145656
+  marker="20m11 4"
+ }
+
+ region="chrom#21"
+ {
+  marker="21m1 5"
+  theta=0.189974
+  marker="21m2 4"
+  theta=0.127148
+  marker="21m3 10"
+  theta=0.136453
+  marker="21m4 6"
+  theta=0.154753
+  marker="21m5 3"
+  theta=0.172607
+  marker="21m6 8"
+  theta=0.0986877
+  marker="21m7 7"
+  theta=0.117748
+  marker="21m8 5"
+  theta=0.145656
+  marker="21m9 3"
+  theta=0.163739
+  marker="21m10 6"
+  theta=0.145656
+  marker="21m11 4"
+ }
+
+ region="chrom#22"
+ {
+  marker="22m1 5"
+  theta=0.189974
+  marker="22m2 4"
+  theta=0.127148
+  marker="22m3 10"
+  theta=0.136453
+  marker="22m4 6"
+  theta=0.154753
+  marker="22m5 3"
+  theta=0.172607
+  marker="22m6 8"
+  theta=0.0986877
+  marker="22m7 7"
+  theta=0.117748
+  marker="22m8 5"
+  theta=0.145656
+  marker="22m9 3"
+  theta=0.163739
+  marker="22m10 6"
+  theta=0.145656
+  marker="22m11 4"
+ }
+}
+
+
+

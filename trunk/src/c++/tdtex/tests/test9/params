@@ -1,0 +1,191 @@
+# S.A.G.E. Parameter file
+
+pedigree		#When using tab delimited, do not specify an file delimiter
+{			#such as character or column after pedigree not is it 
+			#necessary to include a format statement
+
+delimiters=","
+
+#Family Structure
+
+  pedigree_id=FID			#list family structure variables in the same
+  individual_id=ID		#order as listed in the pedigree file
+  parent_id=MID
+  parent_id=DID
+  sex_field=GEND
+
+
+#Field Coding Parameter
+
+  sex_code,male="0",female="1",missing="."
+  individual_missing_value="."
+
+#Covariates & Traits
+
+  covariate="SES",missing="."			#Socio-Economic Status
+  covariate="AGE",missing="."			#Age affected
+  trait="SPCHONLY",binary,affected="1",unaffected="0",missing="."
+
+
+# Marker Information                    #When each of two alleles A & B
+                                        #are each specified in separate
+  				          #columns, list each allele in
+  				          #as shown herein, but do NOT
+  allele=D7S2205A,name=D7S2205          #specify an allele_delimiter
+  allele=D7S2205B,name=D7S2205         
+  allele=GATA190C05A,name=GATA190C05          
+  allele=GATA190C05B,name=GATA190C05
+  allele=D7S1789A,name=D7S1789          
+  allele=D7S1789B,name=D7S1789
+  allele=D7S527A,name=D7S527            
+  allele=D7S527B,name=D7S527
+  allele=D7S1812A,name=D7S1812
+  allele=D7S1812B,name=D7S1812
+  allele=D7S821A,name=D7S821
+  allele=D7S821B,name=D7S821
+  allele=D7S1796A,name=D7S1796          
+  allele=D7S1796B,name=D7S1796
+  allele=D7S666A,name=D7S666          
+  allele=D7S666B,name=D7S666
+  allele=D7S1799A,name=D7S1799          
+  allele=D7S1799B,name=D7S1799
+  allele=D7S796A,name=D7S796  
+  allele=D7S796B,name=D7S796
+  allele=D7S2420A,name=D7S2420          
+  allele=D7S2420B,name=D7S2420
+  allele=D7S692A,name=D7S692
+  allele=D7S692B,name=D7S692
+  allele=D7S2425A,name=D7S2425
+  allele=D7S2425B,name=D7S2425
+  allele=D7S1817A,name=D7S1817          
+  allele=D7S1817B,name=D7S1817
+  allele=AFM191yc5A,name=AFM191yc5
+  allele=AFM191yc5B,name=AFM191yc5
+  allele=D7S523A,name=D7S523
+  allele=D7S523B,name=D7S523
+  allele=D7S471A,name=D7S471
+  allele=D7S471B,name=D7S471
+  allele=D7S486A,name=D7S486
+  allele=D7S486B,name=D7S486
+  allele=D7S2410A,name=D7S2410  
+  allele=D7S2410B,name=D7S2410
+  allele=D7S2430A,name=D7S2430          
+  allele=D7S2430B,name=D7S2430
+  allele=D7S2480A,name=D7S2480
+  allele=D7S2480b,name=D7S2480
+  allele=D7S2555A,name=D7S2555
+  allele=D7S2555B,name=D7S2555
+  allele=D7S646A,name=D7S646          
+  allele=D7S646B,name=D7S646
+  allele=D7S687A,name=D7S687
+  allele=D7S687B,name=D7S687
+  allele=D7S2417A,name=D7S2417
+  allele=D7S2417B,name=D7S2417
+  allele=D7S630A,name=D7S630
+  allele=D7S630B,name=D7S630
+  allele=D7S652A,name=D7S652
+  allele=D7S652B,name=D7S652
+}   
+
+#Parameters for Gen_IBD
+
+
+ibd_analysis
+{
+  use_simulation=no
+  output_pair_types=siblings
+  distance=1.0
+  scan_type=intervals
+#  scan_type=markers
+  allow_loops=off
+  split_pedigrees=no
+  ibd_mode=singlepoint
+  region="chr 7"	
+  title="single"
+  output="single"
+
+}
+
+
+ibd_analysis
+{
+  use_simulation=no
+  output_pair_types=siblings
+  distance=1.0
+  scan_type=intervals
+#  scan_type=markers
+  allow_loops=off
+  split_pedigrees=no
+  ibd_mode=multipoint
+  region="chr 7"	
+  title="multi"
+  output="multi"
+
+}
+
+
+# Parameters for MLOD
+
+max_pedigree=18
+scan_type=markers
+mlod_analysis=chromosome 7, output=mlodspch
+pedigree_lod_output=false
+distance=2.0
+title="Lod Score Analysis, Speech Study"
+
+mlod_analysis
+{
+
+}
+
+
+#Parameters for Fcor2
+
+fcor2_analysis
+{
+  trait=SPCHONLY
+  standard_error=true
+  correlations=main,robust
+  group_correlation=true
+}
+
+# Parameters for Sibpal2
+
+summary_default
+
+mean_test
+{
+  trait=SPCHONLY
+}
+
+trait_regression,single 
+{
+  trait=SPCHONLY,mean=estimated
+  covariate=SES,prod=yes
+  covariate=AGE,prod=yes
+#  regression_method=diff       #Traditional Haseman-Elston 
+#  regression_method=sum	#1/2 mean-corrected trait sum
+#  regression_method=prod       #New Haseman-Elston
+#  regression_method=w2		#Weighted combo of squared trait diff &
+				#squared mean-corrected trait sum
+#  regression_method=w3         #Sanjay Shete Method 1
+  regression_method=w4		#Sanjay Shete Method 2, SAGE Recommended
+  covariate_output=true
+  compute_empirical_pvalues=false #true,threshold=0.05, max_replicates=100000
+  skip_uninformative_pairs=true
+}
+
+
+tdt_analysis
+{
+  marker=D7S821
+  trait=SPCHONLY 
+  sample=alleles
+  max_children=unlimited #1
+  max_sib_pairs=unlimited 
+  sex_differential=true
+  skip_permutation_test=true
+  skip_mc_test=true
+  skip_mcmh_test=true
+
+}

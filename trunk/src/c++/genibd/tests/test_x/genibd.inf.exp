@@ -1,0 +1,39 @@
+
+
+
+%GENIBD-W: Marker 'DXS1263' not found.  Skipping.
+%GENIBD-W: Marker 'DXS1263' not found.  Skipping.
+
+Family structure information on the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       SEX       PARENT1       PARENT2     
+     ------------  ------------  --------  ------------  ------------
+     7             408           F         0             0           
+     7             508           M         0             0           
+     7             208           M         408           508         
+     7             I08           M         408           508         
+
+
+Markers for the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       DXS1297       DXS1304     
+     ------------  ------------  ------------  ------------
+     7             408           0/0           0/0         
+     7             508           0/0           0/0         
+     7             208           A/0           0/0         
+     7             I08           A/0           0/0         
+
+%GENIBD-I: Mapping function not specified.  Using Haldane Mapping Function.
+%GENIBD-I: Analysis title unspecified.  Will use 'Analysis 1'.
+
+===========================================================================
+Analysis 1 : Multipoint analysis on region (X):
+        * - Maximum size for exact method is set to 18.
+===========================================================================
+
+Processing Region: X
+=======================================
+
+Processing Pedigree 7..............
+
+%GENIBD-W: No marker phenotype data for pedigree '7' at marker 'DXS1304'.

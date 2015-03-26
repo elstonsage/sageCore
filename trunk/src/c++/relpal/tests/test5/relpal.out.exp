@@ -1,0 +1,48 @@
+
+
+
+====================================================================================
+  Two-Level Haseman-Elston Regression Analysis for General Pedigree 
+
+  - Second (Pedigree) Level Score Tests Summary Output
+====================================================================================
+
+  Trait :  alc, Binary, affected = '1' , unaffected = '3'
+
+  Legend :
+    *   - significance  .05 level
+    **  - significance  .01 level
+    *** - significance .001 level
+
+    nai - naive variance
+    sdw - robust sandwich variance
+    alt - alternative variance
+    ibd - allele sharing variance
+
+    #   - The number of pedigrees is too small for this result to be
+          reliable when analyzing this number of traits.
+
+  Empirical p-value options used :
+    seed = 100
+    min replicates = 20
+    max replicates = 10000
+
+====================================================================================
+Test                                      Unadjusted   Adjusted Empirical     Number of 
+No   Variable                cM Count Var    T-value    T-value   P-value     Replicates
+------------------------- ----- ----- --- ---------- ---------- ---------     ----------
+1    D3S1297                0.0    75 nai     3.1415     3.1415 0.0348723 *          116
+                                      sdw     2.9745     2.9745 0.0386478 *          116
+                                      alt    30.3850    30.3850 0.0000000 ***      10000
+                                      ibd     2.8947     2.8947 0.0406045 *          116
+2    D3S1304               13.3    75 nai     2.1782     2.1782 0.0639559            116
+                                      sdw     3.1650     3.1650 0.0343744 *          116
+                                      alt    13.0262    13.0262 0.0001403 ***        116
+                                      ibd     0.8128     0.8128 0.1678085            116
+3    D3S1263               27.1    75 nai     1.4492     1.4492 0.1044710            116
+                                      sdw     3.2393     3.2393 0.0328462 *          116
+                                      alt     5.6678     5.6678 0.0078946 **         116
+                                      ibd     0.2405     0.2405 0.2850384            116
+====================================================================================
+
+

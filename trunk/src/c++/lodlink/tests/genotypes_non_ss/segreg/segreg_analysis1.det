@@ -1,0 +1,59 @@
+=====================================================================================================
+  SEGREG Analysis for Trait : T
+=====================================================================================================
+  # Model Specification  
+
+    Model Class A
+    Type means                   : three means
+    Type variances               : one variance
+    Residual correlations        : No spouse correlation, parent-offspring and
+                                   sib-sib correlations equal
+    Transformation               : none
+    Type frequency               : Hardy-Weinberg equilibrium
+    Transmission                 : homogeneous mendelian
+
+  # Number of connected pedigrees     : 200
+  # Number of unconnected individuals : 0
+
+ maxfun.param_count()=14
+  # Final Estimates : 
+
+  Parameter           Parameter Est.  Standard Err.   First Deriv.   Status
+-----------------------------------------------------------------------------------------------------
+  mean_AA              5.11196892      0.05032173      0.00000000     IND, MAY VARY
+  mean_AB              8.04712262      0.03610098     -0.00001716     IND, MAY VARY
+  mean_BB             12.06091354      0.04485373      0.00000000     IND, MAY VARY
+  variance             1.03155945      0.03552168      0.00013388     IND, MAY VARY
+  marital resid c      0.00000000                                     FIXED EXTERNALLY
+  po = ss resid c      0.00000000                                     FIXED EXTERNALLY
+  prob_AA              0.24336416      0.01190855                     DEPENDENT
+  prob_AB              0.49991074      0.00032253                     DEPENDENT
+  prob_BB              0.25672510      0.01223108                     DEPENDENT
+  freq_A               0.49331953      0.01206981      0.00027621     IND-FN, MAY VARY
+  genotypic corr.      0.00000000                                     FIXED EXTERNALLY
+  transm prob_AA       1.00000000                                     FIXED EXTERNALLY
+  transm prob_AB       0.50000000                                     FIXED EXTERNALLY
+  transm prob_BB       0.00000000                                     FIXED EXTERNALLY
+-----------------------------------------------------------------------------------------------------
+
+
+  # Variance-Covariance Matrix : 
+
+             |     mean_AA         mean_AB         mean_BB         variance        prob_AA         prob_AB         prob_BB         freq_A     
+----------------------------------------------------------------------------------------------------------------------------------------------
+  mean_AA    |      0.00253228      0.00035455      0.00008573      0.00017827      0.00007324      0.00000198     -0.00007522      0.00007423
+  mean_AB    |      0.00035455      0.00130328      0.00024142     -0.00006981      0.00005953      0.00000161     -0.00006114      0.00006034
+  mean_BB    |      0.00008573      0.00024142      0.00201186     -0.00011005      0.00003556      0.00000096     -0.00003653      0.00003605
+  variance   |      0.00017827     -0.00006981     -0.00011005      0.00126179     -0.00000258     -0.00000007      0.00000264     -0.00000261
+  prob_AA    |      0.00007324      0.00005953      0.00003556     -0.00000258      0.00014181      0.00000384     -0.00014565      0.00014373
+  prob_AB    |      0.00000198      0.00000161      0.00000096     -0.00000007      0.00000384      0.00000010     -0.00000394      0.00000389
+  prob_BB    |     -0.00007522     -0.00006114     -0.00003653      0.00000264     -0.00014565     -0.00000394      0.00014960     -0.00014763
+  freq_A     |      0.00007423      0.00006034      0.00003605     -0.00000261      0.00014373      0.00000389     -0.00014763      0.00014568
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+
+        LN(Likelihood) : -4938.35
+     -2 LN(Likelihood) : 9876.71
+    Akaike's AIC score : 9886.71
+=====================================================================================================
+

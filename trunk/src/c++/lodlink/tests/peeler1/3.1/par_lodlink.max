@@ -1,0 +1,57 @@
+
+ LINKAGE ANALYSIS BETWEEN LOCUS m1       AND LOCUS m2      
+ ==========================================================
+
+
+ --------------------------------------------------------------------------------------------------------------------------------
+ --------------------------------------------------------------------------------------------------------------------------------
+ MAXFUN
+ COPYRIGHT (C) 1997 CASE WESTERN RESERVE UNIVERSITY.
+ 
+ TOTAL # PARAMETERS IN THE MODEL NT =  2; # PARAMETERS TO BE ESTIMATED NE =  2; # DEPENDENT PARAMETERS ND =  1
+ MAXIMUM # ITERATIONS MAXIT = 999
+ CONTROL VALUES:
+    IXVC = 0; IHIT = 0;
+    EPSD =  .100E-01; YOTA =  .169E-05; EPST =  .130E-01; EPSC1 =  .100E-01; EPSC2 =  .100E-02; EPSC3 =  .100E-02
+ --------------------------------------------------------------------------------------------------------------------------------
+0METHOD 2:  DIRECT SEARCH METHOD, WITHOUT 2**(NI)-TRIAL SEARCH
+0INITIAL CONDITIONS
+    PARAMETER                           LOWER BOUND      INITIAL EST      UPPER BOUND     IN STEP FACT       STATUS
+     1                                    .00000000        .50000001E-01    .50000000        .50000001E-01   IND-FN, MAY VARY
+     2                                    .00000000        .50000001E-01    .50000000        .50000001E-01   DEPENDENT       
+    INITIAL FUNCTION VALUE  -.1043256466E+02
+ --------------------------------------------------------------------------------------------------------------------------------
+0BASIC ITERATION PROCESS STOPPED AFTER ITERATION   3 DUE TO NEGLIGIBLE DIFFERENCE IN COMPUTED FUNCTION VALUES     .7815553465E-03
+ (CONVERGENCE CRITERION 3)
+0PARAMETER  1 FIXED AT BOUND    .00000000    
+0AFTER ITERATION   2, ALL INDEPENDENT PARAMETERS CONVERGED TO BOUNDS
+0FINAL CONDITIONS
+    PARAMETER                             FINAL EST          STD DEV      FIRST DERIV       STATUS
+     1                                    .00000000       ----------       ----------       IND-FN, FIXED BY MAXFUN AT BOUND    
+     2                                    .00000000       ----------       ----------       DEPENDENT                           
+    FINAL FUNCTION VALUE  -.1038127137E+02
+    NUMBER OF FUNCTION EVALUATIONS    2
+
+ --------------------------------------------------------------------------------------------------------------------------------
+ --------------------------------------------------------------------------------------------------------------------------------
+
+ --------------------------------------------------------------------------------------------------------------------------------
+ --------------------------------------------------------------------------------------------------------------------------------
+ MAXFUN
+ COPYRIGHT (C) 1997 CASE WESTERN RESERVE UNIVERSITY.
+ 
+ TOTAL # PARAMETERS IN THE MODEL NT =  2; # PARAMETERS TO BE ESTIMATED NE =  2; # DEPENDENT PARAMETERS ND =  1
+ MAXIMUM # ITERATIONS MAXIT = 999
+ CONTROL VALUES:
+    IXVC = 2; IHIT = 0;
+    EPSD =  .100E-01; YOTA =  .169E-05; EPST =  .130E-01; EPSC1 =  .100E-01; EPSC2 =  .100E-02; EPSC3 =  .100E-02
+ --------------------------------------------------------------------------------------------------------------------------------
+0METHOD 5:  VARIABLE METRIC METHOD, USING NEGATIVE IDENTITY FOR INITIAL HESSIAN
+0INITIAL CONDITIONS
+    PARAMETER                           LOWER BOUND      INITIAL EST      UPPER BOUND       STATUS
+     1                                    .00000000        .00000000        .50000000       IND-FN, MAY VARY
+     2                                    .00000000        .00000000        .50000000       DEPENDENT       
+    INITIAL FUNCTION VALUE  -.1038127137E+02
+ --------------------------------------------------------------------------------------------------------------------------------
+0PARAMETER  1 FIXED AT BOUND    .00000000    
+0AFTER ITERATION   2, ALL INDEPENDENT PARAMETERS CONVERGED TO BOUNDS

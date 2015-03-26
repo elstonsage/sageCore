@@ -1,0 +1,299 @@
+
+
+
+=====================================================================================
+  Haseman-Elston Regression Analysis of Full Sibs
+  - zero marker regression
+=====================================================================================
+
+    Continuous trait : EF
+
+    Dependent variate : Mean-corrected trait cross-product
+
+    w1 : 0.5
+
+    Other options used :
+      Identity weights = no
+      Robust variance  = no
+      Use sibship mean = no
+      Use BLUP mean    = yes
+
+    Legend :
+      Note - kurtosis = coefficient of kurtosis - 3
+      *   - significance  .05 level;
+      **  - significance  .01 level;
+      *** - significance .001 level;
+      #   - Negative intercept set to 0;
+
+=====================================================================================
+Test 1
+=====================================================================================
+-----
+Model
+-----
+
+EF ~ Intercept + Q1 + e
+
+------
+Sample
+------
+
+Number of all sibs            =  686
+Number of full sib pairs      =  771
+
+-----
+Trait
+-----
+
+Sample mean                   =   31.6237
+Sample variance               =   26.8768
+Sample skewness               =    0.4679
+Sample kurtosis               =   -0.2142
+Pairwise full sib correlation =    0.0649
+Intra sibship correlation     =    0.0659
+
+-----------------
+Dependent variate
+-----------------
+
+Correlation between pairs with no sibs in common =    0.0000
+Correlation between pairs with one sib in common =    0.0000
+
+Correlation between squared difference
+                and squared mean corrected sum   =    0.0573
+
+----------
+Regression
+----------
+
+                  before intercept is set           # after intercept is set
+                  -----------------------------     -----------------------------
+                   Estimate Std Error   P-value      Estimate Std Error   P-value     
+----------------- --------- --------- ---------     --------- --------- ---------     
+Intercept           -2.9922                            0.0000
+Q1                   0.0019    0.0024 0.4285474        0.0019    0.0024 0.4282475     
+
+Total variance     514.6236                          514.6236
+Residual variance  515.5414                          514.8718
+Residual skewness   -0.3620                           -0.3620
+Residual kurtosis    3.7051                            3.7051
+=====================================================================================
+
+
+=====================================================================================
+  Haseman-Elston Regression Analysis of Full Sibs
+  - single marker regression
+=====================================================================================
+
+    Continuous trait : EF
+
+    Dependent variate : Mean-corrected trait cross-product
+
+    w1 : 0.5
+
+    Other options used :
+      Identity weights = no
+      Robust variance  = no
+      Use sibship mean = no
+      Use BLUP mean    = yes
+
+    Legend :
+      Note - kurtosis = coefficient of kurtosis - 3
+      *   - significance  .05 level;
+      **  - significance  .01 level;
+      *** - significance .001 level;
+      #   - Negative intercept set to 0;
+
+=====================================================================================
+Test 1
+=====================================================================================
+-----
+Model
+-----
+
+EF ~ Intercept + D5G1(Add) + D5G1(Dom) + Q1 + e
+
+------
+Sample
+------
+
+Number of all sibs            =  686
+Number of full sib pairs      =  771
+
+-----
+Trait
+-----
+
+Sample mean                   =   31.6237
+Sample variance               =   26.8768
+Sample skewness               =    0.4679
+Sample kurtosis               =   -0.2142
+Pairwise full sib correlation =    0.0649
+Intra sibship correlation     =    0.0659
+
+-----------------
+Dependent variate
+-----------------
+
+Correlation between pairs with no sibs in common =    0.0000
+Correlation between pairs with one sib in common =    0.0000
+
+Correlation between squared difference
+                and squared mean corrected sum   =    0.0573
+
+----------
+Regression
+----------
+
+                  before intercept is set           # after intercept is set
+                  -----------------------------     -----------------------------
+                   Estimate Std Error   P-value      Estimate Std Error   P-value     
+----------------- --------- --------- ---------     --------- --------- ---------     
+Intercept           -3.1500                            0.0000
+D5G1(Add)            1.5857    4.0491 0.3477283        1.5857    4.0465 0.3476341     
+D5G1(Dom)           -2.6770    3.3805 0.7856646       -2.6770    3.3783 0.7858150     
+Q1                   0.0018    0.0024 0.4329626        0.0018    0.0024 0.4326629     
+
+Total variance     514.6236                          514.6236
+Residual variance  516.3491                          515.6768
+Residual skewness   -0.3664                           -0.3664
+Residual kurtosis    3.6968                            3.6968
+=====================================================================================
+Test 2
+=====================================================================================
+-----
+Model
+-----
+
+EF ~ Intercept + D5G2(A+D) + Q1 + e
+
+------
+Sample
+------
+
+Number of all sibs            =  686
+Number of full sib pairs      =  771
+
+-----
+Trait
+-----
+
+Sample mean                   =   31.6237
+Sample variance               =   26.8768
+Sample skewness               =    0.4679
+Sample kurtosis               =   -0.2142
+Pairwise full sib correlation =    0.0649
+Intra sibship correlation     =    0.0659
+
+-----------------
+Dependent variate
+-----------------
+
+Correlation between pairs with no sibs in common =    0.0000
+Correlation between pairs with one sib in common =    0.0000
+
+Correlation between squared difference
+                and squared mean corrected sum   =    0.0573
+
+----------
+Regression
+----------
+
+                  before intercept is set           # after intercept is set
+                  -----------------------------     -----------------------------
+                   Estimate Std Error   P-value      Estimate Std Error   P-value     
+----------------- --------- --------- ---------     --------- --------- ---------     
+Intercept           -2.3352                            0.0000
+D5G2                -1.3945    2.4032 0.7190532       -1.3945    2.4017 0.7191804     
+Q1                   0.0019    0.0024 0.4234097        0.0019    0.0024 0.4231082     
+
+Total variance     514.6236                          514.6236
+Residual variance  515.9864                          515.3154
+Residual skewness   -0.3675                           -0.3675
+Residual kurtosis    3.6696                            3.6696
+=====================================================================================
+
+
+=====================================================================================
+  Haseman-Elston Regression Analysis of Full Sibs
+  - multiple marker regression
+=====================================================================================
+
+    Continuous trait : EF
+
+    Dependent variate : Mean-corrected trait cross-product
+
+    w1 : 0.5
+
+    Other options used :
+      Identity weights = no
+      Robust variance  = no
+      Use sibship mean = no
+      Use BLUP mean    = yes
+
+    Legend :
+      Note - kurtosis = coefficient of kurtosis - 3
+      *   - significance  .05 level;
+      **  - significance  .01 level;
+      *** - significance .001 level;
+      #   - Negative intercept set to 0;
+
+=====================================================================================
+Test 1
+=====================================================================================
+-----
+Model
+-----
+
+EF ~ Intercept + D5G1(Add) + D5G1(Dom) + D5G2(A+D) + Q1 + D5G1 x Q1 + e
+
+------
+Sample
+------
+
+Number of all sibs            =  686
+Number of full sib pairs      =  771
+
+-----
+Trait
+-----
+
+Sample mean                   =   31.6237
+Sample variance               =   26.8768
+Sample skewness               =    0.4679
+Sample kurtosis               =   -0.2142
+Pairwise full sib correlation =    0.0649
+Intra sibship correlation     =    0.0659
+
+-----------------
+Dependent variate
+-----------------
+
+Correlation between pairs with no sibs in common =    0.0000
+Correlation between pairs with one sib in common =    0.0000
+
+Correlation between squared difference
+                and squared mean corrected sum   =    0.0573
+
+----------
+Regression
+----------
+
+                  before intercept is set           # after intercept is set
+                  -----------------------------     -----------------------------
+                   Estimate Std Error   P-value      Estimate Std Error   P-value     
+----------------- --------- --------- ---------     --------- --------- ---------     
+Intercept           -3.9274                            0.0000
+D5G1(Add)           18.1471   16.3377 0.1335125       18.1471   16.3270 0.1333564     
+D5G1(Dom)            2.3115    6.1112 0.3526797        2.3115    6.1072 0.3525879     
+D5G2               -16.7669   15.9739 0.8528935      -16.7669   15.9635 0.8530510     
+Q1                   0.0030    0.0026 0.2624911        0.0030    0.0026 0.2621797     
+D5G1 x Q1           -0.0060    0.0061 0.3261928       -0.0060    0.0061 0.3258770     
+
+Total variance     514.6236                          514.6236
+Residual variance  516.1637                          515.4899
+Residual skewness   -0.3807                           -0.3807
+Residual kurtosis    3.7542                            3.7542
+=====================================================================================
+
+

@@ -1,0 +1,9 @@
+The following summarizes performance test of the 5.4.2 release build vs.
+5.4.2 modified as described in Trac tickets to enhance speed and
+convergence.
+
+
+                          5.4.2           modified 5.4.2    %diff
+run time                  227 sec         281 sec           +24
+maximizations             46              71
+time per maximization     4.93            3.96              -18

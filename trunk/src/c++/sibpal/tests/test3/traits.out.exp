@@ -1,0 +1,37 @@
+
+
+
+==============================================================================
+  Haseman-Elston Regression Analysis of Full Sibs
+  - single marker regression
+==============================================================================
+
+    Continuous trait : Trait1
+
+    Dependent variate : Mean-corrected trait cross-product
+
+    w1 : 0.5
+
+    Other options used :
+      Identity weights = no
+      Robust variance  = no
+      Use sibship mean = no
+      Use BLUP mean    = yes
+
+    Legend :
+      Note - kurtosis = coefficient of kurtosis - 3
+      *   - significance  .05 level;
+      **  - significance  .01 level;
+      *** - significance .001 level;
+      #   - Negative intercept set to 0;
+
+==============================================================================
+Test  Independent                                                 Nominal     
+No.   variable          Pairs   Parameter    Estimate Std Error   P-value     
+----- ----------------- ----- ----------- ----------- --------- ---------     
+1     Marker_1             19 (A+D)GenVar     1.4371 #   1.0377 0.0914948     
+2     Marker_2             19 (A+D)GenVar     1.4005 #   1.0303 0.0954241     
+3     Marker_3             18 (A+D)GenVar     1.6569 #   1.0837 0.0723252     
+==============================================================================
+
+

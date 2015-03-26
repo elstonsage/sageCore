@@ -1,0 +1,122 @@
+pedigree
+{
+   delimiter_mode = multiple
+   delimiters=", 	"
+   individual_missing_value="0"
+   sex_code,male="1",female="0",unknown="?"
+
+   pedigree_id=PED
+   individual_id=IND
+   parent_id=MOTH
+   parent_id=FATH
+   sex_field=SEX
+
+  marker=m1
+
+  covariate=cov1,binary,affected=1,unaffected=0,missing=-999
+  covariate=cov2,missing=-999
+
+  trait=t1,missing=-999
+  trait=t2,missing=-999
+  trait=t3,binary,affected=1,unaffected=0,missing=-999
+  trait=t4,binary,affected=1,unaffected=0,missing=-999
+}
+
+segreg_analysis,output=one_mean_t2
+{
+  class=A
+
+  trait=t2
+
+  transformation
+  {
+    option = none
+  }
+
+  resid
+  {
+    fo=0.0,fixed=true
+  }
+
+  type_mean
+  {
+    option = one
+  }
+
+  mean_cov
+  {
+    covariate=cov1
+    covariate=cov2
+  }
+}
+
+segreg_analysis,output=two_mean_t2
+{
+  class=A
+
+  trait=t2
+
+  transformation
+  {
+    option = none
+  }
+
+  resid
+  {
+    fo=0.0,fixed=true
+  }
+
+  type_mean
+  {
+    option = two
+  }
+
+  mean_cov
+  {
+    covariate=cov1
+    covariate=cov2
+  }
+
+  transmission
+  {
+    option=mitochondrial
+  }
+}
+
+segreg_analysis,output=three_mean_t2
+{
+  class=A
+
+  trait=t2
+
+  transformation
+  {
+    option = none
+  }
+
+  resid
+  {
+    fo=0.0,fixed=true
+  }
+
+  type_mean
+  {
+    option = three
+  }
+
+  transmission
+  {
+    option=mitochondrial
+  }
+
+  geno_freq
+  {
+    option=nhwe
+  }
+  mean_cov
+  {
+    covariate=cov1
+    covariate=cov2
+  }
+}
+

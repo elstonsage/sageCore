@@ -1,0 +1,42 @@
+
+
+
+==============================
+LODLINK Analysis 1 DETAIL FILE
+==============================
+
+
+Options Selected
+================
+Main locus type                          marker
+Main locus name                          C01R0001
+
+Lod scores                               no
+
+Linkage tests                            yes
+  Sex-specific recombination fractions   no
+  Assume homogeneity                     yes
+
+Smith's test for homogeneity             no
+
+Morton's test for homogeneity            no
+
+Genotype probabilities                   no
+
+
+Results
+=======
+
+
+
+
+                  Lod Score Linkage Test      
+                  Variance-Covariance Matrices
+                  Parameter Order (Avg Recomb)
+
+Locus             Estimates in [0, .5]          Estimates in [0, 1]
+---------------   --------------------          -------------------
+C01R0002                  ---                             --- 
+
+C01R0004                  ---                             --- 
+

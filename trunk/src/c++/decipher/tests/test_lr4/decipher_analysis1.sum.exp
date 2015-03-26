@@ -1,0 +1,131 @@
+
+==========
+Analysis 1
+==========
+
+
+Options Selected
+================
+Haplotype region                         one
+EM algorithm convergence criterion       1e-05
+Number of EM algorithm starting states   10
+  Dump                                   no
+
+Subpopulations specified                 yes
+Analysis unit                            each individual
+
+Estimate haplotype frequencies           yes
+  Cutoff                                 0
+Show all possible diplotypes table       no
+List most likely diplotypes              no
+Do likelihood ratio test                 yes
+Compute empirical p-value                yes
+  Maximum number of permutations         10000
+  Width                                  0.2
+  Confidence                             0.95
+
+
+Results
+=======
+
+
+Markers in order:
+  M1 M2 M3 
+
+Missing allele symbol (first marker):
+  '?'
+
+                         Haplotype Frequency Estimates
+
+
+Note:  Haplotypes listed have estimated frequencies greater than or equal to
+       the cutoff or have the greatest frequency estimate.
+
+Population:  1 / A
+
+Haplotype          Frequency
+---------          ---------
+1-2-2              0.135160
+2-1-1              0.131825
+2-2-1              0.129596
+2-1-2              0.125859
+2-2-2              0.125720
+1-1-2              0.124261
+1-2-1              0.117524
+1-1-1              0.110055
+                   ---------
+Total              1.000000
+
+Ln likelihood    -3145.71
+
+
+Population:  1 / B
+
+Haplotype          Frequency
+---------          ---------
+1-1-2              0.138183
+2-1-2              0.136112
+1-1-1              0.130578
+2-2-1              0.126887
+2-2-2              0.124873
+1-2-2              0.115832
+1-2-1              0.115407
+2-1-1              0.112127
+                   ---------
+Total              1.000000
+
+Ln likelihood    -3108.59
+
+
+Population:  2 / A
+
+Haplotype          Frequency
+---------          ---------
+2-1-1              0.144806
+1-2-2              0.137690
+2-2-2              0.125143
+1-2-1              0.124202
+1-1-2              0.121582
+1-1-1              0.119527
+2-1-2              0.118085
+2-2-1              0.108965
+                   ---------
+Total              1.000000
+
+Ln likelihood    -3131.59
+
+
+Population:  2 / B
+
+Haplotype          Frequency
+---------          ---------
+2-1-1              0.161390
+2-2-2              0.148506
+2-1-2              0.138446
+2-2-1              0.129659
+1-1-1              0.113396
+1-2-2              0.109280
+1-1-2              0.103769
+1-2-1              0.0955555
+                   ---------
+Total              1.000000
+
+Ln likelihood    -3103.83
+
+
+
+
+                         Likelihood Ratio Tests
+
+Population:  1
+Asymptotic p-value  0.383163
+Empirical p-value   0.472727  (109 permutations)
+
+
+Population:  2
+Asymptotic p-value  0.000208308
+Empirical p-value   0.00019998  (10000 permutations)
+
+
+
+

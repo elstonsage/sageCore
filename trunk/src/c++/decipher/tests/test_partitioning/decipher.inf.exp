@@ -1,0 +1,127 @@
+
+
+
+
+Family structure information on the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       SEX       PARENT1       PARENT2     
+     ------------  ------------  --------  ------------  ------------
+     17            1             1         0             0           
+     17            2             2         0             0           
+     17            3             1         1             2           
+     17            4             1         1             2           
+     32            1             1         0             0           
+     32            2             2         0             0           
+     32            3             1         1             2           
+     32            4             2         1             2           
+     34            1             1         0             0           
+     34            2             2         0             0           
+
+
+Phenotypes for the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       SEX_CODE              FAMILIAL_INDICATOR    FOUNDER_INDICATOR     PEDIGREE_SIZE         T2                    T3                    T1                  
+     ------------  ------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------
+     17            1             0                     1                     1                     4                     1                     1                     no                  
+     17            2             1                     1                     1                     4                     1                     1                     no                  
+     17            3             0                     1                     0                     4                     1                     1                     no                  
+     17            4             0                     1                     0                     4                     1                     1                     rep                 
+     32            1             0                     1                     1                     4                     2                     0                     no                  
+     32            2             1                     1                     1                     4                     2                     0                     no                  
+     32            3             0                     1                     0                     4                     2                     0                     rep                 
+     32            4             1                     1                     0                     4                     2                     0                     no                  
+     34            1             0                     1                     1                     4                     1                     1                     rep                 
+     34            2             1                     1                     1                     4                     1                     1                     rep                 
+
+
+Markers for the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       C01R0001      C01R0002      C01R0003      C01R0004    
+     ------------  ------------  ------------  ------------  ------------  ------------
+     17            1             0/0           0/0           0/0           0/0         
+     17            2             1/1           1/1           1/1           1/1         
+     17            3             1/1           1/1           1/1           1/1         
+     17            4             1/1           1/1           1/1           1/1         
+     32            1             0/0           0/0           0/0           0/0         
+     32            2             1/1           1/1           1/1           1/1         
+     32            3             1/1           1/1           1/1           1/1         
+     32            4             1/1           1/1           1/1           1/1         
+     34            1             0/0           0/0           0/0           0/0         
+     34            2             0/0           0/0           1/1           1/1         
+
+%DECIPHER-I: Mapping function not specified.  Using Haldane Mapping Function.
+
+  Performing analysis: Analysis 1
+  ===========================================================================
+
+%DECIPHER-W: Individual 1 in pedigree 34 is designated as family representative
+             , but is not genotyped in the haplotyping region.  Ignoring
+             designation ...
+%DECIPHER-I: No valid family representative found for constituent pedigree in
+             pedigree 40 containing member 1.  Skipping this constituent
+             pedigree ...
+%DECIPHER-W: Individual 4 in pedigree 10 is designated as family representative
+             , but is not genotyped in the haplotyping region.  Ignoring
+             designation ...
+%DECIPHER-I: No valid family representative found for constituent pedigree in
+             pedigree 10 containing member 1.  Skipping this constituent
+             pedigree ...
+%DECIPHER-I: No valid family representative found for constituent pedigree in
+             pedigree 16 containing member 1.  Skipping this constituent
+             pedigree ...
+    Subpopulation: 0 / 1
+      Determining possible haplotype combinations ................... done.
+%DECIPHER-E: Subpopulation, 0 / 1 contains no usable data.  Ignoring this
+             subpopulation ...
+    Subpopulation: 0 / 2
+      Determining possible haplotype combinations ................... done.
+    Subpopulation: 1 / 1
+      Determining possible haplotype combinations ................... done.
+    Subpopulation: 1 / 2
+      Determining possible haplotype combinations ................... done.
+%DECIPHER-E: Subpopulation, 1 / 2 contains no usable data.  Ignoring this
+             subpopulation ...
+
+  ===========================================================================
+
+
+  Performing analysis: Analysis 2
+  ===========================================================================
+
+%DECIPHER-I: No valid family representative found for constituent pedigree in
+             pedigree 10 containing member 1.  Skipping this constituent
+             pedigree ...
+    Subpopulation: 0 / 1
+      Determining possible haplotype combinations ................... done.
+%DECIPHER-E: Subpopulation, 0 / 1 contains no usable data.  Ignoring this
+             subpopulation ...
+    Subpopulation: 0 / 2
+      Determining possible haplotype combinations ................... done.
+    Subpopulation: 1 / 1
+      Determining possible haplotype combinations ................... done.
+    Subpopulation: 1 / 2
+      Determining possible haplotype combinations ................... done.
+%DECIPHER-E: Subpopulation, 1 / 2 contains no usable data.  Ignoring this
+             subpopulation ...
+
+  ===========================================================================
+
+
+  Performing analysis: Analysis 3
+  ===========================================================================
+
+    Subpopulation: 0 / 1
+      Determining possible haplotype combinations ................... done.
+%DECIPHER-E: Subpopulation, 0 / 1 contains no usable data.  Ignoring this
+             subpopulation ...
+    Subpopulation: 0 / 2
+      Determining possible haplotype combinations ................... done.
+    Subpopulation: 1 / 1
+      Determining possible haplotype combinations ................... done.
+    Subpopulation: 1 / 2
+      Determining possible haplotype combinations ................... done.
+%DECIPHER-E: Subpopulation, 1 / 2 contains no usable data.  Ignoring this
+             subpopulation ...
+
+  ===========================================================================
+

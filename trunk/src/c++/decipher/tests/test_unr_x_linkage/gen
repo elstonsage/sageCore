@@ -1,0 +1,13 @@
+genome
+{
+  region=one
+  {
+    marker=C01R0001
+    distance=1
+    marker=C01R0002
+    distance=1    
+    marker=C01R0003
+    distance=1
+    marker=C01R0004
+  }
+}

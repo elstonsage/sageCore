@@ -1,0 +1,34 @@
+
+
+
+Reading Parameter File....................done.
+Reading Pedigree File.....................
+              from ped....................done.
+Sorting Pedigrees.........................done.
+
+Parsing DECIPHER analyses ...
+
+
+Parsing new analysis block ...
+
+
+Parsing of Analysis 1 complete.  Analysis valid.
+------------------------------------------------------------------------------
+
+  Performing analysis: Analysis 1
+  ===========================================================================
+
+
+  Determining blocks with four gamete rule .......................... done.
+  Four-gamete-rule block 1 of 4.
+
+  Four-gamete-rule block 2 of 4.
+
+  Four-gamete-rule block 3 of 4.
+
+  Four-gamete-rule block 4 of 4.
+
+  ===========================================================================
+
+
+

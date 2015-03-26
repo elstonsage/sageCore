@@ -1,0 +1,270 @@
+S.A.G.E. v4.0 (internal alpha 3) -- SEGREG  
+COPYRIGHT (C) 2002 CASE WESTERN RESERVE UNIVERSITY
+
+
+Family structure information on the first 10 individuals read from file: fam.complete
+
+     PED. ID       IND. ID       SEX       PARENT1       PARENT2    
+     ------------  ------------  --------  ------------  -----------
+     80235         1             2         0             0           
+     80235         2             1         1             99          
+     80235         99            1         0             0           
+     80245         1             1         0             0           
+     80245         2             2         0             0           
+     80245         3             1         1             2           
+     80245         4             1         1             2           
+     80259         1             1         0             0           
+     80259         2             2         0             0           
+     80259         99            1         1             2           
+
+
+Phenotypes for the first 10 individuals read from file: fam.complete
+
+     PED. ID       IND. ID       idx                   HIV                   SCAR                  PPD                   TB                    AGE                   BMI                   CPPD                  PC1A                
+     ------------  ------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------
+     80235         1             1                     0                     1                     2                     1                     25                    20.02                 18                    -99.000             
+     80235         2             0                     0                     1                     2                     0                     1.5                   18.06                 0                     -99.000             
+     80235         99            0                     2                     -9                    2                     2                     -9                    -9                    -9.000                -99.000             
+     80245         1             1                     0                     0                     2                     1                     24                    8.65                  13                    -99.000             
+     80245         2             0                     2                     1                     2                     0                     19                    22.43                 22                    -99.000             
+     80245         3             0                     2                     0                     2                     0                     4                     15.69                 4                     -99.000             
+     80245         4             0                     2                     1                     2                     0                     2                     17.14                 0                     -99.000             
+     80259         1             1                     1                     0                     2                     1                     28                    18.94                 17                    -99.000             
+     80259         2             0                     2                     0                     2                     0                     19                    21.27                 17                    -99.000             
+     80259         99            0                     2                     -9                    2                     2                     -9                    -9                    -9.000                -99.000             
+
+
+Parsing Segreg Analyses...
+
+Beginning new analysis block....
+
+%SEGREG-E: Parameter 'XTYPE_MEAN' not recognized.  Skipping ...
+
+Parsing Analysis: 'PC commingling'....
+
+%SEGREG-E: transmission sub-block specified without specifying a mean sub-block
+           .  Ignoring ...
+
+Analysis parsing complete.  Analysis valid.
+------------------------------------------------------------------------------
+
+  Performing analysis: PC commingling
+  ===========================================================================
+
+  Doing Commingling Analysis:
+    Maximizing one-mean model.............
+        Testing model........................Done.
+        Performing Maximization..............Done. (-524.373)
+             Parameter           Init.Est.   Final Est.
+             ==============      ==========  ==========
+         0:  mean                7.22022e-06   0.0771005
+         1:  variance                     1     1.08716
+         2:  spousal resid corr         0.2    0.280912
+         3:  fo resid corr              0.2   0.0732365
+         4:  mo resid corr              0.2    0.336865
+         5:  ss resid corr             0.35    0.383484
+         6:  lambda_one                   1    0.816038
+         7:  lambda_two                   5           5
+        Finalizing Model.....................Done.
+    Maximizing one-mean model................Done.
+    Maximizing two-mean model.............
+        Testing Initial Value  1.............Done.
+        Testing Initial Value  2.............Done.
+        Testing Initial Value  3.............Done.
+        Testing Initial Value  4.............Done.
+        Testing Initial Value  5.............Done.
+        Testing Initial Value  6.............Done.
+        Attempting Initial Value  1..........Done. (-521.229)
+             Parameter           Init.Est.   Final Est.
+             ==============      ==========  ==========
+         0:  mean_AA_AB              -3.052    -1.39153
+         1:  mean_BB             0.00552622    0.221853
+         2:  variance                     1     0.80691
+         3:  prob_AA                   0.04  0.00303146
+         4:  prob_AB                   0.32    0.104054
+         5:  prob_BB                   0.64    0.892914
+         6:  freq_A                     0.2   0.0550587
+         7:  genotypic corr.              0           0
+         8:  spousal resid corr         0.2    0.272678
+         9:  fo resid corr              0.2    0.078445
+        10:  mo resid corr              0.2    0.400442
+        11:  ss resid corr             0.35    0.449959
+        12:  lambda_one                   1    0.282443
+        13:  lambda_two                   5           5
+        Attempting Initial Value  2..........Done. (-524.231)
+             Parameter           Init.Est.   Final Est.
+             ==============      ==========  ==========
+         0:  mean_AA_AB          -0.00623327   0.0770042
+         1:  mean_BB                  3.451   -0.332524
+         2:  variance                     1     1.08701
+         3:  prob_AA                   0.04           1
+         4:  prob_AB                   0.32  4.44089e-16
+         5:  prob_BB                   0.64  4.93038e-32
+         6:  freq_A                     0.2           1
+         7:  genotypic corr.              0           0
+         8:  spousal resid corr         0.2    0.280787
+         9:  fo resid corr              0.2   0.0731397
+        10:  mo resid corr              0.2    0.336136
+        11:  ss resid corr             0.35    0.383377
+        12:  lambda_one                   1    0.816231
+        13:  lambda_two                   5           5
+        Attempting Initial Value  3..........Done. (-521.229)
+             Parameter           Init.Est.   Final Est.
+             ==============      ==========  ==========
+         0:  mean_AA_AB           -0.795186    -1.38817
+         1:  mean_BB               0.812613    0.223286
+         2:  variance                     1     0.80563
+         3:  prob_AA                   0.04  0.00307866
+         4:  prob_AB                   0.32    0.104814
+         5:  prob_BB                   0.64    0.892107
+         6:  freq_A                     0.2   0.0554857
+         7:  genotypic corr.              0           0
+         8:  spousal resid corr         0.2    0.272649
+         9:  fo resid corr              0.2   0.0786721
+        10:  mo resid corr              0.2    0.400733
+        11:  ss resid corr             0.35    0.449939
+        12:  lambda_one                   1    0.283004
+        13:  lambda_two                   5           5
+        Attempting Initial Value  4..........Done. (-521.229)
+             Parameter           Init.Est.   Final Est.
+             ==============      ==========  ==========
+         0:  mean_AA_AB              -3.052    -1.38688
+         1:  mean_BB             0.00552622    0.224132
+         2:  variance               1.08716    0.804429
+         3:  prob_AA                   0.04  0.00310967
+         4:  prob_AB                   0.32     0.10531
+         5:  prob_BB                   0.64    0.891581
+         6:  freq_A                     0.2   0.0557644
+         7:  genotypic corr.              0           0
+         8:  spousal resid corr    0.280912    0.272152
+         9:  fo resid corr        0.0732365   0.0786684
+        10:  mo resid corr         0.336865    0.400673
+        11:  ss resid corr         0.383484    0.449624
+        12:  lambda_one            0.816038    0.282218
+        13:  lambda_two                   5           5
+        Attempting Initial Value  5..........Done. (-524.101)
+             Parameter           Init.Est.   Final Est.
+             ==============      ==========  ==========
+         0:  mean_AA_AB          -0.00623327   0.0603233
+         1:  mean_BB                  3.451      2.0605
+         2:  variance               1.08716      1.0343
+         3:  prob_AA                   0.04    0.760953
+         4:  prob_AB                   0.32    0.222746
+         5:  prob_BB                   0.64   0.0163005
+         6:  freq_A                     0.2    0.872326
+         7:  genotypic corr.              0           0
+         8:  spousal resid corr    0.280912    0.318493
+         9:  fo resid corr        0.0732365   0.0811912
+        10:  mo resid corr         0.336865    0.387434
+        11:  ss resid corr         0.383484    0.400931
+        12:  lambda_one            0.816038    0.987058
+        13:  lambda_two                   5           5
+        Attempting Initial Value  6..........Done. (-521.229)
+             Parameter           Init.Est.   Final Est.
+             ==============      ==========  ==========
+         0:  mean_AA_AB           -0.795186    -1.38817
+         1:  mean_BB               0.812613    0.223294
+         2:  variance               1.08716    0.805616
+         3:  prob_AA                   0.04  0.00307883
+         4:  prob_AB                   0.32    0.104817
+         5:  prob_BB                   0.64    0.892104
+         6:  freq_A                     0.2   0.0554872
+         7:  genotypic corr.              0           0
+         8:  spousal resid corr    0.280912     0.27265
+         9:  fo resid corr        0.0732365   0.0786633
+        10:  mo resid corr         0.336865     0.40071
+        11:  ss resid corr         0.383484    0.449941
+        12:  lambda_one            0.816038    0.283028
+        13:  lambda_two                   5           5
+      Choosing models to finalize............Done.
+        Finalizing Model  1..................Done.
+        Finalizing Model  2..................Done.
+        Finalizing Model  3..................Done.
+        Finalizing Model  4..................Done.
+      Choosing Final Estimates...............Done.
+    Maximizing two-mean model................Done.
+    Maximizing three-mean model...........
+        Testing Initial Value  1.............Done.
+        Testing Initial Value  2.............Done.
+        Testing Initial Value  3.............Done.
+        Testing Initial Value  4.............Done.
+        Attempting Initial Value  1..........Done. (-518.87)
+             Parameter           Init.Est.   Final Est.
+             ==============      ==========  ==========
+         0:  mean_AA               -1.92527    -2.66483
+         1:  mean_AB              -0.850984    -1.23859
+         2:  mean_BB               0.223302     0.29375
+         3:  variance              0.805624     0.67098
+         4:  prob_AA              0.0030791  0.00669058
+         5:  prob_AB               0.104821    0.150211
+         6:  prob_BB                 0.8921    0.843099
+         7:  freq_A               0.0554896    0.081796
+         8:  genotypic corr.              0           0
+         9:  spousal resid corr    0.272663    0.271452
+        10:  fo resid corr        0.0786704    0.115433
+        11:  mo resid corr         0.400715    0.413076
+        12:  ss resid corr         0.449947    0.470817
+        13:  lambda_one            0.283027           0
+        14:  lambda_two                   5           5
+        Attempting Initial Value  2..........Done. (-518.87)
+             Parameter           Init.Est.   Final Est.
+             ==============      ==========  ==========
+         0:  mean_AA               -1.38813    -2.66479
+         1:  mean_AB              -0.313841    -1.23857
+         2:  mean_BB               0.760445    0.293758
+         3:  variance              0.805624    0.670978
+         4:  prob_AA              0.0030791  0.00669104
+         5:  prob_AB               0.104821    0.150215
+         6:  prob_BB                 0.8921    0.843094
+         7:  freq_A               0.0554896   0.0817988
+         8:  genotypic corr.              0           0
+         9:  spousal resid corr    0.272663    0.271457
+        10:  fo resid corr        0.0786704    0.115437
+        11:  mo resid corr         0.400715    0.413088
+        12:  ss resid corr         0.449947    0.470821
+        13:  lambda_one            0.283027           0
+        14:  lambda_two                   5           5
+        Attempting Initial Value  3..........Done. (-521.224)
+             Parameter           Init.Est.   Final Est.
+             ==============      ==========  ==========
+         0:  mean_AA               -1.38813   -0.941694
+         1:  mean_AB               -1.38813    -1.39427
+         2:  mean_BB               0.223302    0.224205
+         3:  variance              0.805624    0.804746
+         4:  prob_AA              0.0030791  0.00313856
+         5:  prob_AB               0.104821    0.105769
+         6:  prob_BB                 0.8921    0.891093
+         7:  freq_A               0.0554896   0.0560228
+         8:  genotypic corr.              0           0
+         9:  spousal resid corr    0.272663    0.272635
+        10:  fo resid corr        0.0786704   0.0787179
+        11:  mo resid corr         0.400715    0.400889
+        12:  ss resid corr         0.449947    0.450177
+        13:  lambda_one            0.283027    0.281594
+        14:  lambda_two                   5           5
+        Attempting Initial Value  4..........Done. (-521.29)
+             Parameter           Init.Est.   Final Est.
+             ==============      ==========  ==========
+         0:  mean_AA               -1.38813    -1.39579
+         1:  mean_AB               0.223302    0.220768
+         2:  mean_BB               0.223302    0.220327
+         3:  variance              0.805624    0.807844
+         4:  prob_AA              0.0030791    0.105831
+         5:  prob_AB               0.104821    0.438972
+         6:  prob_BB                 0.8921    0.455197
+         7:  freq_A               0.0554896    0.325317
+         8:  genotypic corr.              0           0
+         9:  spousal resid corr    0.272663    0.272436
+        10:  fo resid corr        0.0786704   0.0782508
+        11:  mo resid corr         0.400715    0.399107
+        12:  ss resid corr         0.449947    0.449383
+        13:  lambda_one            0.283027    0.282102
+        14:  lambda_two                   5           5
+      Choosing models to finalize............Done.
+        Finalizing Model  1..................Done.
+        Finalizing Model  2..................Done.
+      Choosing Final Estimates...............Done.
+    Maximizing three-mean model..............Done.
+
+  ===========================================================================
+

@@ -1,0 +1,90 @@
+=======================================================================================================
+  SEGREG Analysis for Trait : 
+=======================================================================================================
+  # Model Specification  
+
+      Model Class D
+      genotype specific mean sub-model     : one genotype specific mean
+      genotype specific variance sub-model : one genotype specific variance
+      genotype frequency sub-model         : Hardy-Weinberg equilibrium
+      residual correlation sub-model       : no spouse correlation,
+                                             parent-offspring and sib-sib correlations equal
+      transmission sub-model               : homogeneous no transmission
+      transformation sub-model             : Box-Cox
+
+  # Number of Pedigrees : 0
+
+  # Final Estimates : 
+
+  Parameter           Parameter Est.  Standard Err.   First Deriv.   Status
+-------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------
+
+
+        LN(Likelihood) : NaNQ
+     -2 LN(Likelihood) : NaNQ
+=======================================================================================================
+
+Final Error Code: 0
+
+
+=======================================================================================================
+  SEGREG Analysis for Trait : 
+=======================================================================================================
+  # Model Specification  
+
+      Model Class D
+      genotype specific mean sub-model     : one genotype specific mean
+      genotype specific variance sub-model : one genotype specific variance
+      genotype frequency sub-model         : Hardy-Weinberg equilibrium
+      residual correlation sub-model       : no spouse correlation,
+                                             parent-offspring and sib-sib correlations equal
+      transmission sub-model               : homogeneous no transmission
+      transformation sub-model             : Box-Cox
+
+  # Number of Pedigrees : 0
+
+  # Final Estimates : 
+
+  Parameter           Parameter Est.  Standard Err.   First Deriv.   Status
+-------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------
+
+
+        LN(Likelihood) : NaNQ
+     -2 LN(Likelihood) : NaNQ
+=======================================================================================================
+
+Final Error Code: 0
+
+
+=======================================================================================================
+  SEGREG Analysis for Trait : 
+=======================================================================================================
+  # Model Specification  
+
+      Model Class D
+      genotype specific mean sub-model     : one genotype specific mean
+      genotype specific variance sub-model : one genotype specific variance
+      genotype frequency sub-model         : Hardy-Weinberg equilibrium
+      residual correlation sub-model       : no spouse correlation,
+                                             parent-offspring and sib-sib correlations equal
+      transmission sub-model               : homogeneous no transmission
+      transformation sub-model             : Box-Cox
+
+  # Number of Pedigrees : 0
+
+  # Final Estimates : 
+
+  Parameter           Parameter Est.  Standard Err.   First Deriv.   Status
+-------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------
+
+
+        LN(Likelihood) : NaNQ
+     -2 LN(Likelihood) : NaNQ
+=======================================================================================================
+
+Final Error Code: 0
+
+

@@ -1,0 +1,71 @@
+
+
+Family structure information on the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       SEX       PARENT1       PARENT2     
+     ------------  ------------  --------  ------------  ------------
+     1             1             1         0             0           
+     2             2             1         0             0           
+     3             3             1         0             0           
+     4             4             1         0             0           
+     5             5             1         0             0           
+     6             6             1         0             0           
+     7             7             1         0             0           
+     8             8             1         0             0           
+     9             9             1         0             0           
+     10            10            1         0             0           
+
+
+Phenotypes for the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       REP                   S1                    S2                  
+     ------------  ------------  --------------------  --------------------  --------------------
+     1             1             1                     A                     1                   
+     2             2             1                     A                     1                   
+     3             3             1                     A                     1                   
+     4             4             1                     A                     1                   
+     5             5             1                     A                     1                   
+     6             6             1                     A                     1                   
+     7             7             1                     A                     1                   
+     8             8             1                     A                     1                   
+     9             9             1                     A                     1                   
+     10            10            1                     A                     1                   
+
+
+Markers for the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       M1            M2            M3          
+     ------------  ------------  ------------  ------------  ------------
+     1             1             1/1           1/2           2/1         
+     2             2             1/1           1/2           2/2         
+     3             3             1/2           2/2           1/1         
+     4             4             1/2           1/2           1/1         
+     5             5             1/1           1/2           2/2         
+     6             6             1/2           1/2           1/1         
+     7             7             1/2           1/1           1/1         
+     8             8             2/2           1/2           1/1         
+     9             9             2/2           1/1           1/1         
+     10            10            1/1           1/2           2/2         
+
+%DECIPHER-W: Mapping function not specified.  Using Haldane Mapping Function.
+
+  Performing analysis: Analysis 1
+  ===========================================================================
+
+    Subpopulation: 1 / A
+      Determining possible haplotype combinations ................... done.
+      Maximizing likelihood ......................................... done. 
+    Subpopulation: 1 / B
+      Determining possible haplotype combinations ................... done.
+      Maximizing likelihood ......................................... done. 
+    Doing likelihood ratio test(s) .................................. done.
+    Subpopulation: 2 / A
+      Determining possible haplotype combinations ................... done.
+      Maximizing likelihood ......................................... done. 
+    Subpopulation: 2 / B
+      Determining possible haplotype combinations ................... done.
+      Maximizing likelihood ......................................... done. 
+    Doing likelihood ratio test(s) .................................. done.
+
+  ===========================================================================
+

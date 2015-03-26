@@ -1,0 +1,32 @@
+
+Family structure information on the first 10 individuals read from file: data3.ped
+
+     PED. ID       IND. ID       SEX       PARENT1       PARENT2     
+     ------------  ------------  --------  ------------  ------------
+     HGAR0001      0002          F         0             0           
+     HGAR0001      0001          M         0             0           
+     HGAR0001      0003          F         0001          0002        
+     HGAR0001      0004          F         0001          0002        
+     HGAR0001      0005          F         0001          0002        
+     HGAR0001      0006          M         0             0           
+     HGAR0001      0007          F         0003          0006        
+     HGAR0001      0008          M         0003          0006        
+     HGAR0001      0009          M         0003          0006        
+     HGAR0001      0010          M         0             0           
+
+
+Phenotypes for the first 10 individuals read from file: data3.ped
+
+     PED. ID       IND. ID       SEX_CODE              FAMILIAL_INDICATOR    FOUNDER_INDICATOR     PEDIGREE_SIZE       
+     ------------  ------------  --------------------  --------------------  --------------------  --------------------
+     HGAR0001      0002          1                     1                     1                     29                  
+     HGAR0001      0001          0                     1                     1                     29                  
+     HGAR0001      0003          1                     1                     0                     29                  
+     HGAR0001      0004          1                     1                     0                     29                  
+     HGAR0001      0005          1                     1                     0                     29                  
+     HGAR0001      0006          0                     1                     1                     29                  
+     HGAR0001      0007          1                     1                     0                     29                  
+     HGAR0001      0008          0                     1                     0                     29                  
+     HGAR0001      0009          0                     1                     0                     29                  
+     HGAR0001      0010          0                     1                     1                     29                  
+

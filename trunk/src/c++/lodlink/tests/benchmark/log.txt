@@ -1,0 +1,18 @@
+All timing done w. executibles made w. 'BUILD=SPEED'.
+
+Total time for 3.1 is 15 seconds
+
+Version   User(s)   System(s)   Total(s)  Total/3.1 Total
+0         165       13          178       11.9  
+1         144       13          157       10.5
+2         135       12          147        9.8
+3         611      104          715       47.6
+4         149       12          161       10.7
+5         139       12          151       10.1
+
+0: initial version.
+1: inlined transmission function.
+2: inlined transistion function.
+3: w/o genotype elimination. 
+4: w. Darwin heavily loaded 4/5/3
+5: w. Darwin heavily loaded 4/5/3 assertions removed                                          

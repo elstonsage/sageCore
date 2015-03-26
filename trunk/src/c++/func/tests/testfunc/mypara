@@ -1,0 +1,101 @@
+pedigree
+{
+  pedigree_id=PID
+  individual_id=ID
+  sex_field=SEX
+  parent_id=P1
+  parent_id=P2
+  trait=disease, binary, affected=1, unaffected=0
+  trait="HEMATOCRIT"
+  marker=LOC1
+}
+
+# - Contains incorrect expression expression for
+#   phenotype.
+#
+function
+{
+  time_limit = 8
+  phenotype = x, expression = "dom(LOC1, A')"
+}
+
+# - Correct.
+#
+function
+{
+  time_limit = 8
+  phenotype = x, expression = "dom(LOC1, 'A')"
+}
+
+# - Contains an incorrect expression for a constant.
+#
+function
+{
+  trait = x1, expression = "C1 * sqrt(hematocrit)"
+  constant = C, expression = "2"
+  constant = C1, expression = "C *** 3"
+}
+
+# - Correct.
+#
+function
+{
+  trait = x1, expression = "C1 * sqrt(hematocrit)"
+  constant = C, expression = "2"
+  constant = C1, expression = "C * 3"
+}
+
+# - Invalid constant.
+#
+function
+{
+  constant = K, expression = "sqrt(-72)"
+  trait = x2, expression = "hematocrit + K"
+}
+
+# - Name missing
+#
+function
+{
+  trait expression = "hematocrit + 4"
+}
+
+# - Next two function blocks should trigger each possible parser error.
+#
+function
+{
+  trait = x, expression = "sqrt(hematocrit)"
+  phenotype = x1, expression = "sqrt(hematocrit)"
+}
+
+function
+{
+  six
+  constant
+  constant=C, expression
+  trait
+  trait = x2, expression
+  phenotype
+  phenotype = x3, expression
+  covariate
+  covariate = x4, expression
+  time_limit =seven
+  constant=C1, expression = 7
+  constant=C2, expression = 6
+}
+
+# - create a 'runtime' error.
+#
+function
+{
+  time_limit = 8
+  phenotype = zzz, expression = "hematocrit / 0"
+}
+
+# - Exercise timer.
+#
+#function
+#{
+#  time_limit=1
+#  trait = x47, expression = "200L ** 200L ** 200L"
+#}

@@ -1,0 +1,37 @@
+
+
+
+==============================================================================
+  Haseman-Elston Regression Analysis of Full and Half Sibs
+  - single marker regression
+==============================================================================
+
+    Binary trait : alc, affected = '1' , unaffected = '3'
+
+    Dependent variate : Weighted square trait sum and difference (W3)
+
+    w1 : 0.5
+
+    Other options used :
+      Identity weights = no
+      Robust variance  = no
+      Use sibship mean = no
+      Use BLUP mean    = yes
+
+    Legend :
+      Note - kurtosis = coefficient of kurtosis - 3
+      *   - significance  .05 level;
+      **  - significance  .01 level;
+      *** - significance .001 level;
+      #   - Negative intercept set to 0 or a common value is estimated;
+
+==============================================================================
+Test  Independent                                                 Nominal     
+No.   variable      cM  Pairs   Parameter    Estimate Std Error   P-value     
+----- ----------- ----- ----- ----------- ----------- --------- ---------     
+1     D3S1297       0.0    18 (A+D)GenVar     0.7020 #   0.2136 0.0021778 **  
+2     D3S1304      13.3    15 (A+D)GenVar     0.7523 #   0.5846 0.1095035     
+3     D3S1263      27.1    18 (A+D)GenVar    -0.7854 #   0.3597 0.9783388     
+==============================================================================
+
+

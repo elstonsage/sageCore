@@ -1,0 +1,38 @@
+pedigree
+{
+  pedigree_id=PID
+  individual_id=ID
+  parent_id=P1
+  parent_id=P2
+  sex_field=SEX
+  trait=partition, missing=0
+  marker=M1, missing="?/?"
+  marker=M2, missing="?/?"
+
+  delimiters=" "
+  delimiter_mode=multiple
+  individual_missing_value=0
+  verbose=20
+}
+
+decipher, out=hapapp_analysis1
+{
+  region=one
+
+  data
+  {
+    analysis_unit=each_individual
+    partition=partition
+    {
+      sub_pop, sub_pop_value=1
+      sub_pop, sub_pop_value=2
+    }
+  }
+
+  tasks
+  {
+    pop_freq=false
+    all_possible_diplotypes_table=true
+  }
+}
+

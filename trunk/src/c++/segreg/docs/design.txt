@@ -1,0 +1,36 @@
+This file contains notes on design decisions about SEGREG::parser and
+SEGREG::sub_model classes.
+
+5/12/1 - sub-model handles all error checking that has to do w. sub-model
+constraints, defaults (exception: parser knows 'val' and 'fixed' defaults
+for sub-model input parameters) specified and writes its own error messages. 
+Parser does the balance of the error checking. Parser also knows option
+defaults for the sub-models.
+Affects: parser, sub-model
+
+5/12/1 - for type_mean and type_var sub-models, user will specify means as */*, A/*,
+etc. in addition to A/A, A/B and B/B.  
+Affects: user documentation, parser, sub-model
+
+5/12/1 - for the mean_type sub-model, an "A dominant scheme" will be used,
+ie, A determines the value of A/A and A/B while B determines only B/B.
+Affects: user documentation, parser
+
+7/2/1 - Error priorities
+not actually a mistake -> warning
+an error, but program can resolve -> error
+an error, analysis abandoned -> critical
+Affects: parser, sub-model
+
+7/2/1 - if a value is specified more than once parser will overwrite
+earlier values w. subsequent ones w/o warning.  
+
+7/3/1 - sub-model set functions consider model input arguments w. val == NAN
+to contain no information, i.e., value of fixed is ignored UNLESS SUB-MODEL
+REQUIRES A VALUE WHEN FIXED IS SPECIFIED (8/20/1).
+Affects: parser, sub-model
+
+7/15/1 - In messages from the parser or sub-models, put a value specified by
+a user in single quotes if it makes grammatical sense to do so.  For an
+analysis block keyword, use either single quotes or commas as needed.
+Affects: parser, sub-model

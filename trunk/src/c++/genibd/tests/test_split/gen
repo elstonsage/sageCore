@@ -1,0 +1,19 @@
+genome
+{
+   region="chr3"
+   {
+      marker="D3S1297"
+      distance=13.3
+      marker="D3S1304"
+      distance=13.8
+      marker="D3S1263"
+   }   
+   region="chr4"
+   {
+      marker="D4S1297"
+      distance=13.3
+      marker="D4S1304"
+      distance=13.8
+      marker="D4S1263"
+   }   
+}

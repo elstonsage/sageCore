@@ -1,0 +1,149 @@
+=================
+
+     Results
+
+=================
+
+Note: P-values for variance components and proportions are one-sided.  All others are two-sided.
+The null hypothesis for transformation parameters is 'no transformation.'
+
+
+==============================
+     Analysis description
+==============================
+
+  Title                        ______me                      
+  Primary Trait                sqrtdbh (Quantitative)        
+  Allow averaging              Enabled                       
+  Omit complete summary table  Disabled                      
+  Summary table display order  By LRT p-value                
+  Summary filter               Show no more than 10 results  
+
+======================================
+     Transformation configuration
+======================================
+
+
+
+Note: No transformation applied.
+
+===========================
+
+     Model 'Alternate'
+
+===========================
+
+============================
+     Sample description
+============================
+
+  Number of individuals in dataset                                   942  
+  Number of constituent pedigrees in dataset                           7  
+  Number of singletons in dataset                                      0  
+                                                                          
+  Number of constituent pedigree members with complete information   499  
+  Number of singletons with complete information                       0  
+                                                                          
+
+====================
+     Covariates
+====================
+
+-----------------------------------------------------
+  Name   Mean       Std. dev.  Min        Max        
+-----------------------------------------------------
+  apres   0.512146   0.499852   0.000000   1.000000  
+
+================================================================
+     MAXIMIZATION RESULTS Alternate without test covariates
+================================================================
+
+-----------------------------------------------------------------------------
+  Parameter                 Estimate   S.E.       P-value     Deriv          
+-----------------------------------------------------------------------------
+  Variance components
+                    Random   2.063848   0.604211   0.000636    0.0001544191  
+                   Marital   0.403307   0.304596   0.092740    0.0001815349  
+
+  Other parameters
+            Total variance   2.467155   0.326214  < 1.00e-07   0.0000145526  
+
+  Residual familial correlations
+  Res marital(spouse) corr   0.163470   0.142002   0.249656    0.0000000000  
+
+  Environmental intraclass correlations
+  Env marital(spouse) corr   0.163470   0.142002   0.249656    0.0000000000  
+
+                 Intercept   5.069471   0.077841  < 1.00e-07   0.0000000000  
+-----------------------------------------------------------------------------
+
+Final ln likelihood: -1606.979112
+
+======================================================================
+     VARIANCE-COVARIANCE MATRIX Alternate without test covariates
+======================================================================
+
+---------------------------------------------------------------------------------------------------------------------------------
+                            Random     Marital    Total variance  Res marital(spouse) corr  Env marital(spouse) corr  Intercept  
+---------------------------------------------------------------------------------------------------------------------------------
+  Random                     0.365071  -0.175717   0.189354       -0.083769                 -0.083769                 -0.002011  
+  Marital                   -0.175717   0.092779  -0.082938        0.043101                  0.043101                  0.001035  
+  Total variance             0.189354  -0.082938   0.106416       -0.040668                 -0.040668                 -0.000976  
+  Res marital(spouse) corr  -0.083769   0.043101  -0.040668        0.020165                  0.020165                  0.000484  
+  Env marital(spouse) corr  -0.083769   0.043101  -0.040668        0.020165                  0.020165                  0.000484  
+  Intercept                 -0.002011   0.001035  -0.000976        0.000484                  0.000484                  0.006059  
+
+=============================================================
+     MAXIMIZATION RESULTS Alternate with test covariates
+=============================================================
+
+-----------------------------------------------------------------------------
+  Parameter                 Estimate   S.E.       P-value     Deriv          
+-----------------------------------------------------------------------------
+  Variance components
+                    Random   2.094576   0.615998   0.000673   -0.0000097229  
+                   Marital   0.377534   0.309913   0.111575   -0.0000283227  
+
+  Other parameters
+            Total variance   2.472110   0.331797  < 1.00e-07  -0.0000000532  
+
+  Residual familial correlations
+  Res marital(spouse) corr   0.152717   0.143064   0.285756    0.0000000000  
+
+  Environmental intraclass correlations
+  Env marital(spouse) corr   0.152717   0.143064   0.285756    0.0000000000  
+
+                 Intercept   5.069291   0.077468  < 1.00e-07   0.0000000000  
+
+  Covariates
+                     apres   0.281008   0.151888   0.064299    0.0000000000  
+-----------------------------------------------------------------------------
+
+Final ln likelihood: -1605.273063
+
+===================================================================
+     VARIANCE-COVARIANCE MATRIX Alternate with test covariates
+===================================================================
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+                            Random     Marital    Total variance  Res marital(spouse) corr  Env marital(spouse) corr  Intercept  apres      
+--------------------------------------------------------------------------------------------------------------------------------------------
+  Random                     0.379454  -0.182705   0.196749       -0.086061                 -0.086061                 -0.002159   0.004059  
+  Marital                   -0.182705   0.096046  -0.086659        0.044205                  0.044205                  0.001109  -0.002085  
+  Total variance             0.196749  -0.086659   0.110089       -0.041856                 -0.041856                 -0.001050   0.001974  
+  Res marital(spouse) corr  -0.086061   0.044205  -0.041856        0.020467                  0.020467                  0.000513  -0.000965  
+  Env marital(spouse) corr  -0.086061   0.044205  -0.041856        0.020467                  0.020467                  0.000513  -0.000965  
+  Intercept                 -0.002159   0.001109  -0.001050        0.000513                  0.000513                  0.006001  -1.75e-05  
+  apres                      0.004059  -0.002085   0.001974       -0.000965                 -0.000965                 -1.75e-05   0.023070  
+
+===============================
+     Likelihood Ratio Test
+===============================
+
+  H0 ln likelihood Alternate without test covariates  -1606.979112  
+  H1 ln likelihood Alternate with test covariates     -1605.273063  
+                                                                    
+  2 * |H0 - H1|                                           3.412097  
+  Degrees of freedom                                             1  
+  P-value                                                 0.064720  
+

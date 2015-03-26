@@ -1,0 +1,997 @@
+
+pedigree
+{
+  pedigree_id=PID
+  individual_id=ID
+  sex_field=SEX
+  parent_id=P1
+  parent_id=P2
+  trait=DISEASE, binary, affected=1, unaffected=0
+  trait=HEMATOCRIT
+  trait=t
+  trait=u
+  trait=v
+  trait=w
+  trait=x
+  trait=y
+  trait=z
+}
+
+
+segreg_analysis   #1
+{
+  trait = hematocrit
+  
+  type_mean
+  {
+    option = two
+  }
+  
+  transmission
+  {
+    option=no_trans
+    tau="B*", val = .2, fixed=true
+  }
+}
+
+segreg_analysis   #2
+{
+  trait = hematocrit
+  
+  type_mean
+  {
+    option = two
+  }
+  
+  
+  transmission
+  {
+    option=no_trans
+    tau="AA", ,fixed=true
+  }
+}
+
+
+segreg_analysis   #3
+{
+  trait = hematocrit
+  
+  type_mean
+  {
+    option = two
+  }
+  
+  
+  transmission
+  {
+    option=homog_no_trans
+  }
+}
+
+segreg_analysis   #4
+{
+  trait = hematocrit
+  
+  type_mean
+  {
+    option = two
+  }
+  
+  
+  transmission
+  {
+    option=homog_no_trans
+    tau=AA,val=.3
+  }
+}
+
+segreg_analysis   #5
+{
+  trait = hematocrit
+  
+  type_mean
+  {
+    option = two
+  }
+  
+  
+  transmission
+  {
+    option=homog_general
+    tau=AA,val=.3
+    tau=BB,val=.3
+  }
+}
+
+segreg_analysis   #6
+{
+  trait = hematocrit
+  
+  type_mean
+  {
+    option = two
+  }
+  
+  
+  transmission
+  {
+    option=homog_general
+    tau=AA,val=.3
+    tau=BB,val=.3
+    tau=AB,val=.4
+  }
+}
+
+segreg_analysis   #7
+{
+  trait = hematocrit
+  
+  type_mean
+  {
+    option = two
+  }
+  
+  
+  transmission
+  {
+    option=homog_general
+    tau=AA,val=.3,fixed=true
+    tau=BB,val=.3
+  }
+}
+
+segreg_analysis   #8
+{
+  trait = hematocrit
+  
+  type_mean
+  {
+    option = two
+  }
+  
+  
+  transmission
+  {
+    option=general
+    tau=AA,val=.3,fixed=true
+    tau=BB,val=.3
+    tau=AB,val=.7
+  }
+}
+
+segreg_analysis   #9
+{
+  trait = hematocrit
+  
+  type_mean
+  {
+    option = two
+  }
+  
+  
+  transmission
+  {
+    option=general
+    tau=AA,val=.3,fixed=true
+    tau=BB,val=.3
+    tau=AB,val=75.1
+  }
+}
+
+segreg_analysis   #10
+{
+  trait = hematocrit
+  
+  type_mean
+  {
+    option = two
+  }
+  
+  
+  transmission
+  {
+    option=general
+    tau=AA,val=75.1,fixed=true
+    tau=BB,val=.3
+    tau=AB,val=.3
+  }
+}
+
+segreg_analysis   #11
+{
+  trait = hematocrit
+  
+  type_mean
+  {
+    option = two
+  }
+  
+  
+  transmission
+  {
+    option=tau_ab_free
+  }
+}
+
+segreg_analysis   #12
+{
+  trait = hematocrit
+  
+  type_mean
+  {
+    option = two
+  }
+  
+  
+  transmission
+  {
+    option=tau_ab_free
+    tau=AB,val=.75,fixed=true
+  }
+}
+
+segreg_analysis   #13
+{
+  trait = hematocrit
+  
+  type_mean
+  {
+    option = two
+  }
+  
+  
+  transmission
+  {
+    option=tau_ab_free
+    tau=AB,val=.75,fixed=false
+    tau=BB,val=.1,fixed=true
+  }
+}
+
+segreg_analysis   #14
+{
+  trait = hematocrit
+  
+  resid
+  {
+    option = equal_po_ss
+    fo=.5,fixed=true
+  }
+}
+
+segreg_analysis   #15
+{
+  trait = hematocrit
+  
+  resid
+  {
+    option = equal_po_ss
+    fo=.5,fixed=true
+    ss=.2
+  }
+}
+
+segreg_analysis   #16
+{
+  trait = hematocrit
+  
+  resid
+  {
+    option = equal_po_ss
+    fo, val=.5,fixed=true
+    ss, val=223
+  }
+}
+
+segreg_analysis   #17
+{
+  trait = hematocrit
+  
+  resid
+  {
+    option = equal_po_ss
+    fo, val=.5,fixed=false
+    ss, val=.5
+  }
+}
+
+segreg_analysis   #18
+{
+  trait = hematocrit
+  
+  resid
+  {
+    option = equal_po_ss
+    fm, val=.2
+    fo, val=.5,fixed=false
+    ss, val=.5
+  }
+}
+
+segreg_analysis   #19
+{
+  trait = hematocrit
+  
+  resid
+  {
+    option = equal_po
+  }
+}
+
+segreg_analysis   #20
+{
+  trait = hematocrit
+  
+  resid
+  {
+    option = equal_po
+    fm,val=-.3
+    ss,val=.3
+  }
+}
+
+segreg_analysis   #21
+{
+  trait = hematocrit
+  
+  resid
+  {
+    option = equal_po
+    mo,val=-.3,fixed=true
+    fo,val=.3,fixed=true
+  }
+}
+
+segreg_analysis   #22
+{
+  trait = hematocrit
+  
+  resid
+  {
+    option = equal_po
+    mo,val=.3,fixed=true
+    fo,val=.3
+  }
+}
+
+segreg_analysis   #23
+{
+  trait = hematocrit
+  
+  resid
+  {
+    option = equal_po
+    mo,val=-.3
+    fo,val=.3
+  }
+}
+
+segreg_analysis   #24
+{
+  trait = hematocrit
+  
+  resid
+  {
+    option = equal_po_ss
+  }
+}
+
+segreg_analysis   #25
+{
+  trait = hematocrit
+  
+  resid
+  {
+    option = arb
+  }
+}
+
+segreg_analysis   #26
+{
+  trait = hematocrit
+  
+  resid
+  {
+    option = arb
+    fm,val=.7,fixed=false
+    fo,val=88,fixed=false
+  }
+}
+
+segreg_analysis   #27
+{
+  trait = hematocrit
+  
+  type_var
+  {
+    option=one
+    var="A*",val=.5,fixed=true
+  }
+}
+
+segreg_analysis   #28
+{
+  trait = hematocrit
+  
+  type_var
+  {
+    option=one
+    var="A*",val=-.5,fixed=true
+  }
+}
+
+segreg_analysis   #29
+{
+  trait = hematocrit
+  
+  type_var
+  {
+    option=one
+    var="A*",val=-.5,fixed=false
+  }
+}
+
+segreg_analysis   #30
+{
+  trait = hematocrit
+  
+  type_var
+  {
+    option=two
+    var="A*",val=22,fixed=true
+    var=BB,val=-5
+  }
+}
+
+segreg_analysis   #31
+{
+  trait = hematocrit
+  
+  type_var
+  {
+    option=three
+    var="A*",val=22
+    var="B*",val=5
+  }
+}
+
+segreg_analysis   #32
+{
+  trait = hematocrit
+  
+  type_var
+  {
+    option=three
+    var="A*",val=22,fixed=true
+    var="B*",val=5,fixed=true
+  }
+}
+
+segreg_analysis   #33
+{
+  trait = hematocrit
+  
+  type_var
+  {
+    option=one
+    var="A*",val=22,fixed=true
+    var="B*",val=5,fixed=true
+  }
+}
+
+segreg_analysis   #34
+{
+  trait = hematocrit
+  
+  type_var
+  {
+    option=two_rec
+    var="A*",val=22
+    var=BB,val=5
+  }
+}
+
+segreg_analysis   #35
+{
+  trait = hematocrit
+  
+  type_var
+  {
+    option=two_dom
+    var="A*",val=22
+    var=BB,val=5
+  }
+}
+
+segreg_analysis   #36
+{
+  trait = hematocrit
+  
+  type_var
+  {
+    option=three_add
+    var="**",val=22
+  }
+}
+
+segreg_analysis   #37
+{
+  trait = hematocrit
+  
+  fpmm
+  {
+    var,val=22,fixed=true
+    freq=.1
+  }
+}
+
+segreg_analysis   #38
+{
+  trait = hematocrit
+  
+  fpmm
+  {
+    var,val=22,fixed=true
+    freq=7
+  }
+}
+
+segreg_analysis   #39
+{
+  trait = hematocrit
+  
+  fpmm
+  {
+    var,val=22,fixed=true
+    freq=fjdkljf
+  }
+}
+
+segreg_analysis   #40
+{
+  trait = hematocrit
+  
+  fpmm
+  {
+    var,val=22,fixed=true
+    freq
+  }
+}
+
+segreg_analysis   #41
+{
+  trait = hematocrit
+  
+  fpmm
+  {
+    var,val=0,fixed=true
+  }
+}
+
+segreg_analysis   #42
+{
+  trait = hematocrit
+  
+  type_mean
+  {
+    option = two
+  }
+  
+  
+  transmission
+  {
+    option = tau_ab_free
+    tau=AA, val=.2
+    tau=AB, val=.5
+  }
+}
+
+segreg_analysis   #43
+{
+  trait = hematocrit
+  
+  class=fpmm
+  
+  fpmm
+  {
+    loci=4
+    freq=.6
+  }
+}
+
+segreg_analysis   #44
+{
+  trait = hematocrit
+  
+  fpmm
+  {
+    loci=22
+  }
+}
+
+segreg_analysis   #45
+{
+  trait = hematocrit
+  
+  fpmm
+  {
+    loci=-2
+  }
+}
+
+segreg_analysis   #46
+{
+  trait = hematocrit
+  
+  fpmm
+  {
+    loci=7.0
+  }
+}
+
+segreg_analysis   #47
+{
+  trait = hematocrit
+  
+  fpmm
+  {
+    loci=7.4
+  }
+}
+
+segreg_analysis   #48
+{
+  trait = hematocrit
+  
+  fpmm
+  {
+    loci=7.8
+  }
+}
+
+segreg_analysis   #49
+{
+  trait = hematocrit
+  
+  transmission
+}
+
+segreg_analysis   #50
+{
+  trait = hematocrit
+  
+  geno_freq
+  {
+    option = nhwe
+  }
+}
+
+segreg_analysis   #51
+{
+  trait = hematocrit
+  class=fpmm
+  resid
+}
+
+segreg_analysis   #52
+{
+  trait = disease
+  type_var
+}
+
+segreg_analysis   #53
+{
+  trait = hematocrit
+  
+  type_mean
+  {
+    option = two
+  }
+  
+  geno_freq
+  {
+    option=nhwe
+  }
+  
+  transmission
+  {
+    option=no_trans
+    tau=AA,val=.3
+  }
+}
+
+segreg_analysis   #54
+{
+  trait = hematocrit
+  
+  type_var
+  {
+    option=one
+    prop ,val=.5,fixed=true
+  }
+}
+
+segreg_analysis   #55
+{
+  trait = hematocrit
+  
+  resid
+  {
+    option = arb
+    fm, val=1, fixed=false
+  }
+}
+
+segreg_analysis   #56
+{
+  trait = hematocrit
+  
+  resid
+  {
+    option = arb
+    fm, val=1, fixed=true
+  }
+}
+
+segreg_analysis   #57
+{
+  trait = hematocrit
+  
+  type_var
+  {
+    option=std_prop_mean
+    
+  }
+}
+
+segreg_analysis   #58
+{
+  trait = hematocrit
+  
+  type_mean
+  {
+    option = two
+  }
+  
+  
+  transmission
+  {
+    option=general
+    no_bounds=true
+  }
+}
+
+segreg_analysis   #59
+{
+  trait = hematocrit
+  
+  type_mean
+  {
+    option = two
+  }
+  
+  
+  transmission
+  {
+    option=homog_mendelian
+    no_bounds = true
+  }
+}
+
+segreg_analysis   #60
+{
+  trait = hematocrit
+  
+  type_mean
+  {
+    option = two
+  }
+
+  type_var
+  {
+    option = three
+  }
+  
+  transmission
+  {
+    option=homog_mendelian
+    no_bounds = true
+  }
+}
+
+segreg_analysis   #61
+{
+  trait = hematocrit
+  
+  type_mean
+  {
+    option = two
+  }
+
+  type_var
+  {
+    option = two_rec
+  }
+  
+  transmission
+  {
+    option=homog_mendelian
+  }
+}
+
+segreg_analysis   #62
+{
+  trait = hematocrit
+  
+  type_mean
+  {
+    option = two_rec
+  }
+
+  type_var
+  {
+    option = two_rec
+  }
+  
+  transmission
+  {
+    option=homog_mendelian
+  }
+}
+
+segreg_analysis   #63
+{
+  trait = hematocrit
+  
+ type_mean
+  {
+    option = one
+  }
+
+ transmission
+ {
+    option=homog_mendelian
+  }
+}
+
+segreg_analysis   #64
+{
+  trait = disease
+  
+  resid
+  {
+    option=arb
+  }  
+}
+
+segreg_analysis   #65
+{
+  trait = hematocrit
+
+  class=A
+  
+  resid
+  {
+    option=equal_po
+  }  
+}
+
+segreg_analysis   #66
+{
+  trait = disease
+
+  type_var
+  {
+    option=one
+    var="AA",val=22,fixed=false
+  }
+}
+
+segreg_analysis   #67
+{
+  trait = disease
+
+  resid
+  {
+    mo=3
+  }
+}
+
+segreg_analysis   #68
+{
+  trait = hematocrit
+
+  resid
+  {
+    mo=3
+  }
+}
+
+# test of basic mitochondrial transmission option, two means
+segreg_analysis   #69
+{
+  trait = hematocrit
+
+  type_mean
+  {
+    option=two
+  }
+
+  transmission
+  {
+    option=mitochondrial
+  }
+
+}
+
+# test of basic mitochondrial transmission option with only one mean.  This
+# is an error
+segreg_analysis   #70
+{
+  trait = hematocrit
+
+  type_mean
+  {
+    option=one
+  }
+
+  transmission
+  {
+    option=mitochondrial
+  }
+
+}
+
+# test of basic mitochondrial transmission option with three means
+segreg_analysis   #71
+{
+  trait = hematocrit
+
+  type_mean
+  {
+    option=three
+  }
+
+  transmission
+  {
+    option=mitochondrial
+  }
+
+}
+
+# test of basic mitochondrial transmission option, with no_bounds parameter (invalid parameter)
+segreg_analysis   #72
+{
+  trait = hematocrit
+
+  type_mean
+  {
+    option=three
+  }
+
+  transmission
+  {
+    option=mitochondrial
+    no_bounds
+  }
+
+}
+
+# test of basic mitochondrial transmission option, with tau (invalid param)
+segreg_analysis   #73
+{
+  trait = hematocrit
+
+  type_mean
+  {
+    option=three
+  }
+
+  transmission
+  {
+    option=mitochondrial
+    tau=AA,val=1.0
+  }
+
+}
+

@@ -1,0 +1,48 @@
+marker
+{
+  allele_missing="?"
+  allele_delimiter="/"
+}
+
+pedigree
+{
+  delimiters=" "
+  delimiter_mode=multiple
+  individual_missing_value="0"
+  sex_code, male="1", female="2"
+
+  pedigree_id=PID
+  individual_id=ID
+  parent_id=MOM
+  parent_id=DAD
+  sex_field=SEX
+
+  string=REP
+
+  marker=M1
+  marker=M2
+  marker=M3
+  marker=M4
+  marker=M5
+  marker=M6  
+  marker=M7
+  marker=M8
+  marker=M9  
+}
+
+decipher 
+{
+  region=one
+  seed=12345
+
+  data
+  {
+    analysis_unit=family_founders
+  }
+  
+  tasks
+  {
+    pop_freq=true, cutoff=0.000001
+  }
+}  
+

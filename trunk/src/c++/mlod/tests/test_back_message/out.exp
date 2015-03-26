@@ -1,0 +1,21 @@
+
+
+
+Reading Parameter File....................done.
+Reading Marker Locus Description File.....done.
+Reading Trait Model Description File......done.
+Reading Pedigree File.....................
+              from ped....................done.
+Sorting Pedigrees.........................done.
+Reading Genome Description File...........done.
+Beginning new analysis block ...
+
+%MLOD-E: No parameters detected for MLOD analysis. Starting with version 5.1,
+         MLOD analyses require parameters to be specified in a block like other
+         S.A.G.E. programs.  Please see MLOD documentation for details.
+         Skipping analysis ...
+
+Analysis parsing complete.  Analysis is invalid.  Please check your file.
+------------------------------------------------------------------------------
+
+%MLOD-C: No valid analyses detected! Program aborting.

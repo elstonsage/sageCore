@@ -1,0 +1,169 @@
+=================
+
+     Results
+
+=================
+
+Note: P-values for variance components and proportions are one-sided.  All others are two-sided.
+The null hypothesis for transformation parameters is 'no transformation.'
+
+
+==============================
+     Analysis description
+==============================
+
+  Title                        assoc                         
+  Primary Trait                affection (Binary)            
+  Allow averaging              Disabled                      
+  Omit complete summary table  Disabled                      
+  Summary table display order  By LRT p-value                
+  Summary filter               Show no more than 10 results  
+-------------------------------------------------------------
+
+Note: This output contains results for a binary trait using an algorithm still in Beta release form. Please verify results before reporting.
+
+======================================
+     Transformation configuration
+======================================
+
+
+
+Note: No transformation applied.
+
+===========================
+
+     Model 'Alternate'
+
+===========================
+
+============================
+     Sample description
+============================
+
+  Number of individuals in dataset                                   2077  
+  Number of constituent pedigrees in dataset                          300  
+  Number of singletons in dataset                                       0  
+                                                                           
+  Number of constituent pedigree members with complete information    666  
+  Number of singletons with complete information                        0  
+                                                                           
+
+====================
+     Covariates
+====================
+
+-------------------------------------------------------------
+  Name           Mean       Std. dev.  Min        Max        
+-------------------------------------------------------------
+  C               0.312312   0.463436   0.000000   1.000000  
+  G               0.309309   0.462209   0.000000   1.000000  
+  J               0.142643   0.349708   0.000000   1.000000  
+  C01R0001_1tai   0.462462   0.498589   0.000000   1.000000  
+
+================================================================
+     MAXIMIZATION RESULTS Alternate without test covariates
+================================================================
+
+----------------------------------------------------------------------
+  Parameter       Estimate   S.E.         P-value      Deriv          
+----------------------------------------------------------------------
+  Variance components
+          Random   0.820237   0.044949    < 1.00e-07    0.0001276783  
+
+  Other parameters
+  Total variance   0.820237   0.044949    < 1.00e-07   -0.0000126778  
+
+  Variance proportions
+          Random   1.000000  Unavailable  Unavailable  -0.0000432932  
+
+       Intercept  -0.030381   0.056843     0.593011     0.0000562408  
+
+  Covariates
+               C   0.777559   0.167043    < 1.00e-05   -0.0000179377  
+               G   0.849838   0.167614    < 1.00e-06    0.0000000000  
+               J   0.006057   0.161592     0.970098     0.0000000000  
+----------------------------------------------------------------------
+
+Final ln likelihood: -879.025509
+
+======================================================================
+     VARIANCE-COVARIANCE MATRIX Alternate without test covariates
+======================================================================
+
+------------------------------------------------------------------------------------------------------------------------
+                                      Random     Total variance  Random     Intercept  C          G          J          
+------------------------------------------------------------------------------------------------------------------------
+  Random                               0.002020   0.002020        0.000000  -7.78e-10   1.20e-09  -4.11e-09  -3.01e-09  
+  Total variance                       0.002020   0.002020        0.000000  -7.78e-10   1.20e-09  -4.11e-09  -3.01e-09  
+  Random                               0.000000   0.000000        0.000000   0.000000   0.000000   0.000000   0.000000  
+  Intercept                           -7.78e-10  -7.78e-10        0.000000   0.003231   0.001174   0.001090   0.000361  
+  C                                    1.20e-09   1.20e-09        0.000000   0.001174   0.027903  -0.016667  -0.001074  
+  G                                   -4.11e-09  -4.11e-09        0.000000   0.001090  -0.016667   0.028094   0.002478  
+  J                                   -3.01e-09  -3.01e-09        0.000000   0.000361  -0.001074   0.002478   0.026112  
+                                                                                                                        
+  Likelihood Surface flat                                                                                               
+  variance matrix near singular and                                                                                     
+  may be affected by rounding error.                                                                                    
+  Reducing the number of parameters                                                                                     
+  to be estimated is recommended                                                                                        
+
+=============================================================
+     MAXIMIZATION RESULTS Alternate with test covariates
+=============================================================
+
+----------------------------------------------------------------------
+  Parameter       Estimate   S.E.         P-value      Deriv          
+----------------------------------------------------------------------
+  Variance components
+          Random   0.819945   0.044933    < 1.00e-07    0.0000160374  
+
+  Other parameters
+  Total variance   0.819945   0.044933    < 1.00e-07    0.0000198259  
+
+  Variance proportions
+          Random   1.000000  Unavailable  Unavailable  -0.0000664909  
+
+       Intercept  -0.029837   0.056875     0.599853     0.0000223884  
+
+  Covariates
+               C   0.780396   0.167281    < 1.00e-05   -0.0000292668  
+               G   0.849876   0.167727    < 1.00e-06    0.0000000000  
+               J  -0.001411   0.162721     0.993079     0.0000000000  
+   C01R0001_1tai  -0.053779   0.110435     0.626278     0.0000000000  
+----------------------------------------------------------------------
+
+Final ln likelihood: -878.906947
+
+===================================================================
+     VARIANCE-COVARIANCE MATRIX Alternate with test covariates
+===================================================================
+
+---------------------------------------------------------------------------------------------------------------------------------------
+                                      Random     Total variance  Random     Intercept  C          G          J          C01R0001_1tai  
+---------------------------------------------------------------------------------------------------------------------------------------
+  Random                               0.002019   0.002019        0.000000  -5.73e-10   2.05e-08  -1.58e-08  -2.24e-09  -2.16e-09      
+  Total variance                       0.002019   0.002019        0.000000  -5.73e-10   2.05e-08  -1.58e-08  -2.24e-09  -2.16e-09      
+  Random                               0.000000   0.000000        0.000000   0.000000   0.000000   0.000000   0.000000   0.000000      
+  Intercept                           -5.73e-10  -5.73e-10        0.000000   0.003235   0.001185   0.001096   0.000364  -0.000122      
+  C                                    2.05e-08   2.05e-08        0.000000   0.001185   0.027983  -0.016697  -0.001158  -0.000644      
+  G                                   -1.58e-08  -1.58e-08        0.000000   0.001096  -0.016697   0.028132   0.002440  -9.61e-06      
+  J                                   -2.24e-09  -2.24e-09        0.000000   0.000364  -0.001158   0.002440   0.026478   0.001706      
+  C01R0001_1tai                       -2.16e-09  -2.16e-09        0.000000  -0.000122  -0.000644  -9.61e-06   0.001706   0.012196      
+                                                                                                                                       
+  Likelihood Surface flat                                                                                                              
+  variance matrix near singular and                                                                                                    
+  may be affected by rounding error.                                                                                                   
+  Reducing the number of parameters                                                                                                    
+  to be estimated is recommended                                                                                                       
+
+====================
+     Joint test
+====================
+
+  H0 ln likelihood Alternate without test covariates  -879.025509  
+  H1 ln likelihood Alternate with test covariates     -878.906947  
+                                                                   
+  2 * |H0 - H1|                                          0.237124  
+  Degrees of freedom                                            1  
+  P-value                                                0.626291  
+

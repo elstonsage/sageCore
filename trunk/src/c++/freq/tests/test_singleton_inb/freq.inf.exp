@@ -1,0 +1,43 @@
+FREQ -- 29 Nov 2006 15:55:51 -- [S.A.G.E. v5.3.0; 29 Nov 2006]
+COPYRIGHT (C) 2005 CASE WESTERN RESERVE UNIVERSITY
+
+Remember you have agreed to add an appropriate statement (including the
+NIH grant number) under "acknowledgments" in any publication of results
+obtained by using this program. Suggested wording is:
+
+"(Some of)The results of this paper were obtained by using the software
+package S.A.G.E., which is supported by a U.S. Public Health Service
+Resource Grant (RR03655) from the National Center for Research Resources."
+
+
+Family structure information on the first 10 individuals read from file: data
+
+     PED. ID       IND. ID       SEX       PARENT1       PARENT2     
+     ------------  ------------  --------  ------------  ------------
+     10013         1             0         9             9           
+     10017         1             1         9             9           
+     10024         1             0         9             9           
+     10026         1             0         9             9           
+     10044         1             1         9             9           
+     10076         1             0         9             9           
+     10091         1             1         9             9           
+     10100         1             0         9             9           
+     10116         1             0         9             9           
+     10127         1             0         9             9           
+
+
+Markers for the first 10 individuals read from file: data
+
+     PED. ID       IND. ID       cdx01         taq01         fok01       
+     ------------  ------------  ------------  ------------  ------------
+     10013         1             0/0           0/0           0/0         
+     10017         1             0/0           0/0           0/0         
+     10024         1             0/0           0/0           0/0         
+     10026         1             0/0           0/0           0/0         
+     10044         1             0/0           0/0           0/0         
+     10076         1             0/0           0/0           0/0         
+     10091         1             0/0           0/0           0/0         
+     10100         1             0/0           0/0           0/0         
+     10116         1             0/0           0/0           0/0         
+     10127         1             0/0           0/0           0/0         
+

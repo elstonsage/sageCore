@@ -1,0 +1,15 @@
+
+
+
+Reading Parameter File....................done.
+Reading Marker Locus Description File.....done.
+Reading Pedigree File.....................
+              from ped....................done.
+Sorting Pedigrees.........................done.
+%LODLINK-C: The following constituent pedigree(s) contain loops and/or marriage
+            rings:
+            constituent pedigree in pedigree 24289 containing member 302282
+            constituent pedigree in pedigree 24289 containing member 615010
+            Please remove loops and/or marriage rings (Run Pedinfo for help in
+            locating loops and marriage rings.), and rerun the program. 
+            Exiting ...

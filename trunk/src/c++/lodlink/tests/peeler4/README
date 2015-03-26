@@ -1,0 +1,6 @@
+The program's lod score matches that calculated using equation 8 of
+Cleves/Elston 1997 where family 1 is of type I and the male parent is
+informative and family 2 is of type II and the informative parent is female. 
+Furthermore, if the pedigree is broken at individual 4 and two separate lod
+scores are calculated, the sum of their lod scores equals that of the
+combined pedigree.

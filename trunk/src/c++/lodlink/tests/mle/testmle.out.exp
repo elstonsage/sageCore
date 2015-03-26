@@ -1,0 +1,342 @@
+----------  Default instantiation  ----------
+
+
+Maximum likelihood estimation values - 
+Sex-specific:           false
+Uses alpha:             false
+
+INPUT:
+
+group_name        mle sub model
+param_name        average recombination fraction
+initial_estimate  0.25
+initial_type      Independent
+lower_bound       0
+upper_bound       1
+
+----------  set(sex-specific, no alpha)  ----------
+
+
+Maximum likelihood estimation values - 
+Sex-specific:           true
+Uses alpha:             false
+
+INPUT:
+
+group_name        mle sub model
+param_name        male recombination fraction
+initial_estimate  0.25
+initial_type      Independent
+lower_bound       0
+upper_bound       1
+
+group_name        mle sub model
+param_name        female recombination fraction
+initial_estimate  0.25
+initial_type      Independent
+lower_bound       0
+upper_bound       1
+
+----------  set_strict_limits()  ----------
+
+
+Maximum likelihood estimation values - 
+Sex-specific:           true
+Uses alpha:             false
+
+INPUT:
+
+group_name        mle sub model
+param_name        male recombination fraction
+initial_estimate  0.25
+initial_type      Independent
+lower_bound       0
+upper_bound       0.5
+
+group_name        mle sub model
+param_name        female recombination fraction
+initial_estimate  0.25
+initial_type      Independent
+lower_bound       0
+upper_bound       0.5
+
+----------  set_relaxed_limits()  ----------
+
+
+Maximum likelihood estimation values - 
+Sex-specific:           true
+Uses alpha:             false
+
+INPUT:
+
+group_name        mle sub model
+param_name        male recombination fraction
+initial_estimate  0.25
+initial_type      Independent
+lower_bound       0
+upper_bound       1
+
+group_name        mle sub model
+param_name        female recombination fraction
+initial_estimate  0.25
+initial_type      Independent
+lower_bound       0
+upper_bound       1
+
+----------  set(not sex-specific, alpha)  ----------
+
+
+Maximum likelihood estimation values - 
+Sex-specific:           false
+Uses alpha:             true
+
+INPUT:
+
+group_name        mle sub model
+param_name        average recombination fraction
+initial_estimate  0.25
+initial_type      Independent
+lower_bound       0
+upper_bound       1
+
+group_name        mle sub model
+param_name        proportion of families with linkage
+initial_estimate  0.5
+initial_type      Independent
+lower_bound       0
+upper_bound       1
+
+----------  fix_alpha()  ----------
+
+
+Maximum likelihood estimation values - 
+Sex-specific:           false
+Uses alpha:             true
+
+INPUT:
+
+group_name        mle sub model
+param_name        average recombination fraction
+initial_estimate  0.25
+initial_type      Independent
+lower_bound       0
+upper_bound       1
+
+group_name        mle sub model
+param_name        proportion of families with linkage
+initial_estimate  1
+initial_type      Fixed
+lower_bound       0
+upper_bound       1
+
+----------  unfix_alpha()  ----------
+
+
+Maximum likelihood estimation values - 
+Sex-specific:           false
+Uses alpha:             true
+
+INPUT:
+
+group_name        mle sub model
+param_name        average recombination fraction
+initial_estimate  0.25
+initial_type      Independent
+lower_bound       0
+upper_bound       1
+
+group_name        mle sub model
+param_name        proportion of families with linkage
+initial_estimate  0.5
+initial_type      Independent
+lower_bound       0
+upper_bound       1
+
+----------  set(sex-specific, alpha)  --------
+
+
+Maximum likelihood estimation values - 
+Sex-specific:           true
+Uses alpha:             true
+
+INPUT:
+
+group_name        mle sub model
+param_name        male recombination fraction
+initial_estimate  0.25
+initial_type      Independent
+lower_bound       0
+upper_bound       1
+
+group_name        mle sub model
+param_name        female recombination fraction
+initial_estimate  0.25
+initial_type      Independent
+lower_bound       0
+upper_bound       1
+
+group_name        mle sub model
+param_name        proportion of families with linkage
+initial_estimate  0.5
+initial_type      Independent
+lower_bound       0
+upper_bound       1
+
+----------  constrain_thetas()  ----------
+
+
+Maximum likelihood estimation values - 
+Sex-specific:           true
+Uses alpha:             true
+
+INPUT:
+
+group_name        mle sub model
+param_name        male recombination fraction
+initial_estimate  0.5
+initial_type      Independent functional
+lower_bound       0
+upper_bound       1
+
+group_name        mle sub model
+param_name        female recombination fraction
+initial_estimate  0.5
+initial_type      Dependent
+lower_bound       0
+upper_bound       1
+
+group_name        mle sub model
+param_name        proportion of families with linkage
+initial_estimate  0.5
+initial_type      Independent
+lower_bound       0
+upper_bound       1
+
+----------  unconstrain_thetas()  ----------
+
+
+Maximum likelihood estimation values - 
+Sex-specific:           true
+Uses alpha:             true
+
+INPUT:
+
+group_name        mle sub model
+param_name        male recombination fraction
+initial_estimate  0.5
+initial_type      Independent
+lower_bound       0
+upper_bound       1
+
+group_name        mle sub model
+param_name        female recombination fraction
+initial_estimate  0.5
+initial_type      Independent
+lower_bound       0
+upper_bound       1
+
+group_name        mle sub model
+param_name        proportion of families with linkage
+initial_estimate  0.5
+initial_type      Independent
+lower_bound       0
+upper_bound       1
+
+----------  set_male_theta(.3)  -----------
+
+
+Maximum likelihood estimation values - 
+Sex-specific:           true
+Uses alpha:             true
+
+INPUT:
+
+group_name        mle sub model
+param_name        male recombination fraction
+initial_estimate  0.3
+initial_type      Independent
+lower_bound       0
+upper_bound       1
+
+group_name        mle sub model
+param_name        female recombination fraction
+initial_estimate  0.5
+initial_type      Independent
+lower_bound       0
+upper_bound       1
+
+group_name        mle sub model
+param_name        proportion of families with linkage
+initial_estimate  0.5
+initial_type      Independent
+lower_bound       0
+upper_bound       1
+
+male theta 0.3
+female_theta 0.5
+----------  set_female_theta(.3)  ----------
+
+
+Maximum likelihood estimation values - 
+Sex-specific:           true
+Uses alpha:             true
+
+INPUT:
+
+group_name        mle sub model
+param_name        male recombination fraction
+initial_estimate  0.3
+initial_type      Independent
+lower_bound       0
+upper_bound       1
+
+group_name        mle sub model
+param_name        female recombination fraction
+initial_estimate  0.3
+initial_type      Independent
+lower_bound       0
+upper_bound       1
+
+group_name        mle sub model
+param_name        proportion of families with linkage
+initial_estimate  0.5
+initial_type      Independent
+lower_bound       0
+upper_bound       1
+
+male theta 0.3
+female_theta 0.3
+----------  reset()  ----------
+
+
+Maximum likelihood estimation values - 
+Sex-specific:           false
+Uses alpha:             false
+
+INPUT:
+
+group_name        mle sub model
+param_name        average recombination fraction
+initial_estimate  0.25
+initial_type      Independent
+lower_bound       0
+upper_bound       1
+
+----------  set_average_theta(.3)  ----------
+
+
+Maximum likelihood estimation values - 
+Sex-specific:           false
+Uses alpha:             false
+
+INPUT:
+
+group_name        mle sub model
+param_name        average recombination fraction
+initial_estimate  0.3
+initial_type      Independent
+lower_bound       0
+upper_bound       1
+
+male theta 0.3
+female_theta 0.3

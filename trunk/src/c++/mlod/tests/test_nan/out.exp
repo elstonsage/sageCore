@@ -1,0 +1,72 @@
+
+
+
+Reading Parameter File....................done.
+Reading Marker Locus Description File.....done.
+Reading Trait Model Description File......done.
+Reading Pedigree File.....................
+              from ped....................done.
+Sorting Pedigrees.........................done.
+Reading Genome Description File...........done.
+Beginning new analysis block ...
+
+
+Analysis parsing complete.  Analysis valid.
+------------------------------------------------------------------------------
+
+Processing Analyses....
+
+Running Analysis: MLOD Analysis 1
+==============================================================
+
+Analysis: MLOD Analysis 1
+
+* LOD Score analysis on region (Region9) with trait
+  (SEGREG_FINAL_DBH_DOM1)
+
+* Scan intervals at a distance of 2
+
+* Maximum 2n-f pedigree size cutoff is 19
+
+* Individual Pedigree LOD scores will be printed for the interval
+  locations.
+
+* Output will be sent to files of the form: mlod_analysis1.(det,sum)
+
+
+
+
+Generating Valid Pedigree Data Sample......Done.
+
+========================================
+     Analysis Data Sample (summary)
+========================================
+
+-----------------------------------------------------------------
+                                    To Be Analyzed  In Data Set  
+-----------------------------------------------------------------
+  Number of Individuals:                        20  (     20  )  
+  Number of Pedigrees:                           2  (      2  )  
+  Number of Constituent Pedigrees:               2  (      2  )  
+
+Initializing Analysis......................Done.
+Calculating LOD Scores..................
+
+  Generating LOD scores for pedigree 1331
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Marker Likelihoods      ....................Done.
+  ==================================================================
+
+  Generating LOD scores for pedigree 1256
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Information  ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Marker Likelihoods      ....................Done.
+  ==================================================================
+
+LOD Score Calculation complete.
+
+
+

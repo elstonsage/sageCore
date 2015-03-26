@@ -1,0 +1,30 @@
+
+
+
+Reading Parameter File....................done.
+Reading Marker Locus Description File.....done.
+Reading Pedigree File.....................
+              from ped....................done.
+Sorting Pedigrees.........................done.
+Reading Genome Description File...........done.
+
+GENIBD analysis.......  1
+
+===========================================================================
+Analysis 1 : Multipoint analysis on region (CHR3):
+        * - Maximum size for exact method is set to 18.
+===========================================================================
+
+  Processing Region: CHR3
+  =======================================
+
+  Analysis 1: Pedigree 7
+        Generating Marker Likelihoods      ....................Done.
+        Generating Multipoint Combined Info....................Done.
+        Generating Multipoint IBDs         ....................Done.
+
+
+Analysis complete!
+
+
+

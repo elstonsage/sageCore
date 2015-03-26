@@ -1,0 +1,296 @@
+
+
+
+============================
+     SAMPLE DESCRIPTION
+============================
+
+  Number of pedigrees in dataset           200  
+  Number of analyzable pedigrees           200  
+                                                
+  Number of individuals in dataset         787  
+  Number of sibs in dataset                387  
+  Number of analyzable sibs                387  
+  Number of sibs with missing age values     0  
+
+===========================
+     MODEL DESCRIPTION
+===========================
+
+  Title               AGEON Analysis 1  
+  Affectedness trait  AFF               
+  Age-of-onset trait  AO                
+  Age-at-exam trait   AE                
+
+===============================
+     CLASSIFICATION SYSTEM
+===============================
+
+  Class(es) pooled.
+                                                                
+
+      - class ?? pooled with UU                                 
+      - class ?A pooled with AA                                 
+      - class ?U pooled with UU                                 
+  
+                                                             
+  ??  Both parents are unknown.                                 
+  ?A  One of the parents is unknown, the other is affected.     
+  ?U  One of the parents is unknown, the other is unaffected.   
+  AA  Both parents are affected.                                
+  AU  One of the parents is affected, the other is unaffected.  
+  UU  Both parents are unaffected.                              
+
+==========================
+
+     CLASS STATISTICS
+
+==========================
+
+==================
+     CLASS ??
+==================
+
+
+
+Note: Contains no valid individuals for analysis.
+
+==================
+     CLASS ?A
+==================
+
+
+
+Note: Contains no valid individuals for analysis.
+
+==================
+     CLASS ?U
+==================
+
+
+
+Note: Contains no valid individuals for analysis.
+
+==================
+     CLASS AA
+==================
+
+  TOTAL NUMBER OF INDIVIDUALS USED IN ANALYSIS           100  
+  NUMBER OF AFF INDIVIDUALS WITH AN AGE OF ONSET          24  
+  MEAN OF AGE OF ONSET                             73.875000  
+  VARIANCE OF AGE OF ONSET                          6.027174  
+  NUMBER OF INDIVIDUALS AFFECTED                          24  
+  PROPORTION OF INDIVIDUALS AFFECTED                0.240000  
+  MEAN OF AGE OF EXAM OF THE UNAFFECTED            75.250000  
+  VARIANCE OF AGE OF EXAM OF THE UNAFFECTED         4.350000  
+
+==================
+     CLASS AU
+==================
+
+  TOTAL NUMBER OF INDIVIDUALS USED IN ANALYSIS            89  
+  NUMBER OF AFF INDIVIDUALS WITH AN AGE OF ONSET          22  
+  MEAN OF AGE OF ONSET                             73.681818  
+  VARIANCE OF AGE OF ONSET                          4.322511  
+  NUMBER OF INDIVIDUALS AFFECTED                          22  
+  PROPORTION OF INDIVIDUALS AFFECTED                0.247191  
+  MEAN OF AGE OF EXAM OF THE UNAFFECTED            75.268657  
+  VARIANCE OF AGE OF EXAM OF THE UNAFFECTED         4.532791  
+
+==================
+     CLASS UU
+==================
+
+  TOTAL NUMBER OF INDIVIDUALS USED IN ANALYSIS           198  
+  NUMBER OF AFF INDIVIDUALS WITH AN AGE OF ONSET          38  
+  MEAN OF AGE OF ONSET                             74.605263  
+  VARIANCE OF AGE OF ONSET                          3.488620  
+  NUMBER OF INDIVIDUALS AFFECTED                          38  
+  PROPORTION OF INDIVIDUALS AFFECTED                0.191919  
+  MEAN OF AGE OF EXAM OF THE UNAFFECTED            74.806250  
+  VARIANCE OF AGE OF EXAM OF THE UNAFFECTED         5.503105  
+
+====================================================================
+     MAXIMIZATION RESULTS susceptibilities equal, no truncation
+====================================================================
+
+--------------------------------------------------------------------------
+  Parameter           Estimate   S.E.         P-value      Deriv          
+--------------------------------------------------------------------------
+  Susceptibility intercepts
+                  ??  -0.302155   0.144297     0.036262     0.0000166269  
+                  ?A  -0.302155   0.144297     0.036262     0.0000000000  
+                  ?U  -0.302155   0.144297     0.036262     0.0000000000  
+                  AA  -0.302155   0.144297     0.036262     0.0000000000  
+                  AU  -0.302155   0.144297     0.036262     0.0000000000  
+                  UU  -0.302155   0.144297     0.036262     0.0000000000  
+
+      Mean intercept   4.287603  Unavailable  Unavailable   0.0009573214  
+  Variance intercept   8.89e-07           Ind. fixed near bound           
+
+  Transformation
+             Lambda1  -0.003503  Unavailable  Unavailable  -0.0087606144  
+             Lambda2   0.050000                   Fixed                   
+--------------------------------------------------------------------------
+
+Final ln likelihood: -33.115805
+
+========================================================================
+     MAXIMIZATION RESULTS susceptibilities as pooled, no truncation
+========================================================================
+
+--------------------------------------------------------------------------
+  Parameter           Estimate   S.E.         P-value      Deriv          
+--------------------------------------------------------------------------
+  Susceptibility intercepts
+                  ??   0.000000                   Fixed                   
+                  ?A   0.000000                   Fixed                   
+                  ?U   0.000000                   Fixed                   
+                  AA  -0.322127   0.268321     0.229935     0.0010549693  
+                  AU  -0.279972   0.282780     0.322138     0.0007937031  
+                  UU  -0.301345   0.214541     0.160139    -0.0003043108  
+
+      Mean intercept   4.173368  Unavailable  Unavailable   0.0548200086  
+  Variance intercept   7.15e-07           Ind. fixed near bound           
+
+  Transformation
+             Lambda1  -0.016085  Unavailable  Unavailable  -0.5159191828  
+             Lambda2   0.050000                   Fixed                   
+--------------------------------------------------------------------------
+
+Final ln likelihood: -28.407776
+
+=======================================================================
+     MAXIMIZATION RESULTS susceptibilities equal, using truncation
+=======================================================================
+
+-----------------------------------------------------------------------
+  Parameter           Estimate   S.E.       P-value     Deriv          
+-----------------------------------------------------------------------
+  Susceptibility intercepts
+                  ??  -0.693401   0.133642  < 1.00e-06   0.0001463892  
+                  ?A  -0.693401   0.133642  < 1.00e-06   0.0000000000  
+                  ?U  -0.693401   0.133642  < 1.00e-06   0.0000000000  
+                  AA  -0.693401   0.133642  < 1.00e-06   0.0000000000  
+                  AU  -0.693401   0.133642  < 1.00e-06   0.0000000000  
+                  UU  -0.693401   0.133642  < 1.00e-06   0.0000000000  
+
+      Mean intercept   4.319834   0.207869  < 1.00e-07  -0.0727553784  
+  Variance intercept   6.72e-07         Ind. fixed near bound          
+
+  Transformation
+             Lambda1   0.001352   0.022323   0.951710    0.6614787969  
+             Lambda2   0.050000                 Fixed                  
+-----------------------------------------------------------------------
+
+Final ln likelihood: -44.081424
+
+===========================================================================
+     MAXIMIZATION RESULTS susceptibilities as pooled, using truncation
+===========================================================================
+
+--------------------------------------------------------------------------
+  Parameter           Estimate   S.E.         P-value      Deriv          
+--------------------------------------------------------------------------
+  Susceptibility intercepts
+                  ??   0.000000                   Fixed                   
+                  ?A   0.000000                   Fixed                   
+                  ?U   0.000000                   Fixed                   
+                  AA  -0.322453   0.268333     0.229484     0.0000194803  
+                  AU  -0.280318   0.282792     0.321563     0.0000117716  
+                  UU  -0.302154   0.214609     0.159151     0.0000369206  
+
+      Mean intercept   4.346810  Unavailable  Unavailable  -0.2589906084  
+  Variance intercept   9.92e-07           Ind. fixed near bound           
+
+  Transformation
+             Lambda1   0.002844  Unavailable  Unavailable   2.3884479545  
+             Lambda2   0.050000                   Fixed                   
+--------------------------------------------------------------------------
+
+Final ln likelihood: -35.477009
+
+===============================
+     Likelihood Ratio Test
+===============================
+
+  H0 ln likelihood susceptibilities as pooled, no truncation  -28.407776  
+  H1 ln likelihood susceptibilities equal, no truncation      -33.115805  
+                                                                          
+  2 * |H0 - H1|                                                 9.416058  
+  Degrees of freedom                                                   2  
+  P-value                                                       0.009023  
+
+===============================
+     Likelihood Ratio Test
+===============================
+
+  H0 ln likelihood susceptibilities as pooled, using truncation  -35.477009  
+  H1 ln likelihood susceptibilities equal, using truncation      -44.081424  
+                                                                             
+  2 * |H0 - H1|                                                   17.208829  
+  Degrees of freedom                                                      2  
+  P-value                                                          0.000183  
+
+==========================================================================
+     VARIANCE-COVARIANCE MATRIX susceptibilities equal, no truncation
+==========================================================================
+
+---------------------------------------------------------------------------------------------------------------------------------------
+                      Mean intercept  Variance intercept  Lambda1    ??         ?A         ?U         AA         AU         UU         
+---------------------------------------------------------------------------------------------------------------------------------------
+  Mean intercept      -0.000844        0.000000           -9.25e-05   0.000117   0.000117   0.000117   0.000117   0.000117   0.000117  
+  Variance intercept   0.000000        0.000000            0.000000   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000  
+  Lambda1             -9.25e-05        0.000000           -1.01e-05   1.21e-05   1.21e-05   1.21e-05   1.21e-05   1.21e-05   1.21e-05  
+  ??                   0.000117        0.000000            1.21e-05   0.020822   0.020822   0.020822   0.020822   0.020822   0.020822  
+  ?A                   0.000117        0.000000            1.21e-05   0.020822   0.020822   0.020822   0.020822   0.020822   0.020822  
+  ?U                   0.000117        0.000000            1.21e-05   0.020822   0.020822   0.020822   0.020822   0.020822   0.020822  
+  AA                   0.000117        0.000000            1.21e-05   0.020822   0.020822   0.020822   0.020822   0.020822   0.020822  
+  AU                   0.000117        0.000000            1.21e-05   0.020822   0.020822   0.020822   0.020822   0.020822   0.020822  
+  UU                   0.000117        0.000000            1.21e-05   0.020822   0.020822   0.020822   0.020822   0.020822   0.020822  
+
+==============================================================================
+     VARIANCE-COVARIANCE MATRIX susceptibilities as pooled, no truncation
+==============================================================================
+
+------------------------------------------------------------------------------------------------------
+                      Mean intercept  Variance intercept  Lambda1    AA         AU         UU         
+------------------------------------------------------------------------------------------------------
+  Mean intercept      -0.000912        0.000000           -0.000104   0.000101   0.000104   0.000201  
+  Variance intercept   0.000000        0.000000            0.000000   0.000000   0.000000   0.000000  
+  Lambda1             -0.000104        0.000000           -1.18e-05   1.11e-05   1.14e-05   2.21e-05  
+  AA                   0.000101        0.000000            1.11e-05   0.071996   2.76e-05   5.38e-05  
+  AU                   0.000104        0.000000            1.14e-05   2.76e-05   0.079964   5.45e-05  
+  UU                   0.000201        0.000000            2.21e-05   5.38e-05   5.45e-05   0.046028  
+
+=============================================================================
+     VARIANCE-COVARIANCE MATRIX susceptibilities equal, using truncation
+=============================================================================
+
+---------------------------------------------------------------------------------------------------------------------------------------
+                      Mean intercept  Variance intercept  Lambda1    ??         ?A         ?U         AA         AU         UU         
+---------------------------------------------------------------------------------------------------------------------------------------
+  Mean intercept       0.043210        0.000000            0.004640  -0.000145  -0.000145  -0.000145  -0.000145  -0.000145  -0.000145  
+  Variance intercept   0.000000        0.000000            0.000000   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000  
+  Lambda1              0.004640        0.000000            0.000498  -1.59e-05  -1.59e-05  -1.59e-05  -1.59e-05  -1.59e-05  -1.59e-05  
+  ??                  -0.000145        0.000000           -1.59e-05   0.017860   0.017860   0.017860   0.017860   0.017860   0.017860  
+  ?A                  -0.000145        0.000000           -1.59e-05   0.017860   0.017860   0.017860   0.017860   0.017860   0.017860  
+  ?U                  -0.000145        0.000000           -1.59e-05   0.017860   0.017860   0.017860   0.017860   0.017860   0.017860  
+  AA                  -0.000145        0.000000           -1.59e-05   0.017860   0.017860   0.017860   0.017860   0.017860   0.017860  
+  AU                  -0.000145        0.000000           -1.59e-05   0.017860   0.017860   0.017860   0.017860   0.017860   0.017860  
+  UU                  -0.000145        0.000000           -1.59e-05   0.017860   0.017860   0.017860   0.017860   0.017860   0.017860  
+
+=================================================================================
+     VARIANCE-COVARIANCE MATRIX susceptibilities as pooled, using truncation
+=================================================================================
+
+------------------------------------------------------------------------------------------------------
+                      Mean intercept  Variance intercept  Lambda1    AA         AU         UU         
+------------------------------------------------------------------------------------------------------
+  Mean intercept      -0.000853        0.000000           -9.17e-05   7.40e-05   7.61e-05   0.000147  
+  Variance intercept   0.000000        0.000000            0.000000   0.000000   0.000000   0.000000  
+  Lambda1             -9.17e-05        0.000000           -9.86e-06   7.50e-06   7.72e-06   1.49e-05  
+  AA                   7.40e-05        0.000000            7.50e-06   0.072003   3.53e-05   6.87e-05  
+  AU                   7.61e-05        0.000000            7.72e-06   3.53e-05   0.079971   6.97e-05  
+  UU                   0.000147        0.000000            1.49e-05   6.87e-05   6.97e-05   0.046057  
+

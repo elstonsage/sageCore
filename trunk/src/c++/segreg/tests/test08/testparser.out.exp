@@ -1,0 +1,128 @@
+
+---------- 1 New Analysis Block 1 ---------- 
+
+Model class: D
+
+Ascertainment values: 
+Option: proband sampling frame, threshold indicator
+psf indicator: disease
+  thresh            Non-number  
+  thresh indicator  u           
+  thresh high        9.000000   
+  thresh low         7.000000   
+
+includes: 1  
+indic_thresh: 0
+
+
+---------- 2 New Analysis Block 2 ---------- 
+
+Model class: D
+
+Ascertainment values: 
+Option: proband sampling frame, less than or equal to threshold
+psf indicator: disease
+  thresh             7.000000  
+  thresh indicator             
+  thresh high        7.000000  
+  thresh low         7.000000  
+
+includes: 1  
+indic_thresh: 0
+
+
+---------- 3 New Analysis Block 3 ---------- 
+
+Model class: D
+
+Ascertainment values: 
+Option: proband sampling frame, less than or equal to threshold
+psf indicator: disease
+  thresh             0.000000  
+  thresh indicator             
+  thresh high        0.000000  
+  thresh low         0.000000  
+
+includes: 1  
+indic_thresh: 0
+
+
+---------- 4 New Analysis Block 4 ---------- 
+
+Model class: D
+
+Ascertainment values: 
+Option: proband sampling frame, actual
+psf indicator: disease
+  thresh            Non-number  
+  thresh indicator              
+  thresh high       Non-number  
+  thresh low        Non-number  
+
+includes: 1  
+indic_thresh: 0
+
+
+---------- 5 New Analysis Block 5 ---------- 
+
+Model class: D
+
+Ascertainment values: 
+Option: none, actual
+psf indicator: 
+  thresh            Non-number  
+  thresh indicator              
+  thresh high       Non-number  
+  thresh low        Non-number  
+
+includes: 1  
+indic_thresh: 0
+
+
+---------- 6 New Analysis Block 6 ---------- 
+
+Model class: invalid
+
+Ascertainment values: 
+Option: founders, threshold indicator
+psf indicator: 
+  thresh            Non-number  
+  thresh indicator              
+  thresh high       Non-number  
+  thresh low        Non-number  
+
+includes: 1  
+indic_thresh: 0
+
+
+---------- 7 New Analysis Block 7 ---------- 
+
+Model class: invalid
+
+Ascertainment values: 
+Option: proband sampling frame, actual
+psf indicator: 
+  thresh            Non-number  
+  thresh indicator              
+  thresh high       Non-number  
+  thresh low        Non-number  
+
+includes: 1  
+indic_thresh: 0
+
+
+---------- 8 New Analysis Block 8 ---------- 
+
+Model class: mlm
+
+Ascertainment values: 
+Option: none, actual
+psf indicator: 
+  thresh            Non-number  
+  thresh indicator              
+  thresh high       Non-number  
+  thresh low        Non-number  
+
+includes: 1  
+indic_thresh: 0
+

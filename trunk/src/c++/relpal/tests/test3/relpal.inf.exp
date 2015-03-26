@@ -1,0 +1,104 @@
+
+
+
+
+Family structure information on the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       SEX       PARENT1       PARENT2     
+     ------------  ------------  --------  ------------  ------------
+     SIM001_1      1             m         0             0           
+     SIM001_1      2             f         0             0           
+     SIM001_1      3             m         1             2           
+     SIM001_1      4             f         1             2           
+     SIM001_1      5             f         1             2           
+     SIM001_1      6             m         0             0           
+     SIM001_1      7             f         0             0           
+     SIM001_1      8             m         6             7           
+     SIM001_1      9             f         6             7           
+     SIM001_2      1             m         0             0           
+
+
+Phenotypes for the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       SEX_CODE              FAMILIAL_INDICATOR    FOUNDER_INDICATOR     PEDIGREE_SIZE         con_t1                con_t2              
+     ------------  ------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------
+     SIM001_1      1             0                     1                     1                     9                     5.09886               -5.43949            
+     SIM001_1      2             1                     1                     1                     9                     0.134684              -0.815198           
+     SIM001_1      3             0                     1                     0                     9                     1.28285               -5.30558            
+     SIM001_1      4             1                     1                     0                     9                     3.48719               -8.15128            
+     SIM001_1      5             1                     1                     0                     9                     -2.79601              -0.949195           
+     SIM001_1      6             0                     1                     1                     9                     5.09886               -5.43949            
+     SIM001_1      7             1                     1                     1                     9                     0.134684              -0.815198           
+     SIM001_1      8             0                     1                     0                     9                     1.28285               -5.30558            
+     SIM001_1      9             1                     1                     0                     9                     3.48719               -8.15128            
+     SIM001_2      1             0                     1                     1                     10                    -6.71304              -1.12654            
+
+
+Markers for the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       loc1          loc2        
+     ------------  ------------  ------------  ------------
+     SIM001_1      1             A2/A2         A8/A3       
+     SIM001_1      2             A2/A2         A5/A6       
+     SIM001_1      3             A2/A2         A8/A5       
+     SIM001_1      4             A2/A2         A8/A5       
+     SIM001_1      5             A2/A2         A3/A6       
+     SIM001_1      6             A2/A2         A8/A3       
+     SIM001_1      7             A2/A2         A5/A6       
+     SIM001_1      8             A2/A2         A8/A5       
+     SIM001_1      9             A2/A2         A8/A5       
+     SIM001_2      1             A2/A1         A2/A10      
+
+%RELPAL-W: Pedigree 'SIM001_1' has 2 constituent pedigrees which are disjoint
+           from one another.  This may not be intended.  Results may be
+           incorrect.  See manual for details on constituent pedigrees.
+
+RELPAL analysis.......1  
+
+%RELPAL-I: No Markers are specified for the single_marker model.  Using all
+           markers from the ibd file...
+
+=================================
+  Relpal Analysis Specification  
+=================================
+
+model: multiple traits, single marker
+
+trait:
+   trait 1: con_t1
+   trait 2: con_t2
+
+first_level:
+
+transform residuals from 1st level to 2nd level
+
+second_level:
+  test marker 1: loc2
+
+data options:
+  use_members = every
+  use_pairs = all
+
+output options:
+  detailed_out = yes
+  export_out = no
+  data_out = yes
+  debug_out = yes
+  residual_out = no
+
+asymptotic pvalue options:
+  seed = 100
+  replicates = 0
+  min_replicates = 20
+  max_replicates = 10000
+  threshold = 0.05
+  width = 0.2
+  confidence = 0.95
+
+variance options:
+  naive variance = true
+  robust sandwich variance = true
+  alternative variance = true
+  IBD variance conditional on trait = true
+
+

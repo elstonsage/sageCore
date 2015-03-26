@@ -1,0 +1,38 @@
+pedigree
+{
+   #delimiter_mode = multiple
+   #delimiters=" "
+   individual_missing_value="0"
+   sex_code,male="1",female="2",unknown="?",trait
+
+   pedigree_id=fam
+   individual_id=id
+   parent_id=mom
+   parent_id=dad
+   sex_field=sex
+
+   trait=age
+   trait=bp,missing=-9999
+
+  verbose=100 
+}
+
+function{trait=class1, expression="(age<=10)"}
+function{trait=class2, expression="(age>10 and age<=20)"}
+function{trait=class3, expression="(age>20)"}
+
+# Adjusted by non-class-based stats:
+function{trait=meanadj, expression="mean_adj(bp)" }
+function{trait=varadj,  expression="var_adj (bp)" }
+function{trait=z_score, expression="z_score (bp)" }  
+
+# Adjusted by class-based, non-binned stats:
+function{verbose; trait=class_meanadj, expression="mean_adj(bp, 0, class1, class2, class3)" }
+function{verbose; trait=class_varadj,  expression="var_adj (bp, 0, class1, class2, class3)" }
+function{verbose; trait=class_z_score, expression="z_score (bp, 0, class1, class2, class3)" }  
+
+# Adjusted by class-based, binned stats:
+function{verbose; trait=class_bin_meanadj, expression="mean_adj(bp, 10, class1, class2, class3)" }
+function{verbose; trait=class_bin_varadj,  expression="var_adj (bp, 10, class1, class2, class3)" }
+function{verbose; trait=class_bin_z_score, expression="z_score (bp, 10, class1, class2, class3)" }  
+

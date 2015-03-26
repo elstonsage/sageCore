@@ -1,0 +1,30 @@
+
+==========
+Analysis 1
+==========
+
+
+Options Selected
+================
+Haplotype region                                   all
+
+Subpopulations specified                           no
+Analysis unit                                      family founders
+
+Estimate haplotype frequencies                     no
+Show all possible haplotype combinations table     yes
+List most likely haplotype combinations            no
+Do likelihood ratio test                           no
+Compute empirical p-value                          no
+
+
+Results
+=======
+
+
+Markers in order:
+  m1 m2 
+
+Missing allele symbol (first marker):
+  '-'
+

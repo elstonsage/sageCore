@@ -1,0 +1,19 @@
+pedigree, column
+{
+  format="T8,A1,3(A5),1X,A1,T57,2(A4)"
+  pedigree_id
+  individual_id
+  parent_id
+  parent_id
+  sex_field
+  marker=M1
+  marker=M2
+  
+  individual_missing_value=" "
+  sex_code, male="1", female="2"
+}
+
+pedinfo
+{
+  each_pedigree=true
+}

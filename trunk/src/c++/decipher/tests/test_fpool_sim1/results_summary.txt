@@ -1,0 +1,8 @@
+500 nuclear familys of size 4
+5% missing data
+
+
+Decipher family_rep           .959
+Decipher family_founders      .996
+Merlin/Fugue                  .997
+Haplore                       .996

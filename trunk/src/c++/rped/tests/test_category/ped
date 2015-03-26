@@ -1,0 +1,6 @@
+id val       bin
+1  red       aff
+2  blue      aff
+3  green     non
+4  missing   non
+

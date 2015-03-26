@@ -1,0 +1,38 @@
+
+
+
+Reading Parameter File....................done.
+Reading Marker Locus Description File.....done.
+Reading Pedigree File.....................
+              from chr01.ped..............done.
+              from chr02.ped..............done.
+              from chr03.ped..............done.
+              from chr04.ped..............done.
+              from chr05.ped..............done.
+              from chr06.ped..............done.
+              from chr07.ped..............done.
+              from chr08.ped..............done.
+              from chr09.ped..............done.
+              from chr10.ped..............done.
+              from chr11.ped..............done.
+              from chr12.ped..............done.
+              from chr13.ped..............done.
+              from chr14.ped..............done.
+              from chr15.ped..............done.
+              from chr16.ped..............done.
+              from chr17.ped..............done.
+              from chr18.ped..............done.
+              from chr19.ped..............done.
+              from chr20.ped..............done.
+              from chr21.ped..............done.
+              from chr22.ped..............done.
+Sorting Pedigrees.........................done.
+Reading Genome Description File...........done.
+
+RELTEST analysis.......  1
+
+Testing sib pairs.........................done.
+Testing parent_offspring pairs............done.
+
+Analysis complete!
+

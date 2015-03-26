@@ -1,0 +1,101 @@
+=================
+
+     Results
+
+=================
+
+Note: P-values for variance components and proportions are one-sided.  All others are two-sided.
+The null hypothesis for transformation parameters is 'no transformation.'
+
+
+==============================
+     Analysis description
+==============================
+
+  Title                        assoc                         
+  Primary Trait                AFF (Binary)                  
+  Allow averaging              Disabled                      
+  Omit complete summary table  Disabled                      
+  Summary table display order  By LRT p-value                
+  Summary filter               Show no more than 10 results  
+-------------------------------------------------------------
+
+Note: This output contains results for a binary trait using an algorithm still in Beta release form. Please verify results before reporting.
+
+======================================
+     Transformation configuration
+======================================
+
+
+
+Note: No transformation applied.
+
+==========================
+
+     Model 'Baseline'
+
+==========================
+
+============================
+     Sample description
+============================
+
+  Number of individuals in dataset                                   5000  
+  Number of constituent pedigrees in dataset                         1000  
+  Number of singletons in dataset                                       0  
+                                                                           
+  Number of constituent pedigree members with complete information   5000  
+  Number of singletons with complete information                        0  
+                                                                           
+
+===============================================================
+     MAXIMIZATION RESULTS Baseline without test covariates
+===============================================================
+
+---------------------------------------------------------------------
+  Parameter         Estimate   S.E.       P-value     Deriv          
+---------------------------------------------------------------------
+  Variance components
+            Random   0.333054   0.015771  < 1.00e-07  -0.0011868553  
+         Polygenic   0.013004   0.025056   0.301885   -0.0015493856  
+       cluster_var   0.354746   0.026442  < 1.00e-07   0.0008303136  
+
+  Other parameters
+    Total variance   0.700803   0.023073  < 1.00e-07   0.0000000000  
+      Heritability   0.018556   0.035761   0.301923    0.0000000000  
+
+  Variance proportions
+            Random   0.475245   0.026793  < 1.00e-07   0.0000000000  
+         Polygenic   0.018556   0.035761   0.301923    0.0000000000  
+       cluster_var   0.506199   0.025205  < 1.00e-07   0.0000000000  
+
+  Correlations
+         Full sibs   0.009278   0.017881   0.603845    0.0000000000  
+         Half sibs   0.004639   0.008940   0.603845    0.0000000000  
+  Parent offspring   0.009278   0.017881   0.603845    0.0000000000  
+
+         Intercept  -0.522383   0.030694  < 1.00e-07   0.0000000000  
+---------------------------------------------------------------------
+
+Final ln likelihood: -42076.846989
+
+=====================================================================
+     VARIANCE-COVARIANCE MATRIX Baseline without test covariates
+=====================================================================
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                    Random     Polygenic  cluster_var  Total variance  Heritability  Random     Polygenic  cluster_var  Full sibs  Half sibs  Parent offspring  Intercept  
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  Random             0.000249  -0.000340   0.000108     1.73e-05       -0.000485      0.000343  -0.000485   0.000142    -0.000243  -0.000121  -0.000243         -7.75e-05  
+  Polygenic         -0.000340   0.000628  -0.000290    -2.06e-06        0.000896     -0.000483   0.000896  -0.000413     0.000448   0.000224   0.000448         -7.90e-06  
+  cluster_var        0.000108  -0.000290   0.000699     0.000517       -0.000428     -0.000196  -0.000428   0.000624    -0.000214  -0.000107  -0.000214          0.000433  
+  Total variance     1.73e-05  -2.06e-06   0.000517     0.000532       -1.70e-05     -0.000336  -1.70e-05   0.000353    -8.52e-06  -4.26e-06  -8.52e-06          0.000347  
+  Heritability      -0.000485   0.000896  -0.000428    -1.70e-05        0.001279     -0.000681   0.001279  -0.000598     0.000639   0.000320   0.000639         -2.05e-05  
+  Random             0.000343  -0.000483  -0.000196    -0.000336       -0.000681      0.000718  -0.000681  -3.71e-05    -0.000340  -0.000170  -0.000340         -0.000346  
+  Polygenic         -0.000485   0.000896  -0.000428    -1.70e-05        0.001279     -0.000681   0.001279  -0.000598     0.000639   0.000320   0.000639         -2.05e-05  
+  cluster_var        0.000142  -0.000413   0.000624     0.000353       -0.000598     -3.71e-05  -0.000598   0.000635    -0.000299  -0.000150  -0.000299          0.000366  
+  Full sibs         -0.000243   0.000448  -0.000214    -8.52e-06        0.000639     -0.000340   0.000639  -0.000299     0.000320   0.000160   0.000320         -1.02e-05  
+  Half sibs         -0.000121   0.000224  -0.000107    -4.26e-06        0.000320     -0.000170   0.000320  -0.000150     0.000160   7.99e-05   0.000160         -5.12e-06  
+  Parent offspring  -0.000243   0.000448  -0.000214    -8.52e-06        0.000639     -0.000340   0.000639  -0.000299     0.000320   0.000160   0.000320         -1.02e-05  
+  Intercept         -7.75e-05  -7.90e-06   0.000433     0.000347       -2.05e-05     -0.000346  -2.05e-05   0.000366    -1.02e-05  -5.12e-06  -1.02e-05          0.000942  
+

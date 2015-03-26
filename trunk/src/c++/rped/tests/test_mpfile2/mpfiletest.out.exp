@@ -1,0 +1,186 @@
+[Warning] [5] Unable to read sex of individual 0029 in pedigree 0504.  Found ''.
+          Setting sex to unknown.
+[Warning] The sex of individual '0029' in pedigree '0504' is believed to be
+          female.  Sex code will be reset.
+=============================
+     Pedigree statistics
+=============================
+
+  Members            31  
+  Nuclear families   11  
+
+==========================
+     Nuclear families
+==========================
+
+  Parents   0001  0004        
+  Children  0003              
+  Parents   0002  0038        
+  Children  0001              
+  Parents   0029  8303        
+  Children  0032  0031  0030  
+  Parents   0029  8304        
+  Children  0035              
+  Parents   0033  8300        
+  Children  0093  0087        
+  Parents   0037  8305        
+  Children  0039  0038        
+  Parents   9101  9102        
+  Children  9205  9202        
+  Parents   9103  9104        
+  Children  9207  9206        
+  Parents   9105  9106        
+  Children  9209  9208        
+  Parents   9205  9206        
+  Children  0033  0029        
+  Parents   9207  9208        
+  Children  0037              
+
+Ordering violated for individual '0001'.(1,11) -> 
+Ordering violated for individual '0003'.(0,3) -> 
+Ordering violated for individual '0029'.(26,27) -> 
+Ordering violated for individual '0030'.(4,16) -> 
+Ordering violated for individual '0031'.(4,16) -> 
+Ordering violated for individual '0032'.(4,16) -> 
+Ordering violated for individual '0033'.(26,27) -> 
+Ordering violated for individual '0035'.(4,17) -> 
+Ordering violated for individual '0037'.(28,29) -> 
+Ordering violated for individual '0038'.(10,18) -> 
+Ordering violated for individual '0039'.(10,18) -> 
+Ordering violated for individual '0087'.(8,15) -> 
+Ordering violated for individual '0093'.(8,15) -> 
+=============================
+     Pedigree statistics
+=============================
+
+  Members            19  
+  Nuclear families    4  
+
+==========================
+     Nuclear families
+==========================
+
+  Parents   0132  8304                          
+  Children  9402  9401  0189                    
+  Parents   0133  9201                          
+  Children  0135  0134  0132                    
+  Parents   9101  9102                          
+  Children  9203  9201                          
+  Parents   9103  9104                          
+  Children  9208  9207  9206  9205  9204  0133  
+
+Ordering violated for individual '0132'.(1,10) -> 
+Ordering violated for individual '0133'.(8,9) -> 
+Ordering violated for individual '0134'.(1,10) -> 
+Ordering violated for individual '0135'.(1,10) -> 
+Ordering violated for individual '0189'.(0,5) -> 
+=============================
+     Pedigree statistics
+=============================
+
+  Members            16  
+  Nuclear families    4  
+
+==========================
+     Nuclear families
+==========================
+
+  Parents   0126  0144              
+  Children  9402  0127              
+  Parents   0128  0129              
+  Children  9304  9303  9302  0126  
+  Parents   9101  9102              
+  Children  9205  0128              
+  Parents   9103  9104              
+  Children  9204  9203  0129        
+
+Ordering violated for individual '0126'.(2,3) -> 
+Ordering violated for individual '0127'.(0,4) -> 
+Ordering violated for individual '0128'.(5,6) -> 
+Ordering violated for individual '0129'.(7,8) -> 
+=============================
+     Pedigree statistics
+=============================
+
+  Members            14  
+  Nuclear families    3  
+
+==========================
+     Nuclear families
+==========================
+
+  Parents   0159  8300              
+  Children  0169  0164  0163  0162  
+  Parents   0160  9201              
+  Children  9302  0170  0159        
+  Parents   9103  9104              
+  Children  9205  9204  0160        
+
+Ordering violated for individual '0159'.(1,10) -> 
+Ordering violated for individual '0160'.(8,9) -> 
+Ordering violated for individual '0162'.(0,7) -> 
+Ordering violated for individual '0163'.(0,7) -> 
+Ordering violated for individual '0164'.(0,7) -> 
+Ordering violated for individual '0169'.(0,7) -> 
+Ordering violated for individual '0170'.(1,10) -> 
+=============================
+     Pedigree statistics
+=============================
+
+  Members            15  
+  Nuclear families    3  
+
+==========================
+     Nuclear families
+==========================
+
+  Parents   0155  0156                    
+  Children  0158  0157  0154              
+  Parents   9101  9102                    
+  Children  9204  9203  0156              
+  Parents   9103  9104                    
+  Children  9208  9207  9206  9205  0155  
+
+Ordering violated for individual '0154'.(1,2) -> 
+Ordering violated for individual '0155'.(7,8) -> 
+Ordering violated for individual '0156'.(5,6) -> 
+=============================
+     Pedigree statistics
+=============================
+
+  Members            23  
+  Nuclear families    6  
+
+==========================
+     Nuclear families
+==========================
+
+  Parents   0167  0201              
+  Children  0190  0178  0165        
+  Parents   0173  0174              
+  Children  0179  0177  0167  0166  
+  Parents   0179  8309              
+  Children  9405  0180  0168        
+  Parents   9101  9102              
+  Children  9207  0174              
+  Parents   9103  9104              
+  Children  0173                    
+  Parents   9206  9207              
+  Children  9307  9306  0200        
+
+Ordering violated for individual '0165'.(2,12) -> 
+Ordering violated for individual '0166'.(4,5) -> 
+Ordering violated for individual '0167'.(4,5) -> 
+Ordering violated for individual '0168'.(8,13) -> 
+Ordering violated for individual '0173'.(16,17) -> 
+Ordering violated for individual '0174'.(14,15) -> 
+Ordering violated for individual '0178'.(2,12) -> 
+Ordering violated for individual '0180'.(8,13) -> 
+Ordering violated for individual '0190'.(2,12) -> 
+Ordering violated for individual '0200'.(18,19) -> 
+0504 = 0
+0524 = 1
+0544 = 2
+0550 = 3
+0554 = 4
+0553 = 5

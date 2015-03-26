@@ -1,0 +1,197 @@
+
+
+
+============================
+     SAMPLE DESCRIPTION
+============================
+
+  Number of pedigrees in dataset           200  
+  Number of analyzable pedigrees           200  
+                                                
+  Number of individuals in dataset         787  
+  Number of sibs in dataset                387  
+  Number of analyzable sibs                387  
+  Number of sibs with missing age values     0  
+
+===========================
+     MODEL DESCRIPTION
+===========================
+
+  Title               AGEON Analysis 1  
+  Affectedness trait  AFF               
+  Age-of-onset trait  AO                
+  Age-at-exam trait   AE                
+
+===============================
+     CLASSIFICATION SYSTEM
+===============================
+
+  Using default classification system:
+                                                                
+
+  ??  Both parents are unknown.                                 
+  ?A  One of the parents is unknown, the other is affected.     
+  ?U  One of the parents is unknown, the other is unaffected.   
+  AA  Both parents are affected.                                
+  AU  One of the parents is affected, the other is unaffected.  
+  UU  Both parents are unaffected.                              
+
+==========================
+
+     CLASS STATISTICS
+
+==========================
+
+==================
+     CLASS ??
+==================
+
+  TOTAL NUMBER OF INDIVIDUALS USED IN ANALYSIS            60  
+  NUMBER OF AFF INDIVIDUALS WITH AN AGE OF ONSET           9  
+  MEAN OF AGE OF ONSET                             74.444444  
+  VARIANCE OF AGE OF ONSET                          2.777778  
+  NUMBER OF INDIVIDUALS AFFECTED                           9  
+  PROPORTION OF INDIVIDUALS AFFECTED                0.150000  
+  MEAN OF AGE OF EXAM OF THE UNAFFECTED            74.627451  
+  VARIANCE OF AGE OF EXAM OF THE UNAFFECTED         7.758431  
+
+==================
+     CLASS ?A
+==================
+
+  TOTAL NUMBER OF INDIVIDUALS USED IN ANALYSIS            80  
+  NUMBER OF AFF INDIVIDUALS WITH AN AGE OF ONSET          20  
+  MEAN OF AGE OF ONSET                             73.650000  
+  VARIANCE OF AGE OF ONSET                          6.555263  
+  NUMBER OF INDIVIDUALS AFFECTED                          20  
+  PROPORTION OF INDIVIDUALS AFFECTED                0.250000  
+  MEAN OF AGE OF EXAM OF THE UNAFFECTED            75.200000  
+  VARIANCE OF AGE OF EXAM OF THE UNAFFECTED         4.705085  
+
+==================
+     CLASS ?U
+==================
+
+  TOTAL NUMBER OF INDIVIDUALS USED IN ANALYSIS            95  
+  NUMBER OF AFF INDIVIDUALS WITH AN AGE OF ONSET          20  
+  MEAN OF AGE OF ONSET                             74.350000  
+  VARIANCE OF AGE OF ONSET                          3.186842  
+  NUMBER OF INDIVIDUALS AFFECTED                          20  
+  PROPORTION OF INDIVIDUALS AFFECTED                0.210526  
+  MEAN OF AGE OF EXAM OF THE UNAFFECTED            74.733333  
+  VARIANCE OF AGE OF EXAM OF THE UNAFFECTED         4.063063  
+
+==================
+     CLASS AA
+==================
+
+  TOTAL NUMBER OF INDIVIDUALS USED IN ANALYSIS            20  
+  NUMBER OF AFF INDIVIDUALS WITH AN AGE OF ONSET           4  
+  MEAN OF AGE OF ONSET                             75.000000  
+  VARIANCE OF AGE OF ONSET                          2.666667  
+  NUMBER OF INDIVIDUALS AFFECTED                           4  
+  PROPORTION OF INDIVIDUALS AFFECTED                0.200000  
+  MEAN OF AGE OF EXAM OF THE UNAFFECTED            75.437500  
+  VARIANCE OF AGE OF EXAM OF THE UNAFFECTED         3.195833  
+
+==================
+     CLASS AU
+==================
+
+  TOTAL NUMBER OF INDIVIDUALS USED IN ANALYSIS            89  
+  NUMBER OF AFF INDIVIDUALS WITH AN AGE OF ONSET          22  
+  MEAN OF AGE OF ONSET                             73.681818  
+  VARIANCE OF AGE OF ONSET                          4.322511  
+  NUMBER OF INDIVIDUALS AFFECTED                          22  
+  PROPORTION OF INDIVIDUALS AFFECTED                0.247191  
+  MEAN OF AGE OF EXAM OF THE UNAFFECTED            75.268657  
+  VARIANCE OF AGE OF EXAM OF THE UNAFFECTED         4.532791  
+
+==================
+     CLASS UU
+==================
+
+  TOTAL NUMBER OF INDIVIDUALS USED IN ANALYSIS            43  
+  NUMBER OF AFF INDIVIDUALS WITH AN AGE OF ONSET           9  
+  MEAN OF AGE OF ONSET                             75.333333  
+  VARIANCE OF AGE OF ONSET                          5.000000  
+  NUMBER OF INDIVIDUALS AFFECTED                           9  
+  PROPORTION OF INDIVIDUALS AFFECTED                0.209302  
+  MEAN OF AGE OF EXAM OF THE UNAFFECTED            75.235294  
+  VARIANCE OF AGE OF EXAM OF THE UNAFFECTED         5.397504  
+
+====================================================================
+     MAXIMIZATION RESULTS susceptibilities equal, no truncation
+====================================================================
+
+---------------------------------------------------------
+  Parameter           Estimate    S.E.       P-value     
+---------------------------------------------------------
+  Susceptibility intercepts
+                  ??   -0.489313   0.162018   0.002527   
+                  ?A   -0.489313   0.162018   0.002527   
+                  ?U   -0.489313   0.162018   0.002527   
+                  AA   -0.489313   0.162018   0.002527   
+                  AU   -0.489313   0.162018   0.002527   
+                  UU   -0.489313   0.162018   0.002527   
+
+      Mean intercept   73.681929   0.182156  < 1.00e-07  
+
+  Mean covariates
+                cov1    0.343034   0.172083   0.046215   
+
+  Variance intercept    6.308689   1.561857   5.36e-05   
+
+  Variance covariates
+                cov2    1.886832   1.201406   0.116294   
+
+  Transformation
+             Lambda1    1.000000          Fixed          
+             Lambda2    0.050000          Fixed          
+---------------------------------------------------------
+
+Final ln likelihood: -383.779625
+
+===================================================================
+     MAXIMIZATION RESULTS susceptibilities free, no truncation
+===================================================================
+
+---------------------------------------------------------
+  Parameter           Estimate    S.E.       P-value     
+---------------------------------------------------------
+  Susceptibility intercepts
+                  ??   -0.893122   0.422414   0.034487   
+                  ?A   -0.295137   0.330400   0.371711   
+                  ?U   -0.437648   0.322447   0.174696   
+                  AA   -0.761468   0.647490   0.239583   
+                  AU   -0.396850   0.305526   0.193976   
+                  UU   -0.564788   0.451152   0.210613   
+
+      Mean intercept   73.683039   0.182786  < 1.00e-07  
+
+  Mean covariates
+                cov1    0.346353   0.172817   0.045054   
+
+  Variance intercept    6.358669   1.578152   5.60e-05   
+
+  Variance covariates
+                cov2    1.907275   1.214700   0.116378   
+
+  Transformation
+             Lambda1    1.000000          Fixed          
+             Lambda2    0.050000          Fixed          
+---------------------------------------------------------
+
+Final ln likelihood: -382.959654
+
+===============================
+     Likelihood Ratio Test
+===============================
+
+  H0 ln likelihood susceptibilities free, no truncation   -382.959654  
+  H1 ln likelihood susceptibilities equal, no truncation  -383.779625  
+                                                                       
+  2 * |H0 - H1|                                              1.639942  
+  Degrees of freedom                                                5  
+  P-value                                                    0.896377  
+

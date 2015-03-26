@@ -1,0 +1,397 @@
+
+Making Global Configuration Options for i386-mingw-gcc RELEASE in ../../targets/i386-mingw-gcc/c++/globals
+
+
+Making Containers Library for i386-mingw-gcc RELEASE in ../../targets/i386-mingw-gcc/c++/containers
+
+
+Making Error handler streams for i386-mingw-gcc RELEASE in ../../targets/i386-mingw-gcc/c++/error
+
+Making liberror.a: error Library
+
+Making Library... done.
+liberror.a
+
+
+Making LSF and related objects for i386-mingw-gcc RELEASE in ../../targets/i386-mingw-gcc/c++/LSF
+
+Making libLSF.a: LSF Library
+
+Making Library... done.
+libLSF.a
+
+
+Making Fortran I/O Objects for i386-mingw-gcc RELEASE in ../../targets/i386-mingw-gcc/c++/fortran
+
+Making libfortran.a: "Fortran Parsing blob"
+
+Making Library... done.
+libfortran.a
+
+
+Making Error handler streams for i386-mingw-gcc RELEASE in ../../targets/i386-mingw-gcc/c++/numerics
+
+Making libnumerics.a: numerics Library
+
+Making Library... done.
+libnumerics.a
+
+
+Making Miscellaneous S.A.G.E. Utilities for i386-mingw-gcc RELEASE in ../../targets/i386-mingw-gcc/c++/util
+
+Making libutil.a: "Util library"
+
+Making Library... done.
+libutil.a
+
+
+Making Output for i386-mingw-gcc RELEASE in ../../targets/i386-mingw-gcc/c++/output
+
+Making liboutput.a: "Output library"
+
+Making Library... done.
+liboutput.a
+
+
+Making Application Framework Code for i386-mingw-gcc RELEASE in ../../targets/i386-mingw-gcc/c++/app
+
+Making libapp.a: "Application Framework Code"
+
+Making Library... done.
+libapp.a
+
+
+Making Functors Library for i386-mingw-gcc RELEASE in ../../targets/i386-mingw-gcc/c++/functors
+
+
+Making New MultiPedigree for i386-mingw-gcc RELEASE in ../../targets/i386-mingw-gcc/c++/mped
+
+Making libmped.a: New MultiPedigree Library
+
+Making Library... done.
+libmped.a
+
+
+Making New Multi Locus for i386-mingw-gcc RELEASE in ../../targets/i386-mingw-gcc/c++/mlocus
+
+Making libmlocus.a: New Multi Locus Library
+
+Making Library... done.
+libmlocus.a
+
+
+Making New General Referenced Pedigrees and related objects  for i386-mingw-gcc RELEASE in ../../targets/i386-mingw-gcc/c++/rped
+
+Making librped.a: New General Referenced Pedigree Library
+
+Making Library... done.
+librped.a
+
+
+Making New Relative Pairs and related objects for i386-mingw-gcc RELEASE in ../../targets/i386-mingw-gcc/c++/pairs
+
+Making libpairs.a: New Pairs Library
+
+Making Library... done.
+libpairs.a
+
+
+Making Filtered Pedigrees and related objects  for i386-mingw-gcc RELEASE in ../../targets/i386-mingw-gcc/c++/fped
+
+Making libfped.a: FILTERED Pedigree Library
+
+Making Library... done.
+libfped.a
+
+
+Making MultiPedigree variable transformation for i386-mingw-gcc RELEASE in ../../targets/i386-mingw-gcc/c++/func
+
+Making libfunc.a: Function library
+
+Making Library... done.
+libfunc.a
+
+
+Making Basic SAGE application data and tools for i386-mingw-gcc RELEASE in ../../targets/i386-mingw-gcc/c++/sampling
+
+Making libsampling.a: "SAGE Sampling Library"
+
+Making Library... done.
+libsampling.a
+
+
+Making Genotype Elimination Model for i386-mingw-gcc RELEASE in ../../targets/i386-mingw-gcc/c++/gelim
+
+Making libgelim.a: "Genotype Elimination Library"
+
+Making Library... done.
+libgelim.a
+
+
+Making Basic SAGE application data and tools for i386-mingw-gcc RELEASE in ../../targets/i386-mingw-gcc/c++/data
+
+Making libdata.a: "SAGE Application Data"
+
+Making Library... done.
+libdata.a
+
+
+Making Peeling Library for i386-mingw-gcc RELEASE in ../../targets/i386-mingw-gcc/c++/peeling
+
+
+Making Inheritance Vectors for i386-mingw-gcc RELEASE in ../../targets/i386-mingw-gcc/c++/lvec
+
+Making liblvec.a: "Likelihood Vector Library"
+
+Making Library... done.
+liblvec.a
+
+
+Making MCMC basic objects for i386-mingw-gcc RELEASE in ../../targets/i386-mingw-gcc/c++/mcmc
+
+Making libmcmc.a: "MCMC simulation Library"
+
+Making Library... done.
+libmcmc.a
+
+
+Making Identical By Descent for i386-mingw-gcc RELEASE in ../../targets/i386-mingw-gcc/c++/ibd
+
+Making libibd.a: "Identical By Descent Library"
+
+Making Library... done.
+libibd.a
+
+
+Making Bases for Pair Analyses for i386-mingw-gcc RELEASE in ../../targets/i386-mingw-gcc/c++/palbase
+
+Making libpalbase.a: New Pairs Library
+
+Making Library... done.
+libpalbase.a
+
+
+Making Maxfun for i386-mingw-gcc RELEASE in ../../targets/i386-mingw-gcc/c++/maxfun
+
+Making libmaxfun.a: Maxfun Library
+
+cmaxfun.cpp: In member function `int SAGE::Maxfun::mxnvrt_(std::vector<double, 
+   std::allocator<double> >&, int, int, std::vector<double, 
+   std::allocator<double> >&, int, int&)':
+cmaxfun.cpp:6819: warning: unused variable `std::_List_iterator<size_t, const 
+   size_t&, const size_t*> list_iter'
+Making Library... done.
+libmaxfun.a
+
+
+Making Maxfun for i386-mingw-gcc RELEASE in ../../targets/i386-mingw-gcc/c++/maxfunapi
+
+Making libmaxfunapi.a: Maxfun API
+
+Making Library... done.
+libmaxfunapi.a
+
+
+Making Mfsubmodels for i386-mingw-gcc RELEASE in ../../targets/i386-mingw-gcc/c++/mfsubmodels
+
+Making libmfsubmodels.a: Maxfun Submodels
+
+Making Library... done.
+libmfsubmodels.a
+
+
+Making Age of Onset for i386-mingw-gcc RELEASE in ../../targets/i386-mingw-gcc/c++/ageon
+
+Making libageon.a: "Age of Onset library"
+
+Making Library... done.
+Making ageon.exe: Age of Onset Application
+
+Linking                 (C++) ageon.exe
+ageon.exe
+libageon.a
+
+
+Making Assoc for i386-mingw-gcc RELEASE in ../../targets/i386-mingw-gcc/c++/assoc
+
+Making libassoc.a: "Assoc library"
+
+Making Library... done.
+Making assoc.exe: Assoc Application
+
+Linking                 (C++) assoc.exe
+assoc.exe
+libassoc.a
+
+
+Making Decipher for i386-mingw-gcc RELEASE in ../../targets/i386-mingw-gcc/c++/decipher
+
+Making libdecipher.a: "decipher library"
+
+Making Library... done.
+Making decipher.exe: DECIPHER Application
+
+Linking                 (C++) decipher.exe
+decipher.exe
+libdecipher.a
+
+
+Making MultiPedigree Correlations with Standard Errors for i386-mingw-gcc RELEASE in ../../targets/i386-mingw-gcc/c++/fcor
+
+Making libfcor.a: New Fcor Library
+
+Making Library... done.
+Making fcor.exe: "Multi-pedigree correlation program"
+
+Linking                 (C++) fcor.exe
+fcor.exe
+libfcor.a
+
+
+Making FREQ for i386-mingw-gcc RELEASE in ../../targets/i386-mingw-gcc/c++/freq
+
+Making freq.exe: "FREQ"
+
+Linking                 (C++) freq.exe
+freq.exe
+
+
+Making IBD Generator for i386-mingw-gcc RELEASE in ../../targets/i386-mingw-gcc/c++/genibd
+
+Making libgenibd.a: "IBD generator program Library"
+
+Making Library... done.
+Making genibd.exe: "IBD generator program"
+
+Linking                 (C++) genibd.exe
+genibd.exe
+libgenibd.a
+
+
+Making Lodlink for i386-mingw-gcc RELEASE in ../../targets/i386-mingw-gcc/c++/lodlink
+
+Making liblodlink.a: "lodlink library"
+
+Making Library... done.
+Making lodlink.exe: LODLINK Application
+
+Linking                 (C++) lodlink.exe
+liblodlink.a
+lodlink.exe
+
+
+Making LODSCORE test of Affected Relative Pair for i386-mingw-gcc RELEASE in ../../targets/i386-mingw-gcc/c++/lodpal
+
+Making liblodpal.a: "Lodpal Library"
+
+Making Library... done.
+Making lodpal.exe: "LODSCORE test of Affected Relative Pair"
+
+Linking                 (C++) lodpal.exe
+liblodpal.a
+lodpal.exe
+
+
+Making Markerinfo Main Program for i386-mingw-gcc RELEASE in ../../targets/i386-mingw-gcc/c++/markerinfo
+
+Making markerinfo.exe: "MARKERINFO"
+
+Linking                 (C++) markerinfo.exe
+markerinfo.exe
+
+
+Making  for i386-mingw-gcc RELEASE in ../../targets/i386-mingw-gcc/c++/mlod
+
+Making libmlod.a: "mlod library"
+
+Making Library... done.
+Making mlod.exe: Test of mlod parser
+
+Linking                 (C++) mlod.exe
+libmlod.a
+mlod.exe
+
+
+Making MultiPedigree statistics for i386-mingw-gcc RELEASE in ../../targets/i386-mingw-gcc/c++/pedinfo
+
+Making libpedinfo.a: "Pedinfo library"
+
+Making Library... done.
+Making pedinfo.exe: "Multi-pedigree statistics test program"
+
+Linking                 (C++) pedinfo.exe
+libpedinfo.a
+pedinfo.exe
+
+
+Making Relpal for i386-mingw-gcc RELEASE in ../../targets/i386-mingw-gcc/c++/relpal
+
+Making librelpal.a: "Relpal Library"
+
+Making Library... done.
+Making relpal.exe: Relpal
+
+Linking                 (C++) relpal.exe
+librelpal.a
+relpal.exe
+
+
+Making relationship test objects for i386-mingw-gcc RELEASE in ../../targets/i386-mingw-gcc/c++/reltest
+
+Making libreltest.a: "Relationship Test program Library"
+
+Making Library... done.
+Making reltest.exe: "Relationship Test program"
+
+Linking                 (C++) reltest.exe
+libreltest.a
+reltest.exe
+
+
+Making Regression analysis for i386-mingw-gcc RELEASE in ../../targets/i386-mingw-gcc/c++/segreg
+
+Making libsegreg.a: "segreg library"
+
+freq_estimates.cpp: In member function 
+   `SAGE::SEGREG::genotype_frequency_initial_estimates::genotype_frequency_initial_estimates(const
+   SAGE::SEGREG::mean_split&, const 
+   SAGE::SEGREG::genotype_frequency_sub_model&)':
+freq_estimates.cpp:166: warning: `double p' might be used uninitialized in this 
+   function
+freq_estimates.cpp: In member function 
+   `SAGE::SEGREG::genotype_frequency_initial_estimates::genotype_frequency_initial_estimates(const
+   SAGE::SEGREG::mean_split&, const 
+   SAGE::SEGREG::genotype_frequency_sub_model&)':
+freq_estimates.cpp:166: warning: `double p' might be used uninitialized in this 
+   function
+Making Library... done.
+Making segreg.exe: SEGREG Application
+
+Linking                 (C++) segreg.exe
+libsegreg.a
+segreg.exe
+
+
+Making Sibpal for i386-mingw-gcc RELEASE in ../../targets/i386-mingw-gcc/c++/sibpal
+
+Making libsibpal.a: "Sibpal Library"
+
+Making Library... done.
+Making sibpal.exe: Sibpal
+
+Linking                 (C++) sibpal.exe
+libsibpal.a
+sibpal.exe
+
+
+Making TDTEX for i386-mingw-gcc RELEASE in ../../targets/i386-mingw-gcc/c++/tdtex
+
+Making libtdtex.a: "Transmission-disequilibrium test library"
+
+Making Library... done.
+Making tdtex.exe: "Transmission-disequilibrium test application"
+
+Linking                 (C++) tdtex.exe
+libtdtex.a
+tdtex.exe
+

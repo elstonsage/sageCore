@@ -1,0 +1,107 @@
+
+
+
+==============================================================================
+  Haseman-Elston Regression Analysis of Full Sibs
+  - zero marker regression
+==============================================================================
+
+    Continuous trait : EF
+
+    Dependent variate : Mean-corrected trait cross-product
+
+    w1 : 0.5
+
+    Other options used :
+      Identity weights = no
+      Robust variance  = no
+      Use sibship mean = no
+      Use BLUP mean    = yes
+
+    Legend :
+      Note - kurtosis = coefficient of kurtosis - 3
+      *   - significance  .05 level;
+      **  - significance  .01 level;
+      *** - significance .001 level;
+      #   - Negative intercept set to 0;
+
+==============================================================================
+Test  Independent                                                 Nominal     
+No.   variable          Pairs   Parameter    Estimate Std Error   P-value     
+----- ----------------- ----- ----------- ----------- --------- ---------     
+1     Q1                  771 Cov,prod        0.0019 #   0.0024 0.4282475     
+==============================================================================
+
+
+==============================================================================
+  Haseman-Elston Regression Analysis of Full Sibs
+  - single marker regression
+==============================================================================
+
+    Continuous trait : EF
+
+    Dependent variate : Mean-corrected trait cross-product
+
+    w1 : 0.5
+
+    Other options used :
+      Identity weights = no
+      Robust variance  = no
+      Use sibship mean = no
+      Use BLUP mean    = yes
+
+    Legend :
+      Note - kurtosis = coefficient of kurtosis - 3
+      *   - significance  .05 level;
+      **  - significance  .01 level;
+      *** - significance .001 level;
+      #   - Negative intercept set to 0;
+
+==============================================================================
+Test  Independent                                                 Nominal     
+No.   variable          Pairs   Parameter    Estimate Std Error   P-value     
+----- ----------------- ----- ----------- ----------- --------- ---------     
+1     D5G1                771 AddGenVar       1.5857 #   4.0465 0.3476341     
+      D5G1                    DomGenVar      -2.6770 #   3.3783 0.7858150     
+      Q1                      Cov,prod        0.0018 #   0.0024 0.4326629     
+2     D5G2                771 (A+D)GenVar    -1.3945 #   2.4017 0.7191804     
+      Q1                      Cov,prod        0.0019 #   0.0024 0.4231082     
+==============================================================================
+
+
+===============================================================================
+  Haseman-Elston Regression Analysis of Full Sibs
+  - multiple marker regression
+===============================================================================
+
+    Continuous trait : EF
+
+    Dependent variate : Mean-corrected trait cross-product
+
+    w1 : 0.5
+
+    Other options used :
+      Identity weights = no
+      Robust variance  = no
+      Use sibship mean = no
+      Use BLUP mean    = yes
+
+    Legend :
+      Note - kurtosis = coefficient of kurtosis - 3
+      *   - significance  .05 level;
+      **  - significance  .01 level;
+      *** - significance .001 level;
+      #   - Negative intercept set to 0;
+
+===============================================================================
+Test  Independent                                                  Nominal     
+No.   variable          Pairs    Parameter    Estimate Std Error   P-value     
+----- ----------------- ----- ------------ ----------- --------- ---------     
+1     D5G1                771 AddGenVar       18.1471 #  16.3270 0.1333564     
+      D5G1                    DomGenVar        2.3115 #   6.1072 0.3525879     
+      D5G2                    (A+D)GenVar    -16.7669 #  15.9635 0.8530510     
+      Q1                      Cov,prod         0.0030 #   0.0026 0.2621797     
+      D5G1 x Q1               Dom x C,prod    -0.0060 #   0.0061 0.3258770     
+===============================================================================
+
+

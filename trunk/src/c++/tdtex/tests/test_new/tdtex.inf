@@ -1,0 +1,30 @@
+TDTEX -- 15 Jun 2006 14:54:59 -- [S.A.G.E. v5.2.0; 15 Jun 2006]
+COPYRIGHT (C) 2005 CASE WESTERN RESERVE UNIVERSITY
+
+
+Family structure information on the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       SEX       PARENT1       PARENT2     
+     ------------  ------------  --------  ------------  ------------
+     0             1             M         0             0           
+     0             2             F         0             0           
+     0             3             M         1             2           
+
+
+Phenotypes for the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       aff                 
+     ------------  ------------  --------------------
+     0             1             1                   
+     0             2             1                   
+     0             3             1                   
+
+
+Markers for the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       m1          
+     ------------  ------------  ------------
+     0             1             A/B         
+     0             2             A/B         
+     0             3             A/B         
+

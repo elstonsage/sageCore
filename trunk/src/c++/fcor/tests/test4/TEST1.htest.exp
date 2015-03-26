@@ -1,0 +1,47 @@
+
+
+
+
+============================================================================
+  Test for Homogeneity of Correlations among Subtypes - All Traits
+============================================================================
+
+    Number of pedigrees = 207
+    Number of traits    = 2
+
+    Trait(s) : TRAIT1 TRAIT2
+
+    Weight method used for interclass : Equal Weight to Pairs
+    Weight method used for intraclass : Uniform Weight to Pedigrees
+
+    Legend :
+      ****** : Value is not estimable.
+      [    ] : Calculated by setting at least one nonestimable required
+               correlation to a value of 0.
+
+============================================================================
+
+Relationship Type : parent:offspring
+  Subtypes Pooled : father:son
+                    mother:son
+                    father:daughter
+                    mother:daughter
+
+Total Pairs Found : 913
+
+Chi-Square = 20.50513 with 12 degree(s) of freedom
+P-Value    = 0.058114
+
+----------------------------------------------------------------------------
+
+Relationship Type : sibling
+  Subtypes Pooled : brother:brother
+                    sister:brother
+                    sister:sister
+
+Total Pairs Found : 686
+
+Chi-Square = 20.85480 with 6 degree(s) of freedom
+P-Value    = 0.001948
+
+============================================================================

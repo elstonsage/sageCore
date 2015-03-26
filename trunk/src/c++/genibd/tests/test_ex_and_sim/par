@@ -1,0 +1,48 @@
+marker
+{
+  allele_missing=0
+}
+
+pedigree
+{
+   delimiter_mode = multiple
+   delimiters=" "
+   individual_missing_value="0"
+   sex_code, male="M", female="F"
+
+   pedigree_id   = pedid
+   individual_id = id
+   parent_id     = mom
+   parent_id     = dad
+   sex_field     = s
+
+   trait=alc, binary, affected="1", unaffected="3"
+
+   allele="D3S1297a", name = D3S1297
+   allele="D3S1297b", name = D3S1297
+   allele="D3S1304a", name = D3S1304
+   allele="D3S1304b", name = D3S1304
+   allele="D3S1263a", name = D3S1263
+   allele="D3S1263b", name = D3S1263
+   allele="DXS1297a", name = DXS1297, x_linked
+   allele="DXS1297b", name = DXS1297, x_linked
+   allele="DXS1304a", name = DXS1304, x_linked
+   allele="DXS1304b", name = DXS1304, x_linked
+   allele="DXS1263a", name = DXS1263, x_linked
+   allele="DXS1263b", name = DXS1263, x_linked
+}
+
+
+#parameters for GEN_IBD
+
+ibd_analysis, out="multi" 
+{
+  mode=multipoint
+  use_simulation=true
+  scan_type=intervals
+  max_pedigree=10
+  random_seed=11111
+  region=chr3
+#   distance = "3.0"
+}
+

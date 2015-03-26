@@ -1,0 +1,172 @@
+pedigree
+{
+  delimiter_mode=multiple
+  delimiters=" "
+  sex_code,male="1"
+  sex_code,female="2"
+  sex_code,missing="-9"
+  individual_missing_value="-9"
+
+  pedigree_id=famid
+  individual_id=id
+  parent_id=dadid
+  parent_id=momid
+  sex_field=sex
+  trait=scan,binary,affected=1,unaffected=0,missing="-9"
+  marker=c1g1
+  marker=c1g2
+  marker=c1g3
+  marker=c1g4
+  marker=c1g5
+  marker=c1g6
+  marker=c1g7
+  marker=c1g8
+  marker=c1g9
+  marker=c1g10
+  marker=c1g11
+  marker=c1g12
+  marker=c1g13
+  marker=c1g14
+  marker=c1g15
+  marker=c1g16
+  marker=c1g17
+  marker=c1g18
+  marker=c1g19
+  marker=c1g20
+  marker=c1g21
+  marker=c1g22
+  marker=c1g23
+  marker=c1g24
+  marker=c1g25
+  marker=c1g26
+  marker=c1g27
+  marker=c1g28
+  marker=c1g29
+  marker=c1g30
+  marker=c1g31
+  marker=c1g32
+}
+
+mlod    #1
+{
+  trait_marker = c1g3
+  trait_marker = c1g4
+  trait_marker = c1g77
+  trait_marker = c1g4
+}
+
+mlod    #2
+{
+
+}
+
+mlod, out=rutabega    #3
+{
+  title="corn bread"
+  separate_regions = true
+  separate_traits = true
+  separate_traights = true
+  output_pedigrees = 7
+  output_pedigrees = ALL
+}
+
+mlod, out=rutabega    #4
+{
+  title="corn bread"
+  trait_marker=c1g1
+  distance=.001
+}
+
+mlod    #5
+{
+  trait_marker=c1g1
+  distance=0
+}
+
+mlod    #6
+{
+  trait_marker=c1g1
+  distance=3.5
+}
+
+mlod    #7
+{
+  trait_marker=c1g1
+  distance=2000
+}
+
+mlod    #8
+{
+  trait_marker=c1g1
+  distance=aa
+}
+
+mlod    #9
+{
+  trait_marker=c1g1
+  region=chromosome1
+}
+
+mlod    #10
+{
+  trait_marker=c1g1
+  region=chrom_1
+}
+
+mlod    #11
+{
+  trait_marker=c1g1
+  region=chrom_1
+}
+
+mlod    #12
+{
+  trait_marker=c1g1
+  region=chromosome2
+  region=chromosome3
+  region=chromosome3
+}
+
+mlod    #13
+{
+  trait_marker=c1g1
+  scan_type=interval
+}
+
+mlod    #14
+{
+  trait_marker=c1g1
+  scan_type=marker
+  output_pedigrees=all
+}
+
+mlod    #15
+{
+  trait_marker=c1g1
+  scan_type=marker
+  output_pedigrees=all
+  separate_regions=true
+  
+}
+mlod    #16
+{
+  trait_marker=c1g1
+  scan_type=marker
+  output_pedigrees=all
+  separate_traits=true
+  
+}
+mlod    #17
+{
+  trait_marker=c1g1
+  scan_type=marker
+  output_pedigrees=all
+  separate_traits=true
+  separate_regions=true
+  region=chromosome1
+  
+}
+
+
+
+

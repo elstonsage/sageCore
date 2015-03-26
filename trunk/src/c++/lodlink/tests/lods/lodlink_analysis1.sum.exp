@@ -1,0 +1,38 @@
+
+
+
+===============================
+LODLINK Analysis 1 SUMMARY FILE
+===============================
+
+
+Options Selected
+================
+Main locus type                          marker
+Main locus name                          M1
+
+Lod scores                               yes
+
+  Recombination Fractions Selected
+  ================================
+  Sex averaged         0.0000         0.0100         0.0500         0.1000         0.2000         0.3000         0.4000   
+
+Linkage tests                            no
+
+Smith's test for homogeneity             no
+
+Morton's test for homogeneity            no
+
+Genotype probabilities                   no
+
+
+Results
+=======
+
+                  Lod Scores                              
+                  Non-Sex-Specific Recombination Fractions
+                                                          
+
+Locus             0.0000         0.0100         0.0500         0.1000         0.2000         0.3000         0.4000         
+---------------   ------------   ------------   ------------   ------------   ------------   ------------   ------------   
+M2                   -Infinity      -3.329880      -1.390703      -0.686561      -0.180843      -0.033788      -0.002086   

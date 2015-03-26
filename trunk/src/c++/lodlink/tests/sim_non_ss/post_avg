@@ -1,0 +1,45 @@
+#!/usr/local/bin/python2.2
+#============================================================================
+# File:      post_avg
+#                                                                          
+# Author:    Dan Baechle 
+#                                                                          
+# History:   4/10/3  Created.                                          djb
+#                                                                          
+# Notes:     Calculate average posterior likelihood from lodlink results.
+#
+#============================================================================
+
+import sys
+import os
+import string
+
+if __name__ == "__main__":
+
+  try:
+    det_file = open('lodlink_analysis2.det', 'r')
+  except IOError:
+    print 'post_avg: could not open %s.' % 'lodlink_analysis2.det'
+    sys.exit(1)
+    
+  m1_total = 0
+  m1_count = 0
+  m2_total = 0
+  m2_count = 0
+  lines = det_file.readlines()
+  for line in lines:
+    words = string.split(string.strip(line))
+    if len(words):
+      if words[0] == 'M1':
+        m1_total += string.atof(words[1])
+        m1_count += 1
+        
+      if words[0] == 'M2':
+        m2_total += string.atof(words[1])        
+        m2_count += 1
+        
+  print 'average posterior probability for marker M1:  %f' % (m1_total / m1_count)
+  print 'average posterior probability for marker M2:  %f' % (m2_total / m2_count)  
+  
+  det_file.close()
+  sys.exit(0)

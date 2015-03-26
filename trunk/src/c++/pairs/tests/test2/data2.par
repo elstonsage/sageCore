@@ -1,0 +1,63 @@
+pedigree,column
+{
+  format="4A5,1X,A1,9X,A6,5A8,T90,30(A3,1X)"
+
+  individual_missing_value="0"
+
+  # Family Structure
+
+  pedigree_id
+  individual_id
+  parent_id
+  parent_id
+  sex_field
+
+  sex_code,male=1,female=2
+
+  # Phenotypes
+
+  trait=EF,missing=" "
+  trait=Q1,missing=" "
+  trait=Q2,missing=" "
+  trait=Q3,missing=" "
+  trait=Q4,missing=" "
+  trait=Q5,missing=" "
+
+  # Markers
+
+  marker = D5G1
+  marker = D5G2
+  marker = D5G3
+  marker = D5G4
+  marker = D5G5
+  marker = D5G6
+  marker = D5G7
+  marker = D5G8
+  marker = D5G9
+  marker = D5G10
+  marker = D5G11
+  marker = D5G12
+  marker = D5G13
+  marker = D5G14
+  marker = D5G15
+  marker = D5G16
+  marker = D5G17
+  marker = D5G18
+  marker = D5G19
+  marker = D5G20
+  marker = D5G21
+  marker = D5G22
+  marker = D5G23
+  marker = D5G24
+  marker = D5G25
+}
+
+analysis=chr5,output="chr5_sp.out"
+
+mode=multi
+
+analysis=chr5,output="chr5_mp.out"
+
+# SIBPAL2 specific options
+
+skip_binary_mean_test=true

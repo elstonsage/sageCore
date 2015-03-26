@@ -1,0 +1,42 @@
+marker
+{
+  allele_missing = "?"
+  allele_delimiter = "/"
+  cov_func = add, base_allele = A
+}
+
+pedigree
+{
+  delimiters = " "
+  delimiter_mode = multiple
+  individual_missing_value = "0"
+
+  # Family Structure
+
+  pedigree_id = pid
+  individual_id = id
+  parent_id = did
+  parent_id = mid
+  sex_field = sex
+
+  sex_code,male=1,female=2, trait
+
+  # Phenotypes
+
+  trait=Q1,missing=""
+  trait=Q2,missing=""
+
+  marker=M1, name=marker1
+  marker=M2, missing=".", cov_moi = dom, cov_allele = "B" #, allow_hemi=yes
+
+  marker_list, start=M3, end=M4 #, missing="", cov_moi = add, cov_allele = "A"
+
+  allele=M51, name=M5
+  allele=M52, name=M5
+}
+
+function
+{
+  trait = M1_add, expression="add(M1, 'A')"
+}
+

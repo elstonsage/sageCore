@@ -1,0 +1,36 @@
+
+
+
+==========
+Analysis 1
+==========
+
+
+Markers in order:
+  M1 M2 
+
+
+
+                      All Possible Haplotype Combinations
+
+Population:  1
+
+                    Pedigree:Member
+          1:12 1:13 
+a-A  a-A   x    -   
+a-a  a-a   -    x   
+
+
+Population:  2
+
+                    Pedigree:Member
+          1:1  1:10 1:2  1:3  1:6  1:7  1:8  1:9  
+A-A  A-a   -    -    x    -    -    -    -    -   
+A-A  a-a   -    -    -    -    -    x    x    -   
+A-a  A-a   -    -    -    x    -    -    -    -   
+A-a  a-A   -    -    -    -    -    x    x    -   
+A-a  a-a   -    x    -    -    -    -    -    x   
+a-A  a-A   -    -    -    -    x    -    -    -   
+a-A  a-a   x    -    -    -    -    -    -    -   
+
+

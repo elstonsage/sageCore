@@ -1,0 +1,45 @@
+1S.A.G.E. RELEASE 3.1 -- LODLINK   		DECEMBER 1997
+ COPYRIGHT (C) 1997 CASE WESTERN RESERVE UNIVERSITY.
+
+
+ LODLINK GENERAL PARAMETERS
+ --------------------------
+     TITLE ............................... PEELER2                                                                         
+     NUMBER OF MARKER LOCI ...............    2
+     FEMALE AND MALE SYMBOLS ............. F  M
+     MORTON'S HOMOGENEITY TEST ........... NO 
+     SMITH'S HOMOGENEITY TEST AND TEST
+     FOR LINKAGE UNDER HETEROGENEITY ..... NO 
+     NUMBER OF PEDIGREES .................    1
+     RECOMBINATION FRACTION 
+      -- FOR MALES, (THETA M) ............   .2000
+      -- FOR FEMALES, (THETA F) ..........   .3000
+
+ Locus M1      
+
+ A   =   .5000, B   =   .5000, 
+  No.   Genotype   Phenotype   Genotypic Frequency
+
+    1   A   A        A/A              .250000
+    2   A   B        A/B              .500000
+    3   B   B        B/B              .250000
+
+ Locus M2      
+
+ C   =   .3000, D   =   .7000, 
+  No.   Genotype   Phenotype   Genotypic Frequency
+
+    1   C   C        C/C              .090000
+    2   C   D        C/D              .420000
+    3   D   D        D/D              .490000
+
+ LINKAGE ANALYSIS BETWEEN LOCUS M1       AND LOCUS M2      
+ ==========================================================
+
+
+ FAMILY NUMBER    1 (ID. IS 00000)
+ ---------------------------------
+
+         Rm       Rf     Log10[L(R)]     LOD-SCORE
+      .2000    .3000       -4.605439       .204120
+      .5000    .5000       -4.809559       .000000

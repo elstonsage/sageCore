@@ -1,0 +1,11 @@
+genome
+{
+   region="X", x_linked
+   {
+      marker="DXS1297"
+      distance= 1.0
+      marker="DXS1304"
+   }   
+}
+
+

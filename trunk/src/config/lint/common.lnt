@@ -1,0 +1,89 @@
+//    Common options for FlexLint
+
++libclass(angle,ansi,foreign)  // What files are considered libraries
+
+-elib(0)       // sets the error level within library headers to 0
+-wlib(0)       // sets the warning level within library headers to 0
+
+-sl4           // 
+-si4           // int's are typically 4 bytes
+-sp4           // ptr's are typically 4 bytes           
+
+-fdc           // do not Distinguish plain Char as a unique type.
+               // i.e. char is either signed char or unsigned char
+
++fdi           // Use the directory of the including file
+
+-function(exit, internal_error)
+
+-limit(50)
+
+//  The following functions exhibit variable return modes.
+//  That is, they may equally-usefully be called for a value
+//  as called just for their effects.  Accordingly we inhibit
+//  Warning 534 for these functions.
+
+-esym(534,close,creat,fclose,fprintf,fputc)
+-esym(534,fputs,fscanf,fseek,fwrite,lseek,memcpy,memmove,memset)
+-esym(534,printf,puts,scanf,sprintf,sscanf,strcat,strcpy)
+-esym(534,strncat,strncpy,unlink,write)
+
+-e537
+
+// For non-ANSI compilers we suppress messages 515 and 516
+// for functions known to have variable argument lists.
+// For ANSI compilers, header files should take care of this.
+
+-esym(515,fprintf,printf,sprintf,fscanf,scanf,sscanf)
+-esym(516,fprintf,printf,sprintf,fscanf,scanf,sscanf)
+
+// These functions return things that are frequently ignored.
+
+-esym(534,istream::operator>>)
+-esym(534,basic_ostream*::*)
+-esym(534,ios_base::precision)
+-esym(534,*operator<<)
+-esym(534,SAGE::basic_errorstream::*)
+
+// Errors we don't want reported
+
+-e1546           // These errors deal with exceptions which aren't
+-e1548           // currently in use for S.A.G.E.
+-e1549
+-e1550
+-e1551
+
+-e1702           // This error seems a bit broken
+-e1714           // This prevents messages about unused functions
+-e1727           // This prevents messages about inlining
+-e1725           // This prevents messages about member references
+-e1776           // String literals are used often by non-const pointers,
+                 //     specifically in assert
+-e64             // Disable type mismatch problems.  Compiler finds these
+-e641            // We use enums as indices often enough that these messages
+                 // are pointless
+
+-e55             // Turned off because of ostream << being misread.
+-e60             // Turned off because of ostream << being misread.
+-e59             // Turned off because of ostream << being misread.
+-esym(1058, *stream*::*)
+
+-e1023 // Spurious error in Flexelint.  Bug report sent.
+-e1703 // Spurious "
+-e730  // Spurious "
+
+-e58   // Spurious 'bad type' when comparing iterators.  This error not
+       // likely, anyway, so turned off
+-e81   // Spurious 'bad type' when comparing iterators.  This error not
+       // likely, anyway, so turned off
+
+-e628  // 'unit' based message to be supressed
+-e714  // 'unit' based message to be supressed
+-e759  // 'unit' based message to be supressed
+-e768  // 'unit' based message to be supressed
+-e1716 // 'unit' based message to be supressed
+
+-esym(526,SAGE::resize) // Spurious message
+
+-e655  // this is used all over for iostreams and such, so have to suppress
+-e522  // this is used all over for iostreams and such, so have to suppress

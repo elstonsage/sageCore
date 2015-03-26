@@ -1,0 +1,183 @@
+1S.A.G.E. RELEASE 3.1 -- AGEON   		DECEMBER 1997
+ COPYRIGHT (C) 1997 CASE WESTERN RESERVE UNIVERSITY.
+
+
+ INPUT PARAMETER
+ ---------------
+
+ check ageon with dbh data                                                       
+ schiz         2    1    1    0         1         0      -9.0      -9.0          
+ (T10,A1,T18,F1,T20,F2,T23,F2)                                                   
+
+ NUMBER OF INDIVIDUALS USED IN THE ANALYSIS =    80
+
+
+ AGE OF ONSET ( -9 = MISSING)
+ -----------------------------
+
+  5  -9   7   5  -9   7   6  -9   7   6  -9   7   6  -9   7   9  -9  10   9  -9  10   9  -9  10   9  -9  10  10  -9  12  10  -9  12
+ 10  -9  12  10  -9  12  10  -9  12  11  -9  13  11  -9  13  11  -9  13  11  -9  13  11  -9  13  11  -9  13  12  -9  14  12  -9  14
+ 12  -9  14  12  -9  14  12  -9  14  12  -9  14  12  -9
+
+ AGE AT EXAM ( -9 = MISSING)
+ ----------------------------
+
+  6   7   8   6   7   8   7   8   8   7   8   8   7   8   8  10  11  11  10  11  11  10  11  11  10  11  11  11  12  13  11  12  13
+ 11  12  13  11  12  13  11  12  13  12  13  14  12  13  14  12  13  14  12  13  14  12  13  14  12  13  14  13  14  15  13  14  15
+ 13  14  15  13  14  15  13  14  15  13  14  15  13  14
+
+ TRAIT VALUE (  2 = AFFECTED,  1 = UNAFFECTED,  0 = MISSING)
+ ----------------------------------------------------------
+
+  2   1   0   2   1   0   2   1   0   2   1   0   2   1   0   2   1   0   2   1   0   2   1   0   2   1   0   2   1   0   2   1   0
+  2   1   0   2   1   0   2   1   0   2   1   0   2   1   0   2   1   0   2   1   0   2   1   0   2   1   0   2   1   0   2   1   0
+  2   1   0   2   1   0   2   1   0   2   1   0   2   1
+
+ CLASS
+ -----
+
+  1   1   1   1   1   1   2   2   2   2   2   2   2   2   2   3   3   3   3   3   3   3   3   3   3   3   3   4   4   4   4   4   4
+  4   4   4   4   4   4   4   4   4   5   5   5   5   5   5   5   5   5   5   5   5   5   5   5   5   5   5   6   6   6   6   6   6
+  6   6   6   6   6   6   6   6   6   6   6   6   6   6
+1S.A.G.E. RELEASE 3.1 -- AGEON   		DECEMBER 1997
+ COPYRIGHT (C) 1997 CASE WESTERN RESERVE UNIVERSITY.
+
+
+ CLASS  1
+ --------
+
+ TOTAL NUMBER OF INDIVIDUALS .................................          6
+ NUMBER OF INDIVIDUALS WITH AN AGE OF ONSET ..................          4
+ MEAN OF AGE OF ONSET ........................................       5.00
+ VARIANCE OF AGE OF ONSET ....................................        .00
+ NUMBER OF INDIVIDUALS AFFECTED ..............................          2
+ PROPORTION OF INDIVIDUALS AFFECTED ..........................      .3333
+ MEAN OF AGE AT EXAM OF THE UNAFFECTED .......................       7.00
+ VARIANCE OF AGE AT EXAM OF THE UNAFFECTED ...................        .00
+
+   %AGEON-W: THERE IS AN AGE OF ONSET PRESENT FOR AT LEAST ONE INDIVIDUAL
+             WHO IS UNAFFECTED OR MISSING TRAIT INFORMATION
+
+
+ CLASS  2
+ --------
+
+ TOTAL NUMBER OF INDIVIDUALS .................................          9
+ NUMBER OF INDIVIDUALS WITH AN AGE OF ONSET ..................          6
+ MEAN OF AGE OF ONSET ........................................       6.00
+ VARIANCE OF AGE OF ONSET ....................................        .00
+ NUMBER OF INDIVIDUALS AFFECTED ..............................          3
+ PROPORTION OF INDIVIDUALS AFFECTED ..........................      .3333
+ MEAN OF AGE AT EXAM OF THE UNAFFECTED .......................       8.00
+ VARIANCE OF AGE AT EXAM OF THE UNAFFECTED ...................        .00
+
+   %AGEON-W: THERE IS AN AGE OF ONSET PRESENT FOR AT LEAST ONE INDIVIDUAL
+             WHO IS UNAFFECTED OR MISSING TRAIT INFORMATION
+
+
+ CLASS  3
+ --------
+
+ TOTAL NUMBER OF INDIVIDUALS .................................         12
+ NUMBER OF INDIVIDUALS WITH AN AGE OF ONSET ..................          8
+ MEAN OF AGE OF ONSET ........................................       9.00
+ VARIANCE OF AGE OF ONSET ....................................        .00
+ NUMBER OF INDIVIDUALS AFFECTED ..............................          4
+ PROPORTION OF INDIVIDUALS AFFECTED ..........................      .3333
+ MEAN OF AGE AT EXAM OF THE UNAFFECTED .......................      11.00
+ VARIANCE OF AGE AT EXAM OF THE UNAFFECTED ...................        .00
+
+   %AGEON-W: THERE IS AN AGE OF ONSET PRESENT FOR AT LEAST ONE INDIVIDUAL
+             WHO IS UNAFFECTED OR MISSING TRAIT INFORMATION
+
+
+ CLASS  4
+ --------
+
+ TOTAL NUMBER OF INDIVIDUALS .................................         15
+ NUMBER OF INDIVIDUALS WITH AN AGE OF ONSET ..................         10
+ MEAN OF AGE OF ONSET ........................................      10.00
+ VARIANCE OF AGE OF ONSET ....................................        .00
+ NUMBER OF INDIVIDUALS AFFECTED ..............................          5
+ PROPORTION OF INDIVIDUALS AFFECTED ..........................      .3333
+ MEAN OF AGE AT EXAM OF THE UNAFFECTED .......................      12.00
+ VARIANCE OF AGE AT EXAM OF THE UNAFFECTED ...................        .00
+
+   %AGEON-W: THERE IS AN AGE OF ONSET PRESENT FOR AT LEAST ONE INDIVIDUAL
+             WHO IS UNAFFECTED OR MISSING TRAIT INFORMATION
+
+
+ CLASS  5
+ --------
+
+ TOTAL NUMBER OF INDIVIDUALS .................................         18
+ NUMBER OF INDIVIDUALS WITH AN AGE OF ONSET ..................         12
+ MEAN OF AGE OF ONSET ........................................      11.00
+ VARIANCE OF AGE OF ONSET ....................................        .00
+ NUMBER OF INDIVIDUALS AFFECTED ..............................          6
+ PROPORTION OF INDIVIDUALS AFFECTED ..........................      .3333
+ MEAN OF AGE AT EXAM OF THE UNAFFECTED .......................      13.00
+ VARIANCE OF AGE AT EXAM OF THE UNAFFECTED ...................        .00
+
+   %AGEON-W: THERE IS AN AGE OF ONSET PRESENT FOR AT LEAST ONE INDIVIDUAL
+             WHO IS UNAFFECTED OR MISSING TRAIT INFORMATION
+
+
+ CLASS  6
+ --------
+
+ TOTAL NUMBER OF INDIVIDUALS .................................         20
+ NUMBER OF INDIVIDUALS WITH AN AGE OF ONSET ..................         13
+ MEAN OF AGE OF ONSET ........................................      12.00
+ VARIANCE OF AGE OF ONSET ....................................        .00
+ NUMBER OF INDIVIDUALS AFFECTED ..............................          7
+ PROPORTION OF INDIVIDUALS AFFECTED ..........................      .3500
+ MEAN OF AGE AT EXAM OF THE UNAFFECTED .......................      14.00
+ VARIANCE OF AGE AT EXAM OF THE UNAFFECTED ...................        .00
+
+   %AGEON-W: THERE IS AN AGE OF ONSET PRESENT FOR AT LEAST ONE INDIVIDUAL
+             WHO IS UNAFFECTED OR MISSING TRAIT INFORMATION
+
+1S.A.G.E. RELEASE 3.1 -- AGEON   		DECEMBER 1997
+ COPYRIGHT (C) 1997 CASE WESTERN RESERVE UNIVERSITY.
+
+
+
+ HYPOTHESIS : SUSCEPTIBILITIES ARE FREE
+
+ PARAMETER                  FINAL ESTIMATE     FIRST PARTIAL DERIVATIVE
+
+ PARAMETER P                      1.000000
+ MEAN AGE OF ONSET               11.797935             .000113
+ STD. DEV. OF AGE OF ONSET        7.001227            -.000118
+ SUSCEPTIBILITY OF CLASS  1       1.000000
+ SUSCEPTIBILITY OF CLASS  2       1.000000
+ SUSCEPTIBILITY OF CLASS  3        .942627            -.000059
+ SUSCEPTIBILITY OF CLASS  4        .740533            -.000076
+ SUSCEPTIBILITY OF CLASS  5        .627064             .000174
+ SUSCEPTIBILITY OF CLASS  6        .563759             .000356
+
+
+ FINAL LOG LIKELIHOOD =         -62.323537
+
+
+ HYPOTHESIS : ALL SUSCEPTIBILITIES ARE EQUAL
+
+ PARAMETER                  FINAL ESTIMATE     FIRST PARTIAL DERIVATIVE
+
+ PARAMETER P                      1.000000
+ MEAN AGE OF ONSET               12.075901             .000128
+ STD. DEV. OF AGE OF ONSET        2.895730             .000043
+ SUSCEPTIBILITY OF CLASS  1        .750869
+ SUSCEPTIBILITY OF CLASS  2        .750869
+ SUSCEPTIBILITY OF CLASS  3        .750869
+ SUSCEPTIBILITY OF CLASS  4        .750869
+ SUSCEPTIBILITY OF CLASS  5        .750869
+ SUSCEPTIBILITY OF CLASS  6        .750869             .000442
+
+
+ FINAL LOG LIKELIHOOD =         -64.617788
+
+                                                      CHI-SQUARE   D.F.
+
+ Twice the difference in log likelihood :                 4.5885    5

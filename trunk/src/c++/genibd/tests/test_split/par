@@ -1,0 +1,43 @@
+marker
+{
+  allele_missing="0"
+  allele_delimiter=" "
+}
+
+pedigree, column
+{
+   format="A3,3X,A5,A5,A5,A1,3X,A1,6(1x,A7)"
+
+   individual_missing_value="0"
+   sex_code, male="M", female="F"
+
+   pedigree_id
+   individual_id
+   parent_id
+   parent_id
+   sex_field
+
+   trait=alc, binary, affected="1", unaffected="3"
+
+   marker="D3S1297"
+   marker="D3S1304"
+   marker="D3S1263"
+   marker="D4S1297"
+   marker="D4S1304"
+   marker="D4S1263"
+}
+
+
+#parameters for GEN_IBD
+
+ibd_analysis, out="exact_multi" 
+{
+   title=split_test
+   mode=multipoint
+   use_simulation=false
+   scan_type=intervals
+   split_pedigrees=yes
+#   region=chr3
+#   distance = "3.0"
+}
+

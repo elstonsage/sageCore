@@ -1,0 +1,32 @@
+
+
+
+===============================
+LODLINK Analysis 1 SUMMARY FILE
+===============================
+
+
+Options Selected
+================
+Main locus type                          trait
+Main locus name                          segreg_analysis1
+
+Lod scores                               no
+
+Linkage tests                            no
+  Sex specific recombination fractions   yes
+  Assume homogeneity                     yes
+
+Smith's test for homogeneity             no
+  Sex specific recombination fractions   yes
+
+Morton's test for homogeneity            no
+  Sex specific recombination fractions   yes
+
+Genotype probabilities                   yes
+  Sex specific recombination fractions   yes
+
+
+Results
+=======
+

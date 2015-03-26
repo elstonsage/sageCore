@@ -1,0 +1,22 @@
+
+
+
+Reading Parameter File....................done.
+Reading Pedigree File.....................
+              from ped....................done.
+Sorting Pedigrees.........................done.
+Reading Genome Description File...........done.
+
+Parsing DECIPHER analyses ...
+
+
+Parsing new analysis block ...
+
+%DECIPHER-E: Fewer that two valid loci specified for haplotype region 'all'. 
+             Skipping region ...
+%DECIPHER-C: No valid region given.  Skipping analysis ...
+
+Parsing of Analysis 1 complete.  Analysis is invalid.  Check your file.
+------------------------------------------------------------------------------
+
+

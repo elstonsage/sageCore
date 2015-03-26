@@ -1,0 +1,20 @@
+//    Compiler Options for Linux and GCC
+
+//    This file contains options to allow FlexeLint to process source
+//    files for the Gnu compiler (GCC) running on Linux.
+//    It is used as follows:
+//
+//    lint  co-gnu.lnt  source-file(s)
+//
+//    If you are using GCC on some other system you will need to change
+//    the following options:
+
+-cgnu             // defines LANGUAGE_C for C modules
+
+-d__GNUG__=1
+
+-i/usr/include   
+-i/usr/lib/gcc-lib/i486-linux/2.5.8/include   // May need adjusted
+
+-esym(1510,*_iterator_tag)  // Only needed for g++?
+

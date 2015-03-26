@@ -1,0 +1,388 @@
+\BRIEF
+Functors library
+\DOC_NAME
+functors_main
+\DETAILED
+
+\#.\ Introduction
+The functors library lets you create "hard-coded" algorithms dynamically at runtime. More specifically, it
+provides a series of classes that encapsulate flow-control logic.
+
+Ok, so what does that mean? The concept is a little tricky at first, but it's actually very
+useful and can both speed up your programs and make them far more robust.
+
+Consider the following flowchart for building a chair:
+
+  1. Get wood
+
+  2. Get nails
+
+  3. Are we in the US?
+  
+     YES Contact EPA to get approval for design.
+
+     NO Contact UN to form a chair subcommittee.
+  
+  4. Assemble chair.
+
+Let's say you've got a program that implements the above procedure. In addition, let's say the program has to
+"build a chair" ten thousand times when it executes. Furthermore, let's say that when the program starts, the user
+tells it whether or not we're in the US (the condition for step #3).
+
+Assuming the program has implemented the above procedure in a straight-forward manner, then there's a problem: Every
+time the procedure is evaluated, step #3 needlessly rechecks whether or not we're in the US. Since being-in-the-US is
+established once and for all when the program first runs, there's no need to keep checking it every time you run
+the procedure. If the program carries out the procedure ten thousand times in a single run, that's 9,999 too many
+evaluations of the condition in step #3.
+
+Here's an example of how this flaw might show up in your program:
+
+\code
+
+int main()
+{
+  bool in_the_us = areWeInTheUs();
+
+  for(size_t i = 0; i < 10000; ++i)
+  {
+    getWood();
+    getNails();
+
+    if(in_the_us) // Ack! The condition never changes within the loop; this is very inefficient.
+    {
+      contactEPA();
+    }
+    else
+    {
+      contactUN();
+    }
+
+    assembleChair();
+  }
+}
+
+\endcode
+
+A common solution to this problem is to use function pointers. In the above case, you could easily write a function pointer
+to handle the conditional aspect of the loop.
+
+In more complicated instances, however, it's useful to have a more comprehensive framework for dynamically assembling
+flow-controlled algorithms. That's what the functors library is for. It provides all the basic flow-control structures
+(if-then-else, do-while, for, etc.) plus some commonly-used non-standard structures (selection, multi-selection, sequences).
+You can construct, at runtime, complex flow-control algorithms that eliminate the negative overhead of needless re-evaluation
+of static conditions. In addition, by constructing your algorithms dynamically as a series of distinct functional steps, you
+can better insert and remove steps from the overall sequence. To tempt you, here's an example of how the above could be written using the functors library:
+
+\code
+
+#include "functors/functors.h"
+
+void getWood       () { /* ... */ }
+void getNails      () { /* ... */ }
+void contactEPA    () { /* ... */ }
+void contactUN     () { /* ... */ }
+void assembleChair () { /* ... */ }
+
+int main()
+{
+  bool in_the_us = areWeInTheUs();
+
+  SAGE::FUNCTORS::Sequence<void> s;
+
+  s.addStep(boost::bind(&getWood, "get wood");
+  s.addStep(boost::bind(&getNails, "get nails");
+  s.addStep(boost::bind(in_the_us ? &contactEPA : &contactUN), "contact someone");
+  s.addStep(boost::bind(&assembleChair), "assemble chair");
+
+  for(size_t i = 0; i < 10000; ++i)
+    s();
+}
+
+\endcode
+
+\#.\ Functors: a review
+
+A "functor" is well-known concept in C++. A functor is defined as any object (class or struct, that is) with a publicly-accesible const-access operator()
+following a given signature. Furthermore, a functor must be default-constructable, copy-constructable, and assignable.
+For instance, let's say you want a function to take in an int and return a string. According to this requirement, an acceptable functor
+would be any object with an operator() following the signature: std::string operator() (int) const. Also, the object must be default-constructable,
+copy-constructable, and assignable. For instance, all of the following classes are acceptable:
+
+\code
+
+class foo { public: std::string operator() (int x) const { return "hi!"; } };
+
+struct bar { public: std::string operator() (int y) const { std::ostringstream s; s << y; return s.str(); } };
+
+\endcode
+
+To review: Given a return type and function arguments, a functor is any object that (1) is default-constructable, (2) is copy-constructable,
+(3) is assignable, and (4) has a publicly accessible operator() following the signature: return_type operator() (argument list) const.
+
+\#.\ Boost::bind and functors
+
+"But wait!" you exclaim. "I've got a class with a function that takes an
+'int' and returns a 'string', but the function isn't operator(). It's called
+goNuts(). What do I do?"
+
+This is where boost steps in to help up. With the boost::bind() function,
+you can create functors out of both member functions and non-member
+functions. The functors you create out of member functions can be bound to
+references or class instances themselves.
+
+Here's how it works: You invoke boost::bind and pass it the information
+required to run the function. boost::bind returns a functor \b instance that
+obeys the correct functor requirements. Consider the following class that you want to
+turn into an acceptable functor for the above example:
+
+\code
+class foo { public: string goNuts(int x) const { return "nuts!"; } };
+\endcode
+
+To "functorize" it, use boost::bind as follows:
+
+\code
+boost::bind(&foo::goNuts, foo(), _1)
+\endcode
+
+The first argument ("&foo::goNuts") is a member function pointer. The second
+argument ("foo()"), is a foo instance that will be copied into the functor
+that boost::bind returns. The third argument ("_1") tells boost to "pass on"
+a single argument given to the bound functor to the underlying goNuts
+function. This _1 corresponds to the 'int' argument that is passed to
+goNuts. If the function signature required more arguments, your invocation
+of boost::bind would follow the form "_1, _2, ..., _X". For instance, if the
+functor signature requires an int return type and an int, a char, and a
+string as function arguments, the following code would work:
+
+\code
+class foo { public: int doSomething(int, char, std::string) const { /* ... */ } };
+
+int main() { boost::bind(&foo::doSomething, foo(), _1, _2, _3));
+\endcode
+
+In the above example, the foo instance is actually copied into the functor.
+If you want the member function to be bound to a reference rather than an
+instance, use the boost::ref() function as follows:
+
+\code
+class foo { public: int doSomething(int, char, std::string) const { /* ... */ } };
+
+int main() 
+{ 
+  foo f;
+  boost::bind(&foo::doSomething, boost::ref(f), _1, _2, _3));
+}
+\endcode
+
+The boost::ref function ensures that f will not be copied into the functor;
+when doSomething is invoked, it will be on the f instance. 
+
+\#.\ General principles for classes in the functors library
+
+\#.#.\ Two purposes
+
+For the most part, the major classes of this library (Reporter, Sequence,
+Switch, MultiSwitch, If, etc.) do two things. First, they
+organize one or more functors in a logical way. The If class, for
+instance, organizes three functors: an 'if' functor that returns true or
+false, a 'then' functor which is executed if the condition if true, and an
+'else' functor which is executed if the condition is false. 
+
+Second, these main classes are usable themselves \b as functors. They can be
+plugged into each other to create complex flow control structures.
+
+\#.#.\ Template arguments
+
+Most of the main classes are templatized AT LEAST on two important
+arguments: R and ARGS. R is the result type (or return type, if you will) of
+the class (or its constituent functors). ARGS is a boost::mpl::vector
+listing the arguments that will be passed to the functor / class. Remember
+how functors are defined in terms of their function arguments and return
+types? It is through the R and ARGS template parameters that this
+information is specified.
+
+\#.#.\ Typedefs and such
+
+All of the main classes have the following typedefs:
+
+result_type - The result type of the functor (most of the time equivalent to
+the 'R' template parameter).
+
+args - A boost::mpl::vector listing the input arguments (most of the time
+equivalent to the 'ARGS' template parameter).
+
+arg[I]_type - The type of the I'th argument, where X is between 1 and 9. If
+X > length of the argument list, arg[X]_type evaluates to NullType.
+
+In addition, the main classes have a static const int called 'arity' that
+indicates the number of arguments the functor requires.
+
+\#.\ A more complex example
+
+Consider the following flow chart:
+
+(Given HEIGHT and WEIGHT):
+
+1. Is HEIGHT > 10 ? 
+
+1.1. YES: Is WEIGHT > 100 ?
+
+1.1.1. YES: Print "go crazy"
+
+1.1.2. NO: Print "eliminate earth"
+
+1.2. NO: Is WEIGHT > 150 ?
+
+1.2.1. YES: Exit with status 0.
+
+1.2.2. NO: Print "eliminate earth"
+
+The above flowchart can be decomposed into three distinct 'if' statements
+(HEIGHT > 10, WEIGHT > 100, WEIGHT > 150) and three distinct 'action' statements
+(Print "go crazy", Print "eliminate earth", Exit with status 0). With this
+in mind, let's see how we can turn it into functor-friendly code:
+
+\code
+
+struct heightAbove10 { bool go(int height, int weight) const { return height > 10; } };
+
+struct weightAbove100 { bool go(int height, int weight) const { return weight > 100; } };
+
+struct weightAbove150 { bool go(int height, int weight) const { return weight > 150; } };
+
+struct printer 
+{ 
+  void goCrazy(int height, int weight) const { std::cout << "go crazy"; }
+
+  void eliminateEarth(int height, int weight) const { std::cout << "eliminate earth"; } 
+};
+
+void exit0(int height, int weight) { exit(0); }
+
+int main()
+{
+  // Typedef the conditional type to make things more readable:
+
+  typedef SAGE::FUNCTORS::If<void, boost::mpl::vector<int, int> > ctype;
+
+  // Put together steps 1.1, 1.1.1, and 1.1.2:
+
+  ctype c1(boost::bind(&weightAbove100::go,      weightAbove100(), _1, _2),  // Step 1.1
+           boost::bind(&printer::goCrazy,        printer(),        _1, _2),  // Step 1.1.1
+           boost::bind(&printer::eliminateEarth, printer(),        _1, _2)); // Step 1.1.2
+
+  // Put together steps 1.2, 1.2.1, and 1.2.2:
+
+  ctype c2(boost::bind(&weightAbove150::go,      weightAbove150(), _1, _2),  // Step 1.2
+           boost::bind(&exit0,                                     _1, _2),  // Step 1.2.1
+           boost::bind(&printer::eliminateEarth, printer(),        _1, _2)); // Step 1.2.2
+
+  // Put it all together:
+
+  ctype c3(boost::bind(&heightAbove10::go, heightAbove10(), _1, _2, // Step 1
+           c1,                                                      // c1 has encapsulated steps 1.1, 1.1.1, and 1.1.2
+           c2);                                                     // c2 has encapsulated steps 1.2, 1.2.1, and 1.2.2
+
+  // Now try running the algorithm with different height / weight combinations:
+
+  c3(5, 10);
+
+  c3(150, 0);
+
+  c3(1000, 1000);
+
+  c3(0, 0);
+
+  return 0;
+}
+
+\endcode
+
+\#.\ Standard flow control classes
+
+\#.#.\ If
+
+A SAGE::FUNCTORS::If encapsulates if-then-else logic in a single
+functor. Each of the three steps (if, then, and else) are assigned as
+contituent functors stored in the If instance. When invoked, a
+If instance first invokes in turn its "if" functor; then the
+If invokes its "then" or "else" functor (depending on the result of
+the "if" step).
+
+\#.#.\ Switch
+
+A SAGE::FUNCTORS::Switch encapsulates the logic of a switch statement.
+It takes an input object, classifies it according to
+some classification scheme, and selects an action on the basis of that
+classification. The classification scheme for a Switch is a
+mutually-exclusive one, which is to say that an object can have one and only
+one classification.
+
+\#.#.\ While and DoWhile
+
+A SAGE::FUNCTORS::While encapsulates the while(condition) do { } logic. It stores
+two functors: an exit condition and a body.
+
+A SAGE::FUNCTORS::DoWhile encapsulates the do { } while(condition) logic. It stores
+two functors: an exit condition and a body.
+
+\#.#.\ For
+
+A SAGE::FUNCTORS::For encapsulates the for(...) { } logic. It stores four functors: 
+an initializer, an exit condition, an index iterator, and a body.
+
+\#.\ Non-standard flow control classes
+
+\#.#.\ Sequence
+
+A SAGE::FUNCTORS::Sequence encapsulates a sequence of functors. Each functor
+represents a logical step in a process. When invoked, a Sequence iterates
+through its functors and executes each one. The Sequence evaluates the result
+of each step before proceeding to the next one. It can, on the basis of the
+evaluation, either abort the sequence entirely or continue to the next step.
+
+\#.#.\ MultiSwitch
+
+A SAGE::FUNCTORS::MultiSwitch takes an input object, identifies all of the
+classification categories to which it belongs and selects zero or more
+actions to take on the basis of those categories. The classification scheme
+for a MultiSwitch is NOT mutually exclusive, which is to say that an
+object can have zero or more classifications.
+
+\#.\ Misc: Reporter, ThrowException, DoNothing, ReturnConstValue
+
+There are a few miscellaneous "helper" functors available for your use.
+These include:
+
+A SAGE::FUNCTORS::Reporter is pretty simple: It "wraps" a functor; when the reporter is
+invoked (with the same signature as the "wrapped" functor) it does four
+things: (1) report that the functor has been called, (2) invoke the
+"wrapped" functor with the given arguments, (3) report that the functor has
+exited, and (4) returns the value returned by the "wrapped" functor.
+
+SAGE::FUNCTORS::ThrowException - Throws an exceptions whenever it is
+invoked.
+
+SAGE::FUNCTORS::DoNothing - Does nothing whenever it is invoked. Only works
+for functors requiring a void result type.
+
+SAGE::FUNCTORS::ReturnConstValue - Returns a given constant value whenver
+invoked.
+
+\#.\ Special syntax
+
+It is possible to use C++-like syntax to create the flow-control classes (SAGE::FUNCTORS::If,
+SAGE::FUNCTORS::While, SAGE::FUNCTORS::DoWhile, and SAGE::FUNCTORS::For). The syntax works as follows:
+
+\#.#.\ 'If' statements
+
+SAGE::FUNCTORS::If<...> (condition) [ then_action ] .else_ [ else_action ]
+
+where 'condition' is the predicate functor and 'then_action' and 'else_action' are action functors.
+
+\#.#.\ 'While' and 'DoWhile' statements
+
+SAGE::FUNCTORS::While<...> (condition) [ body_action ]
+
+

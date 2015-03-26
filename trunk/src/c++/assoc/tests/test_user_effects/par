@@ -1,0 +1,41 @@
+pedigree
+{
+  delimiters="\t "
+  delimiter_mode=multiple
+  individual_missing_value=-1
+  sex_code, male="m", female="f"
+
+  pedigree_id=PID
+  individual_id=ID
+  parent_id=DAD, missing=-1
+  parent_id=MOM, missing=-1    
+  sex_field=SEX
+  
+  marker=LOC_02 
+
+  trait=AFF, binary
+  covariate=cluster_var, categorical, values="1,3,4"
+}
+
+function
+{
+  covariate=m, expression="additive(LOC_02, 'M1')"
+}
+
+assoc_analysis
+{
+  trait=AFF 
+
+  pe=true
+  fe=false
+  me=false
+  se=false
+  
+  class_eff=cluster_var
+  
+  transformation
+  {
+    option=none
+  }
+}
+

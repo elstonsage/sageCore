@@ -1,0 +1,90 @@
+Running MAXFUN with method 1
+
+Final values:
+  pA=0.287686	V(pA)=0.0000055452	SE(pA)=0.002355
+  pB=0.106555	V(pB)=0.0000021125	SE(pB)=0.001453
+  pO=0.605759	V(pO)=0.0000064364	SE(pO)=0.002537
+
+MAXFUN completed with 129 function evaluations.
+
+Final values (again):
+  pA=0.287686	V(pA)=0.0000055452	SE(pA)=0.002355
+  pB=0.106555	V(pB)=0.0000021125	SE(pB)=0.001453
+  pO=0.605759	V(pO)=0.0000064364	SE(pO)=0.002537
+
+
+Running MAXFUN with method 2
+
+Final values:
+  pA=0.287686	V(pA)=0.0000055452	SE(pA)=0.002355
+  pB=0.106555	V(pB)=0.0000021125	SE(pB)=0.001453
+  pO=0.605759	V(pO)=0.0000064364	SE(pO)=0.002537
+
+MAXFUN completed with 125 function evaluations.
+
+Final values (again):
+  pA=0.287686	V(pA)=0.0000055452	SE(pA)=0.002355
+  pB=0.106555	V(pB)=0.0000021125	SE(pB)=0.001453
+  pO=0.605759	V(pO)=0.0000064364	SE(pO)=0.002537
+
+
+Running MAXFUN with method 3
+
+Final values:
+  pA=0.287686	V(pA)=0.0000053952	SE(pA)=0.002323
+  pB=0.106555	V(pB)=0.0000022826	SE(pB)=0.001511
+  pO=0.605759	V(pO)=0.0000063636	SE(pO)=0.002523
+
+MAXFUN completed with 815 function evaluations.
+
+Final values (again):
+  pA=0.287686	V(pA)=0.0000053952	SE(pA)=0.002323
+  pB=0.106555	V(pB)=0.0000022826	SE(pB)=0.001511
+  pO=0.605759	V(pO)=0.0000063636	SE(pO)=0.002523
+
+
+Running MAXFUN with method 4
+
+Final values:
+  pA=0.287686	V(pA)=0.0000059015	SE(pA)=0.002429
+  pB=0.106555	V(pB)=0.0000024590	SE(pB)=0.001568
+  pO=0.605759	V(pO)=0.0000070490	SE(pO)=0.002655
+
+MAXFUN completed with 127 function evaluations.
+
+Final values (again):
+  pA=0.287686	V(pA)=0.0000059015	SE(pA)=0.002429
+  pB=0.106555	V(pB)=0.0000024590	SE(pB)=0.001568
+  pO=0.605759	V(pO)=0.0000070490	SE(pO)=0.002655
+
+
+Running MAXFUN with method 5
+
+Final values:
+  pA=0.287686	V(pA)=0.0000055616	SE(pA)=0.002358
+  pB=0.106555	V(pB)=0.0000024379	SE(pB)=0.001561
+  pO=0.605759	V(pO)=0.0000066282	SE(pO)=0.002575
+
+MAXFUN completed with 90 function evaluations.
+
+Final values (again):
+  pA=0.287686	V(pA)=0.0000055616	SE(pA)=0.002358
+  pB=0.106555	V(pB)=0.0000024379	SE(pB)=0.001561
+  pO=0.605759	V(pO)=0.0000066282	SE(pO)=0.002575
+
+
+Running MAXFUN with method 6
+
+Final values:
+  pA=0.287686	V(pA)=0.0000056460	SE(pA)=0.002376
+  pB=0.106555	V(pB)=0.0000023464	SE(pB)=0.001532
+  pO=0.605759	V(pO)=0.0000063792	SE(pO)=0.002526
+
+MAXFUN completed with 97 function evaluations.
+
+Final values (again):
+  pA=0.287686	V(pA)=0.0000056460	SE(pA)=0.002376
+  pB=0.106555	V(pB)=0.0000023464	SE(pB)=0.001532
+  pO=0.605759	V(pO)=0.0000063792	SE(pO)=0.002526
+
+

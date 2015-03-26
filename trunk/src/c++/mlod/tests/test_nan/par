@@ -1,0 +1,43 @@
+pedigree
+{
+  delimiters = "\t"
+  delimiter_mode = "single"
+
+  individual_missing_value = "0"
+  sex_code, male = "1", female = "2", missing = "0"
+
+  pedigree_id = "PID"
+  individual_id = "ID"
+  parent_id = "parent1"
+  parent_id = "parent2"
+  sex_field = "sex"
+
+  trait = "affected", binary, affected = "2", unaffected = "1", missing = "0"
+  trait = "age_onset", continuous, missing = ""
+  trait = "age_exam/age_of_plasma_drawn", continuous, missing = ""
+  trait = "yearsFrozen", continuous, missing = ""
+  trait = "nmoles/min/ml", continuous, missing = ""
+  trait = "DBHactivity", continuous, missing = ""
+  trait = "final_DBH", continuous, missing = ""
+  marker_list, start = "rs1532310_rs1532309", end = "rs766374"
+}
+
+marker
+{
+  allele_delimiter="/"
+  allele_missing="0"
+
+}
+
+mlod
+{
+  region = "Region9"
+  trait_marker = "SEGREG_final_DBH_dom1"
+  max_size = "19"
+  scan_type = "interval"
+  distance = "2.0"
+  output_pedigrees = "interval"
+  sample_detail = "removed"
+}
+
+

@@ -1,0 +1,33 @@
+#!/usr/local/bin/python
+#============================================================================
+# File:      ped_strip
+#                                                                          
+# Author:    Dan Baechle
+#                                                                          
+# History:   Created 3/28/7
+#                                                                          
+# Notes:     Strip structure from FIND data file by removing founders
+#            and setting all parent values to 0.
+#
+#            Usage: ped_strip <ped filename>
+#
+#============================================================================
+
+import sys
+from string import join
+
+old_file = open(sys.argv[1], 'r')
+new_file = open('ped_new', 'w')
+
+lines = old_file.readlines()
+new_file.write(lines[0])
+
+for line in lines[1:]:
+  fields = line.strip().split()
+  if len(fields[1]) == 10:       #  Non-founder in these particular files
+    fields[2] = '0'
+    fields[3] = '0'
+    new_file.write('%s\n' % join(fields))                                                         
+
+old_file.close()
+new_file.close()

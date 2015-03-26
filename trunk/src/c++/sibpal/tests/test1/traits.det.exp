@@ -1,0 +1,164 @@
+
+
+
+=====================================================================================
+  Haseman-Elston Regression Analysis of Full Sibs
+  - single marker regression
+=====================================================================================
+
+    Continuous trait : Trait1
+
+    Dependent variate : Mean-corrected squared trait sum
+
+    w1 : 0.5
+
+    Other options used :
+      Identity weights = no
+      Robust variance  = no
+      Use sibship mean = no
+      Use BLUP mean    = yes
+
+    Legend :
+      Note - kurtosis = coefficient of kurtosis - 3
+      *   - significance  .05 level;
+      **  - significance  .01 level;
+      *** - significance .001 level;
+      #   - Negative intercept set to 0;
+
+=====================================================================================
+Test 1
+=====================================================================================
+-----
+Model
+-----
+
+Trait1 ~ Intercept + Marker(A+D) + e
+
+------
+Sample
+------
+
+Number of all sibs            =   17
+Number of sibs used           =   15
+Number of full sib pairs      =   22
+
+-----
+Trait
+-----
+
+Sample mean                   =    4.5882
+Sample variance               =    1.8824
+Sample skewness               =   -0.4143
+Sample kurtosis               =   -0.7788
+Pairwise full sib correlation =   -0.2242
+Intra sibship correlation     =   -0.1752
+
+-----------------
+Dependent variate
+-----------------
+
+Correlation between pairs with no sibs in common =    0.0379
+Correlation between pairs with one sib in common =    0.0379
+
+Correlation between squared difference
+                and squared mean corrected sum   =    0.2008
+
+----------
+Regression
+----------
+
+                   Estimate Std Error   P-value     
+----------------- --------- --------- ---------     
+Intercept            0.5869 
+Marker               0.9769    1.1271 0.1979567     
+
+Total variance       1.8228
+Residual variance    1.9325
+Residual skewness    2.0123
+Residual kurtosis    2.4081
+=====================================================================================
+
+
+=====================================================================================
+  Haseman-Elston Regression Analysis of Full Sibs
+  - single marker regression
+=====================================================================================
+
+    Continuous trait : Trait1
+
+    Dependent variate : Weighted square trait sum and difference (W3)
+
+    w1 : 0.5
+
+    Other options used :
+      Identity weights = no
+      Robust variance  = no
+      Use sibship mean = no
+      Use BLUP mean    = yes
+
+    Legend :
+      Note - kurtosis = coefficient of kurtosis - 3
+      *   - significance  .05 level;
+      **  - significance  .01 level;
+      *** - significance .001 level;
+      #   - Negative intercept set to 0;
+
+=====================================================================================
+Test 1
+=====================================================================================
+-----
+Model
+-----
+
+Trait1 ~ Intercept + Marker(A+D) + e
+
+------
+Sample
+------
+
+Number of all sibs            =   17
+Number of sibs used           =   15
+Number of full sib pairs      =   22
+
+-----
+Trait
+-----
+
+Sample mean                   =    4.5882
+Sample variance               =    1.8824
+Sample skewness               =   -0.4143
+Sample kurtosis               =   -0.7788
+Pairwise full sib correlation =   -0.2242
+Intra sibship correlation     =   -0.1752
+
+-----------------
+Dependent variate
+-----------------
+
+Correlation between pairs with no sibs in common =    0.2156
+Correlation between pairs with one sib in common =    0.2156
+sibship size 3 : w = 0.601398, 1-w = 0.398602
+sibship size 4 : w = 0.600072, 1-w = 0.399928
+sibship size 5 : w = 0.598849, 1-w = 0.401151
+
+Correlation between squared difference
+                and squared mean corrected sum   =    0.2008
+
+----------
+Regression
+----------
+
+                  before intercept is set           # after intercept is set
+                  -----------------------------     -----------------------------
+                   Estimate Std Error   P-value      Estimate Std Error   P-value     
+----------------- --------- --------- ---------     --------- --------- ---------     
+Intercept           -0.4249                            0.0000
+Marker               1.2763    0.9375 0.0939159        1.2767    0.9200 0.0899030     
+
+Total variance       1.1889                            1.1889
+Residual variance    1.1846                            1.1409
+Residual skewness    0.5977                            0.5977
+Residual kurtosis    0.9680                            0.9678
+=====================================================================================
+
+

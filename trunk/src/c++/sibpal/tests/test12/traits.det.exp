@@ -1,0 +1,1020 @@
+
+
+
+=====================================================================================
+  Haseman-Elston Regression Analysis of Full Sibs
+  - single marker regression
+=====================================================================================
+
+    Binary trait : bpn, affected = '2' , unaffected = '1'
+
+    Dependent variate : Mean-corrected trait cross-product
+
+    w1 : 0.5
+
+    Other options used :
+      Identity weights = no
+      Robust variance  = no
+      Use sibship mean = no
+      Use BLUP mean    = yes
+
+    Legend :
+      Note - kurtosis = coefficient of kurtosis - 3
+      *   - significance  .05 level;
+      **  - significance  .01 level;
+      *** - significance .001 level;
+      #   - Negative intercept set to 0;
+
+=====================================================================================
+Test 1
+=====================================================================================
+-----
+Model
+-----
+
+bpn ~ Intercept + D16S3127(A+D) + e
+
+------
+Sample
+------
+
+Number of all sibs            =  837
+Number of sibs used           =  832
+Number of full sib pairs      = 1996
+
+-----
+Trait
+-----
+
+Sample mean                   =    0.1290
+Sample variance               =    0.1125
+Sample skewness               =    2.2132
+Sample kurtosis               =    2.8981
+Pairwise full sib correlation =    0.1370
+Intra sibship correlation     =    0.1354
+
+-----------------
+Dependent variate
+-----------------
+
+Correlation between pairs with no sibs in common =    0.0122
+Correlation between pairs with one sib in common =    0.0122
+
+Correlation between squared difference
+                and squared mean corrected sum   =   -0.2287
+
+----------
+Regression
+----------
+
+                  before intercept is set           # after intercept is set
+                  -----------------------------     -----------------------------
+                   Estimate Std Error   P-value      Estimate Std Error   P-value     
+----------------- --------- --------- ---------     --------- --------- ---------     
+Intercept           -0.0162                            0.0000
+D16S3127             0.0142    0.0098 0.0748158        0.0142    0.0098 0.0745512     
+
+Total variance       0.0173                            0.0173
+Residual variance    0.0173                            0.0172
+Residual skewness    1.6261                            1.6261
+Residual kurtosis    6.5052                            6.5051
+=====================================================================================
+Test 2
+=====================================================================================
+-----
+Model
+-----
+
+bpn ~ Intercept + D16S405(A+D) + e
+
+------
+Sample
+------
+
+Number of all sibs            =  837
+Number of sibs used           =  832
+Number of full sib pairs      = 1996
+
+-----
+Trait
+-----
+
+Sample mean                   =    0.1290
+Sample variance               =    0.1125
+Sample skewness               =    2.2132
+Sample kurtosis               =    2.8981
+Pairwise full sib correlation =    0.1370
+Intra sibship correlation     =    0.1354
+
+-----------------
+Dependent variate
+-----------------
+
+Correlation between pairs with no sibs in common =    0.0122
+Correlation between pairs with one sib in common =    0.0122
+
+Correlation between squared difference
+                and squared mean corrected sum   =   -0.2287
+
+----------
+Regression
+----------
+
+                  before intercept is set           # after intercept is set
+                  -----------------------------     -----------------------------
+                   Estimate Std Error   P-value      Estimate Std Error   P-value     
+----------------- --------- --------- ---------     --------- --------- ---------     
+Intercept           -0.0162                            0.0000
+D16S405              0.0143    0.0095 0.0649828        0.0143    0.0094 0.0647468     
+
+Total variance       0.0173                            0.0173
+Residual variance    0.0173                            0.0172
+Residual skewness    1.6257                            1.6257
+Residual kurtosis    6.5016                            6.5015
+=====================================================================================
+Test 3
+=====================================================================================
+-----
+Model
+-----
+
+bpn ~ Intercept + D16S3103(A+D) + e
+
+------
+Sample
+------
+
+Number of all sibs            =  837
+Number of sibs used           =  832
+Number of full sib pairs      = 1996
+
+-----
+Trait
+-----
+
+Sample mean                   =    0.1290
+Sample variance               =    0.1125
+Sample skewness               =    2.2132
+Sample kurtosis               =    2.8981
+Pairwise full sib correlation =    0.1370
+Intra sibship correlation     =    0.1354
+
+-----------------
+Dependent variate
+-----------------
+
+Correlation between pairs with no sibs in common =    0.0122
+Correlation between pairs with one sib in common =    0.0122
+
+Correlation between squared difference
+                and squared mean corrected sum   =   -0.2287
+
+----------
+Regression
+----------
+
+                  before intercept is set           # after intercept is set
+                  -----------------------------     -----------------------------
+                   Estimate Std Error   P-value      Estimate Std Error   P-value     
+----------------- --------- --------- ---------     --------- --------- ---------     
+Intercept           -0.0104                            0.0000
+D16S3103             0.0032    0.0089 0.3615331        0.0032    0.0089 0.3609275     
+
+Total variance       0.0173                            0.0173
+Residual variance    0.0173                            0.0173
+Residual skewness    1.6322                            1.6322
+Residual kurtosis    6.5417                            6.5416
+=====================================================================================
+Test 4
+=====================================================================================
+-----
+Model
+-----
+
+bpn ~ Intercept + D16S3017(A+D) + e
+
+------
+Sample
+------
+
+Number of all sibs            =  837
+Number of sibs used           =  832
+Number of full sib pairs      = 1996
+
+-----
+Trait
+-----
+
+Sample mean                   =    0.1290
+Sample variance               =    0.1125
+Sample skewness               =    2.2132
+Sample kurtosis               =    2.8981
+Pairwise full sib correlation =    0.1370
+Intra sibship correlation     =    0.1354
+
+-----------------
+Dependent variate
+-----------------
+
+Correlation between pairs with no sibs in common =    0.0122
+Correlation between pairs with one sib in common =    0.0122
+
+Correlation between squared difference
+                and squared mean corrected sum   =   -0.2287
+
+----------
+Regression
+----------
+
+                  before intercept is set           # after intercept is set
+                  -----------------------------     -----------------------------
+                   Estimate Std Error   P-value      Estimate Std Error   P-value     
+----------------- --------- --------- ---------     --------- --------- ---------     
+Intercept           -0.0062                            0.0000
+D16S3017            -0.0049    0.0093 0.7008703       -0.0049    0.0093 0.7004167     
+
+Total variance       0.0173                            0.0173
+Residual variance    0.0173                            0.0173
+Residual skewness    1.6371                            1.6371
+Residual kurtosis    6.5659                            6.5658
+=====================================================================================
+Test 5
+=====================================================================================
+-----
+Model
+-----
+
+bpn ~ Intercept + D16S668(A+D) + e
+
+------
+Sample
+------
+
+Number of all sibs            =  837
+Number of sibs used           =  832
+Number of full sib pairs      = 1996
+
+-----
+Trait
+-----
+
+Sample mean                   =    0.1290
+Sample variance               =    0.1125
+Sample skewness               =    2.2132
+Sample kurtosis               =    2.8981
+Pairwise full sib correlation =    0.1370
+Intra sibship correlation     =    0.1354
+
+-----------------
+Dependent variate
+-----------------
+
+Correlation between pairs with no sibs in common =    0.0122
+Correlation between pairs with one sib in common =    0.0122
+
+Correlation between squared difference
+                and squared mean corrected sum   =   -0.2287
+
+----------
+Regression
+----------
+
+                  before intercept is set           # after intercept is set
+                  -----------------------------     -----------------------------
+                   Estimate Std Error   P-value      Estimate Std Error   P-value     
+----------------- --------- --------- ---------     --------- --------- ---------     
+Intercept           -0.0071                            0.0000
+D16S668             -0.0032    0.0105 0.6209698       -0.0032    0.0105 0.6202690     
+
+Total variance       0.0173                            0.0173
+Residual variance    0.0173                            0.0173
+Residual skewness    1.6392                            1.6392
+Residual kurtosis    6.5730                            6.5728
+=====================================================================================
+Test 6
+=====================================================================================
+-----
+Model
+-----
+
+bpn ~ Intercept + D16S683(A+D) + e
+
+------
+Sample
+------
+
+Number of all sibs            =  837
+Number of sibs used           =  832
+Number of full sib pairs      = 1996
+
+-----
+Trait
+-----
+
+Sample mean                   =    0.1290
+Sample variance               =    0.1125
+Sample skewness               =    2.2132
+Sample kurtosis               =    2.8981
+Pairwise full sib correlation =    0.1370
+Intra sibship correlation     =    0.1354
+
+-----------------
+Dependent variate
+-----------------
+
+Correlation between pairs with no sibs in common =    0.0122
+Correlation between pairs with one sib in common =    0.0122
+
+Correlation between squared difference
+                and squared mean corrected sum   =   -0.2287
+
+----------
+Regression
+----------
+
+                  before intercept is set           # after intercept is set
+                  -----------------------------     -----------------------------
+                   Estimate Std Error   P-value      Estimate Std Error   P-value     
+----------------- --------- --------- ---------     --------- --------- ---------     
+Intercept           -0.0149                            0.0000
+D16S683              0.0117    0.0103 0.1292132        0.0117    0.0103 0.1288244     
+
+Total variance       0.0173                            0.0173
+Residual variance    0.0173                            0.0173
+Residual skewness    1.6140                            1.6140
+Residual kurtosis    6.4772                            6.4771
+=====================================================================================
+Test 7
+=====================================================================================
+-----
+Model
+-----
+
+bpn ~ Intercept + D16S501(A+D) + e
+
+------
+Sample
+------
+
+Number of all sibs            =  837
+Number of sibs used           =  832
+Number of full sib pairs      = 1996
+
+-----
+Trait
+-----
+
+Sample mean                   =    0.1290
+Sample variance               =    0.1125
+Sample skewness               =    2.2132
+Sample kurtosis               =    2.8981
+Pairwise full sib correlation =    0.1370
+Intra sibship correlation     =    0.1354
+
+-----------------
+Dependent variate
+-----------------
+
+Correlation between pairs with no sibs in common =    0.0122
+Correlation between pairs with one sib in common =    0.0122
+
+Correlation between squared difference
+                and squared mean corrected sum   =   -0.2287
+
+----------
+Regression
+----------
+
+                  before intercept is set           # after intercept is set
+                  -----------------------------     -----------------------------
+                   Estimate Std Error   P-value      Estimate Std Error   P-value     
+----------------- --------- --------- ---------     --------- --------- ---------     
+Intercept           -0.0145                            0.0000
+D16S501              0.0110    0.0098 0.1293637        0.0110    0.0098 0.1291457     
+
+Total variance       0.0173                            0.0173
+Residual variance    0.0173                            0.0173
+Residual skewness    1.6183                            1.6183
+Residual kurtosis    6.4853                            6.4853
+=====================================================================================
+Test 8
+=====================================================================================
+-----
+Model
+-----
+
+bpn ~ Intercept + D16S499(A+D) + e
+
+------
+Sample
+------
+
+Number of all sibs            =  837
+Number of sibs used           =  832
+Number of full sib pairs      = 1996
+
+-----
+Trait
+-----
+
+Sample mean                   =    0.1290
+Sample variance               =    0.1125
+Sample skewness               =    2.2132
+Sample kurtosis               =    2.8981
+Pairwise full sib correlation =    0.1370
+Intra sibship correlation     =    0.1354
+
+-----------------
+Dependent variate
+-----------------
+
+Correlation between pairs with no sibs in common =    0.0122
+Correlation between pairs with one sib in common =    0.0122
+
+Correlation between squared difference
+                and squared mean corrected sum   =   -0.2287
+
+----------
+Regression
+----------
+
+                  before intercept is set           # after intercept is set
+                  -----------------------------     -----------------------------
+                   Estimate Std Error   P-value      Estimate Std Error   P-value     
+----------------- --------- --------- ---------     --------- --------- ---------     
+Intercept           -0.0154                            0.0000
+D16S499              0.0130    0.0094 0.0831108        0.0130    0.0094 0.0829040     
+
+Total variance       0.0173                            0.0173
+Residual variance    0.0173                            0.0173
+Residual skewness    1.6082                            1.6082
+Residual kurtosis    6.4502                            6.4501
+=====================================================================================
+Test 9
+=====================================================================================
+-----
+Model
+-----
+
+bpn ~ Intercept + D16S3056(A+D) + e
+
+------
+Sample
+------
+
+Number of all sibs            =  837
+Number of sibs used           =  832
+Number of full sib pairs      = 1996
+
+-----
+Trait
+-----
+
+Sample mean                   =    0.1290
+Sample variance               =    0.1125
+Sample skewness               =    2.2132
+Sample kurtosis               =    2.8981
+Pairwise full sib correlation =    0.1370
+Intra sibship correlation     =    0.1354
+
+-----------------
+Dependent variate
+-----------------
+
+Correlation between pairs with no sibs in common =    0.0122
+Correlation between pairs with one sib in common =    0.0122
+
+Correlation between squared difference
+                and squared mean corrected sum   =   -0.2287
+
+----------
+Regression
+----------
+
+                  before intercept is set           # after intercept is set
+                  -----------------------------     -----------------------------
+                   Estimate Std Error   P-value      Estimate Std Error   P-value     
+----------------- --------- --------- ---------     --------- --------- ---------     
+Intercept           -0.0159                            0.0000
+D16S3056             0.0141    0.0096 0.0710045        0.0141    0.0096 0.0707934     
+
+Total variance       0.0173                            0.0173
+Residual variance    0.0173                            0.0173
+Residual skewness    1.6077                            1.6077
+Residual kurtosis    6.4443                            6.4443
+=====================================================================================
+
+
+=====================================================================================
+  Haseman-Elston Regression Analysis of Full Sibs
+  - single marker regression
+=====================================================================================
+
+    Binary trait : bpn, affected = '2' , unaffected = '1'
+
+    Dependent variate : Mean-corrected trait cross-product
+
+    w1 : 0.5
+
+    Other options used :
+      Identity weights = no
+      Robust variance  = no
+      Use sibship mean = no
+      Use BLUP mean    = yes
+
+    Legend :
+      Note - kurtosis = coefficient of kurtosis - 3
+      *   - significance  .05 level;
+      **  - significance  .01 level;
+      *** - significance .001 level;
+      #   - Negative intercept set to 0;
+
+=====================================================================================
+Test 1
+=====================================================================================
+-----
+Model
+-----
+
+bpn ~ Intercept + D16S3127(A+D) + probability + e
+
+------
+Sample
+------
+
+Number of all sibs            =  134
+Number of sibs used           =  133
+Number of full sib pairs      =  190
+
+-----
+Trait
+-----
+
+Sample mean                   =    0.6119
+Sample variance               =    0.2393
+Sample skewness               =   -0.4594
+Sample kurtosis               =   -1.7889
+Pairwise full sib correlation =    0.1317
+Intra sibship correlation     =    0.1374
+
+-----------------
+Dependent variate
+-----------------
+
+Correlation between pairs with no sibs in common =    0.0000
+Correlation between pairs with one sib in common =    0.0000
+
+Correlation between squared difference
+                and squared mean corrected sum   =    0.7860
+
+----------
+Regression
+----------
+
+                  before intercept is set           # after intercept is set
+                  -----------------------------     -----------------------------
+                   Estimate Std Error   P-value      Estimate Std Error   P-value     
+----------------- --------- --------- ---------     --------- --------- ---------     
+Intercept           -0.0551                            0.0000
+D16S3127             0.0569    0.0453 0.1052829        0.0569    0.0451 0.1046776     
+probability          0.0647    0.1309 0.6216719        0.0647    0.1305 0.6207420     
+
+Total variance       0.0348                            0.0348
+Residual variance    0.0350                            0.0348
+Residual skewness   -0.0776                           -0.0776
+Residual kurtosis   -1.5136                           -1.5136
+=====================================================================================
+Test 2
+=====================================================================================
+-----
+Model
+-----
+
+bpn ~ Intercept + D16S405(A+D) + probability + e
+
+------
+Sample
+------
+
+Number of all sibs            =  134
+Number of sibs used           =  133
+Number of full sib pairs      =  190
+
+-----
+Trait
+-----
+
+Sample mean                   =    0.6119
+Sample variance               =    0.2393
+Sample skewness               =   -0.4594
+Sample kurtosis               =   -1.7889
+Pairwise full sib correlation =    0.1317
+Intra sibship correlation     =    0.1374
+
+-----------------
+Dependent variate
+-----------------
+
+Correlation between pairs with no sibs in common =    0.0000
+Correlation between pairs with one sib in common =    0.0000
+
+Correlation between squared difference
+                and squared mean corrected sum   =    0.7860
+
+----------
+Regression
+----------
+
+                  before intercept is set           # after intercept is set
+                  -----------------------------     -----------------------------
+                   Estimate Std Error   P-value      Estimate Std Error   P-value     
+----------------- --------- --------- ---------     --------- --------- ---------     
+Intercept           -0.0472                            0.0000
+D16S405              0.0425    0.0434 0.1644438        0.0425    0.0433 0.1638005     
+probability          0.0627    0.1311 0.6331333        0.0627    0.1308 0.6322267     
+
+Total variance       0.0348                            0.0348
+Residual variance    0.0351                            0.0349
+Residual skewness   -0.0751                           -0.0751
+Residual kurtosis   -1.5239                           -1.5239
+=====================================================================================
+Test 3
+=====================================================================================
+-----
+Model
+-----
+
+bpn ~ Intercept + D16S3103(A+D) + probability + e
+
+------
+Sample
+------
+
+Number of all sibs            =  134
+Number of sibs used           =  133
+Number of full sib pairs      =  190
+
+-----
+Trait
+-----
+
+Sample mean                   =    0.6119
+Sample variance               =    0.2393
+Sample skewness               =   -0.4594
+Sample kurtosis               =   -1.7889
+Pairwise full sib correlation =    0.1317
+Intra sibship correlation     =    0.1374
+
+-----------------
+Dependent variate
+-----------------
+
+Correlation between pairs with no sibs in common =    0.0000
+Correlation between pairs with one sib in common =    0.0000
+
+Correlation between squared difference
+                and squared mean corrected sum   =    0.7860
+
+----------
+Regression
+----------
+
+                  before intercept is set           # after intercept is set
+                  -----------------------------     -----------------------------
+                   Estimate Std Error   P-value      Estimate Std Error   P-value     
+----------------- --------- --------- ---------     --------- --------- ---------     
+Intercept           -0.0461                            0.0000
+D16S3103             0.0394    0.0419 0.1744953        0.0394    0.0418 0.1738541     
+probability          0.0666    0.1312 0.6124209        0.0666    0.1308 0.6114725     
+
+Total variance       0.0348                            0.0348
+Residual variance    0.0351                            0.0349
+Residual skewness   -0.0875                           -0.0875
+Residual kurtosis   -1.5387                           -1.5387
+=====================================================================================
+Test 4
+=====================================================================================
+-----
+Model
+-----
+
+bpn ~ Intercept + D16S3017(A+D) + probability + e
+
+------
+Sample
+------
+
+Number of all sibs            =  134
+Number of sibs used           =  133
+Number of full sib pairs      =  190
+
+-----
+Trait
+-----
+
+Sample mean                   =    0.6119
+Sample variance               =    0.2393
+Sample skewness               =   -0.4594
+Sample kurtosis               =   -1.7889
+Pairwise full sib correlation =    0.1317
+Intra sibship correlation     =    0.1374
+
+-----------------
+Dependent variate
+-----------------
+
+Correlation between pairs with no sibs in common =    0.0000
+Correlation between pairs with one sib in common =    0.0000
+
+Correlation between squared difference
+                and squared mean corrected sum   =    0.7860
+
+----------
+Regression
+----------
+
+                  before intercept is set           # after intercept is set
+                  -----------------------------     -----------------------------
+                   Estimate Std Error   P-value      Estimate Std Error   P-value     
+----------------- --------- --------- ---------     --------- --------- ---------     
+Intercept           -0.0482                            0.0000
+D16S3017             0.0410    0.0433 0.1725837        0.0410    0.0432 0.1719419     
+probability          0.0777    0.1319 0.5566952        0.0777    0.1316 0.5556431     
+
+Total variance       0.0348                            0.0348
+Residual variance    0.0351                            0.0349
+Residual skewness   -0.0880                           -0.0880
+Residual kurtosis   -1.5471                           -1.5471
+=====================================================================================
+Test 5
+=====================================================================================
+-----
+Model
+-----
+
+bpn ~ Intercept + D16S668(A+D) + probability + e
+
+------
+Sample
+------
+
+Number of all sibs            =  134
+Number of sibs used           =  133
+Number of full sib pairs      =  190
+
+-----
+Trait
+-----
+
+Sample mean                   =    0.6119
+Sample variance               =    0.2393
+Sample skewness               =   -0.4594
+Sample kurtosis               =   -1.7889
+Pairwise full sib correlation =    0.1317
+Intra sibship correlation     =    0.1374
+
+-----------------
+Dependent variate
+-----------------
+
+Correlation between pairs with no sibs in common =    0.0000
+Correlation between pairs with one sib in common =    0.0000
+
+Correlation between squared difference
+                and squared mean corrected sum   =    0.7860
+
+----------
+Regression
+----------
+
+                  before intercept is set           # after intercept is set
+                  -----------------------------     -----------------------------
+                   Estimate Std Error   P-value      Estimate Std Error   P-value     
+----------------- --------- --------- ---------     --------- --------- ---------     
+Intercept           -0.0354                            0.0000
+D16S668              0.0183    0.0498 0.3569051        0.0183    0.0497 0.3565400     
+probability          0.0646    0.1314 0.6236975        0.0646    0.1310 0.6227717     
+
+Total variance       0.0348                            0.0348
+Residual variance    0.0353                            0.0351
+Residual skewness   -0.0809                           -0.0809
+Residual kurtosis   -1.5450                           -1.5450
+=====================================================================================
+Test 6
+=====================================================================================
+-----
+Model
+-----
+
+bpn ~ Intercept + D16S683(A+D) + probability + e
+
+------
+Sample
+------
+
+Number of all sibs            =  134
+Number of sibs used           =  133
+Number of full sib pairs      =  190
+
+-----
+Trait
+-----
+
+Sample mean                   =    0.6119
+Sample variance               =    0.2393
+Sample skewness               =   -0.4594
+Sample kurtosis               =   -1.7889
+Pairwise full sib correlation =    0.1317
+Intra sibship correlation     =    0.1374
+
+-----------------
+Dependent variate
+-----------------
+
+Correlation between pairs with no sibs in common =    0.0000
+Correlation between pairs with one sib in common =    0.0000
+
+Correlation between squared difference
+                and squared mean corrected sum   =    0.7860
+
+----------
+Regression
+----------
+
+                  before intercept is set           # after intercept is set
+                  -----------------------------     -----------------------------
+                   Estimate Std Error   P-value      Estimate Std Error   P-value     
+----------------- --------- --------- ---------     --------- --------- ---------     
+Intercept           -0.0453                            0.0000
+D16S683              0.0341    0.0497 0.2466563        0.0341    0.0496 0.2460803     
+probability          0.0683    0.1314 0.6038744        0.0683    0.1311 0.6029092     
+
+Total variance       0.0348                            0.0348
+Residual variance    0.0352                            0.0350
+Residual skewness   -0.0705                           -0.0705
+Residual kurtosis   -1.5357                           -1.5357
+=====================================================================================
+Test 7
+=====================================================================================
+-----
+Model
+-----
+
+bpn ~ Intercept + D16S501(A+D) + probability + e
+
+------
+Sample
+------
+
+Number of all sibs            =  134
+Number of sibs used           =  133
+Number of full sib pairs      =  190
+
+-----
+Trait
+-----
+
+Sample mean                   =    0.6119
+Sample variance               =    0.2393
+Sample skewness               =   -0.4594
+Sample kurtosis               =   -1.7889
+Pairwise full sib correlation =    0.1317
+Intra sibship correlation     =    0.1374
+
+-----------------
+Dependent variate
+-----------------
+
+Correlation between pairs with no sibs in common =    0.0000
+Correlation between pairs with one sib in common =    0.0000
+
+Correlation between squared difference
+                and squared mean corrected sum   =    0.7860
+
+----------
+Regression
+----------
+
+                  before intercept is set           # after intercept is set
+                  -----------------------------     -----------------------------
+                   Estimate Std Error   P-value      Estimate Std Error   P-value     
+----------------- --------- --------- ---------     --------- --------- ---------     
+Intercept           -0.0520                            0.0000
+D16S501              0.0452    0.0534 0.1993021        0.0452    0.0533 0.1986742     
+probability          0.0764    0.1320 0.5632072        0.0764    0.1317 0.5621665     
+
+Total variance       0.0348                            0.0348
+Residual variance    0.0352                            0.0350
+Residual skewness   -0.0734                           -0.0734
+Residual kurtosis   -1.5280                           -1.5280
+=====================================================================================
+Test 8
+=====================================================================================
+-----
+Model
+-----
+
+bpn ~ Intercept + D16S499(A+D) + probability + e
+
+------
+Sample
+------
+
+Number of all sibs            =  134
+Number of sibs used           =  133
+Number of full sib pairs      =  190
+
+-----
+Trait
+-----
+
+Sample mean                   =    0.6119
+Sample variance               =    0.2393
+Sample skewness               =   -0.4594
+Sample kurtosis               =   -1.7889
+Pairwise full sib correlation =    0.1317
+Intra sibship correlation     =    0.1374
+
+-----------------
+Dependent variate
+-----------------
+
+Correlation between pairs with no sibs in common =    0.0000
+Correlation between pairs with one sib in common =    0.0000
+
+Correlation between squared difference
+                and squared mean corrected sum   =    0.7860
+
+----------
+Regression
+----------
+
+                  before intercept is set           # after intercept is set
+                  -----------------------------     -----------------------------
+                   Estimate Std Error   P-value      Estimate Std Error   P-value     
+----------------- --------- --------- ---------     --------- --------- ---------     
+Intercept           -0.0492                            0.0000
+D16S499              0.0410    0.0463 0.1887673        0.0410    0.0462 0.1881324     
+probability          0.0676    0.1312 0.6070592        0.0676    0.1309 0.6061003     
+
+Total variance       0.0348                            0.0348
+Residual variance    0.0351                            0.0350
+Residual skewness   -0.0623                           -0.0623
+Residual kurtosis   -1.5185                           -1.5185
+=====================================================================================
+Test 9
+=====================================================================================
+-----
+Model
+-----
+
+bpn ~ Intercept + D16S3056(A+D) + probability + e
+
+------
+Sample
+------
+
+Number of all sibs            =  134
+Number of sibs used           =  133
+Number of full sib pairs      =  190
+
+-----
+Trait
+-----
+
+Sample mean                   =    0.6119
+Sample variance               =    0.2393
+Sample skewness               =   -0.4594
+Sample kurtosis               =   -1.7889
+Pairwise full sib correlation =    0.1317
+Intra sibship correlation     =    0.1374
+
+-----------------
+Dependent variate
+-----------------
+
+Correlation between pairs with no sibs in common =    0.0000
+Correlation between pairs with one sib in common =    0.0000
+
+Correlation between squared difference
+                and squared mean corrected sum   =    0.7860
+
+----------
+Regression
+----------
+
+                  before intercept is set           # after intercept is set
+                  -----------------------------     -----------------------------
+                   Estimate Std Error   P-value      Estimate Std Error   P-value     
+----------------- --------- --------- ---------     --------- --------- ---------     
+Intercept           -0.0485                            0.0000
+D16S3056             0.0408    0.0465 0.1904365        0.0408    0.0464 0.1898026     
+probability          0.0712    0.1314 0.5888143        0.0712    0.1311 0.5878204     
+
+Total variance       0.0348                            0.0348
+Residual variance    0.0351                            0.0350
+Residual skewness   -0.0593                           -0.0593
+Residual kurtosis   -1.5141                           -1.5141
+=====================================================================================
+
+

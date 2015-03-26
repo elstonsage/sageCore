@@ -1,0 +1,101 @@
+=================
+
+     Results
+
+=================
+
+Note: P-values for variance components and proportions are one-sided.  All others are two-sided.
+The null hypothesis for transformation parameters is 'no transformation.'
+
+
+==============================
+     Analysis description
+==============================
+
+  Title                        assoc                                                  
+  Primary Trait                sbpd_rand10 (Quantitative)                             
+  Allow averaging              Disabled                                               
+  Limit output                 Disabled (output includes complete model information)  
+  Omit complete summary table  Disabled                                               
+  Summary table display order  By LRT p-value                                         
+  Summary filter               Show no more than 10 results                           
+
+======================================
+     Transformation configuration
+======================================
+
+  Method                George-Elston  
+  Lambda1 is estimated                 
+  Lambda2 is fixed at    0.000000      
+
+Transformed components: age selection bmi 
+Non-transformed components: Intercept sex_code na_u24c 
+==========================
+
+     Model 'Baseline'
+
+==========================
+
+============================
+     Sample description
+============================
+
+  Number of individuals in dataset                                   604  
+  Number of constituent pedigrees in dataset                          73  
+  Number of singletons in dataset                                      3  
+                                                                          
+  Number of constituent pedigree members with complete information   423  
+  Number of singletons with complete information                       2  
+                                                                          
+  Note: missing data replaced by averages are considered complete.        
+
+====================
+     Covariates
+====================
+
+---------------------------------------------------------------
+  Name       Mean         Std. dev.   Min         Max          
+---------------------------------------------------------------
+  sex_code      0.555294    0.496933    0.000000     1.000000  
+  age          46.336471   11.916068   18.000000    79.000000  
+  selection     0.614118    0.486803    0.000000     1.000000  
+  bmi          27.637647    5.188326   15.100000    47.400000  
+  na_u24c     105.973341   54.015420    3.130000   328.110000  
+
+===============================================================
+     MAXIMIZATION RESULTS Baseline without test covariates
+===============================================================
+
+------------------------------------------------------------------------
+  Parameter       Estimate      S.E.         P-value     Deriv          
+------------------------------------------------------------------------
+  Variance components
+          Random    205.719792    14.133775  < 1.00e-07   0.0000000102  
+
+  Other parameters
+  Total variance    205.719792    14.133775  < 1.00e-07   0.0000012274  
+
+       Intercept   1217.135669   993.309690   0.220450   -0.0000240068  
+
+  Covariates
+        sex_code     -5.487868     1.452706   0.000158    0.0023803191  
+             age      0.000535     0.000775   0.489429   -0.0000002193  
+       selection      0.037439     0.051860   0.470341    0.0000000000  
+             bmi     -0.000136     0.000416   0.744095    0.0000000000  
+         na_u24c      0.039855     0.013410   0.002958    0.0000000000  
+
+  Transformation
+         Lambda1     -0.241223     0.280966  < 1.00e-05   0.0000000000  
+         Lambda2      0.000000                  Fixed                   
+------------------------------------------------------------------------
+
+Final ln likelihood: -1734.933317
+
+=====================================================================
+     VARIANCE-COVARIANCE MATRIX Baseline without test covariates
+=====================================================================
+
+
+
+Error: Matrix is not available.
+

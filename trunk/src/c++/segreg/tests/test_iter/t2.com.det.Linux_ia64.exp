@@ -1,0 +1,169 @@
+=====================================================================================================
+  SEGREG Analysis for Trait : t2
+=====================================================================================================
+  # Model Specification  
+
+    Model Class A
+    Type means                   : one mean
+    Type variances               : one variance
+    Residual correlations        : No spouse correlation, parent-offspring and
+                                   sib-sib correlations equal
+    Transformation               : none
+    Type frequency               : 
+    Transmission                 : homogeneous no transmission
+
+  # Number of constituent pedigrees   : 10
+  # Number of unconnected individuals : 0
+
+  # Final Estimates : 
+
+  Parameter           Parameter Est.  Standard Err.   First Deriv.   Status
+-----------------------------------------------------------------------------------------------------
+  mean                 1.05425000      0.61183510      0.00000000     Independent
+  variance            15.40945732      3.44023055      0.00000896     Independent
+  marital resid c      0.00000000                                     Fixed
+  po = ss resid c      0.00000000                                     Fixed
+-----------------------------------------------------------------------------------------------------
+
+
+  # Variance-Covariance Matrix : 
+
+             |     mean            variance   
+----------------------------------------------
+  mean       |      0.37434219      0.00000000
+  variance   |      0.00000000     11.83518625
+----------------------------------------------
+
+
+        LN(Likelihood) : -111.457
+     -2 LN(Likelihood) : 222.914
+    Akaike's AIC score : 226.914
+=====================================================================================================
+
+%SEGREG-W: Accumulation of round off errors or boundary problem 
+%SEGREG-W: Check results carefully 
+
+
+=====================================================================================================
+  SEGREG Analysis for Trait : t2
+=====================================================================================================
+  # Model Specification  
+
+    Model Class A
+    Type means                   : two means
+    Type variances               : one variance
+    Residual correlations        : No spouse correlation, parent-offspring and
+                                   sib-sib correlations equal
+    Transformation               : none
+    Type frequency               : Hardy-Weinberg equilibrium
+    Transmission                 : homogeneous no transmission
+
+  # Number of constituent pedigrees   : 10
+  # Number of unconnected individuals : 0
+
+  # Final Estimates : 
+
+  Parameter           Parameter Est.  Standard Err.   First Deriv.   Status
+-----------------------------------------------------------------------------------------------------
+  mean_AA_AB          -1.40922616      1.74348186      0.00009800     Independent
+  mean_BB              3.69941797      1.60217465     -0.00003733     Independent
+  variance             8.89310978      4.08557263      0.00004659     Independent
+  marital resid c      0.00000000                                     Fixed
+  po = ss resid c      0.00000000                                     Fixed
+  prob_AA              0.09338162      0.12423746                     Dependent
+  prob_AB              0.42440489      0.15808247                     Dependent
+  prob_BB              0.48221349      0.28231994                     Dependent
+  freq_A               0.30558406      0.20327870      0.00000000     Independent functional
+-----------------------------------------------------------------------------------------------------
+
+
+  # Variance-Covariance Matrix : 
+
+             |     mean_AA_AB      mean_BB         variance        prob_AA         prob_AB         prob_BB         freq_A     
+------------------------------------------------------------------------------------------------------------------------------
+  mean_AA_AB |      3.03972901      1.41638650      3.46984236      0.17652486      0.22461410     -0.40113896      0.28883191
+  mean_BB    |      1.41638650      2.56696360     -1.41800485      0.15123274      0.19243185     -0.34366459      0.24744866
+  variance   |      3.46984236     -1.41800485     16.69190369      0.09746521      0.12401687     -0.22148208      0.15947364
+  prob_AA    |      0.17652486      0.15123274      0.09746521      0.01543495      0.01963977     -0.03507471      0.02525483
+  prob_AB    |      0.22461410      0.19243185      0.12401687      0.01963977      0.02499007     -0.04462983      0.03213480
+  prob_BB    |     -0.40113896     -0.34366459     -0.22148208     -0.03507471     -0.04462983      0.07970455     -0.05738963
+  freq_A     |      0.28883191      0.24744866      0.15947364      0.02525483      0.03213480     -0.05738963      0.04132223
+------------------------------------------------------------------------------------------------------------------------------
+
+
+        LN(Likelihood) : -111.213
+     -2 LN(Likelihood) : 222.427
+    Akaike's AIC score : 230.427
+=====================================================================================================
+
+%SEGREG-W: Accumulation of round off errors or boundary problem 
+%SEGREG-W: Check results carefully 
+
+
+=====================================================================================================
+  SEGREG Analysis for Trait : t2
+=====================================================================================================
+  # Model Specification  
+
+    Model Class A
+    Type means                   : three means
+    Type variances               : one variance
+    Residual correlations        : No spouse correlation, parent-offspring and
+                                   sib-sib correlations equal
+    Transformation               : none
+    Type frequency               : Hardy-Weinberg equilibrium
+    Transmission                 : homogeneous no transmission
+
+  # Number of constituent pedigrees   : 10
+  # Number of unconnected individuals : 0
+
+  # Final Estimates : 
+
+  Parameter           Parameter Est.  Standard Err.   First Deriv.   Status
+-----------------------------------------------------------------------------------------------------
+  mean_AA             -3.32189596      0.93228772      0.00000000     Independent
+  mean_AB              1.81084916      0.84699696      0.00000000     Independent
+  mean_BB              6.62588771      1.33320237      0.00000000     Independent
+  variance             3.80932735      1.51481573      0.00000000     Independent
+  marital resid c      0.00000000                                     Fixed
+  po = ss resid c      0.00000000                                     Fixed
+  prob_AA              0.32301929      0.10394518                     Dependent
+  prob_AB              0.49065714      0.02500029                     Dependent
+  prob_BB              0.18632357      0.07894489                     Dependent
+  freq_A               0.56834786      0.09144503      0.00000000     Independent functional
+-----------------------------------------------------------------------------------------------------
+
+
+  # Variance-Covariance Matrix : 
+
+             |     mean_AA         mean_AB         mean_BB         variance        prob_AA         prob_AB         prob_BB         freq_A     
+----------------------------------------------------------------------------------------------------------------------------------------------
+  mean_AA    |      0.86916039      0.42138199      0.36270304      0.46916434      0.05173352     -0.01244265     -0.03929088      0.04551220
+  mean_AB    |      0.42138199      0.71740385      0.63538990      0.06449170      0.05921531     -0.01424212     -0.04497319      0.05209425
+  mean_BB    |      0.36270304      0.63538990      1.77742855     -0.36498381      0.07543498     -0.01814318     -0.05729180      0.06636339
+  variance   |      0.46916434      0.06449170     -0.36498381      2.29466671      0.01285034     -0.00309069     -0.00975965      0.01130499
+  prob_AA    |      0.05173352      0.05921531      0.07543498      0.01285034      0.01080460     -0.00259866     -0.00820594      0.00950527
+  prob_AB    |     -0.01244265     -0.01424212     -0.01814318     -0.00309069     -0.00259866      0.00062501      0.00197365     -0.00228615
+  prob_BB    |     -0.03929088     -0.04497319     -0.05729180     -0.00975965     -0.00820594      0.00197365      0.00623230     -0.00721912
+  freq_A     |      0.04551220      0.05209425      0.06636339      0.01130499      0.00950527     -0.00228615     -0.00721912      0.00836219
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+
+        LN(Likelihood) : -110.469
+     -2 LN(Likelihood) : 220.937
+    Akaike's AIC score : 230.937
+=====================================================================================================
+
+%SEGREG-W: Problems with variable metric methods 
+%SEGREG-W: Results may not be fully maximized 
+
+
+==================================================================================
+                    Likelihoods for Commingling Analysis
+
+Option                       LN(Likelihood)  -2 LN(Likelihood)  Akaike's AIC score
+----------------------------------------------------------------------------------
+one mean                         -111.4572           222.9145            226.9145
+two means                        -111.2134           222.4268            230.4268
+three means                      -110.4687           220.9374            230.9374
+==================================================================================

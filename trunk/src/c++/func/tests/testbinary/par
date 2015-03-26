@@ -1,0 +1,51 @@
+pedigree
+{
+  pedigree_id=PID
+  individual_id=ID
+  sex_field=SEX
+  parent_id=P1
+  parent_id=P2
+  trait=disease, affected=1, unaffected=0
+  trait="HEMATOCRIT"
+  marker=LOC1
+}
+
+function
+{
+  covariate=x, 
+            expression="(floor(hematocrit) % 2) + 2",
+            missing = "-",
+            binary,
+            affected=2,
+            unaffected=3
+}
+
+function
+{
+  phenotype=y,
+            expression="disease + disease",
+            missing=X,
+            binary
+}
+
+function
+{
+  phenotype=z,
+            expression="disease + disease",
+            missing=X,
+            affected=2,
+            binary
+}
+
+function
+{
+  trait=a,
+        expression="hematocrit * hematocrit",
+        missing="-"
+}
+
+pedinfo
+{
+  trait=y
+}
+

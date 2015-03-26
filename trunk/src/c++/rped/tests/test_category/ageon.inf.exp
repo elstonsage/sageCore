@@ -1,0 +1,25 @@
+
+
+
+%AGEON-W: [4] Unrecognized value for trait 'val' for individual '3' in pedigree
+          '0'.  Found 'green'.
+
+Family structure information on the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       SEX       PARENT1       PARENT2     
+     ------------  ------------  --------  ------------  ------------
+     0             1                                                 
+     0             2                                                 
+     0             3                                                 
+     0             4                                                 
+
+
+Phenotypes for the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       val                   bin                 
+     ------------  ------------  --------------------  --------------------
+     0             1             red                   1                   
+     0             2             blue                  1                   
+     0             3             missing               0                   
+     0             4             missing               0                   
+

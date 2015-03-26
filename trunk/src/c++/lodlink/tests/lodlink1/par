@@ -1,0 +1,54 @@
+pedigree
+{
+  pedigree_id=PID
+  individual_id=ID
+  sex_field=SEX
+  parent_id=P1
+  parent_id=P2
+  marker=M1
+  marker=M2
+  marker=M3
+}
+
+lodlink
+{
+  model, trait=M1
+  linkage_tests=true, sex_specific=false, homog=true
+  
+  homog_tests
+  {
+    smiths_test=false, sex_specific=false
+    mortons_test=false, sex_specific=true
+    {
+      group = first
+      {
+        pedigree_id=3
+        pedigree_id=1
+        pedigree_id=2
+      }
+      
+      group = third
+      {
+        pedigree_id=5
+        pedigree_id=4
+      }
+      
+      group = second
+      {
+        pedigree_id=6
+      }
+    }
+  }
+  
+  lods
+  {
+    option=none
+    sex_specific=true
+    male_female
+    {
+      theta, male=.1, female=.2
+      theta, male=.2, female=.3
+      theta, male=.3, female=.4
+    }
+  }
+}

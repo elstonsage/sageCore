@@ -1,0 +1,72 @@
+#########################################################################
+# This data file was generated using the config file 'temp.config'
+#########################################################################
+
+pedigree
+{
+  delimiter_mode = multiple
+  delimiters="	"
+  individual_missing_value="0"
+  sex_code, male="1", female="0", unknown="?"
+
+  pedigree_id   = FAM
+  individual_id = ID
+  parent_id     = MOTHER
+  parent_id     = FATHER
+  sex_field     = SEX
+
+  marker = MAR0, delimiter = /, name = MAR0, missing = MISS
+  marker = MAR1, delimiter = /, name = MAR1, missing = MISS
+  marker = MAR2, delimiter = /, name = MAR2, missing = MISS
+  marker = MAR3, delimiter = /, name = MAR3, missing = MISS
+  marker = MAR4, delimiter = /, name = MAR4, missing = MISS
+  marker = MAR5, delimiter = /, name = MAR5, missing = MISS
+  marker = MAR6, delimiter = /, name = MAR6, missing = MISS
+  marker = MAR7, delimiter = /, name = MAR7, missing = MISS
+  marker = MAR8, delimiter = /, name = MAR8, missing = MISS
+  marker = MAR9, delimiter = /, name = MAR9, missing = MISS
+  marker = MAR10, delimiter = /, name = MAR10, missing = MISS
+  marker = MAR11, delimiter = /, name = MAR11, missing = MISS
+  marker = MAR12, delimiter = /, name = MAR12, missing = MISS
+  marker = MAR13, delimiter = /, name = MAR13, missing = MISS
+  marker = MAR14, delimiter = /, name = MAR14, missing = MISS
+  marker = MAR15, delimiter = /, name = MAR15, missing = MISS
+  marker = MAR16, delimiter = /, name = MAR16, missing = MISS
+  marker = MAR17, delimiter = /, name = MAR17, missing = MISS
+  marker = MAR18, delimiter = /, name = MAR18, missing = MISS
+  marker = MAR19, delimiter = /, name = MAR19, missing = MISS
+  marker = MAR20, delimiter = /, name = MAR20, missing = MISS
+  trait_marker = SPECIAL_MAR54, delimiter = /, name = SPECIAL_MAR54, missing = MISS
+  trait_marker = SPECIAL_MAR101, delimiter = /, name = SPECIAL_MAR101, missing = MISS
+  trait_marker = SPECIAL_MAR197, delimiter = /, name = SPECIAL_MAR197, missing = MISS
+  trait_marker = UNLINKED, delimiter = /, name = UNLINKED, missing = MISS
+  trait_marker = SPECIAL_MAR54_T, missing = MISS
+  trait_marker = SPECIAL_MAR101_T, missing = MISS
+  trait_marker = SPECIAL_MAR197_T, missing = MISS
+  trait_marker = UNLINKED_T, missing = MISS
+}
+
+distance=0.1
+
+scan_type=intervals
+max_pedigree=18
+
+mlod=region1,out=test
+{
+  trait_marker = SPECIAL_MAR54
+  trait_marker = SPECIAL_MAR54_T
+  trait_marker = SPECIAL_MAR101
+  trait_marker = SPECIAL_MAR101_T
+  trait_marker = SPECIAL_MAR197
+  trait_marker = SPECIAL_MAR197_T
+  trait_marker = UNLINKED
+  trait_marker = UNLINKED_T
+
+  region=region1
+
+  max_size=14
+  scan_type=both
+  output_pedigrees=all
+  distance=0.1
+}
+

@@ -1,0 +1,23 @@
+genome
+{
+  region="Region 1"
+  {
+    marker=M1
+    distance=1
+    marker=M2
+    distance=1
+    marker=M3
+    distance=1
+    marker=M4
+    distance=1
+    marker=M5
+    distance=1
+    marker=M6
+    distance=1
+    marker=M7
+    distance=1
+    marker=M8
+    distance=1
+    marker=M9
+  }
+}

@@ -1,0 +1,29 @@
+pedigree
+{
+  delimiter_mode=multiple
+  delimiters=" "
+  sex_code,male="1"
+  sex_code,female="2"
+  sex_code,missing="-9"
+  individual_missing_value="-9"
+
+  pedigree_id=famid
+  individual_id=id
+  parent_id=dadid
+  parent_id=momid
+  sex_field=sex
+  trait=scan,binary,affected=1,unaffected=0,missing="-9"
+  marker=c1g1
+  marker=c1g2
+  marker=c1g3
+}
+
+pedinfo
+{
+  
+}
+
+lodlink
+{
+  model, marker=c1g1
+}

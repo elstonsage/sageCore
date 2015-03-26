@@ -1,0 +1,36 @@
+# This is a test
+
+test_header=item,NAME="Test Header"     ,    
+            VALUE="<HEAD>This is the header</HEAD>"
+
+
+x==1;x1==-1;
+y==1.0;y2==1.00001;;;;;;y3==10000001.;y4==10000001.1;y5==10e10;y6==-10e10
+y7==+10e10
+y8==-.000000001
+y9==+0.000000001
+z=="1!"
+
+test2=string,VALUE=4
+test=list
+{test2=list{test3=list{test4=list{}}}}
+
+
+test_doc = list, DISPLAY,NAME="Test document for Sample.lsf"
+{ test_header  ; test_body ; test_footer }
+ 
+test_header=item,NAME="Test Header"     ,    
+            VALUE="<HEAD>This is the header</HEAD>"
+ 
+test_body= list ,NAME="Test Body"
+{
+  =string ,VALUE= "<BODY>"
+}
+
+a=base ; b=int,VALUE=1 ; c==1 ;
+
+test_of_new_attrs=list,NAME="this is a string",INT=5,REAL=5.6,
+               POINTER=0x555565114AC
+
+test[$i]=item,NAME="$test[$i].name"
+=="test\n\test2\ntest\t\3\n"

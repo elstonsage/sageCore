@@ -1,0 +1,13 @@
+\BRIEF
+Miscellaneous S.A.G.E. Utilities
+\DOC_NAME
+util_main
+\DETAILED
+
+\#. Introduction
+
+The util module contains small to mid-sized utility elements which are
+general enough to be useful in more than one place, but small enough to not
+require their own module and unusual enough not to fit within any of the
+other existing modules.
+

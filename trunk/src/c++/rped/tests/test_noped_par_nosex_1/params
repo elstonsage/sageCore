@@ -1,0 +1,13 @@
+pedigree
+{
+  delimiter_mode = multiple
+  delimiters=" "
+  individual_missing_value="0"
+
+  parent_id=p1
+  parent_id=p2
+
+  individual_id=id
+
+  verbose = 1000
+}

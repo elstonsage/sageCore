@@ -1,0 +1,51 @@
+
+
+
+
+Family structure information on the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       SEX       PARENT1       PARENT2     
+     ------------  ------------  --------  ------------  ------------
+     7             A             M         0             0           
+     7             B             F         0             0           
+     7             1             M         A             B           
+     7             2             M         A             B           
+     7             3             F         A             B           
+     7             4             F         A             B           
+     7             C             M         0             0           
+     7             5             F         B             C           
+     7             6             M         B             C           
+     7             D             F         0             0           
+
+
+Phenotypes for the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       SEX_CODE              FAMILIAL_INDICATOR    FOUNDER_INDICATOR     PEDIGREE_SIZE         t1                    alc                 
+     ------------  ------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------
+     7             A             0                     1                     1                     15                    0                     1                   
+     7             B             1                     1                     1                     15                    0                     1                   
+     7             1             0                     1                     0                     15                    1                     1                   
+     7             2             0                     1                     0                     15                    2                     0                   
+     7             3             1                     1                     0                     15                    3                     0                   
+     7             4             1                     1                     0                     15                    2                     0                   
+     7             C             0                     1                     1                     15                    0                     0                   
+     7             5             1                     1                     0                     15                    5                     1                   
+     7             6             0                     1                     0                     15                    1                     0                   
+     7             D             1                     1                     1                     15                    0                     1                   
+
+
+Markers for the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       D3S1297     
+     ------------  ------------  ------------
+     7             A             0/0         
+     7             B             0/0         
+     7             1             219/227     
+     7             2             219/225     
+     7             3             219/225     
+     7             4             219/225     
+     7             C             225/223     
+     7             5             219/225     
+     7             6             227/225     
+     7             D             225/223     
+

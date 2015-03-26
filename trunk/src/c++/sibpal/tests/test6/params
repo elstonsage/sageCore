@@ -1,0 +1,207 @@
+#compute_empirical_pvalues=true,max_replicates=10
+use_pair_cache=true
+#csv_output=true
+#dump_pairs
+
+#max_iterations=10
+
+pedigree
+{
+        delimiter_mode=multiple
+	delimiters=" "
+	pedigree_id=fam
+	individual_id=id
+	parent_id=mom
+	parent_id=dad
+        sex_field=sex
+	individual_missing_value="0"
+	sex_code,male=1, female=2
+	trait="sqrtdbh", missing="-1",name="Square Root DBH"
+        #marker=abo
+        #marker=ak1
+        #marker=orm
+}
+
+# GENIBD PARAMETERS
+ibd_mode=singlepoint
+
+#SIBPAL2 PARAMETERS
+
+standardize_parameters=false
+standardize_markers=false
+wide_output=true
+
+mean_test
+
+ntraitregression,single
+{
+  trait="Square Root DBH"
+  regression_method=diff
+  marker=abo
+  marker=ak1
+  marker=orm
+}
+
+ntraitregression,single
+{
+  trait="Square Root DBH"
+  regression_method=sum
+  marker=abo
+  marker=ak1
+  marker=orm
+}
+
+ntraitregression,single
+{
+  trait="Square Root DBH"
+  regression_method=prod
+  marker=abo
+  marker=ak1
+  marker=orm
+}
+
+trait_regression,single
+{
+  regression_method=w3
+  trait="Square Root DBH"
+  marker=abo
+  marker=ak1
+  marker=orm
+  dump_data = abo
+  print_design_matrix = abo, rows = all
+  print_correlation_matrix = abo
+}
+
+ntraitregression
+{
+  regression_method=diff
+  trait="Square Root DBH"
+  marker=abo
+  marker=ak1
+  marker=orm
+}
+
+ntraitregression
+{
+  regression_method=w3
+  trait="Square Root DBH"
+  marker=abo
+  marker=ak1
+  marker=orm
+}
+
+mtrait_regression,multiple
+{
+  regression_method=diff
+  trait="Square Root DBH"
+  marker=abo,dom
+}
+
+ntraitregression,multiple
+{
+  regression_method=diff
+  trait="Square Root DBH"
+  marker=ak1,dom
+}
+
+ntraitregression,multiple
+{
+  regression_method=diff
+  trait="Square Root DBH"
+  marker=orm,dom
+}
+
+ntraitregression,multiple
+{
+  regression_method=diff
+  trait="Square Root DBH"
+  marker=abo,dom
+}
+
+ntraitregression,multiple
+{
+  regression_method=diff
+  trait="Square Root DBH"
+  marker=ak1,dom
+}
+
+ntraitregression,multiple
+{
+  regression_method=w3
+  trait="Square Root DBH"
+  marker=orm,dom
+}
+
+ntraitregression,multiple
+{
+  regression_method=w3
+  trait="Square Root DBH"
+  marker=abo,dom
+}
+
+ntraitregression,multiple
+{
+  regression_method=w3
+  trait="Square Root DBH"
+  marker=ak1,dom
+}
+
+ntraitregression,multiple
+{
+  regression_method=w3
+  trait="Square Root DBH"
+  marker=orm,dom
+}
+
+ntraitregression,multiple
+{
+  regression_method=diff
+  trait="Square Root DBH"
+  marker=abo
+  marker=ak1
+  marker=orm
+
+  interaction
+  {
+    marker=abo
+    marker=ak1
+  }
+}
+
+ntraitregression,multiple
+{
+  regression_method=w3
+  trait="Square Root DBH"
+  marker=abo
+  marker=ak1
+  marker=orm
+
+  interaction
+  {
+    marker=abo
+    marker=ak1
+  }
+}
+
+ntraitregression,multiple
+{
+  regression_method=diff
+  trait="Square Root DBH"
+  marker=abo
+  marker=ak1
+  marker=orm
+}
+
+ntraitregression,multiple
+{
+  regression_method=w3
+  trait="Square Root DBH"
+  marker=abo
+  marker=ak1
+  marker=orm
+}
+
+noarp_test
+{
+  trait="Square Root DBH"
+}

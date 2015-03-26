@@ -1,0 +1,96 @@
+=================
+
+     Results
+
+=================
+
+Note: P-values for variance components and proportions are one-sided.  All others are two-sided.
+The null hypothesis for transformation parameters is 'no transformation.'
+
+
+==============================
+     Analysis description
+==============================
+
+  Title                        assoc1                        
+  Primary Trait                PHEN (Quantitative)           
+  Allow averaging              Disabled                      
+  Omit complete summary table  Disabled                      
+  Summary table display order  By LRT p-value                
+  Summary filter               Show no more than 10 results  
+
+======================================
+     Transformation configuration
+======================================
+
+
+
+Note: No transformation applied.
+
+==========================
+
+     Model 'Baseline'
+
+==========================
+
+============================
+     Sample description
+============================
+
+  Number of individuals in dataset                                   8  
+  Number of constituent pedigrees in dataset                         2  
+  Number of singletons in dataset                                    0  
+                                                                        
+  Number of constituent pedigree members with complete information   8  
+  Number of singletons with complete information                     0  
+                                                                        
+
+===============================================================
+     MAXIMIZATION RESULTS Baseline without test covariates
+===============================================================
+
+-----------------------------------------------------------------------------
+  Parameter                  Estimate   S.E.       P-value    Deriv          
+-----------------------------------------------------------------------------
+  Variance components
+                     Random   0.140308   0.081005   0.083257   0.0004652422  
+                     Family   0.117804   0.154218   0.222470  -0.0000944427  
+
+  Other parameters
+             Total variance   0.258112   0.164512   0.116658  -0.0000011211  
+
+  Residual familial correlations
+         Res full sibs corr   0.456407   0.371783   0.219592   0.0000000000  
+         Res half sibs corr   0.456407   0.371783   0.219592   0.0000000000  
+  Res parent offspring corr   0.456407   0.371783   0.219592   0.0000000000  
+   Res marital(spouse) corr   0.456407   0.371783   0.219592   0.0000000000  
+
+  Environmental intraclass correlations
+    Env nuclear family corr   0.456407   0.371783   0.219592   0.0000000000  
+   Env marital(spouse) corr   0.456407   0.371783   0.219592   0.0000000000  
+         Env full sibs corr   0.456407   0.371783   0.219592   0.0000000000  
+
+                  Intercept   0.491715   0.276479   0.075323   0.0000000000  
+-----------------------------------------------------------------------------
+
+Final ln likelihood: -21.508914
+
+=====================================================================
+     VARIANCE-COVARIANCE MATRIX Baseline without test covariates
+=====================================================================
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                             Random     Family     Total variance  Res full sibs corr  Res half sibs corr  Res parent offspring corr  Res marital(spouse) corr  Env nuclear family corr  Env marital(spouse) corr  Env full sibs corr  Intercept  
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  Random                      0.006562  -0.001640   0.004921       -0.015058           -0.015058           -0.015058                  -0.015058                 -0.015058                -0.015058                 -0.015058            2.46e-12  
+  Family                     -0.001640   0.023783   0.022143        0.052989            0.052989            0.052989                   0.052989                  0.052989                 0.052989                  0.052989           -5.14e-08  
+  Total variance              0.004921   0.022143   0.027064        0.037931            0.037931            0.037931                   0.037931                  0.037931                 0.037931                  0.037931           -5.14e-08  
+  Res full sibs corr         -0.015058   0.052989   0.037931        0.138223            0.138223            0.138223                   0.138223                  0.138223                 0.138223                  0.138223           -1.08e-07  
+  Res half sibs corr         -0.015058   0.052989   0.037931        0.138223            0.138223            0.138223                   0.138223                  0.138223                 0.138223                  0.138223           -1.08e-07  
+  Res parent offspring corr  -0.015058   0.052989   0.037931        0.138223            0.138223            0.138223                   0.138223                  0.138223                 0.138223                  0.138223           -1.08e-07  
+  Res marital(spouse) corr   -0.015058   0.052989   0.037931        0.138223            0.138223            0.138223                   0.138223                  0.138223                 0.138223                  0.138223           -1.08e-07  
+  Env nuclear family corr    -0.015058   0.052989   0.037931        0.138223            0.138223            0.138223                   0.138223                  0.138223                 0.138223                  0.138223           -1.08e-07  
+  Env marital(spouse) corr   -0.015058   0.052989   0.037931        0.138223            0.138223            0.138223                   0.138223                  0.138223                 0.138223                  0.138223           -1.08e-07  
+  Env full sibs corr         -0.015058   0.052989   0.037931        0.138223            0.138223            0.138223                   0.138223                  0.138223                 0.138223                  0.138223           -1.08e-07  
+  Intercept                   2.46e-12  -5.14e-08  -5.14e-08       -1.08e-07           -1.08e-07           -1.08e-07                  -1.08e-07                 -1.08e-07                -1.08e-07                 -1.08e-07            0.076440  
+

@@ -1,0 +1,7 @@
+genome
+{
+  region=region1
+  {
+    marker=M1
+  }
+}

@@ -1,0 +1,54 @@
+
+
+
+===============================
+LODLINK Analysis 2 SUMMARY FILE
+===============================
+
+
+Options Selected
+================
+Main locus type                          trait
+Main locus name                          T1
+
+Lod scores                               no
+
+Linkage tests                            yes
+  Sex-specific recombination fractions   yes
+  Assume homogeneity                     no
+
+Smith's test for homogeneity             yes
+  Sex-specific recombination fractions   yes
+
+Morton's test for homogeneity            no
+
+Genotype probabilities                   no
+
+
+Results
+=======
+
+
+
+
+                  Faraway's Linkage Test        
+                                                
+                                                
+Locus             Male Rc        Female Rc      Est       Lod            Chi            P-Value        
+                  Fract in       Fract in       Linkage   Score          Square                        
+                  [0, .5]        [0, .5]        Prop                     Stat                          
+---------------   ------------   ------------   -------   ------------   ------------   ------------   
+M1                    0.322035       0.129746    0.746589       3.514872      16.186583       0.000611   
+M2                    0.424988       0.051580    0.636931       8.055115      37.095176       1.76e-08   
+
+
+
+                  Smith's Homogeneity Test      
+                                                
+                                                
+Locus             Male Rc        Female Rc      Est       Chi            P-Value        
+                  Fract in       Fract in       Linkage   Square                        
+                  [0, .5]        [0, .5]        Prop      Stat                          
+---------------   ------------   ------------   -------   ------------   ------------   
+M1                    0.322035       0.129746    0.746589       0.239084       0.887327   
+M2                    0.424988       0.051580    0.636931       0.933098       0.627163   

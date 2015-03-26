@@ -1,0 +1,73 @@
+pedigree
+{
+  delimiters=" "
+  delimiter_mode=multiple
+
+  individual_missing_value="0"
+  sex_code,male="m",female="f",unknown="?"
+
+  pedigree_id=FamID
+  individual_id=ID
+  parent_id=ParentID1
+  parent_id=ParentID2
+  sex_field=Gender
+
+  trait=X1,missing="-999"
+  trait=X2,missing="-999"
+  trait=X3,missing="-999"
+
+  covariate=covariate
+
+  marker=marker,name=marker
+}
+
+relpal
+{
+  model = single_marker
+
+  trait=X1
+  trait=X2
+  trait=X3
+
+  first_level
+  {
+    covariate=covariate
+    transform=false
+  }
+
+  output_options
+  {
+    detailed_out = true
+    wide_out = true
+  }
+
+  pvalue = true
+  {
+    seed = 100
+  }
+}
+
+relpal
+{
+  model = single_marker
+
+  trait=X1
+  trait=X2
+  trait=X3
+
+  first_level
+  {
+    covariate=covariate
+  }
+
+  output_options
+  {
+    detailed_out = true
+    export_out = true
+  }
+
+  pvalue = true
+  {
+    seed = 100
+  }
+}

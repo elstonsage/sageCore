@@ -1,0 +1,37 @@
+marker
+{
+  allele_missing = "?"
+  allele_delimiter = "/"
+  covariate_moi = add
+  covariate_allele = A
+}
+
+pedigree
+{
+  delimiters = " "
+  delimiter_mode = multiple
+  individual_missing_value = "0"
+
+  # Family Structure
+
+  pedigree_id = pid
+  individual_id = id
+  parent_id = did
+  parent_id = mid
+  sex_field = sex
+
+  sex_code,male=1,female=2, trait
+
+  # Phenotypes
+
+  trait=Q1,missing=""
+  trait=Q2,missing=""
+
+  covariate=M1, missing="."
+  covariate_list, start=M2, end=M5, missing="."
+}
+
+function
+{
+  trait = logM5, expression="log(M5)"
+}

@@ -1,0 +1,162 @@
+
+
+
+%SEGREG-W: [34] Unrecognized value for trait 'COV' for individual '11' in
+           pedigree '4'.  Found '3'.
+%SEGREG-W: [35] Unrecognized value for trait 'COV' for individual '12' in
+           pedigree '4'.  Found '3'.
+%SEGREG-W: [36] Unrecognized value for trait 'COV' for individual '13' in
+           pedigree '4'.  Found '3'.
+%SEGREG-W: [37] Unrecognized value for trait 'COV' for individual '1' in
+           pedigree '4'.  Found '3'.
+%SEGREG-W: [38] Unrecognized value for trait 'COV' for individual '2' in
+           pedigree '4'.  Found '3'.
+%SEGREG-W: [39] Unrecognized value for trait 'COV' for individual '3' in
+           pedigree '4'.  Found '3'.
+
+Family structure information on the first 10 individuals read from file: fam
+
+     PED. ID       IND. ID       SEX       PARENT1       PARENT2     
+     ------------  ------------  --------  ------------  ------------
+     1             11            M         0             0           
+     1             12            F         0             0           
+     1             1             M         0             0           
+     1             2             F         0             0           
+     1             3             M         0             0           
+     1             4             M         0             0           
+     1             5             M         0             0           
+     1             6             M         0             0           
+     1             7             M         0             0           
+     1             8             F         0             0           
+
+
+Phenotypes for the first 10 individuals read from file: fam
+
+     PED. ID       IND. ID       SEX_CODE              FAMILIAL_INDICATOR    FOUNDER_INDICATOR     PEDIGREE_SIZE         TRAIT                 COV                   AGE                   AFFECTION           
+     ------------  ------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------
+     1             11            0                     1                     1                     12                    3.2                   9                     3                     0                   
+     1             12            1                     1                     1                     12                    5                     9                     3                     0                   
+     1             1             0                     1                     1                     12                    3                     0                     3                     0                   
+     1             2             1                     1                     1                     12                    3                     1                     3                     1                   
+     1             3             0                     1                     1                     12                    3                     0                     3                     0                   
+     1             4             0                     1                     1                     12                    3                     1                     3                     1                   
+     1             5             0                     1                     1                     12                    4                     0                     4                     0                   
+     1             6             0                     1                     1                     12                    4                     1                     4                     1                   
+     1             7             0                     1                     1                     12                    2                     0                     2                     0                   
+     1             8             1                     1                     1                     12                    2                     1                     2                     1                   
+
+
+Parsing Segreg Analyses...
+
+Beginning new analysis block....
+
+
+Parsing Analysis: 'SEGREG Analysis 1'....
+
+
+Analysis parsing complete.  Analysis valid.
+------------------------------------------------------------------------------
+
+Beginning new analysis block....
+
+
+Parsing Analysis: 'SEGREG Analysis 2'....
+
+
+Analysis parsing complete.  Analysis valid.
+------------------------------------------------------------------------------
+
+Beginning new analysis block....
+
+
+Parsing Analysis: 'SEGREG Analysis 3'....
+
+
+Analysis parsing complete.  Analysis valid.
+------------------------------------------------------------------------------
+
+Beginning new analysis block....
+
+
+Parsing Analysis: 'SEGREG Analysis 4'....
+
+
+Analysis parsing complete.  Analysis valid.
+------------------------------------------------------------------------------
+
+Beginning new analysis block....
+
+
+Parsing Analysis: 'SEGREG Analysis 5'....
+
+
+Analysis parsing complete.  Analysis valid.
+------------------------------------------------------------------------------
+
+Beginning new analysis block....
+
+
+Parsing Analysis: 'SEGREG Analysis 6'....
+
+
+Analysis parsing complete.  Analysis valid.
+------------------------------------------------------------------------------
+
+  Performing analysis: SEGREG Analysis 1
+  ===========================================================================
+
+        Testing model............................................Done.
+        Performing Maximization..................................Done.
+        Finalizing Model.........................................Done.
+
+  ===========================================================================
+
+  Performing analysis: SEGREG Analysis 2
+  ===========================================================================
+
+        Testing model............................................Done.
+        Performing Maximization..................................Done.
+        Finalizing Model.........................................Done.
+
+  ===========================================================================
+
+  Performing analysis: SEGREG Analysis 3
+  ===========================================================================
+
+%SEGREG-E: The transmission/segregation model given requires that there be
+           pedigree structures in the sample to be analyzed, but no valid
+           structures have been detected in this sample.  Analysis is invalid
+           and will be discontinued.
+
+  ===========================================================================
+
+  Performing analysis: SEGREG Analysis 4
+  ===========================================================================
+
+%SEGREG-E: The transmission/segregation model given requires that there be
+           pedigree structures in the sample to be analyzed, but no valid
+           structures have been detected in this sample.  Analysis is invalid
+           and will be discontinued.
+
+  ===========================================================================
+
+  Performing analysis: SEGREG Analysis 5
+  ===========================================================================
+
+%SEGREG-E: The transmission/segregation model given requires that there be
+           pedigree structures in the sample to be analyzed, but no valid
+           structures have been detected in this sample.  Analysis is invalid
+           and will be discontinued.
+
+  ===========================================================================
+
+  Performing analysis: SEGREG Analysis 6
+  ===========================================================================
+
+%SEGREG-E: The transmission/segregation model given requires that there be
+           pedigree structures in the sample to be analyzed, but no valid
+           structures have been detected in this sample.  Analysis is invalid
+           and will be discontinued.
+
+  ===========================================================================
+

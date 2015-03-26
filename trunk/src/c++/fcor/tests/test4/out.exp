@@ -1,0 +1,26 @@
+
+
+
+Reading Parameter File....................done.
+Reading Pedigree File.....................
+              from simul.dat..............done.
+Sorting Pedigrees.........................done.
+
+FCOR analysis........  1
+
+Computing subtype correlations............done.
+Computing standard errors.................done.
+
+Computing main type correlations..........done.
+Computing standard errors.................done.
+
+Peforming homogeneity test................done.
+Writing output files......................done.
+
+Computing variance-covariance matrices....done.
+Writing output files......................done.
+
+Analysis complete!
+
+
+

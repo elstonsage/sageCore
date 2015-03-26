@@ -1,0 +1,1024 @@
+Testing Parsing stuff...
+
+
+Reading Parameter File....................done.
+Reading Pedigree File.....................
+              from ped....................done.
+Sorting Pedigrees.........................done.
+
+=================================================
+
+ENCOUNTERED TYPE_MEAN SUBMODEL
+
+type_mean,COMMENT="OPTION=ONE, but at least two different values" \
+          " given"
+{
+  option=string,VALUE=one
+  mean=string,VALUE=AA,VAL=0.1
+  mean=string,VALUE=AB,VAL=0.2
+}
+Inconsistency in type_mean subblock:
+OPTION=ONE, but at least two different values given
+Ignoring subblock...
+
+=================================================
+
+ENCOUNTERED TYPE_MEAN SUBMODEL
+
+type_mean,
+          COMMENT="OPTION=TWO_DOM, but different values given for AA and" \
+          " AB"
+{
+  option=string,VALUE=two_dom
+  mean=string,VALUE=AA,VAL=".6"
+  mean=string,VALUE=AB,VAL=".2"
+}
+Inconsistency in type_mean subblock:
+OPTION=TWO_DOM, but different values given for AA and AB
+Ignoring subblock...
+
+=================================================
+
+ENCOUNTERED TYPE_MEAN SUBMODEL
+
+type_mean,COMMENT="OPTION=TWO or OPTION=TWO_DOM, valid value given ford" \
+          "ominant type (AA/AB), but no value given for recessive type (BB)"
+{
+  option=string,VALUE=two_dom
+  mean=string,VALUE=AA,VAL=0.7
+}
+Inconsistency in type_mean subblock:
+OPTION=TWO/TWO_DOM/TWO_REC, but one one value specified
+Ignoring subblock...
+
+=================================================
+
+ENCOUNTERED TYPE_MEAN SUBMODEL
+
+type_mean,
+          COMMENT="OPTION=TWO_REC, but different values given for AB and" \
+          " BB"
+{
+  option=string,VALUE=two_rec
+  mean=string,VALUE=AB,VAL=0.3
+  mean=string,VALUE=BB,VAL=0.5
+}
+Inconsistency in type_mean subblock:
+OPTION=TWO_REC, but different values given for AB and BB
+Ignoring subblock...
+
+=================================================
+
+ENCOUNTERED TYPE_MEAN SUBMODEL
+
+type_mean,COMMENT="OPTION=TWO_REC, valid value given for dominant type(" \
+          "AB/BB), but no value given for recessive type (AA)"
+{
+  option=string,VALUE=two_rec
+  mean=string,VALUE=AB,VAL=0.5
+}
+Inconsistency in type_mean subblock:
+OPTION=TWO/TWO_DOM/TWO_REC, but one one value specified
+Ignoring subblock...
+
+=================================================
+
+ENCOUNTERED TYPE_MEAN SUBMODEL
+
+type_mean,
+          COMMENT="OPTION=TWO/TWO_DOM/TWO_REC, but one one value specified"
+{
+  option=string,VALUE=two
+  mean=string,VALUE=AA,VAL=0
+}
+Inconsistency in type_mean subblock:
+OPTION=TWO/TWO_DOM/TWO_REC, but one one value specified
+Ignoring subblock...
+
+=================================================
+
+ENCOUNTERED TYPE_MEAN SUBMODEL
+
+type_mean,COMMENT="OPTION=THREE_ADD, three values given, but do not mee" \
+          "t relational requirement"
+{
+  option=string,VALUE=three_add
+  mean=string,VALUE=AA,VAL=0.5
+  mean=string,VALUE=BB,VAL=1.5
+  mean=string,VALUE=AB,VAL=0.9
+}
+Inconsistency in type_mean subblock:
+OPTION=THREE_ADD, three values given, but do not meet relational requirement
+Ignoring subblock...
+
+=================================================
+
+ENCOUNTERED TYPE_MEAN SUBMODEL
+
+type_mean,COMMENT="OPTION=THREE_DEC, three values given, but do not mee" \
+          "t relational requirement"
+{
+  option=string,VALUE=three_dec
+  mean=string,VALUE=AA,VAL=0.5
+  mean=string,VALUE=AB,VAL=1.5
+  mean=string,VALUE=BB,VAL=0.9
+}
+Inconsistency in type_mean subblock:
+OPTION=THREE_DEC, three values given, but do not meet relational requirement
+Ignoring subblock...
+
+=================================================
+
+ENCOUNTERED TYPE_MEAN SUBMODEL
+
+type_mean,COMMENT="OPTION=THREE_INC, three values given, but do not mee" \
+          "t relational requirement"
+{
+  option=string,VALUE=three_inc
+  mean=string,VALUE=AA,VAL=0.5
+  mean=string,VALUE=AB,VAL=1.5
+  mean=string,VALUE=BB,VAL=0.9
+}
+Inconsistency in type_mean subblock:
+OPTION=THREE_INC, three values given, but do not meet relational requirement
+Ignoring subblock...
+
+=================================================
+
+ENCOUNTERED TYPE_MEAN SUBMODEL
+
+type_mean,COMMENT="OPTION=THREE_ADD/THREE_DEC/THREE_INC, at least one v" \
+          "alue given but not all three"
+{
+  option=string,VALUE=three_dec
+  mean=string,VALUE=AA,VAL=0.5
+}
+Inconsistency in type_mean subblock:
+OPTION=THREE_ADD/THREE_DEC/THREE_INC, at least one value given but not all
+three
+Ignoring subblock...
+
+=================================================
+
+ENCOUNTERED TYPE_MEAN SUBMODEL
+
+type_mean,COMMENT="OPTION=TWO, but three different values given"
+{
+  option=string,VALUE=two
+  mean=string,VALUE=AA,VAL=0.1
+  mean=string,VALUE=AB,VAL=0.2
+  mean=string,VALUE=BB,VAL=0.3
+}
+Inconsistency in type_mean subblock:
+OPTION=TWO, but three different values given
+Ignoring subblock...
+
+=================================================
+
+ENCOUNTERED TYPE_MEAN SUBMODEL
+
+type_mean,COMMENT="OPTION=TWO, AA equals AB, but BB not given; not sure" \
+          " how to interpret this"
+{
+  option=string,VALUE=two
+  mean=string,VALUE=AA,VAL=0.1
+  mean=string,VALUE=AB,VAL=0.1
+}
+Inconsistency in type_mean subblock:
+OPTION=TWO, AA equals AB, but BB not given; not sure how to interpret this
+Ignoring subblock...
+
+=================================================
+
+ENCOUNTERED TYPE_MEAN SUBMODEL
+
+type_mean,COMMENT="OPTION=TWO, AB equals BB, but AA not given; not sure" \
+          " how to interpret this"
+{
+  option=string,VALUE=two
+  mean=string,VALUE=AB,VAL=0.1
+  mean=string,VALUE=BB,VAL=0.1
+}
+Inconsistency in type_mean subblock:
+OPTION=TWO, AB equals BB, but AA not given; not sure how to interpret this
+Ignoring subblock...
+
+=================================================
+
+ENCOUNTERED TYPE_MEAN SUBMODEL
+
+type_mean,COMMENT="OPTION=TWO, AA equals BB, and AB != AA or BB; not su" \
+          "re how to interpret this"
+{
+  option=string,VALUE=two
+  mean=string,VALUE=AA,VAL=0.1
+  mean=string,VALUE=AB,VAL=0.2
+  mean=string,VALUE=BB,VAL=0.1
+}
+Inconsistency in type_mean subblock:
+OPTION=TWO, AA equals BB, and AB != AA or BB; not sure how to interpret this
+Ignoring subblock...
+
+=================================================
+
+ENCOUNTERED TYPE_VAR SUBMODEL
+
+type_var,
+         COMMENT="Variance sub-block indicated, value less than zero given"
+{
+  option=string,VALUE=one
+  var=string,VALUE=AA,VAL=-5
+}
+Inconsistency in type_var subblock:
+Variance sub-block indicated, value less than zero given
+Ignoring subblock...
+
+=================================================
+
+ENCOUNTERED TYPE_MEAN SUBMODEL
+
+type_mean,COMMENT="OPTION=TWO, AA and BB are given but not equal; inter" \
+          "preting as default behavior given by getDefaultTwoTreatment()"
+{
+  option=string,VALUE=two
+  mean=string,VALUE=AA,VAL=0.1
+  mean=string,VALUE=BB,VAL=0.3
+}
+Unclear statement in type_mean subblock:
+OPTION=TWO, AA and BB are given but not equal; interpreting as two_dom
+# mean
+type_mean
+{
+  # 
+  option=two# interpreted as two_dom
+  mean=AA, val=0.1, fixed=false
+  mean=AB, val=0.1, fixed=false
+  mean=BB, val=0.3, fixed=false
+}
+
+=================================================
+
+ENCOUNTERED TYPE_MEAN SUBMODEL
+
+type_mean,COMMENT="OPTION=TWO, AB and BB are given but not equal; inter" \
+          "preting as TWO_DOM"
+{
+  option=string,VALUE=two
+  mean=string,VALUE=AB,VAL=0.2
+  mean=string,VALUE=BB,VAL=0.6
+}
+Unclear statement in type_mean subblock:
+OPTION=TWO, AB and BB are given but not equal; interpreting as TWO_DOM
+# mean
+type_mean
+{
+  # 
+  option=two# interpreted as two_dom
+  mean=AA, val=0.2, fixed=false
+  mean=AB, val=0.2, fixed=false
+  mean=BB, val=0.6, fixed=false
+}
+
+=================================================
+
+ENCOUNTERED TYPE_MEAN SUBMODEL
+
+type_mean,COMMENT="OPTION=ONE, at least two different fixedness statuse" \
+          "s given"
+{
+  option=string,VALUE=one
+  mean=string,VALUE=AA,VAL=0.5,FIXED=true
+  mean=string,VALUE=AB,VAL=0.5,FIXED=false
+}
+Inconsistency in type_mean subblock:
+OPTION=ONE, at least two different fixedness statuses given
+Ignoring subblock...
+
+=================================================
+
+ENCOUNTERED TYPE_MEAN SUBMODEL
+
+type_mean,COMMENT="OPTION=TWO (interpreted as TWO_DOM) or TWO_DOM, conf" \
+          "licting fixed status given for AA and AB"
+{
+  option=string,VALUE=two_dom
+  mean=string,VALUE=AA,VAL=0.5,FIXED=true
+  mean=string,VALUE=AB,VAL=0.5,FIXED=false
+  mean=string,VALUE=BB,VAL=0.6
+}
+Inconsistency in type_mean subblock:
+OPTION=TWO (interpreted as TWO_DOM) or TWO_DOM, conflicting fixed status given
+for AA and AB
+Ignoring subblock...
+
+=================================================
+
+ENCOUNTERED TYPE_MEAN SUBMODEL
+
+type_mean,COMMENT="OPTION=TWO (interpreted as TWO_REC) or TWO_REC, conf" \
+          "licting fixed status given for AB and BB"
+{
+  option=string,VALUE=two_rec
+  mean=string,VALUE=AA,VAL=0.6
+  mean=string,VALUE=AB,VAL=0.5,FIXED=true
+  mean=string,VALUE=BB,VAL=0.5,FIXED=false
+}
+Inconsistency in type_mean subblock:
+OPTION=TWO (interpreted as TWO_REC) or TWO_REC, conflicting fixed status given
+for AB and BB
+Ignoring subblock...
+
+=================================================
+
+ENCOUNTERED TYPE_MEAN SUBMODEL
+
+type_mean,NO_ERROR_INTENDED="If no values given, then parsing succeeds" \"."
+{
+  option=string,VALUE=one
+}
+# mean
+type_mean
+{
+  # 
+  option=one
+  mean=AA, val=NaNQ, fixed=false
+  mean=AB, val=NaNQ, fixed=false
+  mean=BB, val=NaNQ, fixed=false
+}
+
+=================================================
+
+ENCOUNTERED TYPE_MEAN SUBMODEL
+
+type_mean,NO_ERROR_INTENDED="OPTION=ONE, If all given values are identi" \
+          "cal, then parsing succeeds."
+{
+  option=string,VALUE=one
+  mean=string,VALUE=AA,VAL=0.1
+  mean=string,VALUE=AB,VAL=0.1
+  mean=string,VALUE=BB,VAL=0.1
+}
+# mean
+type_mean
+{
+  # 
+  option=one
+  mean=AA, val=0.1, fixed=false
+  mean=AB, val=0.1, fixed=false
+  mean=BB, val=0.1, fixed=false
+}
+
+=================================================
+
+ENCOUNTERED TYPE_MEAN SUBMODEL
+
+type_mean,NO_ERROR_INTENDED="OPTION=TWO, If AA and BB are given, and AA" \
+          " == BB, then the option is interpreted as getDefaultTwoTreatment()" \
+          ", and AB = AA."
+{
+  option=string,VALUE=two
+  mean=string,VALUE=AA,VAL=0.1
+  mean=string,VALUE=BB,VAL=0.1
+}
+# mean
+type_mean
+{
+  # 
+  option=two# interpreted as two_dom
+  mean=AA, val=0.1, fixed=false
+  mean=AB, val=0.1, fixed=false
+  mean=BB, val=0.1, fixed=false
+}
+
+=================================================
+
+ENCOUNTERED TYPE_MEAN SUBMODEL
+
+type_mean,NO_ERROR_INTENDED="OPTION=TWO, If AA and BB are given, and AA" \
+          " != BB, then the option is interpreted as getDefaultTwoTreatment()" \
+          ", and AB = the appropriate value."
+{
+  option=string,VALUE=two
+  mean=string,VALUE=AA,VAL=0.1
+  mean=string,VALUE=BB,VAL=0.3
+}
+Unclear statement in type_mean subblock:
+OPTION=TWO, AA and BB are given but not equal; interpreting as two_dom
+# mean
+type_mean
+{
+  # 
+  option=two# interpreted as two_dom
+  mean=AA, val=0.1, fixed=false
+  mean=AB, val=0.1, fixed=false
+  mean=BB, val=0.3, fixed=false
+}
+
+=================================================
+
+ENCOUNTERED TYPE_MEAN SUBMODEL
+
+type_mean,NO_ERROR_INTENDED="OPTION=TWO, If all values are given, and a" \
+          "ll values are the same, then the option is interpreted as getDefau" \
+          "ltTwoTreatment()."
+{
+  option=string,VALUE=two
+  mean=string,VALUE=AA,VAL=0.1
+  mean=string,VALUE=AB,VAL=0.1
+  mean=string,VALUE=BB,VAL=0.1
+}
+# mean
+type_mean
+{
+  # 
+  option=two# interpreted as two_dom
+  mean=AA, val=0.1, fixed=false
+  mean=AB, val=0.1, fixed=false
+  mean=BB, val=0.1, fixed=false
+}
+
+=================================================
+
+ENCOUNTERED TYPE_MEAN SUBMODEL
+
+type_mean,NO_ERROR_INTENDED="OPTION=TWO, If all values are given, AA ==" \
+          " AB, AA != BB, then the option is interpreted as TWO_DOM."
+{
+  option=string,VALUE=two
+  mean=string,VALUE=AA,VAL=0.1
+  mean=string,VALUE=AB,VAL=0.1
+  mean=string,VALUE=BB,VAL=0.2
+}
+# mean
+type_mean
+{
+  # 
+  option=two# interpreted as two_dom
+  mean=AA, val=0.1, fixed=false
+  mean=AB, val=0.1, fixed=false
+  mean=BB, val=0.2, fixed=false
+}
+
+=================================================
+
+ENCOUNTERED TYPE_MEAN SUBMODEL
+
+type_mean,NO_ERROR_INTENDED="OPTION=TWO, If all values are given, AB ==" \
+          " BB, AA != AB, then the option is interpreted as TWO_REC."
+{
+  option=string,VALUE=two
+  mean=string,VALUE=AA,VAL=0.1
+  mean=string,VALUE=AB,VAL=0.2
+  mean=string,VALUE=BB,VAL=0.2
+}
+# mean
+type_mean
+{
+  # 
+  option=two# interpreted as two_rec
+  mean=AA, val=0.1, fixed=false
+  mean=AB, val=0.2, fixed=false
+  mean=BB, val=0.2, fixed=false
+}
+
+=================================================
+
+ENCOUNTERED TYPE_MEAN SUBMODEL
+
+type_mean,NO_ERROR_INTENDED="OPTION=TWO_DOM, If AA or AB is given, and " \
+          "BB is given, then AA or AB (whichever is missing) is assigned to t" \
+          "he appropriate value."
+{
+  option=string,VALUE=two_dom
+  mean=string,VALUE=AA,VAL=0.1
+  mean=string,VALUE=BB,VAL=0.3
+}
+# mean
+type_mean
+{
+  # 
+  option=two_dom
+  mean=AA, val=0.1, fixed=false
+  mean=AB, val=0.1, fixed=false
+  mean=BB, val=0.3, fixed=false
+}
+
+=================================================
+
+ENCOUNTERED TYPE_MEAN SUBMODEL
+
+type_mean,NO_ERROR_INTENDED="OPTION=TWO_REC, If AB or BB is given, and " \
+          "AA is given, then AB or BB (whichever is missing) is assigned to t" \
+          "he appropriate value."
+{
+  option=string,VALUE=two_rec
+  mean=string,VALUE=AA,VAL=0.1
+  mean=string,VALUE=BB,VAL=0.3
+}
+# mean
+type_mean
+{
+  # 
+  option=two_rec
+  mean=AA, val=0.1, fixed=false
+  mean=AB, val=0.3, fixed=false
+  mean=BB, val=0.3, fixed=false
+}
+
+Testing mean/variance incompatibility stuff...
+
+Inconsistency in type_mean / type_var subblocks:
+Number of variances (three) exceeds number of means (one)
+Testing maximization stuff...
+
+Evaluate once: 0.506924
+SequenceTemplateEnum = 1, Default
+
+================= MAXIMIZATION 0 (0 - 3) Maxtest ================
+
+MAXFUN INPUT
+============
+
+method         = Direct search without 2^Ni-trial search
+control_option = unconditional, Do unconditionally.
+max_iterations = 1
+Please note that this number is actually multiplied 
+by the total number of parameters before maximization
+begins.
+
+epsilon1       = 0.001
+epsilon2       = 1e-12
+epsilon_delta  = Default (see documentation)
+epsilon_trunc  = Default (see documentation)
+var_cov        = Default (see documentation)
+second_deriv   = Default (see documentation)
+stepsize       = Default (see documentation)
+
+Parameter                     Initial type                  Initial estimate
+=========                     ============                  ================
+mean_AA                       Independent functional        -3                  
+mean_AB                       Independent functional        0                   
+mean_BB                       Independent functional        3                   
+var                           Fixed                         1                   
+
+MAXFUN RUNTIME OUTPUT
+=====================
+
+iter.     f(...)       mean_AA     mean_AB     mean_BB     var         
+-----     ------       ---------   ---------   ---------   ---------   
+Initial function evaluation:
+1         0.506924     -3.000000    0.000000    3.000000    1.000000   
+
+Initial functional evaluation valid.
+Continuing with maximization:
+2         0.506924     -3.000000    0.000000    3.000000    1.000000   
+3         0.546982     -2.700000    0.000000    3.000000    1.000000   
+4         0.546484     -2.700000    0.050000    3.000000    1.000000   
+5         0.546484     -2.700000   -0.050000    3.000000    1.000000   
+6         0.546982     -2.700000    0.000000    3.000000    1.000000   
+7         0.521318     -2.700000    0.000000    3.300000    1.000000   
+8         0.587040     -2.700000    0.000000    2.700000    1.000000   
+9         0.698397     -2.400000    0.000000    2.400000    1.000000   
+10        0.978325     -1.800000    0.000000    1.800000    1.000000   
+11        1.135483     -0.600000    0.000000    0.600000    1.000000   
+12        1.115705     -0.480000    0.000000    0.600000    1.000000   
+13        1.150819     -0.720000    0.000000    0.600000    1.000000   
+14        1.166155     -0.720000    0.000000    0.720000    1.000000   
+15        1.186679     -0.840000    0.000000    0.840000    1.000000   
+16        1.194278     -1.080000    0.000000    1.080000    1.000000   
+17        1.081034     -1.560000    0.000000    1.560000    1.000000   
+18        1.171587     -0.648000    0.000000    1.080000    1.000000   
+19        1.146544     -1.512000    0.000000    1.080000    1.000000   
+20        1.195550     -1.003190    0.000000    1.080000    1.000000   
+21        1.147817     -1.003190    0.000000    1.512000    1.000000   
+22        1.172860     -1.003190    0.000000    0.648000    1.000000   
+23        1.196823     -1.003190    0.000000    1.003190    1.000000   
+24        1.194668     -0.926380    0.000000    0.926380    1.000000   
+25        1.189124     -0.802552    0.000000    1.003190    1.000000   
+26        1.188623     -1.203828    0.000000    1.003190    1.000000   
+27        1.196825     -1.000032    0.000000    1.003190    1.000000   
+28        1.188625     -1.000032    0.000000    1.203828    1.000000   
+29        1.189126     -1.000032    0.000000    0.802552    1.000000   
+30        1.196827     -1.000032    0.000000    1.000032    1.000000   
+31        1.196827     -1.000030    0.000000    1.000032    1.000000   
+32        1.196827     -1.000034    0.000000    1.000032    1.000000   
+33        1.196827     -1.000032    0.000000    1.000034    1.000000   
+34        1.196827     -1.000032    0.000000    1.000030    1.000000   
+
+MAXFUN OUTPUT
+=============
+
+ERROR: 
+Exit flag   = 4 Reached maximum number of iterations without convergence
+Final value = 1.196827
+Iterations  = 4
+
+Num of parameters                           = 4
+Num of independent params converged @ bound = 5789512
+Num of dependent params                     = 0
+Num of estimated params                     = 3
+Num of independent params                   = 3
+Num of varying independent params           = 2292208
+
+Parameter                Final type                    Final Est Std. Err.    Deriv.    Matrix index
+=========                ==========                    ========= =========    ======    ===============
+MEANS:mean_AA            Independent functional        -1.000032 0.000000e+00 0.000013  0         
+MEANS:mean_AB            Ind. func. fixed not near bnd 0.000000  0.000000e+00 N/A       1         
+MEANS:mean_BB            Independent functional        1.000032  0.000000e+00 -0.000013 2         
+VARIANCES:var            Fixed                         1.000000  0.000000e+00 N/A       
+
+Var-cov matrix status = 5 Not attempted
+
+!!! Warning: Errors detected in this maximization.
+
+================= MAXIMIZATION 1 (0 - 3) Maxtest ================
+
+MAXFUN INPUT
+============
+
+method         = Variable metric method, with initial B = identity
+control_option = previous_nonconvergence, Do only if previous procedure didn't reach convergence.
+max_iterations = 20
+Please note that this number is actually multiplied 
+by the total number of parameters before maximization
+begins.
+
+epsilon1       = 0.001
+epsilon2       = 1e-12
+epsilon_delta  = Default (see documentation)
+epsilon_trunc  = Default (see documentation)
+var_cov        = Computed for final estimates (using iterative method).
+second_deriv   = Default (see documentation)
+stepsize       = Default (see documentation)
+
+Parameter                     Initial type                  Initial estimate
+=========                     ============                  ================
+mean_AA                       Independent functional        -1.000032e+00       
+mean_AB                       Independent functional        0.000000e+00        
+mean_BB                       Independent functional        1.000032e+00        
+var                           Fixed                         1.000000e+00        
+
+MAXFUN RUNTIME OUTPUT
+=====================
+
+iter.     f(...)       mean_AA     mean_AB     mean_BB     var         
+-----     ------       ---------   ---------   ---------   ---------   
+35        1.196827     -1.000032    0.000000    1.000032    1.000000   
+36        1.196827     -1.000030    0.000000    1.000032    1.000000   
+37        1.196827     -1.000032    0.000001    1.000032    1.000000   
+38        1.196827     -1.000032    0.000000    1.000034    1.000000   
+39        1.196827     -1.000031    0.000000    1.000031    1.000000   
+40        1.196827     -1.000029    0.000000    1.000029    1.000000   
+41        1.196827     -1.000027    0.000000    1.000027    1.000000   
+42        1.196827     -1.000022    0.000000    1.000021    1.000000   
+43        1.196827     -1.000012    0.000000    1.000011    1.000000   
+44        1.196827     -0.999012    0.000000    1.000011    1.000000   
+45        1.196827     -1.001012    0.000000    1.000011    1.000000   
+46        1.196827     -0.999012    0.000000    1.000011    1.000000   
+47        1.196827     -1.001012    0.000000    1.000011    1.000000   
+48        1.196827     -0.999512    0.000000    1.000011    1.000000   
+49        1.196827     -1.000512    0.000000    1.000011    1.000000   
+50        1.196827     -0.999762    0.000000    1.000011    1.000000   
+51        1.196827     -1.000262    0.000000    1.000011    1.000000   
+52        1.196827     -1.000012    0.000500    1.000011    1.000000   
+53        1.196827     -1.000012   -0.000500    1.000011    1.000000   
+54        1.196827     -0.999012    0.000500    1.000011    1.000000   
+55        1.196827     -0.999012   -0.000500    1.000011    1.000000   
+56        1.196827     -1.001012   -0.000500    1.000011    1.000000   
+57        1.196827     -1.001012    0.000500    1.000011    1.000000   
+58        1.196827     -0.999512    0.000250    1.000011    1.000000   
+59        1.196827     -0.999512   -0.000250    1.000011    1.000000   
+60        1.196827     -1.000512   -0.000250    1.000011    1.000000   
+61        1.196827     -1.000512    0.000250    1.000011    1.000000   
+62        1.196827     -0.999762    0.000125    1.000011    1.000000   
+63        1.196827     -0.999762   -0.000125    1.000011    1.000000   
+64        1.196827     -1.000262   -0.000125    1.000011    1.000000   
+65        1.196827     -1.000262    0.000125    1.000011    1.000000   
+66        1.196827     -1.000012    0.000500    1.000011    1.000000   
+67        1.196827     -1.000012   -0.000500    1.000011    1.000000   
+68        1.196827     -1.000012    0.000250    1.000011    1.000000   
+69        1.196827     -1.000012   -0.000250    1.000011    1.000000   
+70        1.196827     -1.000012    0.000125    1.000011    1.000000   
+71        1.196827     -1.000012   -0.000125    1.000011    1.000000   
+72        1.196827     -1.000012    0.000000    1.001011    1.000000   
+73        1.196827     -1.000012    0.000000    0.999011    1.000000   
+74        1.196826     -0.999012    0.000000    1.001011    1.000000   
+75        1.196826     -0.999012    0.000000    0.999011    1.000000   
+76        1.196826     -1.001012    0.000000    0.999011    1.000000   
+77        1.196826     -1.001012    0.000000    1.001011    1.000000   
+78        1.196827     -0.999512    0.000000    1.000511    1.000000   
+79        1.196827     -0.999512    0.000000    0.999511    1.000000   
+80        1.196827     -1.000512    0.000000    0.999511    1.000000   
+81        1.196827     -1.000512    0.000000    1.000511    1.000000   
+82        1.196827     -0.999762    0.000000    1.000261    1.000000   
+83        1.196827     -0.999762    0.000000    0.999761    1.000000   
+84        1.196827     -1.000262    0.000000    0.999761    1.000000   
+85        1.196827     -1.000262    0.000000    1.000261    1.000000   
+86        1.196827     -1.000012    0.000500    1.001011    1.000000   
+87        1.196827     -1.000012    0.000500    0.999011    1.000000   
+88        1.196827     -1.000012   -0.000500    0.999011    1.000000   
+89        1.196827     -1.000012   -0.000500    1.001011    1.000000   
+90        1.196827     -1.000012    0.000250    1.000511    1.000000   
+91        1.196827     -1.000012    0.000250    0.999511    1.000000   
+92        1.196827     -1.000012   -0.000250    0.999511    1.000000   
+93        1.196827     -1.000012   -0.000250    1.000511    1.000000   
+94        1.196827     -1.000012    0.000125    1.000261    1.000000   
+95        1.196827     -1.000012    0.000125    0.999761    1.000000   
+96        1.196827     -1.000012   -0.000125    0.999761    1.000000   
+97        1.196827     -1.000012   -0.000125    1.000261    1.000000   
+98        1.196827     -1.000012    0.000000    1.001011    1.000000   
+99        1.196827     -1.000012    0.000000    0.999011    1.000000   
+100       1.196827     -1.000012    0.000000    1.000511    1.000000   
+101       1.196827     -1.000012    0.000000    0.999511    1.000000   
+102       1.196827     -1.000012    0.000000    1.000261    1.000000   
+103       1.196827     -1.000012    0.000000    0.999761    1.000000   
+104       1.196827     -1.000010    0.000000    1.000011    1.000000   
+105       1.196827     -1.000014    0.000000    1.000011    1.000000   
+106       1.196827     -1.000012    0.000001    1.000011    1.000000   
+107       1.196827     -1.000012   -0.000001    1.000011    1.000000   
+108       1.196827     -1.000012    0.000000    1.000013    1.000000   
+109       1.196827     -1.000012    0.000000    1.000009    1.000000   
+
+MAXFUN OUTPUT
+=============
+
+Exit flag   = 1 Convergence by criterion 1
+Final value = 1.196827
+Iterations  = 1
+
+Num of parameters                           = 4
+Num of independent params converged @ bound = 0
+Num of dependent params                     = 0
+Num of estimated params                     = 3
+Num of independent params                   = 3
+Num of varying independent params           = 3
+
+Parameter                Final type                    Final Est Std. Err.    Deriv.    Matrix index
+=========                ==========                    ========= =========    ======    ===============
+MEANS:mean_AA            Independent functional        -1.000012 1.583233e+00 0.000005  0         
+MEANS:mean_AB            Independent functional        0.000000  1.583233e+00 0.000000  1         
+MEANS:mean_BB            Independent functional        1.000011  1.583233e+00 -0.000004 2         
+VARIANCES:var            Fixed                         1.000000  0.000000e+00 N/A       
+
+Var-cov matrix status = 0 No problem
+
+Variance-covariance matrix:
+          0         1         2         
+0         2.506628e+000.000000e+000.000000e+00
+1         0.000000e+002.506628e+000.000000e+00
+2         0.000000e+000.000000e+002.506628e+00
+
+No errors detected in this maximization.
+
+================= MAXIMIZATION 2 (0 - 3) Maxtest ================
+
+MAXFUN INPUT
+============
+
+method         = Direct search without 2^Ni-trial search
+control_option = previous_nonconvergence, Do only if previous procedure didn't reach convergence.
+max_iterations = 50
+Please note that this number is actually multiplied 
+by the total number of parameters before maximization
+begins.
+
+epsilon1       = 0.0001
+epsilon2       = 1e-12
+epsilon_delta  = Default (see documentation)
+epsilon_trunc  = Default (see documentation)
+var_cov        = Default (see documentation)
+second_deriv   = Default (see documentation)
+stepsize       = Default (see documentation)
+
+Parameter                     Initial type                  Initial estimate
+=========                     ============                  ================
+mean_AA                       Independent functional        -1.000012e+00       
+mean_AB                       Independent functional        -2.688969e-07       
+mean_BB                       Independent functional        1.000011e+00        
+var                           Fixed                         1.000000e+00        
+
+Skipping this RunCfg...
+================= MAXIMIZATION 3 (0 - 3) Maxtest ================
+
+MAXFUN INPUT
+============
+
+method         = Variable metric method, with initial B = -H calculated at initial parameter estimates.
+control_option = unconditional, Do unconditionally.
+max_iterations = 20
+Please note that this number is actually multiplied 
+by the total number of parameters before maximization
+begins.
+
+epsilon1       = 1e-12
+epsilon2       = 1e-12
+epsilon_delta  = Default (see documentation)
+epsilon_trunc  = Default (see documentation)
+var_cov        = Computed for final estimates (using iterative method).
+second_deriv   = Default (see documentation)
+stepsize       = Default (see documentation)
+
+Parameter                     Initial type                  Initial estimate
+=========                     ============                  ================
+mean_AA                       Independent functional        -1.000012e+00       
+mean_AB                       Independent functional        -2.688969e-07       
+mean_BB                       Independent functional        1.000011e+00        
+var                           Fixed                         1.000000e+00        
+
+MAXFUN RUNTIME OUTPUT
+=====================
+
+iter.     f(...)       mean_AA     mean_AB     mean_BB     var         
+-----     ------       ---------   ---------   ---------   ---------   
+110       1.196827     -1.000012    0.000000    1.000011    1.000000   
+111       1.196827     -1.000010    0.000000    1.000011    1.000000   
+112       1.196827     -1.000014    0.000000    1.000011    1.000000   
+113       1.196827     -1.000010    0.000000    1.000011    1.000000   
+114       1.196827     -1.000014    0.000000    1.000011    1.000000   
+115       1.196827     -1.000012    0.000001    1.000011    1.000000   
+116       1.196827     -1.000012   -0.000001    1.000011    1.000000   
+117       1.196827     -1.000010    0.000001    1.000011    1.000000   
+118       1.196827     -1.000010   -0.000001    1.000011    1.000000   
+119       1.196827     -1.000014   -0.000001    1.000011    1.000000   
+120       1.196827     -1.000014    0.000001    1.000011    1.000000   
+121       1.196827     -1.000012    0.000001    1.000011    1.000000   
+122       1.196827     -1.000012   -0.000001    1.000011    1.000000   
+123       1.196827     -1.000012    0.000000    1.000013    1.000000   
+124       1.196827     -1.000012    0.000000    1.000009    1.000000   
+125       1.196827     -1.000010    0.000000    1.000013    1.000000   
+126       1.196827     -1.000010    0.000000    1.000009    1.000000   
+127       1.196827     -1.000014    0.000000    1.000009    1.000000   
+128       1.196827     -1.000014    0.000000    1.000013    1.000000   
+129       1.196827     -1.000012    0.000001    1.000013    1.000000   
+130       1.196827     -1.000012    0.000001    1.000009    1.000000   
+131       1.196827     -1.000012   -0.000001    1.000009    1.000000   
+132       1.196827     -1.000012   -0.000001    1.000013    1.000000   
+133       1.196827     -1.000012    0.000000    1.000013    1.000000   
+134       1.196827     -1.000012    0.000000    1.000009    1.000000   
+135       1.196827     -1.000010    0.000000    1.000011    1.000000   
+136       1.196827     -1.000012    0.000001    1.000011    1.000000   
+137       1.196827     -1.000012    0.000000    1.000013    1.000000   
+138       1.196827     -1.000011    0.000000    1.000010    1.000000   
+139       1.196827     -1.000010    0.000000    1.000009    1.000000   
+140       1.196827     -1.000008    0.000000    1.000006    1.000000   
+141       1.196827     -1.000003    0.000000    1.000002    1.000000   
+142       1.196827     -1.000001    0.000000    1.000002    1.000000   
+143       1.196827     -1.000003    0.000000    1.000002    1.000000   
+144       1.196827     -1.000003    0.000000    1.000003    1.000000   
+145       1.196827     -1.000001    0.000000    0.999999    1.000000   
+146       1.196827     -0.999999    0.000000    0.999997    1.000000   
+147       1.196827     -0.999999    0.000000    0.999999    1.000000   
+148       1.196827     -1.000001    0.000000    0.999999    1.000000   
+149       1.196827     -1.000001    0.000000    1.000001    1.000000   
+150       1.196827     -0.999001    0.000000    0.999999    1.000000   
+151       1.196827     -1.001001    0.000000    0.999999    1.000000   
+152       1.196827     -0.999001    0.000000    0.999999    1.000000   
+153       1.196827     -1.001001    0.000000    0.999999    1.000000   
+154       1.196827     -0.999501    0.000000    0.999999    1.000000   
+155       1.196827     -1.000501    0.000000    0.999999    1.000000   
+156       1.196827     -0.999751    0.000000    0.999999    1.000000   
+157       1.196827     -1.000251    0.000000    0.999999    1.000000   
+158       1.196827     -1.000001    0.000500    0.999999    1.000000   
+159       1.196827     -1.000001   -0.000500    0.999999    1.000000   
+160       1.196827     -0.999001    0.000500    0.999999    1.000000   
+161       1.196827     -0.999001   -0.000500    0.999999    1.000000   
+162       1.196827     -1.001001   -0.000500    0.999999    1.000000   
+163       1.196827     -1.001001    0.000500    0.999999    1.000000   
+164       1.196827     -0.999501    0.000250    0.999999    1.000000   
+165       1.196827     -0.999501   -0.000250    0.999999    1.000000   
+166       1.196827     -1.000501   -0.000250    0.999999    1.000000   
+167       1.196827     -1.000501    0.000250    0.999999    1.000000   
+168       1.196827     -0.999751    0.000125    0.999999    1.000000   
+169       1.196827     -0.999751   -0.000125    0.999999    1.000000   
+170       1.196827     -1.000251   -0.000125    0.999999    1.000000   
+171       1.196827     -1.000251    0.000125    0.999999    1.000000   
+172       1.196827     -1.000001    0.000500    0.999999    1.000000   
+173       1.196827     -1.000001   -0.000500    0.999999    1.000000   
+174       1.196827     -1.000001    0.000250    0.999999    1.000000   
+175       1.196827     -1.000001   -0.000250    0.999999    1.000000   
+176       1.196827     -1.000001    0.000125    0.999999    1.000000   
+177       1.196827     -1.000001   -0.000125    0.999999    1.000000   
+178       1.196827     -1.000001    0.000000    1.000999    1.000000   
+179       1.196827     -1.000001    0.000000    0.998999    1.000000   
+180       1.196826     -0.999001    0.000000    1.000999    1.000000   
+181       1.196826     -0.999001    0.000000    0.998999    1.000000   
+182       1.196826     -1.001001    0.000000    0.998999    1.000000   
+183       1.196826     -1.001001    0.000000    1.000999    1.000000   
+184       1.196827     -0.999501    0.000000    1.000499    1.000000   
+185       1.196827     -0.999501    0.000000    0.999499    1.000000   
+186       1.196827     -1.000501    0.000000    0.999499    1.000000   
+187       1.196827     -1.000501    0.000000    1.000499    1.000000   
+188       1.196827     -0.999751    0.000000    1.000249    1.000000   
+189       1.196827     -0.999751    0.000000    0.999749    1.000000   
+190       1.196827     -1.000251    0.000000    0.999749    1.000000   
+191       1.196827     -1.000251    0.000000    1.000249    1.000000   
+192       1.196827     -1.000001    0.000500    1.000999    1.000000   
+193       1.196827     -1.000001    0.000500    0.998999    1.000000   
+194       1.196827     -1.000001   -0.000500    0.998999    1.000000   
+195       1.196827     -1.000001   -0.000500    1.000999    1.000000   
+196       1.196827     -1.000001    0.000250    1.000499    1.000000   
+197       1.196827     -1.000001    0.000250    0.999499    1.000000   
+198       1.196827     -1.000001   -0.000250    0.999499    1.000000   
+199       1.196827     -1.000001   -0.000250    1.000499    1.000000   
+200       1.196827     -1.000001    0.000125    1.000249    1.000000   
+201       1.196827     -1.000001    0.000125    0.999749    1.000000   
+202       1.196827     -1.000001   -0.000125    0.999749    1.000000   
+203       1.196827     -1.000001   -0.000125    1.000249    1.000000   
+204       1.196827     -1.000001    0.000000    1.000999    1.000000   
+205       1.196827     -1.000001    0.000000    0.998999    1.000000   
+206       1.196827     -1.000001    0.000000    1.000499    1.000000   
+207       1.196827     -1.000001    0.000000    0.999499    1.000000   
+208       1.196827     -1.000001    0.000000    1.000249    1.000000   
+209       1.196827     -1.000001    0.000000    0.999749    1.000000   
+
+MAXFUN OUTPUT
+=============
+
+Exit flag   = 2 Convergence by criterion 2
+Final value = 1.196827
+Iterations  = 2
+
+Num of parameters                           = 4
+Num of independent params converged @ bound = 0
+Num of dependent params                     = 0
+Num of estimated params                     = 3
+Num of independent params                   = 3
+Num of varying independent params           = 3
+
+Parameter                Final type                    Final Est Std. Err.    Deriv.    Matrix index
+=========                ==========                    ========= =========    ======    ===============
+MEANS:mean_AA            Independent functional        -1.000001 1.583233e+00 0.000000  0         
+MEANS:mean_AB            Independent functional        0.000000  1.583234e+00 0.000000  1         
+MEANS:mean_BB            Independent functional        0.999999  1.583234e+00 0.000000  2         
+VARIANCES:var            Fixed                         1.000000  0.000000e+00 N/A       
+
+Var-cov matrix status = 0 No problem
+
+Variance-covariance matrix:
+          0         1         2         
+0         2.506628e+000.000000e+000.000000e+00
+1         0.000000e+002.506628e+000.000000e+00
+2         0.000000e+000.000000e+002.506628e+00
+
+No errors detected in this maximization.
+
+====================================== FINAL RESULTS =================================== 
+
+
+MAXFUN OUTPUT
+=============
+
+Exit flag   = 2 Convergence by criterion 2
+Final value = 1.196827e+00
+Iterations  = 2
+
+Num of parameters                           = 4
+Num of independent params converged @ bound = 0
+Num of dependent params                     = 0
+Num of estimated params                     = 3
+Num of independent params                   = 3
+Num of varying independent params           = 3
+
+Parameter                Final type                    Final Est Std. Err.    Deriv.    Matrix index
+=========                ==========                    ========= =========    ======    ===============
+MEANS:mean_AA            Independent functional        -1.000001 1.583233e+00 0.000000  0         
+MEANS:mean_AB            Independent functional        0.000000  1.583234e+00 0.000000  1         
+MEANS:mean_BB            Independent functional        0.999999  1.583234e+00 0.000000  2         
+VARIANCES:var            Fixed                         1.000000  0.000000e+00 N/A       
+
+Var-cov matrix status = 0 No problem
+
+Variance-covariance matrix:
+          0         1         2         
+0         2.506628e+000.000000e+000.000000e+00
+1         0.000000e+002.506628e+000.000000e+00
+2         0.000000e+000.000000e+002.506628e+00
+
+No errors detected in this maximization.
+
+================================================================================
+          MAXIMIZATION RESULTS Maxtest
+================================================================================
+
+Parameter         Estimate            S.E.                P-value             Deriv               
+
+MEANS                       
+          mean_AA   -1.0                 1.58323             0.527636           -0.00000000013171 
+          mean_AB   -0.000000421701      1.58323             1.0                 0.00000000000000 
+          mean_BB    0.999999            1.58323             0.527636            0.00000000000000 
+
+VARIANCES                   
+              var    1.0                     Fixed                                  
+
+
+Final neat function: 1.19683
+
+================================================================================
+              VARIANCE-COVARIANCE MATRIX Maxtest
+================================================================================
+
+                 mean_AA          mean_AB          mean_BB          
+mean_AA             2.50662824690    0.00000000000    0.00000000000 
+mean_AB             0.00000000000    2.50662834349    0.00000000000 
+mean_BB             0.00000000000    0.00000000000    2.50662833609 
+

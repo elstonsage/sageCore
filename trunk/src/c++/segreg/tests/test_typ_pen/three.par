@@ -1,0 +1,71 @@
+pedigree
+{
+   delimiter_mode = multiple
+   delimiters=" "
+   individual_missing_value="0"
+   sex_code,male="M",female="F",unknown="?"
+
+   pedigree_id=PED
+   individual_id=IND
+   parent_id=MOTH
+   parent_id=FATH
+   sex_field=SEX
+
+  trait=TRAIT,missing=-1
+  covariate=COV,missing=9,binary,affected=1,unaffected=0
+}
+
+segreg_analysis
+{
+  title="Three Mean Model"
+
+  class=D
+
+  trait=TRAIT
+
+  type_mean
+  {
+    option=three
+  }
+
+  type_var
+  {
+    var="**",val=1.333333333333333333,fixed=false
+  }
+  
+  geno_freq
+  {
+    option=hwe
+    probs_fixed = true
+    freq_A,val=0.5
+  }
+
+  resid
+  {
+    option=equal_po_ss
+    ss,val=0,fixed=true
+  }
+
+  output="three"
+
+  mean_cov
+  {
+    covariate=cov
+  }
+  transmission
+  {
+    option=homog_mendelian
+  }
+
+  transformation
+  {
+    option=none
+  }
+
+  output_options
+  {
+    type_prob=true
+    pen_func_out=true
+  }
+}
+

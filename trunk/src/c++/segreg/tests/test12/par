@@ -1,0 +1,82 @@
+pedigree
+{
+  pedigree_id=PID
+  individual_id=ID
+  sex_field=SEX
+  parent_id=P1
+  parent_id=P2
+  trait=DISEASE, binary, affected=1, unaffected=0
+  trait=HEMATOCRIT
+  trait=t
+  trait=u
+  trait=v
+  trait=w
+  trait=x
+  trait=y
+  trait=z
+}
+
+segreg_analysis  #1
+{
+  trait = hematocrit
+  
+  type_suscept
+  {
+  
+  }
+}
+
+segreg_analysis  #2
+{
+  trait = disease
+  
+  type_suscept
+  {
+    option=two_dom
+    suscept="A*",val=7.1
+    suscept="BB",val=2.0
+  }
+}
+
+segreg_analysis  #3
+{
+  trait = disease
+  
+  type_suscept
+  {
+    option=three_inc
+    suscept="AA",val=7.1,fixed=true
+    suscept="AB",val=2.0,fixed=true
+    suscept="BB",val=8.3,fixed=true
+  }
+}
+
+segreg_analysis  #4
+{
+  trait = disease
+  
+  type_mean
+  {
+    option=one
+    mean="AA",val=7
+  }
+  
+  type_suscept
+  {
+    option=one
+    suscept="AA",val=7.1,fixed=true
+  }
+}
+
+segreg_analysis  #5
+{
+  trait = disease
+  
+  type_suscept
+  {
+    option=two
+    suscept="AA",val=7.1,fixed=true
+    suscept="AB",val=2.0,fixed=true
+    suscept="BB",val=8.3,fixed=true
+  }
+}

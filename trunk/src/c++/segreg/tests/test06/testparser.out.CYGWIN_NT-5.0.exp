@@ -1,0 +1,1024 @@
+
+---------- 1 New Analysis Block 1 ---------- 
+
+mean missing: false
+trans missing: true
+File name root: segreg_analysis1
+Model class: invalid
+Each pedigree: 0
+Penetration function output: 0
+Type probability: 0
+Primary trait: hematocrit
+
+
+Type means values: 
+Option: one mean
+maxfun parameter: mean
+value:            6
+status:           fixed
+lower bound:      -INF
+upper bound:      INF
+
+mean default:  false
+
+Transformation values: 
+Option: Box-Cox
+maxfun parameter: lambda_one
+value:            1
+status:           independent non-function
+lower bound:      -1
+upper bound:      INF
+
+maxfun parameter: lambda_two
+value:            0
+status:           fixed
+lower bound:      -INF
+upper bound:      INF
+
+
+Type frequency values: 
+Option: 
+freq default:  true
+
+
+Mean covariates values: 
+Option: 
+
+Variance covariates values: 
+Option: 
+
+Susceptibility covariates values: 
+Option: 
+
+Composite trait covariates values: 
+Option: 
+
+Transmission values: 
+Option: homogeneous no transmission
+transm default:  true
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+maxfun parameter: marital resid corr
+value:            0
+status:           fixed
+lower bound:      -0.99999999
+upper bound:      0.99999999
+
+maxfun parameter: po = ss resid corr
+value:            0.5
+status:           independent non-function
+lower bound:      -1
+upper bound:      1
+
+resid default:  true
+
+Type variances values: 
+Option: one variance
+maxfun parameter: variance
+value:            NaNQ
+status:           independent non-function
+lower bound:      1e-05
+upper bound:      INF
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+maxfun parameter: polyg variance
+value:            NaNQ
+status:           independent non-function
+lower bound:      1e-05
+upper bound:      INF
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+Age of onset values: 
+Option: age of onset depends on type, no polygenic component
+type option: age of onset depends on type
+multi option: no polygenic component
+affection status: 
+age of onset: 
+age at exam: 
+
+
+Ascertainment values: 
+Option: none, actual
+psf indicator: 
+thresh: NaNQ
+thresh indicator: 
+thresh high: NaNQ
+thresh low: NaNQ
+includes: 1  
+indic_thresh: 0
+
+
+Type susceptibilities values: 
+Option: one susceptibility
+maxfun parameter: susc
+value:            NaNQ
+status:           independent non-function
+lower bound:      -INF
+upper bound:      INF
+
+
+Primary trait type:  continuous
+
+Prevalence - 
+
+
+---------- 2 New Analysis Block 2 ---------- 
+
+mean missing: false
+trans missing: true
+File name root: segreg_analysis2
+Model class: D
+Each pedigree: 0
+Penetration function output: 0
+Type probability: 0
+Primary trait: hematocrit
+
+
+Type means values: 
+Option: one mean
+maxfun parameter: mean
+value:            6
+status:           fixed
+lower bound:      -INF
+upper bound:      INF
+
+mean default:  false
+
+Transformation values: 
+Option: Box-Cox
+maxfun parameter: lambda_one
+value:            1
+status:           independent non-function
+lower bound:      -1
+upper bound:      INF
+
+maxfun parameter: lambda_two
+value:            0
+status:           fixed
+lower bound:      -INF
+upper bound:      INF
+
+
+Type frequency values: 
+Option: 
+freq default:  true
+
+
+Mean covariates values: 
+Option: 
+
+Variance covariates values: 
+Option: 
+
+Susceptibility covariates values: 
+Option: 
+
+Composite trait covariates values: 
+Option: 
+
+Transmission values: 
+Option: homogeneous no transmission
+transm default:  true
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+maxfun parameter: marital resid corr
+value:            0
+status:           fixed
+lower bound:      -0.99999999
+upper bound:      0.99999999
+
+maxfun parameter: po = ss resid corr
+value:            0.5
+status:           independent non-function
+lower bound:      -1
+upper bound:      1
+
+resid default:  true
+
+Type variances values: 
+Option: one variance
+maxfun parameter: variance
+value:            9.5
+status:           fixed
+lower bound:      1e-05
+upper bound:      INF
+
+var default:  false
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+maxfun parameter: polyg variance
+value:            NaNQ
+status:           independent non-function
+lower bound:      1e-05
+upper bound:      INF
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+Age of onset values: 
+Option: age of onset depends on type, no polygenic component
+type option: age of onset depends on type
+multi option: no polygenic component
+affection status: 
+age of onset: 
+age at exam: 
+
+
+Ascertainment values: 
+Option: none, actual
+psf indicator: 
+thresh: NaNQ
+thresh indicator: 
+thresh high: NaNQ
+thresh low: NaNQ
+includes: 1  
+indic_thresh: 0
+
+
+Type susceptibilities values: 
+Option: one susceptibility
+maxfun parameter: susc
+value:            NaNQ
+status:           independent non-function
+lower bound:      -INF
+upper bound:      INF
+
+
+Primary trait type:  continuous
+
+Prevalence - 
+
+
+---------- 3 New Analysis Block 3 ---------- 
+
+mean missing: false
+trans missing: true
+File name root: segreg_analysis3
+Model class: D
+Each pedigree: 0
+Penetration function output: 0
+Type probability: 0
+Primary trait: hematocrit
+
+
+Type means values: 
+Option: one mean
+maxfun parameter: mean
+value:            6
+status:           fixed
+lower bound:      -INF
+upper bound:      INF
+
+mean default:  false
+
+Transformation values: 
+Option: Box-Cox
+maxfun parameter: lambda_one
+value:            1
+status:           independent non-function
+lower bound:      -1
+upper bound:      INF
+
+maxfun parameter: lambda_two
+value:            0
+status:           fixed
+lower bound:      -INF
+upper bound:      INF
+
+
+Type frequency values: 
+Option: 
+freq default:  true
+
+
+Mean covariates values: 
+Option: 
+
+Variance covariates values: 
+Option: 
+
+Susceptibility covariates values: 
+Option: 
+
+Composite trait covariates values: 
+Option: 
+
+Transmission values: 
+Option: homogeneous no transmission
+transm default:  true
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+maxfun parameter: marital resid corr
+value:            0
+status:           fixed
+lower bound:      -0.99999999
+upper bound:      0.99999999
+
+maxfun parameter: po = ss resid corr
+value:            0.5
+status:           independent non-function
+lower bound:      -1
+upper bound:      1
+
+resid default:  true
+
+Type variances values: 
+Option: one variance
+maxfun parameter: variance
+value:            NaNQ
+status:           independent non-function
+lower bound:      1e-05
+upper bound:      INF
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+maxfun parameter: polyg variance
+value:            NaNQ
+status:           independent non-function
+lower bound:      1e-05
+upper bound:      INF
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+Age of onset values: 
+Option: age of onset depends on type, no polygenic component
+type option: age of onset depends on type
+multi option: no polygenic component
+affection status: 
+age of onset: 
+age at exam: 
+
+
+Ascertainment values: 
+Option: none, actual
+psf indicator: 
+thresh: NaNQ
+thresh indicator: 
+thresh high: NaNQ
+thresh low: NaNQ
+includes: 1  
+indic_thresh: 0
+
+
+Type susceptibilities values: 
+Option: one susceptibility
+maxfun parameter: susc
+value:            NaNQ
+status:           independent non-function
+lower bound:      -INF
+upper bound:      INF
+
+
+Primary trait type:  continuous
+
+Prevalence - 
+
+
+---------- 4 New Analysis Block 4 ---------- 
+
+mean missing: false
+trans missing: true
+File name root: segreg_analysis4
+Model class: D
+Each pedigree: 0
+Penetration function output: 0
+Type probability: 0
+Primary trait: hematocrit
+
+
+Type means values: 
+Option: one mean
+maxfun parameter: mean
+value:            6
+status:           fixed
+lower bound:      -INF
+upper bound:      INF
+
+mean default:  false
+
+Transformation values: 
+Option: Box-Cox
+maxfun parameter: lambda_one
+value:            1
+status:           independent non-function
+lower bound:      -1
+upper bound:      INF
+
+maxfun parameter: lambda_two
+value:            0
+status:           fixed
+lower bound:      -INF
+upper bound:      INF
+
+
+Type frequency values: 
+Option: 
+freq default:  true
+
+
+Mean covariates values: 
+Option: 
+
+Variance covariates values: 
+Option: 
+
+Susceptibility covariates values: 
+Option: 
+
+Composite trait covariates values: 
+Option: 
+
+Transmission values: 
+Option: homogeneous no transmission
+transm default:  true
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+maxfun parameter: marital resid corr
+value:            0
+status:           fixed
+lower bound:      -0.99999999
+upper bound:      0.99999999
+
+maxfun parameter: po = ss resid corr
+value:            0.5
+status:           independent non-function
+lower bound:      -1
+upper bound:      1
+
+resid default:  true
+
+Type variances values: 
+Option: one variance
+maxfun parameter: variance
+value:            NaNQ
+status:           independent non-function
+lower bound:      1e-05
+upper bound:      INF
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+maxfun parameter: polyg variance
+value:            NaNQ
+status:           independent non-function
+lower bound:      1e-05
+upper bound:      INF
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+Age of onset values: 
+Option: age of onset depends on type, no polygenic component
+type option: age of onset depends on type
+multi option: no polygenic component
+affection status: 
+age of onset: 
+age at exam: 
+
+
+Ascertainment values: 
+Option: none, actual
+psf indicator: 
+thresh: NaNQ
+thresh indicator: 
+thresh high: NaNQ
+thresh low: NaNQ
+includes: 1  
+indic_thresh: 0
+
+
+Type susceptibilities values: 
+Option: one susceptibility
+maxfun parameter: susc
+value:            NaNQ
+status:           independent non-function
+lower bound:      -INF
+upper bound:      INF
+
+
+Primary trait type:  continuous
+
+Prevalence - 
+
+
+---------- 5 New Analysis Block 5 ---------- 
+
+mean missing: false
+trans missing: true
+File name root: segreg_analysis5
+Model class: D
+Each pedigree: 0
+Penetration function output: 0
+Type probability: 0
+Primary trait: hematocrit
+
+
+Type means values: 
+Option: two means
+maxfun parameter: mean_AA_AB
+value:            6
+status:           independent non-function
+lower bound:      -INF
+upper bound:      INF
+
+maxfun parameter: mean_BB
+value:            NaNQ
+status:           independent non-function
+lower bound:      -INF
+upper bound:      INF
+
+mean default:  false
+
+Transformation values: 
+Option: Box-Cox
+maxfun parameter: lambda_one
+value:            1
+status:           independent non-function
+lower bound:      -1
+upper bound:      INF
+
+maxfun parameter: lambda_two
+value:            0
+status:           fixed
+lower bound:      -INF
+upper bound:      INF
+
+
+Type frequency values: 
+Option: Hardy-Weinberg equilibrium
+maxfun parameter: prob_AA
+value:            NaNQ
+status:           dependent
+lower bound:      0
+upper bound:      1
+
+maxfun parameter: prob_AB
+value:            NaNQ
+status:           dependent
+lower bound:      0
+upper bound:      1
+
+maxfun parameter: prob_BB
+value:            NaNQ
+status:           dependent
+lower bound:      0
+upper bound:      1
+
+maxfun parameter: freq_A
+value:            NaNQ
+status:           independent function
+lower bound:      1.11022302463e-16
+upper bound:      1
+
+maxfun parameter: genotypic corr.
+value:            0
+status:           fixed
+lower bound:      -1
+upper bound:      1
+
+freq default:  true
+
+
+Mean covariates values: 
+Option: 
+
+Variance covariates values: 
+Option: 
+
+Susceptibility covariates values: 
+Option: 
+
+Composite trait covariates values: 
+Option: 
+
+Transmission values: 
+Option: homogeneous no transmission
+transm default:  true
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+maxfun parameter: marital resid corr
+value:            0
+status:           fixed
+lower bound:      -0.99999999
+upper bound:      0.99999999
+
+maxfun parameter: po = ss resid corr
+value:            0.5
+status:           independent non-function
+lower bound:      -1
+upper bound:      1
+
+resid default:  true
+
+Type variances values: 
+Option: one variance
+maxfun parameter: variance
+value:            NaNQ
+status:           independent non-function
+lower bound:      1e-05
+upper bound:      INF
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+maxfun parameter: polyg variance
+value:            NaNQ
+status:           independent non-function
+lower bound:      1e-05
+upper bound:      INF
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+Age of onset values: 
+Option: age of onset depends on type, no polygenic component
+type option: age of onset depends on type
+multi option: no polygenic component
+affection status: 
+age of onset: 
+age at exam: 
+
+
+Ascertainment values: 
+Option: none, actual
+psf indicator: 
+thresh: NaNQ
+thresh indicator: 
+thresh high: NaNQ
+thresh low: NaNQ
+includes: 1  
+indic_thresh: 0
+
+
+Type susceptibilities values: 
+Option: one susceptibility
+maxfun parameter: susc
+value:            NaNQ
+status:           independent non-function
+lower bound:      -INF
+upper bound:      INF
+
+
+Primary trait type:  continuous
+
+Prevalence - 
+
+
+---------- 6 New Analysis Block 6 ---------- 
+
+mean missing: false
+trans missing: true
+File name root: segreg_analysis6
+Model class: D
+Each pedigree: 0
+Penetration function output: 0
+Type probability: 0
+Primary trait: hematocrit
+
+
+Type means values: 
+Option: two means
+maxfun parameter: mean_AA_AB
+value:            6
+status:           fixed
+lower bound:      -INF
+upper bound:      INF
+
+maxfun parameter: mean_BB
+value:            NaNQ
+status:           independent non-function
+lower bound:      -INF
+upper bound:      INF
+
+mean default:  false
+
+Transformation values: 
+Option: Box-Cox
+maxfun parameter: lambda_one
+value:            1
+status:           independent non-function
+lower bound:      -1
+upper bound:      INF
+
+maxfun parameter: lambda_two
+value:            0
+status:           fixed
+lower bound:      -INF
+upper bound:      INF
+
+
+Type frequency values: 
+Option: Hardy-Weinberg equilibrium
+maxfun parameter: prob_AA
+value:            NaNQ
+status:           dependent
+lower bound:      0
+upper bound:      1
+
+maxfun parameter: prob_AB
+value:            NaNQ
+status:           dependent
+lower bound:      0
+upper bound:      1
+
+maxfun parameter: prob_BB
+value:            NaNQ
+status:           dependent
+lower bound:      0
+upper bound:      1
+
+maxfun parameter: freq_A
+value:            NaNQ
+status:           independent function
+lower bound:      1.11022302463e-16
+upper bound:      1
+
+maxfun parameter: genotypic corr.
+value:            0
+status:           fixed
+lower bound:      -1
+upper bound:      1
+
+freq default:  true
+
+
+Mean covariates values: 
+Option: 
+
+Variance covariates values: 
+Option: 
+
+Susceptibility covariates values: 
+Option: 
+
+Composite trait covariates values: 
+Option: 
+
+Transmission values: 
+Option: homogeneous no transmission
+transm default:  true
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+maxfun parameter: marital resid corr
+value:            0
+status:           fixed
+lower bound:      -0.99999999
+upper bound:      0.99999999
+
+maxfun parameter: po = ss resid corr
+value:            0.5
+status:           independent non-function
+lower bound:      -1
+upper bound:      1
+
+resid default:  true
+
+Type variances values: 
+Option: one variance
+maxfun parameter: variance
+value:            NaNQ
+status:           independent non-function
+lower bound:      1e-05
+upper bound:      INF
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+maxfun parameter: polyg variance
+value:            NaNQ
+status:           independent non-function
+lower bound:      1e-05
+upper bound:      INF
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+Age of onset values: 
+Option: age of onset depends on type, no polygenic component
+type option: age of onset depends on type
+multi option: no polygenic component
+affection status: 
+age of onset: 
+age at exam: 
+
+
+Ascertainment values: 
+Option: none, actual
+psf indicator: 
+thresh: NaNQ
+thresh indicator: 
+thresh high: NaNQ
+thresh low: NaNQ
+includes: 1  
+indic_thresh: 0
+
+
+Type susceptibilities values: 
+Option: one susceptibility
+maxfun parameter: susc
+value:            NaNQ
+status:           independent non-function
+lower bound:      -INF
+upper bound:      INF
+
+
+Primary trait type:  continuous
+
+Prevalence - 
+
+
+---------- 7 New Analysis Block 7 ---------- 
+
+mean missing: false
+trans missing: true
+File name root: segreg_analysis7
+Model class: mlm
+Each pedigree: 0
+Penetration function output: 0
+Type probability: 0
+Primary trait: disease
+
+
+Type means values: 
+Option: one mean
+maxfun parameter: mean
+value:            NaNQ
+status:           independent non-function
+lower bound:      -INF
+upper bound:      INF
+
+mean default:  true
+
+Transformation values: 
+Option: none
+maxfun parameter: lambda_one
+value:            1
+status:           independent non-function
+lower bound:      -1
+upper bound:      INF
+
+maxfun parameter: lambda_two
+value:            0
+status:           fixed
+lower bound:      -INF
+upper bound:      INF
+
+
+Type frequency values: 
+Option: Hardy-Weinberg equilibrium
+maxfun parameter: prob_AA
+value:            NaNQ
+status:           dependent
+lower bound:      0
+upper bound:      1
+
+maxfun parameter: prob_AB
+value:            NaNQ
+status:           dependent
+lower bound:      0
+upper bound:      1
+
+maxfun parameter: prob_BB
+value:            NaNQ
+status:           dependent
+lower bound:      0
+upper bound:      1
+
+maxfun parameter: freq_A
+value:            NaNQ
+status:           independent function
+lower bound:      1.11022302463e-16
+upper bound:      1
+
+maxfun parameter: genotypic corr.
+value:            0
+status:           fixed
+lower bound:      -1
+upper bound:      1
+
+freq default:  true
+
+
+Mean covariates values: 
+Option: 
+
+Variance covariates values: 
+Option: 
+
+Susceptibility covariates values: 
+Option: 
+
+Composite trait covariates values: 
+Option: 
+
+Transmission values: 
+Option: homogeneous no transmission
+transm default:  true
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+maxfun parameter: marital resid assoc
+value:            0
+status:           fixed
+lower bound:      -INF
+upper bound:      INF
+
+maxfun parameter: po = ss resid assoc
+value:            0.3
+status:           independent non-function
+lower bound:      -INF
+upper bound:      INF
+
+resid default:  true
+
+Type variances values: 
+Option: one variance
+maxfun parameter: variance
+value:            NaNQ
+status:           independent non-function
+lower bound:      1e-05
+upper bound:      INF
+
+var default:  true
+
+Finite polygenic mixed model values: 
+Option: 3 loci, frequency = 0.5
+maxfun parameter: polyg variance
+value:            NaNQ
+status:           independent non-function
+lower bound:      1e-05
+upper bound:      INF
+
+fpmm frequency: 0.5
+fpmm loci: 3
+
+
+Age of onset values: 
+Option: age of onset depends on type, no polygenic component
+type option: age of onset depends on type
+multi option: no polygenic component
+affection status: 
+age of onset: 
+age at exam: 
+
+
+Ascertainment values: 
+Option: none, actual
+psf indicator: 
+thresh: NaNQ
+thresh indicator: 
+thresh high: NaNQ
+thresh low: NaNQ
+includes: 1  
+indic_thresh: 0
+
+
+Type susceptibilities values: 
+Option: three susceptibilities
+maxfun parameter: susc_AA
+value:            6
+status:           fixed
+lower bound:      -INF
+upper bound:      INF
+
+maxfun parameter: susc_AB
+value:            NaNQ
+status:           independent non-function
+lower bound:      -INF
+upper bound:      INF
+
+maxfun parameter: susc_BB
+value:            NaNQ
+status:           independent non-function
+lower bound:      -INF
+upper bound:      INF
+
+
+Primary trait type:  binary
+
+Prevalence - 
+

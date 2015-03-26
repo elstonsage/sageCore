@@ -1,0 +1,324 @@
+
+#######################################################
+For test: test0
+
+  Members of: P0
+              m01 (P0:1)
+              m02 (P0:1)
+              m03 (P0:1)
+              m04 (P0:1)
+              m05 (P0:1)
+              m06 (unconnected)
+              m07 (P0:1)
+              m08 (P0:1)
+              m09 (P0:1)
+              m10 (unconnected)
+              m11 (P0:1)
+              m12 (P0:1)
+              m13 (P0:1)
+              m14 (P0:1)
+              m15 (P0:1)
+              m16 (P0:1)
+              m17 (P0:1)
+              m18 (P0:1)
+              m19 (P0:1)
+              m20 (P0:1)
+
+ Families of: P0
+     parents: m01 m02
+    children: m12 m11
+     parents: m02 m03
+    children: m15 m14 m13
+     parents: m03 m04
+    children: m19 m18 m17 m16
+     parents: m03 m05
+    children: m20
+     parents: m07 m08
+    children: m09 m03
+
+PEDIGREE ITERATION
+members         : m01 m02 m03 m04 m05 m06 m07 m08 m09 m10 m11 m12 m13 m14 m15 m16 m17 m18 m19 m20
+const members   : m01 m02 m03 m04 m05 m06 m07 m08 m09 m10 m11 m12 m13 m14 m15 m16 m17 m18 m19 m20
+families        : m01:m02 m02:m03 m03:m04 m03:m05 m07:m08
+const families  : m01:m02 m02:m03 m03:m04 m03:m05 m07:m08
+subpeds         : P0:1
+const subpeds   : P0:1
+unconns         : m06 m10
+const unconns   : m06 m10
+parents 03      : m07 m08
+const parents 03: m07 m08
+
+SUBPED ITERATION (first)
+members         : m01 m02 m03 m04 m05 m07 m08 m09 m11 m12 m13 m14 m15 m16 m17 m18 m19 m20
+const members   : m01 m02 m03 m04 m05 m07 m08 m09 m11 m12 m13 m14 m15 m16 m17 m18 m19 m20
+families        : m01:m02 m02:m03 m03:m04 m03:m05 m07:m08
+const families  : m01:m02 m02:m03 m03:m04 m03:m05 m07:m08
+
+FAMILY ITERATION (m03/m04)
+offspring       : m19 m18 m17 m16
+const offspring : m19 m18 m17 m16
+parents         : m03 m04
+const parents   : m03 m04
+
+MEMBER ITERATION (m03)
+mates           : m02 m04 m05
+const mates     : m02 m04 m05
+offspring       : m19 m18 m17 m16
+const offspring : m19 m18 m17 m16
+offspring       : m19 m18 m17 m16
+const offspring : m19 m18 m17 m16
+parents         : m07 m08
+const parents   : m07 m08
+progeny         : m15 m14 m13 m19 m18 m17 m16 m20
+const progeny   : m15 m14 m13 m19 m18 m17 m16 m20
+siblings        : m09
+const siblings  : m09
+
+#######################################################
+For test: test1
+
+  Members of: P1
+              m01 (P1:2)
+              m02 (P1:2)
+              m03 (P1:2)
+
+ Families of: P1
+     parents: m01 m02
+    children: m03
+
+#######################################################
+For test: test2
+
+  Members of subped: P2:3
+                     m01
+                     m02
+                     m03
+                     m04
+                     m05
+                     m06
+
+ Families of subped: P2:3
+     parents: m01 m02
+    children: m06 m05 m04 m03
+
+#######################################################
+For test: test3
+
+  Members of: P3
+              m01 (P3:4)
+              m02 (P3:4)
+              m03 (P3:4)
+              m04 (P3:4)
+              m05 (P3:4)
+              m06 (P3:4)
+
+ Families of: P3
+     parents: m01 m02
+    children: m06 m05 m04 m03
+
+#######################################################
+For test: test4
+
+  Members of: P4
+              m01 (P4:5)
+              m02 (P4:5)
+              m03 (P4:5)
+              m04 (P4:5)
+              m05 (P4:5)
+              m06 (P4:5)
+              m07 (P4:5)
+              m08 (P4:5)
+
+ Families of: P4
+     parents: m01 m02
+    children: m06 m05 m04 m03
+     parents: m01 m07
+    children: m08
+
+ parents of m05: m01 m02
+ parents of m01:
+siblings of m04: m06 m05 m03
+   mates of m01: m02 m07
+   mates of m02: m01
+   mates of m07: m01
+   mates of m03:
+ progeny of m01: m06 m05 m04 m03 m08
+
+#######################################################
+For test: test5
+
+  Members of: P5
+              m01 (P5:6)
+              m02 (P5:6)
+              m03 (P5:6)
+              m04 (P5:7)
+              m05 (P5:7)
+              m06 (P5:7)
+              m07 (P5:7)
+
+ Families of: P5
+     parents: m01 m02
+    children: m03
+     parents: m04 m05
+    children: m07 m06
+
+#######################################################
+For test: test5
+
+  Members of subped: P5:6
+                     m01
+                     m02
+                     m03
+
+ Families of subped: P5:6
+     parents: m01 m02
+    children: m03
+
+  Members of subped: P5:7
+                     m04
+                     m05
+                     m06
+                     m07
+
+ Families of subped: P5:7
+     parents: m04 m05
+    children: m07 m06
+
+#######################################################
+For test: test5
+
+  Members of: P5
+              m01 (P5:6)
+              m02 (P5:6)
+              m03 (P5:6)
+              m04 (P5:6)
+              m05 (P5:6)
+              m06 (P5:6)
+              m07 (P5:6)
+              m08 (P5:6)
+
+ Families of: P5
+     parents: m01 m02
+    children: m03
+     parents: m04 m05
+    children: m07 m06
+     parents: m03 m06
+    children: m08
+
+#######################################################
+For test: test5
+
+  Members of subped: P5:6
+                     m01
+                     m02
+                     m03
+                     m08
+
+ Families of subped: P5:6
+     parents: m01 m02
+    children: m03
+     parents: m03 m06
+    children: m08
+
+#######################################################
+For test: test6
+
+  Members of: P6
+              m01 (P6:8)
+              m02 (P6:8)
+              m03 (P6:8)
+              m04 (P6:8)
+              m05 (P6:8)
+              m06 (P6:8)
+
+ Families of: P6
+     parents: m01 m02
+    children: m06 m05 m04 m03
+
+#######################################################
+For test: test6
+
+  Members of subped: P6:8
+                     m01
+                     m02
+                     m03
+                     m04
+                     m05
+                     m06
+
+ Families of subped: P6:8
+     parents: m01 m02
+    children: m06 m05 m04 m03
+progeny:  m06 m05 m04 m03
+
+#######################################################
+For test: test 7
+
+  Members of: P7A
+              m01 (P7A:9)
+              m02 (P7A:9)
+              m03 (P7A:9)
+              m04 (P7A:9)
+              m05 (P7A:9)
+              m06 (P7A:9)
+
+ Families of: P7A
+     parents: m01 m02
+    children: m06 m05 m04 m03
+
+#######################################################
+For test: test 7b
+
+  Members of: P7B
+              m01 (P7B:10)
+              m02 (P7B:10)
+              m03 (P7B:10)
+
+ Families of: P7B
+     parents: m01 m02
+    children: m03
+P7A
+P7B
+P7B
+P7A
+m01
+m02
+m02
+m01
+m01 -> XFEMALE
+m02 -> XMALE
+m03 -> XFEMALE
+m04 -> XMALE
+m05 -> XFEMALE
+m06 -> XFEMALE
+m07 -> XFEMALE
+m08 -> XFEMALE
+m10 -> XFEMALE
+m11 -> XFEMALE
+m12 -> XMALE
+m01 -> MISSING
+m02 -> MISSING
+m03 -> MISSING
+m05 -> XFEMALE
+m06 -> XFEMALE
+m07 -> XFEMALE
+m11 -> MISSING
+m12 -> MISSING
+m13 -> MISSING
+m15 -> XFEMALE
+m16 -> XFEMALE
+m17 -> XFEMALE
+Test Gender Inferred: 
+m01 -> MALE
+m02 -> XFEMALE
+m03 -> FEMALE
+m04 -> XMALE
+m05 -> FEMALE
+m06 -> XMALE
+m07 -> XFEMALE
+m08 -> XMALE
+m10 -> XFEMALE
+m11 -> XFEMALE
+m12 -> XFEMALE
+m13 -> XFEMALE
+m14 -> XFEMALE

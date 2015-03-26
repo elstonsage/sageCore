@@ -1,0 +1,42 @@
+marker
+{
+  allele_missing="N"
+  allele_delimiter="/"
+}
+
+pedigree
+{
+  delimiters=" "
+  delimiter_mode=multiple
+  individual_missing_value="0"
+  sex_code, male="1", female="2"
+
+  pedigree_id=pedigree_id
+  individual_id=id
+  parent_id=parent1
+  parent_id=parent2
+  sex_field=sex
+
+  marker_list, start=rs13302035, end=rs16932824
+}
+
+decipher 
+{
+  region=entire, first=rs13302035, last=rs16932824
+
+  blocks
+  {
+    four_gamete_rule=true, threshold=.01
+  }
+
+  data
+  {
+    analysis_unit=family_founders
+  }
+  
+  tasks
+  {
+    pop_freq=false, cutoff=0.001
+  }
+}  
+

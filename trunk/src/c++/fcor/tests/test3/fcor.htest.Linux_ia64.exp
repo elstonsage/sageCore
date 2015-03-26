@@ -1,0 +1,100 @@
+
+
+
+
+============================================================================
+  Test for Homogeneity of Correlations among Subtypes - All Traits
+============================================================================
+
+    Number of pedigrees = 10
+    Number of traits    = 2
+
+    Trait(s) : EF Q1
+
+    Weight method used for interclass : Equal Weight to Pairs
+    Weight method used for intraclass : Equal Weight to Pairs
+
+    Legend :
+      ****** : Value is not estimable.
+      [    ] : Calculated by setting at least one nonestimable required
+               correlation to a value of 0.
+
+============================================================================
+
+Relationship Type : parent:offspring
+  Subtypes Pooled : father:son
+                    mother:son
+                    father:daughter
+                    mother:daughter
+
+Total Pairs Found : 420
+
+Chi-Square = [5.514015] with 12 degree(s) of freedom
+P-Value    = [0.938576]
+
+----------------------------------------------------------------------------
+
+Relationship Type : sibling
+  Subtypes Pooled : brother:brother
+                    sister:brother
+                    sister:sister
+
+Total Pairs Found : 210
+
+Chi-Square = [3.380031] with 6 degree(s) of freedom
+P-Value    = [0.759857]
+
+----------------------------------------------------------------------------
+
+Relationship Type : grandparent
+  Subtypes Pooled : grandfather-through-father:grandson
+                    grandmother-through-father:grandson
+                    grandfather-through-mother:grandson
+                    grandmother-through-mother:grandson
+                    grandfather-through-father:granddaughter
+                    grandmother-through-father:granddaughter
+                    grandfather-through-mother:granddaughter
+                    grandmother-through-mother:granddaughter
+
+Total Pairs Found : 360
+
+Chi-Square = [36.11706] with 28 degree(s) of freedom
+P-Value    = [0.139641]
+
+----------------------------------------------------------------------------
+
+Relationship Type : avuncular
+  Subtypes Pooled : uncle-through-father:nephew
+                    aunt-through-father:nephew
+                    uncle-through-mother:nephew
+                    aunt-through-mother:nephew
+                    uncle-through-father:niece
+                    aunt-through-father:niece
+                    uncle-through-mother:niece
+                    aunt-through-mother:niece
+
+Total Pairs Found : 360
+
+Chi-Square = [9.848703] with 28 degree(s) of freedom
+P-Value    = [0.999396]
+
+----------------------------------------------------------------------------
+
+Relationship Type : cousin
+  Subtypes Pooled : male-cousin-through-father:male-cousin-through-father
+                    male-cousin-through-mother:male-cousin-through-father
+                    male-cousin-through-mother:male-cousin-through-mother
+                    female-cousin-through-father:male-cousin-through-father
+                    female-cousin-through-father:male-cousin-through-mother
+                    female-cousin-through-father:female-cousin-through-father
+                    female-cousin-through-mother:male-cousin-through-father
+                    female-cousin-through-mother:male-cousin-through-mother
+                    female-cousin-through-mother:female-cousin-through-father
+                    female-cousin-through-mother:female-cousin-through-mother
+
+Total Pairs Found : 270
+
+Chi-Square = ******
+P-Value    = ******
+
+============================================================================

@@ -1,0 +1,32 @@
+pedigree, column
+{
+  format="T8,A1,3(A5),1X,A1,T57,3(A4)"
+  pedigree_id
+  individual_id
+  parent_id
+  parent_id
+  sex_field
+  marker=ABO
+  marker=AK1
+  marker=ORM
+  
+  individual_missing_value=" "
+  sex_code, male="2", female="1"
+}
+
+lodlink
+{
+  model=marker_marker, marker=ABO
+  linkage_tests=false, sex_specific=true, homog=true
+  
+  homog_tests
+  {
+    smiths_test=false, sex_specific=true
+    mortons_test=false, sex_specific=false
+  }
+  
+  lods
+  {
+    option=standard
+  }
+}

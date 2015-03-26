@@ -1,0 +1,72 @@
+pedigree
+{
+  pedigree_id=PED
+  individual_id=IND
+  parent_id=P1
+  parent_id=P2
+  sex_field=SEX  
+  trait = T, missing=-999
+  marker=T1, missing=0
+  marker=M1, missing=0
+  marker=M2, missing=0
+  marker=M3, missing=0
+  marker=M4, missing=0
+  marker=M5, missing=0
+  marker=M6, missing=0    
+  marker=M7, missing=0  
+  
+  sex_code, male=1, female=0
+  individual_missing_value=0
+  delimiter_mode=multiple
+  verbose=13
+}
+
+segreg_analysis
+{
+  class=A
+  
+  trait=T
+  
+  transformation
+  {
+    option=none
+  }
+  
+  type_mean
+  {
+    option=three
+  }
+  
+  transmission
+  {
+    option=homog_mendelian
+  }
+  
+  geno_freq
+  {
+    option=hwe
+    freq_A, val=0.5
+  }
+  
+  resid
+  {
+    option=equal_po_ss
+    mo, val=0, fixed=true
+  }
+  
+  output_options
+  {
+    type_prob=true
+  }
+}
+
+lodlink
+{
+  model, trait=segreg_analysis1
+  linkage_tests=true
+  
+  lods
+  {
+    option=none
+  }
+}

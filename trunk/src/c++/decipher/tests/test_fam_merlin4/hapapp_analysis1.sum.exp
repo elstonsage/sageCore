@@ -1,0 +1,36 @@
+
+
+
+==========
+Analysis 1
+==========
+
+
+Options Selected
+================
+Haplotype region                                   all
+Minor allele frequency filter                      no
+Sliding window                                     no
+Four gamete rule blocks                            no
+LD blocks                                          no
+
+Subpopulations specified                           no
+Analysis unit                                      family rep
+  Family representatives specified                 yes
+
+Estimate haplotype frequencies                     no
+Show all possible haplotype combinations table     yes
+List most likely haplotype combinations            no
+Do likelihood ratio test                           no
+Compute empirical p-value                          no
+
+
+Results
+=======
+
+
+Markers in order:
+  m2 m3 m4 
+
+
+

@@ -1,0 +1,189 @@
+
+
+
+=====================================================================================
+  Haseman-Elston Regression Analysis of Full Sibs
+  - single marker regression
+=====================================================================================
+
+    Continuous trait : Trait1
+
+    Dependent variate : Mean-corrected trait cross-product
+
+    w1 : 0.5
+
+    Other options used :
+      Identity weights = no
+      Robust variance  = no
+      Use sibship mean = no
+      Use BLUP mean    = yes
+
+    Legend :
+      Note - kurtosis = coefficient of kurtosis - 3
+      *   - significance  .05 level;
+      **  - significance  .01 level;
+      *** - significance .001 level;
+      #   - Negative intercept set to 0;
+
+=====================================================================================
+Test 1
+=====================================================================================
+-----
+Model
+-----
+
+Trait1 ~ Intercept + Marker_1(A+D) + e
+
+------
+Sample
+------
+
+Number of all sibs            =   16
+Number of sibs used           =   14
+Number of full sib pairs      =   19
+
+-----
+Trait
+-----
+
+Sample mean                   =    4.6250
+Sample variance               =    1.9833
+Sample skewness               =   -0.4853
+Sample kurtosis               =   -0.8117
+Pairwise full sib correlation =   -0.2459
+Intra sibship correlation     =   -0.1955
+
+-----------------
+Dependent variate
+-----------------
+
+Correlation between pairs with no sibs in common =    0.3302
+Correlation between pairs with one sib in common =    0.3302
+
+Correlation between squared difference
+                and squared mean corrected sum   =    0.2170
+
+----------
+Regression
+----------
+
+                  before intercept is set           # after intercept is set
+                  -----------------------------     -----------------------------
+                   Estimate Std Error   P-value      Estimate Std Error   P-value     
+----------------- --------- --------- ---------     --------- --------- ---------     
+Intercept           -0.9595                            0.0000
+Marker_1             1.4382    1.0675 0.0973161        1.4371    1.0377 0.0914948     
+
+Total variance       1.9556                            1.9601
+Residual variance    1.9739                            1.8698
+Residual skewness   -0.1157                           -0.1157
+Residual kurtosis    0.9263                            0.9267
+=====================================================================================
+Test 2
+=====================================================================================
+-----
+Model
+-----
+
+Trait1 ~ Intercept + Marker_2(A+D) + e
+
+------
+Sample
+------
+
+Number of all sibs            =   16
+Number of sibs used           =   14
+Number of full sib pairs      =   19
+
+-----
+Trait
+-----
+
+Sample mean                   =    4.6250
+Sample variance               =    1.9833
+Sample skewness               =   -0.4853
+Sample kurtosis               =   -0.8117
+Pairwise full sib correlation =   -0.2459
+Intra sibship correlation     =   -0.1955
+
+-----------------
+Dependent variate
+-----------------
+
+Correlation between pairs with no sibs in common =    0.3302
+Correlation between pairs with one sib in common =    0.3302
+
+Correlation between squared difference
+                and squared mean corrected sum   =    0.2170
+
+----------
+Regression
+----------
+
+                  before intercept is set           # after intercept is set
+                  -----------------------------     -----------------------------
+                   Estimate Std Error   P-value      Estimate Std Error   P-value     
+----------------- --------- --------- ---------     --------- --------- ---------     
+Intercept           -0.9417                            0.0000
+Marker_2             1.4014    1.0600 0.1013456        1.4005    1.0303 0.0954241     
+
+Total variance       1.9665                            1.9702
+Residual variance    1.9921                            1.8861
+Residual skewness   -0.1223                           -0.1223
+Residual kurtosis    0.9204                            0.9208
+=====================================================================================
+Test 3
+=====================================================================================
+-----
+Model
+-----
+
+Trait1 ~ Intercept + Marker_3(A+D) + e
+
+------
+Sample
+------
+
+Number of all sibs            =   16
+Number of sibs used           =   14
+Number of full sib pairs      =   18
+
+-----
+Trait
+-----
+
+Sample mean                   =    4.6250
+Sample variance               =    1.9833
+Sample skewness               =   -0.4853
+Sample kurtosis               =   -0.8117
+Pairwise full sib correlation =   -0.2190
+Intra sibship correlation     =   -0.1955
+
+-----------------
+Dependent variate
+-----------------
+
+Correlation between pairs with no sibs in common =    0.3302
+Correlation between pairs with one sib in common =    0.3302
+
+Correlation between squared difference
+                and squared mean corrected sum   =    0.2136
+
+----------
+Regression
+----------
+
+                  before intercept is set           # after intercept is set
+                  -----------------------------     -----------------------------
+                   Estimate Std Error   P-value      Estimate Std Error   P-value     
+----------------- --------- --------- ---------     --------- --------- ---------     
+Intercept           -0.9524                            0.0000
+Marker_3             1.6562    1.1171 0.0782466        1.6569    1.0837 0.0723252     
+
+Total variance       1.9856                            1.9856
+Residual variance    1.9636                            1.8482
+Residual skewness   -0.2280                           -0.2279
+Residual kurtosis    0.9389                            0.9387
+=====================================================================================
+
+

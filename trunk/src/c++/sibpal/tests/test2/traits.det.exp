@@ -1,0 +1,84 @@
+
+
+
+=====================================================================================
+  Haseman-Elston Regression Analysis of Full Sibs
+  - single marker regression
+=====================================================================================
+
+    Continuous trait : Trait1
+
+    Dependent variate : Weighted square trait sum and difference (W2)
+
+    w1 : 0.5
+
+    Other options used :
+      Identity weights = no
+      Robust variance  = no
+      Use sibship mean = no
+      Use BLUP mean    = yes
+
+    Legend :
+      Note - kurtosis = coefficient of kurtosis - 3
+      *   - significance  .05 level;
+      **  - significance  .01 level;
+      *** - significance .001 level;
+      #   - Negative intercept set to 0;
+
+=====================================================================================
+Test 1
+=====================================================================================
+-----
+Model
+-----
+
+Trait1 ~ Intercept + Marker(A+D) + e
+
+------
+Sample
+------
+
+Number of all sibs            =   16
+Number of sibs used           =   14
+Number of full sib pairs      =   19
+
+-----
+Trait
+-----
+
+Sample mean                   =    4.6250
+Sample variance               =    1.9833
+Sample skewness               =   -0.4853
+Sample kurtosis               =   -0.8117
+Pairwise full sib correlation =   -0.2459
+Intra sibship correlation     =   -0.1955
+
+-----------------
+Dependent variate
+-----------------
+
+Correlation between pairs with no sibs in common =    0.3309
+Correlation between pairs with one sib in common =    0.3309
+w = 0.395301, 1-w = 0.604699
+
+Correlation between squared difference
+                and squared mean corrected sum   =    0.2170
+
+----------
+Regression
+----------
+
+                  before intercept is set           # after intercept is set
+                  -----------------------------     -----------------------------
+                   Estimate Std Error   P-value      Estimate Std Error   P-value     
+----------------- --------- --------- ---------     --------- --------- ---------     
+Intercept           -1.2983                            0.0000
+Marker               1.4799    1.0966 0.0969618        1.4780    1.0664 0.0913318     
+
+Total variance       2.1913                            2.1971
+Residual variance    2.2094                            2.0955
+Residual skewness   -0.7865                           -0.7867
+Residual kurtosis    2.0943                            2.0953
+=====================================================================================
+
+

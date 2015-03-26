@@ -1,0 +1,67 @@
+
+
+
+Reading Parameter File....................done.
+Reading Marker Locus Description File.....done.
+Reading Pedigree File.....................
+              from ped....................done.
+Sorting Pedigrees.........................done.
+Reading Genome Description File...........done.
+
+GENIBD analysis.......  1
+
+===========================================================================
+Analysis 1 : Singlepoint analysis on region (CH22):
+        * - Pedigrees with loops will not be processed.
+===========================================================================
+
+  Processing Region: CH22
+  =======================================
+
+  Analysis 1: Pedigree 1333
+        Generating Single Point Likelihoods....................Done.
+
+  Analysis 1: Pedigree 1340
+        Generating Single Point Likelihoods....................Done.
+
+  Analysis 1: Pedigree 1341
+        Generating Single Point Likelihoods....................Done.
+
+  Analysis 1: Pedigree 1345
+        Generating Single Point Likelihoods....................Done.
+
+  Analysis 1: Pedigree 1346
+        Generating Single Point Likelihoods....................Done.
+
+  Analysis 1: Pedigree 1347
+        Generating Single Point Likelihoods....................Done.
+
+  Analysis 1: Pedigree 1362
+        Generating Single Point Likelihoods....................Done.
+
+  Analysis 1: Pedigree 1408
+        Generating Single Point Likelihoods....................Done.
+
+  Analysis 1: Pedigree 1416
+        Generating Single Point Likelihoods....................Done.
+
+  Analysis 1: Pedigree 1418
+        Generating Single Point Likelihoods....................Done.
+
+  Analysis 1: Pedigree 1421
+        Generating Single Point Likelihoods....................Done.
+
+  Analysis 1: Pedigree 1423
+        Generating Single Point Likelihoods....................Done.
+
+  Analysis 1: Pedigree 1424
+        Generating Single Point Likelihoods....................Done.
+
+  Analysis 1: Pedigree 1454
+        Generating Single Point Likelihoods....................Done.
+
+
+Analysis complete!
+
+
+

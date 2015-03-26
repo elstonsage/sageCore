@@ -1,0 +1,690 @@
+pedigree
+{
+  pedigree_id=PID
+  individual_id=ID
+  sex_field=SEX
+  parent_id=P1
+  parent_id=P2
+  trait=DISEASE, binary, affected=1, unaffected=0
+  trait=HEMATOCRIT
+}
+
+
+# - Test defaults.  No primary trait specified.
+#
+segreg_analysis   #1
+{
+  
+}
+
+# - Specify non-default values.
+#
+segreg_analysis   #2
+{
+  trait=hematocrit
+  class=mixed
+  output="my_out"
+  
+  output_options
+  {
+    each_pedigree=true
+    pen_func_out=true, output=FuncOutMan
+    type_prob=true, output=probably 
+  }
+}
+
+
+
+# - Genotype specific mean sub-model.
+#
+segreg           #3
+{
+  trait=hematocrit
+  
+  type_mean
+  {
+    option=one
+    mean="AA", val=.6, fixed=false
+    mean="AB", val=.3, fixed=true
+  }
+}
+
+segreg_analysis   #4
+{
+  trait=hematocrit
+  
+  type_mean
+  {
+    option=two
+    mean="AA", val=.6, fixed=false
+    mean="AB", val=.3, fixed=false
+  }
+}
+
+segreg_analysis   #5
+{
+  trait=hematocrit
+  
+  type_mean
+  {
+    option=three
+    mean="AA", val=22, fixed=false
+    mean="BB", val=13, fixed=true
+  }
+}
+
+segreg_analysis   #6
+{
+  trait=hematocrit
+  
+  type_mean
+  {
+    option=two_dom
+    mean="AA", val=.6, fixed=false
+    mean="AB", val=.3, fixed=false
+  }
+}
+
+segreg_analysis   #7
+{
+  trait=hematocrit
+  
+
+  type_mean
+  {
+    option=two_rec
+    mean="**", val=12.3, fixed=true
+  }
+}
+
+segreg_analysis   #8
+{
+  trait=hematocrit
+  
+
+  type_mean
+  {
+    option=two_rec
+    mean="A*", val=12.3, fixed=false
+    mean="B*", val=.7, fixed=false
+  }
+}
+
+segreg_analysis   #9
+{
+  trait=hematocrit
+  
+
+  type_mean
+  {
+    option=three_add
+    mean="**", val=12.3, fixed=false
+  }
+}
+
+segreg_analysis   #10
+{
+  trait=hematocrit
+  
+  type_mean
+  {
+    option=three_add
+    mean="A*", val=12.3, fixed=false
+    mean="B*", val=1.7, fixed=true
+  }
+}
+
+segreg_analysis   #11
+{
+  trait=hematocrit
+  
+  type_mean
+  {
+    option=three_dec
+    mean="**", val=12.3, fixed=false
+  }
+}
+
+segreg_analysis   #12
+{
+  trait=hematocrit
+  
+  type_mean
+  {
+    option=three_dec
+    mean="AA", val=12.3, fixed=false
+    mean="AB", val=71.0, fixed=false
+  }
+}
+
+segreg_analysis   #13
+{
+  trait=hematocrit
+  
+  type_mean
+  {
+    option=three_inc
+    mean="A*", val=12.3, fixed=false
+    mean="BB", val=.05, fixed=false
+  }
+}
+
+segreg_analysis   #14
+{
+  trait=hematocrit
+  
+  type_mean
+  {
+    option=three_inc
+    mean="A*", val=.05, fixed=false
+    mean="B*", val=12.3, fixed=false
+  }
+}
+
+segreg_analysis   #15
+{
+  trait=hematocrit
+  
+  type_mean
+  {
+    option=three_inc
+    mean="AA", val= -.05, fixed=false
+    mean="AB",  fixed=true
+  }
+}
+
+segreg_analysis   #16
+{
+  trait=hematocrit
+  
+  type_mean
+  {
+    option=three_inc
+    mean="AA", val= -.05, fixed=false
+    mean="AB", val= 17
+  }
+}
+
+
+
+# - Transformation sub-model.
+#
+segreg_analysis   #17
+{
+  trait=hematocrit
+  
+  transformation
+  {
+    option=elston_george
+    lambda1, val=2,fixed=true
+  }
+}
+
+segreg_analysis   #18
+{
+  trait=hematocrit
+  
+  transformation
+  {
+    lambda1, val=27, lower_bound=17, upper_bound=37
+    lambda2, val=13, fixed=false
+  }
+}
+
+segreg_analysis   #19
+{
+  trait=hematocrit
+  
+  transformation
+  {
+    lambda1, val=27, lower_bound=47, upper_bound=37
+    lambda2, val=13, fixed=false
+  }
+}
+
+segreg_analysis   #20
+{
+  trait=hematocrit
+  
+  transformation
+  {
+    lambda1, val=27, fixed=true, lower_bound=47, upper_bound=37
+    lambda2, val=13, fixed=false
+  }
+}
+
+segreg_analysis   #21
+{
+  trait=hematocrit
+  
+  transformation
+  {
+    lambda1, val=27, lower_bound=47, upper_bound=37
+  }
+}
+
+
+
+# - geno_freq sub-block.
+#
+segreg_analysis   #22
+{
+  trait=hematocrit
+  
+  geno_freq
+  {
+    option = nhwe
+    probs_fixed = true
+  }
+  
+  transmission
+  {
+    option =general
+  }
+}
+
+segreg_analysis   #23
+{
+  trait=hematocrit
+  
+  geno_freq
+  {
+    option = hwe
+    probs_fixed = false
+    freq_A, fixed=true
+  }
+  
+}
+
+segreg_analysis   #24
+{
+  trait=hematocrit
+  
+  geno_freq
+  {
+    option = hwe
+    freq_A, val=.7
+    corr, val=.1
+  }
+}
+
+segreg_analysis   #25
+{
+  trait=hematocrit
+  
+  geno_freq
+  {
+    option = nhwe
+    freq_A=.7
+    prob = AA, val=.3
+    prob = AB, val=.1
+  }
+  
+  transmission
+  {
+    option = general
+  }
+  
+  type_mean
+  {
+    option =two
+  }
+}
+
+segreg_analysis   #26
+{
+  trait=hematocrit
+  
+  geno_freq
+  {
+    option = nhwe
+    probs_fixed=true
+    prob = AA, val=.3
+  }
+  
+  transmission
+  {
+    option = general
+  }
+  
+  type_mean
+  {
+    option =two
+  }
+}
+
+segreg_analysis   #27
+{
+  trait=hematocrit
+  
+  geno_freq
+  {
+    option = nhwe
+    probs_fixed=true
+    prob = AA, val=.3, fixed=false
+    prob = AB, val=.3
+    prob = BB, val=.3
+  }
+  
+  transmission
+  {
+    option = general
+  }
+  
+  type_mean
+  {
+    option =two
+  }
+}
+
+segreg_analysis   #28
+{
+  trait=hematocrit
+  
+  geno_freq
+  {
+    option = nhwe
+    probs_fixed=false
+    prob = AA, val=.3
+    prob = AB, val=.3
+    prob = BB, val=.3
+  }
+  
+  transmission
+  {
+    option = general
+  }
+  
+  type_mean
+  {
+    option =two
+  }
+}
+
+segreg_analysis   #29
+{
+  trait=hematocrit
+  
+  geno_freq
+  {
+    corr, val=6, fixed=true
+  }
+}
+
+# - Follow up.
+#
+segreg_analysis   #30
+{
+  trait=hematocrit
+  
+  type_mean
+  {
+    mean="AA", val=.6, fixed=false
+    mean="AB", val=.3, fixed=true
+  }
+}
+
+segreg_analysis   #31
+{
+  trait=hematocrit
+  
+  type_mean
+}
+
+segreg_analysis   #32
+{
+  trait=hematocrit
+  
+  transformation
+  {
+    option = box_cox
+    lambda1, val=27, lower_bound=17, upper_bound=37
+    lambda2, val=13, fixed=false
+  }
+}
+
+segreg_analysis   #33
+{
+  trait=hematocrit
+  
+  transformation
+  {
+    option=box_cox
+    lambda1, val=27, lower_bound=47, upper_bound=37
+    lambda2, val=13, fixed=false
+  }
+}
+
+segreg_analysis   #34
+{
+  trait=hematocrit
+  
+  transformation
+  {
+    option=george_elston
+    lambda1, val=27, lower_bound=47, upper_bound=37
+  }
+}
+
+segreg_analysis   #35
+{
+  trait=hematocrit
+  class=FPMM
+  
+}
+
+segreg_analysis   #36
+{
+  trait=hematocrit
+  
+  transmission
+  {
+  
+  }
+  
+  geno_freq
+  {
+    
+  }
+}
+
+segreg_analysis   #37
+{
+  trait=hematocrit
+  
+  geno_freq
+  {
+    option = hwe
+    probs_fixed = true
+  }
+}
+
+segreg_analysis   #38
+{
+  trait=DISEASE
+  transformation
+}
+
+segreg_analysis   #39
+{
+  trait=hematocrit
+  
+  geno_freq
+  {
+    freq_A, val = 0
+  }
+}
+
+segreg_analysis   #40
+{
+  trait=hematocrit
+  
+  type_mean
+  {
+    option=two
+    mean="AB", val=.3, fixed=true
+  }
+}
+
+segreg_analysis   #41
+{
+  trait=hematocrit
+  
+  transformation
+	{
+	  option=box_cox
+	  lambda1=.5, fixed=false
+	  lambda2=0, fixed=true
+	}
+}
+
+segreg_analysis   #42
+{
+  trait=hematocrit
+  
+  transformation
+	{
+	  option=george_elston
+	  lambda1,val=-1.5, fixed=false
+	  lambda2,val=4, fixed=true
+	}
+}
+
+segreg_analysis   #43
+{
+  trait=hematocrit
+  
+  transformation
+	{
+	  option=george_elston
+	  lambda1,val=-2, fixed=false, lower_bound=-1
+	  lambda2,val=4, fixed=true
+	}
+}
+
+segreg_analysis   #44
+{
+  trait=hematocrit, type=hematocrit
+}
+
+segreg_analysis   #45
+{
+  trait=hematocrit
+  title=one
+  title=two
+}
+
+segreg_analysis  #46
+{
+  trait=hematocrit
+  
+  geno_freq
+  {
+    option=nhwe
+    freq_A=.2
+  }
+}
+
+segreg_analysis  #47
+{
+  trait=hematocrit
+  
+  type_mean
+  {
+    option = three
+  }
+  
+  transmission
+  {
+    option = general
+  }
+  
+  geno_freq
+  {
+    option=nhwe
+    freq_A=2.2
+  }
+}
+
+segreg_analysis  #48
+{
+  trait=hematocrit
+  
+  type_mean
+  {
+    option = three
+  }
+  
+  transmission
+  {
+    option = general
+  }
+  
+  geno_freq
+  {
+    option=nhwe
+    probs_fixed = true;
+    freq_A=2.2
+  }
+}
+
+segreg_analysis  #49
+{
+  trait=hematocrit
+  
+  type_mean
+  {
+    option = three
+  }
+  
+  transmission
+  {
+    option = general
+  }
+  
+  geno_freq
+  {
+    option=nhwe
+    freq_A=.2
+  }
+}
+
+segreg_analysis, out=apricot      #50
+{
+  
+}
+
+segreg                            #51
+{
+  trait=hematocrit
+  
+  type_mean
+  {
+    option=two
+    mean="A*",val=2
+    mean="BB",val=13
+  }
+}
+
+segreg_analysis   #52
+{
+  trait=disease
+  class=A
+}
+
+segreg_analysis   #53
+{
+  trait=disease
+
+  type_mean
+  {
+    option=two
+    mean="A*",val=2
+  }
+}
+
+segreg_analysis   #54
+{
+  trait=disease
+  class
+}

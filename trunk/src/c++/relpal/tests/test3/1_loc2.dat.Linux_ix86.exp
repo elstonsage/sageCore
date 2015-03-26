@@ -1,0 +1,134 @@
+*** current test model ***
+
+==========================
+  Regression model dump  
+==========================
+
+Model name: loc2
+  Model valid!!
+
+Dependent variables:
+ 1 : con_t1  2 : con_t2 
+
+Independent variables - individual level:
+ 1 : INTERCEPT (INTERCEPT(t0,t0))
+ 2 : INTERCEPT (INTERCEPT(t1,t1))
+
+Independent variables - pedigree level:
+ 1 : loc2 ((A+D)GenVar(t0,t0))
+ 2 : loc2 ((A+D)GenVar(t0,t1))
+ 3 : loc2 ((A+D)GenVar(t1,t1))
+ 4 : POLYGENIC_EFF (POLYGENIC_EFF(t0,t0))
+ 5 : POLYGENIC_EFF (POLYGENIC_EFF(t0,t1))
+ 6 : POLYGENIC_EFF (POLYGENIC_EFF(t1,t1))
+ 7 : RANDOM_EFF (RANDOM_EFF(t0,t0))
+ 8 : RANDOM_EFF (RANDOM_EFF(t0,t1))
+ 9 : RANDOM_EFF (RANDOM_EFF(t1,t1))
+
+P-value options:
+ seed = 100
+ replicates = 0
+ min_replicates = 20
+ max_replicates = 10000
+ threshold = 0.05
+ width = 0.2
+ confidence = 0.95
+
+Transform residuals from 1st level to 2nd level
+Variance options:
+ naive_variance = yes
+ sandwich_variance = yes
+ alternative_variance = yes
+ IBD_variance = yes
+
+*** current null model ***
+
+==========================
+  Regression model dump  
+==========================
+
+Model name: 
+  Model valid!!
+
+Dependent variables:
+ 1 : con_t1  2 : con_t2 
+
+Independent variables - individual level:
+ 1 : INTERCEPT (INTERCEPT(t0,t0))
+ 2 : INTERCEPT (INTERCEPT(t1,t1))
+
+Independent variables - pedigree level:
+ 1 : POLYGENIC_EFF (POLYGENIC_EFF(t0,t0))
+ 2 : POLYGENIC_EFF (POLYGENIC_EFF(t0,t1))
+ 3 : POLYGENIC_EFF (POLYGENIC_EFF(t1,t1))
+ 4 : RANDOM_EFF (RANDOM_EFF(t0,t0))
+ 5 : RANDOM_EFF (RANDOM_EFF(t0,t1))
+ 6 : RANDOM_EFF (RANDOM_EFF(t1,t1))
+
+P-value options:
+ seed = 100
+ replicates = 0
+ min_replicates = 20
+ max_replicates = 10000
+ threshold = 0.05
+ width = 0.2
+ confidence = 0.95
+
+Transform residuals from 1st level to 2nd level
+Variance options:
+ naive_variance = yes
+ sandwich_variance = yes
+ alternative_variance = yes
+ IBD_variance = yes
+
+subped data:
+  total member count = 16  total pair count   = 27
+
+subped 0, name = SIM001_1:5
+pairs: 
+ 0 SIM001_1(3,4)
+
+members:  3 4
+member to pair: 
+ * 0
+ 0 *
+
+subped 1, name = SIM001_2:7
+pairs: 
+ 1 SIM001_2(1,10) 2 SIM001_2(1,7) 3 SIM001_2(1,8) 4 SIM001_2(1,9)
+ 5 SIM001_2(10,2) 10 SIM001_2(2,7) 11 SIM001_2(2,8) 12 SIM001_2(2,9)
+ 13 SIM001_2(3,4) 6 SIM001_2(10,3) 14 SIM001_2(3,8)
+ 15 SIM001_2(4,7) 16 SIM001_2(4,9)
+ 7 SIM001_2(10,7) 8 SIM001_2(10,8) 9 SIM001_2(10,9)
+ 17 SIM001_2(7,8) 18 SIM001_2(7,9)
+ 19 SIM001_2(8,9)
+
+members:  1 2 3 4 10 7 8 9
+member to pair: 
+ * * * * 1 2 3 4
+ * * * * 5 10 11 12
+ * * * 13 6 * 14 *
+ * * 13 * * 15 * 16
+ 1 5 6 * * 7 8 9
+ 2 10 * 15 7 * 17 18
+ 3 11 14 * 8 17 * 19
+ 4 12 * 16 9 18 19 *
+
+subped 2, name = SIM001_3:8
+pairs: 
+ 23 SIM001_3(3,4)
+
+ 20 SIM001_3(10,7) 21 SIM001_3(10,8) 22 SIM001_3(10,9)
+ 24 SIM001_3(7,8) 25 SIM001_3(7,9)
+ 26 SIM001_3(8,9)
+
+members:  4 3 10 7 8 9
+member to pair: 
+ * 23 * * * *
+ 23 * * * * *
+ * * * 20 21 22
+ * * 20 * 24 25
+ * * 21 24 * 26
+ * * 22 25 26 *
+
+

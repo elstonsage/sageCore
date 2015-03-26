@@ -1,0 +1,76 @@
+pedigree
+{
+        delimiter_mode=multiple
+	delimiters=" "
+	pedigree_id=fam
+	individual_id=id
+	parent_id=mom
+	parent_id=dad
+        sex_field=sex
+	individual_missing_value="0"
+	sex_code,male=1, female=2
+	trait="sqrtdbh", missing=-1
+        marker=abo
+        marker=ak1
+        marker=orm
+}
+
+# NEW PEDINFO PARAMETER
+pedinfo_analysis
+{
+  each_pedigree=true
+  output=new_pedinfo.out
+}
+
+# GENIBD PARAMETERS
+noibd_analysis                                                
+{                                                           
+  ibd_mode=single
+  mode=single
+                                                            
+  region=ch9,output="exsingle.ibd",title="Exact single-point Analysis" 
+}                                                           
+
+noibd_analysis                                                
+{                                                           
+#  use_factoring=false
+#  sim_steps=100000
+#  sim_batches=1
+#  demem_steps=1
+#  ibd_mode=single
+#  mode=single
+  use_simulation=always
+                                                            
+  region=ch9-1,output="simsingle.ibd",title="MCMC single-point Analysis" 
+}                                                           
+
+noibd_analysis                                                
+{                                                           
+  ibd_mode=multi
+  mode=multi
+  use_simulation=always
+                                                            
+  region=ch9,output="multi.ibd",title="Multi-point Analysis" 
+}                                                           
+
+
+#SIBPAL2 PARAMETERS
+
+
+trait_regression,single
+{ 
+  trait=sqrtdbh
+  marker=abo
+  marker=ak1
+  marker=orm
+ 
+}
+
+trait_regression,multiple
+{
+  trait=sqrtdbh
+  marker=abo
+  marker=ak1
+  marker=orm
+}
+

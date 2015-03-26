@@ -1,0 +1,94 @@
+
+---------- 1 New Analysis Block 1 ---------- 
+
+Model class: D
+
+Type susceptibilities values: 
+Option: one susceptibility
+  maxfun parameter  susc         
+  value             Non-number   
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+
+
+---------- 2 New Analysis Block 2 ---------- 
+
+Model class: mlm
+
+Type susceptibilities values: 
+Option: two susceptibilities, A dominant
+  maxfun parameter  susc_AA_AB   
+  value              7.100000    
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+  maxfun parameter  susc_BB      
+  value              2.000000    
+  status            Independent  
+  lower bound       -Infinity    
+  upper bound       Infinity     
+
+
+
+---------- 3 New Analysis Block 3 ---------- 
+
+Model class: invalid
+
+Type susceptibilities values: 
+Option: three susceptibilities, increasing
+  maxfun parameter  susc_AA    
+  value              7.100000  
+  status            Fixed      
+  lower bound       -Infinity  
+  upper bound       Infinity   
+
+  maxfun parameter  susc_AB    
+  value              2.000000  
+  status            Fixed      
+  lower bound       -Infinity  
+  upper bound       Infinity   
+
+  maxfun parameter  susc_BB    
+  value              8.300000  
+  status            Fixed      
+  lower bound       -Infinity  
+  upper bound       Infinity   
+
+
+
+---------- 4 New Analysis Block 4 ---------- 
+
+Model class: mlm
+
+Type susceptibilities values: 
+Option: one susceptibility
+  maxfun parameter  susc       
+  value              7.100000  
+  status            Fixed      
+  lower bound       -Infinity  
+  upper bound       Infinity   
+
+
+
+---------- 5 New Analysis Block 5 ---------- 
+
+Model class: mlm
+
+Type susceptibilities values: 
+Option: two susceptibilities
+  maxfun parameter  susc_AA_AB  
+  value              7.100000   
+  status            Fixed       
+  lower bound       -Infinity   
+  upper bound       Infinity    
+
+  maxfun parameter  susc_BB    
+  value              8.300000  
+  status            Fixed      
+  lower bound       -Infinity  
+  upper bound       Infinity   
+
+

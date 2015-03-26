@@ -1,0 +1,35 @@
+
+
+
+==============================================================
+  Conditional Logistic Analysis of
+    Affected Relative Pairs - multipoint
+==============================================================
+
+    Trait    : sle
+                concordantly affected relative pairs
+
+    Covariate: malefam
+                single covariate value
+                minimum adjusted 
+                mean before adjusting = 0.232673
+                mean after adjusting  = 0.232673
+                std. deviation        = 0.423585
+
+    Subset   : var
+
+    Method   : default analysis method
+
+    Model    : lambda1 equal, lambda2 fixed, alpha = 2.634
+
+==============================================================
+                            Full           Parameter Estimates
+                  LOD       Sib    All     -------------------
+MARKER            SCORE     Pairs  Pairs   Beta1     malefam  
+----------------- --------- ------ ------  --------- ---------
+ 20s103            0.000000    117    199   0.000000  0.000000
+ 20_2.0           ---------    117    199  --------- ---------
+ 20_4.0            0.000000    117    199   0.000000  0.000000
+==============================================================
+
+

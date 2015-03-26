@@ -1,0 +1,93 @@
+pedigree,column
+{
+  verbose=100
+  format="(10A6)"
+  individual_missing_value=""
+  individual_missing_code=""
+  sex_code,missing="?",male="1",female="2"
+  pedigree_id
+  individual_id
+  parent_id
+  parent_id
+  sex_field
+  trait="Trait1",missing="XXX"
+  marker="m" # ,missing=""
+}
+
+tdt_analysis
+{
+  max_child=1
+  max_pairs=0
+}
+
+tdt_analysis
+{
+  max_child=0
+  max_pairs=1
+}
+
+tdt_analysis
+{
+  max_child=1
+  max_pairs=1
+}
+
+tdt_analysis
+{
+  max_child=unlimited
+  max_pairs=0
+}
+
+tdt_analysis
+{
+  max_child=0
+  max_pairs=unlimited
+}
+
+tdt_analysis
+{
+  max_child=unlimited
+  max_pairs=unlimited
+}
+
+tdt_analysis
+{
+  sample=genotypes
+  max_child=1
+  max_pairs=0
+}
+
+tdt_analysis
+{
+  sample=genotypes
+  max_child=0
+  max_pairs=1
+}
+
+tdt_analysis
+{
+  sample=genotypes
+  max_child=1
+  max_pairs=1
+}
+
+tdt_analysis
+{
+  sample=genotypes
+  max_child=unlimited
+  max_pairs=0
+}
+
+tdt_analysis
+{
+  sample=genotypes
+  max_child=0
+  max_pairs=unlimited
+}
+
+tdt_analysis
+{
+  sample=genotypes
+  max_child=unlimited
+  max_pairs=unlimited
+}

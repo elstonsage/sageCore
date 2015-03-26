@@ -1,0 +1,10 @@
+pedigree,column
+{
+  verbose=100
+  format="(2A4,A1,2X,2A4,3A3)"
+  individual_missing_value="0"
+  sex_code,missing="?",male="M",female="F"
+  no_sex_ok=true
+  trait="Trait1",missing="XXX"
+  marker="m"
+}

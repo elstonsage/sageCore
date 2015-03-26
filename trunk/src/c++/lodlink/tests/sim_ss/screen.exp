@@ -1,0 +1,33 @@
+
+
+
+Reading Parameter File....................done.
+Reading Marker Locus Description File.....done.
+Reading Pedigree File.....................
+              from ped....................done.
+Sorting Pedigrees.........................done.
+Generating statistics.....................
+Parsing LODLINK analyses ...
+
+
+Parsing new analysis block ...
+
+
+Parsing of LODLINK Analysis 1 complete.  Analysis valid.
+------------------------------------------------------------------------------
+Performing lod score calculations ...
+Performing lod ratio test for linkage ...
+Performing Cleves-Elston test for linkage ...
+
+Parsing new analysis block ...
+
+
+Parsing of LODLINK Analysis 2 complete.  Analysis valid.
+------------------------------------------------------------------------------
+Performing test for linkage under Smith's model ...
+Performing Smith's homogeneity test ...
+done.
+
+Analysis complete!
+
+

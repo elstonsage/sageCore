@@ -1,0 +1,297 @@
+
+Family structure information on the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       SEX       PARENT1       PARENT2     
+     ------------  ------------  --------  ------------  ------------
+     1             1             F                                   
+     1             2             M                                   
+     1             3             M         1             2           
+     1             4             F         1             2           
+     1             5             M                                   
+     1             6             F         4             5           
+
+
+Phenotypes for the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       SEX_CODE              FAMILIAL_INDICATOR    FOUNDER_INDICATOR     PEDIGREE_SIZE         DISEASE               HEMATOCRIT          
+     ------------  ------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------
+     1             1             1                     1                     1                     6                     1                     30                  
+     1             2             0                     1                     1                     6                     0                     40                  
+     1             3             0                     1                     0                     6                     0                     27.1                
+     1             4             1                     1                     0                     6                     1                     39                  
+     1             5             0                     1                     1                     6                     0                     37.6                
+     1             6             1                     1                     0                     6                     1                     41.1                
+
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 1 New Analysis Block 1 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Critical:No primary trait specified.  Skipping analysis ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 2 New Analysis Block 2 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:each_pedigree option in output_options sub-block not
+                        available in this release.  Ignoring ...
+%TESTSEGREGPARSER-Error:Invalid value for parameter, class, 'mixed'.  Using
+                        model class, 'D'.
+%TESTSEGREGPARSER-Error:pen_func_out in output_options only relevant when
+                        transmission sub-block option is homog_mendelian. 
+                        Ignoring ...
+%TESTSEGREGPARSER-Error:type_prob in output_options only relevant when
+                        type_mean or type_suscept sub-block option is not 'one'
+                        .  Ignoring ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 3 New Analysis Block 3 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Critical:Conflicting data for genotype specific means. 
+                           Skipping analysis ... 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 4 New Analysis Block 4 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Warning:Genotype specific mean AB specified in type_mean
+                          sub-block with option two.  Ignoring ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 5 New Analysis Block 5 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 6 New Analysis Block 6 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:Conflicting data for genotype specific means AA and AB.
+                        Making arbitrary choice ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 7 New Analysis Block 7 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 8 New Analysis Block 8 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 9 New Analysis Block 9 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:Genotype specific mean AB specified in type_mean
+                        sub-block with option three_add.  Ignoring ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 10 New Analysis Block 10 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:Genotype specific mean AB specified in type_mean
+                        sub-block with option three_add.  Ignoring ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 11 New Analysis Block 11 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 12 New Analysis Block 12 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Critical:Genotype specific means violate constraints. 
+                           Skipping analysis ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 13 New Analysis Block 13 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Critical:Genotype specific means violate constraints. 
+                           Skipping analysis ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 14 New Analysis Block 14 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 15 New Analysis Block 15 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Critical:No value given for mean AB in type_mean sub-block
+                           with attribute, fixed, equal to 'true'.  Skipping
+                           analysis ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 16 New Analysis Block 16 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 17 New Analysis Block 17 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:Value 'ELSTON_GEORGE' for option parameter of
+                        transformation sub-block not recognized.  Ignoring ... 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 18 New Analysis Block 18 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 19 New Analysis Block 19 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Critical:Conflicting values specified for lower and upper
+                           limits of transformation power parameter.  Skipping
+                           analysis ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 20 New Analysis Block 20 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:Limit(s) specified for fixed transformation power
+                        parameter.  Ignoring ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 21 New Analysis Block 21 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Critical:Conflicting values specified for lower and upper
+                           limits of transformation power parameter.  Skipping
+                           analysis ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 22 New Analysis Block 22 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:nhwe option specified in geno_freq sub-block for
+                        commingling analysis.  Ignoring ...
+%TESTSEGREGPARSER-Error:transmission sub-block specified without specifying a
+                        type (mean or suscept) sub-block.  Ignoring ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 23 New Analysis Block 23 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:Attribute 'fixed' not used in parameter, freq_A in
+                        geno_freq sub-block.  Use 'probs_fixed'.
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 24 New Analysis Block 24 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 25 New Analysis Block 25 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:nhwe option not allowed in geno_freq sub-block with two
+                        types in type_mean or type_suscept sub-block.  Using
+                        hwe option ...
+%TESTSEGREGPARSER-Warning:type_prob parameter(s) specified in geno_freq
+                          sub-block with option, hwe.  Ignoring ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 26 New Analysis Block 26 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:nhwe option not allowed in geno_freq sub-block with two
+                        types in type_mean or type_suscept sub-block.  Using
+                        hwe option ...
+%TESTSEGREGPARSER-Critical:freq_A not specified in geno_freq sub-block with
+                           probs_fixed equal to true and hwe option.  Skipping
+                           analysis ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 27 New Analysis Block 27 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:Attribute 'fixed' not used in parameter, prob in
+                        geno_freq sub-block.  Ignoring ...  Use 'probs_fixed'.
+%TESTSEGREGPARSER-Error:nhwe option not allowed in geno_freq sub-block with two
+                        types in type_mean or type_suscept sub-block.  Using
+                        hwe option ...
+%TESTSEGREGPARSER-Critical:freq_A not specified in geno_freq sub-block with
+                           probs_fixed equal to true and hwe option.  Skipping
+                           analysis ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 28 New Analysis Block 28 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:nhwe option not allowed in geno_freq sub-block with two
+                        types in type_mean or type_suscept sub-block.  Using
+                        hwe option ...
+%TESTSEGREGPARSER-Warning:type_prob parameter(s) specified in geno_freq
+                          sub-block with option, hwe.  Ignoring ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 29 New Analysis Block 29 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 30 New Analysis Block 30 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Critical:Conflicting data for genotype specific means. 
+                           Skipping analysis ... 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 31 New Analysis Block 31 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Warning:Sub-block, type_mean contains no parameters.
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 32 New Analysis Block 32 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 33 New Analysis Block 33 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Critical:Conflicting values specified for lower and upper
+                           limits of transformation power parameter.  Skipping
+                           analysis ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 34 New Analysis Block 34 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Critical:Conflicting values specified for lower and upper
+                           limits of transformation power parameter.  Skipping
+                           analysis ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 35 New Analysis Block 35 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 36 New Analysis Block 36 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:transmission sub-block specified without specifying a
+                        type (mean or suscept) sub-block.  Ignoring ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 37 New Analysis Block 37 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Critical:freq_A not specified in geno_freq sub-block with
+                           probs_fixed equal to true and hwe option.  Skipping
+                           analysis ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 38 New Analysis Block 38 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Warning:transformation sub-block contains no parameters.
+%TESTSEGREGPARSER-Error:transformation sub-block not relevant for binary
+                        primary trait.  Ignoring ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 39 New Analysis Block 39 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:freq_A specified in geno_freq sub-block is not within
+                        allowable limits.  Ignoring ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 40 New Analysis Block 40 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Warning:Genotype specific mean AB specified in type_mean
+                          sub-block with option two.  Ignoring ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 41 New Analysis Block 41 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 42 New Analysis Block 42 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:Value specified for transformation power parameter is
+                        not within bounds.  Ignoring ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 43 New Analysis Block 43 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:Value specified for transformation power parameter is
+                        not within bounds.  Ignoring ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 44 New Analysis Block 44 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:Value of trait type attribute not understood.  Ignoring
+                        ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 45 New Analysis Block 45 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Critical:Parameter, TITLE, specified more than once. 
+                           Skipping analysis ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 46 New Analysis Block 46 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:nhwe option specified in geno_freq sub-block for
+                        commingling analysis.  Ignoring ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 47 New Analysis Block 47 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:freq_A specified in geno_freq sub-block is not within
+                        allowable limits.  Ignoring ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 48 New Analysis Block 48 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Critical:freq_A specified in geno_freq sub-block is not
+                           within allowable limits.  Skipping analysis ...
+%TESTSEGREGPARSER-Critical:transmission sub-block option is homog_no_trans,
+                           homog_mendelian or homog_general with option, nhwe,
+                           in geno_freq sub-block.  Skipping analysis ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 49 New Analysis Block 49 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 50 New Analysis Block 50 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Critical:No primary trait specified.  Skipping analysis ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 51 New Analysis Block 51 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 52 New Analysis Block 52 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Warning:class 'A' is incompatible with a binary primary trait
+                          .  Ignoring ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 53 New Analysis Block 53 ---------- 
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Warning:type_mean sub-block not relevant for binary trait. 
+                          Ignoring ...
+%TESTSEGREGPARSER-Error:
+%TESTSEGREGPARSER-Error:---------- 54 New Analysis Block 54 ---------- 
+%TESTSEGREGPARSER-Error:

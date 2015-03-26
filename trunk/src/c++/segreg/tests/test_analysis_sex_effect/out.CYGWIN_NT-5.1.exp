@@ -1,0 +1,1568 @@
+
+
+
+Reading Parameter File....................done.
+Reading Pedigree File.....................
+              from ped....................done.
+%SEGREG-E: Error(s) building pedigree '2': 1 errors.
+%SEGREG-E: Errors appear in pedigree data. Results may be incomplete.
+Sorting Pedigrees.........................done.
+
+Parsing Segreg Analyses...
+
+Beginning new analysis block....
+
+
+Parsing Analysis: 'SEGREG Analysis 1'....
+
+
+Analysis parsing complete.  Analysis valid.
+------------------------------------------------------------------------------
+
+Beginning new analysis block....
+
+
+Parsing Analysis: 'SEGREG Analysis 2'....
+
+
+Analysis parsing complete.  Analysis valid.
+------------------------------------------------------------------------------
+
+Beginning new analysis block....
+
+
+Parsing Analysis: 'SEGREG Analysis 3'....
+
+
+Analysis parsing complete.  Analysis valid.
+------------------------------------------------------------------------------
+
+Beginning new analysis block....
+
+
+Parsing Analysis: 'SEGREG Analysis 4'....
+
+
+Analysis parsing complete.  Analysis valid.
+------------------------------------------------------------------------------
+
+Beginning new analysis block....
+
+
+Parsing Analysis: 'SEGREG Analysis 5'....
+
+
+Analysis parsing complete.  Analysis valid.
+------------------------------------------------------------------------------
+
+Beginning new analysis block....
+
+
+Parsing Analysis: 'SEGREG Analysis 6'....
+
+
+Analysis parsing complete.  Analysis valid.
+------------------------------------------------------------------------------
+
+Beginning new analysis block....
+
+
+Parsing Analysis: 'SEGREG Analysis 7'....
+
+
+Analysis parsing complete.  Analysis valid.
+------------------------------------------------------------------------------
+
+Beginning new analysis block....
+
+
+Parsing Analysis: 'SEGREG Analysis 8'....
+
+
+Analysis parsing complete.  Analysis valid.
+------------------------------------------------------------------------------
+
+Beginning new analysis block....
+
+
+Parsing Analysis: 'SEGREG Analysis 9'....
+
+
+Analysis parsing complete.  Analysis valid.
+------------------------------------------------------------------------------
+
+Beginning new analysis block....
+
+
+Parsing Analysis: 'SEGREG Analysis 10'....
+
+
+Analysis parsing complete.  Analysis valid.
+------------------------------------------------------------------------------
+
+Beginning new analysis block....
+
+
+Parsing Analysis: 'SEGREG Analysis 11'....
+
+%SEGREG-E: resid sub-block not relevant when value of class parameter is 'fpmm'
+           .  Ignoring ...
+
+Analysis parsing complete.  Analysis valid.
+------------------------------------------------------------------------------
+
+Beginning new analysis block....
+
+
+Parsing Analysis: 'SEGREG Analysis 12'....
+
+%SEGREG-E: resid sub-block not relevant when value of class parameter is 'fpmm'
+           .  Ignoring ...
+
+Analysis parsing complete.  Analysis valid.
+------------------------------------------------------------------------------
+
+RUNNING MODEL
+====================================================
+
+Model has sex effect: 0
+Performing test of the member covariate calculator...
+# Type means
+type_mean
+{
+  # two means
+  option=two
+  mean=AA, val=1, fixed=false
+  mean=AB, val=1, fixed=false
+  mean=BB, val=1, fixed=false
+}
+# Type variances
+type_var
+{
+  # one variance
+  option=one
+  var=AA, val=1, fixed=false
+  var=AB, val=1, fixed=false
+  var=BB, val=1, fixed=false
+}
+
+Ped:1 Member:1 Genotype:0
+Trait:	 29.000000 Exp Trait:	 0.000000 Var:		 1.000000 SD:		 1.000000 (Du(i)) = 29
+Ped:1 Member:1 Genotype:1
+Trait:	 29.000000 Exp Trait:	 0.000000 Var:		 1.000000 SD:		 1.000000 (Du(i)) = 29
+Ped:1 Member:1 Genotype:2
+Trait:	 29.000000 Exp Trait:	 0.000000 Var:		 1.000000 SD:		 1.000000 (Du(i)) = 29
+Ped:1 Member:2 Genotype:0
+Trait:	 39.000000 Exp Trait:	 0.000000 Var:		 1.000000 SD:		 1.000000 (Du(i)) = 39
+Ped:1 Member:2 Genotype:1
+Trait:	 39.000000 Exp Trait:	 0.000000 Var:		 1.000000 SD:		 1.000000 (Du(i)) = 39
+Ped:1 Member:2 Genotype:2
+Trait:	 39.000000 Exp Trait:	 0.000000 Var:		 1.000000 SD:		 1.000000 (Du(i)) = 39
+Ped:1 Member:3 Genotype:0
+Trait:	 26.100000 Exp Trait:	 0.000000 Var:		 1.000000 SD:		 1.000000 (Du(i)) = 26.1
+Ped:1 Member:3 Genotype:1
+Trait:	 26.100000 Exp Trait:	 0.000000 Var:		 1.000000 SD:		 1.000000 (Du(i)) = 26.1
+Ped:1 Member:3 Genotype:2
+Trait:	 26.100000 Exp Trait:	 0.000000 Var:		 1.000000 SD:		 1.000000 (Du(i)) = 26.1
+Ped:1 Member:4 Genotype:0
+Trait:	 38.000000 Exp Trait:	 0.000000 Var:		 1.000000 SD:		 1.000000 (Du(i)) = 38
+Ped:1 Member:4 Genotype:1
+Trait:	 38.000000 Exp Trait:	 0.000000 Var:		 1.000000 SD:		 1.000000 (Du(i)) = 38
+Ped:1 Member:4 Genotype:2
+Trait:	 38.000000 Exp Trait:	 0.000000 Var:		 1.000000 SD:		 1.000000 (Du(i)) = 38
+Ped:1 Member:5 Genotype:0
+Trait:	 36.600000 Exp Trait:	 0.000000 Var:		 1.000000 SD:		 1.000000 (Du(i)) = 36.6
+Ped:1 Member:5 Genotype:1
+Trait:	 36.600000 Exp Trait:	 0.000000 Var:		 1.000000 SD:		 1.000000 (Du(i)) = 36.6
+Ped:1 Member:5 Genotype:2
+Trait:	 36.600000 Exp Trait:	 0.000000 Var:		 1.000000 SD:		 1.000000 (Du(i)) = 36.6
+Ped:1 Member:6 Genotype:0
+Trait:	 40.100000 Exp Trait:	 0.000000 Var:		 1.000000 SD:		 1.000000 (Du(i)) = 40.1
+Ped:1 Member:6 Genotype:1
+Trait:	 40.100000 Exp Trait:	 0.000000 Var:		 1.000000 SD:		 1.000000 (Du(i)) = 40.1
+Ped:1 Member:6 Genotype:2
+Trait:	 40.100000 Exp Trait:	 0.000000 Var:		 1.000000 SD:		 1.000000 (Du(i)) = 40.1
+Ped:2 Member:1 Genotype:0
+Trait:	 29.000000 Exp Trait:	 0.000000 Var:		 1.000000 SD:		 1.000000 (Du(i)) = 29
+Ped:2 Member:1 Genotype:1
+Trait:	 29.000000 Exp Trait:	 0.000000 Var:		 1.000000 SD:		 1.000000 (Du(i)) = 29
+Ped:2 Member:1 Genotype:2
+Trait:	 29.000000 Exp Trait:	 0.000000 Var:		 1.000000 SD:		 1.000000 (Du(i)) = 29
+Ped:2 Member:2 Genotype:0
+Trait:	 39.000000 Exp Trait:	 0.000000 Var:		 1.000000 SD:		 1.000000 (Du(i)) = 39
+Ped:2 Member:2 Genotype:1
+Trait:	 39.000000 Exp Trait:	 0.000000 Var:		 1.000000 SD:		 1.000000 (Du(i)) = 39
+Ped:2 Member:2 Genotype:2
+Trait:	 39.000000 Exp Trait:	 0.000000 Var:		 1.000000 SD:		 1.000000 (Du(i)) = 39
+Ped:2 Member:3 Genotype:0
+Trait:	 26.100000 Exp Trait:	 0.000000 Var:		 1.000000 SD:		 1.000000 (Du(i)) = 26.1
+Ped:2 Member:3 Genotype:1
+Trait:	 26.100000 Exp Trait:	 0.000000 Var:		 1.000000 SD:		 1.000000 (Du(i)) = 26.1
+Ped:2 Member:3 Genotype:2
+Trait:	 26.100000 Exp Trait:	 0.000000 Var:		 1.000000 SD:		 1.000000 (Du(i)) = 26.1
+Ped:2 Member:4 Genotype:0
+Trait:	 38.000000 Exp Trait:	 0.000000 Var:		 1.000000 SD:		 1.000000 (Du(i)) = 38
+Ped:2 Member:4 Genotype:1
+Trait:	 38.000000 Exp Trait:	 0.000000 Var:		 1.000000 SD:		 1.000000 (Du(i)) = 38
+Ped:2 Member:4 Genotype:2
+Trait:	 38.000000 Exp Trait:	 0.000000 Var:		 1.000000 SD:		 1.000000 (Du(i)) = 38
+Ped:2 Member:5 Genotype:0
+Trait:	 38.000000 Exp Trait:	 0.000000 Var:		 1.000000 SD:		 1.000000 (Du(i)) = 38
+Ped:2 Member:5 Genotype:1
+Trait:	 38.000000 Exp Trait:	 0.000000 Var:		 1.000000 SD:		 1.000000 (Du(i)) = 38
+Ped:2 Member:5 Genotype:2
+Trait:	 38.000000 Exp Trait:	 0.000000 Var:		 1.000000 SD:		 1.000000 (Du(i)) = 38
+Ped:2 Member:6 Genotype:0
+Trait:	 26.100000 Exp Trait:	 0.000000 Var:		 1.000000 SD:		 1.000000 (Du(i)) = 26.1
+Ped:2 Member:6 Genotype:1
+Trait:	 26.100000 Exp Trait:	 0.000000 Var:		 1.000000 SD:		 1.000000 (Du(i)) = 26.1
+Ped:2 Member:6 Genotype:2
+Trait:	 26.100000 Exp Trait:	 0.000000 Var:		 1.000000 SD:		 1.000000 (Du(i)) = 26.1
+Performing test of the penetrance calculator...
+=============
+     1:1
+=============
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+                                                  Sp = 2 A/A                          Sp = 2 A/B                          Sp = 2 B/B              
+  A/A         A/B         B/B         A/A         A/B         B/B         A/A         A/B         B/B         A/A         A/B         B/B         
+--------------------------------------------------------------------------------------------------------------------------------------------------
+   9.55e-184   9.55e-184   9.55e-184   9.55e-184   9.55e-184   9.55e-184   9.55e-184   9.55e-184   9.55e-184   9.55e-184   9.55e-184   9.55e-184  
+
+
+=============
+     1:2
+=============
+
+--------------------------------------------------------------------------------------------------------------------------------------
+                                             Sp = 1 A/A                       Sp = 1 A/B                       Sp = 1 B/B             
+  A/A        A/B        B/B        A/A        A/B        B/B        A/A        A/B        B/B        A/A        A/B        B/B        
+--------------------------------------------------------------------------------------------------------------------------------------
+   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000  
+
+
+=============
+     1:3
+=============
+
+----------------------------------------------------------
+  M. State  F. State  A/A         A/B         B/B         
+----------------------------------------------------------
+  --        --         4.76e-149   4.76e-149   4.76e-149  
+  A/A       A/A        4.44e-28    4.44e-28    4.44e-28   
+  A/A       A/B        4.44e-28    4.44e-28    4.44e-28   
+  A/A       B/B        4.44e-28    4.44e-28    4.44e-28   
+  A/B       A/A        4.44e-28    4.44e-28    4.44e-28   
+  A/B       A/B        4.44e-28    4.44e-28    4.44e-28   
+  A/B       B/B        4.44e-28    4.44e-28    4.44e-28   
+  B/B       A/A        4.44e-28    4.44e-28    4.44e-28   
+  B/B       A/B        4.44e-28    4.44e-28    4.44e-28   
+  B/B       B/B        4.44e-28    4.44e-28    4.44e-28   
+
+
+=============
+     1:4
+=============
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                      Sp = 5 A/A                          Sp = 5 A/B                          Sp = 5 B/B              
+  M. State  F. State  A/A         A/B         B/B         A/A         A/B         B/B         A/A         A/B         B/B         A/A         A/B         B/B         
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  --        --         1.10e-314   1.10e-314   1.10e-314   1.10e-314   1.10e-314   1.10e-314   1.10e-314   1.10e-314   1.10e-314   1.10e-314   1.10e-314   1.10e-314  
+  A/A       A/A        6.35e-08    6.35e-08    6.35e-08    6.35e-08    6.35e-08    6.35e-08    6.35e-08    6.35e-08    6.35e-08    6.35e-08    6.35e-08    6.35e-08   
+  A/A       A/B        6.35e-08    6.35e-08    6.35e-08    6.35e-08    6.35e-08    6.35e-08    6.35e-08    6.35e-08    6.35e-08    6.35e-08    6.35e-08    6.35e-08   
+  A/A       B/B        6.35e-08    6.35e-08    6.35e-08    6.35e-08    6.35e-08    6.35e-08    6.35e-08    6.35e-08    6.35e-08    6.35e-08    6.35e-08    6.35e-08   
+  A/B       A/A        6.35e-08    6.35e-08    6.35e-08    6.35e-08    6.35e-08    6.35e-08    6.35e-08    6.35e-08    6.35e-08    6.35e-08    6.35e-08    6.35e-08   
+  A/B       A/B        6.35e-08    6.35e-08    6.35e-08    6.35e-08    6.35e-08    6.35e-08    6.35e-08    6.35e-08    6.35e-08    6.35e-08    6.35e-08    6.35e-08   
+  A/B       B/B        6.35e-08    6.35e-08    6.35e-08    6.35e-08    6.35e-08    6.35e-08    6.35e-08    6.35e-08    6.35e-08    6.35e-08    6.35e-08    6.35e-08   
+  B/B       A/A        6.35e-08    6.35e-08    6.35e-08    6.35e-08    6.35e-08    6.35e-08    6.35e-08    6.35e-08    6.35e-08    6.35e-08    6.35e-08    6.35e-08   
+  B/B       A/B        6.35e-08    6.35e-08    6.35e-08    6.35e-08    6.35e-08    6.35e-08    6.35e-08    6.35e-08    6.35e-08    6.35e-08    6.35e-08    6.35e-08   
+  B/B       B/B        6.35e-08    6.35e-08    6.35e-08    6.35e-08    6.35e-08    6.35e-08    6.35e-08    6.35e-08    6.35e-08    6.35e-08    6.35e-08    6.35e-08   
+
+
+=============
+     1:5
+=============
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+                                                  Sp = 4 A/A                          Sp = 4 A/B                          Sp = 4 B/B              
+  A/A         A/B         B/B         A/A         A/B         B/B         A/A         A/B         B/B         A/A         A/B         B/B         
+--------------------------------------------------------------------------------------------------------------------------------------------------
+   5.24e-292   5.24e-292   5.24e-292   5.24e-292   5.24e-292   5.24e-292   5.24e-292   5.24e-292   5.24e-292   5.24e-292   5.24e-292   5.24e-292  
+
+
+=============
+     1:6
+=============
+
+-------------------------------------------------------
+  M. State  F. State  A/A        A/B        B/B        
+-------------------------------------------------------
+  --        --         0.000000   0.000000   0.000000  
+  A/A       A/A        0.000222   0.000222   0.000222  
+  A/A       A/B        0.000222   0.000222   0.000222  
+  A/A       B/B        0.000222   0.000222   0.000222  
+  A/B       A/A        0.000222   0.000222   0.000222  
+  A/B       A/B        0.000222   0.000222   0.000222  
+  A/B       B/B        0.000222   0.000222   0.000222  
+  B/B       A/A        0.000222   0.000222   0.000222  
+  B/B       A/B        0.000222   0.000222   0.000222  
+  B/B       B/B        0.000222   0.000222   0.000222  
+
+
+=============
+     2:1
+=============
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+                                                  Sp = 2 A/A                          Sp = 2 A/B                          Sp = 2 B/B              
+  A/A         A/B         B/B         A/A         A/B         B/B         A/A         A/B         B/B         A/A         A/B         B/B         
+--------------------------------------------------------------------------------------------------------------------------------------------------
+   9.55e-184   9.55e-184   9.55e-184   9.55e-184   9.55e-184   9.55e-184   9.55e-184   9.55e-184   9.55e-184   9.55e-184   9.55e-184   9.55e-184  
+
+
+=============
+     2:2
+=============
+
+--------------------------------------------------------------------------------------------------------------------------------------
+                                             Sp = 1 A/A                       Sp = 1 A/B                       Sp = 1 B/B             
+  A/A        A/B        B/B        A/A        A/B        B/B        A/A        A/B        B/B        A/A        A/B        B/B        
+--------------------------------------------------------------------------------------------------------------------------------------
+   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000  
+
+
+=============
+     2:3
+=============
+
+----------------------------------------------------------
+  M. State  F. State  A/A         A/B         B/B         
+----------------------------------------------------------
+  --        --         4.76e-149   4.76e-149   4.76e-149  
+  A/A       A/A        4.44e-28    4.44e-28    4.44e-28   
+  A/A       A/B        4.44e-28    4.44e-28    4.44e-28   
+  A/A       B/B        4.44e-28    4.44e-28    4.44e-28   
+  A/B       A/A        4.44e-28    4.44e-28    4.44e-28   
+  A/B       A/B        4.44e-28    4.44e-28    4.44e-28   
+  A/B       B/B        4.44e-28    4.44e-28    4.44e-28   
+  B/B       A/A        4.44e-28    4.44e-28    4.44e-28   
+  B/B       A/B        4.44e-28    4.44e-28    4.44e-28   
+  B/B       B/B        4.44e-28    4.44e-28    4.44e-28   
+
+
+=============
+     2:4
+=============
+
+----------------------------------------------------------
+  M. State  F. State  A/A         A/B         B/B         
+----------------------------------------------------------
+  --        --         1.10e-314   1.10e-314   1.10e-314  
+  A/A       A/A        6.35e-08    6.35e-08    6.35e-08   
+  A/A       A/B        6.35e-08    6.35e-08    6.35e-08   
+  A/A       B/B        6.35e-08    6.35e-08    6.35e-08   
+  A/B       A/A        6.35e-08    6.35e-08    6.35e-08   
+  A/B       A/B        6.35e-08    6.35e-08    6.35e-08   
+  A/B       B/B        6.35e-08    6.35e-08    6.35e-08   
+  B/B       A/A        6.35e-08    6.35e-08    6.35e-08   
+  B/B       A/B        6.35e-08    6.35e-08    6.35e-08   
+  B/B       B/B        6.35e-08    6.35e-08    6.35e-08   
+
+
+
+Performing test of the SL calculator and peeler...
+Performing test of the Regressive_SL calculator...
+Testing regressive peeler...
+Summation test:  PASSED with value 0
+
+Testing regressive peeler...
+Summation test:  PASSED with value 0
+
+
+====================================================
+
+RUNNING MODEL
+====================================================
+
+%SEGREG-E: The transmission option requires that sex be available for all
+           parents in this analysis. The following individuals have missing sex
+           and are parents: 2:1 and 2:2.  Analysis is invalid and will be
+           discontinued.
+
+
+====================================================
+
+RUNNING MODEL
+====================================================
+
+%SEGREG-E: The residual option requires that sex be available for all parents
+           in this analysis. The following individuals have missing sex and are
+           parents: 2:1 and 2:2.  Analysis is invalid and will be discontinued.
+
+
+====================================================
+
+RUNNING MODEL
+====================================================
+
+%SEGREG-E: The transmission and residual options require that sex be available
+           for all parents in this analysis. The following individuals have
+           missing sex and are parents: 2:1 and 2:2.  Analysis is invalid and
+           will be discontinued.
+
+
+====================================================
+
+RUNNING MODEL
+====================================================
+
+Model has sex effect: 0
+Performing test of the binary member calculator...
+
+# Type susceptibilities
+type_suscept
+{
+  # two susceptibilities
+  option=two
+  suscept=AA, val=1, fixed=false
+  suscept=AB, val=1, fixed=false
+  suscept=BB, val=1, fixed=false
+}
+
+Ped: 1	Member: 1	Genotype: 0
+--------------------------------------------------------
+  Valid   1  Affection   1  Exp Susc   1.000000  Penetrance   0.731059  
+
+Ped: 1	Member: 1	Genotype: 1
+--------------------------------------------------------
+  Valid   1  Affection   1  Exp Susc   1.000000  Penetrance   0.731059  
+
+Ped: 1	Member: 1	Genotype: 2
+--------------------------------------------------------
+  Valid   1  Affection   1  Exp Susc   1.000000  Penetrance   0.731059  
+
+Ped: 1	Member: 2	Genotype: 0
+--------------------------------------------------------
+  Valid   1  Affection   0  Exp Susc   1.000000  Penetrance   0.268941  
+
+Ped: 1	Member: 2	Genotype: 1
+--------------------------------------------------------
+  Valid   1  Affection   0  Exp Susc   1.000000  Penetrance   0.268941  
+
+Ped: 1	Member: 2	Genotype: 2
+--------------------------------------------------------
+  Valid   1  Affection   0  Exp Susc   1.000000  Penetrance   0.268941  
+
+Ped: 1	Member: 3	Genotype: 0
+--------------------------------------------------------
+  Valid   1  Affection   0  Exp Susc   1.000000  Penetrance   0.268941  
+
+Ped: 1	Member: 3	Genotype: 1
+--------------------------------------------------------
+  Valid   1  Affection   0  Exp Susc   1.000000  Penetrance   0.268941  
+
+Ped: 1	Member: 3	Genotype: 2
+--------------------------------------------------------
+  Valid   1  Affection   0  Exp Susc   1.000000  Penetrance   0.268941  
+
+Ped: 1	Member: 4	Genotype: 0
+--------------------------------------------------------
+  Valid   1  Affection   1  Exp Susc   1.000000  Penetrance   0.731059  
+
+Ped: 1	Member: 4	Genotype: 1
+--------------------------------------------------------
+  Valid   1  Affection   1  Exp Susc   1.000000  Penetrance   0.731059  
+
+Ped: 1	Member: 4	Genotype: 2
+--------------------------------------------------------
+  Valid   1  Affection   1  Exp Susc   1.000000  Penetrance   0.731059  
+
+Ped: 1	Member: 5	Genotype: 0
+--------------------------------------------------------
+  Valid   1  Affection   0  Exp Susc   1.000000  Penetrance   0.268941  
+
+Ped: 1	Member: 5	Genotype: 1
+--------------------------------------------------------
+  Valid   1  Affection   0  Exp Susc   1.000000  Penetrance   0.268941  
+
+Ped: 1	Member: 5	Genotype: 2
+--------------------------------------------------------
+  Valid   1  Affection   0  Exp Susc   1.000000  Penetrance   0.268941  
+
+Ped: 1	Member: 6	Genotype: 0
+--------------------------------------------------------
+  Valid   1  Affection   1  Exp Susc   1.000000  Penetrance   0.731059  
+
+Ped: 1	Member: 6	Genotype: 1
+--------------------------------------------------------
+  Valid   1  Affection   1  Exp Susc   1.000000  Penetrance   0.731059  
+
+Ped: 1	Member: 6	Genotype: 2
+--------------------------------------------------------
+  Valid   1  Affection   1  Exp Susc   1.000000  Penetrance   0.731059  
+
+Ped: 2	Member: 1	Genotype: 0
+--------------------------------------------------------
+  Valid   1  Affection   1  Exp Susc   1.000000  Penetrance   0.731059  
+
+Ped: 2	Member: 1	Genotype: 1
+--------------------------------------------------------
+  Valid   1  Affection   1  Exp Susc   1.000000  Penetrance   0.731059  
+
+Ped: 2	Member: 1	Genotype: 2
+--------------------------------------------------------
+  Valid   1  Affection   1  Exp Susc   1.000000  Penetrance   0.731059  
+
+Ped: 2	Member: 2	Genotype: 0
+--------------------------------------------------------
+  Valid   1  Affection   0  Exp Susc   1.000000  Penetrance   0.268941  
+
+Ped: 2	Member: 2	Genotype: 1
+--------------------------------------------------------
+  Valid   1  Affection   0  Exp Susc   1.000000  Penetrance   0.268941  
+
+Ped: 2	Member: 2	Genotype: 2
+--------------------------------------------------------
+  Valid   1  Affection   0  Exp Susc   1.000000  Penetrance   0.268941  
+
+Ped: 2	Member: 3	Genotype: 0
+--------------------------------------------------------
+  Valid   1  Affection   0  Exp Susc   1.000000  Penetrance   0.268941  
+
+Ped: 2	Member: 3	Genotype: 1
+--------------------------------------------------------
+  Valid   1  Affection   0  Exp Susc   1.000000  Penetrance   0.268941  
+
+Ped: 2	Member: 3	Genotype: 2
+--------------------------------------------------------
+  Valid   1  Affection   0  Exp Susc   1.000000  Penetrance   0.268941  
+
+Ped: 2	Member: 4	Genotype: 0
+--------------------------------------------------------
+  Valid   1  Affection   1  Exp Susc   1.000000  Penetrance   0.731059  
+
+Ped: 2	Member: 4	Genotype: 1
+--------------------------------------------------------
+  Valid   1  Affection   1  Exp Susc   1.000000  Penetrance   0.731059  
+
+Ped: 2	Member: 4	Genotype: 2
+--------------------------------------------------------
+  Valid   1  Affection   1  Exp Susc   1.000000  Penetrance   0.731059  
+
+Ped: 2	Member: 5	Genotype: 0
+--------------------------------------------------------
+  Valid   1  Affection   1  Exp Susc   1.000000  Penetrance   0.731059  
+
+Ped: 2	Member: 5	Genotype: 1
+--------------------------------------------------------
+  Valid   1  Affection   1  Exp Susc   1.000000  Penetrance   0.731059  
+
+Ped: 2	Member: 5	Genotype: 2
+--------------------------------------------------------
+  Valid   1  Affection   1  Exp Susc   1.000000  Penetrance   0.731059  
+
+Ped: 2	Member: 6	Genotype: 0
+--------------------------------------------------------
+  Valid   1  Affection   0  Exp Susc   1.000000  Penetrance   0.268941  
+
+Ped: 2	Member: 6	Genotype: 1
+--------------------------------------------------------
+  Valid   1  Affection   0  Exp Susc   1.000000  Penetrance   0.268941  
+
+Ped: 2	Member: 6	Genotype: 2
+--------------------------------------------------------
+  Valid   1  Affection   0  Exp Susc   1.000000  Penetrance   0.268941  
+
+Performing test of the binary residual adjustment calculator...
+
+# Type susceptibilities
+type_suscept
+{
+  # two susceptibilities
+  option=two
+  suscept=AA, val=1, fixed=false
+  suscept=AB, val=1, fixed=false
+  suscept=BB, val=1, fixed=false
+}
+
+===================================================
+
+     Familial Binary Residuals for pedigree: 1
+
+===================================================
+
+========================================================
+     Approximate Family Adjustments for family: 1:2
+========================================================
+
+-----------------------------------
+  Mother: 1  Father: 2  Value      
+-----------------------------------
+  0          0           1.000000  
+  0          1           1.000000  
+  0          2           1.000000  
+  1          0           1.000000  
+  1          1           1.000000  
+  1          2           1.000000  
+  2          0           1.000000  
+  2          1           1.000000  
+  2          2           1.000000  
+
+========================================================
+     Approximate Family Adjustments for family: 4:5
+========================================================
+
+-----------------------------------
+  Mother: 4  Father: 5  Value      
+-----------------------------------
+  0          0           1.000000  
+  0          1           1.000000  
+  0          2           1.000000  
+  1          0           1.000000  
+  1          1           1.000000  
+  1          2           1.000000  
+  2          0           1.000000  
+  2          1           1.000000  
+  2          2           1.000000  
+
+===================================================
+
+     Familial Binary Residuals for pedigree: 2
+
+===================================================
+
+========================================================
+     Approximate Family Adjustments for family: 1:2
+========================================================
+
+-----------------------------------
+  Mother: 2  Father: 1  Value      
+-----------------------------------
+  0          0           1.000000  
+  0          1           1.000000  
+  0          2           1.000000  
+  1          0           1.000000  
+  1          1           1.000000  
+  1          2           1.000000  
+  2          0           1.000000  
+  2          1           1.000000  
+  2          2           1.000000  
+
+Performing test of the MLM Anterior/Posterior...
+
+# Type susceptibilities
+type_suscept
+{
+  # two susceptibilities
+  option=two
+  suscept=AA, val=1, fixed=false
+  suscept=AB, val=1, fixed=false
+  suscept=BB, val=1, fixed=false
+}
+
+<<< test_MLM result begin >>>
+name=1  location(i)=0
+child_count = 2
+  genotype                                          0                  
+  ant_prob                                 Non-number                  
+  pos_prob                                  0.000000                   
+  -----------------------------------L(P,           0  )=  Non-number  
+
+  genotype                                          1                  
+  ant_prob                                 Non-number                  
+  pos_prob                                  0.000000                   
+  -----------------------------------L(P,           1  )=  Non-number  
+
+  genotype                                          2                  
+  ant_prob                                 Non-number                  
+  pos_prob                                  0.000000                   
+  -----------------------------------L(P,           2  )=  Non-number  
+
+ indiv=1  --------------------------------------------L(P)  =  Non-number  
+
+name=2  location(i)=1
+child_count = 2
+  genotype                                          0                  
+  ant_prob                                 Non-number                  
+  pos_prob                                  0.000000                   
+  -----------------------------------L(P,           0  )=  Non-number  
+
+  genotype                                          1                  
+  ant_prob                                 Non-number                  
+  pos_prob                                  0.000000                   
+  -----------------------------------L(P,           1  )=  Non-number  
+
+  genotype                                          2                  
+  ant_prob                                 Non-number                  
+  pos_prob                                  0.000000                   
+  -----------------------------------L(P,           2  )=  Non-number  
+
+ indiv=2  --------------------------------------------L(P)  =  Non-number  
+
+name=3  location(i)=2
+child_count = 0
+  genotype                                         0                 
+  ant_prob                                  0.000000                 
+  pos_prob                                  1.000000                 
+  -----------------------------------L(P,          0  )=   0.000000  
+
+  genotype                                         1                 
+  ant_prob                                  0.000000                 
+  pos_prob                                  1.000000                 
+  -----------------------------------L(P,          1  )=   0.000000  
+
+  genotype                                         2                 
+  ant_prob                                  0.000000                 
+  pos_prob                                  1.000000                 
+  -----------------------------------L(P,          2  )=   0.000000  
+
+ indiv=3  --------------------------------------------L(P)  =   0.000000  
+
+name=4  location(i)=3
+child_count = 1
+  genotype                                         0                 
+  ant_prob                                  0.000000                 
+  pos_prob                                  0.000000                 
+  -----------------------------------L(P,          0  )=   0.000000  
+
+  genotype                                         1                 
+  ant_prob                                  0.000000                 
+  pos_prob                                  0.000000                 
+  -----------------------------------L(P,          1  )=   0.000000  
+
+  genotype                                         2                 
+  ant_prob                                  0.000000                 
+  pos_prob                                  0.000000                 
+  -----------------------------------L(P,          2  )=   0.000000  
+
+ indiv=4  --------------------------------------------L(P)  =   0.000000  
+
+name=5  location(i)=4
+child_count = 1
+  genotype                                          0                  
+  ant_prob                                 Non-number                  
+  pos_prob                                  0.000000                   
+  -----------------------------------L(P,           0  )=  Non-number  
+
+  genotype                                          1                  
+  ant_prob                                 Non-number                  
+  pos_prob                                  0.000000                   
+  -----------------------------------L(P,           1  )=  Non-number  
+
+  genotype                                          2                  
+  ant_prob                                 Non-number                  
+  pos_prob                                  0.000000                   
+  -----------------------------------L(P,           2  )=  Non-number  
+
+ indiv=5  --------------------------------------------L(P)  =  Non-number  
+
+name=6  location(i)=5
+child_count = 0
+  genotype                                         0                 
+  ant_prob                                  0.000000                 
+  pos_prob                                  1.000000                 
+  -----------------------------------L(P,          0  )=   0.000000  
+
+  genotype                                         1                 
+  ant_prob                                  0.000000                 
+  pos_prob                                  1.000000                 
+  -----------------------------------L(P,          1  )=   0.000000  
+
+  genotype                                         2                 
+  ant_prob                                  0.000000                 
+  pos_prob                                  1.000000                 
+  -----------------------------------L(P,          2  )=   0.000000  
+
+ indiv=6  --------------------------------------------L(P)  =   0.000000  
+
+<<< test_MLM result end >>>
+<<< test_MLM result begin >>>
+name=1  location(i)=0
+child_count = 2
+  genotype                                          0                  
+  ant_prob                                 Non-number                  
+  pos_prob                                  0.000000                   
+  -----------------------------------L(P,           0  )=  Non-number  
+
+  genotype                                          1                  
+  ant_prob                                 Non-number                  
+  pos_prob                                  0.000000                   
+  -----------------------------------L(P,           1  )=  Non-number  
+
+  genotype                                          2                  
+  ant_prob                                 Non-number                  
+  pos_prob                                  0.000000                   
+  -----------------------------------L(P,           2  )=  Non-number  
+
+ indiv=1  --------------------------------------------L(P)  =  Non-number  
+
+name=2  location(i)=1
+child_count = 2
+  genotype                                          0                  
+  ant_prob                                 Non-number                  
+  pos_prob                                  0.000000                   
+  -----------------------------------L(P,           0  )=  Non-number  
+
+  genotype                                          1                  
+  ant_prob                                 Non-number                  
+  pos_prob                                  0.000000                   
+  -----------------------------------L(P,           1  )=  Non-number  
+
+  genotype                                          2                  
+  ant_prob                                 Non-number                  
+  pos_prob                                  0.000000                   
+  -----------------------------------L(P,           2  )=  Non-number  
+
+ indiv=2  --------------------------------------------L(P)  =  Non-number  
+
+name=3  location(i)=2
+child_count = 0
+  genotype                                         0                 
+  ant_prob                                  0.000000                 
+  pos_prob                                  1.000000                 
+  -----------------------------------L(P,          0  )=   0.000000  
+
+  genotype                                         1                 
+  ant_prob                                  0.000000                 
+  pos_prob                                  1.000000                 
+  -----------------------------------L(P,          1  )=   0.000000  
+
+  genotype                                         2                 
+  ant_prob                                  0.000000                 
+  pos_prob                                  1.000000                 
+  -----------------------------------L(P,          2  )=   0.000000  
+
+ indiv=3  --------------------------------------------L(P)  =   0.000000  
+
+name=4  location(i)=3
+child_count = 0
+  genotype                                         0                 
+  ant_prob                                  0.000000                 
+  pos_prob                                  1.000000                 
+  -----------------------------------L(P,          0  )=   0.000000  
+
+  genotype                                         1                 
+  ant_prob                                  0.000000                 
+  pos_prob                                  1.000000                 
+  -----------------------------------L(P,          1  )=   0.000000  
+
+  genotype                                         2                 
+  ant_prob                                  0.000000                 
+  pos_prob                                  1.000000                 
+  -----------------------------------L(P,          2  )=   0.000000  
+
+ indiv=4  --------------------------------------------L(P)  =   0.000000  
+
+<<< test_MLM result end >>>
+Testing MLM Correlation Verifier
+================================
+
+SEGREG Analysis 5
+
+Pair Type 1
+    2	3
+    1	4
+    1	3
+Pair Type 2
+    1	3
+    2	4
+    2	3
+Pair Type 3
+    2	4
+    5	6
+Pair Type 4
+    1	4
+    4	6
+Pair Type 5
+    3	4
+Pair Type 6
+    3	4
+1
+Testing MLM correlations
+========================
+
+SEGREG Analysis 5
+
+Beta_susc.parameter(index_AA)=1
+Beta_susc.parameter(index_AB)=1
+Beta_susc.parameter(index_BB)=1
+qA.freq_A()=-1.#IND
+Delta(fm)=0
+Delta(fs)=0.3
+Delta(ms)=0.3
+Delta(ss)=0.3
+Delta(fd)=0.3
+Delta(md)=0.3
+Delta(bb)=0.3
+Delta(bs)=0.3
+
+my_means.size=4
+my_theta_i.size=4
+my_theta_u_i.size=4
+my_means:
+my_means[0]=0
+my_means[1]=0
+my_means[2]=0
+my_means[3]=0
+
+theta_i:
+my_theta_i[0]=-1.#IND
+my_theta_i[1]=-1.#IND
+my_theta_i[2]=-1.#IND
+my_theta_i[3]=-1.#IND
+
+theta_u_i:
+my_theta_u_i[0][0]=1
+my_theta_u_i[0][1]=1
+my_theta_u_i[0][2]=1
+my_theta_u_i[1][0]=1
+my_theta_u_i[1][1]=1
+my_theta_u_i[1][2]=1
+my_theta_u_i[2][0]=1
+my_theta_u_i[2][1]=1
+my_theta_u_i[2][2]=1
+my_theta_u_i[3][0]=1
+my_theta_u_i[3][1]=1
+my_theta_u_i[3][2]=1
+
+corr_ij overall:
+corr_ij[0]=-1.#IND
+corr_ij[1]=-1.#IND
+corr_ij[2]=-1.#IND
+corr_ij[3]=-1.#IND
+corr_ij[4]=-1.#IND
+corr_ij[5]=-1.#IND
+corr_ij[6]=-1.#IND
+corr_ij[7]=-1.#IND
+
+corr_ij_u genotype:
+corr_ij_u[0][0]=0
+corr_ij_u[0][1]=0
+corr_ij_u[0][2]=0
+corr_ij_u[1][0]=0.0589836
+corr_ij_u[1][1]=0.0589836
+corr_ij_u[1][2]=0.0589836
+corr_ij_u[2][0]=0.0589836
+corr_ij_u[2][1]=0.0589836
+corr_ij_u[2][2]=0.0589836
+corr_ij_u[3][0]=0.0589836
+corr_ij_u[3][1]=0.0589836
+corr_ij_u[3][2]=0.0589836
+corr_ij_u[4][0]=0.0589836
+corr_ij_u[4][1]=0.0589836
+corr_ij_u[4][2]=0.0589836
+corr_ij_u[5][0]=0.0589836
+corr_ij_u[5][1]=0.0589836
+corr_ij_u[5][2]=0.0589836
+corr_ij_u[6][0]=0.0589836
+corr_ij_u[6][1]=0.0589836
+corr_ij_u[6][2]=0.0589836
+corr_ij_u[7][0]=0.0589836
+corr_ij_u[7][1]=0.0589836
+corr_ij_u[7][2]=0.0589836
+
+
+====================================================
+
+RUNNING MODEL
+====================================================
+
+%SEGREG-E: The transmission option requires that sex be available for all
+           parents in this analysis. The following individuals have missing sex
+           and are parents: 2:1 and 2:2.  Analysis is invalid and will be
+           discontinued.
+
+
+====================================================
+
+RUNNING MODEL
+====================================================
+
+%SEGREG-E: The residual option requires that sex be available for all parents
+           in this analysis. The following individuals have missing sex and are
+           parents: 2:1 and 2:2.  Analysis is invalid and will be discontinued.
+
+
+====================================================
+
+RUNNING MODEL
+====================================================
+
+%SEGREG-E: The transmission and residual options require that sex be available
+           for all parents in this analysis. The following individuals have
+           missing sex and are parents: 2:1 and 2:2.  Analysis is invalid and
+           will be discontinued.
+
+
+====================================================
+
+RUNNING MODEL
+====================================================
+
+Model has sex effect: 0
+Performing test of the binary member calculator...
+
+# Type susceptibilities
+type_suscept
+{
+  # two susceptibilities
+  option=two
+  suscept=AA, val=1, fixed=false
+  suscept=AB, val=1, fixed=false
+  suscept=BB, val=1, fixed=false
+}
+
+Ped: 1	Member: 1	Genotype: 0
+--------------------------------------------------------
+  Valid   1  Affection   1  Exp Susc   1.000000  Penetrance   0.731059  
+
+(Poly = 0) -1.#IND	(Poly = 1) -1.#IND	(Poly = 2) -1.#IND	(Poly = 3) -1.#IND	(Poly = 4) -1.#IND	(Poly = 5) -1.#IND	(Poly = 6) -1.#IND	
+Ped: 1	Member: 1	Genotype: 1
+--------------------------------------------------------
+  Valid   1  Affection   1  Exp Susc   1.000000  Penetrance   0.731059  
+
+(Poly = 0) -1.#IND	(Poly = 1) -1.#IND	(Poly = 2) -1.#IND	(Poly = 3) -1.#IND	(Poly = 4) -1.#IND	(Poly = 5) -1.#IND	(Poly = 6) -1.#IND	
+Ped: 1	Member: 1	Genotype: 2
+--------------------------------------------------------
+  Valid   1  Affection   1  Exp Susc   1.000000  Penetrance   0.731059  
+
+(Poly = 0) -1.#IND	(Poly = 1) -1.#IND	(Poly = 2) -1.#IND	(Poly = 3) -1.#IND	(Poly = 4) -1.#IND	(Poly = 5) -1.#IND	(Poly = 6) -1.#IND	
+Ped: 1	Member: 2	Genotype: 0
+--------------------------------------------------------
+  Valid   1  Affection   0  Exp Susc   1.000000  Penetrance   0.268941  
+
+(Poly = 0) -1.#IND	(Poly = 1) -1.#IND	(Poly = 2) -1.#IND	(Poly = 3) -1.#IND	(Poly = 4) -1.#IND	(Poly = 5) -1.#IND	(Poly = 6) -1.#IND	
+Ped: 1	Member: 2	Genotype: 1
+--------------------------------------------------------
+  Valid   1  Affection   0  Exp Susc   1.000000  Penetrance   0.268941  
+
+(Poly = 0) -1.#IND	(Poly = 1) -1.#IND	(Poly = 2) -1.#IND	(Poly = 3) -1.#IND	(Poly = 4) -1.#IND	(Poly = 5) -1.#IND	(Poly = 6) -1.#IND	
+Ped: 1	Member: 2	Genotype: 2
+--------------------------------------------------------
+  Valid   1  Affection   0  Exp Susc   1.000000  Penetrance   0.268941  
+
+(Poly = 0) -1.#IND	(Poly = 1) -1.#IND	(Poly = 2) -1.#IND	(Poly = 3) -1.#IND	(Poly = 4) -1.#IND	(Poly = 5) -1.#IND	(Poly = 6) -1.#IND	
+Ped: 1	Member: 3	Genotype: 0
+--------------------------------------------------------
+  Valid   1  Affection   0  Exp Susc   1.000000  Penetrance   0.268941  
+
+(Poly = 0) -1.#IND	(Poly = 1) -1.#IND	(Poly = 2) -1.#IND	(Poly = 3) -1.#IND	(Poly = 4) -1.#IND	(Poly = 5) -1.#IND	(Poly = 6) -1.#IND	
+Ped: 1	Member: 3	Genotype: 1
+--------------------------------------------------------
+  Valid   1  Affection   0  Exp Susc   1.000000  Penetrance   0.268941  
+
+(Poly = 0) -1.#IND	(Poly = 1) -1.#IND	(Poly = 2) -1.#IND	(Poly = 3) -1.#IND	(Poly = 4) -1.#IND	(Poly = 5) -1.#IND	(Poly = 6) -1.#IND	
+Ped: 1	Member: 3	Genotype: 2
+--------------------------------------------------------
+  Valid   1  Affection   0  Exp Susc   1.000000  Penetrance   0.268941  
+
+(Poly = 0) -1.#IND	(Poly = 1) -1.#IND	(Poly = 2) -1.#IND	(Poly = 3) -1.#IND	(Poly = 4) -1.#IND	(Poly = 5) -1.#IND	(Poly = 6) -1.#IND	
+Ped: 1	Member: 4	Genotype: 0
+--------------------------------------------------------
+  Valid   1  Affection   1  Exp Susc   1.000000  Penetrance   0.731059  
+
+(Poly = 0) -1.#IND	(Poly = 1) -1.#IND	(Poly = 2) -1.#IND	(Poly = 3) -1.#IND	(Poly = 4) -1.#IND	(Poly = 5) -1.#IND	(Poly = 6) -1.#IND	
+Ped: 1	Member: 4	Genotype: 1
+--------------------------------------------------------
+  Valid   1  Affection   1  Exp Susc   1.000000  Penetrance   0.731059  
+
+(Poly = 0) -1.#IND	(Poly = 1) -1.#IND	(Poly = 2) -1.#IND	(Poly = 3) -1.#IND	(Poly = 4) -1.#IND	(Poly = 5) -1.#IND	(Poly = 6) -1.#IND	
+Ped: 1	Member: 4	Genotype: 2
+--------------------------------------------------------
+  Valid   1  Affection   1  Exp Susc   1.000000  Penetrance   0.731059  
+
+(Poly = 0) -1.#IND	(Poly = 1) -1.#IND	(Poly = 2) -1.#IND	(Poly = 3) -1.#IND	(Poly = 4) -1.#IND	(Poly = 5) -1.#IND	(Poly = 6) -1.#IND	
+Ped: 1	Member: 5	Genotype: 0
+--------------------------------------------------------
+  Valid   1  Affection   0  Exp Susc   1.000000  Penetrance   0.268941  
+
+(Poly = 0) -1.#IND	(Poly = 1) -1.#IND	(Poly = 2) -1.#IND	(Poly = 3) -1.#IND	(Poly = 4) -1.#IND	(Poly = 5) -1.#IND	(Poly = 6) -1.#IND	
+Ped: 1	Member: 5	Genotype: 1
+--------------------------------------------------------
+  Valid   1  Affection   0  Exp Susc   1.000000  Penetrance   0.268941  
+
+(Poly = 0) -1.#IND	(Poly = 1) -1.#IND	(Poly = 2) -1.#IND	(Poly = 3) -1.#IND	(Poly = 4) -1.#IND	(Poly = 5) -1.#IND	(Poly = 6) -1.#IND	
+Ped: 1	Member: 5	Genotype: 2
+--------------------------------------------------------
+  Valid   1  Affection   0  Exp Susc   1.000000  Penetrance   0.268941  
+
+(Poly = 0) -1.#IND	(Poly = 1) -1.#IND	(Poly = 2) -1.#IND	(Poly = 3) -1.#IND	(Poly = 4) -1.#IND	(Poly = 5) -1.#IND	(Poly = 6) -1.#IND	
+Ped: 1	Member: 6	Genotype: 0
+--------------------------------------------------------
+  Valid   1  Affection   1  Exp Susc   1.000000  Penetrance   0.731059  
+
+(Poly = 0) -1.#IND	(Poly = 1) -1.#IND	(Poly = 2) -1.#IND	(Poly = 3) -1.#IND	(Poly = 4) -1.#IND	(Poly = 5) -1.#IND	(Poly = 6) -1.#IND	
+Ped: 1	Member: 6	Genotype: 1
+--------------------------------------------------------
+  Valid   1  Affection   1  Exp Susc   1.000000  Penetrance   0.731059  
+
+(Poly = 0) -1.#IND	(Poly = 1) -1.#IND	(Poly = 2) -1.#IND	(Poly = 3) -1.#IND	(Poly = 4) -1.#IND	(Poly = 5) -1.#IND	(Poly = 6) -1.#IND	
+Ped: 1	Member: 6	Genotype: 2
+--------------------------------------------------------
+  Valid   1  Affection   1  Exp Susc   1.000000  Penetrance   0.731059  
+
+(Poly = 0) -1.#IND	(Poly = 1) -1.#IND	(Poly = 2) -1.#IND	(Poly = 3) -1.#IND	(Poly = 4) -1.#IND	(Poly = 5) -1.#IND	(Poly = 6) -1.#IND	
+Ped: 2	Member: 1	Genotype: 0
+--------------------------------------------------------
+  Valid   1  Affection   1  Exp Susc   1.000000  Penetrance   0.731059  
+
+(Poly = 0) -1.#IND	(Poly = 1) -1.#IND	(Poly = 2) -1.#IND	(Poly = 3) -1.#IND	(Poly = 4) -1.#IND	(Poly = 5) -1.#IND	(Poly = 6) -1.#IND	
+Ped: 2	Member: 1	Genotype: 1
+--------------------------------------------------------
+  Valid   1  Affection   1  Exp Susc   1.000000  Penetrance   0.731059  
+
+(Poly = 0) -1.#IND	(Poly = 1) -1.#IND	(Poly = 2) -1.#IND	(Poly = 3) -1.#IND	(Poly = 4) -1.#IND	(Poly = 5) -1.#IND	(Poly = 6) -1.#IND	
+Ped: 2	Member: 1	Genotype: 2
+--------------------------------------------------------
+  Valid   1  Affection   1  Exp Susc   1.000000  Penetrance   0.731059  
+
+(Poly = 0) -1.#IND	(Poly = 1) -1.#IND	(Poly = 2) -1.#IND	(Poly = 3) -1.#IND	(Poly = 4) -1.#IND	(Poly = 5) -1.#IND	(Poly = 6) -1.#IND	
+Ped: 2	Member: 2	Genotype: 0
+--------------------------------------------------------
+  Valid   1  Affection   0  Exp Susc   1.000000  Penetrance   0.268941  
+
+(Poly = 0) -1.#IND	(Poly = 1) -1.#IND	(Poly = 2) -1.#IND	(Poly = 3) -1.#IND	(Poly = 4) -1.#IND	(Poly = 5) -1.#IND	(Poly = 6) -1.#IND	
+Ped: 2	Member: 2	Genotype: 1
+--------------------------------------------------------
+  Valid   1  Affection   0  Exp Susc   1.000000  Penetrance   0.268941  
+
+(Poly = 0) -1.#IND	(Poly = 1) -1.#IND	(Poly = 2) -1.#IND	(Poly = 3) -1.#IND	(Poly = 4) -1.#IND	(Poly = 5) -1.#IND	(Poly = 6) -1.#IND	
+Ped: 2	Member: 2	Genotype: 2
+--------------------------------------------------------
+  Valid   1  Affection   0  Exp Susc   1.000000  Penetrance   0.268941  
+
+(Poly = 0) -1.#IND	(Poly = 1) -1.#IND	(Poly = 2) -1.#IND	(Poly = 3) -1.#IND	(Poly = 4) -1.#IND	(Poly = 5) -1.#IND	(Poly = 6) -1.#IND	
+Ped: 2	Member: 3	Genotype: 0
+--------------------------------------------------------
+  Valid   1  Affection   0  Exp Susc   1.000000  Penetrance   0.268941  
+
+(Poly = 0) -1.#IND	(Poly = 1) -1.#IND	(Poly = 2) -1.#IND	(Poly = 3) -1.#IND	(Poly = 4) -1.#IND	(Poly = 5) -1.#IND	(Poly = 6) -1.#IND	
+Ped: 2	Member: 3	Genotype: 1
+--------------------------------------------------------
+  Valid   1  Affection   0  Exp Susc   1.000000  Penetrance   0.268941  
+
+(Poly = 0) -1.#IND	(Poly = 1) -1.#IND	(Poly = 2) -1.#IND	(Poly = 3) -1.#IND	(Poly = 4) -1.#IND	(Poly = 5) -1.#IND	(Poly = 6) -1.#IND	
+Ped: 2	Member: 3	Genotype: 2
+--------------------------------------------------------
+  Valid   1  Affection   0  Exp Susc   1.000000  Penetrance   0.268941  
+
+(Poly = 0) -1.#IND	(Poly = 1) -1.#IND	(Poly = 2) -1.#IND	(Poly = 3) -1.#IND	(Poly = 4) -1.#IND	(Poly = 5) -1.#IND	(Poly = 6) -1.#IND	
+Ped: 2	Member: 4	Genotype: 0
+--------------------------------------------------------
+  Valid   1  Affection   1  Exp Susc   1.000000  Penetrance   0.731059  
+
+(Poly = 0) -1.#IND	(Poly = 1) -1.#IND	(Poly = 2) -1.#IND	(Poly = 3) -1.#IND	(Poly = 4) -1.#IND	(Poly = 5) -1.#IND	(Poly = 6) -1.#IND	
+Ped: 2	Member: 4	Genotype: 1
+--------------------------------------------------------
+  Valid   1  Affection   1  Exp Susc   1.000000  Penetrance   0.731059  
+
+(Poly = 0) -1.#IND	(Poly = 1) -1.#IND	(Poly = 2) -1.#IND	(Poly = 3) -1.#IND	(Poly = 4) -1.#IND	(Poly = 5) -1.#IND	(Poly = 6) -1.#IND	
+Ped: 2	Member: 4	Genotype: 2
+--------------------------------------------------------
+  Valid   1  Affection   1  Exp Susc   1.000000  Penetrance   0.731059  
+
+(Poly = 0) -1.#IND	(Poly = 1) -1.#IND	(Poly = 2) -1.#IND	(Poly = 3) -1.#IND	(Poly = 4) -1.#IND	(Poly = 5) -1.#IND	(Poly = 6) -1.#IND	
+Ped: 2	Member: 5	Genotype: 0
+--------------------------------------------------------
+  Valid   1  Affection   1  Exp Susc   1.000000  Penetrance   0.731059  
+
+(Poly = 0) -1.#IND	(Poly = 1) -1.#IND	(Poly = 2) -1.#IND	(Poly = 3) -1.#IND	(Poly = 4) -1.#IND	(Poly = 5) -1.#IND	(Poly = 6) -1.#IND	
+Ped: 2	Member: 5	Genotype: 1
+--------------------------------------------------------
+  Valid   1  Affection   1  Exp Susc   1.000000  Penetrance   0.731059  
+
+(Poly = 0) -1.#IND	(Poly = 1) -1.#IND	(Poly = 2) -1.#IND	(Poly = 3) -1.#IND	(Poly = 4) -1.#IND	(Poly = 5) -1.#IND	(Poly = 6) -1.#IND	
+Ped: 2	Member: 5	Genotype: 2
+--------------------------------------------------------
+  Valid   1  Affection   1  Exp Susc   1.000000  Penetrance   0.731059  
+
+(Poly = 0) -1.#IND	(Poly = 1) -1.#IND	(Poly = 2) -1.#IND	(Poly = 3) -1.#IND	(Poly = 4) -1.#IND	(Poly = 5) -1.#IND	(Poly = 6) -1.#IND	
+Ped: 2	Member: 6	Genotype: 0
+--------------------------------------------------------
+  Valid   1  Affection   0  Exp Susc   1.000000  Penetrance   0.268941  
+
+(Poly = 0) -1.#IND	(Poly = 1) -1.#IND	(Poly = 2) -1.#IND	(Poly = 3) -1.#IND	(Poly = 4) -1.#IND	(Poly = 5) -1.#IND	(Poly = 6) -1.#IND	
+Ped: 2	Member: 6	Genotype: 1
+--------------------------------------------------------
+  Valid   1  Affection   0  Exp Susc   1.000000  Penetrance   0.268941  
+
+(Poly = 0) -1.#IND	(Poly = 1) -1.#IND	(Poly = 2) -1.#IND	(Poly = 3) -1.#IND	(Poly = 4) -1.#IND	(Poly = 5) -1.#IND	(Poly = 6) -1.#IND	
+Ped: 2	Member: 6	Genotype: 2
+--------------------------------------------------------
+  Valid   1  Affection   0  Exp Susc   1.000000  Penetrance   0.268941  
+
+(Poly = 0) -1.#IND	(Poly = 1) -1.#IND	(Poly = 2) -1.#IND	(Poly = 3) -1.#IND	(Poly = 4) -1.#IND	(Poly = 5) -1.#IND	(Poly = 6) -1.#IND	
+Performing test of the polygenic penetrance calculator...
+
+Member 1
+  G=   0   :   V=   0   :   Non-number  V=   1   :   Non-number  V=   2   :   Non-number  V=   3   :   Non-number  V=   4   :   Non-number  V=   5   :   Non-number  V=   6   :   Non-number  
+  G=   1   :   V=   0   :   Non-number  V=   1   :   Non-number  V=   2   :   Non-number  V=   3   :   Non-number  V=   4   :   Non-number  V=   5   :   Non-number  V=   6   :   Non-number  
+  G=   2   :   V=   0   :   Non-number  V=   1   :   Non-number  V=   2   :   Non-number  V=   3   :   Non-number  V=   4   :   Non-number  V=   5   :   Non-number  V=   6   :   Non-number  
+
+
+Member 2
+  G=   0   :   V=   0   :   Non-number  V=   1   :   Non-number  V=   2   :   Non-number  V=   3   :   Non-number  V=   4   :   Non-number  V=   5   :   Non-number  V=   6   :   Non-number  
+  G=   1   :   V=   0   :   Non-number  V=   1   :   Non-number  V=   2   :   Non-number  V=   3   :   Non-number  V=   4   :   Non-number  V=   5   :   Non-number  V=   6   :   Non-number  
+  G=   2   :   V=   0   :   Non-number  V=   1   :   Non-number  V=   2   :   Non-number  V=   3   :   Non-number  V=   4   :   Non-number  V=   5   :   Non-number  V=   6   :   Non-number  
+
+
+Member 3
+  G=   0   :   V=   0   :   Non-number  V=   1   :   Non-number  V=   2   :   Non-number  V=   3   :   Non-number  V=   4   :   Non-number  V=   5   :   Non-number  V=   6   :   Non-number  
+  G=   1   :   V=   0   :   Non-number  V=   1   :   Non-number  V=   2   :   Non-number  V=   3   :   Non-number  V=   4   :   Non-number  V=   5   :   Non-number  V=   6   :   Non-number  
+  G=   2   :   V=   0   :   Non-number  V=   1   :   Non-number  V=   2   :   Non-number  V=   3   :   Non-number  V=   4   :   Non-number  V=   5   :   Non-number  V=   6   :   Non-number  
+
+
+Member 4
+  G=   0   :   V=   0   :   Non-number  V=   1   :   Non-number  V=   2   :   Non-number  V=   3   :   Non-number  V=   4   :   Non-number  V=   5   :   Non-number  V=   6   :   Non-number  
+  G=   1   :   V=   0   :   Non-number  V=   1   :   Non-number  V=   2   :   Non-number  V=   3   :   Non-number  V=   4   :   Non-number  V=   5   :   Non-number  V=   6   :   Non-number  
+  G=   2   :   V=   0   :   Non-number  V=   1   :   Non-number  V=   2   :   Non-number  V=   3   :   Non-number  V=   4   :   Non-number  V=   5   :   Non-number  V=   6   :   Non-number  
+
+
+Member 5
+  G=   0   :   V=   0   :   Non-number  V=   1   :   Non-number  V=   2   :   Non-number  V=   3   :   Non-number  V=   4   :   Non-number  V=   5   :   Non-number  V=   6   :   Non-number  
+  G=   1   :   V=   0   :   Non-number  V=   1   :   Non-number  V=   2   :   Non-number  V=   3   :   Non-number  V=   4   :   Non-number  V=   5   :   Non-number  V=   6   :   Non-number  
+  G=   2   :   V=   0   :   Non-number  V=   1   :   Non-number  V=   2   :   Non-number  V=   3   :   Non-number  V=   4   :   Non-number  V=   5   :   Non-number  V=   6   :   Non-number  
+
+
+Member 6
+  G=   0   :   V=   0   :   Non-number  V=   1   :   Non-number  V=   2   :   Non-number  V=   3   :   Non-number  V=   4   :   Non-number  V=   5   :   Non-number  V=   6   :   Non-number  
+  G=   1   :   V=   0   :   Non-number  V=   1   :   Non-number  V=   2   :   Non-number  V=   3   :   Non-number  V=   4   :   Non-number  V=   5   :   Non-number  V=   6   :   Non-number  
+  G=   2   :   V=   0   :   Non-number  V=   1   :   Non-number  V=   2   :   Non-number  V=   3   :   Non-number  V=   4   :   Non-number  V=   5   :   Non-number  V=   6   :   Non-number  
+
+
+Member 1
+  G=   0   :   V=   0   :   Non-number  V=   1   :   Non-number  V=   2   :   Non-number  V=   3   :   Non-number  V=   4   :   Non-number  V=   5   :   Non-number  V=   6   :   Non-number  
+  G=   1   :   V=   0   :   Non-number  V=   1   :   Non-number  V=   2   :   Non-number  V=   3   :   Non-number  V=   4   :   Non-number  V=   5   :   Non-number  V=   6   :   Non-number  
+  G=   2   :   V=   0   :   Non-number  V=   1   :   Non-number  V=   2   :   Non-number  V=   3   :   Non-number  V=   4   :   Non-number  V=   5   :   Non-number  V=   6   :   Non-number  
+
+
+Member 2
+  G=   0   :   V=   0   :   Non-number  V=   1   :   Non-number  V=   2   :   Non-number  V=   3   :   Non-number  V=   4   :   Non-number  V=   5   :   Non-number  V=   6   :   Non-number  
+  G=   1   :   V=   0   :   Non-number  V=   1   :   Non-number  V=   2   :   Non-number  V=   3   :   Non-number  V=   4   :   Non-number  V=   5   :   Non-number  V=   6   :   Non-number  
+  G=   2   :   V=   0   :   Non-number  V=   1   :   Non-number  V=   2   :   Non-number  V=   3   :   Non-number  V=   4   :   Non-number  V=   5   :   Non-number  V=   6   :   Non-number  
+
+
+Member 3
+  G=   0   :   V=   0   :   Non-number  V=   1   :   Non-number  V=   2   :   Non-number  V=   3   :   Non-number  V=   4   :   Non-number  V=   5   :   Non-number  V=   6   :   Non-number  
+  G=   1   :   V=   0   :   Non-number  V=   1   :   Non-number  V=   2   :   Non-number  V=   3   :   Non-number  V=   4   :   Non-number  V=   5   :   Non-number  V=   6   :   Non-number  
+  G=   2   :   V=   0   :   Non-number  V=   1   :   Non-number  V=   2   :   Non-number  V=   3   :   Non-number  V=   4   :   Non-number  V=   5   :   Non-number  V=   6   :   Non-number  
+
+
+Member 4
+  G=   0   :   V=   0   :   Non-number  V=   1   :   Non-number  V=   2   :   Non-number  V=   3   :   Non-number  V=   4   :   Non-number  V=   5   :   Non-number  V=   6   :   Non-number  
+  G=   1   :   V=   0   :   Non-number  V=   1   :   Non-number  V=   2   :   Non-number  V=   3   :   Non-number  V=   4   :   Non-number  V=   5   :   Non-number  V=   6   :   Non-number  
+  G=   2   :   V=   0   :   Non-number  V=   1   :   Non-number  V=   2   :   Non-number  V=   3   :   Non-number  V=   4   :   Non-number  V=   5   :   Non-number  V=   6   :   Non-number  
+
+
+Member 5
+  G=   0   :   V=   0   :   Non-number  V=   1   :   Non-number  V=   2   :   Non-number  V=   3   :   Non-number  V=   4   :   Non-number  V=   5   :   Non-number  V=   6   :   Non-number  
+  G=   1   :   V=   0   :   Non-number  V=   1   :   Non-number  V=   2   :   Non-number  V=   3   :   Non-number  V=   4   :   Non-number  V=   5   :   Non-number  V=   6   :   Non-number  
+  G=   2   :   V=   0   :   Non-number  V=   1   :   Non-number  V=   2   :   Non-number  V=   3   :   Non-number  V=   4   :   Non-number  V=   5   :   Non-number  V=   6   :   Non-number  
+
+
+Member 6
+  G=   0   :   V=   0   :   Non-number  V=   1   :   Non-number  V=   2   :   Non-number  V=   3   :   Non-number  V=   4   :   Non-number  V=   5   :   Non-number  V=   6   :   Non-number  
+  G=   1   :   V=   0   :   Non-number  V=   1   :   Non-number  V=   2   :   Non-number  V=   3   :   Non-number  V=   4   :   Non-number  V=   5   :   Non-number  V=   6   :   Non-number  
+  G=   2   :   V=   0   :   Non-number  V=   1   :   Non-number  V=   2   :   Non-number  V=   3   :   Non-number  V=   4   :   Non-number  V=   5   :   Non-number  V=   6   :   Non-number  
+
+
+
+====================================================
+
+RUNNING MODEL
+====================================================
+
+%SEGREG-E: The transmission option requires that sex be available for all
+           parents in this analysis. The following individuals have missing sex
+           and are parents: 2:1 and 2:2.  Analysis is invalid and will be
+           discontinued.
+
+
+====================================================
+
+RUNNING MODEL
+====================================================
+
+Model has sex effect: 0
+Performing test of the binary member calculator...
+
+# Type susceptibilities
+type_suscept
+{
+  # two susceptibilities
+  option=two
+  suscept=AA, val=1, fixed=false
+  suscept=AB, val=1, fixed=false
+  suscept=BB, val=1, fixed=false
+}
+
+Ped: 1	Member: 1	Genotype: 0
+--------------------------------------------------------
+  Valid   1  Affection   1  Exp Susc   1.000000  Penetrance   0.731059  
+
+(Poly = 0) -1.#IND	(Poly = 1) -1.#IND	(Poly = 2) -1.#IND	(Poly = 3) -1.#IND	(Poly = 4) -1.#IND	(Poly = 5) -1.#IND	(Poly = 6) -1.#IND	
+Ped: 1	Member: 1	Genotype: 1
+--------------------------------------------------------
+  Valid   1  Affection   1  Exp Susc   1.000000  Penetrance   0.731059  
+
+(Poly = 0) -1.#IND	(Poly = 1) -1.#IND	(Poly = 2) -1.#IND	(Poly = 3) -1.#IND	(Poly = 4) -1.#IND	(Poly = 5) -1.#IND	(Poly = 6) -1.#IND	
+Ped: 1	Member: 1	Genotype: 2
+--------------------------------------------------------
+  Valid   1  Affection   1  Exp Susc   1.000000  Penetrance   0.731059  
+
+(Poly = 0) -1.#IND	(Poly = 1) -1.#IND	(Poly = 2) -1.#IND	(Poly = 3) -1.#IND	(Poly = 4) -1.#IND	(Poly = 5) -1.#IND	(Poly = 6) -1.#IND	
+Ped: 1	Member: 2	Genotype: 0
+--------------------------------------------------------
+  Valid   1  Affection   0  Exp Susc   1.000000  Penetrance   0.268941  
+
+(Poly = 0) -1.#IND	(Poly = 1) -1.#IND	(Poly = 2) -1.#IND	(Poly = 3) -1.#IND	(Poly = 4) -1.#IND	(Poly = 5) -1.#IND	(Poly = 6) -1.#IND	
+Ped: 1	Member: 2	Genotype: 1
+--------------------------------------------------------
+  Valid   1  Affection   0  Exp Susc   1.000000  Penetrance   0.268941  
+
+(Poly = 0) -1.#IND	(Poly = 1) -1.#IND	(Poly = 2) -1.#IND	(Poly = 3) -1.#IND	(Poly = 4) -1.#IND	(Poly = 5) -1.#IND	(Poly = 6) -1.#IND	
+Ped: 1	Member: 2	Genotype: 2
+--------------------------------------------------------
+  Valid   1  Affection   0  Exp Susc   1.000000  Penetrance   0.268941  
+
+(Poly = 0) -1.#IND	(Poly = 1) -1.#IND	(Poly = 2) -1.#IND	(Poly = 3) -1.#IND	(Poly = 4) -1.#IND	(Poly = 5) -1.#IND	(Poly = 6) -1.#IND	
+Ped: 1	Member: 3	Genotype: 0
+--------------------------------------------------------
+  Valid   1  Affection   0  Exp Susc   1.000000  Penetrance   0.268941  
+
+(Poly = 0) -1.#IND	(Poly = 1) -1.#IND	(Poly = 2) -1.#IND	(Poly = 3) -1.#IND	(Poly = 4) -1.#IND	(Poly = 5) -1.#IND	(Poly = 6) -1.#IND	
+Ped: 1	Member: 3	Genotype: 1
+--------------------------------------------------------
+  Valid   1  Affection   0  Exp Susc   1.000000  Penetrance   0.268941  
+
+(Poly = 0) -1.#IND	(Poly = 1) -1.#IND	(Poly = 2) -1.#IND	(Poly = 3) -1.#IND	(Poly = 4) -1.#IND	(Poly = 5) -1.#IND	(Poly = 6) -1.#IND	
+Ped: 1	Member: 3	Genotype: 2
+--------------------------------------------------------
+  Valid   1  Affection   0  Exp Susc   1.000000  Penetrance   0.268941  
+
+(Poly = 0) -1.#IND	(Poly = 1) -1.#IND	(Poly = 2) -1.#IND	(Poly = 3) -1.#IND	(Poly = 4) -1.#IND	(Poly = 5) -1.#IND	(Poly = 6) -1.#IND	
+Ped: 1	Member: 4	Genotype: 0
+--------------------------------------------------------
+  Valid   1  Affection   1  Exp Susc   1.000000  Penetrance   0.731059  
+
+(Poly = 0) -1.#IND	(Poly = 1) -1.#IND	(Poly = 2) -1.#IND	(Poly = 3) -1.#IND	(Poly = 4) -1.#IND	(Poly = 5) -1.#IND	(Poly = 6) -1.#IND	
+Ped: 1	Member: 4	Genotype: 1
+--------------------------------------------------------
+  Valid   1  Affection   1  Exp Susc   1.000000  Penetrance   0.731059  
+
+(Poly = 0) -1.#IND	(Poly = 1) -1.#IND	(Poly = 2) -1.#IND	(Poly = 3) -1.#IND	(Poly = 4) -1.#IND	(Poly = 5) -1.#IND	(Poly = 6) -1.#IND	
+Ped: 1	Member: 4	Genotype: 2
+--------------------------------------------------------
+  Valid   1  Affection   1  Exp Susc   1.000000  Penetrance   0.731059  
+
+(Poly = 0) -1.#IND	(Poly = 1) -1.#IND	(Poly = 2) -1.#IND	(Poly = 3) -1.#IND	(Poly = 4) -1.#IND	(Poly = 5) -1.#IND	(Poly = 6) -1.#IND	
+Ped: 1	Member: 5	Genotype: 0
+--------------------------------------------------------
+  Valid   1  Affection   0  Exp Susc   1.000000  Penetrance   0.268941  
+
+(Poly = 0) -1.#IND	(Poly = 1) -1.#IND	(Poly = 2) -1.#IND	(Poly = 3) -1.#IND	(Poly = 4) -1.#IND	(Poly = 5) -1.#IND	(Poly = 6) -1.#IND	
+Ped: 1	Member: 5	Genotype: 1
+--------------------------------------------------------
+  Valid   1  Affection   0  Exp Susc   1.000000  Penetrance   0.268941  
+
+(Poly = 0) -1.#IND	(Poly = 1) -1.#IND	(Poly = 2) -1.#IND	(Poly = 3) -1.#IND	(Poly = 4) -1.#IND	(Poly = 5) -1.#IND	(Poly = 6) -1.#IND	
+Ped: 1	Member: 5	Genotype: 2
+--------------------------------------------------------
+  Valid   1  Affection   0  Exp Susc   1.000000  Penetrance   0.268941  
+
+(Poly = 0) -1.#IND	(Poly = 1) -1.#IND	(Poly = 2) -1.#IND	(Poly = 3) -1.#IND	(Poly = 4) -1.#IND	(Poly = 5) -1.#IND	(Poly = 6) -1.#IND	
+Ped: 1	Member: 6	Genotype: 0
+--------------------------------------------------------
+  Valid   1  Affection   1  Exp Susc   1.000000  Penetrance   0.731059  
+
+(Poly = 0) -1.#IND	(Poly = 1) -1.#IND	(Poly = 2) -1.#IND	(Poly = 3) -1.#IND	(Poly = 4) -1.#IND	(Poly = 5) -1.#IND	(Poly = 6) -1.#IND	
+Ped: 1	Member: 6	Genotype: 1
+--------------------------------------------------------
+  Valid   1  Affection   1  Exp Susc   1.000000  Penetrance   0.731059  
+
+(Poly = 0) -1.#IND	(Poly = 1) -1.#IND	(Poly = 2) -1.#IND	(Poly = 3) -1.#IND	(Poly = 4) -1.#IND	(Poly = 5) -1.#IND	(Poly = 6) -1.#IND	
+Ped: 1	Member: 6	Genotype: 2
+--------------------------------------------------------
+  Valid   1  Affection   1  Exp Susc   1.000000  Penetrance   0.731059  
+
+(Poly = 0) -1.#IND	(Poly = 1) -1.#IND	(Poly = 2) -1.#IND	(Poly = 3) -1.#IND	(Poly = 4) -1.#IND	(Poly = 5) -1.#IND	(Poly = 6) -1.#IND	
+Ped: 2	Member: 1	Genotype: 0
+--------------------------------------------------------
+  Valid   1  Affection   1  Exp Susc   1.000000  Penetrance   0.731059  
+
+(Poly = 0) -1.#IND	(Poly = 1) -1.#IND	(Poly = 2) -1.#IND	(Poly = 3) -1.#IND	(Poly = 4) -1.#IND	(Poly = 5) -1.#IND	(Poly = 6) -1.#IND	
+Ped: 2	Member: 1	Genotype: 1
+--------------------------------------------------------
+  Valid   1  Affection   1  Exp Susc   1.000000  Penetrance   0.731059  
+
+(Poly = 0) -1.#IND	(Poly = 1) -1.#IND	(Poly = 2) -1.#IND	(Poly = 3) -1.#IND	(Poly = 4) -1.#IND	(Poly = 5) -1.#IND	(Poly = 6) -1.#IND	
+Ped: 2	Member: 1	Genotype: 2
+--------------------------------------------------------
+  Valid   1  Affection   1  Exp Susc   1.000000  Penetrance   0.731059  
+
+(Poly = 0) -1.#IND	(Poly = 1) -1.#IND	(Poly = 2) -1.#IND	(Poly = 3) -1.#IND	(Poly = 4) -1.#IND	(Poly = 5) -1.#IND	(Poly = 6) -1.#IND	
+Ped: 2	Member: 2	Genotype: 0
+--------------------------------------------------------
+  Valid   1  Affection   0  Exp Susc   1.000000  Penetrance   0.268941  
+
+(Poly = 0) -1.#IND	(Poly = 1) -1.#IND	(Poly = 2) -1.#IND	(Poly = 3) -1.#IND	(Poly = 4) -1.#IND	(Poly = 5) -1.#IND	(Poly = 6) -1.#IND	
+Ped: 2	Member: 2	Genotype: 1
+--------------------------------------------------------
+  Valid   1  Affection   0  Exp Susc   1.000000  Penetrance   0.268941  
+
+(Poly = 0) -1.#IND	(Poly = 1) -1.#IND	(Poly = 2) -1.#IND	(Poly = 3) -1.#IND	(Poly = 4) -1.#IND	(Poly = 5) -1.#IND	(Poly = 6) -1.#IND	
+Ped: 2	Member: 2	Genotype: 2
+--------------------------------------------------------
+  Valid   1  Affection   0  Exp Susc   1.000000  Penetrance   0.268941  
+
+(Poly = 0) -1.#IND	(Poly = 1) -1.#IND	(Poly = 2) -1.#IND	(Poly = 3) -1.#IND	(Poly = 4) -1.#IND	(Poly = 5) -1.#IND	(Poly = 6) -1.#IND	
+Ped: 2	Member: 3	Genotype: 0
+--------------------------------------------------------
+  Valid   1  Affection   0  Exp Susc   1.000000  Penetrance   0.268941  
+
+(Poly = 0) -1.#IND	(Poly = 1) -1.#IND	(Poly = 2) -1.#IND	(Poly = 3) -1.#IND	(Poly = 4) -1.#IND	(Poly = 5) -1.#IND	(Poly = 6) -1.#IND	
+Ped: 2	Member: 3	Genotype: 1
+--------------------------------------------------------
+  Valid   1  Affection   0  Exp Susc   1.000000  Penetrance   0.268941  
+
+(Poly = 0) -1.#IND	(Poly = 1) -1.#IND	(Poly = 2) -1.#IND	(Poly = 3) -1.#IND	(Poly = 4) -1.#IND	(Poly = 5) -1.#IND	(Poly = 6) -1.#IND	
+Ped: 2	Member: 3	Genotype: 2
+--------------------------------------------------------
+  Valid   1  Affection   0  Exp Susc   1.000000  Penetrance   0.268941  
+
+(Poly = 0) -1.#IND	(Poly = 1) -1.#IND	(Poly = 2) -1.#IND	(Poly = 3) -1.#IND	(Poly = 4) -1.#IND	(Poly = 5) -1.#IND	(Poly = 6) -1.#IND	
+Ped: 2	Member: 4	Genotype: 0
+--------------------------------------------------------
+  Valid   1  Affection   1  Exp Susc   1.000000  Penetrance   0.731059  
+
+(Poly = 0) -1.#IND	(Poly = 1) -1.#IND	(Poly = 2) -1.#IND	(Poly = 3) -1.#IND	(Poly = 4) -1.#IND	(Poly = 5) -1.#IND	(Poly = 6) -1.#IND	
+Ped: 2	Member: 4	Genotype: 1
+--------------------------------------------------------
+  Valid   1  Affection   1  Exp Susc   1.000000  Penetrance   0.731059  
+
+(Poly = 0) -1.#IND	(Poly = 1) -1.#IND	(Poly = 2) -1.#IND	(Poly = 3) -1.#IND	(Poly = 4) -1.#IND	(Poly = 5) -1.#IND	(Poly = 6) -1.#IND	
+Ped: 2	Member: 4	Genotype: 2
+--------------------------------------------------------
+  Valid   1  Affection   1  Exp Susc   1.000000  Penetrance   0.731059  
+
+(Poly = 0) -1.#IND	(Poly = 1) -1.#IND	(Poly = 2) -1.#IND	(Poly = 3) -1.#IND	(Poly = 4) -1.#IND	(Poly = 5) -1.#IND	(Poly = 6) -1.#IND	
+Ped: 2	Member: 5	Genotype: 0
+--------------------------------------------------------
+  Valid   1  Affection   1  Exp Susc   1.000000  Penetrance   0.731059  
+
+(Poly = 0) -1.#IND	(Poly = 1) -1.#IND	(Poly = 2) -1.#IND	(Poly = 3) -1.#IND	(Poly = 4) -1.#IND	(Poly = 5) -1.#IND	(Poly = 6) -1.#IND	
+Ped: 2	Member: 5	Genotype: 1
+--------------------------------------------------------
+  Valid   1  Affection   1  Exp Susc   1.000000  Penetrance   0.731059  
+
+(Poly = 0) -1.#IND	(Poly = 1) -1.#IND	(Poly = 2) -1.#IND	(Poly = 3) -1.#IND	(Poly = 4) -1.#IND	(Poly = 5) -1.#IND	(Poly = 6) -1.#IND	
+Ped: 2	Member: 5	Genotype: 2
+--------------------------------------------------------
+  Valid   1  Affection   1  Exp Susc   1.000000  Penetrance   0.731059  
+
+(Poly = 0) -1.#IND	(Poly = 1) -1.#IND	(Poly = 2) -1.#IND	(Poly = 3) -1.#IND	(Poly = 4) -1.#IND	(Poly = 5) -1.#IND	(Poly = 6) -1.#IND	
+Ped: 2	Member: 6	Genotype: 0
+--------------------------------------------------------
+  Valid   1  Affection   0  Exp Susc   1.000000  Penetrance   0.268941  
+
+(Poly = 0) -1.#IND	(Poly = 1) -1.#IND	(Poly = 2) -1.#IND	(Poly = 3) -1.#IND	(Poly = 4) -1.#IND	(Poly = 5) -1.#IND	(Poly = 6) -1.#IND	
+Ped: 2	Member: 6	Genotype: 1
+--------------------------------------------------------
+  Valid   1  Affection   0  Exp Susc   1.000000  Penetrance   0.268941  
+
+(Poly = 0) -1.#IND	(Poly = 1) -1.#IND	(Poly = 2) -1.#IND	(Poly = 3) -1.#IND	(Poly = 4) -1.#IND	(Poly = 5) -1.#IND	(Poly = 6) -1.#IND	
+Ped: 2	Member: 6	Genotype: 2
+--------------------------------------------------------
+  Valid   1  Affection   0  Exp Susc   1.000000  Penetrance   0.268941  
+
+(Poly = 0) -1.#IND	(Poly = 1) -1.#IND	(Poly = 2) -1.#IND	(Poly = 3) -1.#IND	(Poly = 4) -1.#IND	(Poly = 5) -1.#IND	(Poly = 6) -1.#IND	
+Performing test of the polygenic penetrance calculator...
+
+Member 1
+  G=   0   :   V=   0   :   Non-number  V=   1   :   Non-number  V=   2   :   Non-number  V=   3   :   Non-number  V=   4   :   Non-number  V=   5   :   Non-number  V=   6   :   Non-number  
+  G=   1   :   V=   0   :   Non-number  V=   1   :   Non-number  V=   2   :   Non-number  V=   3   :   Non-number  V=   4   :   Non-number  V=   5   :   Non-number  V=   6   :   Non-number  
+  G=   2   :   V=   0   :   Non-number  V=   1   :   Non-number  V=   2   :   Non-number  V=   3   :   Non-number  V=   4   :   Non-number  V=   5   :   Non-number  V=   6   :   Non-number  
+
+
+Member 2
+  G=   0   :   V=   0   :   Non-number  V=   1   :   Non-number  V=   2   :   Non-number  V=   3   :   Non-number  V=   4   :   Non-number  V=   5   :   Non-number  V=   6   :   Non-number  
+  G=   1   :   V=   0   :   Non-number  V=   1   :   Non-number  V=   2   :   Non-number  V=   3   :   Non-number  V=   4   :   Non-number  V=   5   :   Non-number  V=   6   :   Non-number  
+  G=   2   :   V=   0   :   Non-number  V=   1   :   Non-number  V=   2   :   Non-number  V=   3   :   Non-number  V=   4   :   Non-number  V=   5   :   Non-number  V=   6   :   Non-number  
+
+
+Member 3
+  G=   0   :   V=   0   :   Non-number  V=   1   :   Non-number  V=   2   :   Non-number  V=   3   :   Non-number  V=   4   :   Non-number  V=   5   :   Non-number  V=   6   :   Non-number  
+  G=   1   :   V=   0   :   Non-number  V=   1   :   Non-number  V=   2   :   Non-number  V=   3   :   Non-number  V=   4   :   Non-number  V=   5   :   Non-number  V=   6   :   Non-number  
+  G=   2   :   V=   0   :   Non-number  V=   1   :   Non-number  V=   2   :   Non-number  V=   3   :   Non-number  V=   4   :   Non-number  V=   5   :   Non-number  V=   6   :   Non-number  
+
+
+Member 4
+  G=   0   :   V=   0   :   Non-number  V=   1   :   Non-number  V=   2   :   Non-number  V=   3   :   Non-number  V=   4   :   Non-number  V=   5   :   Non-number  V=   6   :   Non-number  
+  G=   1   :   V=   0   :   Non-number  V=   1   :   Non-number  V=   2   :   Non-number  V=   3   :   Non-number  V=   4   :   Non-number  V=   5   :   Non-number  V=   6   :   Non-number  
+  G=   2   :   V=   0   :   Non-number  V=   1   :   Non-number  V=   2   :   Non-number  V=   3   :   Non-number  V=   4   :   Non-number  V=   5   :   Non-number  V=   6   :   Non-number  
+
+
+Member 5
+  G=   0   :   V=   0   :   Non-number  V=   1   :   Non-number  V=   2   :   Non-number  V=   3   :   Non-number  V=   4   :   Non-number  V=   5   :   Non-number  V=   6   :   Non-number  
+  G=   1   :   V=   0   :   Non-number  V=   1   :   Non-number  V=   2   :   Non-number  V=   3   :   Non-number  V=   4   :   Non-number  V=   5   :   Non-number  V=   6   :   Non-number  
+  G=   2   :   V=   0   :   Non-number  V=   1   :   Non-number  V=   2   :   Non-number  V=   3   :   Non-number  V=   4   :   Non-number  V=   5   :   Non-number  V=   6   :   Non-number  
+
+
+Member 6
+  G=   0   :   V=   0   :   Non-number  V=   1   :   Non-number  V=   2   :   Non-number  V=   3   :   Non-number  V=   4   :   Non-number  V=   5   :   Non-number  V=   6   :   Non-number  
+  G=   1   :   V=   0   :   Non-number  V=   1   :   Non-number  V=   2   :   Non-number  V=   3   :   Non-number  V=   4   :   Non-number  V=   5   :   Non-number  V=   6   :   Non-number  
+  G=   2   :   V=   0   :   Non-number  V=   1   :   Non-number  V=   2   :   Non-number  V=   3   :   Non-number  V=   4   :   Non-number  V=   5   :   Non-number  V=   6   :   Non-number  
+
+
+Member 1
+  G=   0   :   V=   0   :   Non-number  V=   1   :   Non-number  V=   2   :   Non-number  V=   3   :   Non-number  V=   4   :   Non-number  V=   5   :   Non-number  V=   6   :   Non-number  
+  G=   1   :   V=   0   :   Non-number  V=   1   :   Non-number  V=   2   :   Non-number  V=   3   :   Non-number  V=   4   :   Non-number  V=   5   :   Non-number  V=   6   :   Non-number  
+  G=   2   :   V=   0   :   Non-number  V=   1   :   Non-number  V=   2   :   Non-number  V=   3   :   Non-number  V=   4   :   Non-number  V=   5   :   Non-number  V=   6   :   Non-number  
+
+
+Member 2
+  G=   0   :   V=   0   :   Non-number  V=   1   :   Non-number  V=   2   :   Non-number  V=   3   :   Non-number  V=   4   :   Non-number  V=   5   :   Non-number  V=   6   :   Non-number  
+  G=   1   :   V=   0   :   Non-number  V=   1   :   Non-number  V=   2   :   Non-number  V=   3   :   Non-number  V=   4   :   Non-number  V=   5   :   Non-number  V=   6   :   Non-number  
+  G=   2   :   V=   0   :   Non-number  V=   1   :   Non-number  V=   2   :   Non-number  V=   3   :   Non-number  V=   4   :   Non-number  V=   5   :   Non-number  V=   6   :   Non-number  
+
+
+Member 3
+  G=   0   :   V=   0   :   Non-number  V=   1   :   Non-number  V=   2   :   Non-number  V=   3   :   Non-number  V=   4   :   Non-number  V=   5   :   Non-number  V=   6   :   Non-number  
+  G=   1   :   V=   0   :   Non-number  V=   1   :   Non-number  V=   2   :   Non-number  V=   3   :   Non-number  V=   4   :   Non-number  V=   5   :   Non-number  V=   6   :   Non-number  
+  G=   2   :   V=   0   :   Non-number  V=   1   :   Non-number  V=   2   :   Non-number  V=   3   :   Non-number  V=   4   :   Non-number  V=   5   :   Non-number  V=   6   :   Non-number  
+
+
+Member 4
+  G=   0   :   V=   0   :   Non-number  V=   1   :   Non-number  V=   2   :   Non-number  V=   3   :   Non-number  V=   4   :   Non-number  V=   5   :   Non-number  V=   6   :   Non-number  
+  G=   1   :   V=   0   :   Non-number  V=   1   :   Non-number  V=   2   :   Non-number  V=   3   :   Non-number  V=   4   :   Non-number  V=   5   :   Non-number  V=   6   :   Non-number  
+  G=   2   :   V=   0   :   Non-number  V=   1   :   Non-number  V=   2   :   Non-number  V=   3   :   Non-number  V=   4   :   Non-number  V=   5   :   Non-number  V=   6   :   Non-number  
+
+
+Member 5
+  G=   0   :   V=   0   :   Non-number  V=   1   :   Non-number  V=   2   :   Non-number  V=   3   :   Non-number  V=   4   :   Non-number  V=   5   :   Non-number  V=   6   :   Non-number  
+  G=   1   :   V=   0   :   Non-number  V=   1   :   Non-number  V=   2   :   Non-number  V=   3   :   Non-number  V=   4   :   Non-number  V=   5   :   Non-number  V=   6   :   Non-number  
+  G=   2   :   V=   0   :   Non-number  V=   1   :   Non-number  V=   2   :   Non-number  V=   3   :   Non-number  V=   4   :   Non-number  V=   5   :   Non-number  V=   6   :   Non-number  
+
+
+Member 6
+  G=   0   :   V=   0   :   Non-number  V=   1   :   Non-number  V=   2   :   Non-number  V=   3   :   Non-number  V=   4   :   Non-number  V=   5   :   Non-number  V=   6   :   Non-number  
+  G=   1   :   V=   0   :   Non-number  V=   1   :   Non-number  V=   2   :   Non-number  V=   3   :   Non-number  V=   4   :   Non-number  V=   5   :   Non-number  V=   6   :   Non-number  
+  G=   2   :   V=   0   :   Non-number  V=   1   :   Non-number  V=   2   :   Non-number  V=   3   :   Non-number  V=   4   :   Non-number  V=   5   :   Non-number  V=   6   :   Non-number  
+
+
+
+====================================================
+
+RUNNING MODEL
+====================================================
+
+%SEGREG-E: The transmission option requires that sex be available for all
+           parents in this analysis. The following individuals have missing sex
+           and are parents: 2:1 and 2:2.  Analysis is invalid and will be
+           discontinued.
+
+
+====================================================
+
+

@@ -1,0 +1,128 @@
+
+
+
+
+Family structure information on the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       SEX       PARENT1       PARENT2     
+     ------------  ------------  --------  ------------  ------------
+     10            10001         1         10002         10003       
+     10            10002         2         0             0           
+     10            10003         1         0             0           
+     10            10004         2         10002         10003       
+     10            10005         2         0             0           
+     10            10006         2         10003         10005       
+     16            16001         1         16002         16003       
+     16            16002         2         0             0           
+     16            16003         1         0             0           
+     16            16004         2         16002         16003       
+
+
+Phenotypes for the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       cleft                 Proband Status      
+     ------------  ------------  --------------------  --------------------
+     10            10001         1                     1                   
+     10            10002         0                     0                   
+     10            10003         0                     0                   
+     10            10004         0                     0                   
+     10            10005         0                     0                   
+     10            10006         0                     0                   
+     16            16001         1                     1                   
+     16            16002         0                     0                   
+     16            16003         0                     0                   
+     16            16004         0                     0                   
+
+
+Parsing Segreg Analyses...
+
+Beginning new analysis block....
+
+
+Parsing Analysis: 'CP and Control families'....
+
+
+Analysis parsing complete.  Analysis valid.
+------------------------------------------------------------------------------
+
+  Performing analysis: CP and Control families
+  ===========================================================================
+
+    Setting up initial model..................................
+      Setting to one mean........................................Done.
+      Setting to homog_no_trans..................................Done.
+    Setting up initial model.....................................Done.
+    Maximizing one susc., homog. no transm....................
+        Testing model............................................Done.
+        Performing Maximization..................................Done.
+        Finalizing Model.........................................Done.
+    Maximizing one susc., homog. no transm.......................Done.
+    Maximizing two suscs., rec., homog. no transm.............
+        Testing Initial Value  1.................................Done.
+        Testing Initial Value  2.................................Done.
+        Testing Initial Value  3.................................Done.
+        Testing Initial Value  4.................................Done.
+        Testing Initial Value  5.................................Done.
+        Testing Initial Value  6.................................Done.
+        Keeping  5 of  6 initial models..........................Done.
+        Attempting Initial Value  1..............................Done.
+        Attempting Initial Value  2..............................Done.
+        Attempting Initial Value  3..............................Done.
+        Attempting Initial Value  4..............................Done.
+        Attempting Initial Value  5..............................Done.
+      Choosing models to finalize...(keeping  1).................Done.
+        Finalizing Model.........................................Done.
+    Maximizing two suscs., rec., homog. no transm................Done.
+    Maximizing two suscs., rec., mendelian transm.............
+        Testing Initial Value  1.................................Done.
+        Testing Initial Value  2.................................Done.
+        Testing Initial Value  3.................................Done.
+        Testing Initial Value  4.................................Done.
+        Testing Initial Value  5.................................Done.
+        Testing Initial Value  6.................................Done.
+        Keeping  3 of  6 initial models..........................Done.
+        Attempting Initial Value  1..............................Done.
+        Attempting Initial Value  2..............................Done.
+        Attempting Initial Value  3..............................Done.
+      Choosing models to finalize...(keeping  1).................Done.
+        Finalizing Model.........................................Done.
+    Maximizing two suscs., rec., mendelian transm................Done.
+    Maximizing two suscs., rec., homog. general transm........
+        Testing Initial Value  1.................................Done.
+        Testing Initial Value  2.................................Done.
+        Testing Initial Value  3.................................Done.
+        Testing Initial Value  4.................................Done.
+        Testing Initial Value  5.................................Done.
+        Testing Initial Value  6.................................Done.
+        Testing Initial Value  7.................................Done.
+        Testing Initial Value  8.................................Done.
+        Keeping  4 of  8 initial models..........................Done.
+        Attempting Initial Value  1..............................Done.
+        Attempting Initial Value  2..............................Done.
+        Attempting Initial Value  3..............................Done.
+        Attempting Initial Value  4..............................Done.
+      Choosing models to finalize...(keeping  1).................Done.
+        Finalizing Model.........................................Done.
+    Maximizing two suscs., rec., homog. general transm...........Done.
+    Maximizing two suscs., rec., tau_ab free transm...........
+        Testing Initial Value  1.................................Done.
+        Testing Initial Value  2.................................Done.
+        Testing Initial Value  3.................................Done.
+        Testing Initial Value  4.................................Done.
+        Keeping  2 of  4 initial models..........................Done.
+        Attempting Initial Value  1..............................Done.
+        Attempting Initial Value  2..............................Done.
+      Choosing models to finalize...(keeping  1).................Done.
+        Finalizing Model.........................................Done.
+    Maximizing two suscs., rec., tau_ab free transm..............Done.
+    Maximizing two suscs., rec., general transm...............
+        Testing Initial Value  1.................................Done.
+        Testing Initial Value  2.................................Done.
+        Testing Initial Value  3.................................Done.
+        Keeping  1 of  3 initial models..........................Done.
+        Performing Maximization..................................Done.
+        Finalizing Model.........................................Done.
+    Maximizing two suscs., rec., general transm..................Done.
+
+  ===========================================================================
+

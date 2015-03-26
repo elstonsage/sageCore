@@ -1,0 +1,54 @@
+marker
+{
+  allele_missing="?"
+  allele_delimiter="/"
+}
+
+pedigree
+{
+  delimiters=" "
+  delimiter_mode=multiple
+  individual_missing_value="0"
+  sex_code, male="1", female="2"
+
+  pedigree_id=PID
+  individual_id=ID
+  parent_id=MOM
+  parent_id=DAD
+  sex_field=SEX
+
+  string=REP
+
+  marker=M1
+  marker=M2
+  marker=M3
+  marker=M4
+  marker=M5
+  marker=M6  
+  marker=M7
+  marker=M8
+  marker=M9  
+  marker=M10
+  marker=M11  
+  marker=M12
+  marker=M13
+  marker=M14  
+  marker=M15  
+}
+
+decipher 
+{
+  region=one
+
+  data
+  {
+    family_rep=REP, family_rep_value=REP
+    related=true
+  }
+  
+  tasks
+  {
+    pop_freq=true, cutoff=0
+  }
+}  
+

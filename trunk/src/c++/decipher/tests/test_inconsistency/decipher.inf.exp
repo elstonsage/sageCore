@@ -1,0 +1,59 @@
+
+
+
+
+Family structure information on the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       SEX       PARENT1       PARENT2     
+     ------------  ------------  --------  ------------  ------------
+     1             1             1         0             0           
+     1             2             2         0             0           
+     1             3             1         1             2           
+
+
+Phenotypes for the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       SEX_CODE              FAMILIAL_INDICATOR    FOUNDER_INDICATOR     PEDIGREE_SIZE       
+     ------------  ------------  --------------------  --------------------  --------------------  --------------------
+     1             1             0                     1                     1                     3                   
+     1             2             1                     1                     1                     3                   
+     1             3             0                     1                     0                     3                   
+
+
+Markers for the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       m1            m2          
+     ------------  ------------  ------------  ------------
+     1             1             1/1           1/1         
+     1             2             2/2           1/2         
+     1             3             1/2           2/2         
+
+%DECIPHER-I: Mapping function not specified.  Using Haldane Mapping Function.
+
+  Performing analysis: Analysis 1
+  ===========================================================================
+
+    Total population. 
+      Determining possible haplotype combinations ................
+%DECIPHER-I: A Mendelian inconsistency was found at locus, m2, of the
+             constituent pedigree in pedigree, 1, containing member, 1. 
+             Substituting missing values at this locus for all members of the
+             constituent pedigree ...
+                                                                  ... done.
+
+  ===========================================================================
+
+
+  Performing analysis: Analysis 2
+  ===========================================================================
+
+    Total population. 
+      Determining possible haplotype combinations ................
+%DECIPHER-I: A Mendelian inconsistency was found at locus, m2, of the
+             constituent pedigree in pedigree, 1, containing member, 1. 
+             Substituting missing values at this locus for all members of the
+             constituent pedigree ...
+                                                                  ... done.
+
+  ===========================================================================
+

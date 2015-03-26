@@ -1,0 +1,47 @@
+genome
+{
+  region=region1
+  {
+    marker=MAR0
+    distance=1.0
+    marker=MAR1
+    distance=1.0
+    marker=MAR2
+    distance=1.0
+    marker=MAR3
+    distance=1.0
+    marker=MAR4
+    distance=1.0
+    marker=MAR5
+    distance=1.0
+    marker=MAR6
+    distance=1.0
+    marker=MAR7
+    distance=1.0
+    marker=MAR8
+    distance=1.0
+    marker=MAR9
+    distance=1.0
+    marker=MAR10
+    distance=1.0
+    marker=MAR11
+    distance=1.0
+    marker=MAR12
+    distance=1.0
+    marker=MAR13
+    distance=1.0
+    marker=MAR14
+    distance=1.0
+    marker=MAR15
+    distance=1.0
+    marker=MAR16
+    distance=1.0
+    marker=MAR17
+    distance=1.0
+    marker=MAR18
+    distance=1.0
+    marker=MAR19
+    distance=1.0
+    marker=MAR20
+  }
+}

@@ -1,0 +1,238 @@
+1S.A.G.E. RELEASE 3.1 -- AGEON   		DECEMBER 1997
+ COPYRIGHT (C) 1997 CASE WESTERN RESERVE UNIVERSITY.
+
+
+ INPUT PARAMETER
+ ---------------
+
+ check ageon with dbh data                                                       
+ schiz         2    1    1    0         1         0      -9.0      -9.0          
+ (T7,A4,T24,F1,T26,F2.0,T30,F2.0)                                                
+ %AGEON-W: INDIVIDUAL 2002     HAS AGE OF ONSET GREATER THAN AGE AT EXAM.
+           AGE OF ONSET IS 18.  AGE AT EXAM IS -9.
+ %AGEON-W: INDIVIDUAL 2005     HAS BOTH AGE OF ONSET AND AGE AT EXAM MISSING.
+ %AGEON-W: INDIVIDUAL 2007     HAS AGE OF ONSET GREATER THAN AGE AT EXAM.
+           AGE OF ONSET IS 21.  AGE AT EXAM IS -9.
+ %AGEON-W: INDIVIDUAL 2055     HAS AGE OF ONSET GREATER THAN AGE AT EXAM.
+           AGE OF ONSET IS 31.  AGE AT EXAM IS -9.
+ %AGEON-W: INDIVIDUAL 2004     HAS AGE OF ONSET GREATER THAN AGE AT EXAM.
+           AGE OF ONSET IS 16.  AGE AT EXAM IS -9.
+ %AGEON-W: INDIVIDUAL 2005     HAS AGE OF ONSET GREATER THAN AGE AT EXAM.
+           AGE OF ONSET IS 17.  AGE AT EXAM IS -9.
+ %AGEON-W: INDIVIDUAL 2002     HAS AGE OF ONSET GREATER THAN AGE AT EXAM.
+           AGE OF ONSET IS 17.  AGE AT EXAM IS -9.
+ %AGEON-W: INDIVIDUAL 2001     HAS AGE OF ONSET GREATER THAN AGE AT EXAM.
+           AGE OF ONSET IS 21.  AGE AT EXAM IS -9.
+ %AGEON-W: INDIVIDUAL 2002     HAS AGE OF ONSET GREATER THAN AGE AT EXAM.
+           AGE OF ONSET IS 19.  AGE AT EXAM IS -9.
+ %AGEON-W: INDIVIDUAL 2002     HAS AGE OF ONSET GREATER THAN AGE AT EXAM.
+           AGE OF ONSET IS 19.  AGE AT EXAM IS -9.
+
+ NUMBER OF INDIVIDUALS USED IN THE ANALYSIS =   590
+
+
+ AGE OF ONSET ( -9 = MISSING)
+ -----------------------------
+
+ 18  -9  26  45  -9  16  -9  -9  -9  -9  -9  -9  21  27  -9  -9  19  24  18  17  -9  -9  20  -9  27  18  -9  -9  -9  -9  21  32  -9
+ 20  -9  -9  -9  -9  -9  -9  -9  31  22  -9  -9  -9  17  -9  -9  -9  24  18  20  -9  -9  -9  -9  48  -9  -9  -9  17  -9  -9  -9  -9
+ 33  -9  33  -9  -9  21  -9  -9  -9  -9  16  -9  24  -9  -9  30  34  -9  -9  -9  -9  19  20  -9  -9  -9  -9  -9  19  12  -9  -9  -9
+ -9  -9  17  -9  -9  -9  -9  -9  39  -9  -9  -9  21  -9  -9  -9  -9  20  20  19  -9  37  -9  -9  22  29  -9  -9  -9  -9  18  25  -9
+ -9  34  18  -9  12  13  -9  25  25  27  17  -9  -9  -9  -9  -9  -9  -9  -9  -9  23  -9  -9  -9  -9  -9  27  -9  -9  22  -9  20  -9
+ -9  -9  -9  -9  -9  -9   9  -9  -9  -9  -9  -9  -9  29  -9  -9  20  20  25  -9  22  -9  -9  -9  19  18  -9  -9  -9  -9  -9  -9  -9
+ 22  -9  18  16  14  -9  -9  -9  -9  -9  -9  -9  21  -9  20  -9  20  -9  -9  -9  -9  -9  -9  16  21  -9  -9  -9  -9  -9  20  -9  -9
+ -9  14  -9  -9  -9  -9  -9  -9  21  -9  -9  18  21  24  16  -9  -9  -9  -9  23  -9  22  28  -9  -9  -9  -9  17  20  -9  -9  -9  -9
+ 25  -9  17  -9  -9  19  20  20  -9  -9  15  -9   7  -9   5  -9  20  18  -9  19  14  -9  -9  -9  -9  31  -9  22  21  17  -9  15  33
+ 24  -9  -9  39  18  17  -9  -9  -9  14  24  18  24  -9  29  -9  -9  -9  -9  -9  11  -9  -9  -9  21  -9  -9  -9  -9  -9   9  -9  -9
+ 22  27  25  28  -9  -9  -9  -9  -9  -9  -9  15  22  33  25  42  -9  -9  29  17  19  18  -9  21  -9  28  -9  16  23  -9  -9  12  21
+ 22  -9  18  -9  21  -9  -9  -9  -9  31  16  17  17  17  34  16  -9  16  21  -9  -9  24  21  19  -9  -9  28  -9  18  -9  -9  22  -9
+ 19  17  30  -9  20  -9  -9  -9  21  22  18  -9  19  21  -9  -9  -9  23  -9  16  -9  23  16  -9  -9  22  19  -9  14  -9  -9  -9  18
+ 27  31  -9  -9  32  24  -9  -9  -9  22  15  23  -9  15  -9  24  12  17  15  20  -9  19  13  -9  24  -9  17  18  19  22  -9  25  -9
+ 18  -9  24  15  -9  15  18  -9  -9  25  19  17  -9  -9  14  17  15  21  26  -9  -9  28  21  18  18  -9  -9  16  26  -9  25  37  21
+ 20  -9  -9  22  -9  17  18  15  -9  27  -9  47  40  -9  -9  17  -9  16  15  13  16  20  18  19  -9  -9  -9  -9  -9  19  25  -9  15
+ 16  -9  18  17  21  15  -9  16  21  -9  -9  20  17  -9  35  31  -9  25  17  -9  35  23  19  30  -9  -9  19  19  -9  23  16  23  21
+ 22  23  35  16  16  -9  27  21  -9  23  20  14  20  -9  27  24  14  -9  26  16  -9  -9  34  -9  21  -9  21  19  24
+
+ AGE AT EXAM ( -9 = MISSING)
+ ----------------------------
+
+ 23  48  40  73  70  32  36  30  26  34  32  61  58  36  37  35  37  30  33  34  33  23  36  30  34  33  41  61  59  55  30  36  57
+ 63  59  56  56  51  45  11  61  35  25  66  51  64  59  36  45  40  38  22  26  34  32  65  79  73  39  37  40  32  29  37  60  53
+ 68  62  81  80  78  29  27  27  49  53  31  40  29  37  33  31  63  76  73  70  57  38  36  28  34  32  27  18  40  35  28  27  31
+ 31  44  41  35  41  45  43  70  68  66  72  60  66  94  88  81  11  32  31  34  29  65  73  57  54  51  59  59  53  49  34  36  26
+ 31  42  32  38  17  24  11  29  29  34  32  30  35  57  49  55  55  63  41  38  33  29  32  29  56  68  66  61  64  39  44  35  45
+ 36  31  62  61  37  40  42  34  31  37  47  34  46  46  67  60  28  21  93  76  36  40  71  72  56  26  41  38  34  64  63  56  53
+ 49  66  35  34  22  47  54  44  56  53  49  41  30  44  35  50  23  27  43  48  37  46  39  32  37  71  73  70  64  69  61  59  56
+ 51  27  59  75  68  66  76  65  64  61  29  36  29  31  28  69  52  54  50  56  56  30  31  51  61  58  54  24  34  34  27  50  57
+ 31  27  36  35  32  31  27  43  72  74  39  52  10  50  51  44  42  40  68  41  39  38  53  11  83  48  71  34  29  40  73  75  48
+ 45  84  91  77  31  29  24  27  54  57  32  31  30  26  36  27  23  69  65  61  14  36  40  38  34  23  27  46  61  57  14  29  32
+ 52  44  64  53  50  47  57  51  11  71  83  41  42  39  34  54  51  43  46  59  54  68  61  48  11  52  11  49  36  36  34  33  32
+ 30  11  -9  -9  -9  11  11  64  11  -9  -9  -9  -9  24  43  36  35  31  43  41  35  40  -9  -9  11  11  59  69  55  51  62  57  35
+ 33  32  43  32  28  36  34  32  30  30  30  11  25  27  23  58  60  51  44  43  41  40  35  39  38  29  -9  26  42  37  35  33  27
+ 41  53  49  59  49  40  12  75  70  32  31  43  37  27  65  32  40  38  44  42  36  32  39  40  37  30  39  38  36  32  26  31  28
+ 33  26  33  29  46  43  38  73  79  44  42  45  43  41  37  32  27  36  38  34  40  39  38  42  33  67  72  43  50  45  47  40  48
+ 50  43  36  44  47  40  37  35  63  50  56  59  52  46  55  24  29  21  35  31  39  37  53  51  50  47  45  43  54  36  35  31  37
+ 42  42  52  45  44  44  48  38  42  81  11  24  21  54  47  36  66  39  36  32  60  58  46  43  36  71  51  48  68  24  23  32  34
+ 37  39  35  29  27  32  31  27  26  36  35  28  24  32  29  28  37  34  28  17  55  49  37  36  28  24  29  26  31
+
+ TRAIT VALUE (  2 = AFFECTED,  1 = UNAFFECTED,  0 = MISSING)
+ ----------------------------------------------------------
+
+  2   1   2   2   0   2   1   1   1   1   1   1   2   2   1   1   2   2   2   2   1   1   2   1   2   2   1   1   1   0   2   2   1
+  2   1   1   1   1   1   1   2   2   2   1   1   1   2   2   0   1   2   2   2   1   1   1   1   2   1   1   1   2   1   1   1   1
+  2   1   2   1   1   2   1   1   1   1   2   1   2   1   1   2   2   1   1   1   1   2   2   0   1   1   1   1   2   2   1   1   1
+  1   0   2   1   0   1   1   1   2   1   1   0   2   1   1   1   1   2   2   2   1   2   1   1   2   2   1   1   1   1   2   2   1
+  1   2   2   1   2   2   1   2   2   2   2   1   1   0   1   1   0   1   1   2   2   1   1   1   1   1   2   1   1   2   1   2   1
+  1   1   0   0   0   1   2   0   0   2   0   0   1   2   1   0   2   2   2   1   2   1   1   1   2   2   0   1   1   1   1   1   0
+  2   1   2   2   2   1   1   1   1   1   1   0   2   1   2   1   2   1   1   1   1   1   1   2   2   1   1   1   1   1   2   1   1
+  1   2   1   1   1   1   0   1   2   1   0   2   2   2   2   0   1   2   1   2   1   2   2   1   1   1   1   2   2   1   1   1   1
+  2   1   2   1   1   2   2   2   1   1   2   1   2   1   2   0   2   2   1   2   2   1   1   1   1   2   1   2   2   2   1   2   2
+  2   1   1   2   2   2   1   1   1   2   2   2   2   1   2   1   1   2   1   0   2   0   1   1   2   1   2   1   0   0   2   1   1
+  2   2   2   2   1   1   1   1   1   1   1   2   2   2   2   2   1   1   2   2   2   2   1   2   1   2   1   2   2   1   1   2   2
+  2   1   2   0   2   1   1   1   1   2   2   2   2   2   2   2   1   2   2   1   1   2   2   2   1   1   2   1   2   1   1   2   1
+  2   2   2   0   2   0   1   1   2   2   2   1   2   2   1   2   0   2   1   2   1   2   2   1   1   2   2   1   2   0   0   0   2
+  2   2   1   1   2   2   0   1   1   2   2   2   0   2   0   2   2   2   2   2   1   2   2   1   2   1   2   2   2   2   1   2   0
+  2   1   2   2   0   2   2   1   1   2   2   2   1   1   2   2   2   2   2   2   0   2   2   2   2   1   1   2   2   1   2   2   2
+  2   1   1   2   1   2   2   2   0   2   1   2   2   1   0   2   1   2   2   2   2   2   2   2   1   1   1   1   1   2   2   1   2
+  2   1   2   2   2   2   1   2   2   1   1   2   2   1   2   2   1   2   2   1   2   2   2   2   1   1   2   2   1   2   2   2   2
+  2   2   2   2   2   1   2   2   1   2   2   2   2   1   2   2   2   2   2   2   1   1   2   1   2   0   2   2   2
+
+ CLASS
+ -----
+
+  6   3   3   6   6   6   6   6   6   6   6   3   3   6   6   6   6   6   3   2   2   2   2   2   6   6   6   6   6   6   6   6   6
+  6   6   5   5   5   5   6   6   6   6   6   6   6   6   6   6   6   6   5   6   6   6   3   3   3   6   6   6   6   6   6   6   6
+  6   6   6   6   6   6   6   6   6   6   6   6   5   5   5   5   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6
+  6   6   6   6   5   5   5   6   6   6   6   6   6   6   6   6   6   5   5   5   5   6   6   6   6   6   6   6   6   6   6   6   6
+  6   5   5   5   6   6   6   6   1   1   1   1   1   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6
+  6   6   6   6   3   3   3   1   1   6   6   6   6   6   3   3   6   6   6   6   6   6   3   3   3   6   6   6   6   6   6   6   6
+  6   6   6   6   6   6   6   6   6   6   6   6   6   3   3   3   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6
+  6   6   6   6   6   6   6   6   6   6   3   3   3   3   3   6   6   6   6   6   6   5   5   6   6   6   6   6   6   6   6   6   6
+  3   3   3   3   3   6   6   6   6   6   6   5   6   6   6   6   6   6   3   6   6   6   6   6   6   6   6   6   6   6   6   6   6
+  6   6   6   6   6   6   6   6   5   5   2   2   2   2   2   2   2   6   6   6   3   1   1   1   1   6   6   6   6   6   5   3   3
+  5   5   6   6   6   6   6   6   6   6   6   6   6   6   6   5   5   5   5   6   6   6   6   6   6   6   6   3   3   6   6   6   6
+  6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   3   3   3   3   3   3   3   3   6   6   6   6   6   6   3
+  3   3   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3
+  6   6   6   6   6   6   5   3   3   3   3   3   3   3   6   6   6   6   3   3   3   3   6   6   6   6   3   3   3   3   3   3   3
+  3   3   6   6   6   6   6   6   6   6   6   3   3   3   3   6   6   5   5   5   6   6   6   6   6   6   6   6   6   6   6   6   6
+  6   6   6   6   6   6   1   1   6   6   6   6   6   6   6   3   3   3   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6
+  6   6   6   6   3   3   3   6   6   6   6   6   6   6   6   6   3   6   6   6   3   3   6   6   6   6   6   6   6   6   6   6   6
+  3   3   3   6   6   6   6   6   6   6   6   6   6   6   6   6   3   3   6   6   6   6   3   3   3   3   6   6   6
+1S.A.G.E. RELEASE 3.1 -- AGEON   		DECEMBER 1997
+ COPYRIGHT (C) 1997 CASE WESTERN RESERVE UNIVERSITY.
+
+
+ CLASS  1
+ --------
+
+ TOTAL NUMBER OF INDIVIDUALS .................................         13
+ NUMBER OF INDIVIDUALS WITH AN AGE OF ONSET ..................          6
+ MEAN OF AGE OF ONSET ........................................      20.50
+ VARIANCE OF AGE OF ONSET ....................................      22.30
+ NUMBER OF INDIVIDUALS AFFECTED ..............................          6
+ PROPORTION OF INDIVIDUALS AFFECTED ..........................      .4615
+ MEAN OF AGE AT EXAM OF THE UNAFFECTED .......................      35.75
+ VARIANCE OF AGE AT EXAM OF THE UNAFFECTED ...................      18.92
+
+ CLASS  2
+ --------
+
+ TOTAL NUMBER OF INDIVIDUALS .................................         12
+ NUMBER OF INDIVIDUALS WITH AN AGE OF ONSET ..................          6
+ MEAN OF AGE OF ONSET ........................................      22.00
+ VARIANCE OF AGE OF ONSET ....................................      20.40
+ NUMBER OF INDIVIDUALS AFFECTED ..............................          6
+ PROPORTION OF INDIVIDUALS AFFECTED ..........................      .5000
+ MEAN OF AGE AT EXAM OF THE UNAFFECTED .......................      27.00
+ VARIANCE OF AGE AT EXAM OF THE UNAFFECTED ...................      15.60
+
+ CLASS  3
+ --------
+
+ TOTAL NUMBER OF INDIVIDUALS .................................        103
+ NUMBER OF INDIVIDUALS WITH AN AGE OF ONSET ..................         56
+ MEAN OF AGE OF ONSET ........................................      20.29
+ VARIANCE OF AGE OF ONSET ....................................      39.48
+ NUMBER OF INDIVIDUALS AFFECTED ..............................         57
+ PROPORTION OF INDIVIDUALS AFFECTED ..........................      .5534
+ MEAN OF AGE AT EXAM OF THE UNAFFECTED .......................      44.24
+ VARIANCE OF AGE AT EXAM OF THE UNAFFECTED ...................     317.02
+
+ CLASS  4
+ --------
+
+ TOTAL NUMBER OF INDIVIDUALS .................................          0
+ NUMBER OF INDIVIDUALS WITH AN AGE OF ONSET ..................          0
+ MEAN OF AGE OF ONSET ........................................        .00
+ VARIANCE OF AGE OF ONSET ....................................        .00
+ NUMBER OF INDIVIDUALS AFFECTED ..............................          0
+ PROPORTION OF INDIVIDUALS AFFECTED ..........................      .0000
+ MEAN OF AGE AT EXAM OF THE UNAFFECTED .......................        .00
+ VARIANCE OF AGE AT EXAM OF THE UNAFFECTED ...................        .00
+
+ CLASS  5
+ --------
+
+ TOTAL NUMBER OF INDIVIDUALS .................................         35
+ NUMBER OF INDIVIDUALS WITH AN AGE OF ONSET ..................         18
+ MEAN OF AGE OF ONSET ........................................      23.50
+ VARIANCE OF AGE OF ONSET ....................................      57.68
+ NUMBER OF INDIVIDUALS AFFECTED ..............................         19
+ PROPORTION OF INDIVIDUALS AFFECTED ..........................      .5429
+ MEAN OF AGE AT EXAM OF THE UNAFFECTED .......................      45.21
+ VARIANCE OF AGE AT EXAM OF THE UNAFFECTED ...................      74.18
+
+ CLASS  6
+ --------
+
+ TOTAL NUMBER OF INDIVIDUALS .................................        427
+ NUMBER OF INDIVIDUALS WITH AN AGE OF ONSET ..................        191
+ MEAN OF AGE OF ONSET ........................................      21.51
+ VARIANCE OF AGE OF ONSET ....................................      41.70
+ NUMBER OF INDIVIDUALS AFFECTED ..............................        199
+ PROPORTION OF INDIVIDUALS AFFECTED ..........................      .4660
+ MEAN OF AGE AT EXAM OF THE UNAFFECTED .......................      48.36
+ VARIANCE OF AGE AT EXAM OF THE UNAFFECTED ...................     355.84
+1S.A.G.E. RELEASE 3.1 -- AGEON   		DECEMBER 1997
+ COPYRIGHT (C) 1997 CASE WESTERN RESERVE UNIVERSITY.
+
+
+
+ HYPOTHESIS : SUSCEPTIBILITIES ARE FREE
+
+ PARAMETER                  FINAL ESTIMATE     FIRST PARTIAL DERIVATIVE
+
+ PARAMETER P                      1.000000
+ MEAN AGE OF ONSET               22.721716             .000002
+ STD. DEV. OF AGE OF ONSET       43.412707             .000000
+ SUSCEPTIBILITY OF CLASS  1        .619510             .000508
+ SUSCEPTIBILITY OF CLASS  2        .639269             .000001
+ SUSCEPTIBILITY OF CLASS  3        .641059             .000035
+ SUSCEPTIBILITY OF CLASS  4        .000000
+ SUSCEPTIBILITY OF CLASS  5        .583076             .000005
+ SUSCEPTIBILITY OF CLASS  6        .532422             .000369
+
+
+ FINAL LOG LIKELIHOOD =       -1009.417871
+
+
+ HYPOTHESIS : ALL SUSCEPTIBILITIES ARE EQUAL
+
+ PARAMETER                  FINAL ESTIMATE     FIRST PARTIAL DERIVATIVE
+
+ PARAMETER P                      1.000000
+ MEAN AGE OF ONSET               22.706561            -.000003
+ STD. DEV. OF AGE OF ONSET        6.580253            -.000001
+ SUSCEPTIBILITY OF CLASS  1        .557575
+ SUSCEPTIBILITY OF CLASS  2        .557575
+ SUSCEPTIBILITY OF CLASS  3        .557575
+ SUSCEPTIBILITY OF CLASS  4        .000000
+ SUSCEPTIBILITY OF CLASS  5        .557575
+ SUSCEPTIBILITY OF CLASS  6        .557575             .000049
+
+
+ FINAL LOG LIKELIHOOD =       -1011.339632
+
+                                                      CHI-SQUARE   D.F.
+
+ Twice the difference in log likelihood :                 3.8435    4

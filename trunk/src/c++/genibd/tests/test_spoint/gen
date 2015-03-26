@@ -1,0 +1,10 @@
+Genome = "GAW_problem1"
+{
+	region = "ch22"
+	{
+		marker = rs738842
+		distance = 3
+		marker = rs738614
+	}
+
+}

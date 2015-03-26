@@ -1,0 +1,512 @@
+=====================
+
+     Analysis #1
+
+=====================
+
+  Transmission type:        Allele             
+  Marker:                   m                  
+  Trait:                    Trait1             
+  Parental trait:           Not specified      
+  Parental sex(es) scored:  Paternal/maternal  
+  Max. children/family:                     1  
+  Max. sib pairs/family:                    0  
+
+---------------------
+  T/NT  0    1   2   
+---------------------
+  0      14   2   1  
+  1       2   0   0  
+  2       1   0   0  
+
+---------------------------------------------------------------------
+  Group               Informative count  Total count  % Informative  
+---------------------------------------------------------------------
+  Pedigrees                          10           14   0.714286      
+  Families                           10           14   0.714286      
+  Affected children                  10           10   1.000000      
+  Affected sib pairs                  0            0   0.000000      
+  Sample size                         6           20   0.300000      
+
+----------------------------------------------------------
+  Exact test statistic              P-value    Std. err.  
+----------------------------------------------------------
+  Exact McNemar test                (skipped)             
+  Monte Carlo McNemar test          (skipped)             
+  Monte Carlo Marginal Homogeneity  (skipped)             
+
+----------------------------------------------------
+  Asymptotic test statistic          P-value        
+----------------------------------------------------
+  McNemar test                       1.00000000     
+  Continuity corrected McNemar test  0.68728928     
+  Marginal homogeneity test          1.00000000     
+
+=====================
+
+     Analysis #2
+
+=====================
+
+  Transmission type:        Allele             
+  Marker:                   m                  
+  Trait:                    Trait1             
+  Parental trait:           Not specified      
+  Parental sex(es) scored:  Paternal/maternal  
+  Max. children/family:                     0  
+  Max. sib pairs/family:                    1  
+
+---------------------------------------------------------------------
+  Group               Informative count  Total count  % Informative  
+---------------------------------------------------------------------
+  Pedigrees                           0           14   0.000000      
+  Families                            0           14   0.000000      
+  Affected children                   0            0   0.000000      
+  Affected sib pairs                  0            0   0.000000      
+  Sample size                         0            0   0.000000      
+
+----------------------------------------------------------
+  Exact test statistic              P-value    Std. err.  
+----------------------------------------------------------
+  Exact McNemar test                (skipped)             
+  Monte Carlo McNemar test          (skipped)             
+  Monte Carlo Marginal Homogeneity  (skipped)             
+
+----------------------------------------------------
+  Asymptotic test statistic          P-value        
+----------------------------------------------------
+  McNemar test                       ----------     
+  Continuity corrected McNemar test  ----------     
+  Marginal homogeneity test          ----------     
+
+=====================
+
+     Analysis #3
+
+=====================
+
+  Transmission type:        Allele             
+  Marker:                   m                  
+  Trait:                    Trait1             
+  Parental trait:           Not specified      
+  Parental sex(es) scored:  Paternal/maternal  
+  Max. children/family:                     1  
+  Max. sib pairs/family:                    1  
+
+---------------------
+  T/NT  0    1   2   
+---------------------
+  0      14   2   1  
+  1       2   0   0  
+  2       1   0   0  
+
+---------------------------------------------------------------------
+  Group               Informative count  Total count  % Informative  
+---------------------------------------------------------------------
+  Pedigrees                          10           14   0.714286      
+  Families                           10           14   0.714286      
+  Affected children                  10           10   1.000000      
+  Affected sib pairs                  0            0   0.000000      
+  Sample size                         6           20   0.300000      
+
+----------------------------------------------------------
+  Exact test statistic              P-value    Std. err.  
+----------------------------------------------------------
+  Exact McNemar test                (skipped)             
+  Monte Carlo McNemar test          (skipped)             
+  Monte Carlo Marginal Homogeneity  (skipped)             
+
+----------------------------------------------------
+  Asymptotic test statistic          P-value        
+----------------------------------------------------
+  McNemar test                       1.00000000     
+  Continuity corrected McNemar test  0.68728928     
+  Marginal homogeneity test          1.00000000     
+
+=====================
+
+     Analysis #4
+
+=====================
+
+  Transmission type:        Allele             
+  Marker:                   m                  
+  Trait:                    Trait1             
+  Parental trait:           Not specified      
+  Parental sex(es) scored:  Paternal/maternal  
+  Max. children/family:     Unlimited          
+  Max. sib pairs/family:                    0  
+
+---------------------
+  T/NT  0    1   2   
+---------------------
+  0      14   2   1  
+  1       2   0   0  
+  2       1   0   0  
+
+---------------------------------------------------------------------
+  Group               Informative count  Total count  % Informative  
+---------------------------------------------------------------------
+  Pedigrees                          10           14   0.714286      
+  Families                           10           14   0.714286      
+  Affected children                  10           10   1.000000      
+  Affected sib pairs                  0            0   0.000000      
+  Sample size                         6           20   0.300000      
+
+----------------------------------------------------------
+  Exact test statistic              P-value    Std. err.  
+----------------------------------------------------------
+  Exact McNemar test                (skipped)             
+  Monte Carlo McNemar test          (skipped)             
+  Monte Carlo Marginal Homogeneity  (skipped)             
+
+----------------------------------------------------
+  Asymptotic test statistic          P-value        
+----------------------------------------------------
+  McNemar test                       1.00000000     
+  Continuity corrected McNemar test  0.68728928     
+  Marginal homogeneity test          1.00000000     
+
+=====================
+
+     Analysis #5
+
+=====================
+
+  Transmission type:        Allele             
+  Marker:                   m                  
+  Trait:                    Trait1             
+  Parental trait:           Not specified      
+  Parental sex(es) scored:  Paternal/maternal  
+  Max. children/family:                     0  
+  Max. sib pairs/family:    Unlimited          
+
+---------------------------------------------------------------------
+  Group               Informative count  Total count  % Informative  
+---------------------------------------------------------------------
+  Pedigrees                           0           14   0.000000      
+  Families                            0           14   0.000000      
+  Affected children                   0            0   0.000000      
+  Affected sib pairs                  0            0   0.000000      
+  Sample size                         0            0   0.000000      
+
+----------------------------------------------------------
+  Exact test statistic              P-value    Std. err.  
+----------------------------------------------------------
+  Exact McNemar test                (skipped)             
+  Monte Carlo McNemar test          (skipped)             
+  Monte Carlo Marginal Homogeneity  (skipped)             
+
+----------------------------------------------------
+  Asymptotic test statistic          P-value        
+----------------------------------------------------
+  McNemar test                       ----------     
+  Continuity corrected McNemar test  ----------     
+  Marginal homogeneity test          ----------     
+
+=====================
+
+     Analysis #6
+
+=====================
+
+  Transmission type:        Allele             
+  Marker:                   m                  
+  Trait:                    Trait1             
+  Parental trait:           Not specified      
+  Parental sex(es) scored:  Paternal/maternal  
+  Max. children/family:     Unlimited          
+  Max. sib pairs/family:    Unlimited          
+
+---------------------
+  T/NT  0    1   2   
+---------------------
+  0      14   2   1  
+  1       2   0   0  
+  2       1   0   0  
+
+---------------------------------------------------------------------
+  Group               Informative count  Total count  % Informative  
+---------------------------------------------------------------------
+  Pedigrees                          10           14   0.714286      
+  Families                           10           14   0.714286      
+  Affected children                  10           10   1.000000      
+  Affected sib pairs                  0            0   0.000000      
+  Sample size                         6           20   0.300000      
+
+----------------------------------------------------------
+  Exact test statistic              P-value    Std. err.  
+----------------------------------------------------------
+  Exact McNemar test                (skipped)             
+  Monte Carlo McNemar test          (skipped)             
+  Monte Carlo Marginal Homogeneity  (skipped)             
+
+----------------------------------------------------
+  Asymptotic test statistic          P-value        
+----------------------------------------------------
+  McNemar test                       1.00000000     
+  Continuity corrected McNemar test  0.68728928     
+  Marginal homogeneity test          1.00000000     
+
+=====================
+
+     Analysis #7
+
+=====================
+
+  Transmission type:        Genotype           
+  Marker:                   m                  
+  Trait:                    Trait1             
+  Parental trait:           Not specified      
+  Parental sex(es) scored:  Paternal/maternal  
+  Max. children/family:                     1  
+  Max. sib pairs/family:                    0  
+
+-----------------------
+  T/NT  0/0  0/1  0/2  
+-----------------------
+  0/0     4    2    1  
+  0/1     2    0    0  
+  0/2     1    0    0  
+-----------------------
+
+Note: 3 empty rows/columns not shown
+
+---------------------------------------------------------------------
+  Group               Informative count  Total count  % Informative  
+---------------------------------------------------------------------
+  Pedigrees                          10           14   0.714286      
+  Families                           10           14   0.714286      
+  Affected children                  10           10   1.000000      
+  Affected sib pairs                  0            0   0.000000      
+  Sample size                         6           10   0.600000      
+
+----------------------------------------------------------
+  Exact test statistic              P-value    Std. err.  
+----------------------------------------------------------
+  Exact McNemar test                (skipped)             
+  Monte Carlo McNemar test          (skipped)             
+  Monte Carlo Marginal Homogeneity  (skipped)             
+
+----------------------------------------------------
+  Asymptotic test statistic          P-value        
+----------------------------------------------------
+  McNemar test                       1.00000000     
+  Continuity corrected McNemar test  0.68728928     
+  Marginal homogeneity test          1.00000000     
+
+=====================
+
+     Analysis #8
+
+=====================
+
+  Transmission type:        Genotype           
+  Marker:                   m                  
+  Trait:                    Trait1             
+  Parental trait:           Not specified      
+  Parental sex(es) scored:  Paternal/maternal  
+  Max. children/family:                     0  
+  Max. sib pairs/family:                    1  
+
+---------------------------------------------------------------------
+  Group               Informative count  Total count  % Informative  
+---------------------------------------------------------------------
+  Pedigrees                           0           14   0.000000      
+  Families                            0           14   0.000000      
+  Affected children                   0            0   0.000000      
+  Affected sib pairs                  0            0   0.000000      
+  Sample size                         0            0   0.000000      
+
+----------------------------------------------------------
+  Exact test statistic              P-value    Std. err.  
+----------------------------------------------------------
+  Exact McNemar test                (skipped)             
+  Monte Carlo McNemar test          (skipped)             
+  Monte Carlo Marginal Homogeneity  (skipped)             
+
+----------------------------------------------------
+  Asymptotic test statistic          P-value        
+----------------------------------------------------
+  McNemar test                       ----------     
+  Continuity corrected McNemar test  ----------     
+  Marginal homogeneity test          ----------     
+
+=====================
+
+     Analysis #9
+
+=====================
+
+  Transmission type:        Genotype           
+  Marker:                   m                  
+  Trait:                    Trait1             
+  Parental trait:           Not specified      
+  Parental sex(es) scored:  Paternal/maternal  
+  Max. children/family:                     1  
+  Max. sib pairs/family:                    1  
+
+-----------------------
+  T/NT  0/0  0/1  0/2  
+-----------------------
+  0/0     4    2    1  
+  0/1     2    0    0  
+  0/2     1    0    0  
+-----------------------
+
+Note: 3 empty rows/columns not shown
+
+---------------------------------------------------------------------
+  Group               Informative count  Total count  % Informative  
+---------------------------------------------------------------------
+  Pedigrees                          10           14   0.714286      
+  Families                           10           14   0.714286      
+  Affected children                  10           10   1.000000      
+  Affected sib pairs                  0            0   0.000000      
+  Sample size                         6           10   0.600000      
+
+----------------------------------------------------------
+  Exact test statistic              P-value    Std. err.  
+----------------------------------------------------------
+  Exact McNemar test                (skipped)             
+  Monte Carlo McNemar test          (skipped)             
+  Monte Carlo Marginal Homogeneity  (skipped)             
+
+----------------------------------------------------
+  Asymptotic test statistic          P-value        
+----------------------------------------------------
+  McNemar test                       1.00000000     
+  Continuity corrected McNemar test  0.68728928     
+  Marginal homogeneity test          1.00000000     
+
+======================
+
+     Analysis #10
+
+======================
+
+  Transmission type:        Genotype           
+  Marker:                   m                  
+  Trait:                    Trait1             
+  Parental trait:           Not specified      
+  Parental sex(es) scored:  Paternal/maternal  
+  Max. children/family:     Unlimited          
+  Max. sib pairs/family:                    0  
+
+-----------------------
+  T/NT  0/0  0/1  0/2  
+-----------------------
+  0/0     4    2    1  
+  0/1     2    0    0  
+  0/2     1    0    0  
+-----------------------
+
+Note: 3 empty rows/columns not shown
+
+---------------------------------------------------------------------
+  Group               Informative count  Total count  % Informative  
+---------------------------------------------------------------------
+  Pedigrees                          10           14   0.714286      
+  Families                           10           14   0.714286      
+  Affected children                  10           10   1.000000      
+  Affected sib pairs                  0            0   0.000000      
+  Sample size                         6           10   0.600000      
+
+----------------------------------------------------------
+  Exact test statistic              P-value    Std. err.  
+----------------------------------------------------------
+  Exact McNemar test                (skipped)             
+  Monte Carlo McNemar test          (skipped)             
+  Monte Carlo Marginal Homogeneity  (skipped)             
+
+----------------------------------------------------
+  Asymptotic test statistic          P-value        
+----------------------------------------------------
+  McNemar test                       1.00000000     
+  Continuity corrected McNemar test  0.68728928     
+  Marginal homogeneity test          1.00000000     
+
+======================
+
+     Analysis #11
+
+======================
+
+  Transmission type:        Genotype           
+  Marker:                   m                  
+  Trait:                    Trait1             
+  Parental trait:           Not specified      
+  Parental sex(es) scored:  Paternal/maternal  
+  Max. children/family:                     0  
+  Max. sib pairs/family:    Unlimited          
+
+---------------------------------------------------------------------
+  Group               Informative count  Total count  % Informative  
+---------------------------------------------------------------------
+  Pedigrees                           0           14   0.000000      
+  Families                            0           14   0.000000      
+  Affected children                   0            0   0.000000      
+  Affected sib pairs                  0            0   0.000000      
+  Sample size                         0            0   0.000000      
+
+----------------------------------------------------------
+  Exact test statistic              P-value    Std. err.  
+----------------------------------------------------------
+  Exact McNemar test                (skipped)             
+  Monte Carlo McNemar test          (skipped)             
+  Monte Carlo Marginal Homogeneity  (skipped)             
+
+----------------------------------------------------
+  Asymptotic test statistic          P-value        
+----------------------------------------------------
+  McNemar test                       ----------     
+  Continuity corrected McNemar test  ----------     
+  Marginal homogeneity test          ----------     
+
+======================
+
+     Analysis #12
+
+======================
+
+  Transmission type:        Genotype           
+  Marker:                   m                  
+  Trait:                    Trait1             
+  Parental trait:           Not specified      
+  Parental sex(es) scored:  Paternal/maternal  
+  Max. children/family:     Unlimited          
+  Max. sib pairs/family:    Unlimited          
+
+-----------------------
+  T/NT  0/0  0/1  0/2  
+-----------------------
+  0/0     4    2    1  
+  0/1     2    0    0  
+  0/2     1    0    0  
+-----------------------
+
+Note: 3 empty rows/columns not shown
+
+---------------------------------------------------------------------
+  Group               Informative count  Total count  % Informative  
+---------------------------------------------------------------------
+  Pedigrees                          10           14   0.714286      
+  Families                           10           14   0.714286      
+  Affected children                  10           10   1.000000      
+  Affected sib pairs                  0            0   0.000000      
+  Sample size                         6           10   0.600000      
+
+----------------------------------------------------------
+  Exact test statistic              P-value    Std. err.  
+----------------------------------------------------------
+  Exact McNemar test                (skipped)             
+  Monte Carlo McNemar test          (skipped)             
+  Monte Carlo Marginal Homogeneity  (skipped)             
+
+----------------------------------------------------
+  Asymptotic test statistic          P-value        
+----------------------------------------------------
+  McNemar test                       1.00000000     
+  Continuity corrected McNemar test  0.68728928     
+  Marginal homogeneity test          1.00000000     
+

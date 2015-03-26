@@ -1,0 +1,35 @@
+pedigree
+{
+  individual_missing_value="."
+  sex_code, male="1", female="2",missing="."
+
+  pedigree_id=FID
+  individual_id=ID
+  sex_field=SEX
+  parent_id=MID
+  parent_id=DID
+  string=DNAID
+
+  allele= D2S2944a,    name="D2S2944"
+  allele= D2S2944b,    name="D2S2944" 
+  allele= D10S1239a,    name="D10S1239"
+  allele= D10S1239b,    name="D10S1239"
+  allele= D11S2371a,   name="D11S2371"
+  allele= D11S2371b,   name="D11S2371"
+  allele= D13S787a,  name="D13S787"
+  allele= D13S787b,  name="D13S787"
+  allele= D4S2366a,    name="D4S2366"
+  allele= D4S2366b,    name="D4S2366"
+  allele= D4S2394a,    name="D4S2394"
+  allele= D4S2394b,    name="D4S2394"
+  allele= D16S764a,    name="D16S764"
+  allele= D16S764b,    name="D16S764"
+  allele= D14S617a,    name="D14S617"
+  allele= D14S617b,    name="D14S617"
+}
+
+markerinfo_analysis
+{
+  sample_id = DNAID
+  pedigree_out = true
+}

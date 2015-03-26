@@ -1,0 +1,45 @@
+1S.A.G.E. RELEASE 3.1 -- LODLINK   		DECEMBER 1997
+ COPYRIGHT (C) 1997 CASE WESTERN RESERVE UNIVERSITY.
+
+
+ LODLINK GENERAL PARAMETERS
+ --------------------------
+     TITLE ............................... DBH data.  Lodlink parameter file.                                              
+     NUMBER OF MARKER LOCI ...............    2
+     FEMALE AND MALE SYMBOLS ............. F  M
+     MORTON'S HOMOGENEITY TEST ........... NO 
+     SMITH'S HOMOGENEITY TEST AND TEST
+     FOR LINKAGE UNDER HETEROGENEITY ..... NO 
+     NUMBER OF PEDIGREES .................    1
+     RECOMBINATION FRACTION 
+      -- FOR MALES, (THETA M) ............   .0000    .0100    .0500    .1000    .2000    .3000    .4000
+      -- FOR FEMALES, (THETA F) ..........   .0000    .0100    .0500    .1000    .2000    .3000    .4000
+1S.A.G.E. RELEASE 3.1 -- LODLINK   		DECEMBER 1997
+ COPYRIGHT (C) 1997 CASE WESTERN RESERVE UNIVERSITY.
+
+
+ LINKAGE ANALYSIS BETWEEN LOCUS ABO      AND LOCUS AK1     
+ ==========================================================
+
+                            -------------------------------------------------------------------
+ THETA M                    !     .0000    .0100    .0500    .1000    .2000    .3000    .4000 !
+ THETA F                    !     .0000    .0100    .0500    .1000    .2000    .3000    .4000 !
+ ----------------------------------------------------------------------------------------------
+ !   PEDIGREE   NUMBER OF   !                                                                 !
+ !   NUMBER     INDIVIDUALS ! LOD SCORES                                                      !
+ ----------------------------------------------------------------------------------------------
+ !   00005         88       !     .0385    .0370    .0314    .0250    .0142    .0064    .0016 !
+ ----------------------------------------------------------------------------------------------
+ !                 88       !     .0385    .0370    .0314    .0250    .0142    .0064    .0016 !
+ ==============================================================================================
+
+                                         LOD      CHI             P-VALUE
+                             ESTIMATE   SCORE    SQUARE  UPPER BOUND   APPROX. *
+                             ========  =======  =======  ===========  ==========
+ EQUIVALENT NUMBER OF MEIOSES    .128
+ THETA IN (0, 1)                 .000     .039     .177      .915153     .336840 (ONE-SIDED)
+ VARIANCE OF THETA            -------
+ COMPLEMENT (1 - THETA)         1.000     .039
+
+ * NOTE:  APPROXIMATE P-VALUES ASSUME A LARGE EQUIVALENT NUMBER OF
+          INFORMATIVE MEIOSES.

@@ -1,0 +1,179 @@
+
+
+
+%MARKERINFO-W: [8] Unrecognized value for marker 'D1S198' of individual '165'
+               in pedigree '10004': Found '316', '322'. Marker will be set to
+               missing for this individual.
+%MARKERINFO-W: [11] Unrecognized value for marker 'D10S1230' of individual
+               '168' in pedigree '10005': Found '115', '129'. Marker will be
+               set to missing for this individual.
+%MARKERINFO-W: [26] Unrecognized value for marker 'D1S2852' of individual '211'
+               in pedigree '10010': Found '262', '264'. Marker will be set to
+               missing for this individual.
+%MARKERINFO-W: [36] Unrecognized value for marker 'D3S2427' of individual '229'
+               in pedigree '10014': Found '197', '235'. Marker will be set to
+               missing for this individual.
+%MARKERINFO-W: [44] Unrecognized value for marker 'D19S191' of individual '253'
+               in pedigree '10017': Found '101', '125'. Marker will be set to
+               missing for this individual.
+%MARKERINFO-W: [50] Unrecognized value for marker 'D19S609' of individual '259'
+               in pedigree '10019': Found '116', '118'. Marker will be set to
+               missing for this individual.
+%MARKERINFO-W: [62] Unrecognized value for marker 'D19S609' of individual '301'
+               in pedigree '10024': Found '116', '118'. Marker will be set to
+               missing for this individual.
+%MARKERINFO-W: [83] Unrecognized value for marker 'D10S1230' of individual
+               '377' in pedigree '10030': Found '146', '155'. Marker will be
+               set to missing for this individual.
+
+Family structure information on the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       SEX       PARENT1       PARENT2     
+     ------------  ------------  --------  ------------  ------------
+     10001         155           2         42            51          
+     10001         156           1         42            51          
+     10002         159           1         42            51          
+     10002         160           2         42            51          
+     10003         163           2         42            51          
+     10003         164           1         42            51          
+     10004         165           2         42            51          
+     10004         166           1         42            51          
+     10005         167           2         42            51          
+     10005         168           2         42            51          
+
+
+Markers for the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       D10S1230      D1S1640       D12S308       D10S169       D7S1819       D1S215        D12S320       D6S1669       D20S189       WT1PCR2       D1S2852       D19S191       D19S417       D19S609       D3S1763       D19S416       D19S425       D3S1744       D20S894       ATA57C01      D1S198        D22S425       D3S2427     
+     ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------
+     10001         155           126/126       162/166       ""/""         105/105       ""/""         196/200       ""/""         ""/""         ""/""         135/135       266/266       103/105       ""/""         118/118       265/265       ""/""         265/265       147/151       267/273       ""/""         ""/""         ""/""         239/239     
+     10001         156           126/126       166/166       222/226       111/113       170/174       196/200       199/207       245/249       300/304       129/135       266/272       101/103       231/233       118/118       273/277       166/170       251/267       151/155       259/269       195/198       308/310       166/166       235/239     
+     10002         159           126/132       162/162       226/226       97/105        178/178       196/204       207/209       245/247       294/304       129/129       270/270       113/121       229/231       126/126       265/277       168/168       265/269       155/159       271/273       195/195       316/318       ""/""         219/241     
+     10002         160           126/126       162/170       224/226       105/105       174/174       196/204       201/201       245/247       304/306       135/135       264/264       113/123       229/231       108/110       257/269       166/168       261/265       155/159       267/273       195/195       312/318       156/166       219/241     
+     10003         163           126/132       162/166       226/226       105/109       178/178       198/200       201/205       245/249       298/300       135/137       266/278       101/115       223/231       120/120       273/281       166/172       263/267       143/151       271/271       189/198       312/314       166/166       225/237     
+     10003         164           123/132       162/166       222/228       105/111       178/178       198/200       211/211       245/249       298/300       133/135       266/278       103/115       231/239       118/120       273/281       172/176       265/267       143/147       269/271       189/195       312/314       166/166       225/237     
+     10004         165           126/126       162/166       222/226       105/109       174/178       192/196       ""/""         ""/""         298/304       131/131       268/272       ""/""         229/231       118/118       273/273       166/170       255/267       139/151       267/271       195/198       ""/""         156/166       225/239     
+     10004         166           126/126       162/166       222/226       109/111       174/178       196/196       199/199       247/249       304/306       131/131       266/272       101/123       229/231       118/118       265/273       168/170       251/267       139/151       263/271       195/195       312/314       156/166       239/241     
+     10005         167           126/135       166/166       226/226       105/111       178/186       196/198       201/201       249/249       306/306       129/135       246/246       105/113       231/231       118/118       269/273       168/172       263/265       151/155       271/273       195/195       310/312       156/166       235/237     
+     10005         168           ""/""         162/162       222/226       111/111       174/178       196/198       209/213       245/249       298/306       129/135       246/266       105/113       231/231       118/118       273/273       168/168       265/267       139/159       263/275       195/198       310/312       156/166       237/243     
+
+%MARKERINFO-W: Pedigree '10006' has 2 constituent pedigrees which are disjoint
+               from one another.  This may not be intended.  Results may be
+               incorrect.  See manual for details on constituent pedigrees.
+%MARKERINFO-W: Pedigree '10011' has 2 constituent pedigrees which are disjoint
+               from one another.  This may not be intended.  Results may be
+               incorrect.  See manual for details on constituent pedigrees.
+%MARKERINFO-W: Pedigree '10012' has 2 constituent pedigrees which are disjoint
+               from one another.  This may not be intended.  Results may be
+               incorrect.  See manual for details on constituent pedigrees.
+%MARKERINFO-W: Pedigree '10017' has 2 constituent pedigrees which are disjoint
+               from one another.  This may not be intended.  Results may be
+               incorrect.  See manual for details on constituent pedigrees.
+%MARKERINFO-W: Pedigree '10018' has 2 constituent pedigrees which are disjoint
+               from one another.  This may not be intended.  Results may be
+               incorrect.  See manual for details on constituent pedigrees.
+%MARKERINFO-W: Pedigree '10019' has 2 constituent pedigrees which are disjoint
+               from one another.  This may not be intended.  Results may be
+               incorrect.  See manual for details on constituent pedigrees.
+%MARKERINFO-W: Pedigree '10025' has 2 constituent pedigrees which are disjoint
+               from one another.  This may not be intended.  Results may be
+               incorrect.  See manual for details on constituent pedigrees.
+%MARKERINFO-W: Pedigree '10029' has 2 constituent pedigrees which are disjoint
+               from one another.  This may not be intended.  Results may be
+               incorrect.  See manual for details on constituent pedigrees.
+%MARKERINFO-W: No marker phenotype data for pedigree '10018' at marker
+               'D10S1230'.
+%MARKERINFO-W: No marker phenotype data for pedigree '10018' at marker 'D1S1640
+               '.
+%MARKERINFO-W: No marker phenotype data for pedigree '10018' at marker 'D12S308
+               '.
+%MARKERINFO-W: No marker phenotype data for pedigree '10018' at marker 'D10S169
+               '.
+%MARKERINFO-W: No marker phenotype data for pedigree '10018' at marker 'D7S1819
+               '.
+%MARKERINFO-W: No marker phenotype data for pedigree '10018' at marker 'D1S215'
+               .
+%MARKERINFO-W: No marker phenotype data for pedigree '10018' at marker 'D12S320
+               '.
+%MARKERINFO-W: No marker phenotype data for pedigree '10018' at marker 'D6S1669
+               '.
+%MARKERINFO-W: No marker phenotype data for pedigree '10018' at marker 'D20S189
+               '.
+%MARKERINFO-W: No marker phenotype data for pedigree '10018' at marker 'WT1PCR2
+               '.
+%MARKERINFO-W: No marker phenotype data for pedigree '10018' at marker 'D1S2852
+               '.
+%MARKERINFO-W: No marker phenotype data for pedigree '10018' at marker 'D19S191
+               '.
+%MARKERINFO-W: No marker phenotype data for pedigree '10018' at marker 'D19S417
+               '.
+%MARKERINFO-W: No marker phenotype data for pedigree '10018' at marker 'D19S609
+               '.
+%MARKERINFO-W: No marker phenotype data for pedigree '10018' at marker 'D3S1763
+               '.
+%MARKERINFO-W: No marker phenotype data for pedigree '10018' at marker 'D19S416
+               '.
+%MARKERINFO-W: No marker phenotype data for pedigree '10018' at marker 'D19S425
+               '.
+%MARKERINFO-W: No marker phenotype data for pedigree '10018' at marker 'D3S1744
+               '.
+%MARKERINFO-W: No marker phenotype data for pedigree '10018' at marker 'D20S894
+               '.
+%MARKERINFO-W: No marker phenotype data for pedigree '10018' at marker
+               'ATA57C01'.
+%MARKERINFO-W: No marker phenotype data for pedigree '10018' at marker 'D1S198'
+               .
+%MARKERINFO-W: No marker phenotype data for pedigree '10018' at marker 'D22S425
+               '.
+%MARKERINFO-W: No marker phenotype data for pedigree '10018' at marker 'D3S2427
+               '.
+%MARKERINFO-W: No marker phenotype data for pedigree '10019' at marker 'D1S215'
+               .
+%MARKERINFO-W: No marker phenotype data for pedigree '10019' at marker 'D19S609
+               '.
+%MARKERINFO-W: No marker phenotype data for pedigree '10025' at marker
+               'D10S1230'.
+%MARKERINFO-W: No marker phenotype data for pedigree '10025' at marker 'D1S1640
+               '.
+%MARKERINFO-W: No marker phenotype data for pedigree '10025' at marker 'D12S308
+               '.
+%MARKERINFO-W: No marker phenotype data for pedigree '10025' at marker 'D10S169
+               '.
+%MARKERINFO-W: No marker phenotype data for pedigree '10025' at marker 'D7S1819
+               '.
+%MARKERINFO-W: No marker phenotype data for pedigree '10025' at marker 'D1S215'
+               .
+%MARKERINFO-W: No marker phenotype data for pedigree '10025' at marker 'D12S320
+               '.
+%MARKERINFO-W: No marker phenotype data for pedigree '10025' at marker 'D6S1669
+               '.
+%MARKERINFO-W: No marker phenotype data for pedigree '10025' at marker 'D20S189
+               '.
+%MARKERINFO-W: No marker phenotype data for pedigree '10025' at marker 'WT1PCR2
+               '.
+%MARKERINFO-W: No marker phenotype data for pedigree '10025' at marker 'D1S2852
+               '.
+%MARKERINFO-W: No marker phenotype data for pedigree '10025' at marker 'D19S191
+               '.
+%MARKERINFO-W: No marker phenotype data for pedigree '10025' at marker 'D19S417
+               '.
+%MARKERINFO-W: No marker phenotype data for pedigree '10025' at marker 'D19S609
+               '.
+%MARKERINFO-W: No marker phenotype data for pedigree '10025' at marker 'D3S1763
+               '.
+%MARKERINFO-W: No marker phenotype data for pedigree '10025' at marker 'D19S416
+               '.
+%MARKERINFO-W: No marker phenotype data for pedigree '10025' at marker 'D19S425
+               '.
+%MARKERINFO-W: No marker phenotype data for pedigree '10025' at marker 'D3S1744
+               '.
+%MARKERINFO-W: No marker phenotype data for pedigree '10025' at marker 'D20S894
+               '.
+%MARKERINFO-W: No marker phenotype data for pedigree '10025' at marker
+               'ATA57C01'.
+%MARKERINFO-W: No marker phenotype data for pedigree '10025' at marker 'D1S198'
+               .
+%MARKERINFO-W: No marker phenotype data for pedigree '10025' at marker 'D22S425
+               '.
+%MARKERINFO-W: No marker phenotype data for pedigree '10025' at marker 'D3S2427
+               '.

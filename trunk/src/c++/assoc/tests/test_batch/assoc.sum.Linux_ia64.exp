@@ -1,0 +1,72 @@
+=================
+
+     Results
+
+=================
+
+==============================
+     Analysis description
+==============================
+
+  Title                        assoc                         
+  Primary Trait                sbpd_rand10 (Quantitative)    
+  Allow averaging              Disabled                      
+  Omit complete summary table  Disabled                      
+  Summary table display order  By LRT p-value                
+  Summary filter               Show no more than 10 results  
+
+======================================
+     Transformation configuration
+======================================
+
+
+
+Note: No transformation applied.
+
+=======================
+     Summary table
+=======================
+
+---------------------------------------------------------------------------------------------------------------------------------
+  Model                   Intercept    sex_code   Test cov.               Estimate    Std. err.   P-value (Wald)  P-value (LRT)  
+---------------------------------------------------------------------------------------------------------------------------------
+  foo_selection            131.180991  -5.400103  foo_selection            17.693939    1.486697   2.23e-308       1.72e-28      
+  foo_age                  131.180995  -5.368967  foo_age                   0.427976    0.066267   1.06e-10        2.78e-10      
+  foo_k_u24c               131.133772  -3.722374  foo_k_u24c                0.093116    0.043523   0.032397        0.032863      
+  foo_na_u24c              131.133772  -3.781232  foo_na_u24c               0.032032    0.015451   0.038158        0.038646      
+  foo_bmi                  131.180994  -5.013065  foo_bmi                   0.309043    0.163769   0.059152        0.059677      
+  PEDIGREE_SIZE            131.180995  -4.166267  PEDIGREE_SIZE            -0.312738    0.224756   0.164088        0.164559      
+  foo_PEDIGREE_SIZE        131.180995  -4.166267  foo_PEDIGREE_SIZE        -0.312738    0.224756   0.164088        0.164559      
+  FOUNDER_INDICATOR        131.180996  -4.354598  FOUNDER_INDICATOR         4.811528    3.783635   0.203491        0.203921      
+  foo_FOUNDER_INDICATOR    131.180995  -4.354587  foo_FOUNDER_INDICATOR     4.811234    3.783636   0.203519        0.203921      
+  foo_FAMILIAL_INDICATOR   131.181106  -4.327102  foo_FAMILIAL_INDICATOR    0.305286   12.312916   0.980219        0.980219      
+---------------------------------------------------------------------------------------------------------------------------------
+
+Note: Models with an asterisk (*) may not have converged.
+
+================================
+     Complete summary table
+================================
+
+----------------------------------------------------------------------------------------------------------------------------------
+  Model                   Intercept    sex_code   Test cov.               Estimate    Std. err.    P-value (Wald)  P-value (LRT)  
+----------------------------------------------------------------------------------------------------------------------------------
+  FAMILIAL_INDICATOR       131.181106  -4.327102  FAMILIAL_INDICATOR        0.305286    12.312845   0.980219        0.980219      
+  FOUNDER_INDICATOR        131.180996  -4.354598  FOUNDER_INDICATOR         4.811528     3.783635   0.203491        0.203921      
+  PEDIGREE_SIZE            131.180995  -4.166267  PEDIGREE_SIZE            -0.312738     0.224756   0.164088        0.164559      
+  foo_selection            131.180991  -5.400103  foo_selection            17.693939     1.486697   2.23e-308       1.72e-28      
+  foo_age                  131.180995  -5.368967  foo_age                   0.427976     0.066267   1.06e-10        2.78e-10      
+  foo_bmi                  131.180994  -5.013065  foo_bmi                   0.309043     0.163769   0.059152        0.059677      
+  foo_sbpd_rand10          131.181106  -9.20e-12  foo_sbpd_rand10           1.000000     2.44e-05   2.23e-308       1.000000      
+  foo_na_u24c              131.133772  -3.781232  foo_na_u24c               0.032032     0.015451   0.038158        0.038646      
+  foo_k_u24c               131.133772  -3.722374  foo_k_u24c                0.093116     0.043523   0.032397        0.032863      
+  foo_SEX_CODE             131.181106  -4.323905  foo_SEX_CODE              5.85e-11   266.893792   1.000000        0.999893      
+  foo_FAMILIAL_INDICATOR   131.181106  -4.327102  foo_FAMILIAL_INDICATOR    0.305286    12.312916   0.980219        0.980219      
+  foo_FOUNDER_INDICATOR    131.180995  -4.354587  foo_FOUNDER_INDICATOR     4.811234     3.783636   0.203519        0.203921      
+  foo_PEDIGREE_SIZE        131.180995  -4.166267  foo_PEDIGREE_SIZE        -0.312738     0.224756   0.164088        0.164559      
+----------------------------------------------------------------------------------------------------------------------------------
+
+Note: Models with an asterisk (*) may not have converged.
+
+Note: See .det file for more information about each model
+

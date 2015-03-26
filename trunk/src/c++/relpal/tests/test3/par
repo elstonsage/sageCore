@@ -1,0 +1,58 @@
+marker
+{
+  allele_missing = "."
+  allele_delimiter = "/"
+}
+
+pedigree
+{
+  delimiter_mode = single
+  delimiters="	"
+
+  individual_missing_value="0"
+  sex_code, male="m", female="f"
+
+  pedigree_id = pedid
+  individual_id = id
+  parent_id = dad
+  parent_id = mom
+  sex_field = sex
+
+  trait = con_t1, missing = "."
+  trait = con_t2, missing = "."
+
+  marker = loc1
+  marker = loc2
+}
+
+genibd
+{
+  mode = singlepoint
+#  mode = multipoint
+#  output_pair_types = all_pairs
+}
+
+relpal
+{
+  trait = con_t1
+  trait = con_t2
+
+  second
+  {
+#    naive_var = false
+#    ibd_var = false
+  }
+
+  output
+  {
+    detailed = true
+    dump_data = true
+    debug = true
+  }
+
+  pvalue = true
+  {
+    seed = 100
+  }
+}
+

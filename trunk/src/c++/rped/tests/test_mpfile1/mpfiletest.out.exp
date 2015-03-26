@@ -1,0 +1,29 @@
+[Error] Error(s) building pedigree '18': 4 errors.
+[Warning] Inconsistent lineage due to individuals: '0', '0' -> '1'.
+[Warning] Inconsistent lineage due to individuals: '0', '0' -> '2'.
+[Warning] Inconsistent lineage due to individuals: '0', '0' -> '7'.
+[Warning] Inconsistent lineage due to individuals: '0', '0' -> '9'.
+=============================
+     Pedigree statistics
+=============================
+
+  Members            15  
+  Nuclear families    3  
+
+==========================
+     Nuclear families
+==========================
+
+  Parents   1   2               
+  Children  6   5   4   3       
+  Parents   3   7               
+  Children  8                   
+  Parents   4   9               
+  Children  14  13  12  11  10  
+
+Ordering violated for individual '10'.(9,14) -> 
+Ordering violated for individual '11'.(9,14) -> 
+Ordering violated for individual '12'.(9,14) -> 
+Ordering violated for individual '13'.(9,14) -> 
+Ordering violated for individual '14'.(9,14) -> 
+18 = 0

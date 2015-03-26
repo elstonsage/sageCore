@@ -1,0 +1,418 @@
+
+---------- 1 New Analysis Block 1 ---------- 
+
+Model class: invalid
+
+Age of onset values: 
+Option: age of onset depends on type, no polygenic component
+type option: age of onset depends on type
+multi option: no polygenic component
+affection status: 
+age of onset: 
+age at exam: 
+
+mean missing: true
+trans missing: true
+
+
+Ascertainment values: 
+Option: none, actual
+
+---------- 2 New Analysis Block 2 ---------- 
+
+Model class: invalid
+
+Age of onset values: 
+Option: age of onset depends on type, no polygenic component
+type option: age of onset depends on type
+multi option: no polygenic component
+affection status: 
+age of onset: 
+age at exam: 
+
+mean missing: true
+trans missing: true
+
+
+Ascertainment values: 
+Option: none, actual
+
+---------- 3 New Analysis Block 3 ---------- 
+
+Model class: invalid
+
+Age of onset values: 
+Option: age of onset depends on type, no polygenic component
+type option: age of onset depends on type
+multi option: no polygenic component
+affection status: 
+age of onset: 
+age at exam: 
+
+mean missing: true
+trans missing: true
+
+
+Ascertainment values: 
+Option: none, actual
+
+---------- 4 New Analysis Block 4 ---------- 
+
+Model class: mixed
+
+Age of onset values: 
+Option: susceptibility depends on type, age of onset has a polygenic component
+type option: susceptibility depends on type
+multi option: age of onset has a polygenic component
+affection status: disease
+age of onset: y
+age at exam: x
+
+mean missing: true
+trans missing: true
+
+
+Ascertainment values: 
+Option: none, actual
+
+---------- 5 New Analysis Block 5 ---------- 
+
+Model class: invalid
+
+Age of onset values: 
+Option: age of onset depends on type, susceptibility has a polygenic component
+type option: age of onset depends on type
+multi option: susceptibility has a polygenic component
+affection status: 
+age of onset: 
+age at exam: 
+
+mean missing: true
+trans missing: true
+
+
+Ascertainment values: 
+Option: none, actual
+
+---------- 6 New Analysis Block 6 ---------- 
+
+Model class: invalid
+
+Age of onset values: 
+Option: age of onset depends on type, no polygenic component
+type option: age of onset depends on type
+multi option: no polygenic component
+affection status: 
+age of onset: 
+age at exam: 
+
+mean missing: true
+trans missing: true
+
+
+Ascertainment values: 
+Option: none, actual
+
+---------- 7 New Analysis Block 7 ---------- 
+
+Model class: invalid
+
+Age of onset values: 
+Option: age of onset depends on type, no polygenic component
+type option: age of onset depends on type
+multi option: no polygenic component
+affection status: 
+age of onset: 
+age at exam: 
+
+mean missing: true
+trans missing: true
+
+
+Ascertainment values: 
+Option: none, actual
+
+---------- 8 New Analysis Block 8 ---------- 
+
+Model class: invalid
+
+Age of onset values: 
+Option: age of onset depends on type, no polygenic component
+type option: age of onset depends on type
+multi option: no polygenic component
+affection status: 
+age of onset: 
+age at exam: 
+
+mean missing: true
+trans missing: true
+
+
+Ascertainment values: 
+Option: none, actual
+
+---------- 9 New Analysis Block 9 ---------- 
+
+Model class: invalid
+
+Age of onset values: 
+Option: age of onset depends on type, susceptibility has a polygenic component
+type option: age of onset depends on type
+multi option: susceptibility has a polygenic component
+affection status: disease
+age of onset: x
+age at exam: x
+
+mean missing: true
+trans missing: true
+
+
+Ascertainment values: 
+Option: none, actual
+
+---------- 10 New Analysis Block 10 ---------- 
+
+Model class: invalid
+
+Age of onset values: 
+Option: susceptibility depends on type, susceptibility has a polygenic component
+type option: susceptibility depends on type
+multi option: susceptibility has a polygenic component
+affection status: disease
+age of onset: x
+age at exam: x
+
+mean missing: true
+trans missing: true
+
+
+Ascertainment values: 
+Option: none, actual
+
+---------- 11 New Analysis Block 11 ---------- 
+
+Model class: mixed
+
+Age of onset values: 
+Option: susceptibility depends on type, susceptibility has a polygenic component
+type option: susceptibility depends on type
+multi option: susceptibility has a polygenic component
+affection status: disease
+age of onset: x
+age at exam: x
+
+mean missing: true
+trans missing: true
+
+
+Ascertainment values: 
+Option: none, actual
+
+---------- 12 New Analysis Block 12 ---------- 
+
+Model class: mixed
+
+Age of onset values: 
+Option: age of onset depends on type, susceptibility has a polygenic component
+type option: age of onset depends on type
+multi option: susceptibility has a polygenic component
+affection status: disease
+age of onset: x
+age at exam: x
+
+mean missing: true
+trans missing: true
+
+
+Ascertainment values: 
+Option: none, actual
+
+---------- 13 New Analysis Block 13 ---------- 
+
+Model class: mixed
+
+Age of onset values: 
+Option: age of onset depends on type, susceptibility has a polygenic component
+type option: age of onset depends on type
+multi option: susceptibility has a polygenic component
+affection status: disease
+age of onset: x
+age at exam: x
+
+mean missing: false
+trans missing: true
+
+
+Ascertainment values: 
+Option: none, actual
+
+---------- 14 New Analysis Block 14 ---------- 
+
+Model class: mixed
+
+Age of onset values: 
+Option: susceptibility depends on type, susceptibility has a polygenic component
+type option: susceptibility depends on type
+multi option: susceptibility has a polygenic component
+affection status: disease
+age of onset: x
+age at exam: x
+
+mean missing: false
+trans missing: false
+
+
+Ascertainment values: 
+Option: none, actual
+
+---------- 15 New Analysis Block 15 ---------- 
+
+Model class: mlm
+
+Age of onset values: 
+Option: age of onset depends on type, no polygenic component
+type option: age of onset depends on type
+multi option: no polygenic component
+affection status: 
+age of onset: 
+age at exam: 
+
+mean missing: true
+trans missing: true
+
+
+Ascertainment values: 
+Option: none, actual
+
+---------- 16 New Analysis Block 16 ---------- 
+
+Model class: mixed
+
+Age of onset values: 
+Option: age of onset depends on type, susceptibility has a polygenic component
+type option: age of onset depends on type
+multi option: susceptibility has a polygenic component
+affection status: disease
+age of onset: x
+age at exam: x
+
+mean missing: true
+trans missing: true
+
+
+Ascertainment values: 
+Option: none, actual
+
+---------- 17 New Analysis Block 17 ---------- 
+
+Model class: mixed
+
+Age of onset values: 
+Option: age of onset depends on type, susceptibility has a polygenic component
+type option: age of onset depends on type
+multi option: susceptibility has a polygenic component
+affection status: disease
+age of onset: x
+age at exam: x
+
+mean missing: true
+trans missing: true
+
+
+Ascertainment values: 
+Option: none, actual
+
+---------- 18 New Analysis Block 18 ---------- 
+
+Model class: mixed
+
+Age of onset values: 
+Option: age of onset depends on type, susceptibility has a polygenic component
+type option: age of onset depends on type
+multi option: susceptibility has a polygenic component
+affection status: disease
+age of onset: x
+age at exam: x
+
+mean missing: true
+trans missing: true
+
+
+Ascertainment values: 
+Option: founders, actual
+
+---------- 19 New Analysis Block 19 ---------- 
+
+Model class: mixed
+
+Age of onset values: 
+Option: age of onset depends on type, susceptibility has a polygenic component
+type option: age of onset depends on type
+multi option: susceptibility has a polygenic component
+affection status: disease
+age of onset: x
+age at exam: x
+
+mean missing: true
+trans missing: true
+
+
+Ascertainment values: 
+Option: founders, actual
+
+---------- 20 New Analysis Block 20 ---------- 
+
+Model class: mixed
+
+Age of onset values: 
+Option: age of onset depends on type, susceptibility has a polygenic component
+type option: age of onset depends on type
+multi option: susceptibility has a polygenic component
+affection status: disease
+age of onset: x
+age at exam: x
+
+mean missing: true
+trans missing: true
+
+
+Ascertainment values: 
+Option: founders, by onset
+
+---------- 21 New Analysis Block 21 ---------- 
+
+Model class: mixed
+
+Age of onset values: 
+Option: age of onset depends on type, susceptibility has a polygenic component
+type option: age of onset depends on type
+multi option: susceptibility has a polygenic component
+affection status: disease
+age of onset: x
+age at exam: x
+
+mean missing: true
+trans missing: true
+
+
+Ascertainment values: 
+Option: founders, by onset
+
+---------- 22 New Analysis Block 22 ---------- 
+
+Model class: mixed
+
+Age of onset values: 
+Option: age of onset depends on type, susceptibility has a polygenic component
+type option: age of onset depends on type
+multi option: susceptibility has a polygenic component
+affection status: disease
+age of onset: x
+age at exam: x
+
+mean missing: true
+trans missing: true
+
+
+Ascertainment values: 
+Option: founders, by onset

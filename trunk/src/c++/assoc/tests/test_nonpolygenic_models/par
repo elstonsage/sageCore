@@ -1,0 +1,162 @@
+pedigree
+{
+  delimiter_mode = multiple
+  delimiters=" "
+  individual_missing_value="0"
+  sex_code,male="1",female="2",unknown="?"
+
+  pedigree_id=fam
+  individual_id=id
+  parent_id=mom
+  parent_id=dad
+  sex_field=sex
+
+  trait=sqrtdbh,missing=-1
+  covariate=ABO,name=covabo,missing=0  
+  covariate=comt,missing=-1
+  covariate=KELL,missing=0
+  covariate=P,missing=0
+  covariate=FY,missing=0
+}
+
+function 
+{ 
+  covariate=apres, expression="covabo<=4"
+}
+
+assoc_analysis,out="none"
+{
+  title="________"
+  primary_trait=sqrtdbh
+  pe=false
+  me=false
+  fe=false
+  se=false
+  covariate="apres", models = "Alternate"
+  aa=mean
+
+  transformation
+  {
+    option=none
+  }
+}
+
+assoc_analysis,out="me"
+{
+  title="______me"
+  primary_trait=sqrtdbh
+  me=true
+  pe=false
+  fe=false
+  se=false
+  covariate="apres", models = "Alternate"
+  aa=mean
+
+  transformation
+  {
+    option=none
+  }
+}
+
+assoc_analysis,out="fe"
+{
+  title="___fe___"
+  primary_trait=sqrtdbh
+  fe=true
+  me=false
+  pe=false
+  se=false
+  covariate="apres", models = "Alternate"
+  aa=mean
+
+  transformation
+  {
+    option=none
+  }
+}
+
+assoc_analysis,out="feme"
+{
+  title="___fe_me"
+  primary_trait=sqrtdbh
+  fe=true
+  me=true
+  pe=false
+  se=false
+  covariate="apres", models = "Alternate"
+  aa=mean
+
+  transformation
+  {
+    option=none
+  }
+}
+
+assoc_analysis,out="se"
+{
+  title="se______"
+  primary_trait=sqrtdbh
+  se=true
+  pe=false
+  me=false
+  fe=false
+  covariate="apres", models = "Alternate"
+  aa=mean
+
+  transformation
+  {
+    option=none
+  }
+}
+
+assoc_analysis,out="seme"
+{
+  title="se____me"
+  primary_trait=sqrtdbh
+  se=true
+  me=true
+  fe=false
+  pe=false
+  covariate="apres", models = "Alternate"
+  aa=mean
+
+  transformation
+  {
+    option=none
+  }
+}
+
+assoc_analysis,out="sefe"
+{
+  title="se_fe___"
+  primary_trait=sqrtdbh
+  se=true
+  fe=true
+  pe=false
+  me=false
+  covariate="apres", models = "Alternate"
+  aa=mean
+
+  transformation
+  {
+    option=none
+  }
+}
+
+assoc_analysis,out="sefeme"
+{
+  title="se_fe_me"
+  primary_trait=sqrtdbh
+  se=true
+  fe=true
+  me=true
+  pe=false
+  covariate="apres", models = "Alternate"
+  aa=mean
+
+  transformation
+  {
+    option=none
+  }
+}
+

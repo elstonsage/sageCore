@@ -1,0 +1,107 @@
+=================
+
+     Results
+
+=================
+
+Note: P-values for variance components and proportions are one-sided.  All others are two-sided.
+The null hypothesis for transformation parameters is 'no transformation.'
+
+
+==============================
+     Analysis description
+==============================
+
+  Title                        assoc                         
+  Primary Trait                sbpd_rand10 (Quantitative)    
+  Allow averaging              Disabled                      
+  Omit complete summary table  Disabled                      
+  Summary table display order  By LRT p-value                
+  Summary filter               Show no more than 10 results  
+
+======================================
+     Transformation configuration
+======================================
+
+  Method                George-Elston  
+  Lambda1 is estimated                 
+  Lambda2 is fixed at    0.000000      
+
+==========================
+
+     Model 'Baseline'
+
+==========================
+
+============================
+     Sample description
+============================
+
+  Number of individuals in dataset                                   604  
+  Number of constituent pedigrees in dataset                          73  
+  Number of singletons in dataset                                      3  
+                                                                          
+  Number of constituent pedigree members with complete information   423  
+  Number of singletons with complete information                       2  
+                                                                          
+  Note: missing data replaced by averages are considered complete.        
+
+====================
+     Covariates
+====================
+
+---------------------------------------------------------------
+  Name       Mean         Std. dev.   Min         Max          
+---------------------------------------------------------------
+  sex_code      0.555294    0.496933    0.000000     1.000000  
+  age          46.336471   11.916068   18.000000    79.000000  
+  selection     0.614118    0.486803    0.000000     1.000000  
+  bmi          27.637647    5.188326   15.100000    47.400000  
+  na_u24c     105.973341   54.015420    3.130000   328.110000  
+
+===============================================================
+     MAXIMIZATION RESULTS Baseline without test covariates
+===============================================================
+
+------------------------------------------------------------------------
+  Parameter       Estimate      S.E.         P-value     Deriv          
+------------------------------------------------------------------------
+  Variance components
+          Random    205.719792    14.112284  < 1.00e-07   0.0000000046  
+
+  Other parameters
+  Total variance    205.719792    14.112284  < 1.00e-07  -0.0000018995  
+
+       Intercept   1217.134762   993.334968   0.220462    0.0001056031  
+
+  Covariates
+        sex_code     -5.487868     1.452700   0.000158    0.0002261768  
+             age      0.000535     0.000775   0.489440   -0.0000000940  
+       selection      0.037439     0.051861   0.470353    0.0000000000  
+             bmi     -0.000136     0.000416   0.744096    0.0000000000  
+         na_u24c      0.039855     0.013410   0.002958    0.0000000000  
+
+  Transformation
+         Lambda1     -0.241223     0.280973  < 1.00e-05   0.0000000000  
+         Lambda2      0.000000                  Fixed                   
+------------------------------------------------------------------------
+
+Final ln likelihood: -1734.933317
+
+=====================================================================
+     VARIANCE-COVARIANCE MATRIX Baseline without test covariates
+=====================================================================
+
+--------------------------------------------------------------------------------------------------------------------------------------
+                  Random       Total variance  Intercept       sex_code     age        selection   bmi        na_u24c    Lambda1      
+--------------------------------------------------------------------------------------------------------------------------------------
+  Random           199.156562   199.156562          -0.903946     0.000119   6.88e-07    4.71e-05  -2.14e-07   6.54e-07     0.000256  
+  Total variance   199.156562   199.156562          -0.903946     0.000119   6.88e-07    4.71e-05  -2.14e-07   6.54e-07     0.000256  
+  Intercept         -0.903946    -0.903946      986714.358605  -121.666774  -0.754415  -51.379807   0.227114  -0.713208  -279.100733  
+  sex_code           0.000119     0.000119        -121.666774     2.110337   7.92e-05    0.006373  -0.000143   0.002002     0.034415  
+  age                6.88e-07     6.88e-07          -0.754415     7.92e-05   6.00e-07    3.91e-05  -1.73e-07   8.83e-07     0.000213  
+  selection          4.71e-05     4.71e-05         -51.379807     0.006373   3.91e-05    0.002690  -1.21e-05   3.66e-05     0.014533  
+  bmi               -2.14e-07    -2.14e-07           0.227114    -0.000143  -1.73e-07   -1.21e-05   1.73e-07  -1.13e-06    -6.42e-05  
+  na_u24c            6.54e-07     6.54e-07          -0.713208     0.002002   8.83e-07    3.66e-05  -1.13e-06   0.000180     0.000202  
+  Lambda1            0.000256     0.000256        -279.100733     0.034415   0.000213    0.014533  -6.42e-05   0.000202     0.078946  
+

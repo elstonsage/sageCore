@@ -1,0 +1,303 @@
+pedigree
+{
+  pedigree_id=PID
+  individual_id=ID
+  sex_field=SEX
+  parent_id=P1
+  parent_id=P2
+  trait=DISEASE, binary, affected=1, unaffected=0
+  trait=HEMATOCRIT
+  trait=t
+  trait=u
+  trait=v
+  trait=w
+  trait=x
+  trait=y
+  trait=z
+}
+
+segreg_analysis    #1
+{
+  trait = hematocrit
+  class = fpmm
+  
+  fpmm
+  {
+    loci=4
+    freq=.6
+    var, val=12.3, fixed=false
+  }
+}
+
+segreg_analysis   #2
+{
+  trait = hematocrit
+  
+  transformation
+  {
+    option=george_elston
+    lambda1, val=2.7, lower_bound=1, upper_bound=73.7
+    lambda2, val=-5.2, fixed=true
+  }
+}
+
+segreg_analysis   #3
+{
+  trait = hematocrit
+  
+  transformation
+  {
+    option=george_elston
+    lambda1, val=2.7, lower_bound=1
+    lambda2, val=-5.2, fixed=true
+  }
+}
+
+segreg_analysis   #4
+{
+  trait = hematocrit
+  
+  type_mean
+  {
+    option=three
+    mean=AA, val=2.7
+    mean=AB, val=-5.2, fixed=true
+    mean=BB, val=0
+  }
+}
+
+segreg_analysis   #5
+{
+  trait = hematocrit
+  
+  type_mean
+  {
+    option=one
+    mean="**", val=2.7
+  }
+}
+
+segreg_analysis   #6
+{
+  trait = hematocrit
+  
+  type_var
+  {
+    option=two_rec
+    var="AA", val=2.7
+    var="B*", val=6
+  }
+}
+
+segreg_analysis   #7
+{
+  trait = hematocrit
+  
+  type_var
+  {
+    option=three
+    var="AA", val=2.7, fixed = true
+    var="B*", val=6
+  }
+}
+
+segreg_analysis   #8
+{
+  trait = hematocrit
+  
+  resid
+  {
+    option=arb
+    fm, val=.2
+    mo, val=.3
+    fo, val=.4
+    ss, val=.5
+  }
+}
+
+segreg_analysis   #9
+{
+  trait = hematocrit
+  
+  resid
+  {
+    option=equal_po_ss
+    mo, val=.3, fixed=true
+  }
+}
+
+segreg_analysis   #10
+{
+  trait = hematocrit
+  
+  geno_freq
+  {
+    option=hwe
+    freq_A, val=.67
+  }
+}
+
+segreg_analysis   #11
+{
+  trait = hematocrit
+  
+  geno_freq
+  {
+    option=nhwe
+    probs_fixed=true
+    prob=AA, val=.1
+    prob=AB, val=.2
+  }
+}
+
+segreg_analysis   #12
+{
+  trait = hematocrit
+  
+  composite_trait
+  {
+    covariate=t, val=.6, fixed=true
+    covariate=u, val=.7, fixed=false
+  }
+}
+
+segreg_analysis   #13
+{
+  trait = hematocrit
+  
+  mean_cov
+  {
+    covariate=t, val=.6666, interaction=true
+    covariate=u
+  }
+}
+
+segreg_analysis   #14
+{
+  trait = hematocrit
+  
+  var_cov
+  {
+    covariate=t, val=.6666, interaction=true
+    covariate=u
+  }
+}
+
+segreg_analysis   #15
+{
+  trait = hematocrit
+  
+  suscept_cov
+  {
+    covariate=t, val=-22, interaction=true
+    covariate=u
+    covariate=v
+    covariate=w
+  }
+}
+
+segreg_analysis   #16
+{
+  trait = hematocrit
+  
+  transmission
+  {
+    option = general
+    tau=AA, val = .2
+    tau=AB, val = .3
+    tau=BB, val = .4
+  }
+}
+
+segreg_analysis   #17
+{
+  trait = hematocrit
+  
+  transmission
+  {
+    option = no_trans
+  }
+}
+
+segreg_analysis   #18
+{
+  trait = hematocrit
+  
+  transmission
+  {
+    option = homog_no_trans
+  }
+}
+
+segreg_analysis   #19
+{
+  trait = hematocrit
+  
+  transmission
+  {
+    option = homog_mendelian
+  }
+}
+
+segreg_analysis
+{
+  trait = hematocrit
+  
+  transmission   #20
+  {
+    option = homog_general
+    tau=AA, val = .2, fixed = true
+    tau=BB, val = .4, fixed = true
+  }
+}
+
+segreg_analysis  #21
+{
+  trait = hematocrit
+  
+  transmission
+  {
+    option = tau_ab_free
+    tau=AB, val = .3
+  }
+}
+
+segreg_analysis  #22
+{
+  trait = hematocrit
+  
+  ascertainment
+  {
+    cond_set=psf
+    psf_indic=disease
+    cond_val=gte_thresh,thresh=.7
+  }
+}
+
+segreg_analysis  #23
+{
+  trait = hematocrit
+  
+  ascertainment
+  {
+    cond_set=psf
+    psf_indic=disease
+    cond_val=thresh_indic,thresh_indic_high=8,thresh_indic_low=4
+    thresh_indic=w
+  }
+}
+
+segreg_analysis  #24
+{
+  trait = hematocrit
+  
+  onset
+  {
+    option="2b"
+    
+    status=disease
+    age_onset=z
+    age_exam=z
+  }
+}
+

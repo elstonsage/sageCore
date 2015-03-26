@@ -1,0 +1,8 @@
+Results for this test disagree with those of LODLINK 3.1.  There is one
+informative phase-known meosis in this pedigree.  This is a non-recombinant
+female meosis.
+
+Adapting equation "0" in Cleves/Elston 1997 for this case gives a likelihood
+ratio of 1.4000.  This is agrees exactly w. a LOD score of
+.146128 calculated by the current program as opposed to that of .204120
+calculated by LODLINK 3.1.

@@ -1,0 +1,562 @@
+
+---------- 1 New Analysis Block 1 ---------- 
+
+Model class: D
+
+Residual correlations values: 
+Option: Arbitrary
+  maxfun parameter  marital resid corr  
+  value              0.100000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  fo resid corr  
+  value              0.300000      
+  status            Independent    
+  lower bound       -1.000000      
+  upper bound        1.000000      
+
+  maxfun parameter  mo resid corr  
+  value              0.200000      
+  status            Independent    
+  lower bound       -1.000000      
+  upper bound        1.000000      
+
+  maxfun parameter  ss resid corr  
+  value              0.400000      
+  status            Independent    
+  lower bound       -1.000000      
+  upper bound        1.000000      
+
+alpha mother: father's trait known, mother's trait known    0.171717
+alpha mother: father's trait missing, mother's trait known    0.2
+alpha mother: father's trait missing, mother's trait missing    0
+alpha father: father's trait known, mother's trait known    0.282828
+alpha father: father's trait known, mother's trait missing    0.3
+alpha father: father's trait missing, mother's trait missing    0
+
+Type frequency values: 
+Option: Hardy-Weinberg equilibrium
+  maxfun parameter  prob_AA     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_AB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_BB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  freq_A                  
+  value             Non-number              
+  status            Independent functional  
+  lower bound        2.22e-16               
+  upper bound        1.000000               
+
+
+Transmission values: 
+Option: homogeneous no transmission
+  genotype probability: indiv AA, mother BB, father AA  Non-number  
+
+
+Transformation values: 
+Option: Box-Cox
+  maxfun parameter  lambda_one   
+  value              1.000000    
+  status            Independent  
+  lower bound       -1.000000    
+  upper bound       Infinity     
+
+  maxfun parameter  lambda_two  
+  value              0.000000   
+  status            Fixed       
+  lower bound       -Infinity   
+  upper bound       Infinity    
+
+   0.000000   
+  Non-number  
+   2.000000   
+
+
+---------- 2 New Analysis Block 2 ---------- 
+
+Model class: D
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+  maxfun parameter  marital resid corr  
+  value              0.000000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  po = ss resid corr  
+  value              0.500000           
+  status            Independent         
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+alpha mother: father's trait known, mother's trait known    0.5
+alpha mother: father's trait missing, mother's trait known    0.5
+alpha mother: father's trait missing, mother's trait missing    0
+alpha father: father's trait known, mother's trait known    0.5
+alpha father: father's trait known, mother's trait missing    0.5
+alpha father: father's trait missing, mother's trait missing    0
+
+Type frequency values: 
+Option: Hardy-Weinberg equilibrium
+  maxfun parameter  prob_AA     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_AB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_BB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  freq_A                  
+  value             Non-number              
+  status            Independent functional  
+  lower bound        2.22e-16               
+  upper bound        1.000000               
+
+
+Transmission values: 
+Option: general
+  maxfun parameter  transm prob_AA  
+  value              0.100000       
+  status            Independent     
+  lower bound        0.000000       
+  upper bound        1.000000       
+
+  maxfun parameter  transm prob_AB  
+  value              0.100000       
+  status            Independent     
+  lower bound        0.000000       
+  upper bound        1.000000       
+
+  maxfun parameter  transm prob_BB  
+  value              0.000000       
+  status            Independent     
+  lower bound        0.000000       
+  upper bound        1.000000       
+
+  genotype probability: indiv AA, mother BB, father AA   0.000000  
+
+
+Transformation values: 
+Option: Box-Cox
+  maxfun parameter  lambda_one   
+  value              1.000000    
+  status            Independent  
+  lower bound       -1.000000    
+  upper bound       Infinity     
+
+  maxfun parameter  lambda_two  
+  value              0.000000   
+  status            Fixed       
+  lower bound       -Infinity   
+  upper bound       Infinity    
+
+   0.000000   
+  Non-number  
+   2.000000   
+
+
+---------- 3 New Analysis Block 3 ---------- 
+
+Model class: D
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+  maxfun parameter  marital resid corr  
+  value              0.000000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  po = ss resid corr  
+  value              0.500000           
+  status            Independent         
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+alpha mother: father's trait known, mother's trait known    0.5
+alpha mother: father's trait missing, mother's trait known    0.5
+alpha mother: father's trait missing, mother's trait missing    0
+alpha father: father's trait known, mother's trait known    0.5
+alpha father: father's trait known, mother's trait missing    0.5
+alpha father: father's trait missing, mother's trait missing    0
+
+Type frequency values: 
+Option: Hardy-Weinberg equilibrium
+  maxfun parameter  prob_AA     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_AB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_BB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  freq_A                  
+  value             Non-number              
+  status            Independent functional  
+  lower bound        2.22e-16               
+  upper bound        1.000000               
+
+
+Transmission values: 
+Option: homogeneous no transmission
+  genotype probability: indiv AA, mother BB, father AA  Non-number  
+
+
+Transformation values: 
+Option: Box-Cox
+  maxfun parameter  lambda_one   
+  value              1.000000    
+  status            Independent  
+  lower bound       -1.000000    
+  upper bound       Infinity     
+
+  maxfun parameter  lambda_two  
+  value              0.000000   
+  status            Fixed       
+  lower bound       -Infinity   
+  upper bound       Infinity    
+
+   0.000000   
+  Non-number  
+   2.000000   
+
+
+---------- 4 New Analysis Block 4 ---------- 
+
+Model class: D
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+  maxfun parameter  marital resid corr  
+  value              0.000000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  po = ss resid corr  
+  value              0.500000           
+  status            Independent         
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+alpha mother: father's trait known, mother's trait known    0.5
+alpha mother: father's trait missing, mother's trait known    0.5
+alpha mother: father's trait missing, mother's trait missing    0
+alpha father: father's trait known, mother's trait known    0.5
+alpha father: father's trait known, mother's trait missing    0.5
+alpha father: father's trait missing, mother's trait missing    0
+
+Type frequency values: 
+Option: Hardy-Weinberg equilibrium
+  maxfun parameter  prob_AA     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_AB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_BB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  freq_A                  
+  value             Non-number              
+  status            Independent functional  
+  lower bound        2.22e-16               
+  upper bound        1.000000               
+
+
+Transmission values: 
+Option: homogeneous no transmission
+  genotype probability: indiv AA, mother BB, father AA  Non-number  
+
+
+Transformation values: 
+Option: Box-Cox
+  maxfun parameter  lambda_one   
+  value              1.500000    
+  status            Independent  
+  lower bound       -1.000000    
+  upper bound       Infinity     
+
+  maxfun parameter  lambda_two  
+  value              2.000000   
+  status            Fixed       
+  lower bound       -Infinity   
+  upper bound       Infinity    
+
+   1.421468   
+  Non-number  
+   3.448643   
+
+
+---------- 5 New Analysis Block 5 ---------- 
+
+Model class: D
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+  maxfun parameter  marital resid corr  
+  value              0.000000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  po = ss resid corr  
+  value              0.500000           
+  status            Independent         
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+alpha mother: father's trait known, mother's trait known    0.5
+alpha mother: father's trait missing, mother's trait known    0.5
+alpha mother: father's trait missing, mother's trait missing    0
+alpha father: father's trait known, mother's trait known    0.5
+alpha father: father's trait known, mother's trait missing    0.5
+alpha father: father's trait missing, mother's trait missing    0
+
+Type frequency values: 
+Option: Hardy-Weinberg equilibrium
+  maxfun parameter  prob_AA     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_AB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_BB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  freq_A                  
+  value             Non-number              
+  status            Independent functional  
+  lower bound        2.22e-16               
+  upper bound        1.000000               
+
+
+Transmission values: 
+Option: homogeneous no transmission
+  genotype probability: indiv AA, mother BB, father AA  Non-number  
+
+
+Transformation values: 
+Option: Box-Cox
+  maxfun parameter  lambda_one   
+  value              0.000000    
+  status            Independent  
+  lower bound       -1.000000    
+  upper bound       Infinity     
+
+  maxfun parameter  lambda_two  
+  value              2.500000   
+  status            Fixed       
+  lower bound       -Infinity   
+  upper bound       Infinity    
+
+   5.496475   
+  Non-number  
+   7.479552   
+
+
+---------- 6 New Analysis Block 6 ---------- 
+
+Model class: D
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+  maxfun parameter  marital resid corr  
+  value              0.000000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  po = ss resid corr  
+  value              0.500000           
+  status            Independent         
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+alpha mother: father's trait known, mother's trait known    0.5
+alpha mother: father's trait missing, mother's trait known    0.5
+alpha mother: father's trait missing, mother's trait missing    0
+alpha father: father's trait known, mother's trait known    0.5
+alpha father: father's trait known, mother's trait missing    0.5
+alpha father: father's trait missing, mother's trait missing    0
+
+Type frequency values: 
+Option: Hardy-Weinberg equilibrium
+  maxfun parameter  prob_AA     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_AB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_BB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  freq_A                  
+  value             Non-number              
+  status            Independent functional  
+  lower bound        2.22e-16               
+  upper bound        1.000000               
+
+
+Transmission values: 
+Option: homogeneous no transmission
+  genotype probability: indiv AA, mother BB, father AA  Non-number  
+
+
+Transformation values: 
+Option: George-Elston
+  maxfun parameter  lambda_one   
+  value              0.500000    
+  status            Independent  
+  lower bound       -1.000000    
+  upper bound       Infinity     
+
+  maxfun parameter  lambda_two  
+  value             -2.500000   
+  status            Fixed       
+  lower bound       -Infinity   
+  upper bound       Infinity    
+
+  -1.617401   
+  Non-number  
+   0.625500   
+
+
+---------- 7 New Analysis Block 7 ---------- 
+
+Model class: D
+
+Residual correlations values: 
+Option: No spouse correlation, parent-offspring and sib-sib correlations equal
+  maxfun parameter  marital resid corr  
+  value              0.000000           
+  status            Fixed               
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+  maxfun parameter  po = ss resid corr  
+  value              0.500000           
+  status            Independent         
+  lower bound       -1.000000           
+  upper bound        1.000000           
+
+alpha mother: father's trait known, mother's trait known    0.5
+alpha mother: father's trait missing, mother's trait known    0.5
+alpha mother: father's trait missing, mother's trait missing    0
+alpha father: father's trait known, mother's trait known    0.5
+alpha father: father's trait known, mother's trait missing    0.5
+alpha father: father's trait missing, mother's trait missing    0
+
+Type frequency values: 
+Option: Hardy-Weinberg equilibrium
+  maxfun parameter  prob_AA     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_AB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  prob_BB     
+  value             Non-number  
+  status            Dependent   
+  lower bound        0.000000   
+  upper bound        1.000000   
+
+  maxfun parameter  freq_A                  
+  value             Non-number              
+  status            Independent functional  
+  lower bound        2.22e-16               
+  upper bound        1.000000               
+
+
+Transmission values: 
+Option: homogeneous no transmission
+  genotype probability: indiv AA, mother BB, father AA  Non-number  
+
+
+Transformation values: 
+Option: George-Elston
+  maxfun parameter  lambda_one   
+  value              0.000000    
+  status            Independent  
+  lower bound       -1.000000    
+  upper bound       Infinity     
+
+  maxfun parameter  lambda_two  
+  value             -2.500000   
+  status            Fixed       
+  lower bound       -Infinity   
+  upper bound       Infinity    
+
+  -1.774389   
+  Non-number  
+   0.785180   
+

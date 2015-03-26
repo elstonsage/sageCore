@@ -1,0 +1,69 @@
+
+
+
+
+Family structure information on the first 1000 individuals read from file: ../test_marker_list/ped
+
+     PED. ID       IND. ID       SEX       PARENT1       PARENT2     
+     ------------  ------------  --------  ------------  ------------
+     1             1             1         1_parent1     1_parent2   
+     1             2             2         1_parent1     1_parent2   
+     1             3             1         1_parent1     1_parent2   
+     1             4             2         1_parent1     1_parent2   
+     1             5             2         1_parent1     1_parent2   
+     1             7             2         1_parent1     1_parent2   
+     1             8             1         1_parent1     1_parent2   
+     1             9             2         1_parent1     1_parent2   
+     2             1             1         2_parent1     2_parent2   
+     2             2             2         2_parent1     2_parent2   
+     2             3             1         2_parent1     2_parent2   
+     2             4             2         2_parent1     2_parent2   
+     2             5             2         2_parent1     2_parent2   
+     2             7             2         2_parent1     2_parent2   
+     2             8             1         2_parent1     2_parent2   
+     2             9             2         2_parent1     2_parent2   
+
+
+Phenotypes for the first 1000 individuals read from file: ../test_marker_list/ped
+
+     PED. ID       IND. ID       SEX_CODE              FAMILIAL_INDICATOR    FOUNDER_INDICATOR     PEDIGREE_SIZE       
+     ------------  ------------  --------------------  --------------------  --------------------  --------------------
+     1             1             0                     1                     0                     10                  
+     1             2             1                     1                     0                     10                  
+     1             3             0                     1                     0                     10                  
+     1             4             1                     1                     0                     10                  
+     1             5             1                     1                     0                     10                  
+     1             7             1                     1                     0                     10                  
+     1             8             0                     1                     0                     10                  
+     1             9             1                     1                     0                     10                  
+     2             1             0                     1                     0                     10                  
+     2             2             1                     1                     0                     10                  
+     2             3             0                     1                     0                     10                  
+     2             4             1                     1                     0                     10                  
+     2             5             1                     1                     0                     10                  
+     2             7             1                     1                     0                     10                  
+     2             8             0                     1                     0                     10                  
+     2             9             1                     1                     0                     10                  
+
+
+Markers for the first 1000 individuals read from file: ../test_marker_list/ped
+
+     PED. ID       IND. ID       M1            M2            M3            M4          
+     ------------  ------------  ------------  ------------  ------------  ------------
+     1             1             1/1           1/1           1/1           1/1         
+     1             2             1/2           1/2           1/2           1/2         
+     1             3             1/1           1/1           1/1           1/1         
+     1             4             1/1           1/1           1/1           1/1         
+     1             5             1/1           1/1           1/1           1/1         
+     1             7             1/1           1/1           1/1           1/1         
+     1             8             1/1           1/1           1/1           1/1         
+     1             9             1/1           1/1           1/1           1/1         
+     2             1             1/1           1/1           1/1           1/1         
+     2             2             1/1           1/1           1/1           1/1         
+     2             3             1/1           1/1           1/1           1/1         
+     2             4             1/1           1/1           1/1           1/1         
+     2             5             1/1           1/1           1/1           1/1         
+     2             7             1/1           1/1           1/1           1/1         
+     2             8             1/1           1/1           1/1           1/1         
+     2             9             1/1           1/1           1/1           1/1         
+

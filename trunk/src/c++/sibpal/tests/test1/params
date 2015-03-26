@@ -1,0 +1,33 @@
+#p=0.25
+#skip_uninformative_pairs=true
+wide_output=true
+
+pedigree,column
+{
+  verbose=100
+  format="(2A4,A1,2X,2A4,A3,A3)"
+  individual_missing_value="0"
+  sex_code,missing="?",male="M",female="F"
+  trait="Trait1",missing="XXX"
+  no_sex_ok=true
+}
+
+marker_regression
+{
+#  marker="Marker 1"
+}
+
+trait_regression
+{
+  	dump_data="test", language=MATLAB
+	trait="Trait1"
+	#  marker="Marker 1"
+  	regression_method=sum
+}
+
+trait_regression
+{
+  trait="Trait1"
+#  marker="Marker 1"
+  regression_method=w3
+}

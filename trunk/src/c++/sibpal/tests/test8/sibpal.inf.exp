@@ -1,0 +1,69 @@
+
+
+
+%SIBPAL-W: [17] Phenotype '219', '0' at sex-dependent marker 'DXS1297' is
+           inconsistent with the sex of individual 'A48' in pedigree '7'. 
+           Marker will be set to missing for this individual.
+%SIBPAL-W: [17] Phenotype '261', '0' at sex-dependent marker 'DXS1304' is
+           inconsistent with the sex of individual 'A48' in pedigree '7'. 
+           Marker will be set to missing for this individual.
+%SIBPAL-W: [17] Phenotype '233', '0' at sex-dependent marker 'DXS1263' is
+           inconsistent with the sex of individual 'A48' in pedigree '7'. 
+           Marker will be set to missing for this individual.
+%SIBPAL-W: [22] Phenotype '219', '0' at sex-dependent marker 'DXS1297' is
+           inconsistent with the sex of individual 'A68' in pedigree '7'. 
+           Marker will be set to missing for this individual.
+%SIBPAL-W: [22] Phenotype '261', '0' at sex-dependent marker 'DXS1304' is
+           inconsistent with the sex of individual 'A68' in pedigree '7'. 
+           Marker will be set to missing for this individual.
+%SIBPAL-W: [22] Phenotype '233', '0' at sex-dependent marker 'DXS1263' is
+           inconsistent with the sex of individual 'A68' in pedigree '7'. 
+           Marker will be set to missing for this individual.
+
+Family structure information on the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       SEX       PARENT1       PARENT2     
+     ------------  ------------  --------  ------------  ------------
+     7             408           F         0             0           
+     7             508           M         0             0           
+     7             208           M         408           508         
+     7             G08           F         408           508         
+     7             I08           M         408           508         
+     7             J08           M         408           508         
+     7             G18           M         0             0           
+     7             A18           F         G08           G18         
+     7             D18           M         G08           G18         
+     7             G28           M         0             0           
+
+
+Phenotypes for the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       SEX_CODE              FAMILIAL_INDICATOR    FOUNDER_INDICATOR     PEDIGREE_SIZE         alc                 
+     ------------  ------------  --------------------  --------------------  --------------------  --------------------  --------------------
+     7             408           1                     1                     1                     21                    1                   
+     7             508           0                     1                     1                     21                    1                   
+     7             208           0                     1                     0                     21                    1                   
+     7             G08           1                     1                     0                     21                    1                   
+     7             I08           0                     1                     0                     21                    1                   
+     7             J08           0                     1                     0                     21                    1                   
+     7             G18           0                     1                     1                     21                    1                   
+     7             A18           1                     1                     0                     21                    0                   
+     7             D18           0                     1                     0                     21                    1                   
+     7             G28           0                     1                     1                     21                    1                   
+
+
+Markers for the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       D3S1297       D3S1304       D3S1263       DXS1297       DXS1304       DXS1263     
+     ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------
+     7             408           0/0           0/0           0/0           0/0           0/0           0/0         
+     7             508           0/0           0/0           0/0           0/0           0/0           0/0         
+     7             208           219/227       265/265       235/241       219/0         261/0         233/0       
+     7             G08           219/227       265/265       241/233       219/227       261/261       233/233     
+     7             I08           219/227       261/261       233/245       219/0         261/0         233/0       
+     7             J08           219/227       265/261       235/241       219/0         261/0         233/0       
+     7             G18           225/223       0/0           0/0           225/0         0/0           0/0         
+     7             A18           219/225       265/261       233/245       219/225       261/261       233/233     
+     7             D18           227/225       265/261       233/245       227/0         261/0         233/0       
+     7             G28           225/223       0/0           0/0           225/0         0/0           0/0         
+

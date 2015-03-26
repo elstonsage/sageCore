@@ -1,0 +1,73 @@
+pedigree
+{
+  individual_missing_value = "0"
+
+  pedigree_id = pid
+  individual_id = id
+  parent_id = p1
+  parent_id = p2
+  sex_field = sex, male = "1", female = "2", missing = "0"
+  trait = alz, binary, affected = "2", unaffected = "1", missing = "0"
+  trait = usex, binary, affected = "1", unaffected = "0"
+  covariate = E4, missing = "."
+  covariate = E2, missing = "."
+  covariate = agevar, missing = "."
+  covariate = ageonset, missing = "."
+  covariate = currntage, missing = "."
+  covariate = dementia, missing = "."
+  covariate = duration, missing = "."
+
+  allele = "DXS6807a", name = "DXS6807"
+  allele = "DXS6807b", name = "DXS6807"
+  allele = "DXS2504a", name = "DXS2504"
+  allele = "DXS2504b", name = "DXS2504"
+  allele = "MAOAa", name = "MAOA"
+  allele = "MAOAb", name = "MAOA"
+  allele = "DXS1039a", name = "DXS1039"
+  allele = "DXS1039b", name = "DXS1039"
+  allele = "DXS7132a", name = "DXS7132"
+  allele = "DXS7132b", name = "DXS7132"
+  allele = "DXS453a", name = "DXS453"
+  allele = "DXS453b", name = "DXS453"
+  allele = "DXS1002a", name = "DXS1002"
+  allele = "DXS1002b", name = "DXS1002"
+  allele = "DXS6789a", name = "DXS6789"
+  allele = "DXS6789b", name = "DXS6789"
+  allele = "DXS2498a", name = "DXS2498"
+  allele = "DXS2498b", name = "DXS2498"
+  allele = "DXS1001a", name = "DXS1001"
+  allele = "DXS1001b", name = "DXS1001"
+  allele = "DXS1047a", name = "DXS1047"
+  allele = "DXS1047b", name = "DXS1047"
+  allele = "DXS994a", name = "DXS994"
+  allele = "DXS994b", name = "DXS994"
+  allele = "DXS1062a", name = "DXS1062"
+  allele = "DXS1062b", name = "DXS1062"
+}
+
+sibpal
+{
+  trait_regression
+  {
+    trait=alz
+    regression_method=sum
+  }
+
+  trait_regression
+  {
+    trait=alz
+    regression_method=sum
+    covariate=E4
+    print_qls = "DXS6807"
+    print_design_matrix = "DXS6807", rows = all
+#    wide_out = true
+#    use_pairs=hsib
+    x_linkage
+    {
+#      pair_type=m_m
+#      pair_type=f_f
+    }
+#    compute_empirical_pvalues=true, permutations=1000, seed = 4
+  }
+}
+

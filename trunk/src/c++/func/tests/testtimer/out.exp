@@ -1,0 +1,13 @@
+
+
+
+Reading Parameter File....................done.
+Reading Pedigree File.....................
+              from ped....................done.
+Sorting Pedigrees.........................done.
+%PEDINFO-F: Timed out evaluating expression, '200L ** 100000L'.  Change
+            expression, increase time limit attribute of the function block
+            parameter, or run program when your machine is not so heavily
+            loaded.  Program exiting ...
+113
+timer timed out

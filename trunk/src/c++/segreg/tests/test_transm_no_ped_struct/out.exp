@@ -1,0 +1,126 @@
+
+
+
+Reading Parameter File....................done.
+Reading Pedigree File.....................
+              from fam....................done.
+Sorting Pedigrees.........................done.
+
+Parsing Segreg Analyses...
+
+Beginning new analysis block....
+
+
+Parsing Analysis: 'SEGREG Analysis 1'....
+
+
+Analysis parsing complete.  Analysis valid.
+------------------------------------------------------------------------------
+
+Beginning new analysis block....
+
+
+Parsing Analysis: 'SEGREG Analysis 2'....
+
+
+Analysis parsing complete.  Analysis valid.
+------------------------------------------------------------------------------
+
+Beginning new analysis block....
+
+
+Parsing Analysis: 'SEGREG Analysis 3'....
+
+
+Analysis parsing complete.  Analysis valid.
+------------------------------------------------------------------------------
+
+Beginning new analysis block....
+
+
+Parsing Analysis: 'SEGREG Analysis 4'....
+
+
+Analysis parsing complete.  Analysis valid.
+------------------------------------------------------------------------------
+
+Beginning new analysis block....
+
+
+Parsing Analysis: 'SEGREG Analysis 5'....
+
+
+Analysis parsing complete.  Analysis valid.
+------------------------------------------------------------------------------
+
+Beginning new analysis block....
+
+
+Parsing Analysis: 'SEGREG Analysis 6'....
+
+
+Analysis parsing complete.  Analysis valid.
+------------------------------------------------------------------------------
+
+Evaluating pedigrees............Done.
+
+  Performing analysis: SEGREG Analysis 1
+  ===========================================================================
+
+        Testing model............................................Done.
+        Performing Maximization..................................Done.
+        Finalizing Model.........................................Done.
+
+  ===========================================================================
+
+  Performing analysis: SEGREG Analysis 2
+  ===========================================================================
+
+        Testing model............................................Done.
+        Performing Maximization..................................Done.
+        Finalizing Model.........................................Done.
+
+  ===========================================================================
+
+  Performing analysis: SEGREG Analysis 3
+  ===========================================================================
+
+%SEGREG-E: The transmission/segregation model given requires that there be
+           pedigree structures in the sample to be analyzed, but no valid
+           structures have been detected in this sample.  Analysis is invalid
+           and will be discontinued.
+
+  ===========================================================================
+
+  Performing analysis: SEGREG Analysis 4
+  ===========================================================================
+
+%SEGREG-E: The transmission/segregation model given requires that there be
+           pedigree structures in the sample to be analyzed, but no valid
+           structures have been detected in this sample.  Analysis is invalid
+           and will be discontinued.
+
+  ===========================================================================
+
+  Performing analysis: SEGREG Analysis 5
+  ===========================================================================
+
+%SEGREG-E: The transmission/segregation model given requires that there be
+           pedigree structures in the sample to be analyzed, but no valid
+           structures have been detected in this sample.  Analysis is invalid
+           and will be discontinued.
+
+  ===========================================================================
+
+  Performing analysis: SEGREG Analysis 6
+  ===========================================================================
+
+%SEGREG-E: The transmission/segregation model given requires that there be
+           pedigree structures in the sample to be analyzed, but no valid
+           structures have been detected in this sample.  Analysis is invalid
+           and will be discontinued.
+
+  ===========================================================================
+
+
+

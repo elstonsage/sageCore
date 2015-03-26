@@ -1,0 +1,36 @@
+#!/usr/local/bin/python2.2
+#============================================================================
+# File:      chg_ped_id
+#                                                                          
+# Author:    Dan Baechle 
+#                                                                          
+# History:   4/11/3  Created.                                          djb
+#                                                                          
+# Notes:     Add 25 to each pedigree id.
+#
+#============================================================================
+
+import sys
+import os
+import string
+
+if __name__ == "__main__":
+
+  in_file = open('ped_unlinked_edited', 'r')
+  out_file = open('temp', 'w')
+  
+  lines = in_file.readlines()
+  for line_no in range(0, len(lines)):
+    words = string.split(string.strip(lines[line_no]))
+    if len(words):    
+      ped_id = string.atoi(words[0]) + 25
+      ped_id_string = '%u' % ped_id
+      lines[line_no] = ped_id_string + lines[line_no][2:]
+      
+    out_file.write(lines[line_no])
+    
+  in_file.close()
+  out_file.close()
+  sys.exit(0)
+      
+      

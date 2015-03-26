@@ -1,0 +1,131 @@
+=======================
+
+     Test document
+
+=======================
+
+========================
+     threshold test
+========================
+
+-----------------------------------------
+  p-value (no thresh)  p-value (thresh)  
+-----------------------------------------
+  Below threshold
+      0.000200         < 1.00e-03        
+      0.002000         < 1.00e-02        
+
+      0.020000             0.020000      
+
+  Above threshold
+     11.000000         > 1.00e+01        
+    101.000000         > 1.00e+02        
+   1001.000000         > 1.00e+03        
+-----------------------------------------
+
+Note: This table is special.
+Age:  5
+Size:  6.550000
+
+  -3   5          
+                  
+   3  -5          
+  -3   5  Hello!  
+  -3              
+
+1 aaaaaaaaaaa aaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+  aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaa
+
+aaaaaaaaaaa aaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaa
+
+2 thingy
+
+  asldkjfhasldkjfhaslkdjfhalskdjhfalsdkjhfalsdkjhfalsdkjfhasldkjfhasldjk
+  f asldkjfhasldkjfh
+
+3 thingy
+
+  asldkjfhasldkjfhaslkdjfhalskdjhfalsdkjhfalsdkjhfalsdkjfhasldkjfhasldjk
+  f asldkjfhasldkjfh
+
+3.1 yo
+
+    mama
+
+    * yoo
+
+    * hoo
+
+4 thingy
+
+  asldkjfhasldkjfhaslkdjfhalskdjhfalsdkjhfalsdkjhfalsdkjfhasldkjfhasldjk
+  f asldkjfhasldkjfh
+
+4.1 yo
+
+    mama
+
+    * yoo
+
+    * hoo
+
+4.2 yo
+
+    mama
+
+    * yoo
+
+    * hoo
+
+Special title
+
+* aaaaaaaaaaa aaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+  aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaa
+
+aaaaaaaaaaa aaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaa
+
+* thingy
+
+  asldkjfhasldkjfhaslkdjfhalskdjhfalsdkjhfalsdkjhfalsdkjfhasldkjfhasldjk
+  f asldkjfhasldkjfh
+
+* thingy
+
+  asldkjfhasldkjfhaslkdjfhalskdjhfalsdkjhfalsdkjhfalsdkjfhasldkjfhasldjk
+  f asldkjfhasldkjfh
+
+  * yo
+
+    mama
+
+    * yoo
+
+    * hoo
+
+* thingy
+
+  asldkjfhasldkjfhaslkdjfhalskdjhfalsdkjhfalsdkjhfalsdkjfhasldkjfhasldjk
+  f asldkjfhasldkjfh
+
+  * yo
+
+    mama
+
+    * yoo
+
+    * hoo
+
+  * yo
+
+    mama
+
+    * yoo
+
+    * hoo
+
+   1000   100   10   1   0.100000   0.010000   0.001000   0.000100   1.00e-05   1.00e-06  
+
+  Infinity  -Infinity  
+

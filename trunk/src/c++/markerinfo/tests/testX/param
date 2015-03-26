@@ -1,0 +1,37 @@
+Pedigree
+{	
+pedigree_id=FID
+individual_id=ID
+sex_field=SEX
+parent_id=MID
+parent_id=DID
+string=DNAID
+allele= D9S910a,    name="D9S910"
+allele= D9S910b,    name="D9S910" 
+allele= D16S539a,   name="D16S539"
+allele= D16S539b,   name="D16S539"
+allele= D5S820a,    name="D5S820"
+allele= D5S820b,	  name="D5S820"
+allele= D15S655a,	  name="D15S655"
+allele= D15S655b,	  name="D15S655"
+allele= D11S1984a,  name="D11S1984"
+allele= D11S1984b,  name="D11S1984"
+allele= D11S4464a,  name="D11S4464"
+allele= D11S4464b,  name="D11S4464"
+allele= DXS7132a,	  name="DXS7132", x_linked
+allele= DXS7132b,	  name="DXS7132", x_linked
+allele= GATA165B12a,name="GATA165B12", x_linked
+allele= GATA165B12b,name="GATA165B12", x_linked
+allele= D10S1430a,  name="D10S1430"
+allele= D10S1430b,  name="D10S1430"
+sex_code, male="1", female="2",missing="."
+Individual_missing_value="."
+}
+
+markerinfo_analysis
+{
+sample_id=DNAID
+consistent_out=true
+pedigree_out=true
+}
+

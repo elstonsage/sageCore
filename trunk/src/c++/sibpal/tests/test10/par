@@ -1,0 +1,84 @@
+pedigree 
+{
+  individual_missing_value="0"
+
+  sex_code, male="1",female="2"
+
+  delimiter_mode="multiple"
+
+  pedigree_id=ped
+  individual_id=person
+  sex_field=sex
+  no_sex_ok=true
+  parent_id=p1
+  parent_id=p2
+  trait=sle, binary, affected="2", unaffected="1", missing="0"
+  trait=var, missing="."
+  covariate=malefam, missing="."
+  covariate=prin1, missing="."
+  covariate=prin2, missing="."
+  covariate=prin3, missing="."
+  covariate=prin4, missing="."
+  covariate=prin5, missing="."
+  covariate=prin6, missing="."
+  covariate=prin7, missing="."
+  covariate=prin8, missing="."
+  covariate=prin9, missing="."
+  covariate=prin10, missing="."
+  covariate=prin11, missing="."
+  covariate=prin12, missing="."  
+ 
+ allele="20s103a",name="20s103"
+ allele="20s103b",name="20s103"
+
+ allele="20s482a",name="20s482"
+ allele="20s482b",name="20s482"
+
+ allele="20s851a",name="20s851"
+ allele="20s851b",name="20s851"
+
+ allele="20s604a",name="20s604"
+ allele="20s604b",name="20s604"
+
+ allele="20s470a",name="20s470"
+ allele="20s470b",name="20s470"
+
+ allele="20s478a",name="20s478"
+ allele="20s478b",name="20s478"
+
+ allele="20s481a",name="20s481"
+ allele="20s481b",name="20s481"
+
+ allele="20s480a",name="20s480"
+ allele="20s480b",name="20s480"
+
+ allele="20s171a",name="20s171"
+ allele="20s171b",name="20s171"
+
+}
+
+sibpal, out=test
+{
+  mean_test
+  {
+    w1 = 0.2
+    export_out=true
+  }
+}
+
+sibpal, out=m1
+{
+  mean_test
+  {
+    wide_out=true
+  }
+}
+
+sibpal, out=m2
+{
+  mean_test
+  {
+    trait = prin1
+    wide_out=true
+  }
+}

@@ -1,0 +1,1849 @@
+
+
+
+==============================
+LODLINK Analysis 2 DETAIL FILE
+==============================
+
+
+Results
+=======
+
+                  Posterior Probabilities by Family
+                  ** Indicates Evidence for Linkage
+
+
+                  Family in Pedigree 1 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.6988
+M2                     0.6369
+
+
+                  Family in Pedigree 2 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7033
+M2                     0.6411  **
+
+
+                  Family in Pedigree 3 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7421
+M2                     0.6618  **
+
+
+                  Family in Pedigree 4 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7997  **
+M2                     0.6369
+
+
+                  Family in Pedigree 5 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7465
+M2                     0.6369
+
+
+                  Family in Pedigree 6 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.8254  **
+M2                     0.8036  **
+
+
+                  Family in Pedigree 7 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.4614
+M2                     0.7557  **
+
+
+                  Family in Pedigree 8 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7540  **
+M2                     0.6404  **
+
+
+                  Family in Pedigree 9 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7200
+M2                     0.2555
+
+
+                  Family in Pedigree 10 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7456
+M2                     0.5885
+
+
+                  Family in Pedigree 11 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7465
+M2                     0.6584  **
+
+
+                  Family in Pedigree 12 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7684  **
+M2                     0.6316
+
+
+                  Family in Pedigree 13 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7465
+M2                     0.7542  **
+
+
+                  Family in Pedigree 14 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7436
+M2                     0.6210
+
+
+                  Family in Pedigree 15 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7997  **
+M2                     0.6584  **
+
+
+                  Family in Pedigree 16 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7465
+M2                     0.6635  **
+
+
+                  Family in Pedigree 17 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7315
+M2                     0.5605
+
+
+                  Family in Pedigree 18 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7362
+M2                     0.6390  **
+
+
+                  Family in Pedigree 19 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7465
+M2                     0.2555
+
+
+                  Family in Pedigree 20 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7200
+M2                     0.6421  **
+
+
+                  Family in Pedigree 21 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7465
+M2                     0.6369
+
+
+                  Family in Pedigree 22 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7465
+M2                     0.6305
+
+
+                  Family in Pedigree 23 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7465
+M2                     0.6882  **
+
+
+                  Family in Pedigree 24 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.9234  **
+M2                     0.9153  **
+
+
+                  Family in Pedigree 25 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.5708
+M2                     0.9153  **
+
+
+                  Family in Pedigree 26 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7200
+M2                     0.5590
+
+
+                  Family in Pedigree 27 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7369
+M2                     0.6491  **
+
+
+                  Family in Pedigree 28 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.5540
+M2                     0.7854  **
+
+
+                  Family in Pedigree 29 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7200
+M2                     0.6410  **
+
+
+                  Family in Pedigree 30 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.8089  **
+M2                     0.6547  **
+
+
+                  Family in Pedigree 31 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.8024  **
+M2                     0.7177  **
+
+
+                  Family in Pedigree 32 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.8441  **
+M2                     0.6316
+
+
+                  Family in Pedigree 33 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.9311  **
+M2                     0.9191  **
+
+
+                  Family in Pedigree 34 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.5792
+M2                     0.9174  **
+
+
+                  Family in Pedigree 35 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.8090  **
+M2                     0.5509
+
+
+                  Family in Pedigree 36 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7684  **
+M2                     0.7599  **
+
+
+                  Family in Pedigree 37 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7465
+M2                     0.6337
+
+
+                  Family in Pedigree 38 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.8608  **
+M2                     0.9535  **
+
+
+                  Family in Pedigree 39 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.8201  **
+M2                     0.7599  **
+
+
+                  Family in Pedigree 40 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7200
+M2                     0.7845  **
+
+
+                  Family in Pedigree 41 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.6844
+M2                     0.6958  **
+
+
+                  Family in Pedigree 42 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7533  **
+M2                     0.6675  **
+
+
+                  Family in Pedigree 43 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7465
+M2                     0.6379  **
+
+
+                  Family in Pedigree 44 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.5708
+M2                     0.7237  **
+
+
+                  Family in Pedigree 45 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7555  **
+M2                     0.6335
+
+
+                  Family in Pedigree 46 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7465
+M2                     0.6369
+
+
+                  Family in Pedigree 47 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.8191  **
+M2                     0.6387  **
+
+
+                  Family in Pedigree 48 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7465
+M2                     0.6799  **
+
+
+                  Family in Pedigree 49 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.8201  **
+M2                     0.6369
+
+
+                  Family in Pedigree 50 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7528  **
+M2                     0.6584  **
+
+
+                  Family in Pedigree 51 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.6548
+M2                     0.6686  **
+
+
+                  Family in Pedigree 52 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.8441  **
+M2                     0.5931
+
+
+                  Family in Pedigree 53 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7465
+M2                     0.7599  **
+
+
+                  Family in Pedigree 54 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7465
+M2                     0.6369
+
+
+                  Family in Pedigree 55 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7465
+M2                     0.6263
+
+
+                  Family in Pedigree 56 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7684  **
+M2                     0.5986
+
+
+                  Family in Pedigree 57 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.6544
+M2                     0.6369
+
+
+                  Family in Pedigree 58 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7303
+M2                     0.6805  **
+
+
+                  Family in Pedigree 59 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7465
+M2                     0.6421  **
+
+
+                  Family in Pedigree 60 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7481  **
+M2                     0.6373  **
+
+
+                  Family in Pedigree 61 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7465
+M2                     0.6418  **
+
+
+                  Family in Pedigree 62 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7465
+M2                     0.0616
+
+
+                  Family in Pedigree 63 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7200
+M2                     0.6987  **
+
+
+                  Family in Pedigree 64 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7684  **
+M2                     0.5477
+
+
+                  Family in Pedigree 65 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7581  **
+M2                     0.6665  **
+
+
+                  Family in Pedigree 66 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.8862  **
+M2                     0.8702  **
+
+
+                  Family in Pedigree 67 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7575  **
+M2                     0.6629  **
+
+
+                  Family in Pedigree 68 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7465
+M2                     0.6369
+
+
+                  Family in Pedigree 69 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7465
+M2                     0.6584  **
+
+
+                  Family in Pedigree 70 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7465
+M2                     0.6369
+
+
+                  Family in Pedigree 71 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.6500
+M2                     0.6471  **
+
+
+                  Family in Pedigree 72 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.9311  **
+M2                     0.2555
+
+
+                  Family in Pedigree 73 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.6433
+M2                     0.7290  **
+
+
+                  Family in Pedigree 74 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7434
+M2                     0.6593  **
+
+
+                  Family in Pedigree 75 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.6542
+M2                     0.7557  **
+
+
+                  Family in Pedigree 76 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.8201  **
+M2                     0.8569  **
+
+
+                  Family in Pedigree 77 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7465
+M2                     0.6274
+
+
+                  Family in Pedigree 78 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7465
+M2                     0.6369
+
+
+                  Family in Pedigree 79 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.8201  **
+M2                     0.3825
+
+
+                  Family in Pedigree 80 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7788  **
+M2                     0.6475  **
+
+
+                  Family in Pedigree 81 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.8201  **
+M2                     0.5926
+
+
+                  Family in Pedigree 82 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.8441  **
+M2                     0.2188
+
+
+                  Family in Pedigree 83 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7997  **
+M2                     0.5931
+
+
+                  Family in Pedigree 84 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.8038  **
+M2                     0.4885
+
+
+                  Family in Pedigree 85 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.8254  **
+M2                     0.6845  **
+
+
+                  Family in Pedigree 86 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7465
+M2                     0.6368
+
+
+                  Family in Pedigree 87 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.6079
+M2                     0.5292
+
+
+                  Family in Pedigree 88 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7590  **
+M2                     0.7599  **
+
+
+                  Family in Pedigree 89 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7880  **
+M2                     0.6105
+
+
+                  Family in Pedigree 90 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7465
+M2                     0.6377  **
+
+
+                  Family in Pedigree 91 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7997  **
+M2                     0.6263
+
+
+                  Family in Pedigree 92 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7113
+M2                     0.6997  **
+
+
+                  Family in Pedigree 93 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.8061  **
+M2                     0.7286  **
+
+
+                  Family in Pedigree 94 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.6548
+M2                     0.8978  **
+
+
+                  Family in Pedigree 95 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7465
+M2                     0.6050
+
+
+                  Family in Pedigree 96 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7168
+M2                     0.8023  **
+
+
+                  Family in Pedigree 97 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7369
+M2                     0.8580  **
+
+
+                  Family in Pedigree 98 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7200
+M2                     0.6263
+
+
+                  Family in Pedigree 99 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7787  **
+M2                     0.4068
+
+
+                  Family in Pedigree 100 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.8116  **
+M2                     0.6263
+
+
+                  Family in Pedigree 101 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7543  **
+M2                     0.7176  **
+
+
+                  Family in Pedigree 102 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7327
+M2                     0.5796
+
+
+                  Family in Pedigree 103 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7684  **
+M2                     0.8072  **
+
+
+                  Family in Pedigree 104 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.9022  **
+M2                     0.9500  **
+
+
+                  Family in Pedigree 105 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7502  **
+M2                     0.6561  **
+
+
+                  Family in Pedigree 106 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7465
+M2                     0.6283
+
+
+                  Family in Pedigree 107 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7465
+M2                     0.6352
+
+
+                  Family in Pedigree 108 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7465
+M2                     0.6891  **
+
+
+                  Family in Pedigree 109 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7909  **
+M2                     0.6325
+
+
+                  Family in Pedigree 110 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7684  **
+M2                     0.6316
+
+
+                  Family in Pedigree 111 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7593  **
+M2                     0.4263
+
+
+                  Family in Pedigree 112 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7465
+M2                     0.6369
+
+
+                  Family in Pedigree 113 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7465
+M2                     0.2555
+
+
+                  Family in Pedigree 114 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7159
+M2                     0.4082
+
+
+                  Family in Pedigree 115 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7465
+M2                     0.6369
+
+
+                  Family in Pedigree 116 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7465
+M2                     0.6327
+
+
+                  Family in Pedigree 117 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7584  **
+M2                     0.7586  **
+
+
+                  Family in Pedigree 118 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7465
+M2                     0.6686  **
+
+
+                  Family in Pedigree 119 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7200
+M2                     0.6316
+
+
+                  Family in Pedigree 120 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7295
+M2                     0.7548  **
+
+
+                  Family in Pedigree 121 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.5708
+M2                     0.6369
+
+
+                  Family in Pedigree 122 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.8287  **
+M2                     0.9224  **
+
+
+                  Family in Pedigree 123 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.8222  **
+M2                     0.7487  **
+
+
+                  Family in Pedigree 124 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7200
+M2                     0.5241
+
+
+                  Family in Pedigree 125 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.5708
+M2                     0.2219
+
+
+                  Family in Pedigree 126 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7623  **
+M2                     0.5997
+
+
+                  Family in Pedigree 127 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7465
+M2                     0.6369
+
+
+                  Family in Pedigree 128 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.4073
+M2                     0.6369
+
+
+                  Family in Pedigree 129 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.6731
+M2                     0.8569  **
+
+
+                  Family in Pedigree 130 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7465
+M2                     0.6740  **
+
+
+                  Family in Pedigree 131 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7200
+M2                     0.7110  **
+
+
+                  Family in Pedigree 132 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7569  **
+M2                     0.6554  **
+
+
+                  Family in Pedigree 133 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7548  **
+M2                     0.5931
+
+
+                  Family in Pedigree 134 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.6778
+M2                     0.5641
+
+
+                  Family in Pedigree 135 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7465
+M2                     0.6369
+
+
+                  Family in Pedigree 136 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7465
+M2                     0.6327
+
+
+                  Family in Pedigree 137 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7465
+M2                     0.6374  **
+
+
+                  Family in Pedigree 138 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7965  **
+M2                     0.6699  **
+
+
+                  Family in Pedigree 139 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.8862  **
+M2                     0.2555
+
+
+                  Family in Pedigree 140 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7465
+M2                     0.6327
+
+
+                  Family in Pedigree 141 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7533  **
+M2                     0.6795  **
+
+
+                  Family in Pedigree 142 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7465
+M2                     0.2470
+
+
+                  Family in Pedigree 143 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7618  **
+M2                     0.6369
+
+
+                  Family in Pedigree 144 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.6079
+M2                     0.7077  **
+
+
+                  Family in Pedigree 145 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7997  **
+M2                     0.7290  **
+
+
+                  Family in Pedigree 146 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7492  **
+M2                     0.7608  **
+
+
+                  Family in Pedigree 147 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7065
+M2                     0.6710  **
+
+
+                  Family in Pedigree 148 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7465
+M2                     0.6316
+
+
+                  Family in Pedigree 149 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.8201  **
+M2                     0.3825
+
+
+                  Family in Pedigree 150 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7465
+M2                     0.6369
+
+
+                  Family in Pedigree 151 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.9309  **
+M2                     0.5986
+
+
+                  Family in Pedigree 152 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7465
+M2                     0.6367
+
+
+                  Family in Pedigree 153 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7416
+M2                     0.6373  **
+
+
+                  Family in Pedigree 154 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7465
+M2                     0.6369
+
+
+                  Family in Pedigree 155 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7465
+M2                     0.6566  **
+
+
+                  Family in Pedigree 156 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.5708
+M2                     0.8569  **
+
+
+                  Family in Pedigree 157 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7465
+M2                     0.6379  **
+
+
+                  Family in Pedigree 158 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.6353
+M2                     0.7605  **
+
+
+                  Family in Pedigree 159 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7684  **
+M2                     0.6579  **
+
+
+                  Family in Pedigree 160 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7941  **
+M2                     0.6316
+
+
+                  Family in Pedigree 161 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7377
+M2                     0.6361
+
+
+                  Family in Pedigree 162 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.5708
+M2                     0.2470
+
+
+                  Family in Pedigree 163 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.6670
+M2                     0.7682  **
+
+
+                  Family in Pedigree 164 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7383
+M2                     0.3883
+
+
+                  Family in Pedigree 165 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7323
+M2                     0.5960
+
+
+                  Family in Pedigree 166 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7997  **
+M2                     0.6635  **
+
+
+                  Family in Pedigree 167 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7465
+M2                     0.6263
+
+
+                  Family in Pedigree 168 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7383
+M2                     0.6695  **
+
+
+                  Family in Pedigree 169 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.8201  **
+M2                     0.3449
+
+
+                  Family in Pedigree 170 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7309
+M2                     0.6687  **
+
+
+                  Family in Pedigree 171 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.8201  **
+M2                     0.7199  **
+
+
+                  Family in Pedigree 172 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7783  **
+M2                     0.6202
+
+
+                  Family in Pedigree 173 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7068
+M2                     0.7325  **
+
+
+                  Family in Pedigree 174 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7465
+M2                     0.6369
+
+
+                  Family in Pedigree 175 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7575  **
+M2                     0.8647  **
+
+
+                  Family in Pedigree 176 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7575  **
+M2                     0.8926  **
+
+
+                  Family in Pedigree 177 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7536  **
+M2                     0.6513  **
+
+
+                  Family in Pedigree 178 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7616  **
+M2                     0.6337
+
+
+                  Family in Pedigree 179 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7465
+M2                     0.6369
+
+
+                  Family in Pedigree 180 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7200
+M2                     0.6316
+
+
+                  Family in Pedigree 181 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7930  **
+M2                     0.6343
+
+
+                  Family in Pedigree 182 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7465
+M2                     0.6368
+
+
+                  Family in Pedigree 183 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7465
+M2                     0.6369
+
+
+                  Family in Pedigree 184 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7465
+M2                     0.6369
+
+
+                  Family in Pedigree 185 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7575  **
+M2                     0.6922  **
+
+
+                  Family in Pedigree 186 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7200
+M2                     0.6315
+
+
+                  Family in Pedigree 187 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7465
+M2                     0.6369
+
+
+                  Family in Pedigree 188 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7465
+M2                     0.6316
+
+
+                  Family in Pedigree 189 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7555  **
+M2                     0.0637
+
+
+                  Family in Pedigree 190 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7334
+M2                     0.5744
+
+
+                  Family in Pedigree 191 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.8759  **
+M2                     0.0717
+
+
+                  Family in Pedigree 192 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7465
+M2                     0.6135
+
+
+                  Family in Pedigree 193 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7590  **
+M2                     0.6411  **
+
+
+                  Family in Pedigree 194 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7288
+M2                     0.6039
+
+
+                  Family in Pedigree 195 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7239
+M2                     0.7850  **
+
+
+                  Family in Pedigree 196 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7465
+M2                     0.6369
+
+
+                  Family in Pedigree 197 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7465
+M2                     0.9207  **
+
+
+                  Family in Pedigree 198 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7465
+M2                     0.4994
+
+
+                  Family in Pedigree 199 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7465
+M2                     0.5762
+
+
+                  Family in Pedigree 200 Containing Member 1
+                                
+Locus             Posterior     
+                  Probability   
+---------------   -----------   
+M1                     0.7465
+M2                     0.6107
+
+
+
+
+
+                    Faraway's Linkage Test                             
+                    Variance-Covariance Matrices                       
+                    Parameter Order (Male Recomb, Female Recomb, Alpha)
+
+Locus             
+---------------
+M1                   0.0096   0.0053    0.029
+                     0.0053    0.011    0.036
+                      0.029    0.036     0.17
+
+M2                   0.0025  0.00089   0.0034
+                    0.00089    0.007    0.019
+                     0.0034    0.019    0.063
+
+
+
+
+                    Smith's Homogeneity Test                           
+                    Variance-Covariance Matrices                       
+                    Parameter Order (Male Recomb, Female Recomb, Alpha)
+
+Locus             
+---------------
+M1                   0.0096   0.0053    0.029
+                     0.0053    0.011    0.036
+                      0.029    0.036     0.17
+
+M2                   0.0025  0.00089   0.0034
+                    0.00089    0.007    0.019
+                     0.0034    0.019    0.063
+

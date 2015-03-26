@@ -1,0 +1,26 @@
+1S.A.G.E. RELEASE 3.1 -- FSP   		DECEMBER 1997
+ COPYRIGHT (C) 1997 CASE WESTERN RESERVE UNIVERSITY.
+
+
+ FSP PARAMETER FILE FOR DBH DATA                                                 
+
+ PEDIGREE NO #     1, PEDIGREE ID = 00005
+
+ !-----------------------------------------------------------------------------!
+ ! FSP GENERAL STATISTICS TABLE                                                !
+ !-----------------------------------------------------------------------------!
+ ! Number of records read .......   88  ! Type of pedigree ........... SIMPLE  !
+ ! Number of generations ........    4  ! Number of subpedigrees .......    1  !
+ ! Number of duplicated records .    0  ! Number of Fatal errors .......    0  !
+ !-----------------------------------------------------------------------------!
+
+ !=============================================================================!
+ ! FSP FINAL STATISTICS TABLE                                                  !
+ !=============================================================================!
+ !    PEDIGREE       # OF  !    PEDIGREE       # OF  !    PEDIGREE       # OF  !
+ !  SEQ.      ID.   PEOPLE !  SEQ.      ID.   PEOPLE !  SEQ.      ID.   PEOPLE !
+ !  ----    -----   ------ !  ----    -----   ------ !  ----    -----   ------ !
+ !     1    00005       88 !                         !                         !
+ !-----------------------------------------------------------------------------!
+ ! TOTAL NUMBER OF PEDIGREES     1, TOTAL NUMBER OF PEOPLE     88              !
+ !=============================================================================!

@@ -1,0 +1,34 @@
+pedigree
+{
+  pedigree_id=PID
+  individual_id=ID
+  sex_field=SEX
+  parent_id=P1
+  parent_id=P2
+  trait=DISEASE, binary, affected=1, unaffected=0
+  trait=HEMATOCRIT
+  trait=t
+  trait=u
+  trait=v
+  trait=w
+  trait=x
+  trait=y
+  trait=z
+}
+
+segreg_analysis
+{
+  trait = hematocrit, type = continuous
+  
+}
+
+segreg_analysis
+{
+  trait = hematocrit, type = age_onset
+}
+
+segreg_analysis
+{
+  trait = hematocrit, type = xyz
+}
+

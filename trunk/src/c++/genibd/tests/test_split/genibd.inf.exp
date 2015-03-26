@@ -1,0 +1,638 @@
+
+
+
+%GENIBD-W: Allele frequencies for marker D3S1304 do not sum to 1.  Allele
+           frequencies will be normalized to 1.
+%GENIBD-W: Allele frequencies for marker D3S1263 do not sum to 1.  Allele
+           frequencies will be normalized to 1.
+%GENIBD-W: Allele frequencies for marker D4S1304 do not sum to 1.  Allele
+           frequencies will be normalized to 1.
+%GENIBD-W: Allele frequencies for marker D4S1263 do not sum to 1.  Allele
+           frequencies will be normalized to 1.
+%GENIBD-W: [1] Unrecognized value for marker 'D3S1297' of individual '408' in
+           pedigree '1': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [1] Unrecognized value for marker 'D3S1304' of individual '408' in
+           pedigree '1': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [1] Unrecognized value for marker 'D3S1263' of individual '408' in
+           pedigree '1': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [1] Unrecognized value for marker 'D4S1297' of individual '408' in
+           pedigree '1': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [1] Unrecognized value for marker 'D4S1304' of individual '408' in
+           pedigree '1': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [1] Unrecognized value for marker 'D4S1263' of individual '408' in
+           pedigree '1': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [2] Unrecognized value for marker 'D3S1297' of individual '508' in
+           pedigree '1': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [2] Unrecognized value for marker 'D3S1304' of individual '508' in
+           pedigree '1': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [2] Unrecognized value for marker 'D3S1263' of individual '508' in
+           pedigree '1': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [2] Unrecognized value for marker 'D4S1297' of individual '508' in
+           pedigree '1': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [2] Unrecognized value for marker 'D4S1304' of individual '508' in
+           pedigree '1': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [2] Unrecognized value for marker 'D4S1263' of individual '508' in
+           pedigree '1': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [7] Unrecognized value for marker 'D3S1304' of individual 'G18' in
+           pedigree '1': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [7] Unrecognized value for marker 'D3S1263' of individual 'G18' in
+           pedigree '1': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [7] Unrecognized value for marker 'D4S1304' of individual 'G18' in
+           pedigree '1': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [7] Unrecognized value for marker 'D4S1263' of individual 'G18' in
+           pedigree '1': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [12] Unrecognized value for marker 'D3S1304' of individual 'J18' in
+           pedigree '1': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [12] Unrecognized value for marker 'D3S1263' of individual 'J18' in
+           pedigree '1': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [12] Unrecognized value for marker 'D4S1304' of individual 'J18' in
+           pedigree '1': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [12] Unrecognized value for marker 'D4S1263' of individual 'J18' in
+           pedigree '1': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [17] Unrecognized value for marker 'D3S1297' of individual '408' in
+           pedigree '2': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [17] Unrecognized value for marker 'D3S1304' of individual '408' in
+           pedigree '2': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [17] Unrecognized value for marker 'D3S1263' of individual '408' in
+           pedigree '2': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [17] Unrecognized value for marker 'D4S1297' of individual '408' in
+           pedigree '2': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [17] Unrecognized value for marker 'D4S1304' of individual '408' in
+           pedigree '2': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [17] Unrecognized value for marker 'D4S1263' of individual '408' in
+           pedigree '2': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [18] Unrecognized value for marker 'D3S1297' of individual '508' in
+           pedigree '2': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [18] Unrecognized value for marker 'D3S1304' of individual '508' in
+           pedigree '2': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [18] Unrecognized value for marker 'D3S1263' of individual '508' in
+           pedigree '2': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [18] Unrecognized value for marker 'D4S1297' of individual '508' in
+           pedigree '2': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [18] Unrecognized value for marker 'D4S1304' of individual '508' in
+           pedigree '2': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [18] Unrecognized value for marker 'D4S1263' of individual '508' in
+           pedigree '2': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [23] Unrecognized value for marker 'D3S1304' of individual 'G18' in
+           pedigree '2': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [23] Unrecognized value for marker 'D3S1263' of individual 'G18' in
+           pedigree '2': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [23] Unrecognized value for marker 'D4S1304' of individual 'G18' in
+           pedigree '2': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [23] Unrecognized value for marker 'D4S1263' of individual 'G18' in
+           pedigree '2': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [28] Unrecognized value for marker 'D3S1304' of individual 'J18' in
+           pedigree '2': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [28] Unrecognized value for marker 'D3S1263' of individual 'J18' in
+           pedigree '2': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [28] Unrecognized value for marker 'D4S1304' of individual 'J18' in
+           pedigree '2': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [28] Unrecognized value for marker 'D4S1263' of individual 'J18' in
+           pedigree '2': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [33] Unrecognized value for marker 'D3S1297' of individual '408' in
+           pedigree '3': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [33] Unrecognized value for marker 'D3S1304' of individual '408' in
+           pedigree '3': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [33] Unrecognized value for marker 'D3S1263' of individual '408' in
+           pedigree '3': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [33] Unrecognized value for marker 'D4S1297' of individual '408' in
+           pedigree '3': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [33] Unrecognized value for marker 'D4S1304' of individual '408' in
+           pedigree '3': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [33] Unrecognized value for marker 'D4S1263' of individual '408' in
+           pedigree '3': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [34] Unrecognized value for marker 'D3S1297' of individual '508' in
+           pedigree '3': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [34] Unrecognized value for marker 'D3S1304' of individual '508' in
+           pedigree '3': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [34] Unrecognized value for marker 'D3S1263' of individual '508' in
+           pedigree '3': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [34] Unrecognized value for marker 'D4S1297' of individual '508' in
+           pedigree '3': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [34] Unrecognized value for marker 'D4S1304' of individual '508' in
+           pedigree '3': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [34] Unrecognized value for marker 'D4S1263' of individual '508' in
+           pedigree '3': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [39] Unrecognized value for marker 'D3S1304' of individual 'G18' in
+           pedigree '3': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [39] Unrecognized value for marker 'D3S1263' of individual 'G18' in
+           pedigree '3': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [39] Unrecognized value for marker 'D4S1304' of individual 'G18' in
+           pedigree '3': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [39] Unrecognized value for marker 'D4S1263' of individual 'G18' in
+           pedigree '3': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [44] Unrecognized value for marker 'D3S1304' of individual 'J18' in
+           pedigree '3': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [44] Unrecognized value for marker 'D3S1263' of individual 'J18' in
+           pedigree '3': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [44] Unrecognized value for marker 'D4S1304' of individual 'J18' in
+           pedigree '3': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [44] Unrecognized value for marker 'D4S1263' of individual 'J18' in
+           pedigree '3': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [49] Unrecognized value for marker 'D3S1297' of individual '408' in
+           pedigree '4': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [49] Unrecognized value for marker 'D3S1304' of individual '408' in
+           pedigree '4': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [49] Unrecognized value for marker 'D3S1263' of individual '408' in
+           pedigree '4': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [49] Unrecognized value for marker 'D4S1297' of individual '408' in
+           pedigree '4': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [49] Unrecognized value for marker 'D4S1304' of individual '408' in
+           pedigree '4': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [49] Unrecognized value for marker 'D4S1263' of individual '408' in
+           pedigree '4': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [50] Unrecognized value for marker 'D3S1297' of individual '508' in
+           pedigree '4': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [50] Unrecognized value for marker 'D3S1304' of individual '508' in
+           pedigree '4': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [50] Unrecognized value for marker 'D3S1263' of individual '508' in
+           pedigree '4': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [50] Unrecognized value for marker 'D4S1297' of individual '508' in
+           pedigree '4': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [50] Unrecognized value for marker 'D4S1304' of individual '508' in
+           pedigree '4': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [50] Unrecognized value for marker 'D4S1263' of individual '508' in
+           pedigree '4': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [55] Unrecognized value for marker 'D3S1304' of individual 'G18' in
+           pedigree '4': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [55] Unrecognized value for marker 'D3S1263' of individual 'G18' in
+           pedigree '4': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [55] Unrecognized value for marker 'D4S1304' of individual 'G18' in
+           pedigree '4': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [55] Unrecognized value for marker 'D4S1263' of individual 'G18' in
+           pedigree '4': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [60] Unrecognized value for marker 'D3S1304' of individual 'J18' in
+           pedigree '4': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [60] Unrecognized value for marker 'D3S1263' of individual 'J18' in
+           pedigree '4': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [60] Unrecognized value for marker 'D4S1304' of individual 'J18' in
+           pedigree '4': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [60] Unrecognized value for marker 'D4S1263' of individual 'J18' in
+           pedigree '4': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [65] Unrecognized value for marker 'D3S1297' of individual '408' in
+           pedigree '5': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [65] Unrecognized value for marker 'D3S1304' of individual '408' in
+           pedigree '5': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [65] Unrecognized value for marker 'D3S1263' of individual '408' in
+           pedigree '5': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [65] Unrecognized value for marker 'D4S1297' of individual '408' in
+           pedigree '5': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [65] Unrecognized value for marker 'D4S1304' of individual '408' in
+           pedigree '5': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [65] Unrecognized value for marker 'D4S1263' of individual '408' in
+           pedigree '5': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [66] Unrecognized value for marker 'D3S1297' of individual '508' in
+           pedigree '5': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [66] Unrecognized value for marker 'D3S1304' of individual '508' in
+           pedigree '5': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [66] Unrecognized value for marker 'D3S1263' of individual '508' in
+           pedigree '5': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [66] Unrecognized value for marker 'D4S1297' of individual '508' in
+           pedigree '5': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [66] Unrecognized value for marker 'D4S1304' of individual '508' in
+           pedigree '5': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [66] Unrecognized value for marker 'D4S1263' of individual '508' in
+           pedigree '5': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [71] Unrecognized value for marker 'D3S1304' of individual 'G18' in
+           pedigree '5': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [71] Unrecognized value for marker 'D3S1263' of individual 'G18' in
+           pedigree '5': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [71] Unrecognized value for marker 'D4S1304' of individual 'G18' in
+           pedigree '5': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [71] Unrecognized value for marker 'D4S1263' of individual 'G18' in
+           pedigree '5': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [76] Unrecognized value for marker 'D3S1304' of individual 'J18' in
+           pedigree '5': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [76] Unrecognized value for marker 'D3S1263' of individual 'J18' in
+           pedigree '5': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [76] Unrecognized value for marker 'D4S1304' of individual 'J18' in
+           pedigree '5': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [76] Unrecognized value for marker 'D4S1263' of individual 'J18' in
+           pedigree '5': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [81] Unrecognized value for marker 'D3S1297' of individual '408' in
+           pedigree '6': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [81] Unrecognized value for marker 'D3S1304' of individual '408' in
+           pedigree '6': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [81] Unrecognized value for marker 'D3S1263' of individual '408' in
+           pedigree '6': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [81] Unrecognized value for marker 'D4S1297' of individual '408' in
+           pedigree '6': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [81] Unrecognized value for marker 'D4S1304' of individual '408' in
+           pedigree '6': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [81] Unrecognized value for marker 'D4S1263' of individual '408' in
+           pedigree '6': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [82] Unrecognized value for marker 'D3S1297' of individual '508' in
+           pedigree '6': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [82] Unrecognized value for marker 'D3S1304' of individual '508' in
+           pedigree '6': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [82] Unrecognized value for marker 'D3S1263' of individual '508' in
+           pedigree '6': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [82] Unrecognized value for marker 'D4S1297' of individual '508' in
+           pedigree '6': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [82] Unrecognized value for marker 'D4S1304' of individual '508' in
+           pedigree '6': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [82] Unrecognized value for marker 'D4S1263' of individual '508' in
+           pedigree '6': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [87] Unrecognized value for marker 'D3S1304' of individual 'G18' in
+           pedigree '6': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [87] Unrecognized value for marker 'D3S1263' of individual 'G18' in
+           pedigree '6': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [87] Unrecognized value for marker 'D4S1304' of individual 'G18' in
+           pedigree '6': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [87] Unrecognized value for marker 'D4S1263' of individual 'G18' in
+           pedigree '6': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [92] Unrecognized value for marker 'D3S1304' of individual 'J18' in
+           pedigree '6': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [92] Unrecognized value for marker 'D3S1263' of individual 'J18' in
+           pedigree '6': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [92] Unrecognized value for marker 'D4S1304' of individual 'J18' in
+           pedigree '6': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [92] Unrecognized value for marker 'D4S1263' of individual 'J18' in
+           pedigree '6': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [97] Unrecognized value for marker 'D3S1297' of individual '408' in
+           pedigree '8': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [97] Unrecognized value for marker 'D3S1304' of individual '408' in
+           pedigree '8': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [97] Unrecognized value for marker 'D3S1263' of individual '408' in
+           pedigree '8': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [97] Unrecognized value for marker 'D4S1297' of individual '408' in
+           pedigree '8': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [97] Unrecognized value for marker 'D4S1304' of individual '408' in
+           pedigree '8': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [97] Unrecognized value for marker 'D4S1263' of individual '408' in
+           pedigree '8': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [98] Unrecognized value for marker 'D3S1297' of individual '508' in
+           pedigree '8': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [98] Unrecognized value for marker 'D3S1304' of individual '508' in
+           pedigree '8': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [98] Unrecognized value for marker 'D3S1263' of individual '508' in
+           pedigree '8': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [98] Unrecognized value for marker 'D4S1297' of individual '508' in
+           pedigree '8': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [98] Unrecognized value for marker 'D4S1304' of individual '508' in
+           pedigree '8': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [98] Unrecognized value for marker 'D4S1263' of individual '508' in
+           pedigree '8': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [103] Unrecognized value for marker 'D3S1304' of individual 'G18' in
+           pedigree '8': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [103] Unrecognized value for marker 'D3S1263' of individual 'G18' in
+           pedigree '8': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [103] Unrecognized value for marker 'D4S1304' of individual 'G18' in
+           pedigree '8': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [103] Unrecognized value for marker 'D4S1263' of individual 'G18' in
+           pedigree '8': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [108] Unrecognized value for marker 'D3S1304' of individual 'J18' in
+           pedigree '8': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [108] Unrecognized value for marker 'D3S1263' of individual 'J18' in
+           pedigree '8': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [108] Unrecognized value for marker 'D4S1304' of individual 'J18' in
+           pedigree '8': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [108] Unrecognized value for marker 'D4S1263' of individual 'J18' in
+           pedigree '8': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [113] Unrecognized value for marker 'D3S1297' of individual '408' in
+           pedigree '9': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [113] Unrecognized value for marker 'D3S1304' of individual '408' in
+           pedigree '9': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [113] Unrecognized value for marker 'D3S1263' of individual '408' in
+           pedigree '9': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [113] Unrecognized value for marker 'D4S1297' of individual '408' in
+           pedigree '9': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [113] Unrecognized value for marker 'D4S1304' of individual '408' in
+           pedigree '9': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [113] Unrecognized value for marker 'D4S1263' of individual '408' in
+           pedigree '9': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [114] Unrecognized value for marker 'D3S1297' of individual '508' in
+           pedigree '9': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [114] Unrecognized value for marker 'D3S1304' of individual '508' in
+           pedigree '9': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [114] Unrecognized value for marker 'D3S1263' of individual '508' in
+           pedigree '9': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [114] Unrecognized value for marker 'D4S1297' of individual '508' in
+           pedigree '9': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [114] Unrecognized value for marker 'D4S1304' of individual '508' in
+           pedigree '9': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [114] Unrecognized value for marker 'D4S1263' of individual '508' in
+           pedigree '9': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [119] Unrecognized value for marker 'D3S1304' of individual 'G18' in
+           pedigree '9': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [119] Unrecognized value for marker 'D3S1263' of individual 'G18' in
+           pedigree '9': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [119] Unrecognized value for marker 'D4S1304' of individual 'G18' in
+           pedigree '9': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [119] Unrecognized value for marker 'D4S1263' of individual 'G18' in
+           pedigree '9': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [124] Unrecognized value for marker 'D3S1304' of individual 'J18' in
+           pedigree '9': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [124] Unrecognized value for marker 'D3S1263' of individual 'J18' in
+           pedigree '9': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [124] Unrecognized value for marker 'D4S1304' of individual 'J18' in
+           pedigree '9': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [124] Unrecognized value for marker 'D4S1263' of individual 'J18' in
+           pedigree '9': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [130] Unrecognized value for marker 'D3S1304' of individual '718' in
+           pedigree '9': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [130] Unrecognized value for marker 'D3S1263' of individual '718' in
+           pedigree '9': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [130] Unrecognized value for marker 'D4S1304' of individual '718' in
+           pedigree '9': Found '0   0'. Marker will be set to missing for this
+           individual.
+%GENIBD-W: [130] Unrecognized value for marker 'D4S1263' of individual '718' in
+           pedigree '9': Found '0   0'. Marker will be set to missing for this
+           individual.
+
+Family structure information on the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       SEX       PARENT1       PARENT2     
+     ------------  ------------  --------  ------------  ------------
+     1             408           F         0             0           
+     1             508           M         0             0           
+     1             208           M         408           508         
+     1             G08           F         408           508         
+     1             I08           M         408           508         
+     1             J08           M         408           508         
+     1             G18           M         0             0           
+     1             A18           F         G08           G18         
+     1             D18           M         G08           G18         
+     1             C18           F         G08           G18         
+
+
+Markers for the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       D3S1297       D3S1304       D3S1263       D4S1297       D4S1304       D4S1263     
+     ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------
+     1             408           0 0           0 0           0 0           0 0           0 0           0 0         
+     1             508           0 0           0 0           0 0           0 0           0 0           0 0         
+     1             208           227 219       265 265       235 241       227 219       265 265       235 241     
+     1             G08           227 219       265 265       241 233       227 219       265 265       241 233     
+     1             I08           227 219       261 261       245 233       227 219       261 261       245 233     
+     1             J08           227 219       261 265       235 241       227 219       261 265       235 241     
+     1             G18           225 223       0 0           0 0           225 223       0 0           0 0         
+     1             A18           225 219       261 265       245 233       225 219       261 265       245 233     
+     1             D18           227 223       261 265       245 233       227 223       261 265       245 233     
+     1             C18           225 219       261 265       245 233       225 219       261 265       245 233     
+
+%GENIBD-W: Pedigree '9' has 2 constituent pedigrees which are disjoint from one
+           another.  This may not be intended.  Results may be incorrect.  See
+           manual for details on constituent pedigrees.
+%GENIBD-I: Mapping function not specified.  Using Haldane Mapping Function.
+
+===========================================================================
+split_test : Multipoint analysis on regions (CHR3, CHR4):
+        * - Including intervals.
+        * - Maximum size for exact method is set to 18.
+        * - Pedigrees larger than 18 will be split into nuclear families.
+===========================================================================
+
+Processing Region: CHR3
+=======================================
+
+Processing Pedigree 1..............
+
+%GENIBD-I: Pedigree '1' with  will be split into nuclear families for this
+           analysis.
+
+Processing Pedigree 2..............
+
+%GENIBD-I: Pedigree '2' with  will be split into nuclear families for this
+           analysis.
+
+Processing Pedigree 3..............
+
+%GENIBD-I: Pedigree '3' with  will be split into nuclear families for this
+           analysis.
+
+Processing Pedigree 4..............
+
+%GENIBD-I: Pedigree '4' with  will be split into nuclear families for this
+           analysis.
+
+Processing Pedigree 5..............
+
+%GENIBD-I: Pedigree '5' with  will be split into nuclear families for this
+           analysis.
+
+Processing Pedigree 6..............
+
+%GENIBD-I: Pedigree '6' with  will be split into nuclear families for this
+           analysis.
+
+Processing Pedigree 8..............
+
+%GENIBD-I: Pedigree '8' with  will be split into nuclear families for this
+           analysis.
+
+Processing Pedigree 9..............
+
+%GENIBD-I: Pedigree '9' has 2 subpedigrees.  Each will be processed
+           individually.
+%GENIBD-I: Subpedigree 1 of pedigree '9' with founders (508, 408, G18, J18)
+           will be split into nuclear families for this analysis.
+%GENIBD-I: Subpedigree 2 of pedigree '9' includes founders (618, 718).
+
+Processing Region: CHR4
+=======================================
+
+Processing Pedigree 1..............
+
+%GENIBD-I: Pedigree '1' with  will be split into nuclear families for this
+           analysis.
+
+Processing Pedigree 2..............
+
+%GENIBD-I: Pedigree '2' with  will be split into nuclear families for this
+           analysis.
+
+Processing Pedigree 3..............
+
+%GENIBD-I: Pedigree '3' with  will be split into nuclear families for this
+           analysis.
+
+Processing Pedigree 4..............
+
+%GENIBD-I: Pedigree '4' with  will be split into nuclear families for this
+           analysis.
+
+Processing Pedigree 5..............
+
+%GENIBD-I: Pedigree '5' with  will be split into nuclear families for this
+           analysis.
+
+Processing Pedigree 6..............
+
+%GENIBD-I: Pedigree '6' with  will be split into nuclear families for this
+           analysis.
+
+Processing Pedigree 8..............
+
+%GENIBD-I: Pedigree '8' with  will be split into nuclear families for this
+           analysis.
+
+Processing Pedigree 9..............
+
+%GENIBD-I: Pedigree '9' has 2 subpedigrees.  Each will be processed
+           individually.
+%GENIBD-I: Subpedigree 1 of pedigree '9' with founders (508, 408, G18, J18)
+           will be split into nuclear families for this analysis.
+%GENIBD-I: Subpedigree 2 of pedigree '9' includes founders (618, 718).

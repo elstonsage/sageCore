@@ -1,0 +1,51 @@
+=================
+
+     Results
+
+=================
+
+==============================
+     Analysis description
+==============================
+
+  Title                        se_fe_me                      
+  Primary Trait                sqrtdbh (Quantitative)        
+  Allow averaging              Enabled                       
+  Omit complete summary table  Disabled                      
+  Summary table display order  By LRT p-value                
+  Summary filter               Show no more than 10 results  
+
+======================================
+     Transformation configuration
+======================================
+
+
+
+Note: No transformation applied.
+
+=======================
+     Summary table
+=======================
+
+----------------------------------------------------------------------------------------
+  Model      Intercept  Test cov.  Estimate   Std. err.  P-value (Wald)  P-value (LRT)  
+----------------------------------------------------------------------------------------
+  Alternate   5.041798  apres       0.186509   0.145129   0.198750        0.199234      
+----------------------------------------------------------------------------------------
+
+Note: Models with an asterisk (*) may not have converged.
+
+================================
+     Complete summary table
+================================
+
+----------------------------------------------------------------------------------------
+  Model      Intercept  Test cov.  Estimate   Std. err.  P-value (Wald)  P-value (LRT)  
+----------------------------------------------------------------------------------------
+  Alternate   5.041798  apres       0.186509   0.145129   0.198750        0.199234      
+----------------------------------------------------------------------------------------
+
+Note: Models with an asterisk (*) may not have converged.
+
+Note: See .det file for more information about each model
+

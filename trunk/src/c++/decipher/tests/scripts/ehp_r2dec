@@ -1,0 +1,52 @@
+#!/usr/local/bin/python
+#============================================================================
+# File:      ehp_r2dec
+#                                                                          
+# Author:    Dan Baechle
+#                                                                          
+# History:   3/21/6  Created.
+#                                                                          
+# Notes:     convert EHP.R output to decipher summary file format. 
+#
+# Usage:     ehp_r2dec <ehp_r file name> <results file name>
+#
+#============================================================================
+
+import os
+import sys
+from math import fabs
+from string import atof, join
+
+def parse_ehp_r(ehp_r_file):
+  haps = {}
+  lines = ehp_r_file.readlines()
+  
+  for line in lines:
+    fields = line.strip().split()
+    if fields:
+      if fields[0][:3] == 'hap':
+        haps[join(fields[1:-1], '-')] = atof(fields[-1])
+      
+  return  haps
+        
+        
+def write_results(results_file, haps):
+  results_file.write('---\n')
+  for item in haps.items():
+    results_file.write('%s  %f\n' % (item[0], item[1]))
+    
+  results_file.write('---\n')    
+   
+ 
+# - MAIN -
+#
+ehp_r_file = open(sys.argv[1], 'r')
+ehp_r_data = parse_ehp_r(ehp_r_file)
+ehp_r_file.close()
+
+results_file = open(sys.argv[2], 'w')
+write_results(results_file, ehp_r_data)
+results_file.close()
+
+sys.exit(0)
+

@@ -1,0 +1,111 @@
+\BRIEF\
+Licensing system
+\DOC_NAME\
+licenser_page
+\DETAILED\
+
+\#.\ What is this whole licensing system, anyway?
+
+I'm glad you asked! The licensing system is a component of the app library,
+and is designed to allow some basic licensing features to work on SAGE
+applications.
+
+The basic idea behind licensing is to provide some means of control for a
+software development shop to exert over its users. In order to enforce
+proper payment for use of SAGE, this licensing system has been put it place.
+It restricts the use of SAGE by the following two criteria:
+
+(1) Host computer (by MAC address)
+(2) Date (expiration date, that is).
+
+\#.\ How does it work?
+
+When a user purchases SAGE, that user notifies us of his host computer's MAC
+address (or ethernet address, if you prefer). We, in turn, pick an
+expiration date for this user's license. Using both the MAC address and
+expiration date, we generate an encrypted license file which we then send to
+the user. The user, in turn, places the license file in a known SAGE path.
+
+When he runs a SAGE program, that program will look for a license file.
+Assuming it finds one, it will check to make sure the license file found
+matches the host system. If it does, the program runs normally. If it
+doesn't, the program will produce warning / error messages.
+
+\#.\ Which classes are used in implementing licensing features in SAGE?
+
+In the SAGE::APP namespace, consult the following classes:
+
+SAGE::APP::StringUtils
+
+SAGE::APP::EthernetAddr
+
+SAGE::APP::Licenser
+
+SAGE::APP::Encrypter
+
+SAGE::APP::LicenseFile
+
+\#.\ How can I, as a programmer, use the Licensing feature?
+
+It's very simple: just invoke SAGE::APP::Licenser::canProgramRun() to find
+out if your program is allowed to run. It will take care of searching for a
+license file and, if found, comparing it against the host machine and
+current date. It returns a boolean: true if the program may run, false
+otherwise.
+
+\#.\ How do I generate a license file for a user?
+
+License file generation is handled by the executable create_license, which
+is created as a standard part of the app library. Having built a complete
+SAGe branch, you will find the create_license file in src/c++/app. If you
+run it with the -h option, you'll get a help menu explaining all the options
+available for generating license files.
+
+\#.\ I want to learn more about the encryption system used in the license files.
+
+First, a note about the type of encryption used:
+
+The purpose of this encryption is NOT to stump the FBI, NSA, and CIA. We are
+not trying to come up with an encryption scheme that can never be broken.
+This is a question of nuisance security. If the encryption is just
+complicated enough that an ordinary user won't bother with it, then we've
+accomplished what we need.
+
+\#.#.\ License file encryption
+
+A license file encrypts two pieces of information: a MAC address, and a
+date. The MAC address encryption works as follows:
+
+\#.#.#.\ Mac address
+
+For each of the 6 numbers in the address:
+  Express the number as an integer
+  Multiply it by 155
+  Concatenate that product to the encrypted MAC address string.
+
+Append a newline to the license file
+
+\#.#.#.\ Expiration date
+
+For each character x in the date (expressed as a string), change that
+character to (char) x+1.
+
+Do NOT append a newline to the license file. Use EOF instead.
+
+\#.#.#.\ How is the runtime license file checking done?
+
+When a SAGE program is run, the licenser looks for a license file (by
+looking at the SAGE_PATH on Unix, or the SOFTWARE\SAGE\SAGE_LIST key on the
+Windows registry). Assuming it finds one, it compares the host system's MAC
+address and current date against the license file's MAC address and
+expiration date. If either condition is not met, the licenser reports an
+error message and exits.
+
+\#.\ License file standard format:
+
+The license file is XML formatted, taking the form:
+
+    <SageLicense
+     Version="SAGE License 1.0"
+     EthernetAddr="xxx"
+     ExpirationDate="xxx"/>

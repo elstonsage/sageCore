@@ -1,0 +1,56 @@
+
+
+
+===============================
+LODLINK Analysis 2 SUMMARY FILE
+===============================
+
+
+Options Selected
+================
+Main locus type                          trait
+Main locus name                          T1
+
+Lod scores                               no
+
+Linkage tests                            yes
+  Sex-specific recombination fractions   yes
+  Assume homogeneity                     no
+
+Smith's test for homogeneity             yes
+  Sex-specific recombination fractions   yes
+
+Morton's test for homogeneity            no
+  Sex-specific recombination fractions   yes
+
+Genotype probabilities                   no
+  Sex-specific recombination fractions   no
+
+
+Results
+=======
+
+
+
+
+                  Faraway's Linkage Test        
+                                                
+                                                
+Locus             Male Rc     Female Rc   Est       Lod         Chi         P-Value     
+                  Fract in    Fract in    Linkage   Score       Square                  
+                  [0, .5]     [0, .5]     Prop                  Stat                    
+---------------   ---------   ---------   -------   ---------   ---------   ---------   
+M1                   0.3220      0.1297    0.7465        3.51        16.2   0.0006111   
+M2                   0.4250      0.0516    0.6369        8.06        37.1   1.762e-08   
+
+
+
+                  Smith's Homogeneity Test      
+                                                
+                                                
+Locus             Male Rc     Female Rc   Est       Chi         P-Value     
+                  Fract in    Fract in    Linkage   Square                  
+                  [0, .5]     [0, .5]     Prop      Stat                    
+---------------   ---------   ---------   -------   ---------   ---------   
+M1                   0.3220      0.1297    0.7465       0.239      0.8873   
+M2                   0.4250      0.0516    0.6369       0.933      0.6272   

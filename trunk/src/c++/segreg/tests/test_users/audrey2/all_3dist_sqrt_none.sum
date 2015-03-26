@@ -1,0 +1,44 @@
+=======================================================================================================
+  SEGREG Analysis for Trait : sqrtdbh
+=======================================================================================================
+  # Model Specification  
+
+      Model Class A
+      genotype specific mean sub-model     : three genotype specific means
+      genotype specific variance sub-model : one genotype specific variance
+      genotype frequency sub-model         : Hardy-Weinberg equilibrium
+      residual correlation sub-model       : no spouse correlation,
+                                             parent-offspring and sib-sib correlations equal
+      transmission sub-model               : no transmission
+      transformation sub-model             : none
+
+  # Number of Pedigrees : 0
+
+  # Final Estimates : 
+
+  Parameter           Parameter Est.  Standard Err.   First Deriv.   Status
+-------------------------------------------------------------------------------------------------------
+  mean_AA              1.57835692      1.42304170      0.00002188     IND, MAY VARY
+  mean_AB              3.18567939      0.59631550      0.00026011     IND, MAY VARY
+  mean_BB              5.61215571      0.20222479      0.00120582     IND, MAY VARY
+  variance             1.55064857      0.28332266      0.00000000     IND, MAY VARY
+  prob_AA              0.01214501      0.01198497                     DEPENDENT
+  prob_AB              0.19611879      0.08478227                     DEPENDENT
+  prob_BB              0.79173620      0.09676724                     DEPENDENT
+  freq_A               0.11020441      0.05437611     -0.00117391     IND-FN, MAY VARY
+  genotypic corr.      0.00000000      0.00000000                     FIXED EXTERNALLY
+  spousal resid c      0.00000000      0.00000000                     FIXED EXTERNALLY
+  po ss resid cor      0.00000000      0.00000000                     FIXED EXTERNALLY
+  cov1                 0.84454763      0.16986955      0.00004088     IND, MAY VARY
+  cov2                -0.60615370      0.11624418      0.00005696     IND, MAY VARY
+  cov3                -0.52518130      0.18471275     -0.00006574     IND, MAY VARY
+-------------------------------------------------------------------------------------------------------
+
+
+        LN(Likelihood) : -941.17
+     -2 LN(Likelihood) : 1882.34
+=======================================================================================================
+
+Final Error Code: 5
+
+

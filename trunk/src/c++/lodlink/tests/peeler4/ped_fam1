@@ -1,0 +1,6 @@
+PID,ID,P1,P2,SEX,M1,M2
+1,1, , ,F,A/A,C/C
+1,2, , ,M,A/B,C/D
+1,3,1,2,F,A/B,C/D
+1,4,1,2,M,A/A,C/C
+

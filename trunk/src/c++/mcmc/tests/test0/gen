@@ -1,0 +1,9 @@
+genome
+{
+  region=region1
+  {
+    marker=M1
+    distance=10.0
+    marker=M2
+  }
+}

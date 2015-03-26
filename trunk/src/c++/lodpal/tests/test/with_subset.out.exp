@@ -1,0 +1,32 @@
+
+
+
+=================================================================================================
+  Conditional Logistic Analysis of Affected Relative Pairs - multipoint
+=================================================================================================
+
+    Trait    : TBnew
+                concordantly affected relative pairs
+                 with discordantly affected sib pairs
+
+    Covariate: TBnew discordance status
+                mean           = 0.957447
+                std. deviation = 0.204029
+
+    Subset   : HIVNEG
+
+    Method   : default analysis method
+
+    Model    : one-parameter model, constrained, alpha = 2.634
+
+=================================================================================================
+                            Full   Half                  Parameter Estimates  First Derivatives
+                  LOD       Sib    Sib    Other  All     -------------------  -------------------
+MARKER      cM    SCORE     Pairs  Pairs  Pairs  Pairs   Beta1     TB discor  Beta1     TB discor
+----------------- --------- ------ ------ ------ ------  --------- ---------  --------- ---------
+ D6S270       0.0  1.839004     31     15      1     47   0.769497 -0.257846  -0.000000 -0.000007
+ D6S1587      3.2  2.264146     31     15      1     47   0.653163 -0.287349  -0.000000 -0.000064
+ D6S1675      9.3  1.543714     31     15      1     47   0.420347 -0.269775  -0.000000 -0.000008
+=================================================================================================
+
+

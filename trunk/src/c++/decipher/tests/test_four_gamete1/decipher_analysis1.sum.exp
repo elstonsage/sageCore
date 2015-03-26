@@ -1,0 +1,51 @@
+
+
+
+==========
+Analysis 1
+==========
+
+
+Options Selected
+================
+Haplotype region                                   entire
+Minor allele frequency filter                      no
+Sliding window                                     no
+Four gamete rule blocks                            yes
+  Threshold                                        0.01
+LD blocks                                          no
+
+Subpopulations specified                           no
+Analysis unit                                      family founders
+
+Estimate haplotype frequencies                     no
+Show all possible haplotype combinations table     no
+List most likely haplotype combinations            no
+Do likelihood ratio test                           no
+Compute empirical p-value                          no
+
+
+Results
+=======
+
+
+Block 1
+Markers in order:
+  RS13302035 RS549083 RS4741475 RS12554910 RS10733291 
+
+
+Block 2
+Markers in order:
+  RS472521 RS7467520 RS624443 RS517928 
+
+
+Block 3
+Markers in order:
+  RS527705 RS527634 RS693196 RS7876026 RS7849997 
+
+
+Block 4
+Markers in order:
+  RS11789697 RS569078 RS16932824 
+
+

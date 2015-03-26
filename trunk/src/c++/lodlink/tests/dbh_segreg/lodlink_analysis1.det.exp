@@ -1,0 +1,66 @@
+
+
+
+==============================
+LODLINK Analysis 1 DETAIL FILE
+==============================
+
+
+Results
+=======
+
+
+
+
+                  Lod Score Linkage Test      
+                  Variance-Covariance Matrices
+                  Parameter Order (Avg Recomb)
+
+Locus             Estimates in [0, .5]          Estimates in [0, 1]
+---------------   --------------------          -------------------
+ABO                  0.0022                         --- 
+
+KELL                  0.032                         --- 
+
+P                         0                        0.021
+
+FY                        0                        0.017
+
+JK                        0                        0.039
+
+PGD                    0.11                         --- 
+
+ADA                       0                        0.059
+
+AK1                       0                         --- 
+
+ACP1                      0                        0.024
+
+PGM1                      0                        0.058
+
+HBB                       0                          1.1
+
+GPT                   0.032                         --- 
+
+C3                    0.014                       0.0078
+
+HP                    0.011                         --- 
+
+TF                        0                         --- 
+
+GC                        0                         0.02
+
+ORM                   0.013                         --- 
+
+GM                        0                        0.014
+
+KM                        0                        0.071
+
+BF                   0.0082                         --- 
+
+ESD                   0.026                         --- 
+
+GLO1                  0.018                         0.01
+
+LE                        0                         0.33
+

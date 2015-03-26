@@ -1,0 +1,7 @@
+
+
+
+%AGEON-E: Error(s) building pedigree '0': 1 errors.
+%AGEON-C: Both parents '1' and '2' are labeled as or inferred to be female.
+%AGEON-E: Fatal error building pedigree data structure.  Aborting.
+%AGEON-F: Error reading pedigree data from file 'ped'.

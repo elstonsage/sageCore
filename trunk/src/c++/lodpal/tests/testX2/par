@@ -1,0 +1,69 @@
+pedigree
+{
+  individual_missing_value = 0
+  
+  pedigree_id = famid
+  individual_id = id
+  parent_id = dad
+  parent_id = mom
+  sex_field = sex, male = 1, female = 2, missing = 0
+  trait = aff, binary, affected = 2, unaffected = 0
+
+  allele = "GATA124B04a", name = "GATA124B04"
+  allele = "GATA124B04b", name = "GATA124B04"
+  allele = "GATA175D03a", name = "GATA175D03"
+  allele = "GATA175D03b", name = "GATA175D03"
+  allele = "GATA124E07a", name = "GATA124E07"
+  allele = "GATA124E07b", name = "GATA124E07"
+  allele = "AFM238yc11a", name = "AFM238yc11"
+  allele = "AFM238yc11b", name = "AFM238yc11"
+  allele = "GATA69C12a", name = "GATA69C12"
+  allele = "GATA69C12b", name = "GATA69C12"
+  allele = "GATA144D04a", name = "GATA144D04"
+  allele = "GATA144D04b", name = "GATA144D04"
+  allele = "GATA72E05a", name = "GATA72E05"
+  allele = "GATA72E05b", name = "GATA72E05"
+  allele = "GATA31D10a", name = "GATA31D10"
+  allele = "GATA31D10b", name = "GATA31D10"
+  allele = "GATA31F01a", name = "GATA31F01"
+  allele = "GATA31F01b", name = "GATA31F01"
+  allele = "GATA10C11a", name = "GATA10C11"
+  allele = "GATA10C11b", name = "GATA10C11"
+  allele = "GATA172D05a", name = "GATA172D05"
+  allele = "GATA172D05b", name = "GATA172D05"
+  allele = "GATA165B12a", name = "GATA165B12"
+  allele = "GATA165B12b", name = "GATA165B12"
+  allele = "AFM150xf10a", name = "AFM150xf10"
+  allele = "AFM150xf10b", name = "AFM150xf10"
+  allele = "GATA31E08a", name = "GATA31E08"
+  allele = "GATA31E08b", name = "GATA31E08"
+  allele = "GATA100G03a", name = "GATA100G03"
+  allele = "GATA100G03b", name = "GATA100G03"
+}
+
+lodpal, multipoint, output="base"
+{
+  trait = aff
+  wide_out=true
+  diagnostic = "GATA31F01"
+  x_linkage
+  {
+#    pair_type="MM"
+#    lambda2_fixed=false
+  }
+}
+lodpal, multipoint, output="cov_g"
+{
+  trait = aff
+  wide_out=true
+  diagnostic = "GATA31F01"
+  x_linkage
+  {
+#    pair_type="MM"
+  }
+  pair_info_file="pros1xwt.in"
+  {
+   #pair_weight="plink2"
+    pair_covariate="gleason", mean 
+  }
+}

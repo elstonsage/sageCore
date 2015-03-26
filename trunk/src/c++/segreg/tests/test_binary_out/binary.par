@@ -1,0 +1,61 @@
+pedigree, character {
+   # ---------------------------------------------------------------------------
+   # General specifications
+   # ---------------------------------------------------------------------------
+   delimiters               = "\t" # tab-delimited fields
+   delimiter_mode           = single
+   individual_missing_value = "0"
+   # sex_code, male = "M", female = "F", missing = ".", trait
+   verbose                  = 25
+   require_record           = false
+
+   # ---------------------------------------------------------------------------
+   # Individual & Family Field specifications
+   # ---------------------------------------------------------------------------
+   pedigree_id    = PED_ID
+   individual_id  = IND_ID
+   sex_field      = SEX
+   parent_id      = MOM_ID
+   parent_id      = DAD_ID
+
+   # ---------------------------------------------------------------------------
+   # Phenotype, Trait & Covariate Field specifications
+   # ---------------------------------------------------------------------------
+   trait     = "AFFECTED"       , missing =".", binary, affected = 1, unaffected = 0
+}
+segreg
+{
+trait = "AFFECTED", binary
+type_suscept
+{
+option = "three"
+suscept = "BB",val=-1.38629,fixed=true
+suscept = "AA",val=2.19728,fixed=true
+suscept = "AB",val=2.19722,fixed=true
+}
+resid{
+option=arb
+fm,val = 0,fixed=true 
+fo,val = 0,fixed=true 
+mo,val = 0,fixed=true 
+ss,val = 0,fixed=true 
+}
+geno_freq
+{
+option = "hwe"
+}
+transmission
+{
+option = "homog_mendelian"
+}
+prev_constraints{
+ constraint{
+    N= 100000
+    R= 78800
+    }
+ }
+output_options {
+type_prob = "true"
+}
+}
+

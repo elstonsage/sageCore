@@ -1,0 +1,57 @@
+
+
+
+==============================
+LODLINK Analysis 1 DETAIL FILE
+==============================
+
+
+Options Selected
+================
+Main locus type                          trait
+Main locus name                          T1
+
+Lod scores                               no
+
+Linkage tests                            no
+
+Smith's test for homogeneity             no
+
+Morton's test for homogeneity            yes
+
+  Sex-specific recombination fractions   yes
+
+  Groups Selected
+  ===============
+  group 1 pedigrees                1   10   2   3   4   5   6   7   8   9   
+  group 2 pedigrees                11   12   13   14   15   16   17   18   19   20   
+
+Genotype probabilities                   no
+
+
+Results
+=======
+
+                  Morton's Homogeneity Test
+
+
+                  Group 1
+
+Locus             Male Rc        Female Rc      Natural Log   
+                  Fract in       Fract in       Maximum       
+                  [0, 1]         [0, 1]         Likelihood    
+---------------   ------------   ------------   -----------   
+M1                    0.000000       0.000000   -177.287073
+M2                    0.000000       0.000000   -226.870512
+
+
+                  Group 2
+
+Locus             Male Rc        Female Rc      Natural Log   
+                  Fract in       Fract in       Maximum       
+                  [0, 1]         [0, 1]         Likelihood    
+---------------   ------------   ------------   -----------   
+M1                    0.415044       0.194888   -194.918249
+M2                    0.626060       0.633128   -270.168050
+
+

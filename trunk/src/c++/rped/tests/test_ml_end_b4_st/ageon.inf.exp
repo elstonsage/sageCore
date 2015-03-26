@@ -1,0 +1,7 @@
+
+
+
+%AGEON-F: End marker 'M2' of marker list starting with 'M3' not found in
+          pedigree file fields following the start marker. Please check your
+          parameters.
+%AGEON-F: Error reading pedigree data from file '../test_marker_list/ped'.

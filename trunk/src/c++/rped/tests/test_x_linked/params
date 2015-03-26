@@ -1,0 +1,17 @@
+pedigree
+{
+  no_sex_ok=true
+  delimiter_mode = multiple
+  delimiters=" "
+  individual_missing_value="0"
+  sex_code,male="1",female="2",missing="?"
+
+  pedigree_id=fam
+  parent_id=mid
+  parent_id=fid
+  individual_id=id
+  sex_field=sex
+  marker=M1,x_linked=true,missing="M"
+
+  verbose = 1000
+}

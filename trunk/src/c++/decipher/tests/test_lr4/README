@@ -1,0 +1,8 @@
+Both subpopulations of population 1 were simulated to have with all
+haplotypes being equally likely.
+
+In population 2, one subpopulation was simulated with all haplotypes being
+equally likely, while the other was simulated with 4 haplotypes having a
+frequency of .15 and 4 haplotypes having a frequency of .10.
+
+Takes 20 hours to run!

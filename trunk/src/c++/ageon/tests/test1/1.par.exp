@@ -1,0 +1,22 @@
+pedigree, file="1.ped"
+{
+  delimiter_mode = multiple
+  delimiters=" 	"
+  individual_missing_value="0"
+  sex_code, male="1", female="0", unknown=""
+  pedigree_id   = PED
+  individual_id = ID
+  parent_id     = P1
+  parent_id     = P2
+  sex_field     = SEX
+  trait = nt_equal_trait, missing="nan"
+  trait = nt_equal_residual, missing="nan"
+  trait = nt_free_trait, missing="nan"
+  trait = nt_free_residual, missing="nan"
+  trait = t_equal_trait, missing="nan"
+  trait = t_equal_residual, missing="nan"
+  trait = t_free_trait, missing="nan"
+  trait = t_free_residual, missing="nan"
+}
+
+

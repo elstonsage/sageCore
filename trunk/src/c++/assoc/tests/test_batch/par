@@ -1,0 +1,45 @@
+pedigree  
+{
+  pedigree_id=famcode
+  verbose=20
+  individual_id=UID
+  sex_field=sexnum
+  parent_id=mother, missing=999
+  parent_id=father, missing=999
+
+  individual_missing_value=999
+  sex_code, male="M", female="F" 
+  sex_code, trait
+
+  trait=selection, binary, missing=999
+  trait=age, missing=999
+  trait=bmi, missing=999
+  trait=sbpd_rand10, missing=999
+  trait=na_u24c, missing=999
+  trait=k_u24c, missing=999
+}
+
+function, list=traits 
+{
+  covariate = foo, expression = "$name$ + 1" 
+}
+
+assoc_analysis
+{
+  trait=sbpd_rand10   
+  
+  cov=sex_code
+  
+  batch
+  
+  fe=false
+  me=false
+  se=false
+  pe=false
+  
+  transformation  
+  { 
+    option=none 
+  }
+}
+

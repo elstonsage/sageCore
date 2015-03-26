@@ -1,0 +1,27 @@
+=======================
+
+     Freq Analysis
+
+=======================
+
+=======================
+     Configuration
+=======================
+
+  Output file:                 freq           
+  Founder weight:              Disabled       
+  Max. likelihood estimation:  Enabled        
+  Inbreeding coefficient:      Not estimated  
+
+Note: A '*' by an MLE column indicates that the corresponding maximization may not have converged. Please review the detailed output file for more information.
+========================================
+     Allele frequencies 'rs3748022'
+========================================
+
+----------------------------------------------------
+  Allele  Founders only  Entire dataset  MLE        
+----------------------------------------------------
+  2        0.648438       0.648438        0.648438  
+  1        0.351562       0.351562        0.351563  
+
+

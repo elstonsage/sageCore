@@ -1,0 +1,15 @@
+                                                 Test Directory
+
+Lodlink Task                            Summary                   Detail
+------------                            -------                   ------
+non ss lod scores                       lods                      lods
+ss lod scores                           lods                      lods
+non ss lod score ratio linkage test     sim_non_ss                N/A
+ss lod score ratio linkage test         sim_ss                    N/A
+Cleves-Elston linkage test              sim_ss                    N/A
+non ss Faraway's linkage test           sim_non_ss                sim_non_ss (post_avg script)
+ss Faraway's linkage test               sim_ss                    sim_ss (post_avg script)
+non ss Smith's homogeneity test         sim_non_ss                N/A
+ss Smith's homogeneity test             sim_ss                    N/A
+non ss Morton's homogeneity test        sim_non_ss_mort           sim_non_ss_mort
+ss Morton's homogeneity test            sim_ss_mort               sim_ss_mort

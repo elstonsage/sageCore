@@ -1,0 +1,60 @@
+1S.A.G.E. RELEASE 3.1 -- LODLINK   		DECEMBER 1997
+ COPYRIGHT (C) 1997 CASE WESTERN RESERVE UNIVERSITY.
+
+
+ LODLINK GENERAL PARAMETERS
+ --------------------------
+     TITLE ............................... DBH data.  Lodlink parameter file.                                              
+     NUMBER OF MARKER LOCI ...............    2
+     FEMALE AND MALE SYMBOLS ............. F  M
+     MORTON'S HOMOGENEITY TEST ........... NO 
+     SMITH'S HOMOGENEITY TEST AND TEST
+     FOR LINKAGE UNDER HETEROGENEITY ..... NO 
+     NUMBER OF PEDIGREES .................    1
+     RECOMBINATION FRACTION 
+      -- FOR MALES, (THETA M) ............   .0000    .0100    .0500    .1000    .2000    .3000    .4000
+      -- FOR FEMALES, (THETA F) ..........   .0000    .0100    .0500    .1000    .2000    .3000    .4000
+
+ Locus ABO     
+
+ A1  =   .1904, A2  =   .0612, B   =   .0728, O   =   .6756, 
+  No.   Genotype   Phenotype   Genotypic Frequency
+
+    1   A1  A1       1                .036252
+    2   A1  A2       1                .023305
+    3   A1  B        2                .027722
+    4   A1  O        1                .257268
+    5   A2  A2       3                .003745
+    6   A2  B        4                .008911
+    7   A2  O        3                .082693
+    8   B   B        5                .005300
+    9   B   O        5                .098367
+   10   O   O        6                .456435
+
+ Locus AK1     
+
+ 1   =   .9620, 2   =   .0380, 
+  No.   Genotype   Phenotype   Genotypic Frequency
+
+    1   1   1        1                .925444
+    2   1   2        2                .073112
+    3   2   2        3                .001444
+
+ LINKAGE ANALYSIS BETWEEN LOCUS ABO      AND LOCUS AK1     
+ ==========================================================
+
+
+ FAMILY NUMBER    1 (ID. IS 00005)
+ ---------------------------------
+
+ %LODLINK-I: There are   30 individuals with missing marker data.
+
+         Rm       Rf     Log10[L(R)]     LOD-SCORE
+      .0000    .0000      -27.070432       .038506
+      .0100    .0100      -27.071900       .037038
+      .0500    .0500      -27.077520       .031419
+      .1000    .1000      -27.083951       .024988
+      .2000    .2000      -27.094726       .014212
+      .3000    .3000      -27.102569       .006369
+      .4000    .4000      -27.107338       .001601
+      .5000    .5000      -27.108938       .000000

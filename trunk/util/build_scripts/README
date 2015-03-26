@@ -1,0 +1,38 @@
+This directory contains all the scripts used for building S.A.G.E. in an automated
+way and testing that build.  They are used for automated nightly builds and also
+to test merges and the like manually.
+
+The primary script is known as diff_test.  This script runs make on the tree and
+compares the output generated against platform-specific log files stored in the exp/
+subdirectory.  With default arguments it does a standard release build, clearing
+everything before building (necessary to avoid spurious diffs).  Alternatively,
+a command line parameter can indicate what kind of build is to be performed.  
+In our schema, this is used for running 'make testbuild' at present, though other
+things could be used.  It returns a status indicator as to the success or failure.
+
+source_test is a script similar to diff_test, in that it runs make on the SAGE
+source, but it also runs the tests and stores test results in a second log file.
+This log file is specifically generated for easy reading and being 
+non-platform-specific.
+
+Finally, install_test runs make_install on the directories, which copies the
+compiled binaries into the SAGE/release/ directory, strips them and checks their
+link dependencies.  For platforms for which volatiles are to be created, it installs
+them as well.
+
+The overall method of using this directory:
+
+1.  Run diff_test (no arguments)
+2.  Run diff_test testbuild
+3.  Run source_test
+4.  Run install_test
+
+If all of these operations pass, the tree is considered good.
+
+All other files in the directory are either used by this process (as in the files in
+the exp/ directory).  Some are out of date (newexps, for example), and are left
+in the hopes that someone will have time and inclination to improve the existing
+system.
+
+
+

@@ -1,0 +1,61 @@
+
+
+
+
+Family structure information on the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       SEX       PARENT1       PARENT2     
+     ------------  ------------  --------  ------------  ------------
+     1256          1002          1         2046          2096        
+     1256          4346          1         3046          3146        
+     1256          2046          1         3046          3146        
+     1256          2096          2                                   
+     1256          3046          2                                   
+     1256          3146          1                                   
+     1331          1             2         11            12          
+     1331          3046          2         11            12          
+     1331          1035          2         2046          2096        
+     1331          2101          1         2046          2096        
+
+
+Phenotypes for the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       SEX_CODE              FAMILIAL_INDICATOR    FOUNDER_INDICATOR     PEDIGREE_SIZE         aff                   onset                 exam                  onset_exam          
+     ------------  ------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------
+     1256          1002          0                     1                     0                     6                     1                     18                    23                    18                  
+     1256          4346          0                     1                     0                     6                     1                     26                    40                    26                  
+     1256          2046          0                     1                     0                     6                     0                     -9                    48                    48                  
+     1256          2096          1                     1                     1                     6                     0                     -9                    45                    45                  
+     1256          3046          1                     1                     1                     6                     0                     -9                    76                    76                  
+     1256          3146          0                     1                     1                     6                     0                     -9                    75                    75                  
+     1331          1             1                     1                     0                     14                    1                     45                    73                    45                  
+     1331          3046          1                     1                     0                     14                    0                     -9                    70                    70                  
+     1331          1035          1                     1                     0                     14                    1                     16                    32                    16                  
+     1331          2101          0                     1                     0                     14                    0                     -9                    36                    36                  
+
+
+Parsing Ageonset Analyses...
+
+Beginning new analysis block....
+
+Parsing Analysis: 'AGEON Analysis 1'....
+
+
+Analysis parsing complete.    Analysis valid.
+==============================================================
+
+Beginning new analysis block....
+
+Parsing Analysis: 'AGEON Analysis 2'....
+
+
+Analysis parsing complete.    Analysis valid.
+==============================================================
+
+
+Note:
+  To use the susceptability traits and survival analysis residuals,
+  use the additinal output files from this analysis
+  'ageon_analysis1.par' and 'ageon_analysis1.ped'.
+
+

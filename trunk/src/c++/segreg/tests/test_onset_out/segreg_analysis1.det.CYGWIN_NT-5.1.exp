@@ -1,0 +1,136 @@
+=====================================================================================================
+  SEGREG Analysis for Trait : AFFECTION
+=====================================================================================================
+  # Model Specification  
+
+    Model Class FPMM
+    Type means                   : one mean
+    Type variances               : one variance
+    Type susceptibilities        : one susceptibility
+    Finite polygenic mixed model : 0 polygenic loci
+    Transformation               : none
+    Type frequency               : 
+    Transmission                 : homogeneous no transmission
+
+  # Number of constituent pedigrees   : 3
+  # Number of unconnected individuals : 0
+
+  # Final Estimates : 
+
+  Parameter           Parameter Est.  Standard Err.   First Deriv.   Status
+-----------------------------------------------------------------------------------------------------
+  mean                 9.67089273      0.47906626      0.00075320     Independent
+  variance             1.33333333                                     Fixed
+  susc                 1.02539641      0.52599669     -0.00017612     Independent
+-----------------------------------------------------------------------------------------------------
+
+
+  # Variance-Covariance Matrix : 
+
+             |     mean            susc       
+----------------------------------------------
+  mean       |      0.22950448      0.03590360
+  susc       |      0.03590360      0.27667251
+----------------------------------------------
+
+
+        LN(Likelihood) : -101.75
+     -2 LN(Likelihood) : 203.5
+    Akaike's AIC score : 207.5
+=====================================================================================================
+
+=====================================================================================================
+  SEGREG Analysis for Trait : AFFECTION
+=====================================================================================================
+  # Model Specification  
+
+    Model Class FPMM
+    Type means                   : two means
+    Type variances               : one variance
+    Type susceptibilities        : one susceptibility
+    Finite polygenic mixed model : 0 polygenic loci
+    Transformation               : none
+    Type frequency               : Hardy-Weinberg equilibrium
+    Transmission                 : homogeneous no transmission
+
+  # Number of constituent pedigrees   : 3
+  # Number of unconnected individuals : 0
+
+  # Final Estimates : 
+
+  Parameter           Parameter Est.  Standard Err.   First Deriv.   Status
+-----------------------------------------------------------------------------------------------------
+  mean_AA_AB           4.85168060      0.83015072     -0.00004985     Independent
+  mean_BB             13.77232922      0.64976950      0.00001049     Independent
+  variance             1.33333333                                     Fixed
+  susc                 0.99087816      0.61023177     -0.00001328     Independent
+  prob_AA              0.25000000                                     Fixed
+  prob_AB              0.50000000                                     Fixed
+  prob_BB              0.25000000                                     Fixed
+  freq_A               0.50000000                                     Fixed
+-----------------------------------------------------------------------------------------------------
+
+
+  # Variance-Covariance Matrix : 
+
+             |     mean_AA_AB      mean_BB         susc       
+--------------------------------------------------------------
+  mean_AA_AB |      0.68915021      0.23971064      0.07333068
+  mean_BB    |      0.23971064      0.42220041      0.08747392
+  susc       |      0.07333068      0.08747392      0.37238281
+--------------------------------------------------------------
+
+
+        LN(Likelihood) : -70.9323
+     -2 LN(Likelihood) : 141.865
+    Akaike's AIC score : 147.865
+=====================================================================================================
+
+=====================================================================================================
+  SEGREG Analysis for Trait : AFFECTION
+=====================================================================================================
+  # Model Specification  
+
+    Model Class FPMM
+    Type means                   : three means
+    Type variances               : one variance
+    Type susceptibilities        : one susceptibility
+    Finite polygenic mixed model : 0 polygenic loci
+    Transformation               : none
+    Type frequency               : Hardy-Weinberg equilibrium
+    Transmission                 : homogeneous no transmission
+
+  # Number of constituent pedigrees   : 3
+  # Number of unconnected individuals : 0
+
+  # Final Estimates : 
+
+  Parameter           Parameter Est.  Standard Err.   First Deriv.   Status
+-----------------------------------------------------------------------------------------------------
+  mean_AA              2.00000000                                     Fixed
+  mean_AB             13.00000000                                     Fixed
+  mean_BB              9.39431307      1.47001310      0.00000000     Independent
+  variance             4.87878411      3.72684913      0.00000000     Independent
+  susc                 1.83213359      1.09239904      0.00000000     Independent
+  prob_AA              0.25000000                                     Fixed
+  prob_AB              0.50000000                                     Fixed
+  prob_BB              0.25000000                                     Fixed
+  freq_A               0.50000000                                     Fixed
+-----------------------------------------------------------------------------------------------------
+
+
+  # Variance-Covariance Matrix : 
+
+             |     mean_BB         variance        susc       
+--------------------------------------------------------------
+  mean_BB    |      2.16093850      2.25557146      0.37066568
+  variance   |      2.25557146     13.88940443      1.16563467
+  susc       |      0.37066568      1.16563467      1.19333566
+--------------------------------------------------------------
+
+
+        LN(Likelihood) : -54.0822
+     -2 LN(Likelihood) : 108.164
+    Akaike's AIC score : 114.164
+=====================================================================================================
+

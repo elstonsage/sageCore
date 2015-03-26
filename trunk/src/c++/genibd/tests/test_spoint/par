@@ -1,0 +1,97 @@
+pedigree
+{
+	delimiters = "\t"
+	delimiter_mode = "single"
+
+	individual_missing_value = "0"
+	sex_code, male = "1", female = "2"
+
+	pedigree_id = "FAMID"
+	individual_id = "ID"
+	parent_id = "FA"
+	parent_id = "MO"
+	sex_field = "SEX"
+
+	marker = "rs738842"
+	marker = "rs2040692"
+	marker = "rs2007439"
+	marker = "rs2051493"
+	marker = "rs2040346"
+	marker = "rs762601"
+	marker = "rs928781"
+	marker = "rs1806330"
+	marker = "rs1807624"
+	marker = "rs1007298"
+	marker = "rs973523"
+	marker = "rs1476053"
+	marker = "rs882432"
+	marker = "rs738402"
+	marker = "rs1072461"
+	marker = "rs134132"
+	marker = "rs735222"
+	marker = "rs2097607"
+	marker = "rs1476576"
+	marker = "rs737805"
+	marker = "rs1076297"
+	marker = "rs1013603"
+	marker = "rs2157199"
+	marker = "rs2032474"
+	marker = "rs933214"
+	marker = "rs141418"
+	marker = "rs1489872"
+	marker = "rs961857"
+	marker = "rs739200"
+	marker = "rs715550"
+	marker = "rs878847"
+	marker = "rs80576"
+	marker = "rs916336"
+	marker = "rs916269"
+	marker = "rs761491"
+	marker = "rs228980"
+	marker = "rs229508"
+	marker = "rs734139"
+	marker = "rs2064088"
+	marker = "rs909564"
+	marker = "rs760482"
+	marker = "rs80533"
+	marker = "rs713912"
+	marker = "rs2157231"
+	marker = "rs137826"
+	marker = "rs1476049"
+	marker = "rs132404"
+	marker = "rs739172"
+	marker = "rs728591"
+	marker = "rs738733"
+	marker = "rs715530"
+	marker = "rs960362"
+	marker = "rs2005640"
+	marker = "rs926868"
+	marker = "rs738598"
+	marker = "rs738604"
+	marker = "rs738614"
+
+	phenotype = COMT
+}
+
+marker
+{
+	allele_delimiter = "/"
+	allele_missing = "0/0"
+}
+
+genibd,out="single"
+{
+#        scan_type = intervals
+        ibd_mode = singlepoint
+#	ibd_mode = multipoint
+}
+
+sibpal
+{
+        trait_regression, single
+        {
+                trait = COMT
+                regression_method = diff
+        }
+
+}

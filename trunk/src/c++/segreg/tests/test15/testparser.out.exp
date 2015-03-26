@@ -1,0 +1,275 @@
+
+---------- 1 New Analysis Block 1 ---------- 
+
+Model class: D
+
+Prevalence - 
+
+
+---------- 2 New Analysis Block 2 ---------- 
+
+Model class: D
+
+Prevalence - 
+
+
+---------- 3 New Analysis Block 3 ---------- 
+
+Model class: D
+
+Prevalence - 
+
+
+---------- 4 New Analysis Block 4 ---------- 
+
+Model class: mixed
+
+Prevalence - 
+  AGE   5.000000  
+
+
+
+---------- 5 New Analysis Block 5 ---------- 
+
+Model class: invalid
+
+Prevalence - 
+
+
+---------- 6 New Analysis Block 6 ---------- 
+
+Model class: mixed
+
+Prevalence - 
+  AGE  Infinity  
+
+
+
+---------- 7 New Analysis Block 7 ---------- 
+
+Model class: mixed
+
+Prevalence - 
+  AGE   781.200000  
+
+
+
+---------- 8 New Analysis Block 8 ---------- 
+
+Model class: D
+
+Prevalence - 
+
+
+---------- 9 New Analysis Block 9 ---------- 
+
+Model class: D
+
+Prevalence - 
+
+
+---------- 10 New Analysis Block 10 ---------- 
+
+Model class: D
+
+Prevalence - 
+
+
+---------- 11 New Analysis Block 11 ---------- 
+
+Model class: D
+
+Prevalence - 
+
+
+---------- 12 New Analysis Block 12 ---------- 
+
+Model class: D
+
+Prevalence - 
+
+
+---------- 13 New Analysis Block 13 ---------- 
+
+Model class: D
+
+Prevalence - 
+
+
+---------- 14 New Analysis Block 14 ---------- 
+
+Model class: invalid
+
+Prevalence - 
+
+
+---------- 15 New Analysis Block 15 ---------- 
+
+Model class: invalid
+
+Prevalence - 
+
+
+---------- 16 New Analysis Block 16 ---------- 
+
+Model class: mlm
+
+Prevalence - 
+P Constraint: 0
+R:  5
+N:  10
+
+
+---------- 17 New Analysis Block 17 ---------- 
+
+Model class: invalid
+
+Prevalence - 
+P Constraint: 0
+R:  5
+N:  10
+
+
+---------- 18 New Analysis Block 18 ---------- 
+
+Model class: invalid
+
+Prevalence - 
+P Constraint: 0
+R:  5
+N:  10
+
+
+---------- 19 New Analysis Block 19 ---------- 
+
+Model class: invalid
+
+Prevalence - 
+P Constraint: 0
+
+Name(S): x
+Coefficient: 1
+
+R:  5
+N:  10
+
+
+---------- 20 New Analysis Block 20 ---------- 
+
+Model class: mixed
+
+Prevalence - 
+P Constraint: 0
+
+Name(S): x
+Coefficient: 1
+
+
+Name(M): y
+Coefficient: 2
+
+  AGE   75.000000  
+
+R:  5
+N:  10
+
+
+---------- 21 New Analysis Block 21 ---------- 
+
+Model class: mixed
+
+Prevalence - 
+P Constraint: 0
+
+Name(S): x
+Coefficient: 1
+
+
+Name(M): y
+Coefficient: 2
+
+  AGE   2.000000  
+
+R:  5
+N:  10
+
+
+---------- 22 New Analysis Block 22 ---------- 
+
+Model class: mixed
+
+Prevalence - 
+P Constraint: 0
+
+Name(S): x
+Coefficient: 1
+
+
+Name(M): y
+Coefficient: 2
+
+  AGE   2.000000  
+
+R:  5
+N:  10
+
+
+---------- 23 New Analysis Block 23 ---------- 
+
+Model class: mixed
+
+Prevalence - 
+P Constraint: 0
+
+Name(S): x
+Coefficient: 1
+
+
+Name(M): y
+Coefficient: 2
+
+  AGE   15.000000  
+
+R:  5
+N:  10
+
+
+---------- 24 New Analysis Block 24 ---------- 
+
+Model class: mixed
+
+Prevalence - 
+P Constraint: 0
+
+Name(S): x
+Coefficient: 1
+
+
+Name(M): y
+Coefficient: 2
+
+  AGE   15.000000  
+
+R:  5
+N:  10
+
+
+---------- 25 New Analysis Block 25 ---------- 
+
+Model class: mixed
+
+Prevalence - 
+P Constraint: 0
+
+Name(S): x
+Coefficient: 1
+
+
+Name(M): y
+Coefficient: 2
+
+  AGE   15.000000  
+
+R:  5
+N:  10
+

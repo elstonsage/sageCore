@@ -1,0 +1,141 @@
+
+
+
+==========
+Analysis 1
+==========
+
+
+Options Selected
+================
+Haplotype region                                   multiple
+Minor allele frequency filter                      no
+Sliding window                                     no
+Four gamete rule blocks                            no
+LD blocks                                          yes
+  Threshold                                        0.5
+EM algorithm convergence criterion                 1e-05
+Number of EM algorithm starting states             10
+  Dump                                             yes
+    Cutoff                                         0.001
+
+Subpopulations specified                           no
+Analysis unit                                      each individual
+
+Estimate haplotype frequencies                     yes
+  Cutoff                                           0.001
+Show all possible haplotype combinations table     yes
+List most likely haplotype combinations            no
+Do likelihood ratio test                           no
+Compute empirical p-value                          no
+
+
+Results
+=======
+
+
+Region -- one
+
+Block 1
+Markers in order:
+  rs175138 rs175139 
+
+
+
+                         Haplotype Frequency Estimates
+
+
+Note:  Haplotypes listed have estimated frequencies greater than or equal to
+       the cutoff or have the greatest frequency estimate.
+
+Haplotype          Frequency
+---------          ---------
+1-1                0.6034768
+2-2                0.3965232
+                   ---------
+Total              1.0000000
+
+Ln likelihood    -608.173
+
+
+
+
+Region -- two
+
+Block 1
+Markers in order:
+  rs135223 rs8136406 
+
+
+
+                         Haplotype Frequency Estimates
+
+
+Note:  Haplotypes listed have estimated frequencies greater than or equal to
+       the cutoff or have the greatest frequency estimate.
+
+Haplotype          Frequency
+---------          ---------
+2-1                0.5733693
+1-1                0.3744784
+1-2                0.0419124
+2-2                0.0102400
+                   ---------
+Total              1.0000000
+
+Ln likelihood    -814.281
+
+
+
+
+Block 2
+Markers in order:
+  rs138853 rs2092982 
+
+
+
+                         Haplotype Frequency Estimates
+
+
+Note:  Haplotypes listed have estimated frequencies greater than or equal to
+       the cutoff or have the greatest frequency estimate.
+
+Haplotype          Frequency
+---------          ---------
+1-1                0.7697306
+1-2                0.1230969
+2-2                0.1062077
+                   ---------
+Total              0.9990352
+
+Ln likelihood    -677.488
+
+
+
+
+Block 3
+Markers in order:
+  rs6712 rs6520165 
+
+
+
+                         Haplotype Frequency Estimates
+
+
+Note:  Haplotypes listed have estimated frequencies greater than or equal to
+       the cutoff or have the greatest frequency estimate.
+
+Haplotype          Frequency
+---------          ---------
+1-1                0.5763296
+1-2                0.2903922
+2-1                0.1264849
+2-2                0.0067932
+                   ---------
+Total              1.0000000
+
+Ln likelihood    -903.495
+
+
+
+

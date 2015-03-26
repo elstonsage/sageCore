@@ -1,0 +1,53 @@
+
+
+
+===============================
+LODLINK Analysis 1 SUMMARY FILE
+===============================
+
+
+Options Selected
+================
+Main locus type                          trait
+Main locus name                          T1
+
+Lod scores                               yes
+
+  Recombination Fractions Selected
+  ================================
+  Sex averaged         0.0000         0.0100         0.0500         0.1000         0.2000         0.3000         0.4000   
+
+Linkage tests                            yes
+  Sex-specific recombination fractions   no
+  Assume homogeneity                     yes
+
+Smith's test for homogeneity             no
+
+Morton's test for homogeneity            no
+
+Genotype probabilities                   no
+
+
+Results
+=======
+
+                  Lod Scores                              
+                  Non-Sex-Specific Recombination Fractions
+                                                          
+
+Locus             0.0000         0.0100         0.0500         0.1000         0.2000         0.3000         0.4000         
+---------------   ------------   ------------   ------------   ------------   ------------   ------------   ------------   
+M1                   -Infinity     -73.260693     -24.172918      -7.227167       3.151731       4.311157       2.554007   
+M2                   -Infinity     -50.954605       6.758411      23.507636      27.514735      19.968754       9.562104   
+
+
+
+                  MLE                           Lod Score and Linkage Test    
+                                                Using Recom. Fract. in [0, .5]
+                                                                              
+Locus             Recom          Recom          Lod            Chi            P-Value        P-Value        
+                  Fract in       Fract in       Score          Square                        Upper          
+                  [0, .5]        [0, 1]                        Stat                          Bound          
+---------------   ------------   ------------   ------------   ------------   ------------   ------------   
+M1                    0.273697           ---        4.422634      20.366984       3.20e-06       3.78e-05   
+M2                    0.166870           ---       28.236996     130.036172      < 1.0e-20      < 1.0e-20   

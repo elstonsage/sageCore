@@ -1,0 +1,272 @@
+
+#########  PEDIGREE: 1  #########
+
+PARENTAL    ped1 member1      1   member2      4   
+PARENTAL    ped1 member1      1   member2      3   
+PARENTAL    ped1 member1      2   member2      4   
+PARENTAL    ped1 member1      2   member2      3   
+PARENTAL    ped1 member1      4   member2      6   
+PARENTAL    ped1 member1      5   member2      6   
+
+SIBSIB      ped1 member1      3   member2      4   connector1   1   connector2   2   
+
+
+
+BROSIS      ped1 member1      3   member2      4   connector1   1   connector2   2   
+
+GRANDP      ped1 member1      1   member2      6   connector1   4   
+GRANDP      ped1 member1      2   member2      6   connector1   4   
+
+AVUNC       ped1 member1      3   member2      6   connector1   4   
+
+
+
+#########  PEDIGREE: 2  #########
+
+PARENTAL    ped2 member1      1   member2      5   
+PARENTAL    ped2 member1      1   member2      4   
+PARENTAL    ped2 member1      1   member2      3   
+PARENTAL    ped2 member1      2   member2      5   
+PARENTAL    ped2 member1      2   member2      4   
+PARENTAL    ped2 member1      2   member2      3   
+PARENTAL    ped2 member1     14   member2     16   
+PARENTAL    ped2 member1     14   member2     15   
+PARENTAL    ped2 member1      5   member2     16   
+PARENTAL    ped2 member1      5   member2     15   
+PARENTAL    ped2 member1      3   member2      9   
+PARENTAL    ped2 member1      3   member2      8   
+PARENTAL    ped2 member1      3   member2     10   
+PARENTAL    ped2 member1      6   member2      9   
+PARENTAL    ped2 member1      6   member2      8   
+PARENTAL    ped2 member1      6   member2     10   
+PARENTAL    ped2 member1      5   member2     13   
+PARENTAL    ped2 member1      5   member2     12   
+PARENTAL    ped2 member1      5   member2     11   
+PARENTAL    ped2 member1      7   member2     13   
+PARENTAL    ped2 member1      7   member2     12   
+PARENTAL    ped2 member1      7   member2     11   
+
+SIBSIB      ped2 member1      4   member2      5   connector1   1   connector2   2   
+SIBSIB      ped2 member1      3   member2      5   connector1   1   connector2   2   
+SIBSIB      ped2 member1      3   member2      4   connector1   1   connector2   2   
+SIBSIB      ped2 member1     15   member2     16   connector1  14   connector2   5   
+SIBSIB      ped2 member1      8   member2      9   connector1   3   connector2   6   
+SIBSIB      ped2 member1     10   member2      9   connector1   3   connector2   6   
+SIBSIB      ped2 member1     10   member2      8   connector1   3   connector2   6   
+SIBSIB      ped2 member1     12   member2     13   connector1   5   connector2   7   
+SIBSIB      ped2 member1     11   member2     13   connector1   5   connector2   7   
+SIBSIB      ped2 member1     11   member2     12   connector1   5   connector2   7   
+
+SISSIS      ped2 member1     11   member2     13   connector1   5   connector2   7   
+
+BROBRO      ped2 member1      3   member2      5   connector1   1   connector2   2   
+BROBRO      ped2 member1      8   member2      9   connector1   3   connector2   6   
+BROBRO      ped2 member1     10   member2      9   connector1   3   connector2   6   
+BROBRO      ped2 member1     10   member2      8   connector1   3   connector2   6   
+
+BROSIS      ped2 member1      4   member2      5   connector1   1   connector2   2   
+BROSIS      ped2 member1      3   member2      4   connector1   1   connector2   2   
+BROSIS      ped2 member1     15   member2     16   connector1  14   connector2   5   
+BROSIS      ped2 member1     12   member2     13   connector1   5   connector2   7   
+BROSIS      ped2 member1     11   member2     12   connector1   5   connector2   7   
+
+GRANDP      ped2 member1      1   member2     16   connector1   5   
+GRANDP      ped2 member1      2   member2     16   connector1   5   
+GRANDP      ped2 member1      1   member2     15   connector1   5   
+GRANDP      ped2 member1      2   member2     15   connector1   5   
+GRANDP      ped2 member1      1   member2      9   connector1   3   
+GRANDP      ped2 member1      2   member2      9   connector1   3   
+GRANDP      ped2 member1      1   member2      8   connector1   3   
+GRANDP      ped2 member1      2   member2      8   connector1   3   
+GRANDP      ped2 member1      1   member2     10   connector1   3   
+GRANDP      ped2 member1      2   member2     10   connector1   3   
+GRANDP      ped2 member1      1   member2     13   connector1   5   
+GRANDP      ped2 member1      2   member2     13   connector1   5   
+GRANDP      ped2 member1      1   member2     12   connector1   5   
+GRANDP      ped2 member1      2   member2     12   connector1   5   
+GRANDP      ped2 member1      1   member2     11   connector1   5   
+GRANDP      ped2 member1      2   member2     11   connector1   5   
+
+AVUNC       ped2 member1      4   member2     16   connector1   5   
+AVUNC       ped2 member1      3   member2     16   connector1   5   
+AVUNC       ped2 member1      4   member2     15   connector1   5   
+AVUNC       ped2 member1      3   member2     15   connector1   5   
+AVUNC       ped2 member1      5   member2      9   connector1   3   
+AVUNC       ped2 member1      4   member2      9   connector1   3   
+AVUNC       ped2 member1      5   member2      8   connector1   3   
+AVUNC       ped2 member1      4   member2      8   connector1   3   
+AVUNC       ped2 member1      5   member2     10   connector1   3   
+AVUNC       ped2 member1      4   member2     10   connector1   3   
+AVUNC       ped2 member1      4   member2     13   connector1   5   
+AVUNC       ped2 member1      3   member2     13   connector1   5   
+AVUNC       ped2 member1      4   member2     12   connector1   5   
+AVUNC       ped2 member1      3   member2     12   connector1   5   
+AVUNC       ped2 member1      4   member2     11   connector1   5   
+AVUNC       ped2 member1      3   member2     11   connector1   5   
+
+HALFSIB     ped2 member1     13   member2     16   connector1   5   
+HALFSIB     ped2 member1     12   member2     16   connector1   5   
+HALFSIB     ped2 member1     11   member2     16   connector1   5   
+HALFSIB     ped2 member1     13   member2     15   connector1   5   
+HALFSIB     ped2 member1     12   member2     15   connector1   5   
+HALFSIB     ped2 member1     11   member2     15   connector1   5   
+
+COUSIN      ped2 member1      9   member2     16   connector1   3   connector2   5   
+COUSIN      ped2 member1      8   member2     16   connector1   3   connector2   5   
+COUSIN      ped2 member1     10   member2     16   connector1   3   connector2   5   
+COUSIN      ped2 member1      9   member2     15   connector1   3   connector2   5   
+COUSIN      ped2 member1      8   member2     15   connector1   3   connector2   5   
+COUSIN      ped2 member1     10   member2     15   connector1   3   connector2   5   
+COUSIN      ped2 member1     13   member2      9   connector1   5   connector2   3   
+COUSIN      ped2 member1     12   member2      9   connector1   5   connector2   3   
+COUSIN      ped2 member1     11   member2      9   connector1   5   connector2   3   
+COUSIN      ped2 member1     13   member2      8   connector1   5   connector2   3   
+COUSIN      ped2 member1     12   member2      8   connector1   5   connector2   3   
+COUSIN      ped2 member1     11   member2      8   connector1   5   connector2   3   
+COUSIN      ped2 member1     13   member2     10   connector1   5   connector2   3   
+COUSIN      ped2 member1     12   member2     10   connector1   5   connector2   3   
+COUSIN      ped2 member1     11   member2     10   connector1   5   connector2   3   
+
+
+
+
+#########  PEDIGREE: 1  #########
+
+EVERY       ped1 member1      1   member2      2   
+EVERY       ped1 member1      1   member2      3   
+EVERY       ped1 member1      1   member2      4   
+EVERY       ped1 member1      1   member2      5   
+EVERY       ped1 member1      1   member2      6   
+EVERY       ped1 member1      2   member2      3   
+EVERY       ped1 member1      2   member2      4   
+EVERY       ped1 member1      2   member2      5   
+EVERY       ped1 member1      2   member2      6   
+EVERY       ped1 member1      3   member2      4   
+EVERY       ped1 member1      3   member2      5   
+EVERY       ped1 member1      3   member2      6   
+EVERY       ped1 member1      4   member2      5   
+EVERY       ped1 member1      4   member2      6   
+EVERY       ped1 member1      5   member2      6   
+
+#########  PEDIGREE: 2  #########
+
+EVERY       ped2 member1      1   member2      6   
+EVERY       ped2 member1      1   member2      7   
+EVERY       ped2 member1      1   member2      2   
+EVERY       ped2 member1      1   member2      5   
+EVERY       ped2 member1      1   member2     14   
+EVERY       ped2 member1      1   member2     15   
+EVERY       ped2 member1      1   member2     16   
+EVERY       ped2 member1      1   member2     13   
+EVERY       ped2 member1      1   member2      3   
+EVERY       ped2 member1      1   member2      4   
+EVERY       ped2 member1      1   member2     12   
+EVERY       ped2 member1      1   member2     10   
+EVERY       ped2 member1      1   member2     11   
+EVERY       ped2 member1      1   member2      8   
+EVERY       ped2 member1      1   member2      9   
+EVERY       ped2 member1      6   member2      7   
+EVERY       ped2 member1      6   member2      2   
+EVERY       ped2 member1      6   member2      5   
+EVERY       ped2 member1      6   member2     14   
+EVERY       ped2 member1      6   member2     15   
+EVERY       ped2 member1      6   member2     16   
+EVERY       ped2 member1      6   member2     13   
+EVERY       ped2 member1      6   member2      3   
+EVERY       ped2 member1      6   member2      4   
+EVERY       ped2 member1      6   member2     12   
+EVERY       ped2 member1      6   member2     10   
+EVERY       ped2 member1      6   member2     11   
+EVERY       ped2 member1      6   member2      8   
+EVERY       ped2 member1      6   member2      9   
+EVERY       ped2 member1      7   member2      2   
+EVERY       ped2 member1      7   member2      5   
+EVERY       ped2 member1      7   member2     14   
+EVERY       ped2 member1      7   member2     15   
+EVERY       ped2 member1      7   member2     16   
+EVERY       ped2 member1      7   member2     13   
+EVERY       ped2 member1      7   member2      3   
+EVERY       ped2 member1      7   member2      4   
+EVERY       ped2 member1      7   member2     12   
+EVERY       ped2 member1      7   member2     10   
+EVERY       ped2 member1      7   member2     11   
+EVERY       ped2 member1      7   member2      8   
+EVERY       ped2 member1      7   member2      9   
+EVERY       ped2 member1      2   member2      5   
+EVERY       ped2 member1      2   member2     14   
+EVERY       ped2 member1      2   member2     15   
+EVERY       ped2 member1      2   member2     16   
+EVERY       ped2 member1      2   member2     13   
+EVERY       ped2 member1      2   member2      3   
+EVERY       ped2 member1      2   member2      4   
+EVERY       ped2 member1      2   member2     12   
+EVERY       ped2 member1      2   member2     10   
+EVERY       ped2 member1      2   member2     11   
+EVERY       ped2 member1      2   member2      8   
+EVERY       ped2 member1      2   member2      9   
+EVERY       ped2 member1      5   member2     14   
+EVERY       ped2 member1      5   member2     15   
+EVERY       ped2 member1      5   member2     16   
+EVERY       ped2 member1      5   member2     13   
+EVERY       ped2 member1      5   member2      3   
+EVERY       ped2 member1      5   member2      4   
+EVERY       ped2 member1      5   member2     12   
+EVERY       ped2 member1      5   member2     10   
+EVERY       ped2 member1      5   member2     11   
+EVERY       ped2 member1      5   member2      8   
+EVERY       ped2 member1      5   member2      9   
+EVERY       ped2 member1     14   member2     15   
+EVERY       ped2 member1     14   member2     16   
+EVERY       ped2 member1     14   member2     13   
+EVERY       ped2 member1     14   member2      3   
+EVERY       ped2 member1     14   member2      4   
+EVERY       ped2 member1     14   member2     12   
+EVERY       ped2 member1     14   member2     10   
+EVERY       ped2 member1     14   member2     11   
+EVERY       ped2 member1     14   member2      8   
+EVERY       ped2 member1     14   member2      9   
+EVERY       ped2 member1     15   member2     16   
+EVERY       ped2 member1     15   member2     13   
+EVERY       ped2 member1     15   member2      3   
+EVERY       ped2 member1     15   member2      4   
+EVERY       ped2 member1     15   member2     12   
+EVERY       ped2 member1     15   member2     10   
+EVERY       ped2 member1     15   member2     11   
+EVERY       ped2 member1     15   member2      8   
+EVERY       ped2 member1     15   member2      9   
+EVERY       ped2 member1     16   member2     13   
+EVERY       ped2 member1     16   member2      3   
+EVERY       ped2 member1     16   member2      4   
+EVERY       ped2 member1     16   member2     12   
+EVERY       ped2 member1     16   member2     10   
+EVERY       ped2 member1     16   member2     11   
+EVERY       ped2 member1     16   member2      8   
+EVERY       ped2 member1     16   member2      9   
+EVERY       ped2 member1     13   member2      3   
+EVERY       ped2 member1     13   member2      4   
+EVERY       ped2 member1     13   member2     12   
+EVERY       ped2 member1     13   member2     10   
+EVERY       ped2 member1     13   member2     11   
+EVERY       ped2 member1     13   member2      8   
+EVERY       ped2 member1     13   member2      9   
+EVERY       ped2 member1      3   member2      4   
+EVERY       ped2 member1      3   member2     12   
+EVERY       ped2 member1      3   member2     10   
+EVERY       ped2 member1      3   member2     11   
+EVERY       ped2 member1      3   member2      8   
+EVERY       ped2 member1      3   member2      9   
+EVERY       ped2 member1      4   member2     12   
+EVERY       ped2 member1      4   member2     10   
+EVERY       ped2 member1      4   member2     11   
+EVERY       ped2 member1      4   member2      8   
+EVERY       ped2 member1      4   member2      9   
+EVERY       ped2 member1     12   member2     10   
+EVERY       ped2 member1     12   member2     11   
+EVERY       ped2 member1     12   member2      8   
+EVERY       ped2 member1     12   member2      9   
+EVERY       ped2 member1     10   member2     11   
+EVERY       ped2 member1     10   member2      8   
+EVERY       ped2 member1     10   member2      9   
+EVERY       ped2 member1     11   member2      8   
+EVERY       ped2 member1     11   member2      9   
+EVERY       ped2 member1      8   member2      9   

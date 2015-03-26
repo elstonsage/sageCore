@@ -1,0 +1,9 @@
+The pedigree data file in this directory consists of one pedigree comprised
+of two disjoint sub-pedigrees.  Each sub-pedigree contains a non-marriage,
+non-consanguineous loop.
+
+loop1 is formed by brothers 304247 and 748060 marrying sisters 324942 and
+487825.
+
+loop2 is formed by brothers 326577 and 651642 marrying sisters 456230 and
+670491.

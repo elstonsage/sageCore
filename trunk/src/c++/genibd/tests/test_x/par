@@ -1,0 +1,40 @@
+marker
+{
+  allele_missing=0
+}
+
+pedigree
+{
+   delimiter_mode = multiple
+   delimiters=" "
+   individual_missing_value="0"
+   sex_code, male="M", female="F"
+
+   pedigree_id   = pedid
+   individual_id = id
+   parent_id     = mom
+   parent_id     = dad
+   sex_field     = s
+
+   trait=alc, binary, affected="1", unaffected="3"
+
+   allele="DXS1297a", name = DXS1297, x_linked
+   allele="DXS1297b", name = DXS1297, x_linked
+   allele="DXS1304a", name = DXS1304, x_linked
+   allele="DXS1304b", name = DXS1304, x_linked
+   allele="DXS1263a", name = DXS1263, x_linked
+   allele="DXS1263b", name = DXS1263, x_linked
+}
+
+
+#parameters for GEN_IBD
+
+ibd_analysis, out="exact_multi" 
+{
+  mode=multipoint
+  use_simulation=false
+#  scan_type=intervals
+  region=X
+#   distance = "3.0"
+}
+

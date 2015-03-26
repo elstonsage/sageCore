@@ -1,0 +1,137 @@
+
+Family structure information on the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       SEX       PARENT1       PARENT2     
+     ------------  ------------  --------  ------------  ------------
+     20041         305073        1         403254        718275      
+     20041         359701        1         305073        582111      
+     20041         403254        2         -9            -9          
+     20041         526685        2         305073        582111      
+     20041         582111        2         723390        808377      
+     20041         646004        2         305073        582111      
+     20041         668981        1         -9            -9          
+     20041         718275        1         -9            -9          
+     20041         723390        2         -9            -9          
+     20041         799984        2         -9            -9          
+
+
+Markers for the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       c1g1          c1g2          c1g3          c1g4          c1g5          c1g6          c1g7          c1g8          c1g9          c1g10         c1g11         c1g12         c1g13         c1g14         c1g15         c1g16         c1g17         c1g18         c1g19         c1g20         c1g21         c1g22         c1g23         c1g24         c1g25         c1g26         c1g27         c1g28         c1g29         c1g30         c1g31         c1g32       
+     ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------
+     20041         305073        187/189       98/126        171/171       183/183       244/256       258/270       -9/-9         220/224       285/289       264/264       231/231       158/162       174/178       118/133       129/147       198/198       202/218       108/112       152/164       200/204       208/214       195/207       238/246       305/313       233/237       259/263       189/197       -9/-9         257/263       169/191       286/290       184/188     
+     20041         359701        183/189       98/98         171/171       183/187       256/256       -9/-9         -9/-9         216/220       289/289       264/264       231/231       162/162       174/178       118/130       141/147       194/198       210/218       104/112       164/168       196/204       214/214       195/199       238/242       305/313       233/241       255/263       185/189       -9/-9         257/260       187/191       290/290       184/184     
+     20041         403254        -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9       
+     20041         526685        183/187       98/126        171/171       183/183       244/256       252/258       -9/-9         208/224       285/289       264/264       231/231       162/162       174/178       118/130       141/147       -9/-9         212/218       108/108       152/168       196/200       208/214       199/207       238/242       305/313       233/241       255/263       185/189       -9/-9         257/260       187/191       286/290       184/188     
+     20041         582111        183/189       98/102        171/171       -9/-9         244/256       252/264       -9/-9         208/216       289/289       264/268       231/231       162/162       170/178       130/130       141/150       194/198       210/212       104/108       168/168       196/196       208/214       199/203       -9/-9         305/309       237/241       236/255       185/189       -9/-9         260/260       187/187       -9/-9         184/192     
+     20041         646004        187/189       102/126       171/171       183/183       244/244       252/270       -9/-9         208/220       285/289       264/268       231/231       158/162       170/178       130/133       129/150       198/198       202/212       108/108       164/168       196/204       214/214       195/199       242/246       305/305       237/241       255/259       185/197       -9/-9         260/263       169/187       290/290       184/184     
+     20041         668981        -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9       
+     20041         718275        -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9       
+     20041         723390        -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9       
+     20041         799984        -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9         -9/-9       
+
+%TEST_PARSER-W: Mapping function not specified.  Using Haldane Mapping Function
+                .
+Beginning new analysis block ...
+
+%TEST_PARSER-E: 'c1g77' not a valid trait marker.  Ignoring ...
+
+Analysis parsing complete.  Analysis valid.
+------------------------------------------------------------------------------
+
+Beginning new analysis block ...
+
+%TEST_PARSER-C: No valid trait markers specified.  Skipping analysis ...
+
+Analysis parsing complete.  Analysis is invalid.  Check your file.
+------------------------------------------------------------------------------
+
+Beginning new analysis block ...
+
+%TEST_PARSER-E: Parameter 'SEPARATE_TRAIGHTS' not recognized.  Ignoring ...
+%TEST_PARSER-E: Value for parameter, output_pedigrees, not recognized. 
+                Ignoring ...
+%TEST_PARSER-E: scan_type may not be 'marker' when output_pedigrees is 'all'. 
+                Setting scan_type to 'interval' ...
+%TEST_PARSER-C: No valid trait markers specified.  Skipping analysis ...
+
+Analysis parsing complete.  Analysis is invalid.  Check your file.
+------------------------------------------------------------------------------
+
+Beginning new analysis block ...
+
+%TEST_PARSER-W: Specified distance '0.001' is less than or equal to 0.01
+                centimorgans.  Program run time may be unacceptably long.
+
+Analysis parsing complete.  Analysis valid.
+------------------------------------------------------------------------------
+
+Beginning new analysis block ...
+
+%TEST_PARSER-E: Specified distance '0' is less than or equal to 0 centimorgans.
+                Ignoring ...
+
+Analysis parsing complete.  Analysis valid.
+------------------------------------------------------------------------------
+
+Beginning new analysis block ...
+
+
+Analysis parsing complete.  Analysis valid.
+------------------------------------------------------------------------------
+
+Beginning new analysis block ...
+
+%TEST_PARSER-E: Specified distance '2000' is greater than  1000 centimorgans. 
+                Ignoring ...
+
+Analysis parsing complete.  Analysis valid.
+------------------------------------------------------------------------------
+
+Beginning new analysis block ...
+
+%TEST_PARSER-E: Bad or missing value for parameter 'distance'
+
+Analysis parsing complete.  Analysis valid.
+------------------------------------------------------------------------------
+
+Beginning new analysis block ...
+
+
+Analysis parsing complete.  Analysis valid.
+------------------------------------------------------------------------------
+
+Beginning new analysis block ...
+
+%TEST_PARSER-E: 'chrom_1' not a valid region.  Ignoring ...
+
+Analysis parsing complete.  Analysis valid.
+------------------------------------------------------------------------------
+
+Beginning new analysis block ...
+
+%TEST_PARSER-E: 'chrom_1' not a valid region.  Ignoring ...
+
+Analysis parsing complete.  Analysis valid.
+------------------------------------------------------------------------------
+
+Beginning new analysis block ...
+
+
+Analysis parsing complete.  Analysis valid.
+------------------------------------------------------------------------------
+
+Beginning new analysis block ...
+
+
+Analysis parsing complete.  Analysis valid.
+------------------------------------------------------------------------------
+
+Beginning new analysis block ...
+
+%TEST_PARSER-E: scan_type may not be 'marker' when output_pedigrees is 'all'. 
+                Setting scan_type to 'interval' ...
+
+Analysis parsing complete.  Analysis valid.
+------------------------------------------------------------------------------
+

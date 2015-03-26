@@ -1,0 +1,42 @@
+#!/usr/local/bin/python
+#============================================================================
+# File:      driver
+#                                                                          
+# Author:    Dan Baechle
+#                                                                          
+# History:   Created 4/15/5
+#                                                                          
+# Notes:     Run series of tests on simulated data.
+#
+#============================================================================
+
+import sys
+import os
+
+os.system('find . -maxdepth 1 -type d -name \*1000\* -o -name \*500\* > directories')
+
+dir_file = open('directories', 'r')
+dirs = dir_file.readlines()
+for dir in dirs:
+  family = dir[2:5] == 'fam'
+
+  # - simulate data.
+  #
+  cmd = ''
+  cmd += 'cd %s' % dir.strip()
+  
+  if family:
+    cmd += '; ../simulate_fam > ped'
+  else:
+    cmd += '; ../simulate_unr > ped'
+    
+  print cmd
+  os.system(cmd)  
+
+  # - run Decipher.
+  #
+  cmd = ''
+  cmd += 'cd %s' % dir.strip()
+  cmd += '; ../../decipher par ped gen > /dev/null'
+  print cmd
+  os.system(cmd)

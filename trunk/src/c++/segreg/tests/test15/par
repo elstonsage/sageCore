@@ -1,0 +1,575 @@
+pedigree
+{
+  pedigree_id=PID
+  individual_id=ID
+  sex_field=SEX
+  parent_id=P1
+  parent_id=P2
+  trait=DISEASE, binary, affected=1, unaffected=0
+  trait=HEMATOCRIT
+  trait=t
+  trait=u
+  trait=v
+  trait=w
+  trait=x
+  trait=y
+  trait=z
+}
+
+segreg_analysis    #1
+{
+  trait = hematocrit
+  
+  mean_cov
+  {
+    covariate=disease, val=72, fixed=true 
+  }
+  
+  prev_estimate
+  {
+    covariate=disease, val=5.0
+  }
+}
+
+segreg_analysis    #2
+{
+  trait = hematocrit
+  
+  mean_cov
+  {
+    covariate=disease, val=72, fixed=true 
+  }
+  
+  prev_estimate
+  {
+    covariate=z, val=5.0
+  }
+}
+
+segreg_analysis    #3
+{
+  trait = hematocrit
+  
+  mean_cov
+  {
+    covariate=disease, val=72, fixed=true 
+  }
+  
+  prev_estimate
+  {
+    covariate=z, val=5.0
+    covariate=w, val=.2
+  }
+}
+
+segreg_analysis    #4
+{
+  trait = disease,type=age_onset
+  class = fpmm
+  
+  fpmm
+  {
+    onset
+    {
+      age_onset=z
+      age_exam=y 
+    }
+  }
+  
+  prev_estimate
+  {
+    age=5.0
+  }
+}
+
+segreg_analysis    #5
+{
+  trait = disease,type=age_onset
+  class = fpmm
+  
+  fpmm
+  {
+    onset
+    {
+      age_onset=z
+      age_exam=y 
+    }
+  }
+  
+  prev_estimate
+  {
+  }
+}
+
+segreg_analysis    #6
+{
+  trait = disease,type=age_onset
+  class = fpmm
+  
+  fpmm
+  {
+    onset
+    {
+      age_onset=z
+      age_exam=z 
+    }
+  }
+  
+  prev_estimate
+  {
+    age=INFINITY
+  }
+}
+
+segreg_analysis    #7
+{
+  trait = disease,type=age_onset
+  class = fpmm
+  
+  fpmm
+  {
+    onset
+    {
+      age_onset=z
+      age_exam=z 
+    }
+  }
+  
+  prev_estimate
+  {
+    age=5.0
+    age=781.2
+  }
+}
+
+segreg_analysis    #8
+{
+  trait = hematocrit
+  
+  mean_cov
+  {
+    covariate=disease, val=72, fixed=true 
+  }
+  
+  prev_constraint
+  {
+    covariate=disease, val=5.0
+  }
+}
+
+segreg_analysis    #9
+{
+  trait = hematocrit
+  
+  mean_cov
+  {
+    covariate=disease, val=72, fixed=true 
+  }
+  
+  prev_constraint
+  {
+    covariate=disease, val=5.0
+    R=10
+    N=20
+  }
+}
+
+segreg_analysis    #10
+{
+  trait = hematocrit
+  
+  mean_cov
+  {
+    covariate=disease, val=72, fixed=true 
+  }
+  
+  prev_constraint
+  {
+    covariate=disease, val=5.0
+    R=-10
+    N=20
+  }
+}
+
+segreg_analysis    #11
+{
+  trait = hematocrit
+  
+  mean_cov
+  {
+    covariate=disease, val=72, fixed=true 
+  }
+  
+  prev_constraint
+  {
+    covariate=disease, val=5.0
+    R=30
+    N=20
+  }
+}
+  
+segreg_analysis    #12
+{
+  trait = hematocrit
+  
+  mean_cov
+  {
+    covariate=disease, val=72, fixed=true 
+    covariate=t
+  }
+  
+  prev_constraint
+  {
+    covariate=disease, val=5.0
+    covariate=t, val=6.0
+    R=10
+    N=20
+  }
+}
+
+# These tests moved from test10, since test15 does a more complete job.
+
+segreg_analysis # 13 - Continuous trait
+{
+  trait = hematocrit
+  
+  prev_constraint
+  {
+  
+  }
+}
+
+segreg_analysis # 14 - Binary, but nothing there (reports N = 0)
+{
+  trait = disease
+  
+  prev_constraint
+  {
+  
+  }
+}
+
+segreg_analysis # 15 - Binary, prev constraints there, but N < R
+{
+  trait = disease
+  
+  prev_constraint
+  {
+    N=10
+    R=50
+  }
+}
+
+segreg_analysis # 16 - Binary, prev constraints there, valid
+{
+  trait = disease
+  
+  prev_constraint
+  {
+    N=10
+    R=5
+  }
+}
+
+segreg_analysis # 17 - Covariates not right
+{
+  trait = disease
+  
+  prev_constraint
+  {
+    N=10
+    R=5
+
+    covariate=
+    covariate=x,val=
+  }
+}
+
+segreg_analysis # 18 - Covariates not in other blocks
+{
+  trait = disease
+  
+  prev_constraint
+  {
+    N=10
+    R=5
+
+    covariate=x,val=1
+  }
+}
+
+segreg_analysis # 19 - Covariates in other blocks, but mean_cov not for binary
+{
+  trait = disease
+
+  suscept_cov
+  {
+    covariate=x
+  }
+  mean_cov
+  {
+    covariate=y
+  }
+  
+  prev_constraint
+  {
+    N=10
+    R=5
+
+    covariate=x,val=1
+    covariate=y,val=2
+  }
+}
+
+segreg_analysis # 20 - age of onset
+{
+  trait = disease, type=age_onset
+
+  suscept_cov
+  {
+    covariate=x
+  }
+  mean_cov
+  {
+    covariate=y
+  }
+
+  fpmm
+  {
+    onset
+    {
+      age_exam=z
+      age_onset=t
+    }
+  }
+  
+  prev_constraint
+  {
+    N=10
+    R=5
+
+    covariate=x,val=1
+    covariate=y,val=2
+
+    age = 75
+  }
+}
+
+segreg_analysis # 21 - age of onset, using age_exam first, then age_onset
+{
+  trait = disease, type=age_onset
+
+  suscept_cov
+  {
+    covariate=x
+  }
+  mean_cov
+  {
+    covariate=y
+  }
+
+  fpmm
+  {
+    onset
+    {
+      age_exam=z
+      age_onset=t
+    }
+  }
+  
+  prev_constraint
+  {
+    N=10
+    R=5
+
+    covariate=x,val=1
+    covariate=y,val=2
+    age=1
+    age=2
+  }
+}
+
+segreg_analysis # 22 - age of onset, using age_onset first, then age_exam
+{
+  trait = disease, type=age_onset
+
+  suscept_cov
+  {
+    covariate=x
+  }
+  mean_cov
+  {
+    covariate=y
+  }
+
+  fpmm
+  {
+    onset
+    {
+      age_exam=z
+      age_onset=t
+    }
+  }
+  
+  prev_constraint
+  {
+    N=10
+    R=5
+
+    covariate=x,val=1
+    covariate=y,val=2
+    age=1
+    age=2
+  }
+}
+
+segreg_analysis # 23 - both pc and pcs present, invalid constraint in pcs
+{
+  trait = disease, type=age_onset
+
+  suscept_cov
+  {
+    covariate=x
+  }
+  mean_cov
+  {
+    covariate=y
+  }
+
+  fpmm
+  {
+    onset
+    {
+      age_exam=z
+      age_onset=t
+    }
+  }
+
+  prev_constraint
+  {
+      N=10
+      R=5
+
+      covariate=x,val=1
+      covariate=y,val=2
+      age = 15
+  }
+  
+  prev_constraints
+  {
+    constraint
+    {
+      N=10
+      R=5
+
+      covariate=x,val=1
+      covariate=y,val=2
+      age = 15
+    }
+
+    constraint
+    {
+      N=10
+      R=5
+
+      covariate=x,val=1
+      covariate=y,val=2
+      age = 15
+    }
+    invalid_constraint
+  }
+}
+
+segreg_analysis # 24 - multiple constraints, but constraints ==
+{
+  trait = disease, type=age_onset
+
+  suscept_cov
+  {
+    covariate=x
+  }
+  mean_cov
+  {
+    covariate=y
+  }
+
+  fpmm
+  {
+    onset
+    {
+      age_exam=z
+      age_onset=t
+    }
+  }
+  
+  prev_constraints
+  {
+    constraint
+    {
+      N=10
+      R=5
+
+      covariate=x,val=1
+      covariate=y,val=2
+      age = 15
+    }
+
+    constraint
+    {
+      N=10
+      R=5
+
+      covariate=x,val=1
+      covariate=y,val=2
+      age = 15
+    }
+    invalid_constraint
+  }
+}
+
+segreg_analysis # 25 - multiple constraints, but constraints ==
+{
+  trait = disease, type=age_onset
+
+  suscept_cov
+  {
+    covariate=x
+  }
+  mean_cov
+  {
+    covariate=y
+  }
+
+  fpmm
+  {
+    onset
+    {
+      age_exam=z
+      age_onset=t
+    }
+  }
+  
+  prev_constraints
+  {
+    constraint
+    {
+      N=10
+      R=5
+
+      covariate=x,val=1
+      covariate=y,val=2
+      age = 15
+    }
+
+    constraint
+    {
+      N=10
+      R=5
+
+      covariate=x,val=1
+      covariate=y,val=2
+      age = 15
+    }
+    invalid_constraint
+  }
+}

@@ -1,0 +1,111 @@
+#!/usr/local/bin/python
+#============================================================================
+# File:      newexps
+#                                                                          
+# Author:    Dan Baechle
+#                                                                          
+# History:   Created 8/1/2           djb
+#                                                                          
+# Notes:     Generic script to make current output test files the expected
+#            files.
+#
+#            Usage: newexps
+#
+#            Assumes current directory is a test directory.
+#
+#            Requires a Python module, test_info.py, in parent or
+#            grandparent of the current directory depending on test
+#            directory structure (see below) which defines a dictionary, TESTS, 
+#            whose elements are of the form -
+#            test directory name : (test program command, 
+#                                   test output file list,
+#                                   test purpose)
+#
+#            test_info.py must also contain the variable, COMMON_DIRECTORY,
+#            which is set to the empty string if the test directories are
+#            in the current directory and to the name of the common direct-
+#            ory if they are in a common directory under the current dir-
+#            ectory.
+#                  
+#            Also, this script generally assumes that the terminal directory
+#            in which it is run corresponds to the the name of the test function.
+#
+#            If it doesn't, you can specify the name of the test function as a command-line
+#            argument. For example:
+#
+#              prog/tests/foo$ ../../../test_scripts/newexps test_foo
+#                                                        
+# Copyright (c) 2002 R.C. Elston                                           
+# All Rights Reserved                                                    
+#============================================================================
+
+import os
+import sys
+import stat
+import test
+import common
+
+test_dir = os.environ['PWD']
+
+# import all directories up the heirarchy from this one.
+
+parent_dir    = test_dir
+test_info_dir = ""
+ 
+while len(parent_dir) and parent_dir != '/' :
+  sys.path.append(parent_dir)
+
+  try:
+    import test_info
+    parent_dir = ""
+  except ImportError:
+    parent_dir = os.path.dirname(parent_dir)
+    test_info_dir = test_info_dir + "../"
+
+if len(test_info_dir) == 0:
+  print "ERROR:  Cannot find test_info!"
+  sys.exit(1)
+
+test_dir_name = os.path.basename(test_dir)
+
+# Figure out test function name:
+
+if(len(sys.argv) == 1):
+  test_func_name = test_dir_name
+else:
+  test_func_name = sys.argv[1]
+
+# Get the list of broken files
+
+if os.access('brokenfiles', os.F_OK) == 0 :
+  print "Error:  Cannot file list of brokenfiles"
+  sys.exit(1)
+
+f1=open('brokenfiles', 'r')
+
+lines1 = f1.readlines()
+
+f1.close()
+
+# Move each broken file to the new location
+
+for file_name in lines1:
+  file_name = file_name[0:-1]
+
+  if os.access(file_name + '.stripped', os.F_OK) != 0 :
+    OS = common.get_os()
+
+    exp_file_name = '%s.%s.exp' % (file_name, OS)
+    exp_file_path = './%s' % exp_file_name
+
+    if os.access(exp_file_path, os.F_OK) == 0 :
+       exp_file_name = '%s.exp' % file_name
+       exp_file_path = './%s' % exp_file_name
+
+    os.system('cp %s %s' % (file_name + '.stripped', exp_file_name))
+
+os.chdir(test_info_dir)
+
+os.environ["PWD"] = test_dir + "/" + test_info_dir
+
+os.system('runtest %s' % (test_func_name))

@@ -1,0 +1,8 @@
+Ordered:      1 2 3 4 5 6 
+Sequential:   6 5 4 3 2 1 
+Ordered:      0 1 2 3 4 6 9 
+Sequential:   6 1 4 3 2 9 0 
+Ordered:      1 2 3 4 5 6 
+Sequential:   6 1 4 3 2 5 
+Ordered:      2 2 3 3 6 
+Sequential:   6 2 3 3 2 

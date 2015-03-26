@@ -1,0 +1,932 @@
+
+
+
+====================================================================================
+  Two-Level Haseman-Elston Regression Analysis for General Pedigree 
+
+  - Second (Pedigree) Level Score Tests Detailed Output
+====================================================================================
+
+  Traits : (1) - EF, Quantitative
+           (2) - Q2, Quantitative
+
+  Legend :
+    *   - significance  .05 level
+    **  - significance  .01 level
+    *** - significance .001 level
+
+    nai - naive variance
+    sdw - robust sandwich variance
+    alt - alternative variance
+    ibd - allele sharing variance
+
+    #   - The number of pedigrees is too small for this result to be
+          reliable when analyzing this number of traits.
+
+  Empirical p-value options used :
+    seed = 100
+    min replicates = 20
+    max replicates = 10000
+
+====================================================================================
+Test 1 #
+====================================================================================
+-----
+Model
+-----
+
+H0: EF, Q2 ~ [Intercept] + POLYGENIC_EFF + RANDOM_EFF
+H1: EF, Q2 ~ [Intercept] + D5G1 + POLYGENIC_EFF + RANDOM_EFF
+
+------------
+Sample Count
+------------
+
+Number of individuals used at first level     = 27
+Number of relative pairs used at second level = 28
+
+-----------------
+Estimates from H0
+-----------------
+
+Test                                                                   Nominal    
+Variable                      Estimate Variance-Covariance   Chi-sq.   P-value    
+------------------------- ------------ ------------------- --------- ---------    
+------------------
+Score Test Results
+------------------
+
+Test                          Unadjusted   Adjusted Empirical     Number of 
+Variable                  Var    T-value    T-value   P-value     Replicates
+------------------------- --- ---------- ---------- ---------     ----------
+D5G1                      nai     3.0389    -0.0000 1.0000000              0
+                          sdw     4.8685     2.2687 0.3618164             30
+                          alt   212.5683   204.4967 0.0000000 ***      10000
+                          ibd     1.1132     0.0423 0.9501563             22
+
+====================================================================================
+Test 2
+====================================================================================
+-----
+Model
+-----
+
+H0: EF, Q2 ~ [Intercept] + POLYGENIC_EFF + RANDOM_EFF
+H1: EF, Q2 ~ [Intercept] + D5G2 + POLYGENIC_EFF + RANDOM_EFF
+
+------------
+Sample Count
+------------
+
+Number of individuals used at first level     = 27
+Number of relative pairs used at second level = 28
+
+-----------------
+Estimates from H0
+-----------------
+
+Test                                                                   Nominal    
+Variable                      Estimate Variance-Covariance   Chi-sq.   P-value    
+------------------------- ------------ ------------------- --------- ---------    
+------------------
+Score Test Results
+------------------
+
+Test                          Unadjusted   Adjusted Empirical     Number of 
+Variable                  Var    T-value    T-value   P-value     Replicates
+------------------------- --- ---------- ---------- ---------     ----------
+D5G2                      nai     1.5330     0.0120 0.9484626             22
+                          sdw     4.4773     0.0850 0.8739591             22
+                          alt    36.8187     5.2020 0.0706064             84
+                          ibd     0.8478     0.0572 0.9413327             22
+
+====================================================================================
+Test 3 #
+====================================================================================
+-----
+Model
+-----
+
+H0: EF, Q2 ~ [Intercept] + POLYGENIC_EFF + RANDOM_EFF
+H1: EF, Q2 ~ [Intercept] + D5G3 + POLYGENIC_EFF + RANDOM_EFF
+
+------------
+Sample Count
+------------
+
+Number of individuals used at first level     = 27
+Number of relative pairs used at second level = 28
+
+-----------------
+Estimates from H0
+-----------------
+
+Test                                                                   Nominal    
+Variable                      Estimate Variance-Covariance   Chi-sq.   P-value    
+------------------------- ------------ ------------------- --------- ---------    
+------------------
+Score Test Results
+------------------
+
+Test                          Unadjusted   Adjusted Empirical     Number of 
+Variable                  Var    T-value    T-value   P-value     Replicates
+------------------------- --- ---------- ---------- ---------     ----------
+D5G3                      nai     1.8853     1.2828 0.4040471             60
+                          sdw     3.4032     3.3334 0.1273972             25
+                          alt   167.8578   167.8578 0.0000000 ***      10000
+                          ibd     3.7855     3.4758 0.1686037             70
+
+====================================================================================
+Test 4 #
+====================================================================================
+-----
+Model
+-----
+
+H0: EF, Q2 ~ [Intercept] + POLYGENIC_EFF + RANDOM_EFF
+H1: EF, Q2 ~ [Intercept] + D5G4 + POLYGENIC_EFF + RANDOM_EFF
+
+------------
+Sample Count
+------------
+
+Number of individuals used at first level     = 27
+Number of relative pairs used at second level = 28
+
+-----------------
+Estimates from H0
+-----------------
+
+Test                                                                   Nominal    
+Variable                      Estimate Variance-Covariance   Chi-sq.   P-value    
+------------------------- ------------ ------------------- --------- ---------    
+------------------
+Score Test Results
+------------------
+
+Test                          Unadjusted   Adjusted Empirical     Number of 
+Variable                  Var    T-value    T-value   P-value     Replicates
+------------------------- --- ---------- ---------- ---------     ----------
+D5G4                      nai     0.9625    -0.0000 1.0000000              0
+                          sdw     3.3061     2.2926 0.4098866             22
+                          alt     7.9530     7.0447 0.0153411 *           47
+                          ibd     0.5598     0.1687 0.8874614             22
+
+====================================================================================
+Test 5 #
+====================================================================================
+-----
+Model
+-----
+
+H0: EF, Q2 ~ [Intercept] + POLYGENIC_EFF + RANDOM_EFF
+H1: EF, Q2 ~ [Intercept] + D5G5 + POLYGENIC_EFF + RANDOM_EFF
+
+------------
+Sample Count
+------------
+
+Number of individuals used at first level     = 27
+Number of relative pairs used at second level = 28
+
+-----------------
+Estimates from H0
+-----------------
+
+Test                                                                   Nominal    
+Variable                      Estimate Variance-Covariance   Chi-sq.   P-value    
+------------------------- ------------ ------------------- --------- ---------    
+------------------
+Score Test Results
+------------------
+
+Test                          Unadjusted   Adjusted Empirical     Number of 
+Variable                  Var    T-value    T-value   P-value     Replicates
+------------------------- --- ---------- ---------- ---------     ----------
+D5G5                      nai     0.6176     0.0598 0.6708583             45
+                          sdw     2.8910     0.1822 0.7669437             22
+                          alt    69.8148    69.8148 0.0000000 ***      10000
+                          ibd     2.3525     1.2325 0.4987413             32
+
+====================================================================================
+Test 6 #
+====================================================================================
+-----
+Model
+-----
+
+H0: EF, Q2 ~ [Intercept] + POLYGENIC_EFF + RANDOM_EFF
+H1: EF, Q2 ~ [Intercept] + D5G6 + POLYGENIC_EFF + RANDOM_EFF
+
+------------
+Sample Count
+------------
+
+Number of individuals used at first level     = 27
+Number of relative pairs used at second level = 28
+
+-----------------
+Estimates from H0
+-----------------
+
+Test                                                                   Nominal    
+Variable                      Estimate Variance-Covariance   Chi-sq.   P-value    
+------------------------- ------------ ------------------- --------- ---------    
+------------------
+Score Test Results
+------------------
+
+Test                          Unadjusted   Adjusted Empirical     Number of 
+Variable                  Var    T-value    T-value   P-value     Replicates
+------------------------- --- ---------- ---------- ---------     ----------
+D5G6                      nai     1.3574    -0.0000 1.0000000              0
+                          sdw     1.4271     0.1504 0.8960777             22
+                          alt     5.4472     3.0517 0.1482536             22
+                          ibd     0.6392     0.0432 0.9179388             22
+
+====================================================================================
+Test 7
+====================================================================================
+-----
+Model
+-----
+
+H0: EF, Q2 ~ [Intercept] + POLYGENIC_EFF + RANDOM_EFF
+H1: EF, Q2 ~ [Intercept] + D5G7 + POLYGENIC_EFF + RANDOM_EFF
+
+------------
+Sample Count
+------------
+
+Number of individuals used at first level     = 27
+Number of relative pairs used at second level = 28
+
+-----------------
+Estimates from H0
+-----------------
+
+Test                                                                   Nominal    
+Variable                      Estimate Variance-Covariance   Chi-sq.   P-value    
+------------------------- ------------ ------------------- --------- ---------    
+------------------
+Score Test Results
+------------------
+
+Test                          Unadjusted   Adjusted Empirical     Number of 
+Variable                  Var    T-value    T-value   P-value     Replicates
+------------------------- --- ---------- ---------- ---------     ----------
+D5G7                      nai     0.6790     0.0223 0.9513143             22
+                          sdw     2.7603     0.0343 0.7726556             24
+                          alt     9.1522     4.3063 0.0727450            140
+                          ibd     0.2495     0.0091 0.9971780             22
+
+====================================================================================
+Test 8 #
+====================================================================================
+-----
+Model
+-----
+
+H0: EF, Q2 ~ [Intercept] + POLYGENIC_EFF + RANDOM_EFF
+H1: EF, Q2 ~ [Intercept] + D5G8 + POLYGENIC_EFF + RANDOM_EFF
+
+------------
+Sample Count
+------------
+
+Number of individuals used at first level     = 27
+Number of relative pairs used at second level = 28
+
+-----------------
+Estimates from H0
+-----------------
+
+Test                                                                   Nominal    
+Variable                      Estimate Variance-Covariance   Chi-sq.   P-value    
+------------------------- ------------ ------------------- --------- ---------    
+------------------
+Score Test Results
+------------------
+
+Test                          Unadjusted   Adjusted Empirical     Number of 
+Variable                  Var    T-value    T-value   P-value     Replicates
+------------------------- --- ---------- ---------- ---------     ----------
+D5G8                      nai     1.3413    -0.0000 1.0000000              0
+                          sdw     3.1001     0.3394 0.8256945             22
+                          alt    11.5144     7.7393 0.0146264 *           32
+                          ibd     0.5737    -0.0000 1.0000000              0
+
+====================================================================================
+Test 9
+====================================================================================
+-----
+Model
+-----
+
+H0: EF, Q2 ~ [Intercept] + POLYGENIC_EFF + RANDOM_EFF
+H1: EF, Q2 ~ [Intercept] + D5G9 + POLYGENIC_EFF + RANDOM_EFF
+
+------------
+Sample Count
+------------
+
+Number of individuals used at first level     = 27
+Number of relative pairs used at second level = 28
+
+-----------------
+Estimates from H0
+-----------------
+
+Test                                                                   Nominal    
+Variable                      Estimate Variance-Covariance   Chi-sq.   P-value    
+------------------------- ------------ ------------------- --------- ---------    
+------------------
+Score Test Results
+------------------
+
+Test                          Unadjusted   Adjusted Empirical     Number of 
+Variable                  Var    T-value    T-value   P-value     Replicates
+------------------------- --- ---------- ---------- ---------     ----------
+D5G9                      nai     0.4172     0.0184 0.9467879             22
+                          sdw     1.9798     0.9494 0.4534586             46
+                          alt    60.8739    58.5918 0.0000000 ***      10000
+                          ibd     0.2268     0.0301 0.9851194             22
+
+====================================================================================
+Test 10
+====================================================================================
+-----
+Model
+-----
+
+H0: EF, Q2 ~ [Intercept] + POLYGENIC_EFF + RANDOM_EFF
+H1: EF, Q2 ~ [Intercept] + D5G10 + POLYGENIC_EFF + RANDOM_EFF
+
+------------
+Sample Count
+------------
+
+Number of individuals used at first level     = 27
+Number of relative pairs used at second level = 28
+
+-----------------
+Estimates from H0
+-----------------
+
+Test                                                                   Nominal    
+Variable                      Estimate Variance-Covariance   Chi-sq.   P-value    
+------------------------- ------------ ------------------- --------- ---------    
+------------------
+Score Test Results
+------------------
+
+Test                          Unadjusted   Adjusted Empirical     Number of 
+Variable                  Var    T-value    T-value   P-value     Replicates
+------------------------- --- ---------- ---------- ---------     ----------
+D5G10                     nai     1.5903     0.0377 0.9193326             22
+                          sdw     3.8571     0.1232 0.7496779             24
+                          alt   201.1344   161.4341 0.0000000 ***      10000
+                          ibd     0.6570     0.0187 0.9923245             22
+
+====================================================================================
+Test 11
+====================================================================================
+-----
+Model
+-----
+
+H0: EF, Q2 ~ [Intercept] + POLYGENIC_EFF + RANDOM_EFF
+H1: EF, Q2 ~ [Intercept] + D5G11 + POLYGENIC_EFF + RANDOM_EFF
+
+------------
+Sample Count
+------------
+
+Number of individuals used at first level     = 27
+Number of relative pairs used at second level = 28
+
+-----------------
+Estimates from H0
+-----------------
+
+Test                                                                   Nominal    
+Variable                      Estimate Variance-Covariance   Chi-sq.   P-value    
+------------------------- ------------ ------------------- --------- ---------    
+------------------
+Score Test Results
+------------------
+
+Test                          Unadjusted   Adjusted Empirical     Number of 
+Variable                  Var    T-value    T-value   P-value     Replicates
+------------------------- --- ---------- ---------- ---------     ----------
+D5G11                     nai     0.4842     0.0093 0.9790913             22
+                          sdw     3.4377     0.4795 0.5737377             39
+                          alt     8.9374     2.3423 0.2623822             62
+                          ibd     0.1999     0.0049 0.9665221             22
+
+====================================================================================
+Test 12 #
+====================================================================================
+-----
+Model
+-----
+
+H0: EF, Q2 ~ [Intercept] + POLYGENIC_EFF + RANDOM_EFF
+H1: EF, Q2 ~ [Intercept] + D5G12 + POLYGENIC_EFF + RANDOM_EFF
+
+------------
+Sample Count
+------------
+
+Number of individuals used at first level     = 27
+Number of relative pairs used at second level = 28
+
+-----------------
+Estimates from H0
+-----------------
+
+Test                                                                   Nominal    
+Variable                      Estimate Variance-Covariance   Chi-sq.   P-value    
+------------------------- ------------ ------------------- --------- ---------    
+------------------
+Score Test Results
+------------------
+
+Test                          Unadjusted   Adjusted Empirical     Number of 
+Variable                  Var    T-value    T-value   P-value     Replicates
+------------------------- --- ---------- ---------- ---------     ----------
+D5G12                     nai     0.5218     0.4901 0.5125322             62
+                          sdw     1.6548     0.9933 0.4511371             56
+                          alt     3.5024     3.5001 0.1234013             26
+                          ibd     0.5008     0.4712 0.5464358             52
+
+====================================================================================
+Test 13
+====================================================================================
+-----
+Model
+-----
+
+H0: EF, Q2 ~ [Intercept] + POLYGENIC_EFF + RANDOM_EFF
+H1: EF, Q2 ~ [Intercept] + D5G13 + POLYGENIC_EFF + RANDOM_EFF
+
+------------
+Sample Count
+------------
+
+Number of individuals used at first level     = 27
+Number of relative pairs used at second level = 28
+
+-----------------
+Estimates from H0
+-----------------
+
+Test                                                                   Nominal    
+Variable                      Estimate Variance-Covariance   Chi-sq.   P-value    
+------------------------- ------------ ------------------- --------- ---------    
+------------------
+Score Test Results
+------------------
+
+Test                          Unadjusted   Adjusted Empirical     Number of 
+Variable                  Var    T-value    T-value   P-value     Replicates
+------------------------- --- ---------- ---------- ---------     ----------
+D5G13                     nai     0.5370     0.0156 0.9467440             22
+                          sdw     1.5063     0.0258 0.8933306             22
+                          alt     5.0487     0.8177 0.5113733             43
+                          ibd     0.2401     0.0117 0.9962587             22
+
+====================================================================================
+Test 14 #
+====================================================================================
+-----
+Model
+-----
+
+H0: EF, Q2 ~ [Intercept] + POLYGENIC_EFF + RANDOM_EFF
+H1: EF, Q2 ~ [Intercept] + D5G14 + POLYGENIC_EFF + RANDOM_EFF
+
+------------
+Sample Count
+------------
+
+Number of individuals used at first level     = 27
+Number of relative pairs used at second level = 28
+
+-----------------
+Estimates from H0
+-----------------
+
+Test                                                                   Nominal    
+Variable                      Estimate Variance-Covariance   Chi-sq.   P-value    
+------------------------- ------------ ------------------- --------- ---------    
+------------------
+Score Test Results
+------------------
+
+Test                          Unadjusted   Adjusted Empirical     Number of 
+Variable                  Var    T-value    T-value   P-value     Replicates
+------------------------- --- ---------- ---------- ---------     ----------
+D5G14                     nai     0.6623     0.4709 0.4945993             66
+                          sdw     3.0094     0.4863 0.6368589             33
+                          alt     3.8179     2.7662 0.1898323             22
+                          ibd     0.7680     0.5891 0.5195804             56
+
+====================================================================================
+Test 15 #
+====================================================================================
+-----
+Model
+-----
+
+H0: EF, Q2 ~ [Intercept] + POLYGENIC_EFF + RANDOM_EFF
+H1: EF, Q2 ~ [Intercept] + D5G15 + POLYGENIC_EFF + RANDOM_EFF
+
+------------
+Sample Count
+------------
+
+Number of individuals used at first level     = 27
+Number of relative pairs used at second level = 28
+
+-----------------
+Estimates from H0
+-----------------
+
+Test                                                                   Nominal    
+Variable                      Estimate Variance-Covariance   Chi-sq.   P-value    
+------------------------- ------------ ------------------- --------- ---------    
+------------------
+Score Test Results
+------------------
+
+Test                          Unadjusted   Adjusted Empirical     Number of 
+Variable                  Var    T-value    T-value   P-value     Replicates
+------------------------- --- ---------- ---------- ---------     ----------
+D5G15                     nai     1.3120     1.3044 0.2877915            112
+                          sdw     2.8084     2.6375 0.1864178             90
+                          alt     8.1167     8.1167 0.0107161 *           46
+                          ibd     0.9991     0.9920 0.4476525             61
+
+====================================================================================
+Test 16 #
+====================================================================================
+-----
+Model
+-----
+
+H0: EF, Q2 ~ [Intercept] + POLYGENIC_EFF + RANDOM_EFF
+H1: EF, Q2 ~ [Intercept] + D5G16 + POLYGENIC_EFF + RANDOM_EFF
+
+------------
+Sample Count
+------------
+
+Number of individuals used at first level     = 27
+Number of relative pairs used at second level = 28
+
+-----------------
+Estimates from H0
+-----------------
+
+Test                                                                   Nominal    
+Variable                      Estimate Variance-Covariance   Chi-sq.   P-value    
+------------------------- ------------ ------------------- --------- ---------    
+------------------
+Score Test Results
+------------------
+
+Test                          Unadjusted   Adjusted Empirical     Number of 
+Variable                  Var    T-value    T-value   P-value     Replicates
+------------------------- --- ---------- ---------- ---------     ----------
+D5G16                     nai     1.6187     1.6108 0.2437622            116
+                          sdw     1.7247     1.5367 0.2882914             84
+                          alt    11.7129    11.7129 0.0017913 **          47
+                          ibd     1.2553     1.2477 0.3918713             64
+
+====================================================================================
+Test 17
+====================================================================================
+-----
+Model
+-----
+
+H0: EF, Q2 ~ [Intercept] + POLYGENIC_EFF + RANDOM_EFF
+H1: EF, Q2 ~ [Intercept] + D5G17 + POLYGENIC_EFF + RANDOM_EFF
+
+------------
+Sample Count
+------------
+
+Number of individuals used at first level     = 27
+Number of relative pairs used at second level = 28
+
+-----------------
+Estimates from H0
+-----------------
+
+Test                                                                   Nominal    
+Variable                      Estimate Variance-Covariance   Chi-sq.   P-value    
+------------------------- ------------ ------------------- --------- ---------    
+------------------
+Score Test Results
+------------------
+
+Test                          Unadjusted   Adjusted Empirical     Number of 
+Variable                  Var    T-value    T-value   P-value     Replicates
+------------------------- --- ---------- ---------- ---------     ----------
+D5G17                     nai     0.1287     0.1287 0.8641060             22
+                          sdw     1.6168     1.6168 0.4575500             30
+                          alt    28.7853    28.7853 0.0000008 ***        155
+                          ibd     1.6089     1.6089 0.4354652             32
+
+====================================================================================
+Test 18
+====================================================================================
+-----
+Model
+-----
+
+H0: EF, Q2 ~ [Intercept] + POLYGENIC_EFF + RANDOM_EFF
+H1: EF, Q2 ~ [Intercept] + D5G18 + POLYGENIC_EFF + RANDOM_EFF
+
+------------
+Sample Count
+------------
+
+Number of individuals used at first level     = 27
+Number of relative pairs used at second level = 28
+
+-----------------
+Estimates from H0
+-----------------
+
+Test                                                                   Nominal    
+Variable                      Estimate Variance-Covariance   Chi-sq.   P-value    
+------------------------- ------------ ------------------- --------- ---------    
+------------------
+Score Test Results
+------------------
+
+Test                          Unadjusted   Adjusted Empirical     Number of 
+Variable                  Var    T-value    T-value   P-value     Replicates
+------------------------- --- ---------- ---------- ---------     ----------
+D5G18                     nai     0.1675     0.1675 0.8114655             22
+                          sdw     1.5930     1.5930 0.4852133             23
+                          alt   576.9347   576.9347 0.0000000 ***      10000
+                          ibd     2.1104     2.1104 0.3363798             43
+
+====================================================================================
+Test 19
+====================================================================================
+-----
+Model
+-----
+
+H0: EF, Q2 ~ [Intercept] + POLYGENIC_EFF + RANDOM_EFF
+H1: EF, Q2 ~ [Intercept] + D5G19 + POLYGENIC_EFF + RANDOM_EFF
+
+------------
+Sample Count
+------------
+
+Number of individuals used at first level     = 27
+Number of relative pairs used at second level = 28
+
+-----------------
+Estimates from H0
+-----------------
+
+Test                                                                   Nominal    
+Variable                      Estimate Variance-Covariance   Chi-sq.   P-value    
+------------------------- ------------ ------------------- --------- ---------    
+------------------
+Score Test Results
+------------------
+
+Test                          Unadjusted   Adjusted Empirical     Number of 
+Variable                  Var    T-value    T-value   P-value     Replicates
+------------------------- --- ---------- ---------- ---------     ----------
+D5G19                     nai     0.2447     0.2447 0.7907234             22
+                          sdw     3.6638     3.6638 0.1803842             48
+                          alt  1084.4195  1084.4195 0.0000000 ***      10000
+                          ibd     2.3446     2.3446 0.2880230             49
+
+====================================================================================
+Test 20
+====================================================================================
+-----
+Model
+-----
+
+H0: EF, Q2 ~ [Intercept] + POLYGENIC_EFF + RANDOM_EFF
+H1: EF, Q2 ~ [Intercept] + D5G20 + POLYGENIC_EFF + RANDOM_EFF
+
+------------
+Sample Count
+------------
+
+Number of individuals used at first level     = 27
+Number of relative pairs used at second level = 28
+
+-----------------
+Estimates from H0
+-----------------
+
+Test                                                                   Nominal    
+Variable                      Estimate Variance-Covariance   Chi-sq.   P-value    
+------------------------- ------------ ------------------- --------- ---------    
+------------------
+Score Test Results
+------------------
+
+Test                          Unadjusted   Adjusted Empirical     Number of 
+Variable                  Var    T-value    T-value   P-value     Replicates
+------------------------- --- ---------- ---------- ---------     ----------
+D5G20                     nai     0.3356     0.3347 0.7417988             22
+                          sdw     3.2096     3.1483 0.2135344             51
+                          alt    31.1508    31.1118 0.0000002 ***        146
+                          ibd     2.0909     2.0909 0.3237724             45
+
+====================================================================================
+Test 21
+====================================================================================
+-----
+Model
+-----
+
+H0: EF, Q2 ~ [Intercept] + POLYGENIC_EFF + RANDOM_EFF
+H1: EF, Q2 ~ [Intercept] + D5G21 + POLYGENIC_EFF + RANDOM_EFF
+
+------------
+Sample Count
+------------
+
+Number of individuals used at first level     = 27
+Number of relative pairs used at second level = 28
+
+-----------------
+Estimates from H0
+-----------------
+
+Test                                                                   Nominal    
+Variable                      Estimate Variance-Covariance   Chi-sq.   P-value    
+------------------------- ------------ ------------------- --------- ---------    
+------------------
+Score Test Results
+------------------
+
+Test                          Unadjusted   Adjusted Empirical     Number of 
+Variable                  Var    T-value    T-value   P-value     Replicates
+------------------------- --- ---------- ---------- ---------     ----------
+D5G21                     nai     0.8580     0.8580 0.5487985             38
+                          sdw     5.0760     5.0760 0.0930918             57
+                          alt    60.5715    60.5715 0.0000000 ***      10000
+                          ibd     2.9673     2.9673 0.2200093             57
+
+====================================================================================
+Test 22
+====================================================================================
+-----
+Model
+-----
+
+H0: EF, Q2 ~ [Intercept] + POLYGENIC_EFF + RANDOM_EFF
+H1: EF, Q2 ~ [Intercept] + D5G22 + POLYGENIC_EFF + RANDOM_EFF
+
+------------
+Sample Count
+------------
+
+Number of individuals used at first level     = 27
+Number of relative pairs used at second level = 28
+
+-----------------
+Estimates from H0
+-----------------
+
+Test                                                                   Nominal    
+Variable                      Estimate Variance-Covariance   Chi-sq.   P-value    
+------------------------- ------------ ------------------- --------- ---------    
+------------------
+Score Test Results
+------------------
+
+Test                          Unadjusted   Adjusted Empirical     Number of 
+Variable                  Var    T-value    T-value   P-value     Replicates
+------------------------- --- ---------- ---------- ---------     ----------
+D5G22                     nai     0.9023     0.9011 0.5197581             43
+                          sdw     5.3083     5.2338 0.0726993             89
+                          alt    78.4249    78.3781 0.0000000 ***      10000
+                          ibd     3.2313     3.2313 0.2103141             50
+
+====================================================================================
+Test 23 #
+====================================================================================
+-----
+Model
+-----
+
+H0: EF, Q2 ~ [Intercept] + POLYGENIC_EFF + RANDOM_EFF
+H1: EF, Q2 ~ [Intercept] + D5G23 + POLYGENIC_EFF + RANDOM_EFF
+
+------------
+Sample Count
+------------
+
+Number of individuals used at first level     = 27
+Number of relative pairs used at second level = 28
+
+-----------------
+Estimates from H0
+-----------------
+
+Test                                                                   Nominal    
+Variable                      Estimate Variance-Covariance   Chi-sq.   P-value    
+------------------------- ------------ ------------------- --------- ---------    
+------------------
+Score Test Results
+------------------
+
+Test                          Unadjusted   Adjusted Empirical     Number of 
+Variable                  Var    T-value    T-value   P-value     Replicates
+------------------------- --- ---------- ---------- ---------     ----------
+D5G23                     nai     1.5839    -0.0000 1.0000000              0
+                          sdw     2.2693     0.9932 0.6549855             22
+                          alt     2.4594    -0.1133 1.0000000              0
+                          ibd     0.5349     0.0134 0.9854022             22
+
+====================================================================================
+Test 24
+====================================================================================
+-----
+Model
+-----
+
+H0: EF, Q2 ~ [Intercept] + POLYGENIC_EFF + RANDOM_EFF
+H1: EF, Q2 ~ [Intercept] + D5G24 + POLYGENIC_EFF + RANDOM_EFF
+
+------------
+Sample Count
+------------
+
+Number of individuals used at first level     = 27
+Number of relative pairs used at second level = 28
+
+-----------------
+Estimates from H0
+-----------------
+
+Test                                                                   Nominal    
+Variable                      Estimate Variance-Covariance   Chi-sq.   P-value    
+------------------------- ------------ ------------------- --------- ---------    
+------------------
+Score Test Results
+------------------
+
+Test                          Unadjusted   Adjusted Empirical     Number of 
+Variable                  Var    T-value    T-value   P-value     Replicates
+------------------------- --- ---------- ---------- ---------     ----------
+D5G24                     nai     1.0550     1.0548 0.4933013             44
+                          sdw     5.3868     5.3760 0.0797294             58
+                          alt    82.5196    82.5107 0.0000000 ***      10000
+                          ibd     3.2544     3.1254 0.2126889             50
+
+====================================================================================
+Test 25
+====================================================================================
+-----
+Model
+-----
+
+H0: EF, Q2 ~ [Intercept] + POLYGENIC_EFF + RANDOM_EFF
+H1: EF, Q2 ~ [Intercept] + D5G25 + POLYGENIC_EFF + RANDOM_EFF
+
+------------
+Sample Count
+------------
+
+Number of individuals used at first level     = 27
+Number of relative pairs used at second level = 28
+
+-----------------
+Estimates from H0
+-----------------
+
+Test                                                                   Nominal    
+Variable                      Estimate Variance-Covariance   Chi-sq.   P-value    
+------------------------- ------------ ------------------- --------- ---------    
+------------------
+Score Test Results
+------------------
+
+Test                          Unadjusted   Adjusted Empirical     Number of 
+Variable                  Var    T-value    T-value   P-value     Replicates
+------------------------- --- ---------- ---------- ---------     ----------
+D5G25                     nai     0.4689     0.4688 0.6879798             22
+                          sdw     3.3675     3.3628 0.1967975             51
+                          alt    41.5568    41.5528 0.0000000 ***      10000
+                          ibd     2.3560     2.3560 0.2819586             49
+
+====================================================================================
+

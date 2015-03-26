@@ -1,0 +1,25 @@
+S.A.G.E. RELEASE 4.0 -- SEGREG  DECEMBER 2001
+COPYRIGHT (C) 2001 CASE WESTERN RESERVE UNIVERSITY
+
+Reading Parameter File....................done.
+Reading Pedigree File.....................
+              from ped.dbh................done.
+Sorting pedigrees.........................done.
+
+Parsing Segreg Analyses...
+
+Beginning new analysis block....
+
+
+Parsing Analysis: 'SEGREG Analysis 1'....
+
+%SEGREG-E: Attribute 'fixed' not used in parameter, freq_A in geno_freq
+           sub-block.  Use 'probs_fixed'.
+
+Analysis parsing complete.  Analysis valid.
+------------------------------------------------------------------------------
+
+  Performing Mean Maximization (target model: three means)
+    Setting up initial model...........
+      Setting to one mean.................Done.
+      Setting to homog_no_trans...........Done.Assertion failed: false, file freq_sub_model.cpp, line 75

@@ -1,0 +1,626 @@
+\TITLE\
+Style Guide for Doxygen Comments
+\DOC_NAME\
+main_style_guide
+\DETAILED\
+\#.\ Introduction
+
+This document describes the standard way that SAGE code should be
+documented to conform to doxygen standards. This is a \b style guide, not a
+treatise on documentation philosophy. This document simply explains how to
+use doxygen codes and where to use them.
+
+\#.\ Doxygen's official manual
+
+To begin with, take a look at Doxygen's user manual:
+http://www.stack.nl/~dimitri/doxygen/commands.html
+
+\#.\ Doxygen basics
+
+Doxygen is basically a system of special tags that you can add to your
+normal C/C++ documentation. When doxygen is actually run, it will scan the
+codebase for those tags, and it in turn creates a beautiful cross-linked
+website with all of your wonderful comments.
+
+\#.#.\ Triple-slashing your comments
+
+The first thing you need to know is that for doxygen to pick up any given
+comment, the comment prefix must be a triple slash ( \c /// ).
+Let's say you've got the following snippet:
+
+\verbatim
+// This functions returns 3.
+int foo() { return 3; }
+\endverbatim
+
+To doxygen-ate your code, just prepend another forward slash to your comment
+lines:
+
+\verbatim
+/// This functions returns 3.
+int foo() { return 3; }
+
+/// x represents the size of the earth.
+double x = 0.0;
+
+/// Thingy is designed to thingify other things.
+class Thingy
+{
+};
+\endverbatim
+
+\#.#.\ Simple font changes
+
+You can make any single word \b bold by sticking \c \\b in front of it. 
+
+You can also make any single word \e italicized by sticking
+\c \\e in front of it.
+
+You can also make any single word \c mono-spaced by sticking \c \\c 
+in front of it.
+
+\#.\ Standard style
+
+The following section describes the standard method for documenting SAGE
+code with doxygen comments.
+
+\#.#.\ Brief vs. detailed descriptions
+
+For any given doxygen comment, doxygen will interpret the first line as a
+"brief" description and all subsequent lines as the "detailed description".
+Doxygen will render the brief and detailed descriptions \b differently in
+the generated website. Brief descriptions are generally listed directly
+alongside the component they document; detailed descriptions are generally
+available by clicking the component in question to get to the detailed
+description.
+
+The SAGE doxygen standard specifies that certain components include a brief
+description, and other components should not. If a component is supposed to
+\b exclude a brief description, simply leave the first documentation line
+blank and doxygen will interpret that to mean there is no brief description.
+
+All components, however, should include detailed descriptions.
+
+The following components should \b always have brief descriptions:
+
+Classes / structs
+
+Enumerations (global and within classes)
+
+Global variables / typedefs / functions
+
+The following components should \b never have brief descriptions:
+
+Class member functions
+
+Class member variables
+
+
+\#.#.\ Internal vs. external
+
+The automated doxygen system for SAGE divides SAGE documentation into two
+major components: \c internal and \c external.
+
+Any documentable object can be thought of as an internal or external one.
+This includes classes, functions, variables, typedefs, etc.
+
+What is the difference between internal and external code components?
+
+Generally speaking, the easiest intuitive explanation of the difference is
+to think of classes' public interface as external, and classes' protected &
+private components as internal. The notion of internal and external,
+however, does go a bit beyond that.
+
+The purpose of documenting something as external is to indicate that it is
+to be used by some outside calling mechanism. For SAGE's analysis programs,
+this means that for the most part public interfaces will be external, and
+protected/private portions will be internal. For libraries, however, it gets
+more nuanced. The portions of the library that are intended for use by the
+developer are considered external; the portions of the library that are
+supposed to be hidden implementation are considered internal.
+
+Internal documentation is a \b superset of external documentation; all
+components appearing in external documentation will \b also appear in
+internal documentation.
+
+As doxygen is currently configured, doxygen will consider all components \c
+external unless otherwise specified. You can specify that a component is
+internal with the \c \\internal control code at the beginning of your comment.
+
+Example:
+
+\verbatim
+/// Calculates foo. (doxygen will consider this external)
+double foo();
+
+/// \internal
+/// Carries out special calculations.
+double special_square_root();
+\endverbatim
+
+\#.#.\ Class declarations
+
+Class declarations should be commented, period. Classes are core aspect of
+programming! Classes should have both brief and detailed descriptions.
+
+Example:
+\verbatim
+/// \brief Foo is a very special class.
+/// Foo is a very special class because it allows Foobar's to talk to Foo's.
+class Foo
+{
+};
+\endverbatim
+
+\#.#.\ Enumerations
+
+Enumerations should include both brief and detailed descriptions; in
+addition, each enumerated value should be documented. Consider the following
+enumeration:
+
+\verbatim
+enum FruitEnum { APPLE = 0, ORANGE = 1, PEAR = 2 };
+\endverbatim
+
+The properly doxygen-friendly format for this enum should be:
+
+\verbatim
+/// Describes a fruit.
+/// Use the fruit enum for describing different kinds of fruit.
+enum FruitEnum 
+{ 
+  APPLE  = 0, /*!< \hideinitializer A yummy apple      */
+  ORANGE = 1, /*!< \hideinitializer A delicious orange */
+  PEAR   = 2  /*!< \hideinitializer A rancid pear      */
+};
+\endverbatim
+
+Notice how each enumeration value is documented with a rather curious
+looking control code. Also, notice the use of the \c \\hideinitializer tag.
+This instructs doxygen to exclude the numeric value of each enumerated value
+from the generated documentation.
+
+\#.#.\ Function grouping
+
+Functions should, with little exception, be placed in thematically related
+groups. 
+The doxygen tags used for starting/ending function groups are 
+\verbatim 
+/// @name GroupName
+//@{
+\endverbatim
+and
+\verbatim
+//@}
+\endverbatim . 
+
+For example, consider the hypothetical ErrorRegistry class, which has three major components:
+
+\c 1 Initial setup functions
+
+\c 2 Error invocation functions
+
+\c 3 Cleanup functions
+
+The class declaration code might look like this:
+
+\verbatim
+
+/// Stores information about the error registry.
+class ErrorRegistry
+{
+public:
+
+  /// @name Initial setup
+  //@{
+
+    ///
+    /// ...
+    void setStatus(int status);
+
+  //@}
+
+  /// @name Error invocation
+  //@{
+
+    ///
+    /// ...
+    void invokeError();
+
+    ///
+    /// ...
+    void sendError();
+
+    ///
+    /// ...
+    void deliverError();
+
+  //@}
+
+  /// @name Cleanup
+  //@{
+
+    ///
+    /// ...
+    int checkStatus();
+
+    ///
+    /// ...
+    void cleanup();
+
+  //@}
+};
+
+\endverbatim
+
+\#.#.\ Function declarations
+
+In your functions declarations you should take care to document what the
+function does, its arguments, and its return values.
+
+\#.#.#.\ Remember to exclude the brief description
+
+The brief description is excluded by leaving the first line of the
+documentation blank:
+
+Example:
+\verbatim
+///
+/// Notice the leading blank line before this one.
+void foo();
+\endverbatim
+
+\#.#.#.\ Document each argument with the \param tag
+
+Parameters need to be documented!
+
+\verbatim
+///
+/// Does something special.
+/// \param height The height of the person
+/// \param weight The weight of the person
+/// \param name The name of the requested person
+void doSomething(int height, int weight, string name);
+\endverbatim
+
+\#.#.#.\ Document the return type with either the \returns or \retval tag.
+
+The return type can be specified with two different tags. 
+
+\c \\returns is used for functions that return one
+straigh-forward type.
+
+Example:
+\verbatim
+///
+/// Returns the height.
+/// \returns The height
+double getHeight();
+\endverbatim
+
+\c \\retval allows you to document each possible return value.
+
+\verbatim
+///
+/// Returns the status.
+/// \retval 0 Uninitialized
+/// \retval 1 Initialized
+/// \retval 2 Built
+/// \retval 3 Finalized
+/// \retval 4 Ready for destruction
+int getStatus();
+\endverbatim
+
+\#.#.#.\ Complete example:
+
+A few complete examples of fully documented functions follow:
+
+\verbatim
+
+///
+/// Returns the square of the given value.
+/// \param x The value whose square root will be returned
+/// \returns The square of the given value
+double getSquareRoot(double x);
+
+///
+/// Returns the current error status.
+/// \retval 0 No error occurred
+/// \retval 1 Out-of-memory error
+/// \retval 2 Insufficient disk space error
+int getErrorStatus();
+
+\endverbatim
+
+\#.#.\ Complete example of a documented class
+
+\verbatim
+
+/** \class RunCfg
+ *  \brief Describes a \b single run of Maxfun.
+ *
+ * \par Purpose
+ *
+ * RunCfg allows you to configure a single run of Maxfun.
+ *
+ * \par Detailed explanation
+ *
+ * It is important to remember that a complete maximization (invoking Maximize()) represents
+ * a \b sequence of individual maximizations. RunCfg represents a configuration for a single
+ * individual maximization.
+ *
+ * \par Getting started
+ *
+ * Generally speaking, you will add RunCfg's through your SequenceCfg object. SequenceCfg
+ * has two functions (SequenceCfg::AddRunCfg() and SequenceCfg::getLatestRunCfg()) that
+ * allow you to add and modify single RunCfg's.
+ *
+ * With SequenceCfg::AddRunCfg(), you can add another RunCfg to the sequence. This function
+ * requires two arguments (maximization method and number of iterations). Please consult
+ * SequenceCfg::AddRunCfg for more information.
+ *
+ * With SequenceCfg::getLatestRunCfg(), you can get a reference to the most recently added
+ * RunCfg. With this reference, you can then directly change maximization configuration features.
+ * Please consult the documentation on each feature for more specific information.
+ */
+class RunCfg
+{
+public:
+
+  /// Identifies which type of maximization method to use.
+  /// Please note that this is different from MAXFUN::maxtype, which indicates an
+  /// entire preset maximization template, not simply a maximization method.
+  enum MaximizationMethodEnum 
+  {
+    COMPLETE_DIRECT       = 1, /*!< \hideinitializer Complete direct search  */
+    DIRECT_WITHOUT        = 2, /*!< \hideinitializer Direct search without \f$2^{N_i}\f$-trial search  */
+    NEWTON_WITHOUT_SECOND = 3, /*!< \hideinitializer Newton-Raphson method, without repeated calculation of second derivatives  */
+    NEWTON_WITH_SECOND    = 4, /*!< \hideinitializer Newton-Raphson method with second derivatives recalculated for each iteration  */
+    VAR_METRIC_IDENTITY   = 5, /*!< \hideinitializer Variable metric method, with initial B = identity  */
+    VAR_METRIC_ESTIMATE   = 6  /*!< \hideinitializer Variable metric method, with initial B = -H calculated at initial parameter estimates.  */
+  };
+
+  /// Variance-covariance matrix calculation option
+  /// Note that the variance-covariance matrix is available \b only in case of convergence (including that
+  /// presumed in the user-specified zero-iteration case).
+  enum VarCovOptionEnum 
+  {
+    // Unspecifed is used internally only. If the user does not explicitly set the var_cov option, then
+    // a default will be used. The UNSPECIFIED value is there so the program can check to see if the option
+    // was set at all.
+    VAR_COV_UNSPECIFIED = -1,
+    NO_MATRIX = 0, /*!< \hideinitializer Not computed beyond what is necessary for parameter estimation. */
+    INITIAL   = 1, /*!< \hideinitializer Computed for final estimates unless one is available that is no more than one iteration old. */
+    FINAL     = 2  /*!< \hideinitializer Computed for final estimates (using iterative method). */
+  };
+
+  /// Second derivative 
+  /// approximation calculation option
+  enum SecDerivOptionEnum
+  {
+    // Unspecifed is used internally only. If the user does not explicitly set the second_deriv option, then
+    // a default will be used. The UNSPECIFIED value is there so the program can check to see if the option
+    // was set at all.
+    SEC_DERIV_UNSPECIFIED = -1,
+    SINGLE    = 0, /*!< \hideinitializer Use a single approximation */
+    ITERATIVE = 1  /*!< \hideinitializer Estimate through an iterative process */
+  };
+
+  /// Control feature 
+  /// for a RunCfg.
+  enum MaxfunControlOptionEnum
+  {
+    UNCONDITIONAL           = 0, /*!< \hideinitializer Do unconditionally. */
+    PREVIOUS_NONCONVERGENCE = 1, /*!< \hideinitializer Do only if previous procedure \b didn't reach convergence. */
+    PREVIOUS_CONVERGENCE    = 2, /*!< \hideinitializer Do only if previous procedure \b did reach converge. */
+  };
+
+  friend class SequenceCfg;
+  friend class ParameterMgr;
+  friend class Maximizer;
+
+  /// @name Constructors & operators
+  //@{
+
+  ///
+  /// Default constructor. Please use the MAXFUN::ParameterMgr interface for creating RunCfg's.
+  RunCfg(MaximizationMethodEnum method, int max_iterations);
+
+  ///
+  /// Copy constructor.
+  RunCfg(const RunCfg &);
+
+  ///
+  /// Assignment operator.
+  RunCfg& operator= (const RunCfg &);
+  //@}
+
+  /// @name Required information
+  //@{
+
+  ///
+  /// Optimization method
+  MaximizationMethodEnum method; // METHOD
+
+  ///
+  /// Maximum number of iterations; if 0, function value and derivatives will be computed for initial estimates, 
+  /// as well as the variance-covariance matrix if var_cov > 0. Please note that if you set max_iterations to
+  /// zero, you should set max_method to MAXFUN::direct_without.
+  ///
+  /// Please note that when max_iterations is input into Maxfun, it is first multiplied by the number of
+  /// estimated parameters.
+  int max_iterations; // MAXIT
+
+  //@}
+
+  /// @name Epsilon information
+  //@{
+
+  ///
+  /// Convergence criterion 1 (\f$\varepsilon_{C1}\f$): maximum relative change in parameter estimates during 
+  /// last iteration; default is \f$10^{-3}\f$
+  double epsilon1; // EPSC1
+
+  ///
+  /// Convergence criterion 2 (\f$\varepsilon_{C2}\f$): maximum normalized gradient at last iteration (for 
+  /// Newton-Raphson or variable metric methods); default is \f$10^{-15}\f$
+  double epsilon2; // EPSC2
+
+  ///
+  /// Standard \f$\varepsilon_D\f$ for testing and sometimes initializing stepsize factors (\f$\delta\f$'s); 
+  /// default is \f$\varepsilon_{C1}\f$ if it is greater than \f$10^{-9}\f$, otherwise \f$10^{-3}\f$.
+  double epsilon_delta; // EPSD
+
+  ///
+  /// Upper bound \f$\varepsilon_T\f$ on truncation error in gradient computation for variable metric methods; 
+  /// default is 10 times the square root of \f$\iota\f$.
+  double epsilon_trunc; // EPST
+
+  //@}
+
+  /// @name Extra information
+  //@{
+
+  ///
+  /// Variance-covariance matrix calculation option
+  ///
+  /// Default = \c none
+  VarCovOptionEnum var_cov; // IXVC
+
+  ///
+  /// Second derivative approximation calculation option
+  ///
+  /// Default = \c single
+  SecDerivOptionEnum second_deriv; // IHIT
+
+  ///
+  /// Stepsize factor \f$\iota\f$ used in computing first and possibly second derivatives; default is 10 times 
+  /// the square root of PRECIS(\f$2^{-45}\f$)
+  double stepsize; // YOTA
+
+  ///
+  /// Each RunCfg can be subjected to a control option. Information on control options
+  /// is available in the MAXFUN::maxfun_control_option documentation.
+  ///
+  /// Default = \c unconditional
+  MaxfunControlOptionEnum control_option;
+  //@}
+
+  protected:
+
+  void       copy      (const RunCfg &);
+
+  void TransferContentsToMaxfun(Maxfun & maxfun);
+
+  // Dumps the contents of this RunCfg to debug.os;
+  void Dump(DebugCfg & debug);
+
+  private:
+
+  RunCfg();
+};
+
+\endverbatim
+
+\#.#.\ Storing Doxygen documentation in an external file
+
+It is possible to write your Doxygen documentation in an external file. If,
+for instance, you do not want to clutter your header files too much, you can
+place all the documentation for the contents of the header file in a
+separate file.
+
+The Doxygen system is configured to use a filemask including files ending
+with the '.dxn' extension. Consider the following two files:
+
+foo.h:
+
+\code
+class foo
+{
+public:
+  int status() const;
+};
+\endcode
+
+foo.dxn:
+
+\verbatim
+/// \class foo
+/// A very special class.
+
+/// \fn int foo::status() const
+/// Returns the status of the class.
+
+/// \var int foo::my_status
+/// Stores the status
+\endverbatim
+
+When Doxygen is run, it will pick up both foo.h and foo.dxn. From foo.h,
+Doxygen will extract the class foo and function foo::status(). From foo.dxn,
+Doxygen will finding documentation for those components.
+
+Please note that each documentation component in foo.dxn has a first line
+indicating to \b which logical component the documentation should be bound.
+The format of this line follows the form [component_type] [component_name].
+For a class, for instance, the first line reads '\\class foo'; for a
+function the first line reads '\\fn [complete and qualified function name]'.
+Doxygen has special codes for all documentable components. Please consult
+the Doxygen website for a comprehensive list of such components.
+
+Also, please note that a documentation component, bound to a logical
+component that does \b not exist in the code, may not be rendered in the
+Doxygen website. Make sure that you document only components that actually
+exist in your code.
+
+Lastly, please take note that the separation of code from corresponding
+documentation increases the chances that changes in code will not be
+reflected in documentation. That is, if your documentation is located in an
+external file, and you change your code, it is easy to forget that
+documentation locted in an external will have to changed as well.
+
+\#.#.\ Module mainpages
+
+Doxygen creates a 'mainpage' for each documented module. The mainpage is the
+first thing you'll see when browsing a specific module.
+
+The doxygen make system scans the [module]/docs directly for a file called
+mainPage.otln. If it is found, mainPage.otln is converted into a main page
+for that module.
+
+\#.#.#.\ What is otln?
+
+Otln ('outline') is a markup format for text files. It has been developed
+in-house so as to help with the development of module mainpages. It
+organizes a text file into named, co-equal sections. Within the 'DETAILED'
+section, it allows for certain organizational markup tags.
+
+The primary program for working with .otln is otlnproc, located in
+sage/src/util/doc. If you run it without any arguments, it will give you
+complete reference information on .otln formatting.
+
+\#.#.#.\ What is the standard format for mainPage.otln?
+
+The required components of mainPage.otln are 'TITLE', 'DOC_NAME', and
+'DETAILED'.
+
+'TITLE' should contain one line giving a brief descriptive title to the main
+page.
+
+'DOC_NAME' should contain one line giving a unique alphanumeric name for the page, such as
+FPED_MAIN.
+
+'DETAILED' should contain the complete contents you wish to include in your
+main page.
+
+For instance, the first few lines of \b this main page are as follows:
+
+\verbatim
+ \TITLE\
+ Style Guide for Doxygen Comments
+ \DOC_NAME\
+ main_style_guide
+ \DETAILED\
+ \#.\ Introduction
+ Bah blah blah...
+\endverbatim
+

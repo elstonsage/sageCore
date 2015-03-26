@@ -1,0 +1,42 @@
+pedigree
+{
+  pedigree_id=PID
+  individual_id=ID
+  sex_field=SEX
+  parent_id=P1
+  parent_id=P2
+  trait=DISEASE, binary, affected=1, unaffected=0
+  trait=HEMATOCRIT
+  trait=t
+  trait=u
+  trait=v
+  trait=w
+  trait=x
+  trait=y
+  trait=z
+}
+
+segreg_analysis
+{
+  trait = hematocrit
+  
+  type_mean
+  {
+    option=two
+    mean="AA",val=17.5
+    mean="BB",val=8.0
+  }
+  
+  type_var
+  {
+    option=two
+    var="AA",val=17.5,fixed=true
+    var="BB",val=8.0
+  }
+
+  transmission
+  {
+    option=homog_no_trans
+  }
+}
+

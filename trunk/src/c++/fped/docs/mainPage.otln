@@ -1,0 +1,213 @@
+\TITLE\
+Filtered Multipedigrees
+\BRIEF\
+Pedigree Structure Filtration Objects and Algorithms
+\DOC_NAME\
+FPED
+\DETAILED\
+\#.\ Introduction
+
+Data provided to S.A.G.E. programs is often not immediately ready to be
+analyzed.  Our algorithms often must make assumptions about the types of data on
+theoretic grounds.  These assumptions come in the form of restriction
+criteria which must be met before the analysis can proceed.
+
+The FPED Library is a tool for altering pedigree structure based upon such
+criteria.  Based upon an underlying SAGE::RPED::RefMultiPedigree, generally
+the source data, it can create arbitrary pedigree structures in which the
+members map back to a source member, in effect changing pedigree structures
+to suit algorithmic needs.  Some needs which are supported are:
+ 
+- Removing uninformative members (ex. GENIBD, MLOD)
+- Restructuring pedigree relationships (ex. RELTEST)
+- Removing inbreeding, loops, marriage chains or clusters (ex. ASSOC)
+- Splitting a subpedigree up into separate smaller subpedigrees (ex. GENIBD,
+  MLOD)
+
+And so on.  In these cases, the desired effect is to remove
+certain problematic or unneeded members, and/or to use different pedigree
+structures that are more amenable to the analysis.
+
+Note that the FPED performs a very different function from other data
+cleaning objects.  It removes or modifies \em relationships within the
+pedigree structure.  It does not change member's data, though which members
+are altered may be chosen upon the basis of that member data. 
+
+Instead, each member of the FilteredMultipedigree can have a reference back
+to a member in the source multipedigree stored in its info class, which it
+uses to provide the same trait and phenotype information as the source
+member.  Members without such a reference are considered to have missing
+data at all traits and markers.  Similarly, each pedigree in the
+FilteredMultipedigree refers back to its source pedigree.
+
+\#.\ Basic Structure
+
+The FPED library breaks down into two pieces:
+
+- \ref FPED_2_1_
+- \ref FPED_2_2_
+
+\#.#.\ FilteredMultipedigree Objects
+
+The FilteredMultipedigree Objects are a SAGE::MPED::multipedigree derived
+template instantiation and the associated info classes.  Information is
+stored at the Multipedigree, Pedigree and Member levels.  The last, which
+differs from the SAGE::RPED::RefMultiPedigree, is provided for direct access
+to member data through the member themselves.
+
+The interfaces to the info classes mimic those provided by the
+SAGE::RPED::RefMultiPedigree, with a few minor changes and additions.  The
+member info class also mimics the SAGE::RPED::RefPedInfo interface, but
+reduces it to specifically target the member.  Algorithms written to use the
+SAGE::RPED::RefMultiPedigree should be totally compatible with the
+FilteredMultipedigree, but often can be optimized with its use.  Both the
+Pedigree and Member level interfaces are restricted to const access only.
+
+The FilteredMultipedigree class itself is a publicly-derived child of the
+MPED::multipedigree template.  The primary differences relate to
+construction issues, as it is otherwise identical to a simple template
+instantiation.
+
+\#.#.\ Multipedigree Filtration Objects
+
+The Multipedigree Filtration Objects are provided to do basic filtering
+based upon boolean functions on multipedigree elements, typically members.
+The primary class is the
+MPFilterer, which copies (filters) members into a provided
+FilteredMultipedigree based upon a user-provided function.  It is assisted
+by a number of pre-defined functor objects which allow customization of the
+routines as needed for specific filtration tasks.  The MPFilterer
+assumes that lineage information is preserved whenever possible, and is
+removed whenever it would violate pedigree structure restrictions (ex.  If a
+parent is removed, the other parent lineage is removed from all children
+with the first parent, since a child must have both parents or neither).
+
+Finally, a simple function, filter_to_sib_pair(), is provided as an example
+of how filtered members need not have the same structural relationships as
+in the source multipedigree.  In this case, an arbitrary pair of members is
+created as a sib pair with dummy parents to facilitate RELTEST.s analysis.
+
+\#.\ Constructing a FilteredMultipedigree
+
+Creation of a filtered multipedigree is done in stages:
+
+- \ref FPED_3_1_
+- \ref FPED_3_2_
+- \ref FPED_3_3_
+
+\#.#.\ Creation
+
+A FilteredMultipedigree is created based upon some source multipedigree.
+This may be a RPED::RefMultiPedigree, or it may be another
+FilteredMultipedigree. In either case, the source is passed through the
+constructor and is used to test and verify that the FilteredMultipedigree is
+consistent with the underlying RPED::RefMultiPedigree (in the case of
+building based upon a FilteredMultipedigree, the FilteredMultipedigree
+automatically builds based upon the RPED::RefMultiPedigree underlying \em that
+FilteredMultipedigree).
+
+Example code:
+
+ \code
+
+RPED::RefMultiPedigree rp;
+.
+.
+.
+
+FPED::FilteredMultipedigree f(rp);
+
+ \endcode
+
+\#.#.\ Adding Member and Lineage
+Information
+
+In general, adding members and lineage can be done through a set of helper
+funtions in the MPFilterer static class.  These functions
+provide most of the necessary functionality to make adding a pedigree,
+subpedigree, or family to an existing FilteredMultipedigree based upon some
+filtration criteria.  See \ref FPEDFilterObjects for more details.
+
+Example code:
+
+ \code
+ 
+// f is (some) functor that takes a multipedigree element (in this case an RPED::RefMember)
+// and returns true or false
+filter_functor<RPED::RefMember> filter;
+
+FPED::MPFilterer::add_multipedigree_filtered_by_members(f, rp, filter);
+
+ \endcode
+
+Creating a custom FilteredMultipedigree is also fairly simple.  Each member
+which is added has its own info class, which is a reference back to the
+source RPED::RefMember.  These can be added when the add_member() function 
+is called, or later modified to point to different members.  Note that they 
+should not be modified after final construction of the FilteredMultipedigree, 
+which uses the source information in setting up the pedigrees.
+If an member is not given an info class, they will be considered
+a new, uninformative member that was not in the source RPED::RefMultiPedigree.
+See the filter_to_sib_pair() function for a simple example of this in production 
+code.
+
+Example code:
+
+ \code
+
+// member came from somewhere...
+const RPED::RefMember& member;
+
+.
+. // Do stuff
+.
+
+// Add the member
+f.add_member(member.pedigree().name(), member.name(), member.gender(), FilteredMemberInfo(member));
+
+// Add a new member that doesn't refer to anyone, but is in the same pedigree as
+// the previous member
+f.add_member(member.pedigree().name(), "dummy", MPED::male);
+
+// Set this new dummy individual to have the information from the member as well.
+filtered_member& fmember = f.member_find(member.pedigree().name(), member.name());
+
+fmember.info() = FilteredMemberInfo(member);
+
+ \endcode
+
+\#.#.\ Do a final construction of the FilteredMultipedigree
+
+After members and their lineages are added, the filtered multipedigree must
+be built using the construct() function.  This calls the multipedigree
+build() function, but also constructs the FilteredPedigreeInfo objects.  It
+verifies consistency of the information as well, calling an internal error
+if there's a problem.
+
+Example code:
+
+ \code
+
+.
+. // Do lots of building
+.
+
+// finished building, construct the FilteredMultipedigree
+f.construct()
+
+// f is ready for use.
+
+ \endcode
+
+
+\#.\ Using the FilteredMultipedigree
+
+Using the filtered multipedigree should be identical to using any other
+multipedigree-derived type.  It should be a drop in replacement for the
+RPED::RefMultiPedigree anywhere the access to the info is const, but may 
+be optimized in a few ways.  First and foremost, algorithms which use the 
+FilteredMultipedigree can do less error checking, as there is some assurance 
+that the pedigree structures provided are, in fact, analyzable.  In addition, 
+since members know their own data (through their info class), code complexity 
+can be reduced in many places and code readability enhanced.
+

@@ -1,0 +1,64 @@
+#!/usr/local/bin/python
+
+import os
+import sys
+
+pwd = os.environ['PWD']
+
+sys.path.append(pwd)
+
+from test_info import *
+
+import unittest
+import sagetest
+import types
+
+ALIASES = {}
+
+class SAGE_Test_Loader (unittest.TestLoader):
+
+    def loadTestsFromName(self, name, module=None):
+      # There are three ways to find a test
+      try:
+        x = unittest.TestLoader.loadTestsFromName(self, name, module)
+        return x
+      except AttributeError:
+        try:
+          return sagetest.SAGE_Test(test_dir=name, params=TESTS[name], common_dir=COMMON_DIRECTORY)
+        except KeyError:
+          raise ValueError, "no such test method: %s" % (name)
+        except NameError:
+          try:
+            return ALIASES[name]
+          except KeyError:
+            raise ValueError, "no such test method: %s" % (name)
+
+    def aliasTestsFromModule(self, module):
+        """Return a suite of all tests cases contained in the given module"""
+
+        for name in dir(module):
+            obj = getattr(module, name)
+            if type(obj) == types.ClassType or type(obj) == types.TypeType:
+              if issubclass(obj, unittest.TestCase):
+                tests = self.getTestCaseNames(obj)
+                for i in tests:
+                   ALIASES[i] = obj(methodName=i)
+
+def all():
+
+    all_suite = SAGE_Test_Loader().loadTestsFromModule(__import__(__name__))
+
+    try:
+      for i in TESTS:
+        all_suite.addTest(sagetest.SAGE_Test(test_dir=i, params=TESTS[i], common_dir=COMMON_DIRECTORY))
+    except:
+      return all_suite
+
+    return all_suite
+
+
+if __name__ == '__main__':
+
+  SAGE_Test_Loader().aliasTestsFromModule(__import__(__name__))
+
+  unittest.main(testLoader=SAGE_Test_Loader())

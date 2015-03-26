@@ -1,0 +1,27 @@
+last maxfun return code  10
+final values of mle_sub_model:
+
+Maximum likelihood estimation values - 
+Sex-specific:           false
+Uses alpha:             false
+
+INPUT:
+
+group_name        mle sub model
+param_name        average recombination fraction
+initial_estimate  0.25
+initial_type      Independent
+lower_bound       0
+upper_bound       1
+
+
+FINAL:
+name average recombination fraction
+type Ind. fixed @ bound
+lower bound 0
+upper bound 1
+value 0
+
+
+
+maximum log likelihood -27.0704, maximum lod score  0.0385062

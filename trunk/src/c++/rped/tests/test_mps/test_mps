@@ -1,0 +1,6 @@
+#!/bin/sh
+
+rm -f MPS_test.out
+for i in *.dat; do \
+  ../../MPS_test $i '(2(A4,1X),T21,A1,T10,2(1X,A4))' >> MPS_test.out; \
+done

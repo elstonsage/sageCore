@@ -1,0 +1,83 @@
+loop.dat
+
+Checking pedigree 0504:
+   Loops detected:  0 marriage loops.  1 non-marriage loops.
+
+Checking pedigree 0524: normal pedigree.
+
+Checking pedigree 0544: normal pedigree.
+
+Checking pedigree 0550: normal pedigree.
+
+Checking pedigree 0554: normal pedigree.
+
+Checking pedigree 0553: normal pedigree.
+mloop.dat
+
+Checking pedigree 0504:
+   Loops detected:  2 marriage loops.  0 non-marriage loops.
+
+Checking pedigree 0524: normal pedigree.
+
+Checking pedigree 0544: normal pedigree.
+
+Checking pedigree 0550: normal pedigree.
+
+Checking pedigree 0554: normal pedigree.
+
+Checking pedigree 0553: normal pedigree.
+nmloop.dat
+
+Checking pedigree 0504:
+   Loops detected:  0 marriage loops.  3 non-marriage loops.
+
+Checking pedigree 0524: normal pedigree.
+
+Checking pedigree 0544: normal pedigree.
+
+Checking pedigree 0550: normal pedigree.
+
+Checking pedigree 0554: normal pedigree.
+
+Checking pedigree 0553: normal pedigree.
+normal.dat
+
+Checking pedigree 0504: normal pedigree.
+
+Checking pedigree 0524: normal pedigree.
+
+Checking pedigree 0544: normal pedigree.
+
+Checking pedigree 0550: normal pedigree.
+
+Checking pedigree 0554: normal pedigree.
+
+Checking pedigree 0553: normal pedigree.
+subp.dat
+
+Checking pedigree 0504:
+   Loops detected:  0 marriage loops.  1 non-marriage loops.
+
+Checking pedigree 0524: normal pedigree.
+
+Checking pedigree 0544: normal pedigree.
+
+Checking pedigree 0550: normal pedigree.
+
+Checking pedigree 0554: normal pedigree.
+
+Checking pedigree 0553: normal pedigree.
+uconn.dat
+
+Checking pedigree 0504:
+   Loops detected:  0 marriage loops.  1 non-marriage loops.
+
+Checking pedigree 0524: normal pedigree.
+
+Checking pedigree 0544: normal pedigree.
+
+Checking pedigree 0550: normal pedigree.
+
+Checking pedigree 0554: normal pedigree.
+
+Checking pedigree 0553: normal pedigree.

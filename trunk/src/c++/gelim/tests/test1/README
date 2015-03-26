@@ -1,0 +1,11 @@
+This set of pedigrees tests various bits of the genotype elimination code. 
+Primarily, it tests to make sure the genotype elimination works as intended
+under a variety of circumstances:
+
+Pedigree   Test
+ 1         Everything consistent, but certain members of the family are
+           excluded on Trait T1
+ 2         Like above, but all members included.
+ 3         All markers inconsistent, single nuclear family inconsistencies
+ 4         All markers inconsistent, but 2 or more NF's are required to
+           locate inconsistency.

@@ -1,0 +1,35 @@
+pedigree,column
+{
+  format="4A5,1X,A1,9X,A6,5A8"
+
+  individual_missing_value="0"
+
+  # Family Structure
+
+  pedigree_id
+  individual_id
+  parent_id
+  parent_id
+  sex_field,male=1,female=2
+
+  # Phenotypes
+
+  trait=EF,missing=" "
+  trait=Q1,missing=" "
+  trait=Q2,missing=" "
+  trait=Q3,missing=" "
+  trait=Q4,missing=" "
+  trait=Q5,missing=" "
+
+}
+
+fcor
+{
+  class_weight=uniform
+  correlations=both
+  standard_error=true, pair
+  output
+  {
+    pair = true
+  }
+}

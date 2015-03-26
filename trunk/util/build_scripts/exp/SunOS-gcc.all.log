@@ -1,0 +1,327 @@
+
+Making Global Configuration Options for sparc-solaris2.5-gcc RELEASE in ../../targets/sparc-solaris2.5-gcc/c++/globals
+
+
+Making Containers Library for sparc-solaris2.5-gcc RELEASE in ../../targets/sparc-solaris2.5-gcc/c++/containers
+
+
+Making Error handler streams for sparc-solaris2.5-gcc RELEASE in ../../targets/sparc-solaris2.5-gcc/c++/error
+
+
+Making liberror.a: error Library
+
+liberror.a
+
+Making LSF and related objects for sparc-solaris2.5-gcc RELEASE in ../../targets/sparc-solaris2.5-gcc/c++/LSF
+
+
+Making libLSF.a: LSF Library
+
+libLSF.a
+
+Making Fortran I/O Objects for sparc-solaris2.5-gcc RELEASE in ../../targets/sparc-solaris2.5-gcc/c++/fortran
+
+
+Making libfortran.a: "Fortran Parsing blob"
+
+libfortran.a
+
+Making Error handler streams for sparc-solaris2.5-gcc RELEASE in ../../targets/sparc-solaris2.5-gcc/c++/numerics
+
+
+Making libnumerics.a: numerics Library
+
+libnumerics.a
+
+Making Miscellaneous S.A.G.E. Utilities for sparc-solaris2.5-gcc RELEASE in ../../targets/sparc-solaris2.5-gcc/c++/util
+
+
+Making libutil.a: "Util library"
+
+libutil.a
+
+Making Output for sparc-solaris2.5-gcc RELEASE in ../../targets/sparc-solaris2.5-gcc/c++/output
+
+
+Making liboutput.a: "Output library"
+
+liboutput.a
+
+Making Application Framework Code for sparc-solaris2.5-gcc RELEASE in ../../targets/sparc-solaris2.5-gcc/c++/app
+
+
+Making libapp.a: "Application Framework Code"
+
+libapp.a
+
+Making Functors Library for sparc-solaris2.5-gcc RELEASE in ../../targets/sparc-solaris2.5-gcc/c++/functors
+
+
+Making New MultiPedigree for sparc-solaris2.5-gcc RELEASE in ../../targets/sparc-solaris2.5-gcc/c++/mped
+
+
+Making libmped.a: New MultiPedigree Library
+
+libmped.a
+
+Making New Multi Locus for sparc-solaris2.5-gcc RELEASE in ../../targets/sparc-solaris2.5-gcc/c++/mlocus
+
+
+Making libmlocus.a: New Multi Locus Library
+
+libmlocus.a
+
+Making New General Referenced Pedigrees and related objects  for sparc-solaris2.5-gcc RELEASE in ../../targets/sparc-solaris2.5-gcc/c++/rped
+
+
+Making librped.a: New General Referenced Pedigree Library
+
+librped.a
+
+Making New Relative Pairs and related objects for sparc-solaris2.5-gcc RELEASE in ../../targets/sparc-solaris2.5-gcc/c++/pairs
+
+
+Making libpairs.a: New Pairs Library
+
+libpairs.a
+
+Making Filtered Pedigrees and related objects  for sparc-solaris2.5-gcc RELEASE in ../../targets/sparc-solaris2.5-gcc/c++/fped
+
+
+Making libfped.a: FILTERED Pedigree Library
+
+libfped.a
+
+Making MultiPedigree variable transformation for sparc-solaris2.5-gcc RELEASE in ../../targets/sparc-solaris2.5-gcc/c++/func
+
+
+Making libfunc.a: Function library
+
+libfunc.a
+
+Making Basic SAGE application data and tools for sparc-solaris2.5-gcc RELEASE in ../../targets/sparc-solaris2.5-gcc/c++/sampling
+
+
+Making libsampling.a: "SAGE Sampling Library"
+
+libsampling.a
+
+Making Genotype Elimination Model for sparc-solaris2.5-gcc RELEASE in ../../targets/sparc-solaris2.5-gcc/c++/gelim
+
+
+Making libgelim.a: "Genotype Elimination Library"
+
+libgelim.a
+
+Making Basic SAGE application data and tools for sparc-solaris2.5-gcc RELEASE in ../../targets/sparc-solaris2.5-gcc/c++/data
+
+
+Making libdata.a: "SAGE Application Data"
+
+libdata.a
+
+Making Peeling Library for sparc-solaris2.5-gcc RELEASE in ../../targets/sparc-solaris2.5-gcc/c++/peeling
+
+
+Making Inheritance Vectors for sparc-solaris2.5-gcc RELEASE in ../../targets/sparc-solaris2.5-gcc/c++/lvec
+
+
+Making liblvec.a: "Likelihood Vector Library"
+
+liblvec.a
+
+Making MCMC basic objects for sparc-solaris2.5-gcc RELEASE in ../../targets/sparc-solaris2.5-gcc/c++/mcmc
+
+
+Making libmcmc.a: "MCMC simulation Library"
+
+libmcmc.a
+
+Making Identical By Descent for sparc-solaris2.5-gcc RELEASE in ../../targets/sparc-solaris2.5-gcc/c++/ibd
+
+
+Making libibd.a: "Identical By Descent Library"
+
+libibd.a
+
+Making Bases for Pair Analyses for sparc-solaris2.5-gcc RELEASE in ../../targets/sparc-solaris2.5-gcc/c++/palbase
+
+
+Making libpalbase.a: New Pairs Library
+
+libpalbase.a
+
+Making Maxfun for sparc-solaris2.5-gcc RELEASE in ../../targets/sparc-solaris2.5-gcc/c++/maxfun
+
+
+Making libmaxfun.a: Maxfun Library
+
+libmaxfun.a
+
+Making Maxfun for sparc-solaris2.5-gcc RELEASE in ../../targets/sparc-solaris2.5-gcc/c++/maxfunapi
+
+
+Making libmaxfunapi.a: Maxfun API
+
+libmaxfunapi.a
+
+Making Mfsubmodels for sparc-solaris2.5-gcc RELEASE in ../../targets/sparc-solaris2.5-gcc/c++/mfsubmodels
+
+
+Making libmfsubmodels.a: Maxfun Submodels
+
+libmfsubmodels.a
+
+Making Age of Onset for sparc-solaris2.5-gcc RELEASE in ../../targets/sparc-solaris2.5-gcc/c++/ageonset
+
+
+Making libageon.a: "Age of Onset library"
+
+Making ageon: Age of Onset Application
+
+ageon
+libageon.a
+
+Making Assoc for sparc-solaris2.5-gcc RELEASE in ../../targets/sparc-solaris2.5-gcc/c++/assoc
+
+
+Making libassoc.a: "Assoc library"
+
+Making assoc: Assoc Application
+
+assoc
+libassoc.a
+
+Making Decipher for sparc-solaris2.5-gcc RELEASE in ../../targets/sparc-solaris2.5-gcc/c++/decipher
+
+
+Making libdecipher.a: "decipher library"
+
+Making decipher: DECIPHER Application
+
+decipher
+libdecipher.a
+
+Making MultiPedigree Correlations with Standard Errors for sparc-solaris2.5-gcc RELEASE in ../../targets/sparc-solaris2.5-gcc/c++/fcor
+
+
+Making libfcor.a: New Fcor Library
+
+Making fcor: "Multi-pedigree correlation program"
+
+fcor
+libfcor.a
+
+Making FREQ for sparc-solaris2.5-gcc RELEASE in ../../targets/sparc-solaris2.5-gcc/c++/freq
+
+
+Making freq: "FREQ"
+
+freq
+
+Making IBD Generator for sparc-solaris2.5-gcc RELEASE in ../../targets/sparc-solaris2.5-gcc/c++/genibd
+
+
+Making libgenibd.a: "IBD generator program Library"
+
+Making genibd: "IBD generator program"
+
+genibd
+libgenibd.a
+
+Making Lodlink for sparc-solaris2.5-gcc RELEASE in ../../targets/sparc-solaris2.5-gcc/c++/lodlink
+
+
+Making liblodlink.a: "lodlink library"
+
+Making lodlink: LODLINK Application
+
+liblodlink.a
+lodlink
+
+Making LODSCORE test of Affected Relative Pair for sparc-solaris2.5-gcc RELEASE in ../../targets/sparc-solaris2.5-gcc/c++/lodpal
+
+
+Making liblodpal.a: "Lodpal Library"
+
+Making lodpal: "LODSCORE test of Affected Relative Pair"
+
+liblodpal.a
+lodpal
+
+Making Markerinfo Main Program for sparc-solaris2.5-gcc RELEASE in ../../targets/sparc-solaris2.5-gcc/c++/markerinfo
+
+
+Making markerinfo: "MARKERINFO"
+
+markerinfo
+
+Making  for sparc-solaris2.5-gcc RELEASE in ../../targets/sparc-solaris2.5-gcc/c++/mlod
+
+
+Making libmlod.a: "mlod library"
+
+Making mlod: Test of mlod parser
+
+libmlod.a
+mlod
+
+Making MultiPedigree statistics for sparc-solaris2.5-gcc RELEASE in ../../targets/sparc-solaris2.5-gcc/c++/pedinfo
+
+
+Making libpedinfo.a: "Pedinfo library"
+
+Making pedinfo: "Multi-pedigree statistics test program"
+
+libpedinfo.a
+pedinfo
+
+Making Relpal for sparc-solaris2.5-gcc RELEASE in ../../targets/sparc-solaris2.5-gcc/c++/relpal
+
+
+Making librelpal.a: "Relpal Library"
+
+Making relpal: Relpal
+
+librelpal.a
+relpal
+
+Making relationship test objects for sparc-solaris2.5-gcc RELEASE in ../../targets/sparc-solaris2.5-gcc/c++/reltest
+
+
+Making libreltest.a: "Relationship Test program Library"
+
+Making reltest: "Relationship Test program"
+
+libreltest.a
+reltest
+
+Making Regression analysis for sparc-solaris2.5-gcc RELEASE in ../../targets/sparc-solaris2.5-gcc/c++/segreg
+
+
+Making libsegreg.a: "segreg library"
+
+Making segreg: SEGREG Application
+
+libsegreg.a
+segreg
+
+Making Sibpal for sparc-solaris2.5-gcc RELEASE in ../../targets/sparc-solaris2.5-gcc/c++/sibpal
+
+
+Making libsibpal.a: "Sibpal Library"
+
+Making sibpal: Sibpal
+
+libsibpal.a
+sibpal
+
+Making TDTEX for sparc-solaris2.5-gcc RELEASE in ../../targets/sparc-solaris2.5-gcc/c++/tdtex
+
+
+Making libtdtex.a: "Transmission-disequilibrium test library"
+
+Making tdtex: "Transmission-disequilibrium test application"
+
+libtdtex.a
+tdtex

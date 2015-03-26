@@ -1,0 +1,10 @@
+This directory tests the reading in of x-linked markers under various
+circumstances.  Specifically, it tests to see when invalid phenotypes
+are given based upon individual sex.  There are five pedigrees in the
+data set, each testing a particular set of circumstances:
+
+1. Females
+2. Males
+3. Missing sex individuals
+4. Missing sex individuals who can be inferred to be female
+5. Missing sex individuals who can be inferred to be male

@@ -1,0 +1,30 @@
+pedigree
+{
+  pedigree_id=PID
+  individual_id=ID
+  sex_field=SEX
+  sex_code, missing=" "
+  parent_id=P1
+  parent_id=P2
+  marker=M1
+  marker=M2
+  no_sex_ok=true
+}
+
+lodlink
+{
+  model, marker=M1
+  linkage_tests=false, sex_specific=true, homog=true
+  
+  homog_tests
+  {
+    smiths_test=false, sex_specific=true
+    mortons_test=false, sex_specific=true
+  }
+  
+  lods
+  {
+    option=standard
+  }
+}
+

@@ -1,0 +1,66 @@
+
+
+
+==========
+Analysis 1
+==========
+
+
+Options Selected
+================
+Haplotype region                                   all
+Minor allele frequency filter                      yes
+  Threshold                                        0.1
+Sliding window                                     no
+Four gamete rule blocks                            no
+LD blocks                                          no
+EM algorithm convergence criterion                 1e-009
+Number of EM algorithm starting states             10
+  Dump                                             no
+
+Subpopulations specified                           no
+Analysis unit                                      each individual
+
+Estimate haplotype frequencies                     yes
+  Cutoff                                           0.001
+Show all possible haplotype combinations table     no
+List most likely haplotype combinations            no
+Do likelihood ratio test                           no
+Compute empirical p-value                          no
+
+
+Results
+=======
+
+
+
+Markers excluded from analysis on basis of minor allele frequency:
+  M3 M1 
+
+Markers in order:
+  M4 M2 M0 
+
+
+
+                         Haplotype Frequency Estimates
+
+
+Note:  Haplotypes listed have estimated frequencies greater than or equal to
+       the cutoff or have the greatest frequency estimate.
+
+Haplotype          Frequency
+---------          ---------
+B-q-c              0.3398263
+b-Q-c              0.2500000
+b-Q-C              0.1398263
+b-q-c              0.1101737
+B-Q-C              0.1101737
+b-q-C              0.0500000
+                   ---------
+Total              1.0000000
+
+Ln likelihood    -25.0483
+
+
+
+

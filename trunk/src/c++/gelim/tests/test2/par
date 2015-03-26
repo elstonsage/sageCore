@@ -1,0 +1,12 @@
+pedigree
+{
+  pedigree_id=PID
+  individual_id=ID
+  sex_field=SEX
+  parent_id=P1
+  parent_id=P2
+  trait=T1
+  trait="HEMATOCRIT"
+  marker="Mark1"
+}
+

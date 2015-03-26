@@ -1,0 +1,286 @@
+
+
+
+%LODPAL-W: [58] Unable to read sex of individual 20 in pedigree 84178.  Found
+           '2'.  Setting sex to unknown.
+%LODPAL-W: [68] Unable to read sex of individual 10 in pedigree 84179.  Found
+           '2'.  Setting sex to unknown.
+%LODPAL-W: [182] Unable to read sex of individual 2 in pedigree 84215.  Found
+           '2'.  Setting sex to unknown.
+%LODPAL-W: [204] Unable to read sex of individual 7 in pedigree 84222.  Found
+           '2'.  Setting sex to unknown.
+%LODPAL-W: [286] Unable to read sex of individual 8 in pedigree 84238.  Found
+           '2'.  Setting sex to unknown.
+%LODPAL-W: [287] Unable to read sex of individual 9 in pedigree 84238.  Found
+           '2'.  Setting sex to unknown.
+%LODPAL-W: [288] Unable to read sex of individual 10 in pedigree 84238.  Found
+           '2'.  Setting sex to unknown.
+%LODPAL-W: [530] Unable to read sex of individual 4 in pedigree 84320.  Found
+           '2'.  Setting sex to unknown.
+%LODPAL-W: [655] Unable to read sex of individual 3 in pedigree 84380.  Found
+           '2'.  Setting sex to unknown.
+%LODPAL-W: [659] Unable to read sex of individual 1 in pedigree 84382.  Found
+           '2'.  Setting sex to unknown.
+%LODPAL-W: The sex of individual '2' in pedigree '84215' is believed to be
+           male.  Sex code will be reset.
+%LODPAL-W: [68] Unrecognized value for trait 'EDLEVEL' for individual '10' in
+           pedigree '84179'.  Found '#NULL!'.
+%LODPAL-W: [94] Unrecognized value for trait 'EDLEVEL' for individual '8' in
+           pedigree '84186'.  Found '#NULL!'.
+%LODPAL-W: [182] Unrecognized value for trait 'EDLEVEL' for individual '2' in
+           pedigree '84215'.  Found '#NULL!'.
+%LODPAL-W: [226] Unrecognized value for trait 'EDLEVEL' for individual '30' in
+           pedigree '84222'.  Found '#NULL!'.
+%LODPAL-W: [227] Unrecognized value for trait 'EDLEVEL' for individual '31' in
+           pedigree '84222'.  Found '#NULL!'.
+%LODPAL-W: [286] Unrecognized value for trait 'EDLEVEL' for individual '8' in
+           pedigree '84238'.  Found '#NULL!'.
+%LODPAL-W: [287] Unrecognized value for trait 'EDLEVEL' for individual '9' in
+           pedigree '84238'.  Found '#NULL!'.
+%LODPAL-W: [288] Unrecognized value for trait 'EDLEVEL' for individual '10' in
+           pedigree '84238'.  Found '#NULL!'.
+%LODPAL-W: [321] Unrecognized value for trait 'EDLEVEL' for individual '3' in
+           pedigree '84261'.  Found '#NULL!'.
+%LODPAL-W: [506] Unrecognized value for trait 'EDLEVEL' for individual '5' in
+           pedigree '84314'.  Found '#NULL!'.
+%LODPAL-W: [530] Unrecognized value for trait 'EDLEVEL' for individual '4' in
+           pedigree '84320'.  Found '#NULL!'.
+%LODPAL-W: [655] Unrecognized value for trait 'TB' for individual '3' in
+           pedigree '84380'.  Found '2'.
+%LODPAL-W: [655] Unrecognized value for trait 'GANDA' for individual '3' in
+           pedigree '84380'.  Found '#NULL!'.
+%LODPAL-W: [655] Unrecognized value for trait 'EDLEVEL' for individual '3' in
+           pedigree '84380'.  Found '#NULL!'.
+%LODPAL-W: [659] Unrecognized value for trait 'TB' for individual '1' in
+           pedigree '84382'.  Found '2'.
+%LODPAL-W: [659] Unrecognized value for trait 'GANDA' for individual '1' in
+           pedigree '84382'.  Found '#NULL!'.
+%LODPAL-W: [659] Unrecognized value for trait 'EDLEVEL' for individual '1' in
+           pedigree '84382'.  Found '#NULL!'.
+
+Family structure information on the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       SEX       PARENT1       PARENT2     
+     ------------  ------------  --------  ------------  ------------
+     84163         1             0         0             0           
+     84163         2             1         1             99          
+     84163         3             0         1             99          
+     84165         1             0         2             99          
+     84165         2             0         0             0           
+     84165         3             0         2             99          
+     84165         4             1         0             0           
+     84165         5             0         0             0           
+     84165         6             1         0             0           
+     84165         7             0         0             0           
+
+
+Phenotypes for the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       SEX_CODE              FAMILIAL_INDICATOR    FOUNDER_INDICATOR     PEDIGREE_SIZE         TBnew                 TB                    ZTNFK                 PREDK1                ITNFK                 IPREDK                HIVSTAT               AGE                   GANDA                 EDLEVEL               TNFA                  PREDA                 var                   medTNF                FULLID              
+     ------------  ------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------
+     84163         1             1                     1                     1                     4                     1                     1                     -99.00                -99.00                -99.00                -99.00                0                     24.3                  1                     5                     -99                   -99                   99.0394               -99                   84163-1- 1          
+     84163         2             0                     1                     0                     4                     0                     0                     -0.41                 -99.00                -0.49                 -99.00                0                     10                    1                     1                     -0.41                 -99                   0.4494                0.4494                84163-1- 2          
+     84163         3             1                     1                     0                     4                     0                     0                     -0.52                 -99.00                -0.64                 -99.00                0                     2.5                   1                     0                     -0.52                 -99                   0.5594                0.5594                84163-1- 3          
+     84165         1             1                     1                     0                     16                    1                     1                     -99.00                -0.02                 -99.00                -0.1                  1                     20                    1                     1                     -99                   -99                   99.0394               -99                   84165-1- 1          
+     84165         2             1                     1                     1                     16                    0                     0                     -99.00                -0.05                 -99.00                -0.33                 0                     50                    1                     1                     -99                   -0.05                 99.0394               -99                   84165-1- 2          
+     84165         3             1                     1                     0                     16                    0                     0                     -99.00                0                     -99.00                0.07                  0                     18                    0                     2                     -99                   0                     99.0394               -99                   84165-1- 3          
+     84165         4             0                     1                     1                     16                    0                     0                     -99.00                -0.05                 -99.00                -0.35                 0                     10                    1                     1                     -99                   -0.05                 99.0394               -99                   84165-1- 4          
+     84165         5             1                     1                     1                     16                    0                     0                     -99.00                0                     -99.00                0.07                  0                     6                     1                     0                     -99                   0                     99.0394               -99                   84165-1- 5          
+     84165         6             0                     1                     1                     16                    0                     0                     -99.00                -0.08                 -99.00                -0.54                 0                     12                    1                     2                     -99                   -0.08                 99.0394               -99                   84165-1- 6          
+     84165         7             1                     1                     1                     16                    0                     0                     -99.00                0.01                  -99.00                0.11                  0                     4                     1                     0                     -99                   0.01                  99.0394               -99                   84165-1- 7          
+
+%LODPAL-W: Unconnected individuals detected in pedigree '84165'.  This may not
+           be intended.  Results may be incorrect.
+%LODPAL-W: Pedigree '84169' has 2 constituent pedigrees which are disjoint from
+           one another.  This may not be intended.  Results may be incorrect. 
+           See manual for details on constituent pedigrees.
+%LODPAL-W: Pedigree '84173' has 4 constituent pedigrees which are disjoint from
+           one another.  This may not be intended.  Results may be incorrect. 
+           See manual for details on constituent pedigrees.
+%LODPAL-W: Pedigree '84178' has 4 constituent pedigrees which are disjoint from
+           one another.  This may not be intended.  Results may be incorrect. 
+           See manual for details on constituent pedigrees.
+%LODPAL-W: Pedigree '84179' has 5 constituent pedigrees which are disjoint from
+           one another.  This may not be intended.  Results may be incorrect. 
+           See manual for details on constituent pedigrees.
+%LODPAL-W: Pedigree '84184' has 2 constituent pedigrees which are disjoint from
+           one another.  This may not be intended.  Results may be incorrect. 
+           See manual for details on constituent pedigrees.
+%LODPAL-W: Unconnected individuals detected in pedigree '84184'.  This may not
+           be intended.  Results may be incorrect.
+%LODPAL-W: Unconnected individuals detected in pedigree '84186'.  This may not
+           be intended.  Results may be incorrect.
+%LODPAL-W: Unconnected individuals detected in pedigree '84192'.  This may not
+           be intended.  Results may be incorrect.
+%LODPAL-W: Unconnected individuals detected in pedigree '84193'.  This may not
+           be intended.  Results may be incorrect.
+%LODPAL-W: Unconnected individuals detected in pedigree '84205'.  This may not
+           be intended.  Results may be incorrect.
+%LODPAL-W: Unconnected individuals detected in pedigree '84206'.  This may not
+           be intended.  Results may be incorrect.
+%LODPAL-W: Pedigree '84207' has 2 constituent pedigrees which are disjoint from
+           one another.  This may not be intended.  Results may be incorrect. 
+           See manual for details on constituent pedigrees.
+%LODPAL-W: Pedigree '84208' has 2 constituent pedigrees which are disjoint from
+           one another.  This may not be intended.  Results may be incorrect. 
+           See manual for details on constituent pedigrees.
+%LODPAL-W: Unconnected individuals detected in pedigree '84213'.  This may not
+           be intended.  Results may be incorrect.
+%LODPAL-W: Pedigree '84214' has 2 constituent pedigrees which are disjoint from
+           one another.  This may not be intended.  Results may be incorrect. 
+           See manual for details on constituent pedigrees.
+%LODPAL-W: Unconnected individuals detected in pedigree '84214'.  This may not
+           be intended.  Results may be incorrect.
+%LODPAL-W: Pedigree '84222' has 14 constituent pedigrees which are disjoint
+           from one another.  This may not be intended.  Results may be
+           incorrect.  See manual for details on constituent pedigrees.
+%LODPAL-W: Pedigree '84224' has 2 constituent pedigrees which are disjoint from
+           one another.  This may not be intended.  Results may be incorrect. 
+           See manual for details on constituent pedigrees.
+%LODPAL-W: Pedigree '84238' has 5 constituent pedigrees which are disjoint from
+           one another.  This may not be intended.  Results may be incorrect. 
+           See manual for details on constituent pedigrees.
+%LODPAL-W: Pedigree '84251' has 2 constituent pedigrees which are disjoint from
+           one another.  This may not be intended.  Results may be incorrect. 
+           See manual for details on constituent pedigrees.
+%LODPAL-W: Unconnected individuals detected in pedigree '84262'.  This may not
+           be intended.  Results may be incorrect.
+%LODPAL-W: Unconnected individuals detected in pedigree '84267'.  This may not
+           be intended.  Results may be incorrect.
+%LODPAL-W: Pedigree '84283' has 3 constituent pedigrees which are disjoint from
+           one another.  This may not be intended.  Results may be incorrect. 
+           See manual for details on constituent pedigrees.
+%LODPAL-W: Unconnected individuals detected in pedigree '84286'.  This may not
+           be intended.  Results may be incorrect.
+%LODPAL-W: Pedigree '84287' has 4 constituent pedigrees which are disjoint from
+           one another.  This may not be intended.  Results may be incorrect. 
+           See manual for details on constituent pedigrees.
+%LODPAL-W: Pedigree '84288' has 3 constituent pedigrees which are disjoint from
+           one another.  This may not be intended.  Results may be incorrect. 
+           See manual for details on constituent pedigrees.
+%LODPAL-W: Pedigree '84289' has 4 constituent pedigrees which are disjoint from
+           one another.  This may not be intended.  Results may be incorrect. 
+           See manual for details on constituent pedigrees.
+%LODPAL-W: Unconnected individuals detected in pedigree '84293'.  This may not
+           be intended.  Results may be incorrect.
+%LODPAL-W: Pedigree '84296' has 2 constituent pedigrees which are disjoint from
+           one another.  This may not be intended.  Results may be incorrect. 
+           See manual for details on constituent pedigrees.
+%LODPAL-W: Pedigree '84297' has 2 constituent pedigrees which are disjoint from
+           one another.  This may not be intended.  Results may be incorrect. 
+           See manual for details on constituent pedigrees.
+%LODPAL-W: Unconnected individuals detected in pedigree '84297'.  This may not
+           be intended.  Results may be incorrect.
+%LODPAL-W: Pedigree '84299' has 5 constituent pedigrees which are disjoint from
+           one another.  This may not be intended.  Results may be incorrect. 
+           See manual for details on constituent pedigrees.
+%LODPAL-W: Unconnected individuals detected in pedigree '84301'.  This may not
+           be intended.  Results may be incorrect.
+%LODPAL-W: Pedigree '84309' has 2 constituent pedigrees which are disjoint from
+           one another.  This may not be intended.  Results may be incorrect. 
+           See manual for details on constituent pedigrees.
+%LODPAL-W: Pedigree '84310' has 2 constituent pedigrees which are disjoint from
+           one another.  This may not be intended.  Results may be incorrect. 
+           See manual for details on constituent pedigrees.
+%LODPAL-W: Pedigree '84314' has 4 constituent pedigrees which are disjoint from
+           one another.  This may not be intended.  Results may be incorrect. 
+           See manual for details on constituent pedigrees.
+%LODPAL-W: Unconnected individuals detected in pedigree '84315'.  This may not
+           be intended.  Results may be incorrect.
+%LODPAL-W: Unconnected individuals detected in pedigree '84316'.  This may not
+           be intended.  Results may be incorrect.
+%LODPAL-W: Pedigree '84317' has 2 constituent pedigrees which are disjoint from
+           one another.  This may not be intended.  Results may be incorrect. 
+           See manual for details on constituent pedigrees.
+%LODPAL-W: Pedigree '84319' has 2 constituent pedigrees which are disjoint from
+           one another.  This may not be intended.  Results may be incorrect. 
+           See manual for details on constituent pedigrees.
+%LODPAL-W: Pedigree '84328' has 2 constituent pedigrees which are disjoint from
+           one another.  This may not be intended.  Results may be incorrect. 
+           See manual for details on constituent pedigrees.
+%LODPAL-W: Pedigree '84329' has 4 constituent pedigrees which are disjoint from
+           one another.  This may not be intended.  Results may be incorrect. 
+           See manual for details on constituent pedigrees.
+%LODPAL-W: Unconnected individuals detected in pedigree '84332'.  This may not
+           be intended.  Results may be incorrect.
+%LODPAL-W: Unconnected individuals detected in pedigree '84333'.  This may not
+           be intended.  Results may be incorrect.
+%LODPAL-W: Pedigree '84343' has 2 constituent pedigrees which are disjoint from
+           one another.  This may not be intended.  Results may be incorrect. 
+           See manual for details on constituent pedigrees.
+%LODPAL-W: Pedigree '84344' has 5 constituent pedigrees which are disjoint from
+           one another.  This may not be intended.  Results may be incorrect. 
+           See manual for details on constituent pedigrees.
+%LODPAL-W: Pedigree '84348' has 3 constituent pedigrees which are disjoint from
+           one another.  This may not be intended.  Results may be incorrect. 
+           See manual for details on constituent pedigrees.
+%LODPAL-W: Pedigree '84350' has 2 constituent pedigrees which are disjoint from
+           one another.  This may not be intended.  Results may be incorrect. 
+           See manual for details on constituent pedigrees.
+%LODPAL-W: Pedigree '84351' has 2 constituent pedigrees which are disjoint from
+           one another.  This may not be intended.  Results may be incorrect. 
+           See manual for details on constituent pedigrees.
+%LODPAL-W: Pedigree '84356' has 4 constituent pedigrees which are disjoint from
+           one another.  This may not be intended.  Results may be incorrect. 
+           See manual for details on constituent pedigrees.
+%LODPAL-W: Pedigree '84362' has 2 constituent pedigrees which are disjoint from
+           one another.  This may not be intended.  Results may be incorrect. 
+           See manual for details on constituent pedigrees.
+%LODPAL-W: Pedigree '84364' has 2 constituent pedigrees which are disjoint from
+           one another.  This may not be intended.  Results may be incorrect. 
+           See manual for details on constituent pedigrees.
+%LODPAL-W: Pedigree '84367' has 2 constituent pedigrees which are disjoint from
+           one another.  This may not be intended.  Results may be incorrect. 
+           See manual for details on constituent pedigrees.
+%LODPAL-W: Pedigree '84368' has 3 constituent pedigrees which are disjoint from
+           one another.  This may not be intended.  Results may be incorrect. 
+           See manual for details on constituent pedigrees.
+%LODPAL-W: Pedigree '84369' has 2 constituent pedigrees which are disjoint from
+           one another.  This may not be intended.  Results may be incorrect. 
+           See manual for details on constituent pedigrees.
+%LODPAL-W: Pedigree '84371' has 2 constituent pedigrees which are disjoint from
+           one another.  This may not be intended.  Results may be incorrect. 
+           See manual for details on constituent pedigrees.
+%LODPAL-W: Pedigree '84378' has 2 constituent pedigrees which are disjoint from
+           one another.  This may not be intended.  Results may be incorrect. 
+           See manual for details on constituent pedigrees.
+%LODPAL-W: Pedigree '84380' has 4 constituent pedigrees which are disjoint from
+           one another.  This may not be intended.  Results may be incorrect. 
+           See manual for details on constituent pedigrees.
+%LODPAL-W: Pedigree '84382' has 4 constituent pedigrees which are disjoint from
+           one another.  This may not be intended.  Results may be incorrect. 
+           See manual for details on constituent pedigrees.
+%LODPAL-W: Pedigree '84383' has 2 constituent pedigrees which are disjoint from
+           one another.  This may not be intended.  Results may be incorrect. 
+           See manual for details on constituent pedigrees.
+%LODPAL-W: Pedigree '84384' has 2 constituent pedigrees which are disjoint from
+           one another.  This may not be intended.  Results may be incorrect. 
+           See manual for details on constituent pedigrees.
+%LODPAL-W: Pedigree '84392' has 2 constituent pedigrees which are disjoint from
+           one another.  This may not be intended.  Results may be incorrect. 
+           See manual for details on constituent pedigrees.
+%LODPAL-W: Pedigree '84393' has 2 constituent pedigrees which are disjoint from
+           one another.  This may not be intended.  Results may be incorrect. 
+           See manual for details on constituent pedigrees.
+
+New phenotypes for individuals created by function block(s) :
+
+     PED. ID       IND. ID       HIVNEG              
+     ------------  ------------  --------------------
+     84163         1             1                   
+     84163         2             1                   
+     84163         3             1                   
+     84165         1             0                   
+     84165         2             1                   
+     84165         3             1                   
+     84165         4             1                   
+     84165         5             1                   
+     84165         6             1                   
+     84165         7             1                   
+
+
+%LODPAL-W: Trait subset 'HIVNEG' is not a binary trait!  For this analysis it
+           will be dichotomized at 0 (trait values <= 0 will not be included
+           into subset and values > 0 will be included into subset).
+%LODPAL-W: This option 'two_parameter_model' has been revised.  Please refer to
+           the manual.

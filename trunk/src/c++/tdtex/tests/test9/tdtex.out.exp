@@ -1,0 +1,138 @@
+=====================
+
+     Analysis #1
+
+=====================
+
+  Transmission type:        Allele             
+  Marker:                   D7S821             
+  Trait:                    SPCHONLY           
+  Parental trait:           Not specified      
+  Parental sex(es) scored:  Paternal/maternal  
+  Max. children/family:     Unlimited          
+  Max. sib pairs/family:    Unlimited          
+
+-----------------------------------------------------
+  T/NT  238  242  246  250  254  258  262  266  270  
+-----------------------------------------------------
+  238     0    0    0    0    0    0    2    2    1  
+  242     0    0    0    0    0    0    1    0    0  
+  246     0    0    0    0    1    1    0    0    0  
+  250     1    0    1    0    1    2    3    1    0  
+  254     0    0    1    1    2    1    2    2    1  
+  258     0    1    2    3    5   11    1    1    1  
+  262     5    0    3    2    1    6    2    0    0  
+  266     1    1    1    1    1    1    3    0    0  
+  270     0    0    0    0    0    0    1    1    0  
+
+---------------------------------------------------------------------
+  Group               Informative count  Total count  % Informative  
+---------------------------------------------------------------------
+  Pedigrees                          41           89   0.460674      
+  Families                           41           91   0.450549      
+  Affected children                  32           32   1.000000      
+  Affected sib pairs                 14           15   0.933333      
+  Sample size                        67           82   0.817073      
+
+----------------------------------------------------------
+  Exact test statistic              P-value    Std. err.  
+----------------------------------------------------------
+  Exact McNemar test                (skipped)             
+  Monte Carlo McNemar test          (skipped)             
+  Monte Carlo Marginal Homogeneity  (skipped)             
+
+----------------------------------------------------
+  Asymptotic test statistic          P-value        
+----------------------------------------------------
+  McNemar test                       0.44904203     
+  Continuity corrected McNemar test  0.99917563     
+  Marginal homogeneity test          0.72933127     
+
+  Transmission type:        Allele         
+  Marker:                   D7S821         
+  Trait:                    SPCHONLY       
+  Parental trait:           Not specified  
+  Parental sex(es) scored:  Paternal       
+  Max. children/family:     Unlimited      
+  Max. sib pairs/family:    Unlimited      
+
+-----------------------------------------------------
+  T/NT  238  242  246  250  254  258  262  266  270  
+-----------------------------------------------------
+  238     0    0    0    0    0    0    0    2    0  
+  242     0    0    0    0    0    0    1    0    0  
+  246     0    0    0    0    1    1    0    0    0  
+  250     0    0    0    0    0    3    0    1    0  
+  254     0    0    1    0    2    0    2    1    1  
+  258     0    1    1    2    1    7    0    0    0  
+  262     1    1    0    0    1    4    0    0    0  
+  266     1    1    1    0    1    1    0    0    0  
+  270     0    0    0    0    0    0    0    1    0  
+
+---------------------------------------------------------------------
+  Group               Informative count  Total count  % Informative  
+---------------------------------------------------------------------
+  Pedigrees                          35           89   0.393258      
+  Families                           35           91   0.384615      
+  Affected children                  32           32   1.000000      
+  Affected sib pairs                  9           20   0.450000      
+  Sample size                        32           41   0.780488      
+
+----------------------------------------------------------
+  Exact test statistic              P-value    Std. err.  
+----------------------------------------------------------
+  Exact McNemar test                (skipped)             
+  Monte Carlo McNemar test          (skipped)             
+  Monte Carlo Marginal Homogeneity  (skipped)             
+
+----------------------------------------------------
+  Asymptotic test statistic          P-value        
+----------------------------------------------------
+  McNemar test                       0.67651662     
+  Continuity corrected McNemar test  0.99922387     
+  Marginal homogeneity test          0.83900939     
+
+  Transmission type:        Allele         
+  Marker:                   D7S821         
+  Trait:                    SPCHONLY       
+  Parental trait:           Not specified  
+  Parental sex(es) scored:  Maternal       
+  Max. children/family:     Unlimited      
+  Max. sib pairs/family:    Unlimited      
+
+-----------------------------------------------------
+  T/NT  238  242  246  250  254  258  262  266  270  
+-----------------------------------------------------
+  238     0    0    0    0    0    0    0    0    1  
+  242     0    0    0    0    0    0    1    0    0  
+  246     0    0    0    0    0    0    0    0    0  
+  250     1    0    1    0    1    0    3    0    0  
+  254     0    0    0    1    0    1    0    2    0  
+  258     0    0    1    2    4    4    1    1    1  
+  262     3    0    3    2    0    3    0    0    1  
+  266     0    0    0    1    0    0    3    0    0  
+  270     0    0    0    0    0    0    2    0    0  
+
+---------------------------------------------------------------------
+  Group               Informative count  Total count  % Informative  
+---------------------------------------------------------------------
+  Pedigrees                          39           89   0.438202      
+  Families                           39           91   0.428571      
+  Affected children                  34           34   1.000000      
+  Affected sib pairs                 10           17   0.588235      
+  Sample size                        40           44   0.909091      
+
+----------------------------------------------------------
+  Exact test statistic              P-value    Std. err.  
+----------------------------------------------------------
+  Exact McNemar test                (skipped)             
+  Monte Carlo McNemar test          (skipped)             
+  Monte Carlo Marginal Homogeneity  (skipped)             
+
+----------------------------------------------------
+  Asymptotic test statistic          P-value        
+----------------------------------------------------
+  McNemar test                       0.14440772     
+  Continuity corrected McNemar test  0.99340414     
+  Marginal homogeneity test          0.28050084     
+

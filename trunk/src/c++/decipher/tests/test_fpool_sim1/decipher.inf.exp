@@ -1,0 +1,62 @@
+
+
+
+
+Family structure information on the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       SEX       PARENT1       PARENT2     
+     ------------  ------------  --------  ------------  ------------
+     1             1             2         0             0           
+     1             2             1         0             0           
+     1             3             2         1             2           
+     1             4             1         1             2           
+     2             1             2         0             0           
+     2             2             1         0             0           
+     2             3             2         1             2           
+     2             4             1         1             2           
+     3             1             2         0             0           
+     3             2             1         0             0           
+
+
+Phenotypes for the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       SEX_CODE              FAMILIAL_INDICATOR    FOUNDER_INDICATOR     PEDIGREE_SIZE         REP                 
+     ------------  ------------  --------------------  --------------------  --------------------  --------------------  --------------------
+     1             1             1                     1                     1                     4                     NO                  
+     1             2             0                     1                     1                     4                     REP                 
+     1             3             1                     1                     0                     4                     NO                  
+     1             4             0                     1                     0                     4                     NO                  
+     2             1             1                     1                     1                     4                     NO                  
+     2             2             0                     1                     1                     4                     REP                 
+     2             3             1                     1                     0                     4                     NO                  
+     2             4             0                     1                     0                     4                     NO                  
+     3             1             1                     1                     1                     4                     NO                  
+     3             2             0                     1                     1                     4                     REP                 
+
+
+Markers for the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       M1            M2            M3            M4            M5            M6            M7            M8            M9          
+     ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------
+     1             1             2/2           1/1           1/1           2/2           1/1           1/1           1/1           1/1           2/2         
+     1             2             2/2           1/1           1/1           2/2           1/1           1/2           1/2           1/2           2/1         
+     1             3             2/2           1/1           1/1           2/2           1/1           1/1           1/1           1/1           2/2         
+     1             4             2/2           1/1           1/1           2/2           1/1           1/2           1/2           1/2           2/1         
+     2             1             2/1           1/2           1/1           2/2           1/2           1/2           1/2           1/2           2/2         
+     2             2             2/1           1/1           1/2           ?/?           1/2           1/2           2/2           2/2           2/1         
+     2             3             ?/?           1/1           1/1           2/2           1/1           1/2           1/2           1/2           2/1         
+     2             4             2/1           1/2           1/1           2/2           1/2           2/2           2/2           2/2           2/1         
+     3             1             1/1           ?/?           2/2           2/1           1/1           1/2           ?/?           1/1           ?/?         
+     3             2             1/1           1/2           1/2           2/1           1/2           ?/?           ?/?           1/2           2/2         
+
+%DECIPHER-I: Mapping function not specified.  Using Haldane Mapping Function.
+
+  Performing analysis: Analysis 1
+  ===========================================================================
+
+    Total population. 
+      Determining possible haplotype combinations ................... done.
+      Maximizing likelihood ......................................... done. 
+
+  ===========================================================================
+

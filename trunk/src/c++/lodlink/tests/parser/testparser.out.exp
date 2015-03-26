@@ -1,0 +1,466 @@
+
+---------- 1 New Analysis Block 1 ---------- 
+
+Valid:                            false
+Output root name:                 lodlink_analysis1
+Linkage option:                   trait
+Title:                            LODLINK Analysis 1
+Trait:                            none
+Linkage test:                     true
+Linkage test sex-specific:        false
+Linkage test assumes homogeneity: true
+Smith's test:                     false
+Smith's test sex-specific:        false
+Morton's test:                    false
+Morton's test sex-specific:       false
+Average theta:   0
+Average theta:   0.01
+Average theta:   0.05
+Average theta:   0.1
+Average theta:   0.2
+Average theta:   0.3
+Average theta:   0.4
+
+Genotypes:                      false
+Genotypes sex-specific:           false
+
+
+
+---------- 2 New Analysis Block 2 ---------- 
+
+Valid:                            false
+Output root name:                 second_test
+Linkage option:                   trait
+Title:                            the second test
+Trait:                            none
+Linkage test:                     true
+Linkage test sex-specific:        false
+Linkage test assumes homogeneity: true
+Smith's test:                     false
+Smith's test sex-specific:        false
+Morton's test:                    false
+Morton's test sex-specific:       false
+Average theta:   0
+Average theta:   0.01
+Average theta:   0.05
+Average theta:   0.1
+Average theta:   0.2
+Average theta:   0.3
+Average theta:   0.4
+
+Genotypes:                      false
+Genotypes sex-specific:           false
+
+
+
+---------- 3 New Analysis Block 3 ---------- 
+
+Valid:                            true
+Output root name:                 lodlink_analysis3
+Linkage option:                   trait
+Title:                            LODLINK Analysis 3
+Trait:                            loc1
+Linkage test:                     true
+Linkage test sex-specific:        false
+Linkage test assumes homogeneity: true
+Smith's test:                     false
+Smith's test sex-specific:        false
+Morton's test:                    false
+Morton's test sex-specific:       false
+Average theta:   0
+Average theta:   0.01
+Average theta:   0.05
+Average theta:   0.1
+Average theta:   0.2
+Average theta:   0.3
+Average theta:   0.4
+
+Genotypes:                      false
+Genotypes sex-specific:           false
+
+
+
+---------- 4 New Analysis Block 4 ---------- 
+
+Valid:                            true
+Output root name:                 lodlink_analysis4
+Linkage option:                   marker
+Title:                            LODLINK Analysis 4
+Trait:                            loc1
+Linkage test:                     true
+Linkage test sex-specific:        false
+Linkage test assumes homogeneity: true
+Smith's test:                     false
+Smith's test sex-specific:        false
+Morton's test:                    false
+Morton's test sex-specific:       false
+Average theta:   0
+Average theta:   0.01
+Average theta:   0.05
+Average theta:   0.1
+Average theta:   0.2
+Average theta:   0.3
+Average theta:   0.4
+
+Genotypes:                      false
+Genotypes sex-specific:           false
+
+
+
+---------- 5 New Analysis Block 5 ---------- 
+
+Valid:                            true
+Output root name:                 lodlink_analysis5
+Linkage option:                   marker
+Title:                            LODLINK Analysis 5
+Trait:                            loc1
+Linkage test:                     true
+Linkage test sex-specific:        false
+Linkage test assumes homogeneity: true
+Smith's test:                     false
+Smith's test sex-specific:        false
+Morton's test:                    false
+Morton's test sex-specific:       false
+
+Genotypes:                      false
+Genotypes sex-specific:           false
+
+
+
+---------- 6 New Analysis Block 6 ---------- 
+
+Valid:                            true
+Output root name:                 lodlink_analysis6
+Linkage option:                   marker
+Title:                            LODLINK Analysis 6
+Trait:                            loc1
+Linkage test:                     true
+Linkage test sex-specific:        false
+Linkage test assumes homogeneity: true
+Smith's test:                     false
+Smith's test sex-specific:        false
+Morton's test:                    false
+Morton's test sex-specific:       false
+Average theta:   0.001
+Average theta:   0.2
+Average theta:   0.6
+
+Genotypes:                      false
+Genotypes sex-specific:           false
+
+
+
+---------- 7 New Analysis Block 7 ---------- 
+
+Valid:                            true
+Output root name:                 lodlink_analysis7
+Linkage option:                   marker
+Title:                            LODLINK Analysis 7
+Trait:                            loc1
+Linkage test:                     true
+Linkage test sex-specific:        false
+Linkage test assumes homogeneity: true
+Smith's test:                     false
+Smith's test sex-specific:        false
+Morton's test:                    false
+Morton's test sex-specific:       false
+
+Genotypes:                      false
+Genotypes sex-specific:           false
+
+
+
+---------- 8 New Analysis Block 8 ---------- 
+
+Valid:                            true
+Output root name:                 lodlink_analysis8
+Linkage option:                   marker
+Title:                            LODLINK Analysis 8
+Trait:                            loc1
+Linkage test:                     true
+Linkage test sex-specific:        false
+Linkage test assumes homogeneity: true
+Smith's test:                     false
+Smith's test sex-specific:        false
+Morton's test:                    false
+Morton's test sex-specific:       false
+Male theta:    0.2
+Female theta:  0.3
+
+Male theta:    0.2
+Female theta:  0.4
+
+Male theta:    0.2
+Female theta:  0.6
+
+
+Genotypes:                      false
+Genotypes sex-specific:           false
+
+
+
+---------- 9 New Analysis Block 9 ---------- 
+
+Valid:                            true
+Output root name:                 lodlink_analysis9
+Linkage option:                   marker
+Title:                            LODLINK Analysis 9
+Trait:                            loc2
+Linkage test:                     true
+Linkage test sex-specific:        false
+Linkage test assumes homogeneity: true
+Smith's test:                     false
+Smith's test sex-specific:        false
+Morton's test:                    false
+Morton's test sex-specific:       false
+Average theta:   0
+Average theta:   0.01
+Average theta:   0.05
+Average theta:   0.1
+Average theta:   0.2
+Average theta:   0.3
+Average theta:   0.4
+
+Genotypes:                      false
+Genotypes sex-specific:           false
+
+
+
+---------- 10 New Analysis Block 10 ---------- 
+
+Valid:                            false
+Output root name:                 lodlink_analysis10
+Linkage option:                   trait
+Title:                            LODLINK Analysis 10
+Trait:                            none
+Linkage test:                     true
+Linkage test sex-specific:        false
+Linkage test assumes homogeneity: true
+Smith's test:                     false
+Smith's test sex-specific:        false
+Morton's test:                    false
+Morton's test sex-specific:       false
+Average theta:   0
+Average theta:   0.01
+Average theta:   0.05
+Average theta:   0.1
+Average theta:   0.2
+Average theta:   0.3
+Average theta:   0.4
+
+Genotypes:                      true
+Genotypes sex-specific:           true
+
+
+
+---------- 11 New Analysis Block 11 ---------- 
+
+Valid:                            false
+Output root name:                 lodlink_analysis11
+Linkage option:                   trait
+Title:                            LODLINK Analysis 11
+Trait:                            none
+Linkage test:                     true
+Linkage test sex-specific:        false
+Linkage test assumes homogeneity: true
+Smith's test:                     false
+Smith's test sex-specific:        false
+Morton's test:                    false
+Morton's test sex-specific:       false
+Average theta:   0
+Average theta:   0.01
+Average theta:   0.05
+Average theta:   0.1
+Average theta:   0.2
+Average theta:   0.3
+Average theta:   0.4
+
+Genotypes:                      true
+Genotypes sex-specific:           false
+
+
+
+---------- 12 New Analysis Block 12 ---------- 
+
+Valid:                            true
+Output root name:                 lodlink_analysis12
+Linkage option:                   marker
+Title:                            LODLINK Analysis 12
+Trait:                            loc2
+Linkage test:                     false
+Linkage test sex-specific:        false
+Linkage test assumes homogeneity: false
+Smith's test:                     false
+Smith's test sex-specific:        false
+Morton's test:                    false
+Morton's test sex-specific:       false
+
+Genotypes:                      false
+Genotypes sex-specific:           false
+
+
+
+---------- 13 New Analysis Block 13 ---------- 
+
+Valid:                            true
+Output root name:                 lodlink_analysis13
+Linkage option:                   marker
+Title:                            LODLINK Analysis 13
+Trait:                            loc2
+Linkage test:                     false
+Linkage test sex-specific:        true
+Linkage test assumes homogeneity: false
+Smith's test:                     false
+Smith's test sex-specific:        false
+Morton's test:                    false
+Morton's test sex-specific:       false
+
+Genotypes:                      false
+Genotypes sex-specific:           false
+
+
+
+---------- 14 New Analysis Block 14 ---------- 
+
+Valid:                            true
+Output root name:                 lodlink_analysis14
+Linkage option:                   marker
+Title:                            LODLINK Analysis 14
+Trait:                            loc2
+Linkage test:                     true
+Linkage test sex-specific:        false
+Linkage test assumes homogeneity: true
+Smith's test:                     false
+Smith's test sex-specific:        false
+Morton's test:                    true
+Morton's test sex-specific:       true
+group 1 pedigrees:
+1
+group 2 pedigrees:
+2
+group 3 pedigrees:
+3
+group 4 pedigrees:
+4
+group 5 pedigrees:
+5
+
+Genotypes:                      false
+Genotypes sex-specific:           false
+
+
+
+---------- 15 New Analysis Block 15 ---------- 
+
+Valid:                            true
+Output root name:                 lodlink_analysis15
+Linkage option:                   marker
+Title:                            LODLINK Analysis 15
+Trait:                            loc2
+Linkage test:                     true
+Linkage test sex-specific:        false
+Linkage test assumes homogeneity: true
+Smith's test:                     false
+Smith's test sex-specific:        false
+Morton's test:                    true
+Morton's test sex-specific:       true
+group one pedigrees:
+3
+5
+group two pedigrees:
+1
+2
+4
+
+Genotypes:                      false
+Genotypes sex-specific:           false
+
+
+
+---------- 16 New Analysis Block 16 ---------- 
+
+Valid:                            true
+Output root name:                 lodlink_analysis16
+Linkage option:                   marker
+Title:                            LODLINK Analysis 16
+Trait:                            loc1
+Linkage test:                     true
+Linkage test sex-specific:        false
+Linkage test assumes homogeneity: true
+Smith's test:                     false
+Smith's test sex-specific:        false
+Morton's test:                    false
+Morton's test sex-specific:       false
+Average theta:   0.2
+
+Genotypes:                      false
+Genotypes sex-specific:           false
+
+
+
+---------- 17 New Analysis Block 17 ---------- 
+
+Valid:                            true
+Output root name:                 lodlink_analysis17
+Linkage option:                   marker
+Title:                            LODLINK Analysis 17
+Trait:                            loc2
+Linkage test:                     true
+Linkage test sex-specific:        false
+Linkage test assumes homogeneity: true
+Smith's test:                     false
+Smith's test sex-specific:        false
+Morton's test:                    true
+Morton's test sex-specific:       true
+group one pedigrees:
+3
+5
+group two pedigrees:
+1
+2
+4
+
+Genotypes:                      false
+Genotypes sex-specific:           false
+
+
+
+---------- 18 New Analysis Block 18 ---------- 
+
+Valid:                            true
+Output root name:                 lodlink_analysis18
+Linkage option:                   marker
+Title:                            LODLINK Analysis 18
+Trait:                            loc2
+Linkage test:                     true
+Linkage test sex-specific:        false
+Linkage test assumes homogeneity: true
+Smith's test:                     false
+Smith's test sex-specific:        false
+Morton's test:                    true
+Morton's test sex-specific:       true
+
+Genotypes:                      false
+Genotypes sex-specific:           false
+
+
+
+---------- 19 New Analysis Block 19 ---------- 
+
+Valid:                            true
+Output root name:                 lodlink_analysis19
+Linkage option:                   marker
+Title:                            LODLINK Analysis 19
+Trait:                            loc2
+Linkage test:                     true
+Linkage test sex-specific:        false
+Linkage test assumes homogeneity: true
+Smith's test:                     false
+Smith's test sex-specific:        false
+Morton's test:                    true
+Morton's test sex-specific:       true
+
+Genotypes:                      false
+Genotypes sex-specific:           false
+
+

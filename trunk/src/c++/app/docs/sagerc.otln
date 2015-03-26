@@ -1,0 +1,112 @@
+\BRIEF\
+SageRc system
+\DOC_NAME\
+sagerc_page
+\DETAILED\
+
+\#.\ What is a SageRc file?
+
+Like many Unix-based programs, SAGE has the ability to detect a number of
+local environment settings pertinent to the execution of SAGE jobs. The
+specification of those environment settings can be accomplished through a
+SageRc rc file ('.sagerc'), located either in the current working directory or
+in the user's home directory. The SageRc file contains a list of various settings 
+that affect SAGE's execution.
+
+\#.\ How do SAGE programs locate the SageRc file?
+
+SAGE analysis programs, when run, search (in this order): (1) the current
+directory, (2) the home directory (as specified by the HOME environment
+variable). If a SageRc file is found, it is processed. If it is not found,
+the SAGE analysis program simply uses default settings. If it is found, but
+it is malformed, an informative message is produced and the default settings
+are used. If it is found and is well-formed, an informative message is produced 
+noting the contents of the found SageRc file.
+
+\#.\ What is the format of a SageRc file?
+
+SageRc files are XML-based, taking the form:
+
+\verbatim
+<SageRc>
+  <[SettingName]>[SettingValue]</[SettingName]>
+  ...
+</SageRc>
+\endverbatim
+
+\#.\ What settings are currently supported in the SageRc file?
+
+\#.#.\ Current installation path
+
+The setting 'SAGE_PATH' specifies the main installation directory of the
+currently executing SAGE analysis program. This setting is important, as it
+is used by the SAGE program as the search path for external files requiring
+at runtime (ie: help files, error registries, etc.).
+
+The SAGE_PATH setting is normally detected through the environment variable
+SAGE_PATH. The environment variable SAGE_PATH is generally sufficient to
+specify the location of an installation; if, however, a programmer is
+working on a development tree and wants to use that development tree's
+installation data files, the SAGE_PATH SageRc file setting should be used:
+
+\verbatim
+<SageRc>
+  <SAGE_PATH>/home/foo/sage/src/c++</SAGE_PATH>
+</SageRc>
+\endverbatim
+
+\#.\ What settings do we anticipate implementing in the future?
+
+\#.#.\ Performance-related options
+
+It is conceivable that users may want to specify their own
+performance-related options. For instance, if we ever develop the ability to
+spawn SAGE tasks across multiple systems and/or multiple threads, such
+settings could be specified in a SageRc file.
+
+\#.#.\ Database interface options
+
+If we ever develop the ability for SAGE programs to dump their output
+directly into databases, the location and user authentication for those
+databases could be specified in a SageRc file.
+
+\#.\ I'm a SAGE programmer; what do I need to know to use the SageRc system?
+
+Take a look at SAGE::APP::SageRcFile. You'll see there are a few static
+public functions. For the most part, they should be fairly intuitive.
+rcFileExists() indicates whether a SageRc file is available.
+rcFileWellFormed() indicates whether a SageRc file, if available, is well
+formed. getRcFile() returns the found SageRc file (if it exists and is
+well-formed). With the SageRcFile instance, the public member functions let
+you examine specific options.
+
+Please note that SAGE::APP::SageRcFile uses \b exceptions. Take care to read
+the documentation for each SageRcFile function, and note if any of them
+throw exceptions. If so, make sure to try/catch those exceptions in your
+calling code!
+
+Here's a simple example of how you might make use of the SageRc system:
+
+\code
+// Check for the existence first...
+if(SAGE::APP::SageRcFile::rcFileExists())
+{
+  // Make sure the found file is well formed...
+  if(SAGE::APP::SageRcFile::rcFileWellFormed())
+  {
+    // Fetch the well formed file...
+    SageRcFile f = SAGE::APP::SageRcFile::getRcFile();
+
+    // Manipulate f here...
+    // ...
+  }
+  else
+  {
+    // Error: rcfile malformed
+  }
+}
+else
+{
+  // Error: rcfile not found
+}
+\endcode

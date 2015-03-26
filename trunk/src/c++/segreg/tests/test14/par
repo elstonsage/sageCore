@@ -1,0 +1,245 @@
+pedigree
+{
+  pedigree_id=PID
+  individual_id=ID
+  sex_field=SEX
+  parent_id=P1
+  parent_id=P2
+  trait=DISEASE, binary, affected=1, unaffected=0
+  trait=HEMATOCRIT
+  trait=t
+  trait=u
+  trait=v
+  trait=w
+  trait=x
+  trait=y
+  trait=z
+}
+
+segreg_analysis    #1
+{
+  trait = hematocrit
+  
+  mean_cov
+  {
+    covariate=disease, val=72, fixed=true, interaction=true 
+  }
+}
+
+segreg_analysis    #2
+{
+  trait = hematocrit
+  
+  mean_cov
+  {
+    covariate=dise, val=72, fixed=true, interaction=true 
+  }
+}
+
+segreg_analysis    #3
+{
+  trait = hematocrit
+  
+  mean_cov
+  {
+    covariate=disease, fixed=true, interaction=true 
+  }
+}
+
+segreg_analysis    #4
+{
+  trait = hematocrit
+  
+  mean_cov
+  {
+    covariate=disease, fixed=false, interaction=true 
+  }
+}
+
+segreg_analysis    #5
+{
+  trait = hematocrit
+
+  type_mean
+  {
+    option = two_dom
+  }
+  
+  mean_cov
+  {
+    covariate=t, val = 1, fixed=false, interaction=true 
+    covariate=u, val = 1, fixed=false, interaction=true 
+    covariate=v, val = 1, fixed=false, interaction=true 
+  }
+}
+
+segreg_analysis    #6
+{
+  trait = hematocrit
+
+  type_mean
+  {
+    option = three
+  }
+  
+  mean_cov
+  {
+    covariate=t, val = 1, fixed=false, interaction=true 
+    covariate=u, val = 1, fixed=false, interaction=true 
+    covariate=v, val = 1, fixed=false, interaction=true 
+  }
+}
+
+segreg_analysis    #7
+{
+  trait = hematocrit
+  
+  type_mean
+  {
+    option = three
+  }
+  
+  mean_cov
+  {
+    covariate=t, val = 1, fixed=false, interaction=true 
+    covariate=u, val = 1, fixed=false, interaction=true 
+    covariate=u, val = 2, fixed=true, interaction=false 
+  }
+}
+
+segreg_analysis    #8
+{
+  trait = hematocrit
+  
+  mean_cov
+  {
+    covariate=t, val = 1, fixed=false, interaction=true 
+    covariate=u, val = 1, fixed=false, interaction=true 
+    covariate=v, val = 1, fixed=false, interaction=true 
+  }
+  
+  composite_trait
+  {
+    covariate=t, val = 2, fixed=false, interaction=true 
+  }
+}
+
+segreg_analysis    #9
+{
+  trait = hematocrit
+  
+  mean_cov
+  {
+    covariate=t, val = 1, fixed=false, interaction=true 
+    covariate=u, val = 1, fixed=false, interaction=true 
+    covariate=v, val = 1, fixed=false, interaction=true 
+  }
+  
+  suscept_cov
+  {
+    covariate=t, val = 2, fixed=false, interaction=true 
+  }
+}
+
+segreg_analysis   #10
+{
+  trait = hematocrit
+  
+  mean_cov
+  {
+    covariate=t, val = 1, fixed=false, interaction=true 
+    covariate=hematocrit, val = 1, fixed=false, interaction=true 
+  }
+}
+
+segreg_analysis   #11
+{
+  trait = hematocrit
+
+  mean_cov
+  {
+    covariate = disease
+  }
+  
+  var_cov
+  {
+    covariate=disease, val = 65, fixed=false 
+  }
+}
+
+segreg_analysis   #12
+{
+  trait = hematocrit
+  
+  type_mean
+  {
+    option = three
+  }
+  
+  mean_cov
+  {
+    covariate=t, val = 1, fixed=false, interaction=false 
+    covariate=u, val = 1, fixed=false, interaction=false 
+    covariate=v, val = 2, fixed=true, interaction=false 
+  }
+}
+
+segreg_analysis   #13
+{
+  trait = hematocrit
+
+  type_mean
+  {
+    option = two_rec
+  }
+  
+  mean_cov
+  {
+    covariate=t, val = 1, fixed=false, interaction=true 
+  }
+}
+
+segreg_analysis   #14
+{
+  trait = disease
+
+  type_mean
+  {
+    option = two_rec
+  }
+  
+  mean_cov
+  {
+    covariate=t 
+  }
+}
+
+segreg_analysis   #15
+{
+  trait = disease
+
+  type_mean
+  {
+    option = two_rec
+  }
+  
+  var_cov
+  {
+    covariate=t 
+  }
+  
+  composite_trait
+  {
+    covariate = u
+  }
+}
+
+segreg_analysis   #16
+{
+  trait = hematocrit
+
+  suscept_cov
+  {
+    covariate=t 
+  }
+}

@@ -1,0 +1,54 @@
+
+
+
+===============================
+LODLINK Analysis 2 SUMMARY FILE
+===============================
+
+
+Options Selected
+================
+Main locus type                          trait
+Main locus name                          T1
+
+Lod scores                               no
+
+Linkage tests                            yes
+  Sex-specific recombination fractions   no
+  Assume homogeneity                     no
+
+Smith's test for homogeneity             yes
+  Sex-specific recombination fractions   no
+
+Morton's test for homogeneity            no
+
+Genotype probabilities                   no
+
+
+Results
+=======
+
+
+
+
+                  Faraway's Linkage Test        
+                                                
+                                                
+Locus             Recom          Est       Lod            Chi            P-Value        
+                  Fract in       Linkage   Score          Square                        
+                  [0, .5]        Prop                     Stat                          
+---------------   ------------   -------   ------------   ------------   ------------   
+M1                    0.212481    0.710973       4.487001      20.663405       5.48e-06   
+M2                    0.135813    0.877631      29.058580     133.819707      < 1.0e-20   
+
+
+
+                  Smith's Homogeneity Test      
+                                                
+                                                
+Locus             Recom          Est       Chi            P-Value        
+                  Fract in       Linkage   Square                        
+                  [0, .5]        Prop      Stat                          
+---------------   ------------   -------   ------------   ------------   
+M1                    0.212481    0.710973       0.296422       0.293067   
+M2                    0.135813    0.877631       3.783535       0.025880   

@@ -1,0 +1,4 @@
+%TESTPARSE-Error:Affected and unaffected codes in function block may not be the
+                 same.  Function skipped.
+%TESTPARSE-Error:Affected and unaffected codes in function block must not be
+                 the same as the missing value code.  Function skipped.

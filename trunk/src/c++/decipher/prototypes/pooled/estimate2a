@@ -1,0 +1,273 @@
+#!/usr/local/bin/python
+#============================================================================
+# File:      estimate2a
+#                                                                          
+# Author:    Dan Baechle
+#                                                                          
+# History:   1/16/4   Created.
+#            10/25/4  Modified estimate0 to create this more efficient
+#                     version.
+#            10/26/4  Modified to make factorial calculation more efficient.
+#            10/26/4  Modified to store combination haplotype counts to 
+#                     make calculation of phenotype weights more efficient.
+#            11/19/4  Modified estimate1b to incorporate new method of en-
+#                     umerating haplotypes sets which was proposed by
+#                     Katrina (see generate2.py).
+#            11/22/4  Uses generate2a for better memory efficiency.
+#                                                                          
+# Notes:     Given a sample of 'pooled' genotypes, estimate frequencies of 
+#            haplotypes using the EM algorithm as described in Excoffier and 
+#            Slatkin, 1995.
+#
+#============================================================================
+
+import sys
+import os
+import pickle
+from math import log10, log
+from copy import deepcopy
+
+from phenotype2a import *
+from parse import parse
+
+
+# - Read data and build a list of loci.
+#
+def build_loci(records, loci):
+  first_record = True
+  pool_size = len(records[0][1]) / 2
+  for record in records:
+    for l in range(1, len(record)):
+      if first_record:
+        loci.append(locus(pool_size))
+
+      if record[l][0] != '?':
+        for a in record[l]:
+          loci[l - 1].add_allele(a)
+    
+    first_record = False
+    
+    
+# - Read data and build phenotype and haplotype data structures.
+#   Values in pheno_seq represent allele counts.
+#
+def build_phenotypes(records, phenos, haps, loci):
+  for record in records:
+    pheno_seq = []        # [ ( , , ...), ( , , ...), ...]
+    for l in range(1, len(record)):
+      pheno_seq.append(loci[l - 1].g_seq(record[l]))
+        
+    key = tuple(pheno_seq)
+    if phenos.has_key(key):
+      phenos[key].incr_count()
+    else:
+      phenos[key] = phenotype(pheno_seq, haps, loci)
+    
+    
+def calc_weights(haps, phenos, sample_size):
+  # print 'calculating weights ...'
+  for key in phenos.keys():
+    phenos[key].calc_weights(sample_size)
+    
+    
+def print_records():
+  for record in records:
+    line = ""
+    for locus in range(1, len(record)):
+      line += reduce(lambda a, b : '%s/%s' % (a, b), locus)
+      line += '  '
+      
+    print line    
+
+
+# - Equation 4, Excoffier and Slatkin, 1995.
+# 
+def log_likelihood(haps, phenos, sample_size):
+    
+  # - THIS IS A STUB.
+    
+  return  1
+  
+  
+# - Randomly assign weights to haplotype pairs corresponding to
+#   each phenotype.
+#
+def reset_pheno_weights(phenos):
+  for key in phenos:
+    phenos[key].init_weights()
+    
+def new_likelihood(candidate, likes, epsilon):
+  new = False
+  for like in likes:
+    if abs(like - candidate) > epsilon:
+      new = True
+      break
+      
+  return  new
+  
+
+# - Create string representation of a set of haplotypes.
+#
+def set2str(set, haps):
+  str = ""
+  for hap in set:
+    str += '%s ' % haps[hap].name
+    
+  return  str
+  
+  
+# - Create string representation of a pheno_seq_list.
+#
+def pheno_seq_list_2_str(pheno_seq_list, loci):
+  str = ""
+  for ps in range(len(pheno_seq_list)):
+    str += '%s   ' % loci[ps].g_create_name(pheno_seq_list[ps])
+    
+  return  str
+  
+    
+# =========================== MAIN ==========================
+#
+DUMP = False
+
+epsilon = .001
+run_count = 1
+
+data = open(sys.argv[1], 'r')
+records = parse(data)
+
+# - Add function here to REMOVE RECORDS CONSISTING OF MISSING
+#   DATA AT ALL LOCI.
+#
+
+###
+if DUMP:
+  print
+  print records
+  print
+###
+
+loci = []
+build_loci(records, loci)
+
+###
+if DUMP:
+  print
+  for locus in loci:
+    print locus.a_names
+###
+
+haps = haplotype_set(len(records))
+phenos = {}
+build_phenotypes(records, phenos, haps, loci)
+
+###
+if DUMP:
+  print
+  print
+  print haps
+  print
+###
+
+###
+if DUMP:
+  print
+  print
+  for pheno in phenos:
+    print
+
+    print 'phenotype %s  count %d' % (pheno_seq_list_2_str(pheno, loci), phenos[pheno].count)
+    for set in phenos[pheno].hap_sets:
+      print '    set %s  weight %f' % (set2str(set, haps),
+                                       phenos[pheno].hap_sets[set])
+###    
+
+os.system('date')
+
+# - Initial run.
+#
+haps.calc_freqs(phenos)
+while not haps.converged(epsilon):
+  calc_weights(haps, phenos, len(records))
+###
+  if DUMP:
+    print
+    print
+    for pheno in phenos:
+      print
+      print 'phenotype %s  count %d' % (pheno_seq_list_2_str(pheno, loci), phenos[pheno].count)
+      for set in phenos[pheno].hap_sets:
+        print '    set %s  weight %f' % (set2str(set, haps),
+                                       phenos[pheno].hap_sets[set])
+###      
+  
+  haps.calc_freqs(phenos)
+###
+  if DUMP:
+    print
+    print
+    print haps
+    print
+###  
+  
+max_likelihood = log_likelihood(haps, phenos, len(records))
+likelihoods = [max_likelihood]
+best_haps = deepcopy(haps)
+multiple_maxima = False
+
+for run in range(run_count - 1):
+  reset_pheno_weights(phenos)
+  haps.zero_freqs()
+  haps.calc_freqs(phenos)
+  while not haps.converged(epsilon):
+    calc_weights(haps, phenos, len(records))
+###
+    if DUMP:
+      print
+      print
+      for pheno in phenos:
+        print
+        print 'phenotype %s  count %d' % (pheno_seq_list_2_str(pheno, loci), phenos[pheno].count)
+        for set in phenos[pheno].hap_sets:
+          print '    set %s  weight %f' % (set2str(set, haps),
+                                       phenos[pheno].hap_sets[set])
+###    
+    haps.calc_freqs(phenos)
+   
+###
+    if DUMP:
+      print
+      print
+      print haps
+      print
+###
+    
+  likelihood = log_likelihood(haps, phenos, len(records))
+  if likelihood > max_likelihood:
+    max_likelihood = likelihood
+    best_haps = deepcopy(haps)
+    
+  likelihoods.append(likelihood)
+  if new_likelihood(likelihood, likelihoods, epsilon * 100):
+    multiple_maxima = True
+  
+print
+best_haps.output()
+print 'frequency total: %f' % best_haps.total()
+print
+print 'ln likelihood  %f' % max_likelihood
+if multiple_maxima:
+  print '\nMULTIPLE MAXIMA DETECTED!'
+  for likelihood in likelihoods:
+    print likelihood
+
+
+###
+if DUMP:
+  print
+  print
+  print haps
+  print
+###
+
+os.system('date')

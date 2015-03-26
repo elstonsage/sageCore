@@ -1,0 +1,46 @@
+
+  Doing Commingling Analysis:        
+    Creating Initial Values..............Done.       C
+    Maximizing one-mean model............Done.       C
+    Maximizing two-mean model.........               C
+      Creating Initial Values............Done.       C
+        Testing Initial Value  1.........Done.
+
+        Attempting Initial Value  1......Done.       A
+        Attempting Initial Value  2......Done.       A
+        Attempting Initial Value  3......Done.       A
+        Attempting Initial Value  4......Done.       A
+        Attempting Initial Value  5......Done.       A
+        Attempting Initial Value  6......Done.       A
+      Choosing models to finalize........Done.       A
+        Finalizing Initial Value  1......Done.       A
+        Finalizing Initial Value  2......Done.       A
+      Choosing final estimates...........Done.       A
+    Maximizing two-mean model............Done.       C
+    Maximizing three-mean model..........Done.       C
+    Maximizing three_dom-mean model......Done.       C
+
+etc.
+
+  Doing Commingling Analysis:
+  Analyzing towards mean model 'two_dom':
+
+  Doing Transmission Analysis:        
+    Creating Initial Values..............Done.       C
+    Maximizing homog_no_trans model......Done.       C
+    Maximizing two-mean model.........               C
+      Creating Initial Values............Done.       C
+        Attempting Initial Value  1......Done.       A
+        Attempting Initial Value  2......Done.       A
+        Attempting Initial Value  3......Done.       A
+        Attempting Initial Value  4......Done.       A
+        Attempting Initial Value  5......Done.       A
+        Attempting Initial Value  6......Done.       A
+      Choosing models to finalize........Done. (kept #)      A
+        Finalizing Initial Value  1......Done.       A
+        Finalizing Initial Value  2......Done.       A
+      Choosing final estimates...........Done.       A
+    Maximizing two-mean model............Done.       C
+    Maximizing three-mean model..........Done.       C
+    Maximizing three_dom-mean model......Done.       C
+

@@ -1,0 +1,292 @@
+Reading Parameter File....................done.
+Reading Marker Locus Description File.....done.
+Reading Trait Model Description File......done.
+Reading Pedigree File.....................
+              from ped....................done.
+Sorting Pedigrees.........................done.
+Reading Genome Description File...........done.
+Beginning new analysis block ...
+
+%TEST_PARSER-E: 'c1g77' not a valid trait marker.  Ignoring ...
+
+Analysis parsing complete.  Analysis valid.
+------------------------------------------------------------------------------
+
+Beginning new analysis block ...
+
+%TEST_PARSER-C: No valid trait markers specified.  Skipping analysis ...
+
+Analysis parsing complete.  Analysis is invalid.  Check your file.
+------------------------------------------------------------------------------
+
+Beginning new analysis block ...
+
+%TEST_PARSER-E: Parameter 'SEPARATE_TRAIGHTS' not recognized.  Ignoring ...
+%TEST_PARSER-E: Value for parameter, output_pedigrees, not recognized. 
+                Ignoring ...
+%TEST_PARSER-E: scan_type may not be 'marker' when output_pedigrees is 'all'. 
+                Setting scan_type to 'interval' ...
+%TEST_PARSER-C: No valid trait markers specified.  Skipping analysis ...
+
+Analysis parsing complete.  Analysis is invalid.  Check your file.
+------------------------------------------------------------------------------
+
+Beginning new analysis block ...
+
+
+Analysis parsing complete.  Analysis valid.
+------------------------------------------------------------------------------
+
+Beginning new analysis block ...
+
+%TEST_PARSER-E: Specified distance '0' is less than or equal to 0 centimorgans.
+                Ignoring ...
+
+Analysis parsing complete.  Analysis valid.
+------------------------------------------------------------------------------
+
+Beginning new analysis block ...
+
+
+Analysis parsing complete.  Analysis valid.
+------------------------------------------------------------------------------
+
+Beginning new analysis block ...
+
+%TEST_PARSER-E: Specified distance '2000' is greater than  1000 centimorgans. 
+                Ignoring ...
+
+Analysis parsing complete.  Analysis valid.
+------------------------------------------------------------------------------
+
+Beginning new analysis block ...
+
+%TEST_PARSER-E: Bad or missing value for parameter 'distance'
+
+Analysis parsing complete.  Analysis valid.
+------------------------------------------------------------------------------
+
+Beginning new analysis block ...
+
+
+Analysis parsing complete.  Analysis valid.
+------------------------------------------------------------------------------
+
+Beginning new analysis block ...
+
+%TEST_PARSER-E: 'chrom_1' not a valid region.  Ignoring ...
+
+Analysis parsing complete.  Analysis valid.
+------------------------------------------------------------------------------
+
+Beginning new analysis block ...
+
+%TEST_PARSER-E: 'chrom_1' not a valid region.  Ignoring ...
+
+Analysis parsing complete.  Analysis valid.
+------------------------------------------------------------------------------
+
+Beginning new analysis block ...
+
+
+Analysis parsing complete.  Analysis valid.
+------------------------------------------------------------------------------
+
+Beginning new analysis block ...
+
+
+Analysis parsing complete.  Analysis valid.
+------------------------------------------------------------------------------
+
+Beginning new analysis block ...
+
+%TEST_PARSER-E: scan_type may not be 'marker' when output_pedigrees is 'all'. 
+                Setting scan_type to 'interval' ...
+
+Analysis parsing complete.  Analysis valid.
+------------------------------------------------------------------------------
+
+
+-------------  MLOD Analysis 1  ------------
+
+analysis is        VALID
+out:               mlod_analysis1
+title:             MLOD Analysis 1
+separate_regions:  false
+separate_traits:   false
+output_pedigrees:  none
+distance:          2
+scan_type:         markers
+
+
+trait_marker: 2    C1G3
+trait_marker: 3    C1G4
+
+
+-------------  MLOD Analysis 4  ------------
+
+analysis is        VALID
+out:               mlod_analysis4
+title:             MLOD Analysis 4
+separate_regions:  false
+separate_traits:   false
+output_pedigrees:  none
+distance:          0.001
+scan_type:         markers
+
+
+trait_marker: 0    C1G1
+
+
+-------------  MLOD Analysis 5  ------------
+
+analysis is        VALID
+out:               mlod_analysis5
+title:             MLOD Analysis 5
+separate_regions:  false
+separate_traits:   false
+output_pedigrees:  none
+distance:          2
+scan_type:         markers
+
+
+trait_marker: 0    C1G1
+
+
+-------------  MLOD Analysis 6  ------------
+
+analysis is        VALID
+out:               mlod_analysis6
+title:             MLOD Analysis 6
+separate_regions:  false
+separate_traits:   false
+output_pedigrees:  none
+distance:          3.5
+scan_type:         markers
+
+
+trait_marker: 0    C1G1
+
+
+-------------  MLOD Analysis 7  ------------
+
+analysis is        VALID
+out:               mlod_analysis7
+title:             MLOD Analysis 7
+separate_regions:  false
+separate_traits:   false
+output_pedigrees:  none
+distance:          2
+scan_type:         markers
+
+
+trait_marker: 0    C1G1
+
+
+-------------  MLOD Analysis 8  ------------
+
+analysis is        VALID
+out:               mlod_analysis8
+title:             MLOD Analysis 8
+separate_regions:  false
+separate_traits:   false
+output_pedigrees:  none
+distance:          2
+scan_type:         markers
+
+
+trait_marker: 0    C1G1
+
+
+-------------  MLOD Analysis 9  ------------
+
+analysis is        VALID
+out:               mlod_analysis9
+title:             MLOD Analysis 9
+separate_regions:  false
+separate_traits:   false
+output_pedigrees:  none
+distance:          2
+scan_type:         markers
+
+
+region: 0    chromosome1
+trait_marker: 0    C1G1
+
+
+-------------  MLOD Analysis 10  ------------
+
+analysis is        VALID
+out:               mlod_analysis10
+title:             MLOD Analysis 10
+separate_regions:  false
+separate_traits:   false
+output_pedigrees:  none
+distance:          2
+scan_type:         markers
+
+
+trait_marker: 0    C1G1
+
+
+-------------  MLOD Analysis 11  ------------
+
+analysis is        VALID
+out:               mlod_analysis11
+title:             MLOD Analysis 11
+separate_regions:  false
+separate_traits:   false
+output_pedigrees:  none
+distance:          2
+scan_type:         markers
+
+
+trait_marker: 0    C1G1
+
+
+-------------  MLOD Analysis 12  ------------
+
+analysis is        VALID
+out:               mlod_analysis12
+title:             MLOD Analysis 12
+separate_regions:  false
+separate_traits:   false
+output_pedigrees:  none
+distance:          2
+scan_type:         markers
+
+
+region: 1    chromosome2
+region: 2    chromosome3
+trait_marker: 0    C1G1
+
+
+-------------  MLOD Analysis 13  ------------
+
+analysis is        VALID
+out:               mlod_analysis13
+title:             MLOD Analysis 13
+separate_regions:  false
+separate_traits:   false
+output_pedigrees:  none
+distance:          2
+scan_type:         intervals
+
+
+trait_marker: 0    C1G1
+
+
+-------------  MLOD Analysis 14  ------------
+
+analysis is        VALID
+out:               mlod_analysis14
+title:             MLOD Analysis 14
+separate_regions:  false
+separate_traits:   false
+output_pedigrees:  all
+distance:          2
+scan_type:         intervals
+
+
+trait_marker: 0    C1G1
+

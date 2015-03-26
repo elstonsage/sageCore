@@ -1,0 +1,41 @@
+
+
+
+Reading Parameter File....................done.
+Reading Pedigree File.....................
+              from ped....................done.
+Sorting Pedigrees.........................done.
+
+Parsing DECIPHER analyses ...
+
+
+Parsing new analysis block ...
+
+
+Parsing of Analysis 1 complete.  Analysis valid.
+------------------------------------------------------------------------------
+
+  Performing analysis: Analysis 1
+  ===========================================================================
+
+  Preparing sliding window .......................................... done.
+
+  Window 1 of 3.
+    Total population. 
+      Determining possible haplotype combinations ................... done.
+      Maximizing likelihood ......................................... done. 
+
+  Window 2 of 3.
+    Total population. 
+      Determining possible haplotype combinations ................... done.
+      Maximizing likelihood ......................................... done. 
+
+  Window 3 of 3.
+    Total population. 
+      Determining possible haplotype combinations ................... done.
+      Maximizing likelihood ......................................... done. 
+
+  ===========================================================================
+
+
+

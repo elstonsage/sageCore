@@ -1,0 +1,68 @@
+pedigree 
+{
+  verbose = 20
+  individual_missing_value="0"
+
+  delimiters="\t"
+  sex_code, male="1",female="0", missing="",trait
+
+  delimiter_mode="multiple"
+
+  pedigree_id=PID
+  individual_id=ID
+  parent_id=P1
+  parent_id=P2
+  sex_field=sex
+
+  trait=aff, binary, affected="1", unaffected="0", missing="999"
+
+  covariate=age, missing="999"
+  covariate=halfsib, missing="999"
+
+  string=JPTCODE
+
+  allele = ATA103C06a, name = ATA103C06, cov_moi = add, cov_allele = 245
+  allele = ATA103C06b, name = ATA103C06, cov_moi = add, cov_allele = 245
+  allele = ATA34E08a, name = ATA34E08, cov_moi  = add, cov_allele = 161
+  allele = ATA34E08b, name = ATA34E08, cov_moi  = add, cov_allele = 161
+
+  #marker = ATA103C06, covariate_moi  = add, cov_allele = 245
+  #marker = ATA34E08, covariate_moi  = add, cov_allele = 161
+}		
+
+
+marker
+{
+  allele_missing = "0"
+  covariate_moi  = add
+}
+
+relpal
+{
+  trait = aff
+  trait = SEX_CODE
+  trait = halfsib
+
+  type = zero_marker
+
+  first_level
+  {
+    batch
+  }
+
+  second_level
+  {
+  }
+
+  data_options
+  {
+    use_pairs = both
+  }
+
+  output_options
+  {
+    detailed_out = true
+    export_out = true
+  }
+}
+

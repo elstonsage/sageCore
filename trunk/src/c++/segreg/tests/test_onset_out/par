@@ -1,0 +1,72 @@
+pedigree
+{
+   delimiter_mode = multiple
+   delimiters=" "
+   individual_missing_value="0"
+   sex_code,male="M",female="F",unknown="?"
+
+   pedigree_id=PED
+   individual_id=IND
+   parent_id=MOTH
+   parent_id=FATH
+   sex_field=SEX
+
+  trait=AGE,missing=-1
+  trait=AFFECTION,missing=9,binary,affected=1,unaffected=0
+
+  trait=TRAIT,missing=-1
+  covariate=COV,missing=9,binary,affected=1,unaffected=0
+}
+
+segreg_analysis # 1
+{
+  class=FPMM
+
+  trait=AFFECTION,type=age_onset
+
+  type_mean
+  {
+    option=three
+    mean="AA",val=2,fixed=true
+    mean="AB",val=13,fixed=true
+    mean="BB",val=16
+  }
+
+  type_var
+  {
+    var="**",val=1.333333333333333333,fixed=true
+  }
+  
+  geno_freq
+  {
+    option=hwe
+    probs_fixed = true
+    freq_A,val=0.5
+  }
+
+  transmission
+  {
+    option=homog_no_trans
+  }
+
+  transformation
+  {
+    option=none
+  }
+
+  fpmm
+  {
+    loci = 0
+    onset
+    {
+      age_onset=age
+      age_exam=age
+    }
+  }
+  type_suscept
+  {
+    option=one
+    suscept="AA",val=3
+  }
+}
+

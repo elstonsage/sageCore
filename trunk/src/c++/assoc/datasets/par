@@ -1,0 +1,34 @@
+pedigree
+{
+  delimiters=" 	"
+  delimiter_mode=multiple
+  pedigree_id=PID
+  individual_id=ID
+  individual_missing_value="-1"
+  parent_id=DAD
+  parent_id=MOM
+  sex_field=SEX
+  sex_code,male="m",female="f",unknown="?"
+  marker=LOC_01
+  marker=LOC_02
+  trait=ENV_01
+  trait=PHEN
+  trait=AFF,binary
+}
+
+function 
+{                                                                     
+   covariate = addLOC_01, expression = "add(LOC_01, 'A1')"                   
+} 
+
+assoc
+{
+  primary_trait=PHEN
+  primary_trait=AFF
+  covariate=addLOC_01,test
+  pe=true
+  me=false
+  se=false
+  fe=true
+  transformation { option=none; }
+}

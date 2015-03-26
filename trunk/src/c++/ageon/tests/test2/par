@@ -1,0 +1,73 @@
+pedigree
+{
+  delimiter_mode = multiple
+  delimiters=" "
+  individual_missing_value="."
+  sex_code, male="1", female="2", unknown="?"
+
+  pedigree_id   = pi
+  individual_id = i
+  parent_id     = d
+  parent_id     = m
+  sex_field     = s
+
+  trait = a, binary, affected = 2, unaffected = 1, missing = "0"
+  trait = o, missing = -9
+  trait = e, missing = -9
+  trait = g, missing = -9
+  trait = f, missing = -9
+  trait = c, missing = -9
+}
+
+pedinfo
+{
+  trait = a
+}
+
+fcor
+{
+  trait = a
+  standard_error = false
+}
+
+ageon
+{
+  affectedness = a
+  age_of_onset = o
+  age_of_exam = e
+}
+
+ageon
+{
+  affectedness = a
+  age_of_onset = o
+  age_of_exam = e
+
+  mean_cov
+  {
+    covariate = c
+  }
+}
+
+ageon
+{
+  affectedness = a
+  age_of_onset = o
+  age_of_exam = e
+
+  allow_averaging = true
+
+  mean_cov
+  {
+    covariate = c
+  }
+}
+
+ageon
+{
+  affectedness = a
+  age_of_onset = o
+  age_of_exam = e
+
+  pool = "??=?U, ?A=AA, AU=AA"
+}

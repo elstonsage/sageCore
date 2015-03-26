@@ -1,0 +1,89 @@
+
+
+
+
+===========================================================
+  Variance-Covariance matrix for Correlations of
+     PARENT:OFFSPRING
+       with
+     PARENT:OFFSPRING
+
+     trait(s) : TRAIT1 TRAIT2 - JOINTLY
+
+  **** : Value is not estimable.
+  [  ] : Calculated by setting at least one nonestimable
+         required correlation to a value of 0.
+===========================================================
+
+  Legend : 
+    [Row1] PARENT-TRAIT1 : OFFSPRING-TRAIT1
+    [Row2] PARENT-TRAIT1 : OFFSPRING-TRAIT2
+    [Row3] PARENT-TRAIT2 : OFFSPRING-TRAIT1
+    [Row4] PARENT-TRAIT2 : OFFSPRING-TRAIT2
+    [Col1] PARENT-TRAIT1 : OFFSPRING-TRAIT1
+    [Col2] PARENT-TRAIT1 : OFFSPRING-TRAIT2
+    [Col3] PARENT-TRAIT2 : OFFSPRING-TRAIT1
+    [Col4] PARENT-TRAIT2 : OFFSPRING-TRAIT2
+  ------------------------------------------------------------
+     \       [Col1]       [Col2]       [Col3]       [Col4]    
+  ------------------------------------------------------------
+  [Row1]    0.0017947    0.0012015    0.0014717    0.0008182  
+  [Row2]    0.0012015    0.0017822    0.0009800    0.0011918  
+  [Row3]    0.0014717    0.0009800    0.0025367    0.0013820  
+  [Row4]    0.0008182    0.0011918    0.0013820    0.0016764  
+  ------------------------------------------------------------
+
+  The Smallest Number of Pairs Used in
+    Calculating Required Correlations
+  ------------------------------------------------------------
+     \       [Col1]       [Col2]       [Col3]       [Col4]    
+  ------------------------------------------------------------
+  [Row1]           86           86           86           86  
+  [Row2]           86           86           86           86  
+  [Row3]           86           86           86           86  
+  [Row4]           86           86           86           86  
+  ------------------------------------------------------------
+
+
+===========================================================
+  Variance-Covariance matrix for Correlations of
+     FATHER:SON
+       with
+     MOTHER:DAUGHTER
+
+     trait(s) : TRAIT1 TRAIT2 - JOINTLY
+
+  **** : Value is not estimable.
+  [  ] : Calculated by setting at least one nonestimable
+         required correlation to a value of 0.
+===========================================================
+
+  Legend : 
+    [Row1] FATHER-TRAIT1 : SON-TRAIT1
+    [Row2] FATHER-TRAIT1 : SON-TRAIT2
+    [Row3] FATHER-TRAIT2 : SON-TRAIT1
+    [Row4] FATHER-TRAIT2 : SON-TRAIT2
+    [Col1] MOTHER-TRAIT1 : DAUGHTER-TRAIT1
+    [Col2] MOTHER-TRAIT1 : DAUGHTER-TRAIT2
+    [Col3] MOTHER-TRAIT2 : DAUGHTER-TRAIT1
+    [Col4] MOTHER-TRAIT2 : DAUGHTER-TRAIT2
+  ------------------------------------------------------------
+     \       [Col1]       [Col2]       [Col3]       [Col4]    
+  ------------------------------------------------------------
+  [Row1]    0.0003145    0.0002428    0.0001088    0.0000990  
+  [Row2]    0.0001583    0.0000237    0.0000156   -0.0000888  
+  [Row3]    0.0002387    0.0000632    0.0000024   -0.0000486  
+  [Row4]    0.0001369   -0.0000821   -0.0000318   -0.0002388  
+  ------------------------------------------------------------
+
+  The Smallest Number of Pairs Used in
+    Calculating Required Correlations
+  ------------------------------------------------------------
+     \       [Col1]       [Col2]       [Col3]       [Col4]    
+  ------------------------------------------------------------
+  [Row1]           86           86           86           86  
+  [Row2]           86           86           86           86  
+  [Row3]           86           86           86           86  
+  [Row4]           86           86           86           86  
+  ------------------------------------------------------------
+

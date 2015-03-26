@@ -1,0 +1,24 @@
+pedigree
+{
+  pedigree_id=PID
+  individual_id=ID
+  sex_field=SEX
+  parent_id=P1
+  parent_id=P2
+  trait=DISEASE, binary, affected=2, unaffected=1
+  trait=HEMATOCRIT
+}
+
+pedinfo, output = analysis1
+{
+  trait=DISEASE
+}
+
+pedinfo_analysis, out = analysis2
+{
+  trait=disease
+  trait=hematocrit
+}
+
+
+

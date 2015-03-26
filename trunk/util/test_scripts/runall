@@ -1,0 +1,28 @@
+#!/usr/local/bin/python
+
+import os
+import sys
+
+if len(sys.argv) == 1 :
+  sys.path.append(os.environ['PWD'])
+else :
+  (head, tail) = os.path.split(os.environ['PWD'])
+
+  if(tail != sys.argv[1]) :
+    if tail == 'build_scripts':
+      head2 = os.path.split(head)[0]
+      sys.path.append(head2 + "/src/c++/" + sys.argv[1])
+      os.environ['PWD'] = head2 + "/src/c++/" + sys.argv[1]
+    else:
+      sys.path.append(os.environ['PWD'] + "/" + sys.argv[1])
+      os.environ['PWD'] = os.environ['PWD'] + "/" + sys.argv[1]
+  else:
+    sys.path.append(os.environ['PWD'])
+
+
+if __name__ == "__main__":
+
+  if(os.system('runtest all')):
+    sys.exit(1)
+  else:
+    sys.exit(0)

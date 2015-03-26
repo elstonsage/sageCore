@@ -1,0 +1,37 @@
+marker
+{
+  allele_missing="0"
+  allele_delimiter="/"
+}
+pedigree
+{
+delimiters="\t "
+delimiter_mode=multiple
+individual_missing_value="0"
+sex_code, male ="1",female="2",missing="0"
+
+pedigree_id=PEDID
+individual_id=ID
+parent_id=MOM
+parent_id=DAD
+sex_field=SEX, missing="0"
+
+phenotype=C_TRAIT, continuous, missing = "0"
+phenotype=D_TRAIT, binary, affected = "1", unaffected = "0", missing = "2"
+
+marker = rs3748022
+}
+
+pedinfo {
+}
+markerinfo {          # markerinfo parameters pedigree
+ sample_id=ID      # specifies an EXTRA Id field to be printed in the analysis output file
+# consistent_out=true  # specifies that consistent nuclear family members should be added to ouput  
+}
+
+freq, out {
+}
+
+assoc_analysis {
+    trait = C_TRAIT
+}  

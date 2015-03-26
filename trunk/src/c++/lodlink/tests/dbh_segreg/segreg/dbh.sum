@@ -1,0 +1,56 @@
+=====================================================================================================
+  SEGREG Analysis for Trait : sqrtdbh
+=====================================================================================================
+  # Model Specification  
+
+    Model Class D
+    Type means                   : three means
+    Mean covariates              :
+          fam1                   : (Mean =     -0.27519)
+          fam2                   : (Mean =      0.05200)
+          fam3                   : (Mean =     -0.28061)
+    Type variances               : one variance
+    Residual correlations        : No spouse correlation, parent-offspring and
+                                   sib-sib correlations equal
+    Transformation               : Box-Cox
+    Type frequency               : Hardy-Weinberg equilibrium
+    Transmission                 : homogeneous mendelian
+
+
+    NOTE:  All covariates are centered at mean 0.0 for analysis.  Means
+           listed above are actual means.
+
+  # Number of connected pedigrees     : 4
+  # Number of unconnected individuals : 0
+
+  # Final Estimates : 
+
+  Parameter           Parameter Est.  Standard Err.   First Deriv.   Status
+-----------------------------------------------------------------------------------------------------
+  mean_AA              2.56986253      0.17021250      0.00000000     IND, MAY VARY
+  mean_AB              4.85072295      0.16196665      0.00002847     IND, MAY VARY
+  mean_BB              6.28928918      0.13946622      0.00000000     IND, MAY VARY
+  fam1                -0.92896992      0.20773926     -0.00014867     IND, MAY VARY
+  fam2                 0.42493629      0.13279274     -0.00027621     IND, MAY VARY
+  fam3                 0.58366343      0.20753196      0.00023662     IND, MAY VARY
+  variance             1.05342063      0.11752131      0.00013110     IND, MAY VARY
+  marital resid c      0.00000000                                     FIXED EXTERNALLY
+  po = ss resid c      0.00000000                                     FIXED EXTERNALLY
+  lambda_one           0.95633545      0.08959222      0.00000000     IND, MAY VARY
+  lambda_two           0.00000000                                     FIXED EXTERNALLY
+  prob_AA              0.15020616      0.03481734                     DEPENDENT
+  prob_AB              0.47471647      0.02020159                     DEPENDENT
+  prob_BB              0.37507736      0.05501893                     DEPENDENT
+  freq_A               0.38756440      0.04491813      0.00000000     IND-FN, MAY VARY
+  genotypic corr.      0.00000000                                     FIXED EXTERNALLY
+  transm prob_AA       1.00000000                                     FIXED EXTERNALLY
+  transm prob_AB       0.50000000                                     FIXED EXTERNALLY
+  transm prob_BB       0.00000000                                     FIXED EXTERNALLY
+-----------------------------------------------------------------------------------------------------
+
+
+        LN(Likelihood) : -880.767
+     -2 LN(Likelihood) : 1761.53
+    Akaike's AIC score : 1779.53
+=====================================================================================================
+

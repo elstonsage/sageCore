@@ -1,0 +1,224 @@
+#!/usr/local/bin/python
+#============================================================================
+# File:      simulate
+#                                                                          
+# Author:    Dan Baechle
+#                                                                          
+# History:   Created 11/6/3
+#                                                                          
+# Notes:     Generate genotypes to be used by a program that estimates
+#            haplotype frequencies.  Haplotypes and their frequencies
+#            are given in the sim_params module.  The program is completely
+#            general with respect to the number of loci and the number of
+#            alleles at any given locus.
+#
+#============================================================================
+
+import copy
+import sys
+import random
+import pickle
+import sim_params
+
+
+# - Insure that specified haplotype frequencies total to 1 and that
+#   the haplotypes are all the same length.
+#
+def check_params():
+  if not haps_uniform():
+    sys.stderr.write('Not all haplotypes are the same length.\n')
+    sys.exit(1)
+    
+  normalize_frequencies()
+  
+  
+# - Are the specified haplotypes all of the same length?
+#
+def haps_uniform():
+  hap_length = len(haps[0][1])
+  for h in range(1, len(haps)):
+    if len(haps[h][1]) != hap_length:
+      return  0
+      
+  return  1
+    
+
+# - If total of haplotype frequencies not w/i epsilon of 1,
+#   print a warning and normalize them.
+#
+def normalize_frequencies():
+  epsilon = .01
+  freq_total = 0
+  for h in range(len(haps)):
+    freq_total += haps[h][0]
+    
+  if abs(1 - freq_total) > epsilon:
+    sys.stderr.write('Warning.  Haplotype frequencies do not total to 1.  Normalizing ...\n')
+    for h in range(len(haps)):
+      haps[h][0] /= float(freq_total)
+      # print haps[h][0]
+    
+
+# - Create a list whose values define bounds of a sequence of intervals
+#   proportional to the haplotype frequencies.
+# 
+def create_hap_intervals():
+  hap_intervals = []
+
+  running_total = 0.0
+  hap_intervals.append(running_total)
+  for h in range(len(haps)):
+    running_total += haps[h][0]
+    hap_intervals.append(running_total)
+    
+  return  hap_intervals
+
+
+# - Records are of the format, [ind, m1[a1, a2], m2[a1, a2], ...], 
+#   where ind is an individual id, m is a marker locus and a is an allele.
+#
+def create_records():
+  records = []
+  for ind in range(ind_count):
+    record = []
+    record.append(ind + 1)
+    record += get_genotypes()
+    records.append(record)
+    
+  if sim_params.fraction_missing_data != 0:
+    inject_missing_data(records)
+    
+  return  records
+    
+    
+def get_genotypes():
+  hap1 = get_haplotype()
+  hap2 = get_haplotype()
+  
+  genotype = []
+  for l in range(len(haps[hap1][1])):
+    genotype.append([haps[hap1][1][l], haps[hap2][1][l]])
+    
+  return genotype
+   
+
+# - pick a haplotype with frequencies specified in haps.
+#
+def get_haplotype():
+  random_number = random.uniform(hap_intervals[0], hap_intervals[-1])
+  haplotype = 0
+  while random_number > hap_intervals[haplotype + 1]:
+    haplotype += 1
+    
+  return  haplotype
+  
+
+def print_haplotype(h):
+  print reduce(lambda a, b : '%s %s' % (a, b), haps[h][1])  
+
+
+def print_results():
+  print_header()
+  print_data()
+  
+  
+def print_header():
+  if sim_params.format == sim_params.SAGE:
+    print_sage_header()
+  elif sim_params.format == sim_params.HAPFREQS:
+    print_hapfreq_header()
+  elif sim_params.format == sim_params.ARLEQUIN:
+    print_arlequin_header()
+  else:
+    sys.stderr.write('Specified output format not recognized.\n')
+    sys.exit(1)
+
+def print_data():
+  for r in range(len(records)):
+    if sim_params.format == sim_params.SAGE:
+      print '%s\t' % (records[r][0]),
+    elif sim_params.format == sim_params.HAPFREQS:
+      pass
+    elif sim_params.format == sim_params.ARLEQUIN:
+      print '%s\t1\t' % (records[r][0]),      
+    else:
+      sys.stderr.write('Specified output format not recognized.\n')
+      sys.exit(1)      
+      
+    print_genotype(records[r])
+    
+    
+def print_sage_header():
+  header = 'PID\t'
+  for l in range(1, len(records[0])):
+    header += 'M%s' % l
+    if l != len(records[0]) - 1:
+      header += '\t'
+      
+  print header
+
+
+def print_hapfreq_header():
+  print 'comment line'
+  print '%d %d' % (len(records), len(records[0]) - 1)
+  
+  
+def print_arlequin_header():
+  pass
+  
+
+def print_genotype(record):
+  record_str = ""
+  
+  if sim_params.format == sim_params.ARLEQUIN:
+    for l in range(1, len(record)):
+      record_str += '%s' % record[l][0]
+      if l != len(record) - 1:
+        record_str += '\t'
+    record_str += '\n\t\t'
+    for l in range(1, len(record)):
+      record_str += '%s' % record[l][1]
+      if l != len(record) - 1:
+        record_str += '\t'          
+  else:
+    for l in range(1, len(record)):
+      record_str += '%s/%s' % (record[l][0], record[l][1])
+      if l != len(record) - 1:
+        record_str += '\t'
+      
+  print  record_str   
+
+
+def inject_missing_data(records):
+  for record in records:
+    for locus in record[1:]:
+      if make_missing(sim_params.fraction_missing_data):
+        locus[0], locus[1] = '?', '?'
+
+
+# - Return 'True' a given fraction of the time.
+#
+def make_missing(fraction):
+  missing = False
+  random_number = random.uniform(0, 1)
+  if random_number < fraction:
+    missing = True
+    
+  return  missing
+  
+# - Main.
+#
+ind_count = sim_params.ind_count
+haps = copy.deepcopy(sim_params.haps)
+
+check_params()
+hap_intervals = create_hap_intervals()
+  
+records = create_records()
+print_results()
+
+data = open('data.sim', 'w')
+pickle.dump(records, data)  
+data.close()
+
+sys.exit(0)

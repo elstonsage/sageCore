@@ -1,0 +1,50 @@
+
+
+
+
+
+%LODLINK-E: Error(s) building pedigree '1': 1 errors.
+%LODLINK-W: Both parents '1' and '2' have unknown sex and cannot be inferred.
+%LODLINK-E: Error(s) building pedigree '2': 1 errors.
+%LODLINK-W: Both parents '3' and '4' have unknown sex and cannot be inferred.
+%LODLINK-E: Error(s) building pedigree '3': 1 errors.
+%LODLINK-W: Both parents '5' and '6' have unknown sex and cannot be inferred.
+%LODLINK-E: Error(s) building pedigree '4': 1 errors.
+%LODLINK-W: Both parents '10' and '11' have unknown sex and cannot be inferred.
+%LODLINK-E: Error(s) building pedigree '5': 1 errors.
+%LODLINK-W: Both parents '12' and '13' have unknown sex and cannot be inferred.
+%LODLINK-E: Error(s) building pedigree '6': 1 errors.
+%LODLINK-W: Both parents '15' and '16' have unknown sex and cannot be inferred.
+
+Family structure information on the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       SEX       PARENT1       PARENT2     
+     ------------  ------------  --------  ------------  ------------
+     1             1                                                 
+     1             2                                                 
+     2             3                                                 
+     1             4                       1             2           
+     2             4                                                 
+     1             5                       1             2           
+     3             5                                                 
+     3             6                                                 
+     2             7                       3             4           
+     2             8                       3             4           
+
+
+Markers for the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       M1            M2          
+     ------------  ------------  ------------  ------------
+     1             1             A/B           C/D         
+     1             2             B/B           C/C         
+     2             3             A/B           C/D         
+     1             4             B/B           C/C         
+     2             4             B/B           C/C         
+     1             5             B/B           C/C         
+     3             5             B/B           C/C         
+     3             6             A/B           C/D         
+     2             7             A/B           C/D         
+     2             8             B/B           C/D         
+
+%LODLINK-E: Errors appear in pedigree data. Results may be incomplete.

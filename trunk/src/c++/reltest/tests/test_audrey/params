@@ -1,0 +1,662 @@
+# This file parameter is for the busselton data
+
+pedigree
+
+{
+  delimiter_mode = single
+  delimiter= ","
+  pedigree_id = Newfam
+  individual_id = IndividID
+  parent_id = Parent1
+  parent_id = Parent2
+  sex_field = Sex
+  individual_missing_value = 0
+  sex_code, male =0, female =1 , missing =0
+  trait = "Asthma", missing ="9", binary, affected ="1", unaffected="0"
+  #Covariate
+  covariate ="Age" ,missing =0
+  covariate ="Rast" ,missing =0
+  covariate ="Rasti" ,missing =0
+  covariate ="Zrasti" ,missing =0
+  
+  
+  trait = "Respall", missing ="9", binary, affected ="1", unaffected="0"
+  covariate ="Generat" ,missing ="9", binary, affected ="1", unaffected="0"
+  covariate ="Genbysex" ,missing ="9", binary, affected ="1", unaffected="0"
+  #Marker
+  
+marker = D1S228
+
+marker = D1S234
+
+marker = D1S255
+
+marker = D1S197
+
+marker = D1S209
+
+marker = D1S216
+
+marker = D1S207
+
+marker = D1S252
+
+marker = D1S194
+
+marker = D1S196
+
+marker = D1S238
+
+marker = D1S249
+
+marker = D1S229
+
+marker = D1S225
+
+marker = D1S103
+
+marker = D1S235
+
+marker = D1S304
+
+marker = D1S321
+
+marker = D1S204
+
+marker = D2S162
+
+marker = D2S131
+
+marker = D2S165
+
+marker = D2S177
+
+marker = D2S134
+
+marker = D2S139
+
+marker = D2S340
+
+marker = D2S160
+
+marker = IL1A
+
+marker = D2S308
+
+marker = D2S121
+
+marker = D2S114
+
+marker = D2S142
+
+marker = D2S326
+
+marker = D2S152
+
+marker = D2S72
+
+marker = D2S157
+
+marker = D2S126
+
+marker = D2S206
+
+marker = D2S395
+
+marker = D2S140
+
+marker = D2S125
+
+
+
+marker = D3S1297
+
+marker = D3S1263
+
+marker = D3S11
+
+marker = D3S1300
+
+marker = D3S1261
+
+marker = D3S1271
+
+marker = D3S1303
+
+marker = D3S1279
+
+marker = D3S1282
+
+marker = D3S1262
+
+marker = D3S1265
+
+
+marker = D4S412
+
+marker = D4S403
+
+marker = D4S418
+
+marker = D4S405
+
+marker = D4S1569
+
+marker = D4S1600
+
+marker = D4S399
+
+marker = D4S398
+
+marker = D4S231
+
+marker = D4S250
+
+marker = D4S406
+
+marker = D4S430
+
+marker = D4S413
+
+marker = D4S415
+
+marker = D4S408
+
+marker = D4S171
+
+marker = D4S1540
+
+marker = D4S426
+
+
+marker = D5S268
+
+marker = D5S416
+
+marker = D5S419
+
+marker = D5S426
+
+marker = D5S407
+
+marker = D5S424
+
+marker = D5S428
+
+marker = D5S409
+
+marker = D5S421
+
+marker = D5S393
+
+marker = D5S399
+
+marker = D5S210
+
+marker = D5S410
+
+marker = D5S400
+
+marker = D5S408
+
+
+marker = D6S260
+
+marker = D6S276
+
+marker = D6S273
+
+marker = TNFA
+
+marker = D6S291
+
+marker = D6S271
+
+marker = D6S286
+
+marker = D6S283
+
+marker = D6S262
+
+marker = D6S308
+
+marker = D6S314
+
+marker = ESR
+
+marker = D6S290
+
+marker = D6S305
+
+marker = D6S264
+
+marker = D6S281
+
+
+marker = D7S531
+
+marker = D7S513
+
+marker = D7S493
+
+marker = D7S629
+
+marker = D7S484
+
+marker = D7S2250
+
+marker = D7S528
+
+marker = D7S519
+
+marker = D7S502
+
+marker = D7S520
+
+marker = D7S639
+
+marker = D7S669
+
+marker = D7S524
+
+marker = D7S527
+
+marker = D7S486
+
+marker = CFTR
+
+marker = D7S530
+
+marker = D7S684
+
+marker = D7S483
+
+marker = D7S550
+
+
+marker = D8S504
+
+marker = D8S552
+
+marker = D8S261
+
+marker = D8S258
+
+marker = D8S283
+
+marker = D8S285
+
+marker = D8S260
+
+marker = D8S286
+
+marker = D8S273
+
+marker = D8S88
+
+marker = D8S257
+
+marker = D8S556
+
+marker = D8S281
+
+marker = D8S198
+
+marker = D8S284
+
+marker = D8S272
+
+marker = D9S144
+
+marker = D9S156
+
+marker = D9S171
+
+marker = D9S43
+
+marker = D9S147E
+
+marker = D9S165
+
+marker = D9S15
+
+marker = D9S166
+
+marker = D9S175
+
+marker = D9S176
+
+marker = D9S118
+
+marker = D9S159
+
+marker = D9S158
+
+
+marker = D10S189
+
+marker = D10S219
+
+marker = D10S191
+
+marker = D10S197
+
+marker = D10S220
+
+marker = D10S201
+
+marker = D10S192
+
+marker = D10S190
+
+marker = D10S217
+
+marker = D10S212
+
+
+marker = D11S922
+
+marker = TH
+
+marker = D11S569
+
+marker = D11S899
+
+marker = D11S904
+
+marker = D11S907
+
+marker = D11S903
+
+marker = BETA
+
+marker = INT2
+
+marker = FGF3
+
+marker = D11S916
+
+marker = D11S901
+
+marker = D11S35
+
+marker = D11S927
+
+marker = D11S925
+
+marker = D11S934
+marker = D11S910
+
+marker = D11S968
+
+
+
+marker = D12S99
+
+
+marker = D12S336
+
+marker = D12S77
+
+
+marker = D12S358
+
+marker = D12S364
+
+
+marker = D12S320
+
+marker = D12S62
+
+
+marker = D12S363
+
+marker = D12S87
+
+
+marker = D12S368
+
+marker = D12S90
+
+marker = D12S83
+
+marker = D12S335
+
+marker = D12S92
+
+marker = D12S43
+
+
+marker = D12S95
+
+marker = D12S366
+
+marker = D12S342
+
+marker = D12S97
+
+
+
+marker = D13S192
+
+marker = D13S120
+
+marker = D13S270
+
+marker = D13S153
+
+marker = D13S262
+
+marker = D13S170
+
+marker = D13S167
+
+marker = D13S122
+
+marker = D13S71
+
+marker = D13S193
+
+marker = D13S159
+
+
+marker = D13S158
+
+marker = D13S174
+
+marker = D13S280
+
+marker = D13S274
+
+marker = D13S173
+
+
+marker = D14S72
+
+marker = D14S50
+
+marker = D14S80
+
+marker = D14S49
+
+marker = D14S70
+
+marker = D14S75
+
+
+marker = D14S63
+
+marker = D14S74
+
+marker = D14S68
+
+marker = D14S51
+
+marker = D14S267
+
+
+marker = D15S128
+
+marker = D15S118
+
+marker = D15S117
+
+marker = D15S114
+
+marker = D15S127
+
+
+marker = D16S423
+
+marker = D16S407
+
+marker = D16S405
+
+marker = D16S287
+
+marker = D16S420
+
+marker = D16S261
+
+marker = D16S411
+
+marker = D16S415
+
+marker = D16S419
+
+marker = D16S408
+
+marker = D16S320
+
+marker = D16S494
+
+marker = D16S265
+
+marker = D16S503
+
+marker = D16S421
+
+marker = D16S515
+
+marker = D16S516
+
+marker = D16S289
+
+marker = D16S507
+
+marker = D16S505
+
+marker = D16S422
+
+marker = D16S413
+
+marker = D16S504
+
+
+marker = D17S513
+
+marker = D17S786
+
+marker = D17S799
+
+marker = D17S798
+
+marker = D17S250
+
+marker = D17S934
+
+marker = HOX
+
+marker = D17S787
+
+marker = D17S807
+
+
+marker = D17S789
+
+marker = D17S939
+
+marker = D17S784
+
+
+marker = D18S59
+
+marker = D18S52
+
+marker = D18S62
+
+marker = D18S53
+
+marker = D18S71
+
+marker = D18S57
+
+marker = D18S64
+
+marker = D18S61
+
+
+marker = D19S221
+
+marker = D19S49
+
+marker = D19S225
+marker = D19S220
+marker = D19S210
+
+
+marker = D20S186
+
+marker = D20S112
+
+
+marker = D20S200
+
+marker = D20S106
+
+marker = D20S107
+
+marker = D20S120
+
+marker = D20S171
+
+marker = D20S93
+
+marker = D21S258
+
+marker = D21S265
+
+marker = D21S219
+
+marker = D21S65
+
+marker = D21S167
+
+marker = D21S270
+
+marker = D21S268
+
+marker = D22S264
+
+marker = D22S156
+
+marker = CYP2D
+
+marker = D22S274
+
+  }
+  
+  
+  reltest
+  
+  {
+  
+    
+    }
+
+
+  
+ibd_analysis
+{
+  scan_type=I  
+}

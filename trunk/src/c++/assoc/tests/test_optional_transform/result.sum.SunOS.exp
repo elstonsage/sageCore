@@ -1,0 +1,32 @@
+=================
+
+     Results
+
+=================
+
+==============================
+     Analysis description
+==============================
+
+  Title                        assoc                                                  
+  Primary Trait                sbpd_rand10 (Quantitative)                             
+  Allow averaging              Disabled                                               
+  Limit output                 Disabled (output includes complete model information)  
+  Omit complete summary table  Disabled                                               
+  Summary table display order  By LRT p-value                                         
+  Summary filter               Show no more than 10 results                           
+
+======================================
+     Transformation configuration
+======================================
+
+  Method                George-Elston  
+  Lambda1 is estimated                 
+  Lambda2 is fixed at    0.000000      
+
+Transformed components: age selection bmi 
+Non-transformed components: Intercept sex_code na_u24c 
+
+
+Note: See .det file for more information about each model
+

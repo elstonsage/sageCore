@@ -1,0 +1,73 @@
+
+
+
+
+Family structure information on the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       SEX       PARENT1       PARENT2     
+     ------------  ------------  --------  ------------  ------------
+     1             9             1         0             0           
+     1             10            2         0             0           
+     1             1             1         10            9           
+     2             11            1         0             0           
+     2             12            2         0             0           
+     2             2             2         11            12          
+     3             12            1         0             0           
+     3             13            2         0             0           
+     3             1             1         12            13          
+     4             10            1         0             0           
+
+
+Phenotypes for the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       SEX_CODE              FAMILIAL_INDICATOR    FOUNDER_INDICATOR     PEDIGREE_SIZE       
+     ------------  ------------  --------------------  --------------------  --------------------  --------------------
+     1             9             0                     1                     1                     3                   
+     1             10            1                     1                     1                     3                   
+     1             1             0                     1                     0                     3                   
+     2             11            0                     1                     1                     3                   
+     2             12            1                     1                     1                     3                   
+     2             2             1                     1                     0                     3                   
+     3             12            0                     1                     1                     3                   
+     3             13            1                     1                     1                     3                   
+     3             1             0                     1                     0                     3                   
+     4             10            0                     1                     1                     3                   
+
+
+Markers for the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       RS13302035    RS669845      RS549083      RS4741475     RS12554910    RS10733291    RS563302      RS472521      RS7467520     RS624443      RS517928      RS527705      RS527634      RS693196      RS7846769     RS7876026     RS7849997     RS11789697    RS569078      RS16932824  
+     ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------
+     1             9             T/T           G/G           C/G           G/T           A/A           G/T           A/A           A/G           C/T           A/G           C/T           G/T           A/G           A/G           G/G           C/G           A/A           A/G           N/N           T/T         
+     1             10            T/T           G/G           C/C           G/T           A/A           G/T           A/A           G/G           C/T           A/A           C/C           G/T           G/G           G/G           G/G           C/C           A/G           G/G           A/G           T/T         
+     1             1             T/T           G/G           C/C           G/T           A/A           G/T           A/A           A/G           C/T           A/G           C/T           G/G           A/G           G/G           G/G           C/C           A/G           A/G           A/G           T/T         
+     2             11            T/T           G/G           C/C           G/T           A/A           G/T           A/A           G/G           C/T           A/A           C/C           G/T           G/G           G/G           G/G           C/C           A/G           G/G           A/G           T/C         
+     2             12            T/T           G/G           C/C           G/T           A/A           G/T           A/A           G/G           C/T           A/A           C/C           G/T           G/G           G/G           G/G           C/C           A/G           G/G           A/G           T/T         
+     2             2             T/T           G/G           C/C           G/T           A/A           G/T           A/A           G/G           C/T           A/A           C/C           G/T           G/G           G/G           G/G           C/C           A/G           G/G           A/G           T/C         
+     3             12            T/T           G/G           C/C           G/G           A/A           G/G           A/A           G/G           C/C           A/A           C/C           G/G           G/G           G/G           G/G           C/C           G/G           G/G           A/A           T/T         
+     3             13            T/T           G/G           C/G           G/G           A/A           G/G           A/A           G/G           C/C           A/A           C/C           G/T           G/G           A/G           G/G           C/G           A/G           G/G           A/G           T/T         
+     3             1             T/T           G/G           C/G           G/G           A/A           G/G           A/A           G/G           C/C           A/A           C/C           G/T           G/G           A/G           G/G           C/G           A/G           G/G           A/G           T/T         
+     4             10            T/T           G/G           C/C           G/G           A/A           G/G           N/N           G/G           C/C           A/A           C/C           G/G           G/G           G/G           G/G           C/C           G/G           G/G           A/A           T/C         
+
+%DECIPHER-W: Marker 'RS669845' has only one allele.  This marker will be
+             unavailable for all analyses.
+%DECIPHER-W: Marker 'RS563302' has only one allele.  This marker will be
+             unavailable for all analyses.
+%DECIPHER-W: Marker 'RS7846769' has only one allele.  This marker will be
+             unavailable for all analyses.
+
+  Performing analysis: Analysis 1
+  ===========================================================================
+
+
+  Determining blocks with four gamete rule .......................... done.
+  Four-gamete-rule block 1 of 4.
+
+  Four-gamete-rule block 2 of 4.
+
+  Four-gamete-rule block 3 of 4.
+
+  Four-gamete-rule block 4 of 4.
+
+  ===========================================================================
+

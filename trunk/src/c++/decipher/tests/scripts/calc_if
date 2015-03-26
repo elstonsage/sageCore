@@ -1,0 +1,93 @@
+#!/usr/local/bin/python
+#============================================================================
+# File:      calc_if
+#                                                                          
+# Author:    Dan Baechle
+#                                                                          
+# History:   2/16/6  Created.
+#            2/21/6  Modified to add entries of 0 frequency in actual data
+#                    as needed.
+#                                                                          
+# Notes:     parse Decipher results and simulation script counts log and 
+#            calculate accuracy of Decipher estimates (If).
+#
+# Usage:     calc_if <file name actual> <file name est>
+#
+#============================================================================
+
+import os
+import sys
+from math import fabs
+from string import atof
+
+def parse_est(file_name):
+  data = {}
+  lines = file_name.readlines()
+  
+  begin = 0
+  end   = 0
+  for l in range(len(lines)):
+    fields = lines[l].strip().split()
+    if fields:
+      if fields[0][:3] == '---':
+        if begin == 0:
+          begin = l + 1
+        else:
+          end = l - 1
+          break
+          
+  for l in range(begin, end + 1):
+    fields = lines[l].strip().split()
+    data[fields[0]] = atof(fields[1])
+      
+  return  data
+        
+        
+def parse_actual(file_name):
+  data = {}
+  lines = file_name.readlines()
+  
+  for line in lines:
+    fields = line.strip().split()
+    data[fields[0]] = atof(fields[1])
+      
+  return  data  
+
+
+def calc_if(actual_data, est_data):
+
+  # - Make actual data the union of actual and estimated data by
+  #   including entries with frequency of 0 as needed. 
+  #
+  for item in est_data.items():
+    if not actual_data.has_key(item[0]):
+      actual_data[item[0]] = 0.0
+      
+  sum = 0.0
+  for item in actual_data.items():
+    if est_data.has_key(item[0]):
+      sum += fabs(est_data[item[0]] - item[1])
+    else:
+      sum += item[1]
+      
+  return  1 - .5 * sum
+
+  
+# - MAIN -
+#
+actual_file = open(sys.argv[1], 'r')
+actual_data = parse_actual(actual_file)
+actual_file.close()
+
+est_file = open(sys.argv[2], 'r')
+est_data = parse_est(est_file)
+est_file.close()
+
+if_coeff = calc_if(actual_data, est_data)
+print '%s If = %.3f' % (sys.argv[2], if_coeff)
+
+
+
+
+sys.exit(0)
+

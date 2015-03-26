@@ -1,0 +1,11 @@
+pedigree
+{
+  delimiter_mode = multiple
+  delimiters=" "
+  individual_missing_value="0"
+
+  pedigree_id=ped
+  individual_id=id
+
+  verbose = 1000
+}

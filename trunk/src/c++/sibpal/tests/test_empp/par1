@@ -1,0 +1,83 @@
+
+#Beaver Dam Linkage Using CIDR data, parameter file 
+
+allele_delimiters="/t"
+# Pedigree specifications 
+Pedigree, character 
+{ 
+delimiter_mode=multiple 
+#Family Structure 
+pedigree_id=Pedigree
+individual_id=ID
+parent_id=dad, missing ="0" 
+parent_id=mom, missing="0"
+sex_field=sex 
+#Trait phenotypes 
+trait=age, missing=999
+trait=ageg, missing=999
+trait=sexn, missing=999 
+trait=factor1, missing=999
+
+#Field encoding 
+individual_missing_value="0" 
+sex_code, male=1, female=2
+
+
+#Marker 
+Marker=D22S420, missing="0"
+Marker=D22S345, missing="0"
+Marker=D22S689, missing="0"
+Marker=D22S685, missing="0"
+Marker=D22S692, missing="0"
+Marker=D22S445, missing="0"
+Marker=D22S1169, missing="0"
+
+
+allele_delimeter="/" 
+allele_missing_code="0" 
+} 
+
+genibd, out=BDmultiple
+{ 
+ibd_mode=multipoint
+title="BDES MultiPoint" 
+use_simulation=yes 
+scan_type=intervals
+split_pedigrees=always
+region="chr22" 
+}
+
+
+#Sibpal parameters 
+sibpal
+{
+	trait_regression 
+	{
+	regression_method=diff
+	trait=factor1 
+	compute_empirical_pvalues=true, max_permutations=10000, seed = 1
+	}
+
+	trait_regression 
+	{
+	regression_method=sum
+	trait=factor1 
+	compute_empirical_pvalues=true, max_permutations=10000, seed = 2
+	}
+
+	trait_regression 
+	{
+	regression_method=prod
+	trait=factor1 
+	compute_empirical_pvalues=true, max_permutations=10000, seed = 3
+	}
+
+	trait_regression 
+	{
+	regression_method=w4
+	trait=factor1 
+	compute_empirical_pvalues=true, max_permutations=10000, seed = 4
+	}
+
+trait_regression_default=single	
+}

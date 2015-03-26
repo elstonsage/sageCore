@@ -1,0 +1,33 @@
+
+
+
+
+Family structure information on the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       SEX       PARENT1       PARENT2     
+     ------------  ------------  --------  ------------  ------------
+     0             1                                                 
+     0             2                                                 
+     0             3                                                 
+
+
+Phenotypes for the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       x                     y                     z                   
+     ------------  ------------  --------------------  --------------------  --------------------
+     0             1             1                     2                     3                   
+     0             2             4                     5                     6                   
+     0             3             7                     8                     9                   
+
+%ASSOC-E: Unknown value 'FOO' for attribute LIST. Ignoring function block...
+
+New phenotypes for individuals created by function block(s) :
+
+     PED. ID       IND. ID       dom_M1                dom_M2                dom_M3                squared_x             squared_y             squared_z             squared_dom_M1        squared_dom_M2        squared_dom_M3      
+     ------------  ------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------  --------------------
+     0             1             1                     1                     1                     1                     4                     9                     1                     1                     1                   
+     0             2             1                     1                     1                     16                    25                    36                    1                     1                     1                   
+     0             3             0                     0                     0                     49                    64                    81                    0                     0                     0                   
+
+
+%ASSOC-F: No valid analyses specified.  Program cannot continue.

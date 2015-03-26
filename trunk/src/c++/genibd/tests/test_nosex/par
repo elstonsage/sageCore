@@ -1,0 +1,237 @@
+pedigree
+{
+  # Pedigree encoding information
+
+  verbose=20
+  delimiter_mode = single
+  individual_missing_value="0"
+  pedigree_id= familyi
+  individual_id = personi
+  parent_id = fatid,missing="0"
+  parent_id = matid, missing="0"
+  sex_field = SEX
+  sex_code, male="1",female="0", missing="",trait
+  no_sex_ok=true
+
+  #trait = htn, binary, affected =1, unaffected =0, missing =""
+  covariate = bmi, missing =""
+  #covariate = avgsys, missing=""
+  #covariate = avgdia, missing=""
+  covariate = bpdrug, binary,affected =1, unaffected =0, missing =""
+  #covariate= htn, binary, affected =1, unaffected =0, missing = "NA"
+  #covariate = smoker, missing=""
+  covariate = age, missing =""
+  covariate = ahi, missing=""
+  covariate = RACE, missing=""
+  covariate = proband, missing =""
+  #covariate = missperc, missing=""
+  covariate = African, missing=""
+  covariate = American, missing =""
+  covariate = European, missing =""
+  covariate = Asian, missing =""
+  covariate = race, missing=""
+  covariate = SYS1, missing=""
+  covariate = SYS2, missing=""
+  covariate = sys3, missing = ""
+  covariate = DIAS1, missing =""
+  covariate = DIAS2, missing=""
+  covariate = dias3, missing =""
+  #covariate = gender, missing =""
+
+  trait=htnsys,missing=""
+  trait=htndia,missin=""
+  trait = htnsysadj, missing =""
+  trait = htnsysadj.bmi, missing=""
+  trait=htndiaadj,missing=""
+  trait=htndiaadj.bmi,missing=""
+
+  marker=AFM280WE5
+  marker=	chr_1_2.0
+  marker=	chr_1_4.0
+  marker=	CATC015
+  marker=	chr_1_6.0
+  marker=	chr_1_8.0
+  marker=	chr_1_10.0
+  marker=	GGAA3A07M
+  marker=	chr_1_14.0
+  marker=	chr_1_16.0
+  marker=	chr_1_18.0
+  marker=	chr_1_20.0
+  marker=	chr_1_22.0
+  marker=	chr_1_24.0
+  marker=	GATA27E01
+  marker=	chr_1_26.0
+  marker=	chr_1_28.0
+  marker=	chr_1_30.0
+  marker=	chr_1_32.0
+  marker=	GATA29A05P
+  marker=	chr_1_34.0
+  marker=	chr_1_36.0
+  marker=	chr_1_38.0
+  marker=	chr_1_40.0
+  marker=	chr_1_42.0
+  marker=	ATA47D07
+  marker=	chr_1_44.0
+  marker=	chr_1_46.0
+  marker=	chr_1_48.0
+  marker=	chr_1_50.0
+  marker=	chr_1_52.0
+  marker=	chr_1_54.0
+  marker=	chr_1_56.0
+  marker=	chr_1_58.0
+  marker=	ATA79C10
+  marker=	chr_1_60.0
+  marker=	chr_1_62.0
+  marker=	chr_1_64.0
+  marker=	chr_1_66.0
+  marker=	chr_1_68.0
+  marker=	GATA129H04
+  marker=	chr_1_70.0
+  marker=	GATA72H07
+  marker=	chr_1_72.0
+  marker=	chr_1_74.0
+  marker=	chr_1_76.0
+  marker=	chr_1_78.0
+  marker=	chr_1_80.0
+  marker=	chr_1_82.0
+  marker=	chr_1_84.0
+  marker=	GATA26G09P
+  marker=	chr_1_86.0
+  marker=	chr_1_88.0
+  marker=	chr_1_90.0
+  marker=	chr_1_92.0
+  marker=	chr_1_94.0
+  marker=	chr_1_96.0
+  marker=	GATA61A06
+  marker=	chr_1_98.0
+  marker=	chr_1_100.0
+  marker=	chr_1_102.0
+  marker=	chr_1_104.0
+  marker=	GATA109
+  marker=	chr_1_106.0
+  marker=	chr_1_108.0
+  marker=	GATA6A05
+  marker=	chr_1_110.0
+  marker=	chr_1_112.0
+  marker=	chr_1_114.0
+  marker=	chr_1_116.0
+  marker=	chr_1_118.0
+  marker=	chr_1_120.0
+  marker=	chr_1_122.0
+  marker=	chr_1_124.0
+  marker=	GATA124C08N
+  marker=	chr_1_126.0
+  marker=	chr_1_128.0
+  marker=	chr_1_130.0
+  marker=	chr_1_132.0
+  marker=	chr_1_134.0
+  marker=	ATA25E07M
+  marker=	chr_1_136.0
+  marker=	chr_1_138.0
+  marker=	chr_1_140.0
+  marker=	chr_1_142.0
+  marker=	chr_1_144.0
+  marker=	chr_1_146.0
+  marker=	GATA12A07N
+  marker=	chr_1_148.0
+  marker=	chr_1_150.0
+  marker=	chr_1_152.0
+  marker=	chr_1_154.0
+  marker=	chr_1_156.0
+  marker=	chr_1_158.0
+  marker=	GATA43A04
+  marker=	chr_1_160.0
+  marker=	chr_1_162.0
+  marker=	chr_1_164.0
+  marker=	chr_1_166.0
+  marker=	GGAA5F09
+  marker=	chr_1_168.0
+  marker=	chr_1_170.0
+  marker=	GGAA22G10N
+  marker=	chr_1_172.0
+  marker=	chr_1_174.0
+  marker=	chr_1_176.0
+  marker=	chr_1_178.0
+  marker=	chr_1_180.0
+  marker=	TATC028
+  marker=	chr_1_182.0
+  marker=	chr_1_184.0
+  marker=	chr_1_186.0
+  marker=	ATA4E02
+  marker=	chr_1_188.0
+  marker=	chr_1_190.0
+  marker=	chr_1_192.0
+  marker=	chr_1_194.0
+  marker=	chr_1_196.0
+  marker=	GATA7C01
+  marker=	chr_1_198.0
+  marker=	chr_1_200.0
+  marker=	chr_1_202.0
+  marker=	chr_1_204.0
+  marker=	chr_1_206.0
+  marker=	chr_1_208.0
+  marker=	GATA48B01
+  marker=	chr_1_210.0
+  marker=	chr_1_212.0
+  marker=	chr_1_214.0
+  marker=	chr_1_216.0
+  marker=	chr_1_218.0
+  marker=	chr_1_220.0
+  marker=	GATA124F08
+  marker=	chr_1_222.0
+  marker=	chr_1_224.0
+  marker=	chr_1_226.0
+  marker=	chr_1_228.0
+  marker=	chr_1_230.0
+  marker=	chr_1_232.0
+  marker=	chr_1_234.0
+  marker=	GATA4H09
+  marker=	chr_1_236.0
+  marker=	chr_1_238.0
+  marker=	chr_1_240.0
+  marker=	chr_1_242.0
+  marker=	ATA29C07L
+  marker=	chr_1_244.0
+  marker=	chr_1_246.0
+  marker=	chr_1_248.0
+  marker=	chr_1_250.0
+  marker=	AFM203YG9
+  marker=	chr_1_252.0
+  marker=	chr_1_254.0
+  marker=	chr_1_256.0
+  marker=	chr_1_258.0
+  marker=	chr_1_260.0
+  marker=	GATA22D12
+  marker=	chr_1_262.0
+  marker=	chr_1_264.0
+  marker=	chr_1_266.0
+  marker=	chr_1_268.0
+  marker=	chr_1_270.0
+  marker=	GATA50F11
+  marker=	chr_1_272.0
+  marker=	chr_1_274.0
+  marker=	chr_1_276.0
+  marker=	chr_1_278.0
+  marker=	TTTA049
+  marker=	chr_1_280.0
+  marker=	chr_1_282.0
+  marker=	chr_1_284.0
+  marker=	AFM272XC9
+
+}
+
+marker
+{
+  allele_delimiter="/"
+  allele_missing="0"
+}
+
+genibd,out=hyp10_3
+{
+  mode=multipoint
+  scan_type=markers
+  output_pair_type=relative
+
+# split_pedigrees=yes
+ #use_simulation=no
+}

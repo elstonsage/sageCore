@@ -1,0 +1,36 @@
+
+
+
+==============================
+LODLINK Analysis 1 DETAIL FILE
+==============================
+
+
+Results
+=======
+
+
+
+
+                  Lod Score Linkage Test      
+                  Variance-Covariance Matrices
+                  Parameter Order (Avg Recomb)
+
+Locus             Estimates in [0, .5]          Estimates in [0, 1]
+---------------   --------------------          -------------------
+T1                        0                         --- 
+
+M1                  1.8e-05                         --- 
+
+M2                  0.00021                         --- 
+
+M3                  0.00025                         --- 
+
+M4                    0.001                         --- 
+
+M5                  0.00092                         --- 
+
+M6                   0.0023                         --- 
+
+M7                        0                       0.0041
+

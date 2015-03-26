@@ -1,0 +1,16 @@
+pedigree
+{
+  delimiters = " "
+  delimiter_mode = multiple
+  individual_id = id
+  marker = M1
+  marker = M2
+  marker = M3
+  trait = x
+  trait = y
+  trait = z
+}
+
+function,list=markers { trait=dom,expression="dominant($name$, 'A')" }
+function,list=traits { trait=squared,expression="$name$ * $name$" }
+function,list=foo 

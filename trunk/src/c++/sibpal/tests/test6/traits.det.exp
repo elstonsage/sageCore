@@ -1,0 +1,213 @@
+
+
+
+=====================================================================================
+  Haseman-Elston Regression Analysis of Full Sibs
+  - single marker regression
+=====================================================================================
+
+    Continuous trait : Square Root DBH
+
+    Dependent variate : Weighted square trait sum and difference (W3)
+
+    w1 : 0.5
+
+    Other options used :
+      Identity weights = no
+      Robust variance  = no
+      Use sibship mean = no
+      Use BLUP mean    = yes
+
+    Legend :
+      Note - kurtosis = coefficient of kurtosis - 3
+      *   - significance  .05 level;
+      **  - significance  .01 level;
+      *** - significance .001 level;
+      #   - Negative intercept set to 0;
+
+=====================================================================================
+Test 1
+=====================================================================================
+-----
+Model
+-----
+
+Square Root DBH ~ Intercept + abo(A+D) + e
+
+------
+Sample
+------
+
+Number of all sibs            =  359
+Number of sibs used           =  358
+Number of full sib pairs      =  567
+
+-----
+Trait
+-----
+
+Sample mean                   =    5.1547
+Sample variance               =    3.0026
+Sample skewness               =   -0.2380
+Sample kurtosis               =   -0.1596
+Pairwise full sib correlation =    0.4855
+Intra sibship correlation     =    0.4951
+
+-----------------
+Dependent variate
+-----------------
+
+Correlation between pairs with no sibs in common =    0.0766
+Correlation between pairs with one sib in common =    0.0766
+sibship size 2 : w = 0.626343, 1-w = 0.373657
+sibship size 3 : w = 0.622873, 1-w = 0.377127
+sibship size 4 : w = 0.62227, 1-w = 0.37773
+sibship size 5 : w = 0.622232, 1-w = 0.377768
+sibship size 6 : w = 0.6223, 1-w = 0.3777
+sibship size 7 : w = 0.622379, 1-w = 0.377621
+sibship size 8 : w = 0.622445, 1-w = 0.377555
+sibship size 9 : w = 0.622498, 1-w = 0.377502
+
+Correlation between squared difference
+                and squared mean corrected sum   =    0.0917
+
+----------
+Regression
+----------
+
+                  before intercept is set           # after intercept is set
+                  -----------------------------     -----------------------------
+                   Estimate Std Error   P-value      Estimate Std Error   P-value     
+----------------- --------- --------- ---------     --------- --------- ---------     
+Intercept           -0.6951                            0.0000
+abo                  1.2164    0.2521 0.0000008 ***    1.2160    0.2521 0.0000009 *** 
+
+Total variance       1.5108                            1.5108
+Residual variance    1.4536                            1.4537
+Residual skewness    1.1363                            1.1363
+Residual kurtosis    7.9272                            7.9277
+=====================================================================================
+Test 2
+=====================================================================================
+-----
+Model
+-----
+
+Square Root DBH ~ Intercept + ak1(A+D) + e
+
+------
+Sample
+------
+
+Number of all sibs            =  359
+Number of sibs used           =  358
+Number of full sib pairs      =  567
+
+-----
+Trait
+-----
+
+Sample mean                   =    5.1547
+Sample variance               =    3.0026
+Sample skewness               =   -0.2380
+Sample kurtosis               =   -0.1596
+Pairwise full sib correlation =    0.4855
+Intra sibship correlation     =    0.4951
+
+-----------------
+Dependent variate
+-----------------
+
+Correlation between pairs with no sibs in common =    0.0773
+Correlation between pairs with one sib in common =    0.0773
+sibship size 2 : w = 0.628863, 1-w = 0.371137
+sibship size 3 : w = 0.625959, 1-w = 0.374041
+sibship size 4 : w = 0.625267, 1-w = 0.374733
+sibship size 5 : w = 0.62511, 1-w = 0.37489
+sibship size 6 : w = 0.62509, 1-w = 0.37491
+sibship size 7 : w = 0.625107, 1-w = 0.374893
+sibship size 8 : w = 0.625131, 1-w = 0.374869
+sibship size 9 : w = 0.625155, 1-w = 0.374845
+
+Correlation between squared difference
+                and squared mean corrected sum   =    0.0917
+
+----------
+Regression
+----------
+
+                  before intercept is set           # after intercept is set
+                  -----------------------------     -----------------------------
+                   Estimate Std Error   P-value      Estimate Std Error   P-value     
+----------------- --------- --------- ---------     --------- --------- ---------     
+Intercept           -2.8406                            0.0000
+ak1                  5.5639    1.6210 0.0003210 ***    5.6019    1.6205 0.0002936 *** 
+
+Total variance       1.4814                            1.4814
+Residual variance    1.4534                            1.4533
+Residual skewness    1.1933                            1.1930
+Residual kurtosis    8.7356                            8.7341
+=====================================================================================
+Test 3
+=====================================================================================
+-----
+Model
+-----
+
+Square Root DBH ~ Intercept + orm(A+D) + e
+
+------
+Sample
+------
+
+Number of all sibs            =  359
+Number of sibs used           =  358
+Number of full sib pairs      =  567
+
+-----
+Trait
+-----
+
+Sample mean                   =    5.1547
+Sample variance               =    3.0026
+Sample skewness               =   -0.2380
+Sample kurtosis               =   -0.1596
+Pairwise full sib correlation =    0.4855
+Intra sibship correlation     =    0.4951
+
+-----------------
+Dependent variate
+-----------------
+
+Correlation between pairs with no sibs in common =    0.0773
+Correlation between pairs with one sib in common =    0.0773
+sibship size 2 : w = 0.629044, 1-w = 0.370956
+sibship size 3 : w = 0.626578, 1-w = 0.373422
+sibship size 4 : w = 0.625871, 1-w = 0.374129
+sibship size 5 : w = 0.625646, 1-w = 0.374354
+sibship size 6 : w = 0.625564, 1-w = 0.374436
+sibship size 7 : w = 0.625531, 1-w = 0.374469
+sibship size 8 : w = 0.625517, 1-w = 0.374483
+sibship size 9 : w = 0.625512, 1-w = 0.374488
+
+Correlation between squared difference
+                and squared mean corrected sum   =    0.0917
+
+----------
+Regression
+----------
+
+                  before intercept is set           # after intercept is set
+                  -----------------------------     -----------------------------
+                   Estimate Std Error   P-value      Estimate Std Error   P-value     
+----------------- --------- --------- ---------     --------- --------- ---------     
+Intercept           -0.0152                            0.0000
+orm                 -0.1346    0.2715 0.6898631       -0.1232    0.2713 0.6750189     
+
+Total variance       1.4578                            1.4578
+Residual variance    1.4594                            1.4598
+Residual skewness    1.1840                            1.1848
+Residual kurtosis    8.5846                            8.5897
+=====================================================================================
+
+

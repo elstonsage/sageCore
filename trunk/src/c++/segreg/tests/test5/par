@@ -1,0 +1,104 @@
+pedigree
+{
+  pedigree_id=PID
+  individual_id=ID
+  sex_field=SEX
+  parent_id=P1
+  parent_id=P2
+  trait=DISEASE, binary, affected=1, unaffected=0
+  trait=HEMATOCRIT
+  trait=t
+  trait=u
+  trait=v
+  trait=w
+  trait=x
+  trait=y
+  trait=z
+}
+
+segreg_analysis
+{
+  trait = hematocrit
+  
+  transformation
+  {
+    option=george_elston
+    lambda1, val=2.7, lower_bound=1, upper_bound=73.7
+    lambda2, val=-5.2, fixed=true
+  }
+
+  type_mean
+  {
+    option=three
+    mean=AA, val=2.7
+    mean=AB, val=-5.2, fixed=true
+    mean=BB, val=0
+  }
+
+  type_var
+  {
+    option=three
+    var="AA", val=2.7, fixed = true
+    var="B*", val=6
+  }
+
+  resid
+  {
+    option=arb
+    fm, val=.2
+    mo, val=.3
+    fo, val=.4
+    ss, val=.5
+  }
+
+  geno_freq
+  {
+    option=nhwe
+    probs_fixed=true
+    prob=AA, val=.1
+    prob=AB, val=.2
+  }
+
+  composite_trait
+  {
+    covariate=t, val=.6, fixed=true
+    covariate=u, val=.7, fixed=false
+  }
+
+  mean_cov
+  {
+    covariate=v, val=23.1
+  }
+  
+  var_cov
+  {
+    covariate=w, val=.6666  #, interaction=true
+  }
+
+  #suscept_cov
+  #{
+   # covariate=x
+  #}
+
+  transmission
+  {
+    option = general
+    tau=AA, val = .2
+    tau=AB, val = .3
+    tau=BB, val = .4
+  }
+  
+  ascertainment
+  {
+    cond_set=psf
+    psf_indic=v
+    psf_indic_include = 2
+    psf_indic_include = 2
+    psf_indic_include = 3
+    psf_indic_include = 4
+    cond_val=thresh_indic
+    thresh_indic=u, thresh = 3.75
+  }
+}
+
+  

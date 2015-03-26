@@ -1,0 +1,23 @@
+
+
+
+Reading Parameter File....................done.
+Reading Pedigree File.....................
+              from data3.ped..............done.
+Sorting Pedigrees.........................done.
+
+FCOR analysis........  1
+
+Computing main type correlations..........done.
+Computing standard errors.................done.
+
+Peforming homogeneity test................done.
+Writing output files......................done.
+
+Computing variance-covariance matrices....done.
+Writing output files......................done.
+
+Analysis complete!
+
+
+

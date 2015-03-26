@@ -1,0 +1,46 @@
+=======================================================================================================
+  SEGREG Analysis for Trait : sqrtdbh
+=======================================================================================================
+  # Model Specification  
+
+      Model Class A
+      genotype specific mean sub-model     : three genotype specific means
+      genotype specific variance sub-model : one genotype specific variance
+      genotype frequency sub-model         : Hardy-Weinberg equilibrium
+      residual correlation sub-model       : no spouse correlation,
+                                             parent-offspring and sib-sib correlations equal
+      transmission sub-model               : no transmission
+      transformation sub-model             : Box-Cox
+
+  # Number of Pedigrees : 0
+
+  # Final Estimates : 
+
+  Parameter           Parameter Est.  Standard Err.   First Deriv.   Status
+-------------------------------------------------------------------------------------------------------
+  mean_AA              5.14077507      INF.            0.00365364     IND, MAY VARY
+  mean_AB              2.24609254      1.74249851      1.53342337     IND, MAY VARY
+  mean_BB              5.27667907      0.39675182      2.45618385     IND, MAY VARY
+  variance             2.11379927      0.71699053     -2.40739602     IND, MAY VARY
+  prob_AA              0.00132473      0.00570701                     DEPENDENT
+  prob_AB              0.07014411      0.14538151                     DEPENDENT
+  prob_BB              0.92853117      0.15108852                     DEPENDENT
+  freq_A               0.03639678      0.07839776     -4.05578220     IND-FN, MAY VARY
+  genotypic corr.      0.00000000      0.00000000                     FIXED EXTERNALLY
+  spousal resid c      0.00000000      0.00000000                     FIXED EXTERNALLY
+  po ss resid cor      0.00000000      0.00000000                     FIXED EXTERNALLY
+  lambda_one           1.00000000      0.00000000                     FIXED EXTERNALLY
+  lambda_two           0.00000000      0.00000000                     FIXED EXTERNALLY
+  cov1                 0.54792433      0.24148131     -0.24789560     IND, MAY VARY
+  cov2                -0.49867016      0.11388297     -15.0124846     IND, MAY VARY
+  cov3                -0.27813269      0.24808244     -8.84836413     IND, MAY VARY
+-------------------------------------------------------------------------------------------------------
+
+
+        LN(Likelihood) : -945.183
+     -2 LN(Likelihood) : 1890.37
+=======================================================================================================
+
+Final Error Code: 8
+
+

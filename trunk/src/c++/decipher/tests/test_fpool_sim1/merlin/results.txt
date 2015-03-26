@@ -1,0 +1,1 @@
+new_fugue.out If = 0.997

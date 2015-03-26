@@ -1,0 +1,62 @@
+
+
+
+
+Family structure information on the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       SEX       PARENT1       PARENT2     
+     ------------  ------------  --------  ------------  ------------
+     1             1             m         -1            -1          
+     1             2             f         -1            -1          
+     1             3             m         1             2           
+     1             4             m         1             2           
+     1             5             f         1             2           
+     1             6             f         -1            -1          
+     1             7             m         4             6           
+     1             8             f         4             6           
+     2             1             m         -1            -1          
+     2             2             f         -1            -1          
+
+
+Phenotypes for the first 10 individuals read from file: ped
+
+     PED. ID       IND. ID       SEX_CODE              FAMILIAL_INDICATOR    FOUNDER_INDICATOR     PEDIGREE_SIZE         AFF                 
+     ------------  ------------  --------------------  --------------------  --------------------  --------------------  --------------------
+     1             1             0                     1                     1                     8                     0                   
+     1             2             1                     1                     1                     8                     0                   
+     1             3             0                     1                     0                     8                     0                   
+     1             4             0                     1                     0                     8                     0                   
+     1             5             1                     1                     0                     8                     1                   
+     1             6             1                     1                     1                     8                     0                   
+     1             7             0                     1                     0                     8                     0                   
+     1             8             1                     1                     0                     8                     0                   
+     2             1             0                     1                     1                     8                     0                   
+     2             2             1                     1                     1                     8                     0                   
+
+
+New phenotypes for individuals created by function block(s) :
+
+     PED. ID       IND. ID       m                   
+     ------------  ------------  --------------------
+     1             1             1                   
+     1             2             1                   
+     1             3             0                   
+     1             4             0                   
+     1             5             2                   
+     1             6             0                   
+     1             7             0                   
+     1             8             0                   
+     2             1             0                   
+     2             2             1                   
+
+
+Beginning new analysis block....
+
+%ASSOC-E: Transformation not allowed for binary dependent trait. Omitting
+          transformation ...
+%ASSOC-I: Variance of Sibling effect converged to 1e-007 for non-test
+          maximization of model 'marker'.  Remaximizing without Sibling effect
+          ...
+%ASSOC-I: Variance of Family effect converged to 1e-007 for non-test
+          maximization of model 'marker'.  Remaximizing without Family effect
+          ...

@@ -1,0 +1,52 @@
+
+
+
+Reading Parameter File....................done.
+Reading Marker Locus Description File.....done.
+Reading Pedigree File.....................
+              from ped....................done.
+Sorting Pedigrees.........................done.
+
+Parsing DECIPHER analyses ...
+
+
+Parsing new analysis block ...
+
+
+Parsing of Analysis 1 complete.  Analysis valid.
+------------------------------------------------------------------------------
+
+  Performing analysis: Analysis 1
+  ===========================================================================
+
+
+  Region -- one
+
+  Determining blocks via linkage disequilibrium ..................... done.
+  LD block 1 of 1.
+    Total population. 
+      Determining possible haplotype combinations ................... done.
+      Maximizing likelihood ......................................... done. 
+
+  Region -- two
+
+  Determining blocks via linkage disequilibrium ..................... done.
+  LD block 1 of 3.
+    Total population. 
+      Determining possible haplotype combinations ................... done.
+      Maximizing likelihood ......................................... done. 
+
+  LD block 2 of 3.
+    Total population. 
+      Determining possible haplotype combinations ................... done.
+      Maximizing likelihood ......................................... done. 
+
+  LD block 3 of 3.
+    Total population. 
+      Determining possible haplotype combinations ................... done.
+      Maximizing likelihood ......................................... done. 
+
+  ===========================================================================
+
+
+

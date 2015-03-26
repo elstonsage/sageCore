@@ -1,0 +1,36 @@
+
+Reading Parameter File....................done.
+Reading Pedigree File.....................
+              from ped....................done.
+Sorting Pedigrees.........................done.
+Reading Genome Description File...........done.
+
+Parsing DECIPHER analyses ...
+
+
+Parsing new analysis block ...
+
+
+Parsing of Analysis 1 complete.  Analysis valid.
+------------------------------------------------------------------------------
+
+  Performing analysis: Analysis 1
+  ===========================================================================
+
+    Subpopulation: 1 / A
+      Determining possible haplotype combinations ................... done.
+      Maximizing likelihood ......................................... done. 
+    Subpopulation: 1 / B
+      Determining possible haplotype combinations ................... done.
+      Maximizing likelihood ......................................... done. 
+    Doing likelihood ratio test(s) .................................. done.
+    Subpopulation: 2 / A
+      Determining possible haplotype combinations ................... done.
+      Maximizing likelihood ......................................... done. 
+    Subpopulation: 2 / B
+      Determining possible haplotype combinations ................... done.
+      Maximizing likelihood ......................................... done. 
+    Doing likelihood ratio test(s) .................................. done.
+
+  ===========================================================================
+

@@ -1,0 +1,175 @@
+
+
+
+====================================================================================
+  Two-Level Haseman-Elston Regression Analysis for General Pedigree 
+
+  - Second (Pedigree) Level Score Tests Detailed Output
+====================================================================================
+
+  Trait :  alc, Binary, affected = '1' , unaffected = '3'
+
+  Legend :
+    *   - significance  .05 level
+    **  - significance  .01 level
+    *** - significance .001 level
+
+    nai - naive variance
+    sdw - robust sandwich variance
+    alt - alternative variance
+    ibd - allele sharing variance
+
+    #   - The number of pedigrees is too small for this result to be
+          reliable when analyzing this number of traits.
+
+  Empirical p-value options used :
+    seed = 100
+    min replicates = 20
+    max replicates = 10000
+
+====================================================================================
+Test 1
+====================================================================================
+-----
+Model
+-----
+
+H0: alc ~ [Intercept + test] + POLYGENIC_EFF + RANDOM_EFF
+H1: alc ~ [Intercept + test] + D3S1297 + POLYGENIC_EFF + RANDOM_EFF
+
+------------
+Sample Count
+------------
+
+Number of individuals used at first level     = 25
+Number of relative pairs used at second level = 75
+
+-----------------
+Estimates from H0
+-----------------
+
+Test                                                         Nominal    
+Variable                      Estimate  Variance   Chi-sq.   P-value    
+------------------------- ------------ --------- --------- ---------    
+test                           -0.0047    0.0044    0.0050 0.9435281    
+
+-----------------
+Estimates from H1
+-----------------
+
+Test                                                         Nominal    
+Variable                      Estimate  Variance   Chi-sq.   P-value    
+------------------------- ------------ --------- --------- ---------    
+test                            0.1698    0.0001  519.6762 0.0000000 ***
+D3S1297                         0.1362    0.0075    2.4668 0.0581364    
+
+------------------
+Score Test Results
+------------------
+
+Test                                Unadjusted   Adjusted Empirical     Number of 
+Variable                     cM Var    T-value    T-value   P-value     Replicates
+------------------------- ----- --- ---------- ---------- ---------     ----------
+D3S1297                     0.0 nai     3.1415     3.1415 0.0348723 *          116
+                                sdw     2.9745     2.9745 0.0386478 *          116
+                                alt    30.3850    30.3850 0.0000000 ***      10000
+                                ibd     2.8947     2.8947 0.0406045 *          116
+
+====================================================================================
+Test 2
+====================================================================================
+-----
+Model
+-----
+
+H0: alc ~ [Intercept + test] + POLYGENIC_EFF + RANDOM_EFF
+H1: alc ~ [Intercept + test] + D3S1304 + POLYGENIC_EFF + RANDOM_EFF
+
+------------
+Sample Count
+------------
+
+Number of individuals used at first level     = 25
+Number of relative pairs used at second level = 75
+
+-----------------
+Estimates from H0
+-----------------
+
+Test                                                         Nominal    
+Variable                      Estimate  Variance   Chi-sq.   P-value    
+------------------------- ------------ --------- --------- ---------    
+test                           -0.0047   -0.0000   -0.7600 ---------    
+
+-----------------
+Estimates from H1
+-----------------
+
+Test                                                         Nominal    
+Variable                      Estimate  Variance   Chi-sq.   P-value    
+------------------------- ------------ --------- --------- ---------    
+test                            0.1204    0.0024    6.0145 0.0141885 *  
+D3S1304                         0.0537    0.0046    0.6208 0.2153698    
+
+------------------
+Score Test Results
+------------------
+
+Test                                Unadjusted   Adjusted Empirical     Number of 
+Variable                     cM Var    T-value    T-value   P-value     Replicates
+------------------------- ----- --- ---------- ---------- ---------     ----------
+D3S1304                    13.3 nai     2.1782     2.1782 0.0639559            116
+                                sdw     3.1650     3.1650 0.0343744 *          116
+                                alt    13.0262    13.0262 0.0001403 ***        116
+                                ibd     0.8128     0.8128 0.1678085            116
+
+====================================================================================
+Test 3
+====================================================================================
+-----
+Model
+-----
+
+H0: alc ~ [Intercept + test] + POLYGENIC_EFF + RANDOM_EFF
+H1: alc ~ [Intercept + test] + D3S1263 + POLYGENIC_EFF + RANDOM_EFF
+
+------------
+Sample Count
+------------
+
+Number of individuals used at first level     = 25
+Number of relative pairs used at second level = 75
+
+-----------------
+Estimates from H0
+-----------------
+
+Test                                                         Nominal    
+Variable                      Estimate  Variance   Chi-sq.   P-value    
+------------------------- ------------ --------- --------- ---------    
+test                           -0.0047   -0.0000   -0.7600 ---------    
+
+-----------------
+Estimates from H1
+-----------------
+
+Test                                                         Nominal    
+Variable                      Estimate  Variance   Chi-sq.   P-value    
+------------------------- ------------ --------- --------- ---------    
+test                            0.1197    0.0024    6.0314 0.0140537 *  
+D3S1263                         0.0857    0.0088    0.8311 0.1809733    
+
+------------------
+Score Test Results
+------------------
+
+Test                                Unadjusted   Adjusted Empirical     Number of 
+Variable                     cM Var    T-value    T-value   P-value     Replicates
+------------------------- ----- --- ---------- ---------- ---------     ----------
+D3S1263                    27.1 nai     1.4492     1.4492 0.1044710            116
+                                sdw     3.2393     3.2393 0.0328462 *          116
+                                alt     5.6678     5.6678 0.0078946 **         116
+                                ibd     0.2405     0.2405 0.2850384            116
+
+====================================================================================
+

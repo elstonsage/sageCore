@@ -1,0 +1,119 @@
+=================
+
+     Results
+
+=================
+
+Note: P-values for variance components and proportions are one-sided.  All others are two-sided.
+The null hypothesis for transformation parameters is 'no transformation.'
+
+
+==============================
+     Analysis description
+==============================
+
+  Title                        analysis1                     
+  Primary Trait                logsbp (Quantitative)         
+  Allow averaging              Disabled                      
+  Omit complete summary table  Disabled                      
+  Summary table display order  By LRT p-value                
+  Summary filter               Show no more than 10 results  
+
+======================================
+     Transformation configuration
+======================================
+
+  Method                George-Elston  
+  Lambda1 is estimated                 
+  Lambda2 is fixed at    0.000000      
+
+  Apply transformation to each side of the regression equation separately.
+
+==========================
+
+     Model 'Baseline'
+
+==========================
+
+============================
+     Sample description
+============================
+
+  Number of individuals in dataset                                   4644  
+  Number of constituent pedigrees in dataset                          438  
+  Number of singletons in dataset                                    1188  
+                                                                           
+  Number of constituent pedigree members with complete information   2209  
+  Number of singletons with complete information                      634  
+                                                                           
+
+====================
+     Covariates
+====================
+
+-----------------------------------------------------------
+  Name      Mean        Std. dev.   Min        Max         
+-----------------------------------------------------------
+  AGE        42.295859   17.271389   9.518072   90.980285  
+  SEX_CODE    0.507914    0.499937   0.000000    1.000000  
+
+===============================================================
+     MAXIMIZATION RESULTS Baseline without test covariates
+===============================================================
+
+------------------------------------------------------------------------------
+  Parameter                  Estimate   S.E.       P-value     Deriv          
+------------------------------------------------------------------------------
+  Variance components
+                     Random   0.004096   0.001385   0.003098    0.1088756273  
+                  Polygenic   0.005480   0.000709  < 1.00e-07   0.1946744725  
+                    Marital   0.001390   0.000551   0.005872    0.0067844983  
+
+  Other parameters
+             Total variance   0.010966   0.000586  < 1.00e-07  -0.0010746435  
+               Heritability   0.499731   0.069372  < 1.00e-07   0.0000172633  
+
+  Residual familial correlations
+         Res full sibs corr   0.249866   0.034686  < 1.00e-07   0.0000000000  
+         Res half sibs corr   0.124933   0.017343  < 1.00e-07   0.0000000000  
+  Res parent offspring corr   0.249866   0.034686  < 1.00e-07   0.0000000000  
+   Res marital(spouse) corr   0.126718   0.055904   0.023408    0.0000000000  
+
+  Environmental intraclass correlations
+   Env marital(spouse) corr   0.253301   0.136403   0.063311    0.0000000000  
+
+                  Intercept   4.819019   0.002607  < 1.00e-07   0.0000000000  
+
+  Covariates
+                        AGE   0.003738   0.000118  < 1.00e-07   0.0000000000  
+                   SEX_CODE  -0.044258   0.003966  < 1.00e-07   0.0000000000  
+
+  Transformation
+                    Lambda1  -1.000000           Ind. fixed @ bound           
+                    Lambda2   0.000000                 Fixed                  
+------------------------------------------------------------------------------
+
+Final ln likelihood: -26689.410639
+
+=====================================================================
+     VARIANCE-COVARIANCE MATRIX Baseline without test covariates
+=====================================================================
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                             Random     Polygenic  Marital    Total variance  Heritability  Res full sibs corr  Res half sibs corr  Res parent offspring corr  Res marital(spouse) corr  Env marital(spouse) corr  Intercept  AGE        SEX_CODE   Lambda1    
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  Random                      1.92e-06  -6.25e-07  -6.98e-07   5.95e-07       -8.41e-05     -4.21e-05           -2.10e-05           -4.21e-05                  -7.05e-05                 -0.000184                 -2.00e-07   1.03e-08  -2.99e-07   0.000000  
+  Polygenic                  -6.25e-07   5.02e-07   1.32e-07   9.31e-09        4.54e-05      2.27e-05            1.13e-05            2.27e-05                   1.20e-05                  4.71e-05                  4.55e-08  -9.57e-09   2.39e-08   0.000000  
+  Marital                    -6.98e-07   1.32e-07   3.04e-07  -2.61e-07        2.40e-05      1.20e-05            5.99e-06            1.20e-05                   3.08e-05                  7.38e-05                  8.24e-08  -1.29e-09   1.42e-07   0.000000  
+  Total variance              5.95e-07   9.31e-09  -2.61e-07   3.43e-07       -1.48e-05     -7.40e-06           -3.70e-06           -7.40e-06                  -2.78e-05                 -6.32e-05                 -7.19e-08  -5.57e-10  -1.34e-07   0.000000  
+  Heritability               -8.41e-05   4.54e-05   2.40e-05  -1.48e-05        0.004813      0.002406            0.001203            0.002406                   0.002357                  0.007174                  7.42e-06  -8.48e-07   8.28e-06   0.000000  
+  Res full sibs corr         -4.21e-05   2.27e-05   1.20e-05  -7.40e-06        0.002406      0.001203            0.000602            0.001203                   0.001178                  0.003587                  3.71e-06  -4.24e-07   4.14e-06   0.000000  
+  Res half sibs corr         -2.10e-05   1.13e-05   5.99e-06  -3.70e-06        0.001203      0.000602            0.000301            0.000602                   0.000589                  0.001793                  1.86e-06  -2.12e-07   2.07e-06   0.000000  
+  Res parent offspring corr  -4.21e-05   2.27e-05   1.20e-05  -7.40e-06        0.002406      0.001203            0.000602            0.001203                   0.001178                  0.003587                  3.71e-06  -4.24e-07   4.14e-06   0.000000  
+  Res marital(spouse) corr   -7.05e-05   1.20e-05   3.08e-05  -2.78e-05        0.002357      0.001178            0.000589            0.001178                   0.003125                  0.007462                  8.34e-06  -1.11e-07   1.45e-05   0.000000  
+  Env marital(spouse) corr   -0.000184   4.71e-05   7.38e-05  -6.32e-05        0.007174      0.003587            0.001793            0.003587                   0.007462                  0.018606                  2.05e-05  -6.55e-07   3.32e-05   0.000000  
+  Intercept                  -2.00e-07   4.55e-08   8.24e-08  -7.19e-08        7.42e-06      3.71e-06            1.86e-06            3.71e-06                   8.34e-06                  2.05e-05                  6.80e-06  -1.91e-08  -1.46e-07   0.000000  
+  AGE                         1.03e-08  -9.57e-09  -1.29e-09  -5.57e-10       -8.48e-07     -4.24e-07           -2.12e-07           -4.24e-07                  -1.11e-07                 -6.55e-07                 -1.91e-08   1.40e-08   2.05e-09   0.000000  
+  SEX_CODE                   -2.99e-07   2.39e-08   1.42e-07  -1.34e-07        8.28e-06      4.14e-06            2.07e-06            4.14e-06                   1.45e-05                  3.32e-05                 -1.46e-07   2.05e-09   1.57e-05   0.000000  
+  Lambda1                     0.000000   0.000000   0.000000   0.000000        0.000000      0.000000            0.000000            0.000000                   0.000000                  0.000000                  0.000000   0.000000   0.000000   0.000000  
+

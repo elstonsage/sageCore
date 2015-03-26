@@ -1,0 +1,489 @@
+Loading parameters..............done.
+About to allocate multi-pedigree
+About to read pedigree
+Reading pedigrees...............
+Family structure information on the first 10 individuals read from file: 
+
+     PED. ID       IND. ID       SEX       PARENT1       PARENT2     
+     ------------  ------------  --------  ------------  ------------
+     1             0001          1         0             0           
+     1             0002          2         0             0           
+     1             0003          1         0             0           
+     1             0004          2         0             0           
+     1             0005          2         0001          0002        
+     1             0007          2         0001          0002        
+     1             0008          1         0003          0004        
+     1             0009          2         0003          0004        
+     1             0010          1         0             0           
+     1             0011          1         0003          0004        
+
+
+Phenotypes for the first 10 individuals read from file: 
+
+     PED. ID       IND. ID       SEX_CODE              FAMILIAL_INDICATOR    FOUNDER_INDICATOR     PEDIGREE_SIZE         sqrtdbh             
+     ------------  ------------  --------------------  --------------------  --------------------  --------------------  --------------------
+     1             0001          0                     1                     1                     93                    -1                  
+     1             0002          1                     1                     1                     93                    -1                  
+     1             0003          0                     1                     1                     93                    -1                  
+     1             0004          1                     1                     1                     93                    -1                  
+     1             0005          1                     1                     0                     93                    1.56525             
+     1             0007          1                     1                     0                     93                    -1                  
+     1             0008          0                     1                     0                     93                    -1                  
+     1             0009          1                     1                     0                     93                    2.59422             
+     1             0010          0                     1                     1                     93                    3.34365             
+     1             0011          0                     1                     0                     93                    -1                  
+
+done.
+
+#########  PEDIGREE: 1  #########
+
+
+        TOTALS FOR EACH PAIR TYPE
+
+Pair Type                          Count
+---------                       --------
+PARENTAL                             150
+SIBSIB                               208
+SISSIS                                23
+BROBRO                                81
+BROSIS                               104
+GRANDP                               150
+AVUNC                                428
+HALFSIB                                0
+COUSIN                               516
+                                ========
+    GRAND TOTAL                     1660
+
+    CHECK TOTAL                     1660
+
+
+Totals are consistent for all combinations.
+
+                         Trait: sqrtdbh   Type: continuous   mean: 4.24989
+
+                 CONCORD_UNAFF        DISCORD    CONCORD_AFF       UNINFORM         Totals
+                 -------------        -------    -----------       --------         ------
+PARENTAL                    15             28             22             85            150
+SIBSIB                      16             48             27            117            208
+SISSIS                       7              0              3             13             23
+BROBRO                       3             14             19             45             81
+BROSIS                       6             34              5             59            104
+GRANDP                       2              0              0            148            150
+AVUNC                       52             73             20            283            428
+HALFSIB                      0              0              0              0              0
+COUSIN                      57            123             75            261            516
+                 =============        =======    ===========       ========         ======
+Totals                     158            320            171           1011           1660
+
+
+                         Trait: SEX_CODE   Type: binary
+
+                 CONCORD_UNAFF        DISCORD    CONCORD_AFF       UNINFORM         Totals
+                 -------------        -------    -----------       --------         ------
+PARENTAL                    45             75             30              0            150
+SIBSIB                      81            104             23              0            208
+SISSIS                       0              0             23              0             23
+BROBRO                      81              0              0              0             81
+BROSIS                       0            104              0              0            104
+GRANDP                      45             75             30              0            150
+AVUNC                      155            205             68              0            428
+HALFSIB                      0              0              0              0              0
+COUSIN                     205            242             69              0            516
+                 =============        =======    ===========       ========         ======
+Totals                     612            805            243              0           1660
+
+
+                         Trait: FAMILIAL_INDICATOR   Type: binary
+
+                 CONCORD_UNAFF        DISCORD    CONCORD_AFF       UNINFORM         Totals
+                 -------------        -------    -----------       --------         ------
+PARENTAL                     0              0            150              0            150
+SIBSIB                       0              0            208              0            208
+SISSIS                       0              0             23              0             23
+BROBRO                       0              0             81              0             81
+BROSIS                       0              0            104              0            104
+GRANDP                       0              0            150              0            150
+AVUNC                        0              0            428              0            428
+HALFSIB                      0              0              0              0              0
+COUSIN                       0              0            516              0            516
+                 =============        =======    ===========       ========         ======
+Totals                       0              0           1660              0           1660
+
+
+                         Trait: FOUNDER_INDICATOR   Type: binary
+
+                 CONCORD_UNAFF        DISCORD    CONCORD_AFF       UNINFORM         Totals
+                 -------------        -------    -----------       --------         ------
+PARENTAL                    75             75              0              0            150
+SIBSIB                     208              0              0              0            208
+SISSIS                      23              0              0              0             23
+BROBRO                      81              0              0              0             81
+BROSIS                     104              0              0              0            104
+GRANDP                      67             83              0              0            150
+AVUNC                      428              0              0              0            428
+HALFSIB                      0              0              0              0              0
+COUSIN                     516              0              0              0            516
+                 =============        =======    ===========       ========         ======
+Totals                    1502            158              0              0           1660
+
+
+                         Trait: PEDIGREE_SIZE   Type: continuous   mean: 93
+
+                 CONCORD_UNAFF        DISCORD    CONCORD_AFF       UNINFORM         Totals
+                 -------------        -------    -----------       --------         ------
+PARENTAL                   150              0              0              0            150
+SIBSIB                     208              0              0              0            208
+SISSIS                      23              0              0              0             23
+BROBRO                      81              0              0              0             81
+BROSIS                     104              0              0              0            104
+GRANDP                     150              0              0              0            150
+AVUNC                      428              0              0              0            428
+HALFSIB                      0              0              0              0              0
+COUSIN                     516              0              0              0            516
+                 =============        =======    ===========       ========         ======
+Totals                    1660              0              0              0           1660
+
+
+
+#########  PEDIGREE: 3  #########
+
+
+        TOTALS FOR EACH PAIR TYPE
+
+Pair Type                          Count
+---------                       --------
+PARENTAL                             642
+SIBSIB                               781
+SISSIS                               226
+BROBRO                               155
+BROSIS                               400
+GRANDP                               640
+AVUNC                               1880
+HALFSIB                                0
+COUSIN                              3052
+                                ========
+    GRAND TOTAL                     7776
+
+    CHECK TOTAL                     7776
+
+
+Totals are consistent for all combinations.
+
+                         Trait: sqrtdbh   Type: continuous   mean: 5.57158
+
+                 CONCORD_UNAFF        DISCORD    CONCORD_AFF       UNINFORM         Totals
+                 -------------        -------    -----------       --------         ------
+PARENTAL                    71             86             82            403            642
+SIBSIB                      85             80            116            500            781
+SISSIS                      17             32             45            132            226
+BROBRO                      28              4             16            107            155
+BROSIS                      40             44             55            261            400
+GRANDP                      39             17             20            564            640
+AVUNC                       86            220            257           1317           1880
+HALFSIB                      0              0              0              0              0
+COUSIN                     149            472            514           1917           3052
+                 =============        =======    ===========       ========         ======
+Totals                     515            955           1105           5201           7776
+
+
+                         Trait: SEX_CODE   Type: binary
+
+                 CONCORD_UNAFF        DISCORD    CONCORD_AFF       UNINFORM         Totals
+                 -------------        -------    -----------       --------         ------
+PARENTAL                   149            321            172              0            642
+SIBSIB                     155            400            226              0            781
+SISSIS                       0              0            226              0            226
+BROBRO                     155              0              0              0            155
+BROSIS                       0            400              0              0            400
+GRANDP                     146            320            174              0            640
+AVUNC                      364            917            599              0           1880
+HALFSIB                      0              0              0              0              0
+COUSIN                     567           1511            974              0           3052
+                 =============        =======    ===========       ========         ======
+Totals                    1536           3869           2371              0           7776
+
+
+                         Trait: FAMILIAL_INDICATOR   Type: binary
+
+                 CONCORD_UNAFF        DISCORD    CONCORD_AFF       UNINFORM         Totals
+                 -------------        -------    -----------       --------         ------
+PARENTAL                     0              0            642              0            642
+SIBSIB                       0              0            781              0            781
+SISSIS                       0              0            226              0            226
+BROBRO                       0              0            155              0            155
+BROSIS                       0              0            400              0            400
+GRANDP                       0              0            640              0            640
+AVUNC                        0              0           1880              0           1880
+HALFSIB                      0              0              0              0              0
+COUSIN                       0              0           3052              0           3052
+                 =============        =======    ===========       ========         ======
+Totals                       0              0           7776              0           7776
+
+
+                         Trait: FOUNDER_INDICATOR   Type: binary
+
+                 CONCORD_UNAFF        DISCORD    CONCORD_AFF       UNINFORM         Totals
+                 -------------        -------    -----------       --------         ------
+PARENTAL                   320            322              0              0            642
+SIBSIB                     781              0              0              0            781
+SISSIS                     226              0              0              0            226
+BROBRO                     155              0              0              0            155
+BROSIS                     400              0              0              0            400
+GRANDP                     335            305              0              0            640
+AVUNC                     1880              0              0              0           1880
+HALFSIB                      0              0              0              0              0
+COUSIN                    3052              0              0              0           3052
+                 =============        =======    ===========       ========         ======
+Totals                    7149            627              0              0           7776
+
+
+                         Trait: PEDIGREE_SIZE   Type: continuous   mean: 395
+
+                 CONCORD_UNAFF        DISCORD    CONCORD_AFF       UNINFORM         Totals
+                 -------------        -------    -----------       --------         ------
+PARENTAL                   642              0              0              0            642
+SIBSIB                     781              0              0              0            781
+SISSIS                     226              0              0              0            226
+BROBRO                     155              0              0              0            155
+BROSIS                     400              0              0              0            400
+GRANDP                     640              0              0              0            640
+AVUNC                     1880              0              0              0           1880
+HALFSIB                      0              0              0              0              0
+COUSIN                    3052              0              0              0           3052
+                 =============        =======    ===========       ========         ======
+Totals                    7776              0              0              0           7776
+
+
+
+#########  PEDIGREE: 5  #########
+
+
+        TOTALS FOR EACH PAIR TYPE
+
+Pair Type                          Count
+---------                       --------
+PARENTAL                             138
+SIBSIB                               154
+SISSIS                                33
+BROBRO                                44
+BROSIS                                77
+GRANDP                               114
+AVUNC                                396
+HALFSIB                                0
+COUSIN                               325
+                                ========
+    GRAND TOTAL                     1281
+
+    CHECK TOTAL                     1281
+
+
+Totals are consistent for all combinations.
+
+                         Trait: sqrtdbh   Type: continuous   mean: 5.37495
+
+                 CONCORD_UNAFF        DISCORD    CONCORD_AFF       UNINFORM         Totals
+                 -------------        -------    -----------       --------         ------
+PARENTAL                    17             27             13             81            138
+SIBSIB                      22             31             12             89            154
+SISSIS                       6              5              5             17             33
+BROBRO                       8              9              1             26             44
+BROSIS                       8             17              6             46             77
+GRANDP                       7             11             10             86            114
+AVUNC                       40             76             30            250            396
+HALFSIB                      0              0              0              0              0
+COUSIN                      13             61             35            216            325
+                 =============        =======    ===========       ========         ======
+Totals                     121            237            112            811           1281
+
+
+                         Trait: SEX_CODE   Type: binary
+
+                 CONCORD_UNAFF        DISCORD    CONCORD_AFF       UNINFORM         Totals
+                 -------------        -------    -----------       --------         ------
+PARENTAL                    33             69             36              0            138
+SIBSIB                      44             77             33              0            154
+SISSIS                       0              0             33              0             33
+BROBRO                      44              0              0              0             44
+BROSIS                       0             77              0              0             77
+GRANDP                      25             57             32              0            114
+AVUNC                       84            211            101              0            396
+HALFSIB                      0              0              0              0              0
+COUSIN                      42            160            123              0            325
+                 =============        =======    ===========       ========         ======
+Totals                     272            651            358              0           1281
+
+
+                         Trait: FAMILIAL_INDICATOR   Type: binary
+
+                 CONCORD_UNAFF        DISCORD    CONCORD_AFF       UNINFORM         Totals
+                 -------------        -------    -----------       --------         ------
+PARENTAL                     0              0            138              0            138
+SIBSIB                       0              0            154              0            154
+SISSIS                       0              0             33              0             33
+BROBRO                       0              0             44              0             44
+BROSIS                       0              0             77              0             77
+GRANDP                       0              0            114              0            114
+AVUNC                        0              0            396              0            396
+HALFSIB                      0              0              0              0              0
+COUSIN                       0              0            325              0            325
+                 =============        =======    ===========       ========         ======
+Totals                       0              0           1281              0           1281
+
+
+                         Trait: FOUNDER_INDICATOR   Type: binary
+
+                 CONCORD_UNAFF        DISCORD    CONCORD_AFF       UNINFORM         Totals
+                 -------------        -------    -----------       --------         ------
+PARENTAL                    57             81              0              0            138
+SIBSIB                     154              0              0              0            154
+SISSIS                      33              0              0              0             33
+BROBRO                      44              0              0              0             44
+BROSIS                      77              0              0              0             77
+GRANDP                      34             80              0              0            114
+AVUNC                      396              0              0              0            396
+HALFSIB                      0              0              0              0              0
+COUSIN                     325              0              0              0            325
+                 =============        =======    ===========       ========         ======
+Totals                    1120            161              0              0           1281
+
+
+                         Trait: PEDIGREE_SIZE   Type: continuous   mean: 88
+
+                 CONCORD_UNAFF        DISCORD    CONCORD_AFF       UNINFORM         Totals
+                 -------------        -------    -----------       --------         ------
+PARENTAL                   138              0              0              0            138
+SIBSIB                     154              0              0              0            154
+SISSIS                      33              0              0              0             33
+BROBRO                      44              0              0              0             44
+BROSIS                      77              0              0              0             77
+GRANDP                     114              0              0              0            114
+AVUNC                      396              0              0              0            396
+HALFSIB                      0              0              0              0              0
+COUSIN                     325              0              0              0            325
+                 =============        =======    ===========       ========         ======
+Totals                    1281              0              0              0           1281
+
+
+
+#########  PEDIGREE: 9  #########
+
+
+        TOTALS FOR EACH PAIR TYPE
+
+Pair Type                          Count
+---------                       --------
+PARENTAL                             520
+SIBSIB                               446
+SISSIS                               118
+BROBRO                               124
+BROSIS                               204
+GRANDP                               496
+AVUNC                               1467
+HALFSIB                               18
+COUSIN                              2221
+                                ========
+    GRAND TOTAL                     5614
+
+    CHECK TOTAL                     5614
+
+
+Totals are consistent for all combinations.
+
+                         Trait: sqrtdbh   Type: continuous   mean: 4.68385
+
+                 CONCORD_UNAFF        DISCORD    CONCORD_AFF       UNINFORM         Totals
+                 -------------        -------    -----------       --------         ------
+PARENTAL                    54             69             52            345            520
+SIBSIB                      43             63             37            303            446
+SISSIS                      15             17             12             74            118
+BROBRO                       7             17              8             92            124
+BROSIS                      21             29             17            137            204
+GRANDP                      15             24              8            449            496
+AVUNC                      109            178            116           1064           1467
+HALFSIB                      2              3              1             12             18
+COUSIN                     214            364            204           1439           2221
+                 =============        =======    ===========       ========         ======
+Totals                     480            764            455           3915           5614
+
+
+                         Trait: SEX_CODE   Type: binary
+
+                 CONCORD_UNAFF        DISCORD    CONCORD_AFF       UNINFORM         Totals
+                 -------------        -------    -----------       --------         ------
+PARENTAL                   130            260            130              0            520
+SIBSIB                     124            204            118              0            446
+SISSIS                       0              0            118              0            118
+BROBRO                     124              0              0              0            124
+BROSIS                       0            204              0              0            204
+GRANDP                     125            248            123              0            496
+AVUNC                      360            734            373              0           1467
+HALFSIB                      6              8              4              0             18
+COUSIN                     570           1119            532              0           2221
+                 =============        =======    ===========       ========         ======
+Totals                    1439           2777           1398              0           5614
+
+
+                         Trait: FAMILIAL_INDICATOR   Type: binary
+
+                 CONCORD_UNAFF        DISCORD    CONCORD_AFF       UNINFORM         Totals
+                 -------------        -------    -----------       --------         ------
+PARENTAL                     0              0            520              0            520
+SIBSIB                       0              0            446              0            446
+SISSIS                       0              0            118              0            118
+BROBRO                       0              0            124              0            124
+BROSIS                       0              0            204              0            204
+GRANDP                       0              0            496              0            496
+AVUNC                        0              0           1467              0           1467
+HALFSIB                      0              0             18              0             18
+COUSIN                       0              0           2221              0           2221
+                 =============        =======    ===========       ========         ======
+Totals                       0              0           5614              0           5614
+
+
+                         Trait: FOUNDER_INDICATOR   Type: binary
+
+                 CONCORD_UNAFF        DISCORD    CONCORD_AFF       UNINFORM         Totals
+                 -------------        -------    -----------       --------         ------
+PARENTAL                   248            272              0              0            520
+SIBSIB                     446              0              0              0            446
+SISSIS                     118              0              0              0            118
+BROBRO                     124              0              0              0            124
+BROSIS                     204              0              0              0            204
+GRANDP                     180            316              0              0            496
+AVUNC                     1467              0              0              0           1467
+HALFSIB                     18              0              0              0             18
+COUSIN                    2221              0              0              0           2221
+                 =============        =======    ===========       ========         ======
+Totals                    5026            588              0              0           5614
+
+
+                         Trait: PEDIGREE_SIZE   Type: continuous   mean: 347
+
+                 CONCORD_UNAFF        DISCORD    CONCORD_AFF       UNINFORM         Totals
+                 -------------        -------    -----------       --------         ------
+PARENTAL                   520              0              0              0            520
+SIBSIB                     446              0              0              0            446
+SISSIS                     118              0              0              0            118
+BROBRO                     124              0              0              0            124
+BROSIS                     204              0              0              0            204
+GRANDP                     496              0              0              0            496
+AVUNC                     1467              0              0              0           1467
+HALFSIB                     18              0              0              0             18
+COUSIN                    2221              0              0              0           2221
+                 =============        =======    ===========       ========         ======
+Totals                    5614              0              0              0           5614
+
+
+        TOTALS OVER ALL PEDIGREES
+
+Pair Type                          Count
+---------                       --------
+PARENTAL                            1450
+SIBSIB                              1589
+SISSIS                               400
+BROBRO                               404
+BROSIS                               785
+GRANDP                              1400
+AVUNC                               4171
+HALFSIB                               18
+COUSIN                              6114

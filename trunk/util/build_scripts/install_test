@@ -1,0 +1,61 @@
+#!/usr/local/bin/python
+
+import os
+import sys
+import time
+import smtplib
+import common
+
+os_install_info = { "Linux_ix86"    : (1, 'linux', 'i386-linux-gcc'),
+                    "Linux_x86_64"  : (0, '', ''),
+                    "Linux_ia64"    : (0, '', ''),
+                    "CYGWIN_NT-5.1" : (0, '', ''),
+                    "Darwin_ppc"    : (0, '', ''),
+                    "Darwin_ix86"   : (0, '', ''),
+                    "SunOS"         : (0, '', '')}
+
+# Installs the files as new volatiles
+def install_files():
+    loc         = "sage-" + time.strftime("%Y.%m.%d", time.localtime(time.time()))
+    base_dir    = '/home/appl/sage/'                  + \
+                  os_install_info[common.get_os()][1] + \
+                  '/volatile/'
+    install_dir = base_dir + loc
+    latest_dir  = base_dir + 'latest'
+                  
+    src_dir = os_install_info[common.get_os()][2]
+
+    os.system('mkdir ' + install_dir)
+
+    # Copy the files into the install directory:
+    os.system('cp ' + src_dir + "/* " + install_dir)
+
+    # Make these the 'latest' volatiles by sticking them in 'latest', prepended with 'v_':
+    os.system('ls ' + install_dir + ' | xargs -i cp ' + install_dir + '/{} ' + latest_dir + '/v_{}')
+    
+if __name__ == '__main__':
+
+  print
+  print "S.A.G.E. 6.x Installation Test"
+  print
+
+  os.chdir('../../src/c++')
+
+  os.system("printf \"  Installing binaries in release directory...\"")
+
+  os.system('make install 2>&1 >/dev/null 2>/dev/null')
+
+  print "...Done."
+
+  os.chdir('../../release')
+
+  test = os.system('./link_test')
+
+  if test == 0 :
+  
+    #if os_install_info[common.get_os()][0] != 0 :
+    #  install_files()
+
+    os.chdir('../../')
+
+  sys.exit(test)
