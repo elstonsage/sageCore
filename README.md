@@ -1,4 +1,4 @@
-S.A.G.E. (Statistical Analysis for Genetic Epidemiology) is free software package containing programs for use in the genetic analysis of family, pedigree and individual data.
+S.A.G.E. (Statistical Analysis for Genetic Epidemiology) is a free software package containing programs for use in the genetic analysis of family, pedigree and individual data.
 
 S.A.G.E. is a collection of freely available C++ programs that perform a wide variety of genetic analyses on both family data and data on unrelated individuals. The range of functionality includes tools for
 
